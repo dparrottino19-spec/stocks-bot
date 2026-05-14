@@ -26,7 +26,8 @@ body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
 .pill.weekly { background:var(--pill-w); }
 .pill.daily { background:var(--pill-d); }
 .rules-bar { background:var(--card); border:1px solid var(--border); border-radius:6px; padding:10px 14px; margin-bottom:16px; font-size:12.5px; color:var(--muted); display:flex; gap:14px; flex-wrap:wrap; }
-.summary-grid { display:grid; grid-template-columns:repeat(5,1fr); gap:10px; margin-bottom:20px; }
+.summary-grid { display:grid; grid-template-columns:repeat(6,1fr); gap:10px; margin-bottom:20px; }
+@media (max-width:1100px) { .summary-grid { grid-template-columns:repeat(3,1fr); } }
 .stat-card { background:var(--card); border:1px solid var(--border); border-radius:8px; padding:14px 16px; }
 .stat-card .label { font-size:11px; color:var(--muted); text-transform:uppercase; letter-spacing:0.04em; margin-bottom:6px; }
 .stat-card .value { font-size:22px; font-weight:600; letter-spacing:-0.01em; }
@@ -95,12 +96,23 @@ table.positions tr:last-child td { border-bottom:none; }
 </div>
 
 <script>
-const state = { activeBook: "weekly", books: { weekly: null, daily: null }, prices: {}, priceAsOf: null };
+const state = { activeBook: "weekly", books: { weekly: null, daily: null }, prices: {}, priceAsOf: null, benchmark: { weekly: null, daily: null } };
 
 function fmtMoney(n, d=0) { const s=n<0?"-":""; return s+"$"+Math.abs(n).toLocaleString(undefined,{minimumFractionDigits:d,maximumFractionDigits:d}); }
 function fmtPct(n, d=2) { return (n>0?"+":"")+n.toFixed(d)+"%"; }
 function colorClass(n) { return n>0.001?"pos":n<-0.001?"neg":"zero"; }
 function escapeHtml(s) { return String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"})[c]); }
+
+function renderBenchmarkCard(portfolioPnlPct) {
+  const bm = state.benchmark[state.activeBook];
+  if (!bm) {
+    return `<div class="stat-card"><div class="label">vs S&amp;P 500</div><div class="value zero">—</div><div class="sub">comparison loading…</div></div>`;
+  }
+  const alpha = portfolioPnlPct - bm.returnPct;
+  const cls = colorClass(bm.returnPct);
+  const alphaCls = colorClass(alpha);
+  return `<div class="stat-card"><div class="label">vs S&amp;P 500</div><div class="value ${cls}">${fmtPct(bm.returnPct)}</div><div class="sub ${alphaCls}">Alpha: ${fmtPct(alpha)} since ${escapeHtml(bm.startDate)}</div></div>`;
+}
 
 async function loadBook(name) {
   // cache-bust so we get freshly committed data after a push
@@ -109,12 +121,22 @@ async function loadBook(name) {
   return resp.json();
 }
 
-async function fetchLivePrices(tickers) {
-  if (!tickers.length) return { prices: {}, errors: [], asOf: null };
-  const url = `./api/prices?symbols=${encodeURIComponent(tickers.join(","))}`;
-  const resp = await fetch(url);
+async function fetchLivePrices(tickers, benchmarkFrom) {
+  if (!tickers.length) return { prices: {}, errors: [], asOf: null, benchmark: null };
+  const params = new URLSearchParams({ symbols: tickers.join(",") });
+  if (benchmarkFrom) {
+    params.set("benchmark", "SPY");
+    params.set("benchmarkFrom", benchmarkFrom);
+  }
+  const resp = await fetch(`./api/prices?${params.toString()}`);
   if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
   return resp.json();
+}
+
+function bookStartDate(book, bookName) {
+  if (!book) return null;
+  if (bookName === "weekly") return book.weekStart || null;
+  return book.tradeDate || null;
 }
 
 function renderBook() {
@@ -163,6 +185,7 @@ function renderBook() {
     <div class="summary-grid">
       <div class="stat-card"><div class="label">Total Value</div><div class="value ${colorClass(pnl)}">${fmtMoney(totalValue)}</div><div class="sub ${colorClass(pnl)}">${pnl>=0?"+":""}${fmtMoney(pnl)} (${fmtPct(pnlPct)}) vs start</div></div>
       <div class="stat-card"><div class="label">Unrealized P&L</div><div class="value ${colorClass(unrealized)}">${unrealized>=0?"+":""}${fmtMoney(unrealized)}</div><div class="sub ${colorClass(unrealized)}">${fmtPct(unrealizedPct)} on ${fmtMoney(cost)} deployed</div></div>
+      ${renderBenchmarkCard(pnlPct)}
       <div class="stat-card"><div class="label">Cash</div><div class="value">${fmtMoney(cash)}</div><div class="sub">${((cash/totalValue)*100).toFixed(1)}% of book</div></div>
       <div class="stat-card"><div class="label">Positions</div><div class="value">${positions.length}</div><div class="sub">${fmtMoney(deployed)} deployed</div></div>
       <div class="stat-card"><div class="label">Max Position</div><div class="value">${maxPct.toFixed(1)}%</div><div class="sub">cap 10.0%</div></div>
@@ -273,9 +296,22 @@ async function refreshPrices() {
   }
 
   try {
-    const result = await fetchLivePrices([...tickers]);
+    // Fetch prices + per-book benchmarks (one call per book that has a start date)
+    const activeStart = bookStartDate(state.books[state.activeBook], state.activeBook);
+    const result = await fetchLivePrices([...tickers], activeStart);
     state.prices = result.prices || {};
     state.priceAsOf = result.asOf;
+    if (result.benchmark) state.benchmark[state.activeBook] = result.benchmark;
+
+    // For the inactive book, fetch its benchmark in the background so the tab is ready when switched
+    const otherBook = state.activeBook === "weekly" ? "daily" : "weekly";
+    const otherStart = bookStartDate(state.books[otherBook], otherBook);
+    if (otherStart && (state.books[otherBook]?.positions || []).length > 0) {
+      fetchLivePrices([...tickers].slice(0,1), otherStart).then(r => {
+        if (r.benchmark) { state.benchmark[otherBook] = r.benchmark; if (state.activeBook === otherBook) renderBook(); }
+      }).catch(() => {});
+    }
+
     const stamp = new Date(result.asOf).toLocaleTimeString([], { hour:"2-digit", minute:"2-digit" });
     statusEl.textContent = `live: ${result.count}/${tickers.size} at ${stamp}`;
     statusEl.className = "refresh-status ok";
