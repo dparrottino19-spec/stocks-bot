@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stocks Bot — Paper Trading Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.js"></script>
+<style>
+:root { color-scheme: light dark; --bg:#fafafa; --fg:#1a1a1a; --card:#fff; --border:#e5e5e5; --muted:#777; --sub:#888; --pos:#047857; --neg:#b91c1c; --pill-w:#1e40af; --pill-d:#c2410c; }
+@media (prefers-color-scheme: dark) { :root { --bg:#0b0f14; --fg:#e8eef5; --card:#141a22; --border:#243040; --muted:#8a98a8; --sub:#6a7686; --pos:#34d399; --neg:#f87171; } }
+* { box-sizing: border-box; }
+body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; background:var(--bg); color:var(--fg); font-size:14px; line-height:1.5; }
+.container { max-width:1180px; margin:0 auto; padding:20px 24px 60px; }
+.header { display:flex; justify-content:space-between; align-items:flex-end; margin-bottom:18px; flex-wrap:wrap; gap:12px; }
+.header h1 { margin:0 0 4px 0; font-size:22px; font-weight:600; letter-spacing:-0.01em; }
+.header .subtitle { color:var(--muted); font-size:13px; }
+.actions { display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+.btn { background:var(--fg); color:var(--bg); border:none; padding:8px 14px; border-radius:6px; font-size:13px; cursor:pointer; font-weight:500; }
+.btn:hover { opacity:0.85; }
+.btn.secondary { background:var(--card); color:var(--fg); border:1px solid var(--border); }
+.btn:disabled { opacity:0.5; cursor:not-allowed; }
+.tabs { display:flex; gap:0; margin-bottom:16px; border-bottom:1px solid var(--border); }
+.tab { padding:10px 18px; background:none; border:none; border-bottom:2px solid transparent; cursor:pointer; color:var(--muted); font-size:14px; font-weight:500; font-family:inherit; }
+.tab.active { color:var(--fg); border-bottom-color:var(--fg); }
+.pill { display:inline-block; color:#fff; padding:3px 10px; border-radius:4px; font-size:11px; font-weight:600; letter-spacing:0.04em; text-transform:uppercase; margin-right:6px; }
+.pill.weekly { background:var(--pill-w); }
+.pill.daily { background:var(--pill-d); }
+.rules-bar { background:var(--card); border:1px solid var(--border); border-radius:6px; padding:10px 14px; margin-bottom:16px; font-size:12.5px; color:var(--muted); display:flex; gap:14px; flex-wrap:wrap; }
+.summary-grid { display:grid; grid-template-columns:repeat(5,1fr); gap:10px; margin-bottom:20px; }
+.stat-card { background:var(--card); border:1px solid var(--border); border-radius:8px; padding:14px 16px; }
+.stat-card .label { font-size:11px; color:var(--muted); text-transform:uppercase; letter-spacing:0.04em; margin-bottom:6px; }
+.stat-card .value { font-size:22px; font-weight:600; letter-spacing:-0.01em; }
+.stat-card .sub { font-size:12px; color:var(--sub); margin-top:2px; }
+.pos { color:var(--pos); } .neg { color:var(--neg); } .zero { color:var(--muted); }
+.section { margin-bottom:28px; }
+.section h2 { font-size:13px; font-weight:600; text-transform:uppercase; letter-spacing:0.06em; color:var(--muted); margin:0 0 12px 0; padding-bottom:6px; border-bottom:1px solid var(--border); }
+.two-col { display:grid; grid-template-columns:2fr 1fr; gap:20px; }
+@media (max-width:900px) { .two-col { grid-template-columns:1fr; } .summary-grid { grid-template-columns:repeat(2,1fr); } }
+table.positions { width:100%; border-collapse:collapse; background:var(--card); border:1px solid var(--border); border-radius:8px; overflow:hidden; font-size:13px; }
+table.positions th { background:var(--bg); text-align:left; padding:10px 12px; font-weight:600; font-size:11.5px; text-transform:uppercase; letter-spacing:0.04em; color:var(--muted); border-bottom:1px solid var(--border); }
+table.positions th.r, table.positions td.r { text-align:right; }
+table.positions td { padding:9px 12px; border-bottom:1px solid var(--border); }
+table.positions tr:last-child td { border-bottom:none; }
+.ticker { font-weight:600; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }
+.sector-tag { display:inline-block; font-size:10.5px; background:var(--bg); padding:2px 7px; border-radius:4px; color:var(--muted); border:1px solid var(--border); }
+.chart-card { background:var(--card); border:1px solid var(--border); border-radius:8px; padding:16px; }
+#sectorChart { max-height:280px; }
+.picks-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(360px,1fr)); gap:12px; }
+.pick-card { background:var(--card); border:1px solid var(--border); border-radius:8px; padding:14px 16px; }
+.pick-header { display:flex; justify-content:space-between; align-items:baseline; margin-bottom:8px; gap:8px; }
+.pick-header .tick { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-weight:700; font-size:15px; }
+.pick-header .name { color:var(--muted); font-size:12px; margin-left:6px; }
+.pick-header .pct { font-size:12px; color:var(--sub); }
+.pick-body { font-size:12.5px; }
+.pick-body .row { margin-bottom:6px; }
+.pick-body .label { font-weight:600; color:var(--muted); }
+.empty { background:var(--card); border:1px dashed var(--border); border-radius:8px; padding:32px 18px; color:var(--muted); text-align:center; font-size:13px; }
+.refresh-status { font-size:11.5px; color:var(--muted); }
+.refresh-status.error { color:var(--neg); }
+.refresh-status.ok { color:var(--pos); }
+.refresh-status.loading { font-style:italic; }
+.footnote { font-size:11.5px; color:var(--sub); margin-top:24px; line-height:1.6; }
+.price-stale { color:var(--sub); font-style:italic; }
+.banner { background:var(--card); border:1px solid var(--border); border-left:3px solid var(--neg); border-radius:6px; padding:10px 14px; margin-bottom:16px; font-size:12.5px; color:var(--fg); display:none; }
+.banner.show { display:block; }
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="header">
+  <div>
+    <h1>Stocks Bot Dashboard</h1>
+    <div class="subtitle">$70,000 paper account · Weekly + Daily strategies · Hypothetical performance only</div>
+  </div>
+  <div class="actions">
+    <button class="btn secondary" id="refreshBtn">↻ Refresh Prices</button>
+    <span class="refresh-status" id="refreshStatus">loading…</span>
+  </div>
+</div>
+
+<div class="tabs">
+  <button class="tab active" data-book="weekly">Weekly</button>
+  <button class="tab" data-book="daily">Daily</button>
+</div>
+
+<div class="banner" id="banner"></div>
+
+<div id="bookContent"><!-- rendered by JS --></div>
+
+<div class="footnote">
+  Live prices via Yahoo Finance (proxied through <code>/api/prices</code>). Position data updated automatically by the Cowork picker on each scheduled run. Paper trading only — not investment advice.
+</div>
+
+</div>
+
+<script>
+const state = { activeBook: "weekly", books: { weekly: null, daily: null }, prices: {}, priceAsOf: null };
+
+function fmtMoney(n, d=0) { const s=n<0?"-":""; return s+"$"+Math.abs(n).toLocaleString(undefined,{minimumFractionDigits:d,maximumFractionDigits:d}); }
+function fmtPct(n, d=2) { return (n>0?"+":"")+n.toFixed(d)+"%"; }
+function colorClass(n) { return n>0.001?"pos":n<-0.001?"neg":"zero"; }
+function escapeHtml(s) { return String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"})[c]); }
+
+async function loadBook(name) {
+  // cache-bust so we get freshly committed data after a push
+  const resp = await fetch(`./data/${name}.json?t=${Date.now()}`);
+  if (!resp.ok) throw new Error(`Failed to load ${name}.json: HTTP ${resp.status}`);
+  return resp.json();
+}
+
+async function fetchLivePrices(tickers) {
+  if (!tickers.length) return { prices: {}, errors: [], asOf: null };
+  const url = `./api/prices?symbols=${encodeURIComponent(tickers.join(","))}`;
+  const resp = await fetch(url);
+  if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+  return resp.json();
+}
+
+function renderBook() {
+  const container = document.getElementById("bookContent");
+  const book = state.books[state.activeBook];
+  if (!book) { container.innerHTML = `<div class="empty">Loading…</div>`; return; }
+
+  const positions = book.positions || [];
+  if (positions.length === 0) {
+    const isDaily = state.activeBook === "daily";
+    container.innerHTML = `
+      <div class="rules-bar">
+        <span><span class="pill ${state.activeBook}">${state.activeBook}</span></span>
+        ${(book.rules || []).map(r => `<span>${escapeHtml(r)}</span>`).join("<span>·</span>")}
+      </div>
+      <div class="empty">
+        <strong>No open positions.</strong><br>
+        ${isDaily ? "Next picks will appear after the 7am ET weekday run." : "Next picks will appear after Sunday 6pm ET."}
+      </div>`;
+    return;
+  }
+
+  // Merge live prices into positions
+  positions.forEach(p => {
+    const live = state.prices[p.ticker];
+    p.current = (live && live.price) || p.entry;
+    p.fresh = !!live;
+  });
+
+  const deployed = positions.reduce((s,p)=>s+p.shares*p.current, 0);
+  const cost = positions.reduce((s,p)=>s+p.shares*p.entry, 0);
+  const cash = book.startingCapital - cost;
+  const totalValue = deployed + cash;
+  const pnl = totalValue - book.startingCapital;
+  const pnlPct = (pnl/book.startingCapital)*100;
+  const unrealized = deployed - cost;
+  const unrealizedPct = cost > 0 ? (unrealized/cost)*100 : 0;
+  const maxPct = Math.max(...positions.map(p => (p.shares*p.current/totalValue)*100));
+
+  const header = `
+    <div class="rules-bar">
+      <span><span class="pill ${state.activeBook}">${state.activeBook}</span></span>
+      ${(book.rules || []).map(r => `<span>${escapeHtml(r)}</span>`).join("<span>·</span>")}
+      ${book.weekStart ? `<span>·</span><span>${escapeHtml(book.weekStart)} → ${escapeHtml(book.weekEnd || "")}</span>` : ""}
+    </div>
+    <div class="summary-grid">
+      <div class="stat-card"><div class="label">Total Value</div><div class="value ${colorClass(pnl)}">${fmtMoney(totalValue)}</div><div class="sub ${colorClass(pnl)}">${pnl>=0?"+":""}${fmtMoney(pnl)} (${fmtPct(pnlPct)}) vs start</div></div>
+      <div class="stat-card"><div class="label">Unrealized P&L</div><div class="value ${colorClass(unrealized)}">${unrealized>=0?"+":""}${fmtMoney(unrealized)}</div><div class="sub ${colorClass(unrealized)}">${fmtPct(unrealizedPct)} on ${fmtMoney(cost)} deployed</div></div>
+      <div class="stat-card"><div class="label">Cash</div><div class="value">${fmtMoney(cash)}</div><div class="sub">${((cash/totalValue)*100).toFixed(1)}% of book</div></div>
+      <div class="stat-card"><div class="label">Positions</div><div class="value">${positions.length}</div><div class="sub">${fmtMoney(deployed)} deployed</div></div>
+      <div class="stat-card"><div class="label">Max Position</div><div class="value">${maxPct.toFixed(1)}%</div><div class="sub">cap 10.0%</div></div>
+    </div>`;
+
+  const posRows = positions.map(p => {
+    const v = p.shares*p.current;
+    const pctP = (v/totalValue)*100;
+    const pnlD = (p.current-p.entry)*p.shares;
+    const pnlPv = ((p.current/p.entry)-1)*100;
+    const curClass = p.fresh ? "" : "price-stale";
+    return `<tr>
+      <td><span class="ticker">${escapeHtml(p.ticker)}</span></td>
+      <td>${escapeHtml(p.name)}</td>
+      <td><span class="sector-tag">${escapeHtml(p.sector)}</span></td>
+      <td class="r">${p.shares}</td>
+      <td class="r">$${p.entry.toFixed(2)}</td>
+      <td class="r ${curClass}">$${p.current.toFixed(2)}</td>
+      <td class="r">${fmtMoney(v)}</td>
+      <td class="r">${pctP.toFixed(1)}%</td>
+      <td class="r ${colorClass(pnlD)}">${pnlD>=0?"+":""}${fmtMoney(pnlD)}</td>
+      <td class="r ${colorClass(pnlD)}">${fmtPct(pnlPv)}</td>
+    </tr>`;
+  }).join("");
+
+  const picks = positions.map(p => {
+    const pp = ((p.shares*p.entry)/book.startingCapital)*100;
+    return `<div class="pick-card">
+      <div class="pick-header"><div><span class="tick">${escapeHtml(p.ticker)}</span><span class="name">${escapeHtml(p.name)}</span></div><span class="pct">${pp.toFixed(1)}%</span></div>
+      <div class="pick-body">
+        ${p.catalyst ? `<div class="row"><span class="label">Catalyst:</span> ${escapeHtml(p.catalyst)}</div>` : ""}
+        ${p.driver ? `<div class="row"><span class="label">Driver:</span> ${escapeHtml(p.driver)}</div>` : ""}
+        ${p.risks ? `<div class="row"><span class="label">Risks:</span> ${escapeHtml(p.risks)}</div>` : ""}
+      </div>
+    </div>`;
+  }).join("");
+
+  container.innerHTML = `
+    ${header}
+    <div class="section">
+      <h2>Open Positions</h2>
+      <table class="positions">
+        <thead><tr>
+          <th>Ticker</th><th>Name</th><th>Sector</th>
+          <th class="r">Shares</th><th class="r">Entry</th><th class="r">Current</th>
+          <th class="r">Value</th><th class="r">% Port</th>
+          <th class="r">P&L $</th><th class="r">P&L %</th>
+        </tr></thead>
+        <tbody>${posRows}</tbody>
+      </table>
+    </div>
+    <div class="two-col section">
+      <div>
+        <h2>Sector Allocation</h2>
+        <div class="chart-card"><canvas id="sectorChart"></canvas></div>
+      </div>
+      <div>
+        <h2>Book Info</h2>
+        <div class="chart-card" style="font-size:12.5px;">
+          <div><strong>Starting capital:</strong> ${fmtMoney(book.startingCapital)}</div>
+          <div><strong>Last updated:</strong> ${book.lastUpdated ? new Date(book.lastUpdated).toLocaleString() : "n/a"}</div>
+          <div><strong>Next refresh:</strong> ${book.nextRefresh ? new Date(book.nextRefresh).toLocaleString() : "n/a"}</div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <h2>Picks — Catalysts & Rationale</h2>
+      <div class="picks-grid">${picks}</div>
+    </div>`;
+
+  // sector chart
+  const sectors = {};
+  positions.forEach(p => { sectors[p.sector] = (sectors[p.sector]||0) + p.shares*p.current; });
+  if (cash > 0) sectors["Cash"] = cash;
+  const labels = Object.keys(sectors), vals = labels.map(k => sectors[k]);
+  const palette = ["#2563eb","#7c3aed","#db2777","#ea580c","#65a30d","#0891b2","#9333ea","#c2410c","#0d9488","#475569","#a16207","#be185d","#15803d","#6366f1","#e11d48","#94a3b8"];
+  if (window._sectorChart) window._sectorChart.destroy();
+  window._sectorChart = new Chart(document.getElementById("sectorChart").getContext("2d"), {
+    type: "doughnut",
+    data: { labels, datasets: [{ data: vals, backgroundColor: palette.slice(0,labels.length), borderColor: "transparent", borderWidth: 2 }] },
+    options: { plugins: { legend: { position: "right", labels: { font: { size: 11 }, boxWidth: 12 } }, tooltip: { callbacks: { label: c => `${c.label}: ${fmtMoney(c.parsed)} (${((c.parsed/vals.reduce((a,b)=>a+b,0))*100).toFixed(1)}%)` } } }, cutout: "55%" }
+  });
+}
+
+function showBanner(message, kind="error") {
+  const b = document.getElementById("banner");
+  b.textContent = message;
+  b.className = `banner show ${kind}`;
+}
+function hideBanner() { document.getElementById("banner").classList.remove("show"); }
+
+async function refreshPrices() {
+  const statusEl = document.getElementById("refreshStatus");
+  const btn = document.getElementById("refreshBtn");
+  btn.disabled = true;
+  statusEl.textContent = "fetching live prices…";
+  statusEl.className = "refresh-status loading";
+  hideBanner();
+
+  const tickers = new Set();
+  Object.values(state.books).forEach(b => { (b?.positions || []).forEach(p => tickers.add(p.ticker)); });
+
+  if (tickers.size === 0) {
+    statusEl.textContent = "no open positions";
+    statusEl.className = "refresh-status";
+    btn.disabled = false;
+    return;
+  }
+
+  try {
+    const result = await fetchLivePrices([...tickers]);
+    state.prices = result.prices || {};
+    state.priceAsOf = result.asOf;
+    const stamp = new Date(result.asOf).toLocaleTimeString([], { hour:"2-digit", minute:"2-digit" });
+    statusEl.textContent = `live: ${result.count}/${tickers.size} at ${stamp}`;
+    statusEl.className = "refresh-status ok";
+    if (result.errors && result.errors.length) {
+      console.warn("Price fetch warnings:", result.errors);
+    }
+    renderBook();
+  } catch (err) {
+    statusEl.textContent = "live prices unavailable — showing entry prices";
+    statusEl.className = "refresh-status error";
+    showBanner("Couldn't fetch live prices. This usually means /api/prices isn't deployed yet, or you're opening this file locally (the API only runs on Vercel). Entry prices shown.", "error");
+    console.error(err);
+  } finally {
+    btn.disabled = false;
+  }
+}
+
+async function init() {
+  // tab switching
+  document.querySelectorAll(".tab").forEach(t => {
+    t.addEventListener("click", () => {
+      document.querySelectorAll(".tab").forEach(x => x.classList.remove("active"));
+      t.classList.add("active");
+      state.activeBook = t.dataset.book;
+      renderBook();
+    });
+  });
+  document.getElementById("refreshBtn").addEventListener("click", refreshPrices);
+
+  try {
+    const [weekly, daily] = await Promise.all([loadBook("weekly"), loadBook("daily")]);
+    state.books.weekly = weekly;
+    state.books.daily = daily;
+    renderBook();
+    refreshPrices();
+  } catch (err) {
+    document.getElementById("refreshStatus").textContent = "failed to load book data";
+    document.getElementById("refreshStatus").className = "refresh-status error";
+    showBanner(`Failed to load book data: ${err.message}`, "error");
+    console.error(err);
+  }
+}
+
+init();
+</script>
+</body>
+</html>

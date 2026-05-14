@@ -1,0 +1,9 @@
+{
+  "bookName": "Daily Trader",
+  "startingCapital": 70000,
+  "tradeDate": null,
+  "lastUpdated": "2026-05-14T20:00:00Z",
+  "nextRefresh": "2026-05-15T07:00:00-04:00",
+  "rules": ["Weekday 7am ET picks", "Per-pick exit rules", "<=10% per position", "1-week max hold"],
+  "positions": []
+}
