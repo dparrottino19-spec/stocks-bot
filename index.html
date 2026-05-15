@@ -64,6 +64,14 @@ table.positions tr:last-child td { border-bottom:none; }
 .price-stale { color:var(--sub); font-style:italic; }
 .banner { background:var(--card); border:1px solid var(--border); border-left:3px solid var(--neg); border-radius:6px; padding:10px 14px; margin-bottom:16px; font-size:12.5px; color:var(--fg); display:none; }
 .banner.show { display:block; }
+.history-filters { display:flex; gap:6px; flex-wrap:wrap; margin-bottom:14px; align-items:center; }
+.filter-btn { background:var(--card); color:var(--muted); border:1px solid var(--border); padding:5px 12px; border-radius:4px; font-size:12px; cursor:pointer; font-family:inherit; }
+.filter-btn:hover { color:var(--fg); }
+.filter-btn.active { background:var(--fg); color:var(--bg); border-color:var(--fg); }
+.filter-sep { color:var(--border); margin:0 4px; }
+.action-buy { color:var(--pos); font-weight:600; font-size:11.5px; }
+.action-sell { color:var(--neg); font-weight:600; font-size:11.5px; }
+.trade-note { font-size:11.5px; color:var(--sub); max-width:320px; }
 </style>
 </head>
 <body>
@@ -81,8 +89,9 @@ table.positions tr:last-child td { border-bottom:none; }
 </div>
 
 <div class="tabs">
-  <button class="tab active" data-book="weekly">Weekly</button>
-  <button class="tab" data-book="daily">Daily</button>
+  <button class="tab active" data-view="weekly">Weekly</button>
+  <button class="tab" data-view="daily">Daily</button>
+  <button class="tab" data-view="history">History</button>
 </div>
 
 <div class="banner" id="banner"></div>
@@ -96,12 +105,117 @@ table.positions tr:last-child td { border-bottom:none; }
 </div>
 
 <script>
-const state = { activeBook: "weekly", books: { weekly: null, daily: null }, prices: {}, priceAsOf: null, benchmark: { weekly: null, daily: null } };
+const state = {
+  activeView: "weekly",
+  activeBook: "weekly",
+  books: { weekly: null, daily: null },
+  trades: [],
+  prices: {},
+  priceAsOf: null,
+  benchmark: { weekly: null, daily: null },
+  historyFilters: { book: "all", action: "all" }
+};
 
 function fmtMoney(n, d=0) { const s=n<0?"-":""; return s+"$"+Math.abs(n).toLocaleString(undefined,{minimumFractionDigits:d,maximumFractionDigits:d}); }
 function fmtPct(n, d=2) { return (n>0?"+":"")+n.toFixed(d)+"%"; }
 function colorClass(n) { return n>0.001?"pos":n<-0.001?"neg":"zero"; }
 function escapeHtml(s) { return String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"})[c]); }
+
+function renderActiveView() {
+  if (state.activeView === "history") renderHistory();
+  else renderBook();
+}
+
+function renderHistory() {
+  const container = document.getElementById("bookContent");
+  const trades = state.trades || [];
+
+  if (trades.length === 0) {
+    container.innerHTML = `<div class="empty"><strong>No trades logged yet.</strong><br>The history will populate as the bot opens and closes positions.</div>`;
+    return;
+  }
+
+  // Apply filters
+  let filtered = trades;
+  if (state.historyFilters.book !== "all") filtered = filtered.filter(t => t.book === state.historyFilters.book);
+  if (state.historyFilters.action !== "all") filtered = filtered.filter(t => t.action === state.historyFilters.action);
+  filtered = [...filtered].sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+
+  // Stats across ALL trades (not filtered) so the summary reflects the whole book
+  const allBuys = trades.filter(t => t.action === "BUY").length;
+  const allSells = trades.filter(t => t.action === "SELL");
+  const totalRealized = allSells.reduce((s, t) => s + (Number(t.pnl) || 0), 0);
+  const wins = allSells.filter(t => (Number(t.pnl) || 0) > 0).length;
+  const winRate = allSells.length > 0 ? (wins / allSells.length) * 100 : null;
+
+  const statsBar = `
+    <div class="rules-bar">
+      <span><strong>Trade Log</strong></span>
+      <span>${trades.length} total</span>
+      <span>·</span>
+      <span>${allBuys} buys</span>
+      <span>·</span>
+      <span>${allSells.length} sells</span>
+      ${winRate != null ? `<span>·</span><span>${winRate.toFixed(0)}% win rate</span>` : ""}
+      ${allSells.length > 0 ? `<span>·</span><span class="${colorClass(totalRealized)}">${totalRealized >= 0 ? "+" : ""}${fmtMoney(totalRealized)} realized</span>` : ""}
+    </div>`;
+
+  const filters = `
+    <div class="history-filters">
+      <button class="filter-btn ${state.historyFilters.book === "all" ? "active" : ""}" data-filter="book" data-value="all">All books</button>
+      <button class="filter-btn ${state.historyFilters.book === "weekly" ? "active" : ""}" data-filter="book" data-value="weekly">Weekly</button>
+      <button class="filter-btn ${state.historyFilters.book === "daily" ? "active" : ""}" data-filter="book" data-value="daily">Daily</button>
+      <span class="filter-sep">·</span>
+      <button class="filter-btn ${state.historyFilters.action === "all" ? "active" : ""}" data-filter="action" data-value="all">All actions</button>
+      <button class="filter-btn ${state.historyFilters.action === "BUY" ? "active" : ""}" data-filter="action" data-value="BUY">Buys</button>
+      <button class="filter-btn ${state.historyFilters.action === "SELL" ? "active" : ""}" data-filter="action" data-value="SELL">Sells</button>
+      <span style="margin-left:auto;font-size:11.5px;color:var(--sub);">${filtered.length} of ${trades.length} shown</span>
+    </div>`;
+
+  const rows = filtered.map(t => {
+    const d = new Date(t.timestamp);
+    const dateStr = isNaN(d) ? "—" : d.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
+    const timeStr = isNaN(d) ? "" : d.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
+    const actionCls = t.action === "BUY" ? "action-buy" : "action-sell";
+    const pnlVal = (typeof t.pnl === "number") ? t.pnl : null;
+    const pnlCls = pnlVal != null ? colorClass(pnlVal) : "zero";
+    const totalV = (typeof t.totalValue === "number") ? t.totalValue : (t.shares * t.price);
+    return `<tr>
+      <td><div>${dateStr}</div><div style="font-size:11px;color:var(--sub);">${timeStr}</div></td>
+      <td><span class="pill ${escapeHtml(t.book || "")}" style="font-size:9.5px;padding:2px 6px;">${escapeHtml(t.book || "")}</span></td>
+      <td class="${actionCls}">${escapeHtml(t.action || "")}</td>
+      <td><span class="ticker">${escapeHtml(t.ticker || "")}</span></td>
+      <td>${escapeHtml(t.name || "")}</td>
+      <td class="r">${t.shares ?? "—"}</td>
+      <td class="r">$${(t.price ?? 0).toFixed(2)}</td>
+      <td class="r">${fmtMoney(totalV || 0)}</td>
+      <td class="r ${pnlCls}">${pnlVal != null ? (pnlVal >= 0 ? "+" : "") + fmtMoney(pnlVal) : "—"}</td>
+      <td><div class="trade-note">${escapeHtml(t.note || "")}</div></td>
+    </tr>`;
+  }).join("");
+
+  container.innerHTML = `
+    ${statsBar}
+    ${filters}
+    <div class="section">
+      <table class="positions">
+        <thead><tr>
+          <th>Date</th><th>Book</th><th>Action</th><th>Ticker</th>
+          <th>Name</th><th class="r">Shares</th><th class="r">Price</th><th class="r">Total</th>
+          <th class="r">P&L</th><th>Note</th>
+        </tr></thead>
+        <tbody>${rows || `<tr><td colspan="10" style="text-align:center;color:var(--muted);padding:24px;">No trades match the current filters.</td></tr>`}</tbody>
+      </table>
+    </div>`;
+
+  // Wire up filter buttons
+  container.querySelectorAll(".filter-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      state.historyFilters[btn.dataset.filter] = btn.dataset.value;
+      renderHistory();
+    });
+  });
+}
 
 function renderBenchmarkCard(portfolioPnlPct) {
   const bm = state.benchmark[state.activeBook];
@@ -119,6 +233,18 @@ async function loadBook(name) {
   const resp = await fetch(`./data/${name}.json?t=${Date.now()}`);
   if (!resp.ok) throw new Error(`Failed to load ${name}.json: HTTP ${resp.status}`);
   return resp.json();
+}
+
+async function loadTrades() {
+  try {
+    const resp = await fetch(`./data/trades.json?t=${Date.now()}`);
+    if (!resp.ok) return [];
+    const data = await resp.json();
+    return Array.isArray(data) ? data : (data.trades || []);
+  } catch (e) {
+    console.warn("Failed to load trades.json:", e);
+    return [];
+  }
 }
 
 async function fetchLivePrices(tickers, benchmarkFrom) {
@@ -308,7 +434,7 @@ async function refreshPrices() {
     const otherStart = bookStartDate(state.books[otherBook], otherBook);
     if (otherStart && (state.books[otherBook]?.positions || []).length > 0) {
       fetchLivePrices([...tickers].slice(0,1), otherStart).then(r => {
-        if (r.benchmark) { state.benchmark[otherBook] = r.benchmark; if (state.activeBook === otherBook) renderBook(); }
+        if (r.benchmark) { state.benchmark[otherBook] = r.benchmark; if (state.activeBook === otherBook) renderActiveView(); }
       }).catch(() => {});
     }
 
@@ -318,7 +444,7 @@ async function refreshPrices() {
     if (result.errors && result.errors.length) {
       console.warn("Price fetch warnings:", result.errors);
     }
-    renderBook();
+    renderActiveView();
   } catch (err) {
     statusEl.textContent = "live prices unavailable — showing entry prices";
     statusEl.className = "refresh-status error";
@@ -330,22 +456,30 @@ async function refreshPrices() {
 }
 
 async function init() {
-  // tab switching
+  // tab switching — three views: weekly book, daily book, history
   document.querySelectorAll(".tab").forEach(t => {
     t.addEventListener("click", () => {
       document.querySelectorAll(".tab").forEach(x => x.classList.remove("active"));
       t.classList.add("active");
-      state.activeBook = t.dataset.book;
-      renderBook();
+      state.activeView = t.dataset.view;
+      if (state.activeView === "weekly" || state.activeView === "daily") {
+        state.activeBook = state.activeView;
+      }
+      renderActiveView();
     });
   });
   document.getElementById("refreshBtn").addEventListener("click", refreshPrices);
 
   try {
-    const [weekly, daily] = await Promise.all([loadBook("weekly"), loadBook("daily")]);
+    const [weekly, daily, trades] = await Promise.all([
+      loadBook("weekly"),
+      loadBook("daily"),
+      loadTrades()
+    ]);
     state.books.weekly = weekly;
     state.books.daily = daily;
-    renderBook();
+    state.trades = trades;
+    renderActiveView();
     refreshPrices();
   } catch (err) {
     document.getElementById("refreshStatus").textContent = "failed to load book data";
