@@ -1,9 +1,34 @@
 {
   "bookName": "Daily Trader",
   "startingCapital": 70000,
-  "tradeDate": null,
-  "lastUpdated": "2026-05-14T20:00:00Z",
-  "nextRefresh": "2026-05-15T07:00:00-04:00",
+  "tradeDate": "2026-05-15",
+  "lastUpdated": "2026-05-15T11:00:00Z",
+  "nextRefresh": "2026-05-18T07:00:00-04:00",
   "rules": ["Weekday 7am ET picks", "Per-pick exit rules", "<=10% per position", "1-week max hold"],
-  "positions": []
+  "positions": [
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "sector": "Semi Equipment",
+      "shares": 15,
+      "entry": 443.27,
+      "exitRule": "Intraday — flat by close",
+      "catalyst": "Q2 5/14 AMC: EPS $2.86 vs $2.68 est; rev $7.91B vs $7.69B. Q3 guide $8.95B rev / $3.36 EPS smashes Street. 2026 semi-equip industry growth lifted to >30% from >20%. Margins at 25-yr high on AI/HBM/DRAM demand. +5% AH, +1.5% pre-mkt today.",
+      "risks": "AI-capex over-extension narrative; gap-and-fade risk if broader semis weak; Friday-into-weekend profit-taking.",
+      "driver": "Beat-and-raise on the most-watched semi-equipment print of the season; Citi raised PT; sell-side chase setup.",
+      "addedDate": "2026-05-15"
+    },
+    {
+      "ticker": "PZZA",
+      "name": "Papa John's International",
+      "sector": "Consumer / Restaurants",
+      "shares": 195,
+      "entry": 35.72,
+      "exitRule": "Intraday — flat by close",
+      "catalyst": "Bajco Group (largest US franchisee, ~10% of stores) joining Irth Capital's $47/share take-private bid (Reuters, 5/14 AH). Implies ~32% headline premium to current. +7% pre-market.",
+      "risks": "Board may reject; deal financing/regulatory uncertainty; weak same-store sales backdrop; pure deal-spread arb on a non-binding bid.",
+      "driver": "Fresh M&A catalyst with credible bidder coalition; deal-arb chase trade.",
+      "addedDate": "2026-05-15"
+    }
+  ]
 }
