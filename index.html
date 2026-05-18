@@ -238,10 +238,12 @@ function renderBenchmarkCard(portfolioPnlPct) {
       return `<div class="stat-card"><div class="label">vs S&amp;P 500</div><div class="value zero">—</div><div class="sub">market closed · resumes ${escapeHtml(startDate)}</div></div>`;
     }
   }
+  // The big number is the OUTPERFORMANCE vs S&P (alpha) — that's what "vs S&P 500" means.
+  // The subtitle gives the absolute S&P return for context.
   const alpha = portfolioPnlPct - bm.returnPct;
-  const cls = colorClass(bm.returnPct);
   const alphaCls = colorClass(alpha);
-  return `<div class="stat-card"><div class="label">vs S&amp;P 500</div><div class="value ${cls}">${fmtPct(bm.returnPct)}</div><div class="sub ${alphaCls}">Alpha: ${fmtPct(alpha)} since ${escapeHtml(bm.startDate)}</div></div>`;
+  const spCls = colorClass(bm.returnPct);
+  return `<div class="stat-card"><div class="label">vs S&amp;P 500</div><div class="value ${alphaCls}">${fmtPct(alpha)}</div><div class="sub"><span class="${spCls}">S&amp;P ${fmtPct(bm.returnPct)}</span> since ${escapeHtml(bm.startDate)}</div></div>`;
 }
 
 async function loadBook(name) {
