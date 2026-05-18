@@ -222,6 +222,22 @@ function renderBenchmarkCard(portfolioPnlPct) {
   if (!bm) {
     return `<div class="stat-card"><div class="label">vs S&amp;P 500</div><div class="value zero">—</div><div class="sub">comparison loading…</div></div>`;
   }
+  // If the book's start date is in the future (e.g., Sunday night before Monday open), the
+  // API falls back to using the last available SPY close as both start and current price, which
+  // produces a meaningless 0% — show a friendlier "starts {date}" message instead.
+  const startDate = bm.startDate;
+  const todayISO = new Date().toISOString().slice(0, 10);
+  if (startDate && startDate > todayISO) {
+    return `<div class="stat-card"><div class="label">vs S&amp;P 500</div><div class="value zero">—</div><div class="sub">tracking starts ${escapeHtml(startDate)}</div></div>`;
+  }
+  // If the resolved startTimestamp falls on or before the day before startDate AND returnPct is
+  // essentially 0, the API hit the "no on-or-after data" fallback — also show a friendly note.
+  if (bm.startTimestamp && startDate) {
+    const resolvedISO = bm.startTimestamp.slice(0, 10);
+    if (resolvedISO < startDate && Math.abs(bm.returnPct) < 0.01) {
+      return `<div class="stat-card"><div class="label">vs S&amp;P 500</div><div class="value zero">—</div><div class="sub">market closed · resumes ${escapeHtml(startDate)}</div></div>`;
+    }
+  }
   const alpha = portfolioPnlPct - bm.returnPct;
   const cls = colorClass(bm.returnPct);
   const alphaCls = colorClass(alpha);
