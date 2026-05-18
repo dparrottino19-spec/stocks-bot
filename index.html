@@ -279,6 +279,10 @@ async function fetchLivePrices(tickers, benchmarkFrom) {
 
 function bookStartDate(book, bookName) {
   if (!book) return null;
+  // Inception date = the day the paper account first deployed capital. Used for the SPY
+  // benchmark so "vs S&P 500" compares total-since-inception return, not since-today.
+  // Falls back to weekStart/tradeDate for back-compat if inceptionDate is missing.
+  if (book.inceptionDate) return book.inceptionDate;
   if (bookName === "weekly") return book.weekStart || null;
   return book.tradeDate || null;
 }
@@ -314,8 +318,12 @@ function renderBook() {
   const cost = positions.reduce((s,p)=>s+p.shares*p.entry, 0);
   const cash = book.startingCapital - cost;
   const totalValue = deployed + cash;
-  const pnl = totalValue - book.startingCapital;
-  const pnlPct = (pnl/book.startingCapital)*100;
+  // Total return since inception = (current totalValue − inceptionCapital) / inceptionCapital.
+  // totalValue already includes all realized P&L (rolled into startingCapital each run) plus
+  // unrealized P&L on open positions, so subtracting the original $70K gives true since-inception PnL.
+  const inceptionCapital = book.inceptionCapital || book.startingCapital;
+  const pnl = totalValue - inceptionCapital;
+  const pnlPct = (pnl/inceptionCapital)*100;
   const unrealized = deployed - cost;
   const unrealizedPct = cost > 0 ? (unrealized/cost)*100 : 0;
   const maxPct = Math.max(...positions.map(p => (p.shares*p.current/totalValue)*100));
@@ -327,7 +335,7 @@ function renderBook() {
       ${book.weekStart ? `<span>·</span><span>${escapeHtml(book.weekStart)} → ${escapeHtml(book.weekEnd || "")}</span>` : ""}
     </div>
     <div class="summary-grid">
-      <div class="stat-card"><div class="label">Total Value</div><div class="value ${colorClass(pnl)}">${fmtMoney(totalValue)}</div><div class="sub ${colorClass(pnl)}">${pnl>=0?"+":""}${fmtMoney(pnl)} (${fmtPct(pnlPct)}) vs start</div></div>
+      <div class="stat-card"><div class="label">Total Value</div><div class="value ${colorClass(pnl)}">${fmtMoney(totalValue)}</div><div class="sub ${colorClass(pnl)}">${pnl>=0?"+":""}${fmtMoney(pnl)} (${fmtPct(pnlPct)}) since inception${book.inceptionDate ? " " + book.inceptionDate : ""}</div></div>
       <div class="stat-card"><div class="label">Unrealized P&L</div><div class="value ${colorClass(unrealized)}">${unrealized>=0?"+":""}${fmtMoney(unrealized)}</div><div class="sub ${colorClass(unrealized)}">${fmtPct(unrealizedPct)} on ${fmtMoney(cost)} deployed</div></div>
       ${renderBenchmarkCard(pnlPct)}
       <div class="stat-card"><div class="label">Cash</div><div class="value">${fmtMoney(cash)}</div><div class="sub">${((cash/totalValue)*100).toFixed(1)}% of book</div></div>
@@ -389,7 +397,8 @@ function renderBook() {
       <div>
         <h2>Book Info</h2>
         <div class="chart-card" style="font-size:12.5px;">
-          <div><strong>Starting capital:</strong> ${fmtMoney(book.startingCapital)}</div>
+          ${book.inceptionCapital ? `<div><strong>Inception capital:</strong> ${fmtMoney(book.inceptionCapital)}${book.inceptionDate ? ` (${escapeHtml(book.inceptionDate)})` : ""}</div>` : ""}
+          <div><strong>Current basis:</strong> ${fmtMoney(book.startingCapital)} <span style="color:var(--muted);font-size:11px;">(after realized P&L roll-forward)</span></div>
           <div><strong>Last updated:</strong> ${book.lastUpdated ? new Date(book.lastUpdated).toLocaleString() : "n/a"}</div>
           <div><strong>Next refresh:</strong> ${book.nextRefresh ? new Date(book.nextRefresh).toLocaleString() : "n/a"}</div>
         </div>
