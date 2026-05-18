@@ -1,34 +1,35 @@
 {
   "bookName": "Daily Trader",
-  "startingCapital": 70000,
-  "tradeDate": "2026-05-15",
-  "lastUpdated": "2026-05-15T11:00:00Z",
-  "nextRefresh": "2026-05-18T07:00:00-04:00",
+  "startingCapital": 69718,
+  "tradeDate": "2026-05-18",
+  "lastUpdated": "2026-05-18T20:55:00Z",
+  "nextRefresh": "2026-05-19T07:00:00-04:00",
   "rules": ["Weekday 7am ET picks", "Per-pick exit rules", "<=10% per position", "1-week max hold"],
+  "priorRealizedPnL": -282,
   "positions": [
     {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
-      "sector": "Semi Equipment",
-      "shares": 15,
-      "entry": 443.27,
-      "exitRule": "Intraday — flat by close",
-      "catalyst": "Q2 5/14 AMC: EPS $2.86 vs $2.68 est; rev $7.91B vs $7.69B. Q3 guide $8.95B rev / $3.36 EPS smashes Street. 2026 semi-equip industry growth lifted to >30% from >20%. Margins at 25-yr high on AI/HBM/DRAM demand. +5% AH, +1.5% pre-mkt today.",
-      "risks": "AI-capex over-extension narrative; gap-and-fade risk if broader semis weak; Friday-into-weekend profit-taking.",
-      "driver": "Beat-and-raise on the most-watched semi-equipment print of the season; Citi raised PT; sell-side chase setup.",
-      "addedDate": "2026-05-15"
+      "ticker": "RAMP",
+      "name": "LiveRamp Holdings",
+      "sector": "Ad-Tech",
+      "shares": 186,
+      "entry": 37.30,
+      "exitRule": "Catalyst-defined (close at $38+ or T+3)",
+      "catalyst": "Publicis Groupe announced $38.50 all-cash buyout of LiveRamp Sun May 17 ($2.2B EV / $2.5B equity, 30% premium to Fri $29.66 close). Both boards approved, no financing conditions, expected close end-2026. Pre-market +26-27% to ~$37.30-37.59, leaving ~$1.20 (3.2%) deal-spread runway.",
+      "risks": "Initial-pop fade as arb funds rotate; spread already tight; regulatory/shareholder vote (low); broader ad-tech weakness if Trade Desk-style guides pressure peers.",
+      "driver": "Merger-arb deal spread with 30% buyout premium and no financing conditions.",
+      "addedDate": "2026-05-18"
     },
     {
-      "ticker": "PZZA",
-      "name": "Papa John's International",
-      "sector": "Consumer / Restaurants",
-      "shares": 195,
-      "entry": 35.72,
-      "exitRule": "Intraday — flat by close",
-      "catalyst": "Bajco Group (largest US franchisee, ~10% of stores) joining Irth Capital's $47/share take-private bid (Reuters, 5/14 AH). Implies ~32% headline premium to current. +7% pre-market.",
-      "risks": "Board may reject; deal financing/regulatory uncertainty; weak same-store sales backdrop; pure deal-spread arb on a non-binding bid.",
-      "driver": "Fresh M&A catalyst with credible bidder coalition; deal-arb chase trade.",
-      "addedDate": "2026-05-15"
+      "ticker": "M",
+      "name": "Macy's Inc.",
+      "sector": "Consumer Retail",
+      "shares": 360,
+      "entry": 19.30,
+      "exitRule": "1-3 day swing (+5% TP / -5% stop / Wed close)",
+      "catalyst": "Berkshire Hathaway 13F filed Fri PM (May 15) disclosed a new 3.03M-share / ~$55M stake — first Berkshire dept-store position since 1966 and first 13F under new CEO Greg Abel. Stock +5-6% pre-market to ~$19.30 from Fri close $18.41.",
+      "risks": "Buffett-halo trades typically fade within 1-3 sessions; stake is small (~1.1%, immaterial to BRK); secular dept-store headwinds; Macy's still mid-restructuring (150 store closures by 2028).",
+      "driver": "Berkshire halo + first-ever Abel-era 13F = follow-on flow setup.",
+      "addedDate": "2026-05-18"
     }
   ]
 }
