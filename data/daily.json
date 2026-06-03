@@ -2,10 +2,10 @@
   "bookName": "Daily Trader",
   "inceptionDate": "2026-05-15",
   "inceptionCapital": 70000,
-  "startingCapital": 79190.92,
-  "tradeDate": "2026-06-02",
-  "lastUpdated": "2026-06-02T12:26:36Z",
-  "nextRefresh": "2026-06-03T07:00:00-04:00",
+  "startingCapital": 80079.2,
+  "tradeDate": "2026-06-03",
+  "lastUpdated": "2026-06-03T12:26:53Z",
+  "nextRefresh": "2026-06-04T07:00:00-04:00",
   "rules": [
     "Weekday 7am ET picks",
     "Per-pick exit rules",
@@ -13,7 +13,7 @@
     "1-week max hold",
     "<=4 names per sector"
   ],
-  "priorRealizedPnL": 9190.92,
+  "priorRealizedPnL": 10079.2,
   "positions": [
     {
       "ticker": "GNRC",
@@ -25,42 +25,6 @@
       "catalyst": "Signed a global supply agreement with a leading hyperscale data-center operator for large-megawatt backup generators (won after a rigorous multi-factory qualification); raised FY26 revenue guide to mid-to-high-teens % growth; Jefferies upgrade. Gapped +7.7% premarket 6/2 to ~$290, just above the prior 52w high $287.09.",
       "risks": "Made a new high into the news \u2014 chase risk; data-center backlog timing is lumpy. -5% stop in place.",
       "driver": "Discrete contract win + guide raise",
-      "addedDate": "2026-06-02"
-    },
-    {
-      "ticker": "OXY",
-      "name": "Occidental Petroleum",
-      "sector": "Energy (E&P)",
-      "shares": 60,
-      "entry": 58.0,
-      "exitRule": "Overnight (close Wed 6/3 open)",
-      "catalyst": "WTI spiked ~+6% to >$92 on a Strait-of-Hormuz closure threat (Iran conflict); OXY +4.1% on a Barclays upgrade with a +$13 PT raise. Macro-driven oil-leverage trade; Buffett-favorite large-cap.",
-      "risks": "Oil headline whipsaw \u2014 an Iran/Lebanon de-escalation can reverse the spike fast. Overnight exit removes multi-day risk.",
-      "driver": "Macro oil spike + analyst upgrade",
-      "addedDate": "2026-06-02"
-    },
-    {
-      "ticker": "APA",
-      "name": "APA Corporation",
-      "sector": "Energy (E&P)",
-      "shares": 90,
-      "entry": 38.26,
-      "exitRule": "Overnight (close Wed 6/3 open)",
-      "catalyst": "High-beta oil leverage into the WTI spike (>$92 on Hormuz fears); P/E ~8.5, 2.7% yield, 52w $16.88-$45.66. Macro-driven energy trade alongside the geopolitical bid.",
-      "risks": "Higher-beta than the majors; reverses hard if oil gives back the war premium. Overnight exit.",
-      "driver": "Macro oil spike",
-      "addedDate": "2026-06-02"
-    },
-    {
-      "ticker": "FANG",
-      "name": "Diamondback Energy",
-      "sector": "Energy (E&P)",
-      "shares": 17,
-      "entry": 200.71,
-      "exitRule": "Overnight (close Wed 6/3 open)",
-      "catalyst": "Permian pure-play into the oil spike; Barclays raised PT to $225 (Overweight). Macro oil bid plus a fresh PT hike.",
-      "risks": "Oil-price-reversal risk on any Iran de-escalation; Permian differentials. Overnight exit.",
-      "driver": "Macro oil spike + PT hike",
       "addedDate": "2026-06-02"
     },
     {
@@ -88,18 +52,6 @@
       "addedDate": "2026-06-02"
     },
     {
-      "ticker": "GTLB",
-      "name": "GitLab Inc",
-      "sector": "Software (DevOps)",
-      "shares": 130,
-      "entry": 26.02,
-      "exitRule": "Catalyst-defined (close into 6/2 AMC print)",
-      "catalyst": "Reports Q1 FY27 TODAY 6/2 AMC (4:30pm ET call); cons rev ~$253-255M, EPS ~$0.20-0.21; options imply +/-~17%. Washed-out DevSecOps name (~$26); pre-earnings swing into tonight's print.",
-      "risks": "Binary print with a huge implied move; a soft NRR/guide gaps it hard. Close into the 6/2 AMC print.",
-      "driver": "Pre-earnings setup (reports 6/2 AMC)",
-      "addedDate": "2026-06-02"
-    },
-    {
       "ticker": "IOT",
       "name": "Samsara Inc",
       "sector": "Software (IoT)",
@@ -122,78 +74,6 @@
       "risks": "Biotech volatility; data already partly priced after the initial pop. -5% stop in place.",
       "driver": "Phase 3 data readout (ASCO)",
       "addedDate": "2026-06-02"
-    },
-    {
-      "ticker": "BNTX",
-      "name": "BioNTech SE",
-      "sector": "Healthcare / Biotech",
-      "shares": 36,
-      "entry": 97.02,
-      "exitRule": "1-3 day swing (stop -5% / take-profit +8% / hard exit Fri 6/5)",
-      "catalyst": "ASCO 2026 late-stage oncology readouts (pumitamig in 1L NSCLC; gotistobart in platinum-resistant ovarian) de-risk the pipeline; UBS upgraded to Buy, PT $135 (~+40%). Oncology re-rating; trading ~$97.",
-      "risks": "Slightly aged upgrade (5/26); pipeline binary risk. -5% stop in place.",
-      "driver": "Analyst upgrade on ASCO data",
-      "addedDate": "2026-06-02"
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike Holdings",
-      "sector": "Software (Cybersecurity)",
-      "shares": 5,
-      "entry": 666.9,
-      "exitRule": "Catalyst-defined (close into 6/3 AMC print)",
-      "catalyst": "Reports Q1 6/3 AMC; options imply +/-8.84%, EPS cons $0.88. Trading ~$731 (6/1), +9.6%. Held into the print.",
-      "risks": "Rich near ATH; pre-print binary. Close into the 6/3 print.",
-      "driver": "Pre-earnings swing into 6/3",
-      "addedDate": "2026-05-29"
-    },
-    {
-      "ticker": "AVGO",
-      "name": "Broadcom Inc",
-      "sector": "AI Semis",
-      "shares": 8,
-      "entry": 431.37,
-      "exitRule": "Catalyst-defined (close into 6/3 AMC print)",
-      "catalyst": "Reports Q2 6/3. Custom AI accelerators for Google/Anthropic/OpenAI; avg PT $481.97. Trading ~$457 (6/1), +6.1%.",
-      "risks": "Rich at ~$2T mcap; close into the print.",
-      "driver": "Pre-earnings swing into 6/3",
-      "addedDate": "2026-05-29"
-    },
-    {
-      "ticker": "AMD",
-      "name": "Advanced Micro Devices",
-      "sector": "AI Semis",
-      "shares": 6,
-      "entry": 518.09,
-      "exitRule": "Catalyst-defined (close into 6/3 AMC print)",
-      "catalyst": "Susquehanna positive into print (MI350 ramp). Trading ~$516 (6/1), ~flat; 52w high $527.20.",
-      "risks": "Near 52w high = chase risk; semis lead beta.",
-      "driver": "Pre-earnings momentum into 6/3",
-      "addedDate": "2026-05-29"
-    },
-    {
-      "ticker": "NVDA",
-      "name": "NVIDIA Corporation",
-      "sector": "AI Semis",
-      "shares": 16,
-      "entry": 214.25,
-      "exitRule": "1-3 day swing (stop -5% / take-profit +8% / hard exit Wed 6/3)",
-      "catalyst": "AI capex 2026 $650-725B thesis; HSBC PT $325; $80B buyback. Trading ~$224 (6/1), +4.5% \u2014 inside band, rides the AVGO/AMD print cluster.",
-      "risks": "Semis lead beta; could test -5% stop if capex narrative wobbles.",
-      "driver": "AI-capex theme + infra cluster",
-      "addedDate": "2026-05-29"
-    },
-    {
-      "ticker": "DLTR",
-      "name": "Dollar Tree Inc",
-      "sector": "Consumer Retail",
-      "shares": 31,
-      "entry": 112.51,
-      "exitRule": "1-3 day swing (stop -5% / take-profit +8% / hard exit Wed 6/3)",
-      "catalyst": "Q1 5/28 beat: adj EPS $1.74 vs $1.55, raised FY26 to $6.70-7.10. Trading ~$116 (6/1), +3.1% \u2014 inside band.",
-      "risks": "Discount-retail margins tariff-sensitive.",
-      "driver": "Post-earnings beat + guide raise",
-      "addedDate": "2026-05-29"
     },
     {
       "ticker": "MU",
@@ -220,30 +100,6 @@
       "addedDate": "2026-06-01"
     },
     {
-      "ticker": "FIVE",
-      "name": "Five Below Inc",
-      "sector": "Consumer Retail",
-      "shares": 15,
-      "entry": 228.49,
-      "exitRule": "Catalyst-defined (close into 6/3 AMC print)",
-      "catalyst": "Reports Q1 FY26 6/3 AMC (confirmed 4:30pm ET call). Value-retail discretionary with strong 2026 momentum into the print. Trading ~$228.",
-      "risks": "Discretionary/tariff-sensitive sourcing; rich after the run-up.",
-      "driver": "Pre-earnings setup (reports 6/3 AMC)",
-      "addedDate": "2026-06-01"
-    },
-    {
-      "ticker": "M",
-      "name": "Macy's Inc",
-      "sector": "Consumer Retail",
-      "shares": 160,
-      "entry": 21.78,
-      "exitRule": "Catalyst-defined (close into 6/3 AMC print)",
-      "catalyst": "Reports Q1 FY26 6/3; cons EPS $0.02 (low bar). 'Bold New Chapter' turnaround; ~3.4% yield, P/E ~9. Trading ~$22 \u2014 low-expectations value/cyclical leg.",
-      "risks": "Secular department-store decline; thin EPS bar.",
-      "driver": "Pre-earnings setup (reports 6/3)",
-      "addedDate": "2026-06-01"
-    },
-    {
       "ticker": "CIEN",
       "name": "Ciena Corporation",
       "sector": "AI Networking",
@@ -266,6 +122,126 @@
       "risks": "Choppy billings/retention; soft IAM ramp disappoints.",
       "driver": "Pre-earnings setup (reports 6/4 AMC)",
       "addedDate": "2026-06-01"
+    },
+    {
+      "ticker": "HPE",
+      "name": "Hewlett Packard Enterprise",
+      "sector": "IT / AI Hardware",
+      "shares": 63,
+      "entry": 54.9,
+      "exitRule": "Overnight (close Thu 6/4 open)",
+      "catalyst": "Q2 FY26 blowout \u2014 adj EPS $0.79 vs $0.54 cons, rev $10.68B vs $9.79B (biggest beat since 2018). Raised FY26 to 29-33% rev growth and EPS $3.35-3.45 on a record $6.3B AI-server backlog; top analysts hiking PTs. Trading ~$55 on 6/3.",
+      "risks": "Day-3 post-print continuation = chase risk after a ~30% run. Overnight exit caps carry.",
+      "driver": "Earnings beat + guide raise (AI servers)",
+      "addedDate": "2026-06-03"
+    },
+    {
+      "ticker": "MRVL",
+      "name": "Marvell Technology",
+      "sector": "AI Semis",
+      "shares": 12,
+      "entry": 290.79,
+      "exitRule": "Overnight (close Thu 6/4 open)",
+      "catalyst": "Nvidia CEO Jensen Huang called Marvell 'the next trillion-dollar company' onstage at Computex; +32% (6/2) and +10% premarket (6/3). Custom AI XPUs + optical; custom-silicon revenue guided to cross $10B by FY29.",
+      "risks": "Parabolic, sentiment-driven chase. Overnight exit to limit carry; reverses fast if the AI bid cools.",
+      "driver": "Nvidia CEO endorsement",
+      "addedDate": "2026-06-03"
+    },
+    {
+      "ticker": "ULTA",
+      "name": "Ulta Beauty",
+      "sector": "Consumer Retail",
+      "shares": 6,
+      "entry": 500.77,
+      "exitRule": "1-3 day swing (stop -5% / take-profit +8% / hard exit Fri 6/5)",
+      "catalyst": "Q1 beat \u2014 adj EPS $7.74 vs $6.87 cons, rev $3.16B (+11.1%); raised FY26 adj EPS to $28.36-28.80 and lifted op-income growth outlook. Beat+raise with a muted (under-owned) reaction.",
+      "risks": "Morgan Stanley cautious on guide flow-through and tougher 2H compares; muted reaction. -5% stop in place.",
+      "driver": "Earnings beat + guide raise",
+      "addedDate": "2026-06-03"
+    },
+    {
+      "ticker": "PANW",
+      "name": "Palo Alto Networks",
+      "sector": "Software (Cybersecurity)",
+      "shares": 10,
+      "entry": 325.11,
+      "exitRule": "1-3 day swing (stop -5% / take-profit +8% / hard exit Fri 6/5)",
+      "catalyst": "Q3 beat (EPS $0.85 vs $0.81; rev +31% to $3.0B; NGS ARR +60% to $8.13B), raised FY26 EPS to $3.77-3.79; +9% post-print. Two brokers (JPMorgan, Baird) hiked PT to $300; AI-security demand.",
+      "risks": "Near ATH (~$303) after the pop = chase risk. -5% stop in place.",
+      "driver": "Earnings beat+raise + multi-broker PT hikes",
+      "addedDate": "2026-06-03"
+    },
+    {
+      "ticker": "LRCX",
+      "name": "Lam Research",
+      "sector": "AI Semis",
+      "shares": 10,
+      "entry": 333.04,
+      "exitRule": "1-3 day swing (stop -5% / take-profit +8% / hard exit Fri 6/5)",
+      "catalyst": "Morgan Stanley upgrade to Overweight, PT $331, on a stronger NAND outlook, sustained systems shipments, margin expansion and DRAM positioning into the AI-memory cycle. Broke to a new 52w high (~$333).",
+      "risks": "Up ~80% YTD into a fresh high = chase risk; memory/WFE cyclical. -5% stop in place.",
+      "driver": "Analyst upgrade + breakout",
+      "addedDate": "2026-06-03"
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "sector": "AI Semis",
+      "shares": 7,
+      "entry": 482.93,
+      "exitRule": "Overnight (close Thu 6/4 open)",
+      "catalyst": "Semi-equipment breakout \u2014 +5.4% on 6/3 on the AI-chip-cycle bid (Nvidia/Marvell read-through), pressing a new 52w high (52w $154.47-$491.51). SMH/WFE group ripping.",
+      "risks": "Near 52w high, momentum-driven; 4th semi name (sector at the <=4 cap). Overnight exit caps carry.",
+      "driver": "Sector breakout (AI chip cycle)",
+      "addedDate": "2026-06-03"
+    },
+    {
+      "ticker": "VEEV",
+      "name": "Veeva Systems",
+      "sector": "Healthcare IT",
+      "shares": 19,
+      "entry": 182.94,
+      "exitRule": "Catalyst-defined (close into 6/3 AMC print)",
+      "catalyst": "Reports Q1 TODAY 6/3 AMC; cons ~12.9% rev growth. Life-sciences cloud leader; new 'Falcon' AI platform + major customer wins. Pre-earnings swing into tonight's print (52w $148.05-$310.50).",
+      "risks": "High-multiple SaaS into a binary print. Close into the 6/3 print.",
+      "driver": "Pre-earnings setup (reports 6/3 AMC)",
+      "addedDate": "2026-06-03"
+    },
+    {
+      "ticker": "CF",
+      "name": "CF Industries Holdings",
+      "sector": "Materials",
+      "shares": 30,
+      "entry": 114.4,
+      "exitRule": "Catalyst-defined (close into 6/3 AMC print)",
+      "catalyst": "Reports Q1 6/3 AMC. Low-cost nitrogen producer; tight global N balances and firm gas spreads support pricing. Pre-earnings swing; diversifies the book into materials (52w $75.42-$141.96).",
+      "risks": "Commodity/nat-gas swing + binary print; entry off the 6/2 $113.29-$115.50 range. Close into the 6/3 print.",
+      "driver": "Pre-earnings setup (reports 6/3 AMC)",
+      "addedDate": "2026-06-03"
+    },
+    {
+      "ticker": "A",
+      "name": "Agilent Technologies",
+      "sector": "Healthcare / Life Sciences",
+      "shares": 25,
+      "entry": 135.53,
+      "exitRule": "1-3 day swing (stop -5% / take-profit +8% / hard exit Fri 6/5)",
+      "catalyst": "Post-Q2 beat+raise momentum (5/27: core rev +6.3%, adj EPS $1.49; raised FY26 EPS to $6.00-6.10, +17% on the print) extended by a fresh BofA PT hike to $155 (Buy) on 6/3.",
+      "risks": "Earnings catalyst a few days old; single-broker PT refresh. -5% stop in place.",
+      "driver": "PT hike + post-earnings momentum",
+      "addedDate": "2026-06-03"
+    },
+    {
+      "ticker": "TTC",
+      "name": "The Toro Company",
+      "sector": "Industrials",
+      "shares": 38,
+      "entry": 89.87,
+      "exitRule": "Catalyst-defined (close into 6/4 print)",
+      "catalyst": "Reports Q2 FY26 6/4; cons EPS $1.50 on ~$1.39B rev. Beaten-down vs the 52w high $105.18 (52w $67.04-$105.18); low-expectations pre-earnings setup. Adds an industrials leg.",
+      "risks": "Soft outdoor demand and macro headwinds could pressure the guide. Close into the 6/4 print.",
+      "driver": "Pre-earnings setup (reports 6/4)",
+      "addedDate": "2026-06-03"
     }
   ]
 }
