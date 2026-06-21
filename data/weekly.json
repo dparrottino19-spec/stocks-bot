@@ -2,11 +2,11 @@
   "bookName": "Weekly Trader",
   "inceptionDate": "2026-05-13",
   "inceptionCapital": 70000,
-  "startingCapital": 76166.27,
-  "weekStart": "2026-06-15",
-  "weekEnd": "2026-06-19",
-  "lastUpdated": "2026-06-15T20:45:00Z",
-  "nextRefresh": "2026-06-21T18:00:00-04:00",
+  "startingCapital": 77486.64,
+  "weekStart": "2026-06-22",
+  "weekEnd": "2026-06-26",
+  "lastUpdated": "2026-06-21T23:11:55Z",
+  "nextRefresh": "2026-06-28T18:00:00-04:00",
   "rules": [
     "1-wk max hold",
     "<=10% per position",
@@ -14,127 +14,127 @@
     "Real-time catalyst-driven",
     "Max returns objective"
   ],
-  "priorWeekRealizedPnL": 316.93,
+  "priorWeekRealizedPnL": 1320.37,
   "positions": [
+    {
+      "ticker": "MU",
+      "name": "Micron Technology",
+      "sector": "Technology / Semis",
+      "shares": 5,
+      "entry": 1133.99,
+      "catalyst": "FQ3 earnings Wed 6/24 AMC; consensus EPS ~$19.95 on ~$34.7B rev (+276% YoY); TD Cowen/RBC/Aletheia PTs lifted to $1,200-$1,600 on HBM4/AI-memory demand into NVIDIA's Vera Rubin; ~700% 12-mo run; record ~81% GM guide.",
+      "risks": "Expectations very elevated into the print; prior blowout drew a bearish reaction; options imply a large move; chip/AI-complex beta.",
+      "driver": "Highest-momentum AI-memory leader with a marquee earnings catalyst inside the hold window."
+    },
     {
       "ticker": "NVDA",
       "name": "NVIDIA",
       "sector": "Technology / Semis",
-      "shares": 27,
-      "entry": 205.14,
-      "catalyst": "Multiple banks lifting PTs (consensus ~$300+) after guidance for expanded Blackwell shipments into 2H26; mgmt flags ~$1T cumulative Blackwell+Rubin demand by end-2027. Strong Buy consensus; risk-on de-escalation tape favors AI leaders.",
-      "risks": "FOMC Wed 6/17 macro swing; AI-capex sentiment; extended after the run.",
-      "driver": "AI bellwether near highs with a fresh upgrade cycle and intact data-center demand."
-    },
-    {
-      "ticker": "AMD",
-      "name": "Advanced Micro Devices",
-      "sector": "Technology / Semis",
-      "shares": 11,
-      "entry": 511.04,
-      "catalyst": "Citi upgrade + BofA PT to $560 on 6/12 (Venice/MI450 'Advancing AI' catalyst, top CPU pick); +130% YTD momentum, near 52w high.",
-      "risks": "Crowded AI long; FOMC volatility; product event (7/22-23) is weeks out so near-term driver is the analyst re-rating.",
-      "driver": "Highest-momentum large-cap semi with back-to-back 6/12 upgrades confirming the trend."
+      "shares": 28,
+      "entry": 210.69,
+      "catalyst": "Multi-bank PT-hike cycle on expanded Blackwell shipments into 2H26; ~$1T cumulative Blackwell+Rubin demand framing; risk-on tape after the US-Iran ceasefire framework (6/18); MU's 6/24 print is a direct read-through.",
+      "risks": "Extended after the run; AI-capex sentiment; PCE print 6/26; crowded long.",
+      "driver": "AI bellwether breaking higher with intact data-center demand and a fresh upgrade cycle."
     },
     {
       "ticker": "AVGO",
       "name": "Broadcom",
       "sector": "Technology / Semis",
       "shares": 14,
-      "entry": 382.07,
-      "catalyst": "Recovering the post-earnings (6/4) gap; reiterated >$100B AI-semi revenue runway; six custom-silicon customers (Anthropic, Google, Meta, OpenAI). Buy consensus reaffirmed 6/13.",
-      "risks": "Software-segment softness flagged on the print; momentum mixed; still ~15% below the May high.",
-      "driver": "Quality AI custom-silicon franchise bouncing off the earnings flush with PT support."
+      "entry": 411.35,
+      "catalyst": "Reclaimed and extended past the 6/4 earnings gap to ~$411; >$100B AI-semi runway reiterated; custom-silicon franchise (Anthropic/Google/Meta/OpenAI); Buy consensus; risk-on tailwind.",
+      "risks": "Software-segment softness; high absolute level; AI-sentiment beta; PCE 6/26.",
+      "driver": "Quality AI custom-silicon name with confirmed breakout momentum and PT support."
     },
     {
-      "ticker": "GS",
-      "name": "Goldman Sachs",
-      "sector": "Financials",
-      "shares": 5,
-      "entry": 1062.95,
-      "catalyst": "New all-time high Fri 6/12; bank/value rotation persists with record Wall Street deal flow; capital-markets reacceleration.",
-      "risks": "FOMC rate/curve swing 6/17; capital-markets cyclicality; coarse sizing at a high share price.",
-      "driver": "Bulge-bracket leader breaking out as the financials rotation broadens."
-    },
-    {
-      "ticker": "JPM",
-      "name": "JPMorgan Chase",
-      "sector": "Financials",
-      "shares": 17,
-      "entry": 320.71,
-      "catalyst": "Near highs on the financials rotation; resilient NII and capital returns; broadening rally (equal-weight/Russell new highs) favors money-center banks.",
-      "risks": "FOMC 6/17 rate risk; credit-cycle concerns; broad-financial beta.",
-      "driver": "Highest-quality money-center bank riding the rotation into value."
-    },
-    {
-      "ticker": "MS",
-      "name": "Morgan Stanley",
-      "sector": "Financials",
-      "shares": 26,
-      "entry": 214.04,
-      "catalyst": "Fresh 52w high Fri 6/12; wealth-management + IB rebound alongside GS on record deal flow.",
-      "risks": "Markets-revenue cyclicality; rate sensitivity into FOMC; momentum-chase.",
-      "driver": "Wealth/IB franchise confirming the capital-markets reacceleration with a breakout."
+      "ticker": "FDX",
+      "name": "FedEx",
+      "sector": "Industrials",
+      "shares": 18,
+      "entry": 326.2,
+      "catalyst": "FQ4 earnings Tue 6/23 AMC; Strong Buy 17/21, avg PT ~$412; ~40% YTD near highs; Network 2.0 cost saves (>$2B by 2029), Amazon oversized-parcel share gains, Freight spin-off monetization.",
+      "risks": "Complicated print (Freight spin calendarization/restatements); options imply ~7.7% move; macro-cyclical.",
+      "driver": "Transport bellwether near highs into an earnings catalyst with broad Street support."
     },
     {
       "ticker": "GE",
       "name": "GE Aerospace",
       "sector": "Industrials",
       "shares": 16,
-      "entry": 335.25,
-      "catalyst": "Near 52w high ($348); Strong Buy consensus; aftermarket/engine demand; broadening-rally bid into industrials.",
-      "risks": "Rich valuation near the high; cyclical aero exposure; broad-tape beta.",
-      "driver": "Best-in-class aero-engine franchise with momentum into the high."
+      "entry": 357.64,
+      "catalyst": "Fresh all-time high 6/18 ($364.70 intraday); Strong Buy consensus; aftermarket/engine demand; cited 26% production lift; broadening-rally bid into aero/industrials.",
+      "risks": "Rich valuation at the high; cyclical aero exposure; broad-tape beta; PCE 6/26.",
+      "driver": "Best-in-class aero-engine franchise printing new highs."
     },
     {
       "ticker": "CAT",
       "name": "Caterpillar",
       "sector": "Industrials",
       "shares": 6,
-      "entry": 911.08,
-      "catalyst": "Industrials lead the 2026 rotation; CAT near 52w high ($931) on infrastructure / AI-datacenter buildout demand.",
-      "risks": "Cyclical/tariff exposure; high absolute level; FOMC macro.",
-      "driver": "Bellwether industrial riding rotation into machinery / infrastructure."
+      "entry": 985.82,
+      "catalyst": "+3.4% on 6/18 to ~$986, just below the ATH ($994); +60% YTD; infrastructure / AI-datacenter buildout demand; industrials leadership in the 2026 rotation.",
+      "risks": "Cyclical/tariff exposure; high absolute level; extended; macro/PCE.",
+      "driver": "Machinery bellwether riding rotation with momentum into its all-time high."
     },
     {
-      "ticker": "ETN",
-      "name": "Eaton",
-      "sector": "Industrials",
-      "shares": 14,
-      "entry": 391.39,
-      "catalyst": "AI-datacenter electrification leader; momentum back toward the May high ($435); electrical-infrastructure backlog from hyperscaler power buildout.",
-      "risks": "Datacenter-capex sentiment; cyclical; FOMC swing.",
-      "driver": "Pure-play on the power/electrical side of the AI buildout with momentum re-accelerating."
+      "ticker": "GS",
+      "name": "Goldman Sachs",
+      "sector": "Financials",
+      "shares": 5,
+      "entry": 1096.56,
+      "catalyst": "Fresh all-time highs into 6/18; bank/value rotation persists with record Wall Street deal flow; capital-markets reacceleration; risk-on de-escalation tape.",
+      "risks": "Capital-markets cyclicality; coarse sizing at a high share price; PCE 6/26.",
+      "driver": "Bulge-bracket leader extending its breakout as the financials rotation broadens."
+    },
+    {
+      "ticker": "MS",
+      "name": "Morgan Stanley",
+      "sector": "Financials",
+      "shares": 26,
+      "entry": 223.17,
+      "catalyst": "New all-time high 6/18 ($230.47 intraday); wealth-management + IB rebound alongside GS on record deal flow; risk-on tape.",
+      "risks": "Markets-revenue cyclicality; momentum-chase near highs; macro/PCE.",
+      "driver": "Wealth/IB franchise confirming the capital-markets reacceleration with a breakout."
+    },
+    {
+      "ticker": "JPM",
+      "name": "JPMorgan Chase",
+      "sector": "Financials",
+      "shares": 18,
+      "entry": 325.2,
+      "catalyst": "Fresh all-time high 6/18 ($338 intraday); resilient NII/capital returns; broadening rally favors money-center banks; risk-on de-escalation.",
+      "risks": "Credit-cycle concerns; broad-financial beta; rate/curve swings; PCE 6/26.",
+      "driver": "Highest-quality money-center bank printing new highs in the value rotation."
+    },
+    {
+      "ticker": "CCL",
+      "name": "Carnival",
+      "sector": "Consumer Discretionary",
+      "shares": 188,
+      "entry": 30.9,
+      "catalyst": "FQ2 earnings Tue 6/23 BMO; +25% over the past month; beat in each of the last 4 quarters (avg +25%); Strait of Hormuz reopening/ceasefire a direct travel tailwind; ~85% of 2026 inventory booked at high prices.",
+      "risks": "Options imply ~7% move; consumer-spend sensitivity; leverage; fuel-price swings.",
+      "driver": "High-beta travel name with an earnings catalyst plus a fresh geopolitical de-escalation tailwind."
+    },
+    {
+      "ticker": "DRI",
+      "name": "Darden Restaurants",
+      "sector": "Consumer Discretionary",
+      "shares": 27,
+      "entry": 213.45,
+      "catalyst": "FQ4 earnings Thu 6/25 BMO; consensus EPS ~$3.64 on ~$3.73B rev (YoY growth); Olive Garden promotion momentum; history of moving more than the implied ~5.5%.",
+      "risks": "Single-name event risk; consumer-discretionary spend; guidance-driven.",
+      "driver": "Defensive-growth restaurant operator with an in-window earnings catalyst."
     },
     {
       "ticker": "LLY",
       "name": "Eli Lilly",
       "sector": "Health Care",
       "shares": 5,
-      "entry": 1133.0,
-      "catalyst": "Near 52w high ($1,149); GLP-1 franchise momentum (oral orforglipron rollout); strong rebound from spring lows on raised guidance.",
-      "risks": "GLP-1 competitive/pricing headlines; high absolute level; single-stock event risk.",
-      "driver": "Mega-cap healthcare momentum leader; defensive-growth diversifier near highs."
-    },
-    {
-      "ticker": "KMX",
-      "name": "CarMax",
-      "sector": "Consumer Discretionary",
-      "shares": 107,
-      "entry": 51.28,
-      "catalyst": "FQ1 earnings Wed 6/17 BMO; options imply ~12% move; activist stake pushing digital/cost changes; beat 3 of last 4 quarters (+54.5% last surprise).",
-      "risks": "YoY EPS decline expected; high single-name event risk; consumer/affordability pressure.",
-      "driver": "High-beta earnings catalyst with activist support and positive pre-positioning."
-    },
-    {
-      "ticker": "KR",
-      "name": "Kroger",
-      "sector": "Consumer Staples",
-      "shares": 85,
-      "entry": 64.7,
-      "catalyst": "FQ1 earnings Thu 6/18 BMO; defensive staple with steady buybacks; idiosyncratic earnings catalyst plus low-beta ballast into FOMC.",
-      "risks": "Soft recent share trend; grocery-margin/competition; guidance-driven.",
-      "driver": "Defensive earnings catalyst offering ballast against the week's macro (FOMC) risk."
+      "entry": 1098.13,
+      "catalyst": "Near 52w high ($1,149); GLP-1 franchise momentum (oral orforglipron rollout); raised guidance; defensive-growth diversifier on a risk-on tape.",
+      "risks": "GLP-1 competitive/pricing headlines; soft last week (-3%); high absolute level; single-stock risk.",
+      "driver": "Mega-cap healthcare momentum leader providing sector diversification."
     }
   ]
 }
