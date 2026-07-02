@@ -1,0 +1,19 @@
+{
+  "bookName": "Moonshot Stocks",
+  "inceptionDate": "2026-07-02",
+  "inceptionCapital": 10000,
+  "startingCapital": 10000,
+  "tradeDate": "2026-07-02",
+  "lastUpdated": "2026-07-02T22:30:00Z",
+  "nextRefresh": "2026-07-03T08:35:00-05:00",
+  "positionCapPct": 100,
+  "rules": [
+    "1 stock/day, 100% intraday",
+    "Flat by close — no overnight",
+    "Hard stop set at entry",
+    "Cash on low-conviction days",
+    "US equities only — no ETFs, crypto, or options"
+  ],
+  "priorRealizedPnL": 0,
+  "positions": []
+}
