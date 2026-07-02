@@ -4,16 +4,30 @@
   "inceptionCapital": 10000,
   "startingCapital": 10000,
   "tradeDate": "2026-07-02",
-  "lastUpdated": "2026-07-02T22:45:00Z",
+  "lastUpdated": "2026-07-02T13:30:00Z",
   "nextRefresh": "2026-07-03T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
     "Spot crypto only (BTC, ETH, SOL, and other liquid coins on Robinhood)",
-    "Rotate each 6:45am CT run — sell yesterday, buy today's best",
-    "Runs every day — crypto trades 24/7",
+    "Rotate each 6:45am CT run \u2014 sell yesterday, buy today's best",
+    "Runs every day \u2014 crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
   "priorRealizedPnL": 0,
-  "positions": []
+  "positions": [
+    {
+      "ticker": "SOL",
+      "name": "Solana",
+      "sector": "Crypto",
+      "shares": 128.534704,
+      "entry": 77.8,
+      "stopPrice": 70.02,
+      "exitRule": "Rotate next 6:45am CT run",
+      "catalyst": "Spot SOL ETFs pulling ~$33M weekly inflows while BTC ETFs bleed; Alpenglow consensus upgrade (150ms finality) + Phantom prediction-market launch",
+      "driver": "Clear relative strength: SOL +5.8% 24h / +16% 7d vs BTC +1.7% and ETH +4.65%; asymmetric momentum with definable stop",
+      "risks": "High-beta alt \u2014 sharp reversal if BTC rolls over or Jul 28-29 Fed turns hawkish; ETF outflow contagion; resistance ~$82/$95",
+      "addedDate": "2026-07-02"
+    }
+  ]
 }
