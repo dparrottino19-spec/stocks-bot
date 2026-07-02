@@ -1,0 +1,19 @@
+{
+  "bookName": "Moonshot Crypto",
+  "inceptionDate": "2026-07-02",
+  "inceptionCapital": 10000,
+  "startingCapital": 10000,
+  "tradeDate": "2026-07-02",
+  "lastUpdated": "2026-07-02T22:45:00Z",
+  "nextRefresh": "2026-07-03T06:45:00-05:00",
+  "positionCapPct": 100,
+  "rules": [
+    "1 all-in crypto pick per day, 100% deployed",
+    "Spot crypto only (BTC, ETH, SOL, and other liquid coins on Robinhood)",
+    "Rotate each 6:45am CT run — sell yesterday, buy today's best",
+    "Runs every day — crypto trades 24/7",
+    "Hard stop at entry; leverage conviction, protect downside"
+  ],
+  "priorRealizedPnL": 0,
+  "positions": []
+}
