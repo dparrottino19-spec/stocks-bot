@@ -6,7 +6,7 @@
 <title>Stocks Bot — Paper Trading Dashboard</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.js"></script>
 <style>
-:root { color-scheme: light dark; --bg:#fafafa; --fg:#1a1a1a; --card:#fff; --border:#e5e5e5; --muted:#777; --sub:#888; --pos:#047857; --neg:#b91c1c; --pill-w:#1e40af; --pill-d:#c2410c; }
+:root { color-scheme: light dark; --bg:#fafafa; --fg:#1a1a1a; --card:#fff; --border:#e5e5e5; --muted:#777; --sub:#888; --pos:#047857; --neg:#b91c1c; --pill-w:#1e40af; --pill-d:#c2410c; --pill-c:#6d28d9; --pill-m:#be123c; }
 @media (prefers-color-scheme: dark) { :root { --bg:#0b0f14; --fg:#e8eef5; --card:#141a22; --border:#243040; --muted:#8a98a8; --sub:#6a7686; --pos:#34d399; --neg:#f87171; } }
 * { box-sizing: border-box; }
 body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; background:var(--bg); color:var(--fg); font-size:14px; line-height:1.5; }
@@ -25,6 +25,8 @@ body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
 .pill { display:inline-block; color:#fff; padding:3px 10px; border-radius:4px; font-size:11px; font-weight:600; letter-spacing:0.04em; text-transform:uppercase; margin-right:6px; }
 .pill.weekly { background:var(--pill-w); }
 .pill.daily { background:var(--pill-d); }
+.pill.conviction { background:var(--pill-c); }
+.pill.moonshot { background:var(--pill-m); }
 .rules-bar { background:var(--card); border:1px solid var(--border); border-radius:6px; padding:10px 14px; margin-bottom:16px; font-size:12.5px; color:var(--muted); display:flex; gap:14px; flex-wrap:wrap; }
 .summary-grid { display:grid; grid-template-columns:repeat(6,1fr); gap:10px; margin-bottom:20px; }
 @media (max-width:1100px) { .summary-grid { grid-template-columns:repeat(3,1fr); } }
@@ -80,7 +82,7 @@ table.positions tr:last-child td { border-bottom:none; }
 <div class="header">
   <div>
     <h1>Stocks Bot Dashboard</h1>
-    <div class="subtitle">$70,000 paper account · Weekly + Daily strategies · Hypothetical performance only</div>
+    <div class="subtitle">Paper accounts · Weekly · Daily · Conviction · Moonshot strategies · Hypothetical performance only</div>
   </div>
   <div class="actions">
     <button class="btn secondary" id="refreshBtn">↻ Refresh Prices</button>
@@ -91,6 +93,8 @@ table.positions tr:last-child td { border-bottom:none; }
 <div class="tabs">
   <button class="tab active" data-view="weekly">Weekly</button>
   <button class="tab" data-view="daily">Daily</button>
+  <button class="tab" data-view="conviction">Conviction</button>
+  <button class="tab" data-view="moonshot">Moonshot</button>
   <button class="tab" data-view="history">History</button>
 </div>
 
@@ -108,11 +112,11 @@ table.positions tr:last-child td { border-bottom:none; }
 const state = {
   activeView: "weekly",
   activeBook: "weekly",
-  books: { weekly: null, daily: null },
+  books: { weekly: null, daily: null, conviction: null, moonshot: null },
   trades: [],
   prices: {},
   priceAsOf: null,
-  benchmark: { weekly: null, daily: null },
+  benchmark: { weekly: null, daily: null, conviction: null, moonshot: null },
   historyFilters: { book: "all", action: "all" }
 };
 
@@ -165,6 +169,8 @@ function renderHistory() {
       <button class="filter-btn ${state.historyFilters.book === "all" ? "active" : ""}" data-filter="book" data-value="all">All books</button>
       <button class="filter-btn ${state.historyFilters.book === "weekly" ? "active" : ""}" data-filter="book" data-value="weekly">Weekly</button>
       <button class="filter-btn ${state.historyFilters.book === "daily" ? "active" : ""}" data-filter="book" data-value="daily">Daily</button>
+      <button class="filter-btn ${state.historyFilters.book === "conviction" ? "active" : ""}" data-filter="book" data-value="conviction">Conviction</button>
+      <button class="filter-btn ${state.historyFilters.book === "moonshot" ? "active" : ""}" data-filter="book" data-value="moonshot">Moonshot</button>
       <span class="filter-sep">·</span>
       <button class="filter-btn ${state.historyFilters.action === "all" ? "active" : ""}" data-filter="action" data-value="all">All actions</button>
       <button class="filter-btn ${state.historyFilters.action === "BUY" ? "active" : ""}" data-filter="action" data-value="BUY">Buys</button>
@@ -294,7 +300,12 @@ function renderBook() {
 
   const positions = book.positions || [];
   if (positions.length === 0) {
-    const isDaily = state.activeBook === "daily";
+    const emptyMsg = {
+      daily: "Next picks will appear after the 7am ET weekday run.",
+      conviction: "In cash — either no pick clears the conviction bar today, or today's intraday position is already closed. The next pick appears after the 7am ET weekday run.",
+      moonshot: "In cash between rotations. The next single all-in pick appears after the 6:30am CT daily run (crypto-only on weekends).",
+      weekly: "Next picks will appear after Sunday 6pm ET."
+    }[state.activeBook] || "Next picks will appear on the next scheduled run.";
     container.innerHTML = `
       <div class="rules-bar">
         <span><span class="pill ${state.activeBook}">${state.activeBook}</span></span>
@@ -302,7 +313,7 @@ function renderBook() {
       </div>
       <div class="empty">
         <strong>No open positions.</strong><br>
-        ${isDaily ? "Next picks will appear after the 7am ET weekday run." : "Next picks will appear after Sunday 6pm ET."}
+        ${emptyMsg}
       </div>`;
     return;
   }
@@ -336,11 +347,12 @@ function renderBook() {
     </div>
     <div class="summary-grid">
       <div class="stat-card"><div class="label">Total Value</div><div class="value ${colorClass(pnl)}">${fmtMoney(totalValue)}</div><div class="sub ${colorClass(pnl)}">${pnl>=0?"+":""}${fmtMoney(pnl)} (${fmtPct(pnlPct)}) since inception${book.inceptionDate ? " " + book.inceptionDate : ""}</div></div>
+      <div class="stat-card"><div class="label">Total Return</div><div class="value ${colorClass(pnl)}">${fmtPct(pnlPct)}</div><div class="sub ${colorClass(pnl)}">${pnl>=0?"+":""}${fmtMoney(pnl)} vs ${fmtMoney(inceptionCapital)} start</div></div>
       <div class="stat-card"><div class="label">Unrealized P&L</div><div class="value ${colorClass(unrealized)}">${unrealized>=0?"+":""}${fmtMoney(unrealized)}</div><div class="sub ${colorClass(unrealized)}">${fmtPct(unrealizedPct)} on ${fmtMoney(cost)} deployed</div></div>
       ${renderBenchmarkCard(pnlPct)}
       <div class="stat-card"><div class="label">Cash</div><div class="value">${fmtMoney(cash)}</div><div class="sub">${((cash/totalValue)*100).toFixed(1)}% of book</div></div>
       <div class="stat-card"><div class="label">Positions</div><div class="value">${positions.length}</div><div class="sub">${fmtMoney(deployed)} deployed</div></div>
-      <div class="stat-card"><div class="label">Max Position</div><div class="value">${maxPct.toFixed(1)}%</div><div class="sub">cap 10.0%</div></div>
+      <div class="stat-card"><div class="label">Max Position</div><div class="value">${maxPct.toFixed(1)}%</div><div class="sub">cap ${(book.positionCapPct ?? 10).toFixed(1)}%</div></div>
     </div>`;
 
   const posRows = positions.map(p => {
@@ -456,14 +468,16 @@ async function refreshPrices() {
     state.priceAsOf = result.asOf;
     if (result.benchmark) state.benchmark[state.activeBook] = result.benchmark;
 
-    // For the inactive book, fetch its benchmark in the background so the tab is ready when switched
-    const otherBook = state.activeBook === "weekly" ? "daily" : "weekly";
-    const otherStart = bookStartDate(state.books[otherBook], otherBook);
-    if (otherStart && (state.books[otherBook]?.positions || []).length > 0) {
-      fetchLivePrices([...tickers].slice(0,1), otherStart).then(r => {
-        if (r.benchmark) { state.benchmark[otherBook] = r.benchmark; if (state.activeBook === otherBook) renderActiveView(); }
-      }).catch(() => {});
-    }
+    // For every other book, fetch its benchmark in the background so each tab is ready when switched
+    Object.keys(state.books).forEach(otherBook => {
+      if (otherBook === state.activeBook) return;
+      const otherStart = bookStartDate(state.books[otherBook], otherBook);
+      if (otherStart && (state.books[otherBook]?.positions || []).length > 0) {
+        fetchLivePrices([...tickers].slice(0,1), otherStart).then(r => {
+          if (r.benchmark) { state.benchmark[otherBook] = r.benchmark; if (state.activeBook === otherBook) renderActiveView(); }
+        }).catch(() => {});
+      }
+    });
 
     const stamp = new Date(result.asOf).toLocaleTimeString([], { hour:"2-digit", minute:"2-digit" });
     statusEl.textContent = `live: ${result.count}/${tickers.size} at ${stamp}`;
@@ -489,7 +503,7 @@ async function init() {
       document.querySelectorAll(".tab").forEach(x => x.classList.remove("active"));
       t.classList.add("active");
       state.activeView = t.dataset.view;
-      if (state.activeView === "weekly" || state.activeView === "daily") {
+      if (state.activeView !== "history") {
         state.activeBook = state.activeView;
       }
       renderActiveView();
@@ -498,13 +512,17 @@ async function init() {
   document.getElementById("refreshBtn").addEventListener("click", refreshPrices);
 
   try {
-    const [weekly, daily, trades] = await Promise.all([
+    const [weekly, daily, conviction, moonshot, trades] = await Promise.all([
       loadBook("weekly"),
       loadBook("daily"),
+      loadBook("conviction").catch(() => null),
+      loadBook("moonshot").catch(() => null),
       loadTrades()
     ]);
     state.books.weekly = weekly;
     state.books.daily = daily;
+    state.books.conviction = conviction;
+    state.books.moonshot = moonshot;
     state.trades = trades;
     renderActiveView();
     refreshPrices();
