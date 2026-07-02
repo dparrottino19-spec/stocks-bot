@@ -4,7 +4,7 @@
   "inceptionCapital": 10000,
   "startingCapital": 10000,
   "tradeDate": "2026-07-02",
-  "lastUpdated": "2026-07-02T22:30:00Z",
+  "lastUpdated": "2026-07-02T22:52:00Z",
   "nextRefresh": "2026-07-03T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
@@ -15,5 +15,19 @@
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
   "priorRealizedPnL": 0,
-  "positions": []
+  "positions": [
+    {
+      "ticker": "ETH-USD",
+      "name": "Ethereum",
+      "sector": "Crypto",
+      "shares": 5.899705,
+      "entry": 1695.00,
+      "stopPrice": 1525.50,
+      "exitRule": "Rotate next 6:30am CT run",
+      "catalyst": "Dovish Fed (Warsh eased inflation fears) + cooler June jobs (57K vs 113K est) sparked a risk-on relief rally off 20-month lows; ETH leading the crypto bounce (~+9% on the day) from Extreme Fear (F&G 11).",
+      "driver": "Spot ETH is the momentum leader of a dovish-Fed risk-on bounce and trades continuously through the Jul 3 holiday + weekend (equity market closed), avoiding leveraged-ETF decay and Monday gap-through-stop risk on a multi-day hold.",
+      "risks": "Weekend risk-off reversal; record June ETF outflows ($4.5B) and cautious institutional sentiment overhang; ETH higher-beta so a broad crypto fade hits it harder than BTC. Spot (unleveraged) bounds the drawdown to ETH's own volatility.",
+      "addedDate": "2026-07-02"
+    }
+  ]
 }
