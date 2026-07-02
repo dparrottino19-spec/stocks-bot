@@ -4,7 +4,7 @@
   "inceptionCapital": 10000,
   "startingCapital": 10000,
   "tradeDate": "2026-07-02",
-  "lastUpdated": "2026-07-02T23:05:00Z",
+  "lastUpdated": "2026-07-02T22:57:00Z",
   "nextRefresh": "2026-07-06T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
@@ -15,5 +15,19 @@
     "Cash on low-conviction days"
   ],
   "priorRealizedPnL": 0,
-  "positions": []
+  "positions": [
+    {
+      "ticker": "RIVN",
+      "name": "Rivian Automotive",
+      "sector": "Consumer Discretionary — Auto Manufacturers",
+      "shares": 537.056928,
+      "entry": 18.62,
+      "stopPrice": 17.5,
+      "exitRule": "Rotate next weekday 6:35am CT run",
+      "catalyst": "Q2 2026 deliveries 12,194 beat own 9-11k guide (consensus ~10.5k); raised FY26 delivery guidance to 65-70k from 62-67k on R1/EDV demand + start of R2 SUV deliveries. Needham reiterated Buy, $23 PT.",
+      "driver": "Fresh fundamental re-rating on delivery beat + guidance raise with R2 ramp beginning; clear upward direction. Faded from $19.79 intraday peak to ~$18.62, so entry is off the highs rather than chasing the top.",
+      "risks": "EV demand/margin sensitivity; high beta; 3-day holiday-weekend gap risk (mkt closed Fri 7/3, held into Mon 7/6); broad tech/growth was weak on 7/2. Hard stop 6% below entry.",
+      "addedDate": "2026-07-02"
+    }
+  ]
 }
