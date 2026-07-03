@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10000,
-  "tradeDate": "2026-07-02",
-  "lastUpdated": "2026-07-02T22:52:00Z",
-  "nextRefresh": "2026-07-03T06:30:00-05:00",
+  "startingCapital": 10257.23,
+  "tradeDate": "2026-07-03",
+  "lastUpdated": "2026-07-03T11:45:00Z",
+  "nextRefresh": "2026-07-06T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": 0,
+  "priorRealizedPnL": 257.23,
   "positions": [
     {
-      "ticker": "ETH-USD",
-      "name": "Ethereum",
+      "ticker": "BTC-USD",
+      "name": "Bitcoin",
       "sector": "Crypto",
-      "shares": 5.899705,
-      "entry": 1695.00,
-      "stopPrice": 1525.50,
+      "shares": 0.165926,
+      "entry": 61818.28,
+      "stopPrice": 55636.45,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Dovish Fed (Warsh eased inflation fears) + cooler June jobs (57K vs 113K est) sparked a risk-on relief rally off 20-month lows; ETH leading the crypto bounce (~+9% on the day) from Extreme Fear (F&G 11).",
-      "driver": "Spot ETH is the momentum leader of a dovish-Fed risk-on bounce and trades continuously through the Jul 3 holiday + weekend (equity market closed), avoiding leveraged-ETF decay and Monday gap-through-stop risk on a multi-day hold.",
-      "risks": "Weekend risk-off reversal; record June ETF outflows ($4.5B) and cautious institutional sentiment overhang; ETH higher-beta so a broad crypto fade hits it harder than BTC. Spot (unleveraged) bounds the drawdown to ETH's own volatility.",
-      "addedDate": "2026-07-02"
+      "catalyst": "BTC broke above the key $61K resistance (former ceiling now support) on the dovish-Fed/cooler-jobs risk-on relief rally, consolidating $61.0-61.8K; broad crypto follow-through (ETH +~5%, SOL firm) confirms buyer control.",
+      "driver": "Un-rotatable 3-day hold (Jul 3 equity holiday + weekend, no rotation until Mon 6:30am CT), so downside protection dominates: spot BTC is the lowest-vol major, offering risk-on participation with the least single-asset flush risk. $61K reclaim gives a tight, defined invalidation while the relief-rally momentum stays intact.",
+      "risks": "Weekend risk-off reversal back below $61K support (retest $59-60K); thinner holiday/weekend liquidity can amplify a flush. Spot (unleveraged) bounds the drawdown to BTC's own volatility; SOL was avoided (crowded 78% longs, flush-prone) and ETH is higher-beta.",
+      "addedDate": "2026-07-03"
     }
   ]
 }
