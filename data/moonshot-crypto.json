@@ -2,32 +2,32 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10000,
-  "tradeDate": "2026-07-02",
-  "lastUpdated": "2026-07-02T22:52:00Z",
-  "nextRefresh": "2026-07-03T06:45:00-05:00",
+  "startingCapital": 10116.74,
+  "tradeDate": "2026-07-03",
+  "lastUpdated": "2026-07-03T11:55:00Z",
+  "nextRefresh": "2026-07-04T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
     "Spot crypto only (BTC, ETH, SOL, and other liquid coins on Robinhood)",
-    "Rotate each 6:45am CT run \u2014 sell yesterday, buy today's best",
-    "Runs every day \u2014 crypto trades 24/7",
+    "Rotate each 6:45am CT run — sell yesterday, buy today's best",
+    "Runs every day — crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 0,
+  "priorRealizedPnL": 116.74,
   "positions": [
     {
-      "ticker": "SOL",
-      "name": "Solana",
+      "ticker": "ETH",
+      "name": "Ethereum",
       "sector": "Crypto",
-      "shares": 124.192747,
-      "entry": 80.52,
-      "stopPrice": 72.47,
+      "shares": 5.813116,
+      "entry": 1740.33,
+      "stopPrice": 1601.1,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "Spot SOL ETFs pulling ~$33M weekly inflows while BTC ETFs bleed; Alpenglow consensus upgrade (150ms finality) + Phantom prediction-market launch",
-      "driver": "Clear relative strength vs BTC/ETH into a dovish-Fed risk-on bounce; asymmetric momentum with a definable stop. Entry marked to the live feed at run time.",
-      "risks": "High-beta alt \u2014 sharp reversal if BTC rolls over or Jul 28-29 Fed turns hawkish; ETF outflow contagion; resistance ~$82/$95",
-      "addedDate": "2026-07-02"
+      "catalyst": "Fresh relative-strength leadership on dovish-Fed risk-on bounce (Warsh: inflation risks eased); ETH +~10% on the week, +4.8% today as tech/AI rebound eases pressure on the trade",
+      "driver": "Liquid major leading the tape today with more room before major resistance vs an extended SOL sitting at ~$82.73 after a ~19% weekly run; asymmetric momentum with a definable 8% stop and major-coin downside protection. Entry marked to the live feed at run time.",
+      "risks": "Sharp reversal if the risk-on bounce fades or BTC rolls back under $61k; Jul 28-29 Fed could turn hawkish; ETH resistance overhead ~$1,800",
+      "addedDate": "2026-07-03"
     }
   ]
 }
