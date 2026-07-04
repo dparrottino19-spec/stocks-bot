@@ -2,32 +2,32 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10257.23,
-  "tradeDate": "2026-07-03",
-  "lastUpdated": "2026-07-03T11:45:00Z",
-  "nextRefresh": "2026-07-06T06:30:00-05:00",
+  "startingCapital": 10363.08,
+  "tradeDate": "2026-07-04",
+  "lastUpdated": "2026-07-04T11:45:00Z",
+  "nextRefresh": "2026-07-05T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
     "Any liquid asset: stock, crypto, or leveraged/inverse ETF",
-    "Rotate each 6:30am CT run — sell yesterday, buy today's best",
+    "Rotate each 6:30am CT run \u2014 sell yesterday, buy today's best",
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": 257.23,
+  "priorRealizedPnL": 363.08,
   "positions": [
     {
-      "ticker": "BTC-USD",
-      "name": "Bitcoin",
+      "ticker": "SOL-USD",
+      "name": "Solana",
       "sector": "Crypto",
-      "shares": 0.165926,
-      "entry": 61818.28,
-      "stopPrice": 55636.45,
+      "shares": 126.70356,
+      "entry": 81.79,
+      "stopPrice": 73.61,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "BTC broke above the key $61K resistance (former ceiling now support) on the dovish-Fed/cooler-jobs risk-on relief rally, consolidating $61.0-61.8K; broad crypto follow-through (ETH +~5%, SOL firm) confirms buyer control.",
-      "driver": "Un-rotatable 3-day hold (Jul 3 equity holiday + weekend, no rotation until Mon 6:30am CT), so downside protection dominates: spot BTC is the lowest-vol major, offering risk-on participation with the least single-asset flush risk. $61K reclaim gives a tight, defined invalidation while the relief-rally momentum stays intact.",
-      "risks": "Weekend risk-off reversal back below $61K support (retest $59-60K); thinner holiday/weekend liquidity can amplify a flush. Spot (unleveraged) bounds the drawdown to BTC's own volatility; SOL was avoided (crowded 78% longs, flush-prone) and ETH is higher-beta.",
-      "addedDate": "2026-07-03"
+      "catalyst": "SOL just reclaimed the pivotal $80 resistance (live $81.79) after a ~19% week, the strongest major-crypto momentum. Fresh ecosystem catalysts: surging tokenized-stock trading on Solana and the launch of World, a new on-chain prediction market, driving real network activity and outperformance vs BTC/ETH.",
+      "driver": "Weekend/holiday = spot-crypto-only; among the majors SOL offers the most asymmetric next-24h payoff \u2014 a clean breakout over $80 opens a technical path toward ~$120, with tight invalidation on a loss of $80. Spot (unleveraged) caps drawdown to SOL's own vol; no leverage stacked on an already-extended move.",
+      "risks": "SOL is the highest-beta major and positioning has been crowded long \u2014 a failed breakout back below $80 (retest $76-78) or a thin-liquidity weekend risk-off flush is the key risk. The 10% hard stop ($73.61) bounds the downside; BTC (lower-vol, already up) and ETH (mid-momentum) were the safer runners-up.",
+      "addedDate": "2026-07-04"
     }
   ]
 }
