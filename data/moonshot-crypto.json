@@ -2,32 +2,32 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10116.74,
-  "tradeDate": "2026-07-03",
-  "lastUpdated": "2026-07-03T11:55:00Z",
-  "nextRefresh": "2026-07-04T06:45:00-05:00",
+  "startingCapital": 10106.68,
+  "tradeDate": "2026-07-04",
+  "lastUpdated": "2026-07-04T11:54:43Z",
+  "nextRefresh": "2026-07-05T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
     "Spot crypto only (BTC, ETH, SOL, and other liquid coins on Robinhood)",
-    "Rotate each 6:45am CT run — sell yesterday, buy today's best",
-    "Runs every day — crypto trades 24/7",
+    "Rotate each 6:45am CT run \u2014 sell yesterday, buy today's best",
+    "Runs every day \u2014 crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 116.74,
+  "priorRealizedPnL": 106.68,
   "positions": [
     {
-      "ticker": "ETH",
-      "name": "Ethereum",
+      "ticker": "BTC",
+      "name": "Bitcoin",
       "sector": "Crypto",
-      "shares": 5.813116,
-      "entry": 1740.33,
-      "stopPrice": 1601.1,
+      "shares": 0.16349,
+      "entry": 61818.28,
+      "stopPrice": 56872.82,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "Fresh relative-strength leadership on dovish-Fed risk-on bounce (Warsh: inflation risks eased); ETH +~10% on the week, +4.8% today as tech/AI rebound eases pressure on the trade",
-      "driver": "Liquid major leading the tape today with more room before major resistance vs an extended SOL sitting at ~$82.73 after a ~19% weekly run; asymmetric momentum with a definable 8% stop and major-coin downside protection. Entry marked to the live feed at run time.",
-      "risks": "Sharp reversal if the risk-on bounce fades or BTC rolls back under $61k; Jul 28-29 Fed could turn hawkish; ETH resistance overhead ~$1,800",
-      "addedDate": "2026-07-03"
+      "catalyst": "Broke to a two-week high on a short squeeze \u2014 ~$281M of shorts liquidated in 24h (nearly 2x the longs) after a weak US jobs report shifted odds toward a Fed hold; Fear & Greed at 24 (extreme fear) marking a likely capitulation low.",
+      "driver": "BTC is today's clear momentum leader off the ~$58k lows while ETH rolls over (-2 to -5% on the day, losing yesterday's leadership) and SOL stays weak. As the most liquid major it offers the best downside protection with a definable 8% stop \u2014 an asymmetric continuation setup on a risk-on macro turn. Entry marked to the dashboard live feed at run time.",
+      "risks": "Squeeze exhaustion / failure to hold the 2-week-high breakout; a hawkish surprise at the Jul 28-29 Fed; rejection back under ~$60k would flip momentum. Feed asOf timestamp was stale at run time; price cross-checked against the search narrative (BTC ~$61.8k) for consistency.",
+      "addedDate": "2026-07-04"
     }
   ]
 }
