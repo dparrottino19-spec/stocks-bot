@@ -274,6 +274,16 @@ async function loadTrades() {
   }
 }
 
+// Crypto positions store a bare ticker (e.g. "ETH") but the Yahoo-proxied feed
+// prices crypto under the "-USD" symbol ("ETH-USD"). A bare "ETH" resolves to a
+// stock, which is how a wrong price (e.g. $16) can appear. Map crypto to -USD.
+function priceSymbol(p) {
+  if (!p || !p.ticker) return "";
+  const t = p.ticker;
+  if (p.sector === "Crypto" && !/-USD$/i.test(t)) return t + "-USD";
+  return t;
+}
+
 async function fetchLivePrices(tickers, benchmarkFrom) {
   if (!tickers.length) return { prices: {}, errors: [], asOf: null, benchmark: null };
   const params = new URLSearchParams({ symbols: tickers.join(",") });
@@ -324,7 +334,7 @@ function renderBook() {
 
   // Merge live prices into positions
   positions.forEach(p => {
-    const live = state.prices[p.ticker];
+    const live = state.prices[priceSymbol(p)];
     p.current = (live && live.price) || p.entry;
     p.fresh = !!live;
   });
@@ -455,7 +465,7 @@ async function refreshPrices() {
   hideBanner();
 
   const tickers = new Set();
-  Object.values(state.books).forEach(b => { (b?.positions || []).forEach(p => tickers.add(p.ticker)); });
+  Object.values(state.books).forEach(b => { (b?.positions || []).forEach(p => tickers.add(priceSymbol(p))); });
 
   if (tickers.size === 0) {
     statusEl.textContent = "no open positions";
