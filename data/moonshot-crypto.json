@@ -2,32 +2,32 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 9805.81,
-  "tradeDate": "2026-07-05",
-  "lastUpdated": "2026-07-05T11:54:19Z",
-  "nextRefresh": "2026-07-06T06:45:00-05:00",
+  "startingCapital": 10290.53,
+  "tradeDate": "2026-07-06",
+  "lastUpdated": "2026-07-06T11:55:36Z",
+  "nextRefresh": "2026-07-07T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
     "Spot crypto only (BTC, ETH, SOL, and other liquid coins on Robinhood)",
-    "Rotate each 6:45am CT run — sell yesterday, buy today's best",
-    "Runs every day — crypto trades 24/7",
+    "Rotate each 6:45am CT run \u2014 sell yesterday, buy today's best",
+    "Runs every day \u2014 crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": -194.19,
+  "priorRealizedPnL": 290.53,
   "positions": [
     {
       "ticker": "BTC",
       "name": "Bitcoin",
       "sector": "Crypto",
       "shares": 0.16349,
-      "entry": 59977.995,
-      "stopPrice": 55179.76,
+      "entry": 62942.8,
+      "stopPrice": 57907.38,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "BTC pulled back below $60k (from ~$61.8k) into a critical support zone (~$59-60k) on thin, risk-off July 4th holiday-weekend positioning. Macro backdrop stays constructive: a weak US jobs report has shifted odds toward a Fed hold, and Fear & Greed remains near extreme fear — a defined-risk retest of support rather than chasing a stretched high.",
-      "driver": "On a low-edge, risk-off day the strategy favors the most liquid major with the cleanest definable stop. ETH's Glamsterdam catalyst is vague (H2 2026) and SOL's on-chain is deteriorating (monthly active users at a 2-year low, TVL -56% from the Aug-2025 peak, fees -50% since Jan), leaving both higher-beta with weaker fundamentals. Buying BTC on the support retest with an 8% stop is the best asymmetric downside-protected setup. Entry marked to a live quote at run time.",
-      "risks": "Support failure — a decisive break under ~$59k opens a slide toward the June ~$58k lows and would trip the stop; a hawkish surprise at the Jul 28-29 Fed; continued altseason rotation leaving BTC to lag. PRICE SOURCE NOTE: dashboard proxy feed was stale (asOf 24h old) and CoinGecko was unreachable at run time; entry/exit taken from Coinbase live spot (BTC $59,977.99) as the canonical fallback.",
-      "addedDate": "2026-07-05"
+      "catalyst": "BTC reclaiming the 200-week MA (~$62.5k) after a shallow correction. Spot BTC ETFs logged five straight days of inflows led by BlackRock's IBIT (+$223.5M most recent net), and Fed Chair Warsh's first dovish signal (inflation risks eased) is a fresh macro tailwind. A short squeeze (~$281M bearish liquidations) is adding fuel.",
+      "driver": "On a mixed-edge day the strategy favors the most liquid major with the cleanest definable stop and the strongest flow backdrop. BTC has positive/accelerating ETF inflows and a dovish Fed pivot; SOL's +15% week is undercut by a -29% volume drop (weak momentum) and higher beta, and ETH shows net ETF OUTFLOWS (-$42M/wk, 30d -$795M). Buying BTC on the 200-wk-MA reclaim with an 8% stop is the best asymmetric downside-protected setup. Entry = live Kraken spot confirmed twice at run time.",
+      "risks": "Failure to hold the 200-week MA (~$62.5k) reopens the June ~$58k lows and trips the stop; a hawkish reversal into the Jul 28-29 Fed; altseason rotation leaving BTC to lag SOL. PRICE SOURCE NOTE: dashboard proxy feed was stale (asOf 2026-07-04) and CoinGecko/Coinbase-BTC returned cached/stale values; entry/exit taken from Kraken live spot (BTC $62,942.80, confirmed across two fetches) as the canonical fallback.",
+      "addedDate": "2026-07-06"
     }
   ]
 }
