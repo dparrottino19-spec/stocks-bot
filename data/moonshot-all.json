@@ -2,32 +2,32 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10199.6324,
-  "tradeDate": "2026-07-05",
-  "lastUpdated": "2026-07-05T11:41:25Z",
-  "nextRefresh": "2026-07-06T06:30:00-05:00",
+  "startingCapital": 10231.5496,
+  "tradeDate": "2026-07-06",
+  "lastUpdated": "2026-07-06T11:43:13Z",
+  "nextRefresh": "2026-07-07T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
     "Any liquid asset: stock, crypto, or leveraged/inverse ETF",
-    "Rotate each 6:30am CT run — sell yesterday, buy today's best",
+    "Rotate each 6:30am CT run \u2014 sell yesterday, buy today's best",
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": 199.6324,
+  "priorRealizedPnL": 231.5496,
   "positions": [
     {
-      "ticker": "BTC-USD",
-      "name": "Bitcoin",
-      "sector": "Crypto",
-      "shares": 0.162826,
-      "entry": 62641.41,
-      "stopPrice": 57630.1,
+      "ticker": "TQQQ",
+      "name": "ProShares UltraPro QQQ (3x Nasdaq-100)",
+      "sector": "Leveraged ETF \u2014 Tech/Nasdaq",
+      "shares": 134.852773,
+      "entry": 75.872,
+      "stopPrice": 68.2848,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "US market closed (Sat/holiday-adjacent weekend) — spot crypto only. Tape is neutral-to-cautious: BTC ~$62.6k (+0.45% 24h), ETH +0.62%, while SOL just FAILED its $80 breakout and rolled back to $80.5 (-2.5% 24h). No fresh asymmetric catalyst across majors; institutional flows steady but no new driver.",
-      "driver": "Low-edge weekend — rule says park in the lowest-vol/spot option with the most downside protection. Among liquid majors BTC has the lowest realized vol, the deepest weekend liquidity, and is the only major mildly green on the day. Unleveraged spot caps drawdown to BTC's own (modest) vol; tighter 8% stop chosen (vs 10% spot default) precisely because BTC's daily range is small, tightening downside protection without whipsaw risk.",
-      "risks": "Thin-weekend liquidity flush or a BTC break of its $62k base would drag the whole complex; being long BTC forgoes upside if SOL/ETH mean-revert higher. But on a no-catalyst weekend, capital preservation > chasing the highest-beta name that just failed a breakout. 8% stop ($57,630) bounds the downside.",
-      "addedDate": "2026-07-05"
+      "catalyst": "Tech relief rally after a two-day AI/semi washout (Micron -7%, AMAT -7.4%, AMD -4.3%, NVDA -2.1% over prior two sessions). Mon 7/6 pre-market: Nasdaq-100 futures +1%, SMH semis +2.4%, oil falling, AI-overbought jitters easing. Broad risk-on across mega-cap tech.",
+      "driver": "3x long the Nasdaq-100 to ride the dominant bullish theme of the day with leverage matched to a strong fresh catalyst. Chose TQQQ over SOXL specifically because SOXL had already gapped ~+8.6% pre-market (trips the no-chase rule), whereas TQQQ is up only ~+3.4% off the prior close \u2014 a far better entry \u2014 and its basket diversifies single-name blow-up risk versus a pure-semi 3x fund. Bullish continuation of an oversold bounce with a real narrative (oil down, jitters easing).",
+      "risks": "Dead-cat-bounce risk: two-day washouts can resume on a third down leg, and 3x amplifies any reversal. AI-overbought narrative (OpenAI/US-govt stake chatter, Meta selling excess compute) could reassert intraday. Hard 10% stop at $68.28 bounds the downside on the leverage.",
+      "addedDate": "2026-07-06"
     }
   ]
 }
