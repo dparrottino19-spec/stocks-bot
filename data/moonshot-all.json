@@ -2,32 +2,32 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10231.5496,
-  "tradeDate": "2026-07-06",
-  "lastUpdated": "2026-07-06T11:43:13Z",
-  "nextRefresh": "2026-07-07T06:30:00-05:00",
+  "startingCapital": 9952.1347,
+  "tradeDate": "2026-07-07",
+  "lastUpdated": "2026-07-07T11:44:00Z",
+  "nextRefresh": "2026-07-08T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
     "Any liquid asset: stock, crypto, or leveraged/inverse ETF",
-    "Rotate each 6:30am CT run \u2014 sell yesterday, buy today's best",
+    "Rotate each 6:30am CT run — sell yesterday, buy today's best",
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": 231.5496,
+  "priorRealizedPnL": -47.8653,
   "positions": [
     {
-      "ticker": "TQQQ",
-      "name": "ProShares UltraPro QQQ (3x Nasdaq-100)",
-      "sector": "Leveraged ETF \u2014 Tech/Nasdaq",
-      "shares": 134.852773,
-      "entry": 75.872,
-      "stopPrice": 68.2848,
+      "ticker": "BITX",
+      "name": "Volatility Shares 2x Bitcoin Strategy ETF",
+      "sector": "Leveraged ETF — Crypto/Bitcoin",
+      "shares": 835.611646,
+      "entry": 11.91,
+      "stopPrice": 10.9572,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Tech relief rally after a two-day AI/semi washout (Micron -7%, AMAT -7.4%, AMD -4.3%, NVDA -2.1% over prior two sessions). Mon 7/6 pre-market: Nasdaq-100 futures +1%, SMH semis +2.4%, oil falling, AI-overbought jitters easing. Broad risk-on across mega-cap tech.",
-      "driver": "3x long the Nasdaq-100 to ride the dominant bullish theme of the day with leverage matched to a strong fresh catalyst. Chose TQQQ over SOXL specifically because SOXL had already gapped ~+8.6% pre-market (trips the no-chase rule), whereas TQQQ is up only ~+3.4% off the prior close \u2014 a far better entry \u2014 and its basket diversifies single-name blow-up risk versus a pure-semi 3x fund. Bullish continuation of an oversold bounce with a real narrative (oil down, jitters easing).",
-      "risks": "Dead-cat-bounce risk: two-day washouts can resume on a third down leg, and 3x amplifies any reversal. AI-overbought narrative (OpenAI/US-govt stake chatter, Meta selling excess compute) could reassert intraday. Hard 10% stop at $68.28 bounds the downside on the leverage.",
-      "addedDate": "2026-07-06"
+      "catalyst": "BTC +1.1% overnight to ~$63.1K and holding just under $64K resistance after absorbing Strategy's biggest-ever BTC sale without breaking down — supply overhang cleared, bulls in control. Meanwhile equities tape is choppy: Samsung post-earnings selloff hammering AI-hardware (MU -6%, SNDK -6%, SOXL -12.7% pre-market), Nasdaq futures -1%, Fed minutes Wednesday.",
+      "driver": "2x long Bitcoin to ride the one clean bullish momentum story on the tape while sidestepping the Samsung/memory washout chopping up tech. Asymmetric setup: largest-ever single-holder sale just got absorbed at support, so a $64K breakout opens a fresh leg higher while the 8% stop bounds the downside. BITX at $11.91 is below yesterday's $12.13 close — no gap-chasing. Chose 2x over spot for conviction on a fresh overnight catalyst, and over SQQQ/SOXS because shorting a record-high equity tape with dip-buyers active is lower-odds than long uncorrelated crypto momentum.",
+      "risks": "BTC has stalled at $64K before — another rejection at resistance likely means a drift back to low-$60Ks, and 2x doubles that drawdown. Broad risk-off contagion from a deeper tech selloff could also drag crypto. Hard 8% stop at $10.96 bounds the leverage. Fed minutes Wednesday are a macro wildcard.",
+      "addedDate": "2026-07-07"
     }
   ]
 }
