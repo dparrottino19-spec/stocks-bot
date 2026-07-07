@@ -2,32 +2,32 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10290.53,
-  "tradeDate": "2026-07-06",
-  "lastUpdated": "2026-07-06T11:55:36Z",
-  "nextRefresh": "2026-07-07T06:45:00-05:00",
+  "startingCapital": 10350.05,
+  "tradeDate": "2026-07-07",
+  "lastUpdated": "2026-07-07T11:53:45Z",
+  "nextRefresh": "2026-07-08T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
     "Spot crypto only (BTC, ETH, SOL, and other liquid coins on Robinhood)",
-    "Rotate each 6:45am CT run \u2014 sell yesterday, buy today's best",
-    "Runs every day \u2014 crypto trades 24/7",
+    "Rotate each 6:45am CT run — sell yesterday, buy today's best",
+    "Runs every day — crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 290.53,
+  "priorRealizedPnL": 350.05,
   "positions": [
     {
-      "ticker": "BTC",
-      "name": "Bitcoin",
+      "ticker": "XRP",
+      "name": "XRP (Ripple)",
       "sector": "Crypto",
-      "shares": 0.16349,
-      "entry": 62942.8,
-      "stopPrice": 57907.38,
+      "shares": 9212.327548,
+      "entry": 1.1235,
+      "stopPrice": 0.9999,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "BTC reclaiming the 200-week MA (~$62.5k) after a shallow correction. Spot BTC ETFs logged five straight days of inflows led by BlackRock's IBIT (+$223.5M most recent net), and Fed Chair Warsh's first dovish signal (inflation risks eased) is a fresh macro tailwind. A short squeeze (~$281M bearish liquidations) is adding fuel.",
-      "driver": "On a mixed-edge day the strategy favors the most liquid major with the cleanest definable stop and the strongest flow backdrop. BTC has positive/accelerating ETF inflows and a dovish Fed pivot; SOL's +15% week is undercut by a -29% volume drop (weak momentum) and higher beta, and ETH shows net ETF OUTFLOWS (-$42M/wk, 30d -$795M). Buying BTC on the 200-wk-MA reclaim with an 8% stop is the best asymmetric downside-protected setup. Entry = live Kraken spot confirmed twice at run time.",
-      "risks": "Failure to hold the 200-week MA (~$62.5k) reopens the June ~$58k lows and trips the stop; a hawkish reversal into the Jul 28-29 Fed; altseason rotation leaving BTC to lag SOL. PRICE SOURCE NOTE: dashboard proxy feed was stale (asOf 2026-07-04) and CoinGecko/Coinbase-BTC returned cached/stale values; entry/exit taken from Kraken live spot (BTC $62,942.80, confirmed across two fetches) as the canonical fallback.",
-      "addedDate": "2026-07-06"
+      "catalyst": "Ripple secured a full Crypto Asset Service Provider (CASP) license from Luxembourg's CSSF, giving it a 'passport' to offer regulated crypto services across all 30 EEA countries — a fresh regulatory unlock. XRP funds were the bright spot in crypto ETF flows while BTC/ETH funds bled, and XRP/BTC is +2.7% on the week (XRP +9% off the $1.009 weekly low).",
+      "driver": "Best asymmetric setup on the tape: a named fresh catalyst (EU license), demonstrated relative strength vs BTC during the recovery, and a clean invalidation level — stop set below both the $1.009 weekly low and the psychological $1.00. BTC (runner-up) has the ETF inflow snap-back (+$221.7M, largest in 2 months) but is capped under the $64-65k resistance zone; SOL's +14% week is undercut by -29% volume; ETH still shows net ETF outflows; HYPE isn't Robinhood spot. Entry = dashboard live feed (asOf 2026-07-07T11:52:39Z).",
+      "risks": "Higher-beta alt in a still-fearful tape (Fear & Greed 23): if BTC rejects the $64-65k breakout zone and rolls over, XRP falls faster; a close below the $1.009 weekly low trips the ~11% stop at $0.9999. Regulatory-license pops can fade within 24-48h.",
+      "addedDate": "2026-07-07"
     }
   ]
 }
