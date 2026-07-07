@@ -2,10 +2,10 @@
   "bookName": "Moonshot Stocks",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10080.56,
-  "tradeDate": "2026-07-06",
-  "lastUpdated": "2026-07-06T11:38:57Z",
-  "nextRefresh": "2026-07-07T06:35:00-05:00",
+  "startingCapital": 9373.38,
+  "tradeDate": "2026-07-07",
+  "lastUpdated": "2026-07-07T11:40:30Z",
+  "nextRefresh": "2026-07-08T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -14,20 +14,20 @@
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
-  "priorRealizedPnL": 80.56,
+  "priorRealizedPnL": -626.62,
   "positions": [
     {
-      "ticker": "MRVL",
-      "name": "Marvell Technology",
-      "sector": "Information Technology — Semiconductors",
-      "shares": 39.75141,
-      "entry": 253.59,
-      "stopPrice": 238.37,
+      "ticker": "FISV",
+      "name": "Fiserv",
+      "sector": "Financials — Transaction & Payment Processing",
+      "shares": 172.146557,
+      "entry": 54.45,
+      "stopPrice": 51.18,
       "exitRule": "Rotate next weekday 6:35am CT run",
-      "catalyst": "First full session pricing Thursday's dovish June jobs shock (57k vs 115k consensus) + ISM prices plunge (82.1->73), driving aggressive Fed rate-cut repricing and a broad risk-on tape (Nasdaq 100 +1.1% pre-mkt, ~76% odds of an up open). AI-semi leaders bid; MRVL +3.4% pre-mkt on the rotation into high-beta/AI compute names.",
-      "driver": "Highest-torque liquid expression of the rate-cut risk-on move with secular AI-compute demand behind it; up a modest ~3.4% pre-mkt so not chasing an extended gap, room to run into the open. Deep liquidity gives a clean, enforceable stop — unlike a binary biotech.",
-      "risks": "Catalyst is macro, not company-specific — if the weak-jobs read flips to a growth-scare narrative, high-beta semis fall hardest. Broad-market/AI-sentiment beta. Hard stop 6% below entry.",
-      "addedDate": "2026-07-06"
+      "catalyst": "Reuters reported overnight that Fiserv is exploring a sale of its STAR debit network, with talks involving JPMorgan, Bank of America, Wells Fargo and Principal — a concrete value-unlock step under public pressure from activist Jana Partners. Stock +5.2% pre-market (54.45 vs 51.78 close), rebounding off multi-year lows.",
+      "driver": "Fresh company-specific catalyst fully orthogonal to today's global AI-chip rout (KOSPI -4.9% circuit breaker, Samsung -6.9%, Nasdaq futures -0.9%, Dow futures up on value rotation). Beaten-down low-beta payments name with activist follow-through potential; +5.2% pre-market is not extended, and deep liquidity gives a clean stop.",
+      "risks": "Catalyst is an 'exploring sale' press report, not a signed deal — pop can fade if the company doesn't confirm; broader tape is risk-off and an ugly open could drag everything. Stop 6% below entry at 51.18, just under yesterday's close.",
+      "addedDate": "2026-07-07"
     }
   ]
 }
