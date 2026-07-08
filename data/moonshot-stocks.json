@@ -2,32 +2,19 @@
   "bookName": "Moonshot Stocks",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 9373.38,
-  "tradeDate": "2026-07-07",
-  "lastUpdated": "2026-07-07T11:40:30Z",
-  "nextRefresh": "2026-07-08T06:35:00-05:00",
+  "startingCapital": 8877.6,
+  "tradeDate": "2026-07-08",
+  "lastUpdated": "2026-07-08T11:37:46Z",
+  "nextRefresh": "2026-07-09T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
-    "US equities only — no ETFs, crypto, or options",
-    "Rotate each weekday 6:35am CT run — sell prior, buy today's best",
+    "US equities only \u2014 no ETFs, crypto, or options",
+    "Rotate each weekday 6:35am CT run \u2014 sell prior, buy today's best",
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
-  "priorRealizedPnL": -626.62,
-  "positions": [
-    {
-      "ticker": "FISV",
-      "name": "Fiserv",
-      "sector": "Financials — Transaction & Payment Processing",
-      "shares": 172.146557,
-      "entry": 54.45,
-      "stopPrice": 51.18,
-      "exitRule": "Rotate next weekday 6:35am CT run",
-      "catalyst": "Reuters reported overnight that Fiserv is exploring a sale of its STAR debit network, with talks involving JPMorgan, Bank of America, Wells Fargo and Principal — a concrete value-unlock step under public pressure from activist Jana Partners. Stock +5.2% pre-market (54.45 vs 51.78 close), rebounding off multi-year lows.",
-      "driver": "Fresh company-specific catalyst fully orthogonal to today's global AI-chip rout (KOSPI -4.9% circuit breaker, Samsung -6.9%, Nasdaq futures -0.9%, Dow futures up on value rotation). Beaten-down low-beta payments name with activist follow-through potential; +5.2% pre-market is not extended, and deep liquidity gives a clean stop.",
-      "risks": "Catalyst is an 'exploring sale' press report, not a signed deal — pop can fade if the company doesn't confirm; broader tape is risk-off and an ugly open could drag everything. Stop 6% below entry at 51.18, just under yesterday's close.",
-      "addedDate": "2026-07-07"
-    }
-  ]
+  "priorRealizedPnL": -1122.4,
+  "positions": [],
+  "cashNote": "CASH \u2014 no qualifying asymmetric long. Tape is a geopolitical risk-off shock (Iran ceasefire declared over, WTI +6%, Dow futures -1.1% / Nasdaq -1.3%, semis leading down). Biggest catalyst CRNX +99% is a done all-cash Vertex buyout at $85 with no upside left (arb spread only). Chasing an oil gapper into a headline-driven spike offers poor downside protection. Standing aside."
 }
