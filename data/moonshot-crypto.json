@@ -2,32 +2,32 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10350.05,
-  "tradeDate": "2026-07-07",
-  "lastUpdated": "2026-07-07T11:53:45Z",
-  "nextRefresh": "2026-07-08T06:45:00-05:00",
+  "startingCapital": 10005.51,
+  "tradeDate": "2026-07-08",
+  "lastUpdated": "2026-07-08T11:53:45Z",
+  "nextRefresh": "2026-07-09T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
     "Spot crypto only (BTC, ETH, SOL, and other liquid coins on Robinhood)",
-    "Rotate each 6:45am CT run — sell yesterday, buy today's best",
-    "Runs every day — crypto trades 24/7",
+    "Rotate each 6:45am CT run \u2014 sell yesterday, buy today's best",
+    "Runs every day \u2014 crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 350.05,
+  "priorRealizedPnL": 5.51,
   "positions": [
     {
-      "ticker": "XRP",
-      "name": "XRP (Ripple)",
+      "ticker": "BTC",
+      "name": "Bitcoin",
       "sector": "Crypto",
-      "shares": 9212.327548,
-      "entry": 1.1235,
-      "stopPrice": 0.9999,
+      "shares": 0.160653,
+      "entry": 62280.19,
+      "stopPrice": 57297.77,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "Ripple secured a full Crypto Asset Service Provider (CASP) license from Luxembourg's CSSF, giving it a 'passport' to offer regulated crypto services across all 30 EEA countries — a fresh regulatory unlock. XRP funds were the bright spot in crypto ETF flows while BTC/ETH funds bled, and XRP/BTC is +2.7% on the week (XRP +9% off the $1.009 weekly low).",
-      "driver": "Best asymmetric setup on the tape: a named fresh catalyst (EU license), demonstrated relative strength vs BTC during the recovery, and a clean invalidation level — stop set below both the $1.009 weekly low and the psychological $1.00. BTC (runner-up) has the ETF inflow snap-back (+$221.7M, largest in 2 months) but is capped under the $64-65k resistance zone; SOL's +14% week is undercut by -29% volume; ETH still shows net ETF outflows; HYPE isn't Robinhood spot. Entry = dashboard live feed (asOf 2026-07-07T11:52:39Z).",
-      "risks": "Higher-beta alt in a still-fearful tape (Fear & Greed 23): if BTC rejects the $64-65k breakout zone and rolls over, XRP falls faster; a close below the $1.009 weekly low trips the ~11% stop at $0.9999. Regulatory-license pops can fade within 24-48h.",
-      "addedDate": "2026-07-07"
+      "catalyst": "Risk-off tape driven by an exogenous geopolitical shock: Trump declared the Middle East ceasefire 'over' after fresh US/Iran airstrikes, sending oil soaring and pressuring all risk assets. BTC pulled back to ~$62.3k (-1.7%) from last week's $64k zone. US spot BTC ETFs just snapped a 10-day outflow streak with a +$221.7M haul (largest in 2 months), and Morgan Stanley filed for spot BTC/SOL ETFs \u2014 supportive structural demand under a weak tape.",
+      "driver": "Low-edge, fearful day \u2014 the rulebook favors liquid majors with the most downside protection when there is no clean bullish asymmetric setup. BTC is the deepest-liquidity, lowest-beta major, already sold down toward support, giving a definable stop with the tightest 8% band. Runners-up rejected: SOL (-4.6%) is the highest-beta and worst performer today; ETH (-1.8%) still shows net ETF outflows; XRP has the strongest ongoing catalyst (9th straight week of ETF inflows) but is a higher-beta alt in a falling-knife tape and just cost the book a loss. Entry = dashboard live feed (asOf 2026-07-08T11:52:35Z).",
+      "risks": "Geopolitical headline risk is two-sided and fast \u2014 an escalation could crack support and trip the ~8% stop at $57,297.77; MicroStrategy sold 3,588 BTC over the past week, adding corporate supply overhead. Oil-driven inflation fear could keep a bid under the dollar and a lid on crypto. Even majors can gap on weekend/24-7 headlines.",
+      "addedDate": "2026-07-08"
     }
   ]
 }
