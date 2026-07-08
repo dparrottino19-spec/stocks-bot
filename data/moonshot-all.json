@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 9952.1347,
-  "tradeDate": "2026-07-07",
-  "lastUpdated": "2026-07-07T11:44:00Z",
-  "nextRefresh": "2026-07-08T06:30:00-05:00",
+  "startingCapital": 9617.89,
+  "tradeDate": "2026-07-08",
+  "lastUpdated": "2026-07-08T11:43:06Z",
+  "nextRefresh": "2026-07-09T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -47.8653,
+  "priorRealizedPnL": -382.11,
   "positions": [
     {
-      "ticker": "BITX",
-      "name": "Volatility Shares 2x Bitcoin Strategy ETF",
-      "sector": "Leveraged ETF — Crypto/Bitcoin",
-      "shares": 835.611646,
-      "entry": 11.91,
-      "stopPrice": 10.9572,
+      "ticker": "UCO",
+      "name": "ProShares Ultra Bloomberg Crude Oil",
+      "sector": "Leveraged ETF — Crude Oil (2x WTI)",
+      "shares": 266.867093,
+      "entry": 36.04,
+      "stopPrice": 33.1568,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "BTC +1.1% overnight to ~$63.1K and holding just under $64K resistance after absorbing Strategy's biggest-ever BTC sale without breaking down — supply overhang cleared, bulls in control. Meanwhile equities tape is choppy: Samsung post-earnings selloff hammering AI-hardware (MU -6%, SNDK -6%, SOXL -12.7% pre-market), Nasdaq futures -1%, Fed minutes Wednesday.",
-      "driver": "2x long Bitcoin to ride the one clean bullish momentum story on the tape while sidestepping the Samsung/memory washout chopping up tech. Asymmetric setup: largest-ever single-holder sale just got absorbed at support, so a $64K breakout opens a fresh leg higher while the 8% stop bounds the downside. BITX at $11.91 is below yesterday's $12.13 close — no gap-chasing. Chose 2x over spot for conviction on a fresh overnight catalyst, and over SQQQ/SOXS because shorting a record-high equity tape with dip-buyers active is lower-odds than long uncorrelated crypto momentum.",
-      "risks": "BTC has stalled at $64K before — another rejection at resistance likely means a drift back to low-$60Ks, and 2x doubles that drawdown. Broad risk-off contagion from a deeper tech selloff could also drag crypto. Hard 8% stop at $10.96 bounds the leverage. Fed minutes Wednesday are a macro wildcard.",
-      "addedDate": "2026-07-07"
+      "catalyst": "Trump declared the US-Iran ceasefire 'over' overnight — new US strikes on Iran, revoked the waiver allowing Iranian oil sales, and renewed Strait of Hormuz disruption fears. WTI +6% to ~$74.79, Brent +6% to ~$78.66. Equities risk-off (SPY -0.8%, QQQ -1.0% pre-market). UCO (2x WTI) +4.1% pre-market to $36.04 from $34.61 close.",
+      "driver": "2x long crude isolates the single clean catalyst on the tape — a hard oil supply shock from a potential Hormuz disruption — without the broad-equity beta dragging on energy-equity ETFs (ERX/GUSH) on a day when SPY/QQQ are down ~1%. Asymmetric: an escalating supply shock can keep crude running while the 8% stop bounds downside. Entered at +4.1% pre-market, well below the 8-10% no-chase threshold, so not chasing the gap. Chose UCO over ERX/GUSH (equity drag on risk-off tape) and over inverse-equity SOXS/SQQQ (SOXS already +8%, and shorting semis is a less direct expression of the oil catalyst).",
+      "risks": "Geopolitics is headline-driven and can reverse violently — a de-escalation or ceasefire-restored headline would send crude sharply lower, and 2x doubles that drawdown. Oil spikes on war fears often fade if no actual Hormuz closure materializes. 2x crude ETFs also carry contango decay (negligible over a 24h hold). Hard 8% stop at $33.16 bounds the leverage.",
+      "addedDate": "2026-07-08"
     }
   ]
 }
