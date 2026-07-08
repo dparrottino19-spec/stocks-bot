@@ -2,10 +2,10 @@
   "bookName": "Daily Trader",
   "inceptionDate": "2026-05-15",
   "inceptionCapital": 70000,
-  "startingCapital": 76520.13,
-  "tradeDate": "2026-07-07",
-  "lastUpdated": "2026-07-07T12:19:06Z",
-  "nextRefresh": "2026-07-08T07:09:00-05:00",
+  "startingCapital": 76436.36,
+  "tradeDate": "2026-07-08",
+  "lastUpdated": "2026-07-08T12:20:25Z",
+  "nextRefresh": "2026-07-09T07:09:00-05:00",
   "rules": [
     "Weekday 7am ET picks",
     "Per-pick exit rules",
@@ -13,7 +13,7 @@
     "1-week max hold",
     "<=4 names per sector"
   ],
-  "priorRealizedPnL": 6520.13,
+  "priorRealizedPnL": 6436.36,
   "positions": [
     {
       "ticker": "LEN",
@@ -76,18 +76,6 @@
       "addedDate": "2026-07-06"
     },
     {
-      "ticker": "GILD",
-      "name": "Gilead Sciences",
-      "sector": "Health Technology",
-      "shares": 25,
-      "entry": 131.0,
-      "exitRule": "Overnight (close next open)",
-      "catalyst": "T2: HSBC upgraded to Buy, PT $155 from $133 (7/6).",
-      "risks": "Pharma; muted beta. 52wk 107.75-157.29.",
-      "driver": "Tier 2: HSBC Buy upgrade",
-      "addedDate": "2026-07-07"
-    },
-    {
       "ticker": "TMUS",
       "name": "T-Mobile US",
       "sector": "Communications",
@@ -109,42 +97,6 @@
       "catalyst": "T2: Jefferies upgraded to Buy, PT $75 from $60 (7/6); printing fresh 52wk high.",
       "risks": "Regional bank; rate-path sensitivity. 52wk 43.46-63.05. Stop ~$59.75.",
       "driver": "Tier 2: Jefferies Buy upgrade",
-      "addedDate": "2026-07-07"
-    },
-    {
-      "ticker": "AEM",
-      "name": "Agnico Eagle Mines",
-      "sector": "Materials",
-      "shares": 22,
-      "entry": 154.25,
-      "exitRule": "Overnight (close next open)",
-      "catalyst": "T1/T2: Jefferies upgraded to Buy, PT $200 from $187 + gold +2% to $4,121 on weak jobs.",
-      "risks": "Gold reversal if yields bounce. 52wk 115.19-255.24.",
-      "driver": "Tier 2: Jefferies upgrade + gold macro",
-      "addedDate": "2026-07-07"
-    },
-    {
-      "ticker": "OKTA",
-      "name": "Okta",
-      "sector": "Technology Services",
-      "shares": 22,
-      "entry": 150.35,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "T2: Scotiabank upgraded to Outperform, PT $165 (7/6); breaking 52wk high.",
-      "risks": "Extended at 52wk high (148.85); gap-chase risk. High PE (~103).",
-      "driver": "Tier 2: Scotiabank Outperform",
-      "addedDate": "2026-07-07"
-    },
-    {
-      "ticker": "SN",
-      "name": "SharkNinja",
-      "sector": "Consumer Durables",
-      "shares": 22,
-      "entry": 150.51,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "T2: Guggenheim raised PT to $175 from $145 (7/6); at fresh 52wk high.",
-      "risks": "Discretionary appliances; extended at 52wk high (154.04). Gap-chase risk.",
-      "driver": "Tier 2: Guggenheim PT hike",
       "addedDate": "2026-07-07"
     },
     {
@@ -196,16 +148,124 @@
       "addedDate": "2026-07-07"
     },
     {
-      "ticker": "LEVI",
-      "name": "Levi Strauss",
-      "sector": "Consumer Non-Durables",
-      "shares": 135,
-      "entry": 25.05,
-      "exitRule": "Catalyst-defined (Q2 earnings July 8 pm)",
-      "catalyst": "T2: Pre-earnings setup into 7/8 pm Q2 report; near 52wk high on tariff/DTC momentum.",
-      "risks": "Earnings-day gap risk; consumer-spend sensitivity. 52wk 17.72-25.58.",
-      "driver": "Tier 2: Pre-earnings setup",
-      "addedDate": "2026-07-07"
+      "ticker": "XOM",
+      "name": "Exxon Mobil",
+      "sector": "Energy",
+      "shares": 24,
+      "entry": 143.87,
+      "exitRule": "Overnight (close next open)",
+      "catalyst": "T2 macro: Oil +6% (WTI ~$74.79) as Iran ceasefire collapses & Strait of Hormuz risk returns; XOM popped pre-market.",
+      "risks": "Geopolitics can reverse fast if ceasefire restored; oil off Q1 highs. 52wk 105.53-176.41.",
+      "driver": "Tier 2: Oil-spike geopolitical macro",
+      "addedDate": "2026-07-08"
+    },
+    {
+      "ticker": "CVX",
+      "name": "Chevron",
+      "sector": "Energy",
+      "shares": 19,
+      "entry": 177.04,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "T2 macro: Integrated-oil beneficiary of the July 8 crude surge on Middle East escalation; +1.7% pre.",
+      "risks": "Single-day geopolitical trade; fades if oil gives back gains. 52wk 146.49-214.71.",
+      "driver": "Tier 2: Oil-spike geopolitical macro",
+      "addedDate": "2026-07-08"
+    },
+    {
+      "ticker": "COP",
+      "name": "ConocoPhillips",
+      "sector": "Energy",
+      "shares": 31,
+      "entry": 110.24,
+      "exitRule": "1-3 day swing (stop -5% / take-profit +8%)",
+      "catalyst": "T2 macro: E&P with high leverage to crude; +1.7% pre on oil spike. Stop ~$104.73.",
+      "risks": "Pure-play oil beta cuts both ways. 52wk 85.57-135.87.",
+      "driver": "Tier 2: Oil-spike geopolitical macro",
+      "addedDate": "2026-07-08"
+    },
+    {
+      "ticker": "OXY",
+      "name": "Occidental Petroleum",
+      "sector": "Energy",
+      "shares": 66,
+      "entry": 52.86,
+      "exitRule": "1-3 day swing (stop -5% / take-profit +8%)",
+      "catalyst": "T2 macro: Highest-beta large-cap oil name; +2.3% pre, best energy mover. Stop ~$50.22.",
+      "risks": "High-beta, high debt; sharp reversal risk. 52wk 38.80-67.45.",
+      "driver": "Tier 2: Oil-spike geopolitical macro",
+      "addedDate": "2026-07-08"
+    },
+    {
+      "ticker": "LMT",
+      "name": "Lockheed Martin",
+      "sector": "Aerospace & Defense",
+      "shares": 6,
+      "entry": 540.0,
+      "exitRule": "Overnight (close next open)",
+      "catalyst": "T2 macro: Defense bid on renewed Middle East fighting; LMT found buyers pre-market.",
+      "risks": "Off 52wk high (692); defense pops fade if de-escalation. 52wk 410.11-692.00.",
+      "driver": "Tier 2: Defense geopolitical bid",
+      "addedDate": "2026-07-08"
+    },
+    {
+      "ticker": "RTX",
+      "name": "RTX Corp",
+      "sector": "Aerospace & Defense",
+      "shares": 17,
+      "entry": 201.87,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "T2 macro: Missiles/air-defense leverage to Middle East conflict; +0.5% pre near 52wk high.",
+      "risks": "Extended near 52wk high (214.50); single-day trade. 52wk 142.98-214.50.",
+      "driver": "Tier 2: Defense geopolitical bid",
+      "addedDate": "2026-07-08"
+    },
+    {
+      "ticker": "NOC",
+      "name": "Northrop Grumman",
+      "sector": "Aerospace & Defense",
+      "shares": 6,
+      "entry": 553.0,
+      "exitRule": "1-3 day swing (stop -5% / take-profit +8%)",
+      "catalyst": "T2 macro: Defense prime bid on escalation; +0.7% pre. Stop ~$525.35.",
+      "risks": "Off 52wk high (774); recently based near 52wk low. 52wk 493.84-774.00.",
+      "driver": "Tier 2: Defense geopolitical bid",
+      "addedDate": "2026-07-08"
+    },
+    {
+      "ticker": "GD",
+      "name": "General Dynamics",
+      "sector": "Aerospace & Defense",
+      "shares": 9,
+      "entry": 373.02,
+      "exitRule": "1-3 day swing (stop -5% / take-profit +8%)",
+      "catalyst": "T2 macro: Defense/combat-systems name printing 52wk high (380.71) into escalation. Stop ~$354.37.",
+      "risks": "Extended at fresh 52wk high; gap-chase risk. 52wk 293.95-380.71.",
+      "driver": "Tier 2: Defense geopolitical bid",
+      "addedDate": "2026-07-08"
+    },
+    {
+      "ticker": "FSLR",
+      "name": "First Solar",
+      "sector": "Solar",
+      "shares": 15,
+      "entry": 225.5,
+      "exitRule": "1-3 day swing (stop -5% / take-profit +8%)",
+      "catalyst": "T1: Deutsche Bank upgraded to Buy, PT $272 from $245 (7/7), citing $2.1B net cash & valuation. Stop ~$214.23.",
+      "risks": "Solar soft in risk-off tech tape; pre-market gave back the pop. 52wk 159.85-320.95.",
+      "driver": "Tier 1: DB Buy upgrade",
+      "addedDate": "2026-07-08"
+    },
+    {
+      "ticker": "LLY",
+      "name": "Eli Lilly",
+      "sector": "Health Technology",
+      "shares": 2,
+      "entry": 1240.0,
+      "exitRule": "1-3 day swing (stop -5% / take-profit +8%)",
+      "catalyst": "T1: JPMorgan raised PT to $1,400 from $1,300 (7/8), ~17% upside; defensive GLP-1 leader on a risk-off day. Stop ~$1,178.",
+      "risks": "High valuation (PE ~44); at 52wk high (1249.45). 52wk 623.78-1249.45.",
+      "driver": "Tier 1: JPM PT hike",
+      "addedDate": "2026-07-08"
     }
   ]
 }
