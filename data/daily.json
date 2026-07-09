@@ -2,10 +2,10 @@
   "bookName": "Daily Trader",
   "inceptionDate": "2026-05-15",
   "inceptionCapital": 70000,
-  "startingCapital": 76436.36,
-  "tradeDate": "2026-07-08",
-  "lastUpdated": "2026-07-08T12:20:25Z",
-  "nextRefresh": "2026-07-09T07:09:00-05:00",
+  "startingCapital": 75113.09,
+  "tradeDate": "2026-07-09",
+  "lastUpdated": "2026-07-09T12:24:29Z",
+  "nextRefresh": "2026-07-10T07:09:00-05:00",
   "rules": [
     "Weekday 7am ET picks",
     "Per-pick exit rules",
@@ -13,68 +13,8 @@
     "1-week max hold",
     "<=4 names per sector"
   ],
-  "priorRealizedPnL": 6436.36,
+  "priorRealizedPnL": 5113.09,
   "positions": [
-    {
-      "ticker": "LEN",
-      "name": "Lennar",
-      "sector": "Homebuilding",
-      "shares": 39,
-      "entry": 88.35,
-      "exitRule": "1-3 day swing (stop -5% / take-profit +8%)",
-      "catalyst": "T2: Homebuilder rate-cut beneficiary after weak jobs report; value near 52wk low.",
-      "risks": "Housing demand still soft; near 52wk low (81.18) for a reason. Stop ~$83.93.",
-      "driver": "Tier 2: Rate-cut homebuilder macro",
-      "addedDate": "2026-07-06"
-    },
-    {
-      "ticker": "DHI",
-      "name": "D.R. Horton",
-      "sector": "Homebuilding",
-      "shares": 22,
-      "entry": 158.5,
-      "exitRule": "1-3 day swing (stop -5% / take-profit +8%)",
-      "catalyst": "T2: Largest homebuilder; rate-cut tailwind on soft-jobs print lowering mortgage rates.",
-      "risks": "Housing-sensitive; mid-52wk-range. Stop ~$150.58.",
-      "driver": "Tier 2: Rate-cut homebuilder macro",
-      "addedDate": "2026-07-06"
-    },
-    {
-      "ticker": "DAL",
-      "name": "Delta Air Lines",
-      "sector": "Airlines",
-      "shares": 37,
-      "entry": 92.4,
-      "exitRule": "Catalyst-defined (Q2 earnings July 10)",
-      "catalyst": "T2: Pre-earnings setup into July 10 Q2 report; lower fuel + resilient travel; at 52wk high.",
-      "risks": "Earnings miss/guidance risk; extended at 52wk high (95.68). Stop ~$87.78.",
-      "driver": "Tier 2: Pre-earnings setup",
-      "addedDate": "2026-07-06"
-    },
-    {
-      "ticker": "PEP",
-      "name": "PepsiCo",
-      "sector": "Consumer Staples",
-      "shares": 24,
-      "entry": 143.77,
-      "exitRule": "Catalyst-defined (Q2 earnings this week)",
-      "catalyst": "T2: Pre-earnings; consensus +4.2% EPS / +5.7% rev YoY; defensive with ~4% yield near 52wk low.",
-      "risks": "Staples muted upside; earnings-day gap risk. 52wk 132.96-171.48.",
-      "driver": "Tier 2: Pre-earnings defensive",
-      "addedDate": "2026-07-06"
-    },
-    {
-      "ticker": "BIRK",
-      "name": "Birkenstock",
-      "sector": "Consumer Apparel",
-      "shares": 76,
-      "entry": 45.99,
-      "exitRule": "1-3 day swing (stop -5% / take-profit +8%)",
-      "catalyst": "T2: Raymond James initiated coverage $52 PT (~20% upside).",
-      "risks": "Discretionary footwear; consumer-spend sensitivity. 52wk 31.12-53.53. Stop ~$43.69.",
-      "driver": "Tier 2: RJ initiation",
-      "addedDate": "2026-07-06"
-    },
     {
       "ticker": "TMUS",
       "name": "T-Mobile US",
@@ -136,42 +76,6 @@
       "addedDate": "2026-07-07"
     },
     {
-      "ticker": "FISV",
-      "name": "Fiserv",
-      "sector": "Commercial Services",
-      "shares": 62,
-      "entry": 54.43,
-      "exitRule": "Catalyst-defined (STAR network sale / activist news)",
-      "catalyst": "T1: Reuters \u2014 exploring sale of STAR debit network (JPM/BofA/WFC talks) under Jana activist pressure; +5.2% pre.",
-      "risks": "Deep off 52wk high (175.92); turnaround/execution risk. 52wk 47.04-175.92.",
-      "driver": "Tier 1: STAR sale + Jana activist",
-      "addedDate": "2026-07-07"
-    },
-    {
-      "ticker": "XOM",
-      "name": "Exxon Mobil",
-      "sector": "Energy",
-      "shares": 24,
-      "entry": 143.87,
-      "exitRule": "Overnight (close next open)",
-      "catalyst": "T2 macro: Oil +6% (WTI ~$74.79) as Iran ceasefire collapses & Strait of Hormuz risk returns; XOM popped pre-market.",
-      "risks": "Geopolitics can reverse fast if ceasefire restored; oil off Q1 highs. 52wk 105.53-176.41.",
-      "driver": "Tier 2: Oil-spike geopolitical macro",
-      "addedDate": "2026-07-08"
-    },
-    {
-      "ticker": "CVX",
-      "name": "Chevron",
-      "sector": "Energy",
-      "shares": 19,
-      "entry": 177.04,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "T2 macro: Integrated-oil beneficiary of the July 8 crude surge on Middle East escalation; +1.7% pre.",
-      "risks": "Single-day geopolitical trade; fades if oil gives back gains. 52wk 146.49-214.71.",
-      "driver": "Tier 2: Oil-spike geopolitical macro",
-      "addedDate": "2026-07-08"
-    },
-    {
       "ticker": "COP",
       "name": "ConocoPhillips",
       "sector": "Energy",
@@ -193,30 +97,6 @@
       "catalyst": "T2 macro: Highest-beta large-cap oil name; +2.3% pre, best energy mover. Stop ~$50.22.",
       "risks": "High-beta, high debt; sharp reversal risk. 52wk 38.80-67.45.",
       "driver": "Tier 2: Oil-spike geopolitical macro",
-      "addedDate": "2026-07-08"
-    },
-    {
-      "ticker": "LMT",
-      "name": "Lockheed Martin",
-      "sector": "Aerospace & Defense",
-      "shares": 6,
-      "entry": 540.0,
-      "exitRule": "Overnight (close next open)",
-      "catalyst": "T2 macro: Defense bid on renewed Middle East fighting; LMT found buyers pre-market.",
-      "risks": "Off 52wk high (692); defense pops fade if de-escalation. 52wk 410.11-692.00.",
-      "driver": "Tier 2: Defense geopolitical bid",
-      "addedDate": "2026-07-08"
-    },
-    {
-      "ticker": "RTX",
-      "name": "RTX Corp",
-      "sector": "Aerospace & Defense",
-      "shares": 17,
-      "entry": 201.87,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "T2 macro: Missiles/air-defense leverage to Middle East conflict; +0.5% pre near 52wk high.",
-      "risks": "Extended near 52wk high (214.50); single-day trade. 52wk 142.98-214.50.",
-      "driver": "Tier 2: Defense geopolitical bid",
       "addedDate": "2026-07-08"
     },
     {
@@ -266,6 +146,126 @@
       "risks": "High valuation (PE ~44); at 52wk high (1249.45). 52wk 623.78-1249.45.",
       "driver": "Tier 1: JPM PT hike",
       "addedDate": "2026-07-08"
+    },
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "sector": "Electronic Technology",
+      "shares": 6,
+      "entry": 535.11,
+      "exitRule": "Overnight (close next open)",
+      "catalyst": "T2: Goldman Sachs Buy, PT $640 on surging agentic-AI CPU demand; +3.4% pre-market confirming.",
+      "risks": "Rich valuation (PE ~169); high-beta semi, gap can reverse. 52wk 137.59-584.73.",
+      "driver": "Tier 2: Goldman PT hike + AI",
+      "addedDate": "2026-07-09"
+    },
+    {
+      "ticker": "ANET",
+      "name": "Arista Networks",
+      "sector": "Electronic Technology",
+      "shares": 18,
+      "entry": 187.42,
+      "exitRule": "1-3 day swing (stop -5% / take-profit +8%)",
+      "catalyst": "T1: Launched 1.6Tbps 7060XE7 AI switches (Meta/MSFT/Oracle/AMD/Broadcom); KeyBanc/MS/BofA PT hikes to $200; +3.5% pre.",
+      "risks": "Momentum name at 52wk high (181.27); AI-capex sensitivity. Stop ~$178.05.",
+      "driver": "Tier 1: Product launch + multi-broker PT hikes",
+      "addedDate": "2026-07-09"
+    },
+    {
+      "ticker": "AZZ",
+      "name": "AZZ Inc.",
+      "sector": "Process Industries",
+      "shares": 21,
+      "entry": 155.59,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "T1: FQ1 EPS $1.85 beat $1.69, revenue $448.5M beat $434.6M; ~+8% pre-market.",
+      "risks": "Illiquid small-cap (avg ~372k sh); chasing an 8% earnings gap. 52wk 92.98-162.20.",
+      "driver": "Tier 1: Earnings beat",
+      "addedDate": "2026-07-09"
+    },
+    {
+      "ticker": "XYZ",
+      "name": "Block",
+      "sector": "Commercial Services",
+      "shares": 44,
+      "entry": 76.57,
+      "exitRule": "1-3 day swing (stop -5% / take-profit +8%)",
+      "catalyst": "T2: Piper Sandler double-upgrade Underweight->Overweight, PT $58->$100.",
+      "risks": "Fintech; consumer-spend sensitivity; flat pre-market. Stop ~$72.74. 52wk 48.21-82.50.",
+      "driver": "Tier 2: Piper OW upgrade",
+      "addedDate": "2026-07-09"
+    },
+    {
+      "ticker": "LW",
+      "name": "Lamb Weston",
+      "sector": "Consumer Non-Durables",
+      "shares": 73,
+      "entry": 46.12,
+      "exitRule": "1-3 day swing (stop -5% / take-profit +8%)",
+      "catalyst": "T2: Wells Fargo Overweight, PT raised to $54 from $46; value near lows with ~3.2% yield.",
+      "risks": "Frozen-potato demand soft; thin pre-market liquidity. Stop ~$43.81. 52wk 37.62-67.07.",
+      "driver": "Tier 2: WF PT hike",
+      "addedDate": "2026-07-09"
+    },
+    {
+      "ticker": "MSCI",
+      "name": "MSCI Inc.",
+      "sector": "Commercial Services",
+      "shares": 5,
+      "entry": 605.0,
+      "exitRule": "Overnight (close next open)",
+      "catalyst": "T2: Raymond James Strong Buy, PT raised to $760.",
+      "risks": "High-multiple (PE ~35); thin volume. 52wk 501.08-644.68.",
+      "driver": "Tier 2: RJ Strong Buy PT hike",
+      "addedDate": "2026-07-09"
+    },
+    {
+      "ticker": "VERA",
+      "name": "Vera Therapeutics",
+      "sector": "Health Technology",
+      "shares": 80,
+      "entry": 42.2,
+      "exitRule": "1-3 day swing (stop -5% / take-profit +8%)",
+      "catalyst": "T1: FDA approval of atacicept (first-in-class IgAN drug, 7/7); de-risked commercial-stage, M&A target.",
+      "risks": "Volatile small-cap biotech (neg earnings); FDA pop may fade. Stop ~$40.09. 52wk 19.07-56.05.",
+      "driver": "Tier 1: FDA approval / M&A",
+      "addedDate": "2026-07-09"
+    },
+    {
+      "ticker": "MA",
+      "name": "Mastercard",
+      "sector": "Finance",
+      "shares": 6,
+      "entry": 521.28,
+      "exitRule": "Overnight (close next open)",
+      "catalyst": "T2: Piper Sandler initiated Overweight (payments coverage launch); +0.3% pre.",
+      "risks": "Rich payments multiple; below 52wk high. 52wk 464.52-601.77.",
+      "driver": "Tier 2: Piper OW initiation",
+      "addedDate": "2026-07-09"
+    },
+    {
+      "ticker": "CVX",
+      "name": "Chevron",
+      "sector": "Energy Minerals",
+      "shares": 19,
+      "entry": 175.76,
+      "exitRule": "1-3 day swing (stop -5% / take-profit +8%)",
+      "catalyst": "T2: Wolfe Research upgraded to Outperform, PT $210, citing improved FCF-growth outlook to 2030+; crude firm on US-Iran.",
+      "risks": "Energy-macro sensitivity; re-entry after intraday close. Stop ~$166.97. 52wk 146.49-214.71.",
+      "driver": "Tier 2: Wolfe Outperform upgrade",
+      "addedDate": "2026-07-09"
+    },
+    {
+      "ticker": "V",
+      "name": "Visa",
+      "sector": "Finance",
+      "shares": 9,
+      "entry": 346.73,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "T2: Piper Sandler initiated Overweight (payments coverage launch).",
+      "risks": "Near 52wk high (365.02); flat pre-market. 52wk 293.89-365.02.",
+      "driver": "Tier 2: Piper OW initiation",
+      "addedDate": "2026-07-09"
     }
   ]
 }
