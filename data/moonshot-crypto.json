@@ -2,32 +2,32 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10005.51,
-  "tradeDate": "2026-07-08",
-  "lastUpdated": "2026-07-08T11:53:45Z",
-  "nextRefresh": "2026-07-09T06:45:00-05:00",
+  "startingCapital": 10068.36,
+  "tradeDate": "2026-07-09",
+  "lastUpdated": "2026-07-09T11:55:23Z",
+  "nextRefresh": "2026-07-10T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
     "Spot crypto only (BTC, ETH, SOL, and other liquid coins on Robinhood)",
-    "Rotate each 6:45am CT run \u2014 sell yesterday, buy today's best",
-    "Runs every day \u2014 crypto trades 24/7",
+    "Rotate each 6:45am CT run — sell yesterday, buy today's best",
+    "Runs every day — crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 5.51,
+  "priorRealizedPnL": 68.36,
   "positions": [
     {
       "ticker": "BTC",
       "name": "Bitcoin",
       "sector": "Crypto",
       "shares": 0.160653,
-      "entry": 62280.19,
-      "stopPrice": 57297.77,
+      "entry": 62671.41,
+      "stopPrice": 57657.7,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "Risk-off tape driven by an exogenous geopolitical shock: Trump declared the Middle East ceasefire 'over' after fresh US/Iran airstrikes, sending oil soaring and pressuring all risk assets. BTC pulled back to ~$62.3k (-1.7%) from last week's $64k zone. US spot BTC ETFs just snapped a 10-day outflow streak with a +$221.7M haul (largest in 2 months), and Morgan Stanley filed for spot BTC/SOL ETFs \u2014 supportive structural demand under a weak tape.",
-      "driver": "Low-edge, fearful day \u2014 the rulebook favors liquid majors with the most downside protection when there is no clean bullish asymmetric setup. BTC is the deepest-liquidity, lowest-beta major, already sold down toward support, giving a definable stop with the tightest 8% band. Runners-up rejected: SOL (-4.6%) is the highest-beta and worst performer today; ETH (-1.8%) still shows net ETF outflows; XRP has the strongest ongoing catalyst (9th straight week of ETF inflows) but is a higher-beta alt in a falling-knife tape and just cost the book a loss. Entry = dashboard live feed (asOf 2026-07-08T11:52:35Z).",
-      "risks": "Geopolitical headline risk is two-sided and fast \u2014 an escalation could crack support and trip the ~8% stop at $57,297.77; MicroStrategy sold 3,588 BTC over the past week, adding corporate supply overhead. Oil-driven inflation fear could keep a bid under the dollar and a lid on crypto. Even majors can gap on weekend/24-7 headlines.",
-      "addedDate": "2026-07-08"
+      "catalyst": "Extreme-Fear tape: total crypto market cap -2.1% to ~$2.21T amid a broad risk-off session. BTC is the day's firmest major at ~-1.67% vs ETH -2.3% and SOL -5.2%. Structural support: US spot BTC ETFs snapped a 10-day outflow streak with a +$221.7M haul (largest in 2 months), and the SEC's 'Regulation Crypto' agenda is slated for release this July — a clarifying, demand-supportive catalyst.",
+      "driver": "Low-edge, fearful day — rulebook favors the liquid major with the most downside protection over the highest-beta name. BTC has the deepest liquidity, lowest beta, clearest relative strength today, and the tightest 8% stop band. Runners-up rejected: SOL ($77.53, -5.2%) is the highest-beta and worst performer; ETH ($1,742.98, -2.3%) carries net ETF outflows; XRP ($1.0921) has the best standalone catalyst (8th straight week of ETF inflows, ~$1.47B cumulative) but is a higher-beta alt into rising BTC dominance (~55%) and a falling-knife tape — the same setup that cost the book last week. Entry = dashboard live feed (asOf 2026-07-09T11:54:38Z).",
+      "risks": "Extreme Fear can accelerate to the downside — a break of support could trip the 8% stop at $57,657.70. Two-sided macro/regulatory headline risk on a 24/7 tape; conflicting ETF-flow reports (one source shows BTC ETFs still in a multi-week outflow streak with capital rotating to XRP/SOL) mean structural demand is not clean. Even majors can gap on weekend headlines.",
+      "addedDate": "2026-07-09"
     }
   ]
 }
