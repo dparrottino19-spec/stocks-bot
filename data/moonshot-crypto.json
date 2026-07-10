@@ -2,10 +2,10 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10068.36,
-  "tradeDate": "2026-07-09",
-  "lastUpdated": "2026-07-09T11:55:23Z",
-  "nextRefresh": "2026-07-10T06:45:00-05:00",
+  "startingCapital": 10344.23,
+  "tradeDate": "2026-07-10",
+  "lastUpdated": "2026-07-10T11:56:00Z",
+  "nextRefresh": "2026-07-11T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Runs every day — crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 68.36,
+  "priorRealizedPnL": 344.23,
   "positions": [
     {
-      "ticker": "BTC",
-      "name": "Bitcoin",
+      "ticker": "ETH",
+      "name": "Ethereum",
       "sector": "Crypto",
-      "shares": 0.160653,
-      "entry": 62671.41,
-      "stopPrice": 57657.7,
+      "shares": 5.745871,
+      "entry": 1800.29,
+      "stopPrice": 1656.27,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "Extreme-Fear tape: total crypto market cap -2.1% to ~$2.21T amid a broad risk-off session. BTC is the day's firmest major at ~-1.67% vs ETH -2.3% and SOL -5.2%. Structural support: US spot BTC ETFs snapped a 10-day outflow streak with a +$221.7M haul (largest in 2 months), and the SEC's 'Regulation Crypto' agenda is slated for release this July — a clarifying, demand-supportive catalyst.",
-      "driver": "Low-edge, fearful day — rulebook favors the liquid major with the most downside protection over the highest-beta name. BTC has the deepest liquidity, lowest beta, clearest relative strength today, and the tightest 8% stop band. Runners-up rejected: SOL ($77.53, -5.2%) is the highest-beta and worst performer; ETH ($1,742.98, -2.3%) carries net ETF outflows; XRP ($1.0921) has the best standalone catalyst (8th straight week of ETF inflows, ~$1.47B cumulative) but is a higher-beta alt into rising BTC dominance (~55%) and a falling-knife tape — the same setup that cost the book last week. Entry = dashboard live feed (asOf 2026-07-09T11:54:38Z).",
-      "risks": "Extreme Fear can accelerate to the downside — a break of support could trip the 8% stop at $57,657.70. Two-sided macro/regulatory headline risk on a 24/7 tape; conflicting ETF-flow reports (one source shows BTC ETFs still in a multi-week outflow streak with capital rotating to XRP/SOL) mean structural demand is not clean. Even majors can gap on weekend headlines.",
-      "addedDate": "2026-07-09"
+      "catalyst": "Risk-on turn: crypto tape flipped from Extreme Fear to a July rally (BTC +10% MTD, +2.2% last 24h). Soft US jobs data is pulling forward Fed-easing expectations, a weaker dollar and firm Asian AI/semis lifted risk appetite, US spot BTC ETFs snapped a 10-day outflow streak (+$221.7M on Jul 9), and a US Digital Asset Market Clarity Act could be introduced next week. ETH is the relative-strength leader among majors overnight (+3.3% vs BTC +2.7%, SOL +2.3%), sits above its 200-day MA ($1,693.65) with monthly RSI ~62, and prediction markets price a 57% chance of a $1,900 print in July. ETH is testing the ~$1,804 resistance shelf.",
+      "driver": "On a risk-on rotation day the rulebook favors an asymmetric setup with definable downside. ETH offers major-grade liquidity (deepest after BTC) for downside protection while carrying more upside beta than BTC as risk appetite returns and BTC dominance eases. It leads the majors overnight, holds above key moving averages, and has a Fed-easing + ETF + regulatory-clarity catalyst stack. Runners-up rejected: BTC (just closed, $64,388.62, +2.7%) is the safest but lowest-beta on a day the tape rewards beta; SOL ($79.29, +2.3%, cheapest ETF fees at 0.14%, best week of 2026 +13.7%, Ansem $150 target) is the highest-beta name but lagged overnight and carries recent -6% gap risk against a still-cautious backdrop; XRP ($1.1111, +1.7%) lagged and offers weaker relative strength today. Entry = dashboard live feed (asOf 2026-07-10T11:53:25Z).",
+      "risks": "Sentiment is still fragile — the rebound is short-covering-driven (Fear & Greed ~23) rather than euphoric, so a macro/regulatory headline could reverse the rally and trip the 8% stop at $1,656.27. ETH faces a resistance shelf near $1,804-$1,900 that could cap upside. Two-sided 24/7 headline risk into the Clarity Act news window (~Jul 14) and any dollar/rates surprise. Even majors can gap on weekend headlines.",
+      "addedDate": "2026-07-10"
     }
   ]
 }
