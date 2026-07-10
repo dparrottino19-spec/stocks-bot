@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 9684.61,
-  "tradeDate": "2026-07-09",
-  "lastUpdated": "2026-07-09T11:43:27Z",
-  "nextRefresh": "2026-07-10T06:30:00-05:00",
+  "startingCapital": 9878.12,
+  "tradeDate": "2026-07-10",
+  "lastUpdated": "2026-07-10T11:44:00Z",
+  "nextRefresh": "2026-07-11T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -315.39,
+  "priorRealizedPnL": -121.88,
   "positions": [
     {
-      "ticker": "AMD",
-      "name": "Advanced Micro Devices",
+      "ticker": "TSM",
+      "name": "Taiwan Semiconductor Manufacturing",
       "sector": "Semiconductors",
-      "shares": 18.17,
-      "entry": 533.0,
-      "stopPrice": 501.02,
+      "shares": 22.512694,
+      "entry": 438.78,
+      "stopPrice": 412.45,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Semiconductors are staging a broad buy-the-dip rebound on 7/9 after a ~15% PHLX washout: China signaling it may ease restrictions on importing advanced US chips, SK Hynix's US-listing ADR >7x oversubscribed, and UBS lifting Q3 DRAM contract-price forecasts +32% QoQ. Stock-specific: Goldman's James Schneider RAISED his AMD price target to $640 from $450 citing strong AI demand (~20% upside from entry). AMD +3.0% pre-market to $533.00 from $517.41 close; oil easing and yields well-behaved support the risk-on tape.",
-      "driver": "AMD is the cleanest non-chasing expression of today's chip rebound: a high-beta AI leader with its OWN fresh, specific catalyst (a +42% Goldman target raise to $640) layered on top of the sector-wide tailwind, off a deeply oversold base. Chose the 1x single name over SOXL (3x semi bull) deliberately — SOXL had already gapped +10.2% pre-market ($174.82→$192.61), past the 8-10% no-chase threshold, and 3x on an extended bounce-in-a-downtrend carries violent reversal risk. AMD at +3.0% is not chasing and the 1x vehicle bounds drawdown. Preferred over MU (+4.7%, more extended) and NVDA (+0.7%, muted move). Asymmetric: coordinated bullish catalysts into an oversold, sentiment-reset sector, with a hard 6% stop.",
-      "risks": "This is a bounce within this week's AI-valuation-fear downtrend — if the 'dot-com valuations / hawkish Fed / AI-capex-return doubts' narrative reasserts, semis can roll back over and a 1x long still gives back the gap. Single-name headline/China-policy risk (a reversal of the import-easing signal would hit AMD directly). Entered pre-market at +3.0%, so a fade to unchanged is a plausible near-term drawdown. Hard stop at $501.02 (-6%).",
-      "addedDate": "2026-07-09"
+      "catalyst": "SK Hynix's ~$28B Nasdaq ADR debut trades today (7/10, when-issued 'SKHYV') — >7x oversubscribed, the 2nd-largest IPO ever — a loud sentiment endorsement of the AI/HBM-memory supply chain. Semis are digesting a 2-day rebound: MU (+8.9% yesterday) is pulling back -0.8% pre-market, SOXL -3.3%, AVGO -0.9%, MRVL -1.3% — but TSM is the LONE green semi at +0.4% (pre-market $438.78 vs $436.96 close), showing relative strength. TSM reports Q2 on 7/16 (guided $39-40.2B rev, +10% QoQ; 65.5-67.5% GM) and is in its 7/6-15 quiet period, so no company-issued surprises in the next 24h.",
+      "driver": "On a flat broad tape (S&P +0.03%, Nasdaq -0.18%) with the semi momentum theme 2 days old and rolling over pre-market, chasing 3x SOXL (-3.3%) or extended MU (+8.9% then fading) into a digestion carries violent reversal risk and trips the no-chase rule. TSM is the cleaner, lower-vol expression: the quality AI-foundry leader and picks-and-shovels beneficiary of the exact AI/HBM demand SK Hynix's oversubscribed debut reinforces, showing relative strength (only green semi) rather than an extended gap. Chose 1x single-name over leverage deliberately — low-edge, flat-market day calls for lower-vol + downside protection, and TSM at +0.4% is not chasing. Pre-earnings drift into 7/16 adds a positive lean; quiet period removes 24h binary risk.",
+      "risks": "Counter-theme risk: if the broad semi rebound fully rolls over (the original AI-valuation-fear washout narrative reasserting), even a relatively-strong TSM gives back with the group. ADR/Taiwan-macro and FX (TWD) headline risk. Pre-earnings positioning can unwind if sentiment sours ahead of 7/16. Low-conviction, low-edge entry (+0.4%), so upside is modest — this is a downside-protected park, not a moonshot. Hard stop at $412.45 (-6%).",
+      "addedDate": "2026-07-10"
     }
   ]
 }
