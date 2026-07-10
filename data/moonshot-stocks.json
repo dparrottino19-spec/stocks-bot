@@ -2,10 +2,10 @@
   "bookName": "Moonshot Stocks",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8877.6,
-  "tradeDate": "2026-07-09",
-  "lastUpdated": "2026-07-09T11:37:56Z",
-  "nextRefresh": "2026-07-10T06:35:00-05:00",
+  "startingCapital": 8859.25,
+  "tradeDate": "2026-07-10",
+  "lastUpdated": "2026-07-10T11:38:37Z",
+  "nextRefresh": "2026-07-13T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -14,20 +14,6 @@
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
-  "priorRealizedPnL": -1122.4,
-  "positions": [
-    {
-      "ticker": "TOST",
-      "name": "Toast, Inc.",
-      "sector": "Technology (Restaurant Fintech)",
-      "shares": 305.807785,
-      "entry": 29.03,
-      "stopPrice": 27.29,
-      "exitRule": "Rotate next weekday 6:35am CT run",
-      "catalyst": "Goldman Sachs upgraded TOST to Buy from Neutral (7/9) with a $36 price target (~24% above entry), citing accelerating location adds and margin expansion.",
-      "driver": "Fresh sell-side upgrade with a named PT and clear direction; stock only +1.6% pre-market so room to run into the call, not chased.",
-      "risks": "Analyst-upgrade catalyst is softer than earnings/M&A and can fade intraday; broad tape carries US-Iran geopolitical risk-off tail; wide pre-market spread. Hard stop at $27.29 (-6%).",
-      "addedDate": "2026-07-09"
-    }
-  ]
+  "priorRealizedPnL": -1140.75,
+  "positions": []
 }
