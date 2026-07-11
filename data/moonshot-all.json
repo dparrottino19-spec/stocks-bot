@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 9878.12,
-  "tradeDate": "2026-07-10",
-  "lastUpdated": "2026-07-10T11:44:00Z",
-  "nextRefresh": "2026-07-11T06:30:00-05:00",
+  "startingCapital": 9772.99,
+  "tradeDate": "2026-07-11",
+  "lastUpdated": "2026-07-11T11:43:04Z",
+  "nextRefresh": "2026-07-12T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -121.88,
+  "priorRealizedPnL": -227.01,
   "positions": [
     {
-      "ticker": "TSM",
-      "name": "Taiwan Semiconductor Manufacturing",
-      "sector": "Semiconductors",
-      "shares": 22.512694,
-      "entry": 438.78,
-      "stopPrice": 412.45,
+      "ticker": "BTC-USD",
+      "name": "Bitcoin",
+      "sector": "Cryptocurrency",
+      "shares": 0.152395,
+      "entry": 64129.27,
+      "stopPrice": 60281.51,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "SK Hynix's ~$28B Nasdaq ADR debut trades today (7/10, when-issued 'SKHYV') — >7x oversubscribed, the 2nd-largest IPO ever — a loud sentiment endorsement of the AI/HBM-memory supply chain. Semis are digesting a 2-day rebound: MU (+8.9% yesterday) is pulling back -0.8% pre-market, SOXL -3.3%, AVGO -0.9%, MRVL -1.3% — but TSM is the LONE green semi at +0.4% (pre-market $438.78 vs $436.96 close), showing relative strength. TSM reports Q2 on 7/16 (guided $39-40.2B rev, +10% QoQ; 65.5-67.5% GM) and is in its 7/6-15 quiet period, so no company-issued surprises in the next 24h.",
-      "driver": "On a flat broad tape (S&P +0.03%, Nasdaq -0.18%) with the semi momentum theme 2 days old and rolling over pre-market, chasing 3x SOXL (-3.3%) or extended MU (+8.9% then fading) into a digestion carries violent reversal risk and trips the no-chase rule. TSM is the cleaner, lower-vol expression: the quality AI-foundry leader and picks-and-shovels beneficiary of the exact AI/HBM demand SK Hynix's oversubscribed debut reinforces, showing relative strength (only green semi) rather than an extended gap. Chose 1x single-name over leverage deliberately — low-edge, flat-market day calls for lower-vol + downside protection, and TSM at +0.4% is not chasing. Pre-earnings drift into 7/16 adds a positive lean; quiet period removes 24h binary risk.",
-      "risks": "Counter-theme risk: if the broad semi rebound fully rolls over (the original AI-valuation-fear washout narrative reasserting), even a relatively-strong TSM gives back with the group. ADR/Taiwan-macro and FX (TWD) headline risk. Pre-earnings positioning can unwind if sentiment sours ahead of 7/16. Low-conviction, low-edge entry (+0.4%), so upside is modest — this is a downside-protected park, not a moonshot. Hard stop at $412.45 (-6%).",
-      "addedDate": "2026-07-10"
+      "catalyst": "US equity market CLOSED (Saturday) — spot crypto is the only eligible instrument. BTC's flow picture just inflected: spot Bitcoin ETFs took in ~$510M across three sessions and +$265M on 7/10, snapping a 10-day, $2.73B outflow streak. The Senate returns to Washington next week and is expected to unveil final CLARITY Act market-structure language 'within days'; Polymarket odds of it being signed in 2026 jumped to 40% from 30-35% a week ago — a live headline catalyst that can land on thin weekend liquidity. BTC is pressing $64.4K, the level it failed at on Monday; a clean break opens the June 15 peak of $67,250 (+4.9%). Fear & Greed reads 23 (extreme fear) with leverage restrained — positioning is light into the CPI print on 7/14.",
+      "driver": "BTC is the only crypto with the fresh catalyst attached to it. ETH is the explicit flow LOSER — spot ETH ETFs are still bleeding while BTC's flipped positive, ETH/BTC sits near a 10-month low, and ETH is 60% off its peak vs BTC's 48%. Buying the higher-beta asset whose own flows are negative is anti-asymmetric, so ETH was rejected despite the beta. SOL (-5.2% on the day, no catalyst) was rejected on momentum. That leaves BTC: the deepest, lowest-vol book in crypto (best downside protection, per the objective), sitting on a defined technical trigger with a defined target, into extreme-fear positioning where the pain trade is up. Not a chase — BTC is +~2% on the day and +2.6% on the week, far inside the no-chase band. Spot, unleveraged: weekend liquidity is thin and leveraged crypto ETFs (BITX et al.) don't trade today, so leverage isn't available even if conviction warranted it.",
+      "risks": "Weekend crypto is thin and gap-prone in BOTH directions — a liquidation cascade on low depth can overshoot. BTC has failed at $64.4K once already this week; a third rejection likely means a retest of the $60-62K shelf. The CLARITY catalyst is headline-dependent and could just as easily slip again (it already blew past the July 4 deadline). A hot CPI on 7/14 delays Fed cuts and pressures all risk assets; Middle East escalation is a live tail. Structural bear regime remains intact — BTC is ~49% off its Oct-2025 high of $126,198. Hard stop $60,281.51 (-6%), set deliberately TIGHTER than the 10% crypto default: it sits just under the $60K shelf that held in late June, so it triggers only on a genuine thesis break rather than on noise, maximizing downside protection.",
+      "addedDate": "2026-07-11"
     }
   ]
 }
