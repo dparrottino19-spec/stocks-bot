@@ -2,10 +2,10 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10344.23,
-  "tradeDate": "2026-07-10",
-  "lastUpdated": "2026-07-10T11:56:00Z",
-  "nextRefresh": "2026-07-11T06:45:00-05:00",
+  "startingCapital": 10333.43,
+  "tradeDate": "2026-07-11",
+  "lastUpdated": "2026-07-11T11:56:00Z",
+  "nextRefresh": "2026-07-12T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Runs every day — crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 344.23,
+  "priorRealizedPnL": 333.43,
   "positions": [
     {
-      "ticker": "ETH",
-      "name": "Ethereum",
+      "ticker": "BTC",
+      "name": "Bitcoin",
       "sector": "Crypto",
-      "shares": 5.745871,
-      "entry": 1800.29,
-      "stopPrice": 1656.27,
+      "shares": 0.161134,
+      "entry": 64129.44,
+      "stopPrice": 58999.08,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "Risk-on turn: crypto tape flipped from Extreme Fear to a July rally (BTC +10% MTD, +2.2% last 24h). Soft US jobs data is pulling forward Fed-easing expectations, a weaker dollar and firm Asian AI/semis lifted risk appetite, US spot BTC ETFs snapped a 10-day outflow streak (+$221.7M on Jul 9), and a US Digital Asset Market Clarity Act could be introduced next week. ETH is the relative-strength leader among majors overnight (+3.3% vs BTC +2.7%, SOL +2.3%), sits above its 200-day MA ($1,693.65) with monthly RSI ~62, and prediction markets price a 57% chance of a $1,900 print in July. ETH is testing the ~$1,804 resistance shelf.",
-      "driver": "On a risk-on rotation day the rulebook favors an asymmetric setup with definable downside. ETH offers major-grade liquidity (deepest after BTC) for downside protection while carrying more upside beta than BTC as risk appetite returns and BTC dominance eases. It leads the majors overnight, holds above key moving averages, and has a Fed-easing + ETF + regulatory-clarity catalyst stack. Runners-up rejected: BTC (just closed, $64,388.62, +2.7%) is the safest but lowest-beta on a day the tape rewards beta; SOL ($79.29, +2.3%, cheapest ETF fees at 0.14%, best week of 2026 +13.7%, Ansem $150 target) is the highest-beta name but lagged overnight and carries recent -6% gap risk against a still-cautious backdrop; XRP ($1.1111, +1.7%) lagged and offers weaker relative strength today. Entry = dashboard live feed (asOf 2026-07-10T11:53:25Z).",
-      "risks": "Sentiment is still fragile — the rebound is short-covering-driven (Fear & Greed ~23) rather than euphoric, so a macro/regulatory headline could reverse the rally and trip the 8% stop at $1,656.27. ETH faces a resistance shelf near $1,804-$1,900 that could cap upside. Two-sided 24/7 headline risk into the Clarity Act news window (~Jul 14) and any dollar/rates surprise. Even majors can gap on weekend headlines.",
-      "addedDate": "2026-07-10"
+      "catalyst": "Institutional flows are concentrating in BTC specifically: US spot bitcoin ETFs took +$90.44M on Jul 10 (IBIT alone +$86.83M), a second straight inflow day that snapped a 10-day, $2.73B outflow streak, versus only +$18.4M into spot ETH ETFs and rounding-error inflows into SOL (+$150K) and XRP (+$107K). Cumulative BTC ETF inflows now ~$51.3B. Global crypto cap rose to $2.28T (+1.2% 24h) and Fear & Greed ticked 23 -> 26, but BTC dominance is holding a high 56-58.7%, meaning the recovery bid is selective and flowing to BTC first, not broadly into alts. Optionality: a new combined-committee Clarity Act draft may drop next week with possible Senate floor action the week of Jul 20 — a headline that hits BTC first.",
+      "driver": "This is a low-edge, fragile-sentiment consolidation day on a weekend tape, and the rulebook says favor the liquid majors when edge is thin. Measured on our own dashboard feed over the last 24h (11:53Z to 11:53Z), NOTHING was strong: BTC -0.40%, ETH -0.10%, SOL -1.60%, XRP -0.35%. With no coin showing genuine relative-strength leadership, the asymmetric choice is the one with the best downside protection and the cleanest catalyst — BTC has the deepest liquidity (smallest weekend gap risk), the rising-dominance bid, and by far the largest share of returning ETF money. Runners-up rejected: ETH (just closed flat at $1,798.41) held up marginally best on the 24h but has now failed twice at the $1,804 resistance shelf and its ETF flows are 5x smaller than BTC's; SOL ($78.02, -1.6%) is the highest-beta name but is the weakest performer overnight and is exactly the wrong profile with BTC dominance rising; XRP ($1.1072, -0.35%) is the YTD momentum leader (+400%) but has stalled and offers no fresh 24h catalyst. Entry = dashboard live feed (asOf 2026-07-11T11:53:05Z).",
+      "risks": "Sentiment is still in Fear (F&G 26) — this is a short-covering rebound, not a trend, and a macro or regulatory headline over a thin-liquidity weekend could reverse it and trip the 8% stop at $58,999.08. Choosing BTC caps upside: if the Clarity Act draft lands early and sparks a broad alt rotation, high-beta names (SOL, XRP) will materially outperform this pick. Clarity Act path is not clean — ethics, federal preemption and agency vacancies are unresolved, and the bill has already missed its July 4 target, so a 'delayed again' headline is a live downside catalyst. 24/7 headline and dollar/rates risk persists through the weekend.",
+      "addedDate": "2026-07-11"
     }
   ]
 }
