@@ -2,10 +2,10 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10333.43,
-  "tradeDate": "2026-07-11",
-  "lastUpdated": "2026-07-11T11:56:00Z",
-  "nextRefresh": "2026-07-12T06:45:00-05:00",
+  "startingCapital": 10305.29,
+  "tradeDate": "2026-07-12",
+  "lastUpdated": "2026-07-12T11:56:00Z",
+  "nextRefresh": "2026-07-13T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Runs every day — crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 333.43,
+  "priorRealizedPnL": 305.29,
   "positions": [
     {
-      "ticker": "BTC",
-      "name": "Bitcoin",
+      "ticker": "ETH",
+      "name": "Ethereum",
       "sector": "Crypto",
-      "shares": 0.161134,
-      "entry": 64129.44,
-      "stopPrice": 58999.08,
+      "shares": 5.717094,
+      "entry": 1802.54,
+      "stopPrice": 1658.34,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "Institutional flows are concentrating in BTC specifically: US spot bitcoin ETFs took +$90.44M on Jul 10 (IBIT alone +$86.83M), a second straight inflow day that snapped a 10-day, $2.73B outflow streak, versus only +$18.4M into spot ETH ETFs and rounding-error inflows into SOL (+$150K) and XRP (+$107K). Cumulative BTC ETF inflows now ~$51.3B. Global crypto cap rose to $2.28T (+1.2% 24h) and Fear & Greed ticked 23 -> 26, but BTC dominance is holding a high 56-58.7%, meaning the recovery bid is selective and flowing to BTC first, not broadly into alts. Optionality: a new combined-committee Clarity Act draft may drop next week with possible Senate floor action the week of Jul 20 — a headline that hits BTC first.",
-      "driver": "This is a low-edge, fragile-sentiment consolidation day on a weekend tape, and the rulebook says favor the liquid majors when edge is thin. Measured on our own dashboard feed over the last 24h (11:53Z to 11:53Z), NOTHING was strong: BTC -0.40%, ETH -0.10%, SOL -1.60%, XRP -0.35%. With no coin showing genuine relative-strength leadership, the asymmetric choice is the one with the best downside protection and the cleanest catalyst — BTC has the deepest liquidity (smallest weekend gap risk), the rising-dominance bid, and by far the largest share of returning ETF money. Runners-up rejected: ETH (just closed flat at $1,798.41) held up marginally best on the 24h but has now failed twice at the $1,804 resistance shelf and its ETF flows are 5x smaller than BTC's; SOL ($78.02, -1.6%) is the highest-beta name but is the weakest performer overnight and is exactly the wrong profile with BTC dominance rising; XRP ($1.1072, -0.35%) is the YTD momentum leader (+400%) but has stalled and offers no fresh 24h catalyst. Entry = dashboard live feed (asOf 2026-07-11T11:53:05Z).",
-      "risks": "Sentiment is still in Fear (F&G 26) — this is a short-covering rebound, not a trend, and a macro or regulatory headline over a thin-liquidity weekend could reverse it and trip the 8% stop at $58,999.08. Choosing BTC caps upside: if the Clarity Act draft lands early and sparks a broad alt rotation, high-beta names (SOL, XRP) will materially outperform this pick. Clarity Act path is not clean — ethics, federal preemption and agency vacancies are unresolved, and the bill has already missed its July 4 target, so a 'delayed again' headline is a live downside catalyst. 24/7 headline and dollar/rates risk persists through the weekend.",
-      "addedDate": "2026-07-11"
+      "catalyst": "ETH is the flow story this week: US spot ether ETFs took +$84.42M for the week ending Jul 11 — the first net weekly inflow in EIGHT weeks and the largest since late April — part of a combined +$282M BTC/ETH ETF week that snapped the longest outflow streak in these products' history. The staking-ETF narrative is the incremental institutional story ETH has been missing (locks up float, adds yield). Near-term event risk is now two-sided and dated: the Senate returns from recess TOMORROW (Jul 13) with an updated CLARITY Act draft expected mid-July and roughly 20 working days before the Aug 7 recess — a market-structure headline lands squarely inside this 24h window and historically lifts ETH (the DeFi/tokenization proxy) more than BTC.",
+      "driver": "Relative strength is the tiebreaker and ETH is the ONLY major that is green. Measured on our own dashboard feed 24h-to-24h (Jul 11 11:53Z -> Jul 12 11:53Z): ETH +0.23% ($1,798.41 -> $1,802.54), BTC -0.27% ($64,129.44 -> $63,954.80), SOL -1.26% ($78.02 -> $77.04), XRP -0.96% ($1.1072 -> $1.0966). ETH did what it failed to do twice last week — it RECLAIMED the $1,800 shelf and is holding above it into the Senate's return, which converts former resistance into a clean, definable stop reference. That is the asymmetric setup: a liquid major (deep books, minimal weekend gap risk = downside protection) that is simultaneously the relative-strength leader AND the one with a fresh, quantified flow inflection. Runners-up rejected: BTC (yesterday's pick) is fading despite the biggest ETF book — it has no relative strength left and a CLARITY headline rotates money OUT of dominance and into ETH; SOL is the highest-beta name with a real Q3 catalyst (Alpenglow, ~98% validator support, finality 12s -> 100-150ms) but it is the WEAKEST 24h performer and Alpenglow is a Q3 event, not a next-24h one; XRP keeps bleeding with no fresh catalyst. Entry = dashboard live feed (asOf 2026-07-12T11:53:09Z).",
+      "risks": "Sentiment is still Extreme Fear (F&G ~23-26) and the ETF reversal is thin — $84M recovers roughly 1% of ETH's ~$9.46B of prior outflows, so this may be tactical rebalancing, not renewed conviction, and it can reverse in a single session. The $1,800 reclaim is only ~0.1% above the shelf; a failed retest flushes back toward $1,750 and a sustained risk-off leg trips the 8% stop at $1,658.34. The CLARITY catalyst cuts both ways: the bill already missed its Jul 4 target, and a 'delayed again / no floor time' headline when the Senate returns Jul 13 would hit ETH harder than BTC. BTC dominance is still elevated (56-58%), which is the wrong regime for an ETH-over-BTC bet if the bid stays defensive. 24/7 headline, dollar and rates risk persists.",
+      "addedDate": "2026-07-12"
     }
   ]
 }
