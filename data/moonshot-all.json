@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 9772.99,
-  "tradeDate": "2026-07-11",
-  "lastUpdated": "2026-07-11T11:43:04Z",
-  "nextRefresh": "2026-07-12T06:30:00-05:00",
+  "startingCapital": 9744.60,
+  "tradeDate": "2026-07-12",
+  "lastUpdated": "2026-07-12T11:52:00Z",
+  "nextRefresh": "2026-07-13T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -227.01,
+  "priorRealizedPnL": -255.40,
   "positions": [
     {
-      "ticker": "BTC-USD",
-      "name": "Bitcoin",
+      "ticker": "ETH-USD",
+      "name": "Ethereum",
       "sector": "Cryptocurrency",
-      "shares": 0.152395,
-      "entry": 64129.27,
-      "stopPrice": 60281.51,
+      "shares": 5.402801,
+      "entry": 1803.62,
+      "stopPrice": 1695.40,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "US equity market CLOSED (Saturday) — spot crypto is the only eligible instrument. BTC's flow picture just inflected: spot Bitcoin ETFs took in ~$510M across three sessions and +$265M on 7/10, snapping a 10-day, $2.73B outflow streak. The Senate returns to Washington next week and is expected to unveil final CLARITY Act market-structure language 'within days'; Polymarket odds of it being signed in 2026 jumped to 40% from 30-35% a week ago — a live headline catalyst that can land on thin weekend liquidity. BTC is pressing $64.4K, the level it failed at on Monday; a clean break opens the June 15 peak of $67,250 (+4.9%). Fear & Greed reads 23 (extreme fear) with leverage restrained — positioning is light into the CPI print on 7/14.",
-      "driver": "BTC is the only crypto with the fresh catalyst attached to it. ETH is the explicit flow LOSER — spot ETH ETFs are still bleeding while BTC's flipped positive, ETH/BTC sits near a 10-month low, and ETH is 60% off its peak vs BTC's 48%. Buying the higher-beta asset whose own flows are negative is anti-asymmetric, so ETH was rejected despite the beta. SOL (-5.2% on the day, no catalyst) was rejected on momentum. That leaves BTC: the deepest, lowest-vol book in crypto (best downside protection, per the objective), sitting on a defined technical trigger with a defined target, into extreme-fear positioning where the pain trade is up. Not a chase — BTC is +~2% on the day and +2.6% on the week, far inside the no-chase band. Spot, unleveraged: weekend liquidity is thin and leveraged crypto ETFs (BITX et al.) don't trade today, so leverage isn't available even if conviction warranted it.",
-      "risks": "Weekend crypto is thin and gap-prone in BOTH directions — a liquidation cascade on low depth can overshoot. BTC has failed at $64.4K once already this week; a third rejection likely means a retest of the $60-62K shelf. The CLARITY catalyst is headline-dependent and could just as easily slip again (it already blew past the July 4 deadline). A hot CPI on 7/14 delays Fed cuts and pressures all risk assets; Middle East escalation is a live tail. Structural bear regime remains intact — BTC is ~49% off its Oct-2025 high of $126,198. Hard stop $60,281.51 (-6%), set deliberately TIGHTER than the 10% crypto default: it sits just under the $60K shelf that held in late June, so it triggers only on a genuine thesis break rather than on noise, maximizing downside protection.",
-      "addedDate": "2026-07-11"
+      "catalyst": "US equity market CLOSED (Sunday) — spot crypto is the only eligible instrument. The ETH flow picture INVERTED since yesterday's run: US spot Ethereum ETFs posted +$84.4M net inflows for the week ending 7/11, snapping an EIGHT-WEEK net-withdrawal streak (BTC+ETH complex together took in ~$282M on the week, ending a stretch that had drained ~$9.46B). Price confirms: ETH has broken above $1,770 and is pressing the multi-month descending trendline, with daily RSI now ABOVE 50 while BTC's RSI is still BELOW 50 — ETH is the momentum leader, not the laggard. June CPI lands Tuesday 7/14 and is expected to print a soft headline on collapsing gasoline; a cool number revives cut hopes into the 7/28-29 FOMC and the highest-beta major with positive flows gets the most torque. Fear & Greed 23 (extreme fear) means positioning is light.",
+      "driver": "This is a deliberate rotation OUT of the thesis that failed yesterday. BTC was bought on 7/11 precisely because its flows had flipped positive while ETH's were still bleeding; that asymmetry is now gone — BTC ETFs shed ~$95M on 7/10 and BTC has been rejected at $64.4K three separate times this week with RSI still sub-50. ETH now owns everything BTC owned yesterday (positive institutional flow, a defined technical trigger) PLUS a higher beta AND a compressed relative valuation: ETH/BTC sits near a 10-month low, so a market-wide risk bid mean-reverts the ratio in ETH's favor — the payoff is asymmetric in the direction we are pointed. Downside protection is real, not assumed: ETH sits directly on top of its 50-day (~$1,708) and 200-day (~$1,693) moving averages, a tight support cluster only ~6% below spot, which is what lets the stop be set tight. SOL ($76.87) rejected: has failed at $80 repeatedly and faded from Thursday with no fresh catalyst. XRP rejected: CLARITY-Act-levered but no confirming flow data. BTC rejected: safest but least upside and its edge just decayed. Spot and unleveraged — weekend books are thin and equity-listed leveraged crypto ETFs (BITX etc.) do not trade today, so leverage is unavailable regardless of conviction.",
+      "risks": "ETH is the higher-beta asset, so it cuts BOTH ways: in a weekend liquidation cascade on thin depth it falls harder than BTC — that is the explicit cost of the asymmetry we are buying. The weekly ETH inflow was choppy, not clean (7/10 alone saw ~$52M of ETH ETF OUTflows), so the flow inflection is one week old and could prove a head-fake. ETH is testing a descending trendline that has rejected it repeatedly since the peak; failure there sends it back toward $1,700. A HOT CPI on 7/14 kills the rate-cut path and pressures every risk asset, with ETH leading down. The structural bear regime is intact — ETH remains ~60% off its cycle high vs BTC's ~49%. Hard stop $1,695.40 (-6%), set TIGHTER than the 10% crypto default and placed just beneath the 50/200-DMA cluster so it triggers only on a genuine thesis break, not on noise.",
+      "addedDate": "2026-07-12"
     }
   ]
 }
