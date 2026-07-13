@@ -2,10 +2,10 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10305.29,
-  "tradeDate": "2026-07-12",
-  "lastUpdated": "2026-07-12T11:56:00Z",
-  "nextRefresh": "2026-07-13T06:45:00-05:00",
+  "startingCapital": 10184.43,
+  "tradeDate": "2026-07-13",
+  "lastUpdated": "2026-07-13T11:56:00Z",
+  "nextRefresh": "2026-07-14T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Runs every day — crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 305.29,
+  "priorRealizedPnL": 184.43,
   "positions": [
     {
-      "ticker": "ETH",
-      "name": "Ethereum",
+      "ticker": "SOL",
+      "name": "Solana",
       "sector": "Crypto",
-      "shares": 5.717094,
-      "entry": 1802.54,
-      "stopPrice": 1658.34,
+      "shares": 133.321508,
+      "entry": 76.39,
+      "stopPrice": 68.75,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "ETH is the flow story this week: US spot ether ETFs took +$84.42M for the week ending Jul 11 — the first net weekly inflow in EIGHT weeks and the largest since late April — part of a combined +$282M BTC/ETH ETF week that snapped the longest outflow streak in these products' history. The staking-ETF narrative is the incremental institutional story ETH has been missing (locks up float, adds yield). Near-term event risk is now two-sided and dated: the Senate returns from recess TOMORROW (Jul 13) with an updated CLARITY Act draft expected mid-July and roughly 20 working days before the Aug 7 recess — a market-structure headline lands squarely inside this 24h window and historically lifts ETH (the DeFi/tokenization proxy) more than BTC.",
-      "driver": "Relative strength is the tiebreaker and ETH is the ONLY major that is green. Measured on our own dashboard feed 24h-to-24h (Jul 11 11:53Z -> Jul 12 11:53Z): ETH +0.23% ($1,798.41 -> $1,802.54), BTC -0.27% ($64,129.44 -> $63,954.80), SOL -1.26% ($78.02 -> $77.04), XRP -0.96% ($1.1072 -> $1.0966). ETH did what it failed to do twice last week — it RECLAIMED the $1,800 shelf and is holding above it into the Senate's return, which converts former resistance into a clean, definable stop reference. That is the asymmetric setup: a liquid major (deep books, minimal weekend gap risk = downside protection) that is simultaneously the relative-strength leader AND the one with a fresh, quantified flow inflection. Runners-up rejected: BTC (yesterday's pick) is fading despite the biggest ETF book — it has no relative strength left and a CLARITY headline rotates money OUT of dominance and into ETH; SOL is the highest-beta name with a real Q3 catalyst (Alpenglow, ~98% validator support, finality 12s -> 100-150ms) but it is the WEAKEST 24h performer and Alpenglow is a Q3 event, not a next-24h one; XRP keeps bleeding with no fresh catalyst. Entry = dashboard live feed (asOf 2026-07-12T11:53:09Z).",
-      "risks": "Sentiment is still Extreme Fear (F&G ~23-26) and the ETF reversal is thin — $84M recovers roughly 1% of ETH's ~$9.46B of prior outflows, so this may be tactical rebalancing, not renewed conviction, and it can reverse in a single session. The $1,800 reclaim is only ~0.1% above the shelf; a failed retest flushes back toward $1,750 and a sustained risk-off leg trips the 8% stop at $1,658.34. The CLARITY catalyst cuts both ways: the bill already missed its Jul 4 target, and a 'delayed again / no floor time' headline when the Senate returns Jul 13 would hit ETH harder than BTC. BTC dominance is still elevated (56-58%), which is the wrong regime for an ETH-over-BTC bet if the bid stays defensive. 24/7 headline, dollar and rates risk persists.",
-      "addedDate": "2026-07-12"
+      "catalyst": "SOL has the only NEW, SOL-specific institutional catalyst on the tape: Morgan Stanley amended its SEC filings for its upcoming Ether and Solana ETFs at a record-low 0.14% fee — the cheapest in both the U.S. and international markets. A fee war is what happens immediately BEFORE launch, and it is a signal BTC and ETH do not get (their ETF complexes are already mature and are still net -$5.4B YTD in BTC's case). Second, the Senate returns from recess TODAY (Jul 13) with a new CLARITY Act draft expected to drop this week and advocates targeting floor time as soon as the week of Jul 20. A digital-commodity market-structure bill is disproportionately an ALTCOIN catalyst — it is what moves an asset like SOL from regulatory limbo into a defined bucket and unlocks the spot-ETF/staking pipeline; BTC's status was never in doubt, so BTC captures the least of that headline. Third, Alpenglow feature-flag work continues in the Agave/Firedancer releases (finality ~12s -> 100-150ms), keeping the fundamental bid intact underneath.",
+      "driver": "Relative strength during a FLUSH is the whole trade. Bitcoin broke below $63,000 in an Asian-session leverage flush overnight and the entire tape is red — but SOL, the highest-beta major, went DOWN THE LEAST. Measured on our own dashboard feed 24h-to-24h (Jul 12 11:53Z -> Jul 13 11:53Z): SOL -0.84% ($77.04 -> $76.39), ETH -1.17% ($1,802.54 -> $1,781.40), BTC -1.70% ($63,954.80 -> $62,867.22), XRP -1.71% ($1.0966 -> $1.0779). A high-beta alt that REFUSES to amplify a leverage flush is the cleanest relative-strength tell there is, and it is not a one-day fluke — SOL is up ~20% over the past month while BTC and ETH are not. Sentiment is also inflecting off the floor: Fear & Greed is ~36-44 (Fear/Neutral) today versus 21-26 Extreme Fear a week ago. Runners-up rejected: ETH (yesterday's pick) FAILED its thesis — it could not hold the $1,800 shelf it reclaimed and is back to $1,781, so the setup is invalidated, not repeated; BTC is the weakest major, just flushed sub-$63k, and its ETF flow recovery ($221M single day, ~$510M over three sessions) still only claws back ~9% of $5.4B in 2026 outflows; XRP is the worst 24h performer with no fresh catalyst. Entry = dashboard live feed (asOf 2026-07-13T11:53:05Z).",
+      "risks": "SOL is the highest-beta major in the book, and the relative-strength edge is thin (0.3-0.9pp) — if BTC's leverage flush extends below $62,000, SOL will amplify the downside, not cushion it, and the 10% stop at $68.75 gets tested fast. The $80 level has rejected SOL repeatedly and is still overhead resistance, so upside into the next 24h is capped by a well-defended pivot. The CLARITY catalyst is a coin-flip: the bill already missed its Jul 4 target and is stalled on three unresolved disputes (crypto ethics disclosures, federal preemption + SEC/CFTC vacancies, and stablecoin yield), with no bipartisan buy-in — a 'delayed again / no floor time' headline when the Senate returns today would hit high-beta alts like SOL harder than BTC. Morgan Stanley's fee filing is an amendment, not an approval or a launch date. Fear & Greed at 36-44 is off the floor but not risk-on. 24/7 headline, dollar and rates risk persists; U.S. inflation data and Q2 earnings land this week.",
+      "addedDate": "2026-07-13"
     }
   ]
 }
