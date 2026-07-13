@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 9744.60,
-  "tradeDate": "2026-07-12",
-  "lastUpdated": "2026-07-12T11:52:00Z",
-  "nextRefresh": "2026-07-13T06:30:00-05:00",
+  "startingCapital": 9117.71,
+  "tradeDate": "2026-07-13",
+  "lastUpdated": "2026-07-13T11:45:00Z",
+  "nextRefresh": "2026-07-14T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -255.40,
+  "priorRealizedPnL": -882.29,
   "positions": [
     {
-      "ticker": "ETH-USD",
-      "name": "Ethereum",
-      "sector": "Cryptocurrency",
-      "shares": 5.402801,
-      "entry": 1803.62,
-      "stopPrice": 1695.40,
+      "ticker": "UCO",
+      "name": "ProShares Ultra Bloomberg Crude Oil (2x WTI)",
+      "sector": "Energy / Commodity (Leveraged ETF)",
+      "shares": 251.453668,
+      "entry": 36.26,
+      "stopPrice": 33.36,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "US equity market CLOSED (Sunday) — spot crypto is the only eligible instrument. The ETH flow picture INVERTED since yesterday's run: US spot Ethereum ETFs posted +$84.4M net inflows for the week ending 7/11, snapping an EIGHT-WEEK net-withdrawal streak (BTC+ETH complex together took in ~$282M on the week, ending a stretch that had drained ~$9.46B). Price confirms: ETH has broken above $1,770 and is pressing the multi-month descending trendline, with daily RSI now ABOVE 50 while BTC's RSI is still BELOW 50 — ETH is the momentum leader, not the laggard. June CPI lands Tuesday 7/14 and is expected to print a soft headline on collapsing gasoline; a cool number revives cut hopes into the 7/28-29 FOMC and the highest-beta major with positive flows gets the most torque. Fear & Greed 23 (extreme fear) means positioning is light.",
-      "driver": "This is a deliberate rotation OUT of the thesis that failed yesterday. BTC was bought on 7/11 precisely because its flows had flipped positive while ETH's were still bleeding; that asymmetry is now gone — BTC ETFs shed ~$95M on 7/10 and BTC has been rejected at $64.4K three separate times this week with RSI still sub-50. ETH now owns everything BTC owned yesterday (positive institutional flow, a defined technical trigger) PLUS a higher beta AND a compressed relative valuation: ETH/BTC sits near a 10-month low, so a market-wide risk bid mean-reverts the ratio in ETH's favor — the payoff is asymmetric in the direction we are pointed. Downside protection is real, not assumed: ETH sits directly on top of its 50-day (~$1,708) and 200-day (~$1,693) moving averages, a tight support cluster only ~6% below spot, which is what lets the stop be set tight. SOL ($76.87) rejected: has failed at $80 repeatedly and faded from Thursday with no fresh catalyst. XRP rejected: CLARITY-Act-levered but no confirming flow data. BTC rejected: safest but least upside and its edge just decayed. Spot and unleveraged — weekend books are thin and equity-listed leveraged crypto ETFs (BITX etc.) do not trade today, so leverage is unavailable regardless of conviction.",
-      "risks": "ETH is the higher-beta asset, so it cuts BOTH ways: in a weekend liquidation cascade on thin depth it falls harder than BTC — that is the explicit cost of the asymmetry we are buying. The weekly ETH inflow was choppy, not clean (7/10 alone saw ~$52M of ETH ETF OUTflows), so the flow inflection is one week old and could prove a head-fake. ETH is testing a descending trendline that has rejected it repeatedly since the peak; failure there sends it back toward $1,700. A HOT CPI on 7/14 kills the rate-cut path and pressures every risk asset, with ETH leading down. The structural bear regime is intact — ETH remains ~60% off its cycle high vs BTC's ~49%. Hard stop $1,695.40 (-6%), set TIGHTER than the 10% crypto default and placed just beneath the 50/200-DMA cluster so it triggers only on a genuine thesis break, not on noise.",
-      "addedDate": "2026-07-12"
+      "catalyst": "The Strait of Hormuz is de facto closing. CENTCOM ran dozens of strikes on Iran Sunday after Iranian forces attacked the Cyprus-flagged container ship MV GFS Galaxy in the strait; Iran retaliated with missile/drone waves against the UAE, Qatar, Kuwait, Oman and Bahrain — an escalation from hitting US assets to hitting Gulf oil states themselves. The physical evidence is the trade: vessel transits through Hormuz have collapsed to SINGLE DIGITS per day versus 30-40 tankers/bulkers earlier last week (Vortexa's Fyfe, CNBC, Monday). Roughly a fifth of global crude moves through that channel. Brent +4% to $78.82 (highest since June 22), WTI +1.9% to $72.79. Crude is the one asset that is LONG this catalyst while the rest of the tape is short it.",
+      "driver": "The asymmetry is that crude has not remotely priced an actual Hormuz closure. Brent is still under $80 — merely a three-week high — while the waterway carrying ~20% of world supply is running at single-digit transits. A genuine closure is a $100-150 Brent event; the market is pricing a scare, not a shutdown, so the right tail is multiples of the left. Downside is bounded by a floor the upside does not have: if a ceasefire lands, crude gives back the war premium toward the pre-crisis ~$70-72 WTI shelf, roughly -6-8% on the underlying, and no de-escalation headline takes oil to zero. Just as important, this is the only pick on the board that is NOT correlated to the two live risks in this book: the semiconductor rout (SOXL -7% pre-market on SK Hynix -8% and memory-cost fears) and tomorrow's June CPI + Warsh testimony + five big-bank prints. If CPI runs hot and equities dump, oil holds or rises — an equity-beta pick would take both hits at once. That is the downside protection, and it is structural, not hoped-for. RUNNERS-UP: SOXS (3x inverse semis) rejected — already +6.6% pre-market, so we would be chasing the gap, and its driver (SK Hynix listing, memory costs) is a two-week-old story with no fresh Monday catalyst; a single bounce in a beaten-up sector guts a 3x inverse. BNO (Brent, 1x) rejected — the purer benchmark for a seaborne disruption and it is outperforming WTI, but unleveraged it gives too little torque on a high-conviction catalyst. GUSH/XLE (E&P equities) rejected — they carry broad equity beta and would be dragged by a risk-off tape and CPI; XLE is up only 1.2% vs crude's move, so the equities are transmitting the catalyst poorly. SOXL (3x long semis) rejected — knife-catching into CPI with no catalyst to stop the bleed. Spot crypto rejected — equities are open today, and separately the crypto price feeds are in disagreement (see risks).",
+      "risks": "This is a war trade, so the gap risk cuts both ways and it cuts overnight: a ceasefire, a hostage/negotiation headline, or a credible Iranian climb-down gaps crude down hard before we can act, and at 2x that is doubled. That is the explicit cost of the convexity being bought. Leverage is set at 2x, not 3x, precisely because the catalyst is headline-driven and two-way — matching leverage to a conviction that is high on direction but humble on timing. UCO is a futures-based ETF: roll/contango decay is real but immaterial over a 24-hour hold. Secondary risk: a sharp crude spike is itself inflationary, which could sour the CPI/Fed narrative and drag the broad tape — but that pressures equities, not oil, so it does not threaten this position. Note also that OPEC+ spare capacity outside the Gulf is the natural brake on any spike. Hard stop 33.36 (-8% on the 2x, i.e. ~-4% on WTI), which sits below the pre-escalation WTI shelf so it triggers on a genuine de-escalation, not on intraday chop. DATA-QUALITY FLAG for this run: the dashboard price proxy's CRYPTO endpoint returned stale cached payloads (asOf 2026-07-03 and 2026-07-09, with SOL at $81.23 vs the $76.87 recorded in yesterday's run), and Coinbase spot printed ETH at $2,382 — a 37% outlier against Kraken's coherent $1,687 book and against the ETHA/IBIT ETFs' small overnight moves. The ETH exit was therefore booked off Kraken's live bid. The proxy's EQUITY endpoint timestamps correctly but serves the prior regular-session close during pre-market, so the UCO entry was taken from Robinhood's live pre-market ask and cross-checked against the proxy's Friday close.",
+      "addedDate": "2026-07-13"
     }
   ]
 }
