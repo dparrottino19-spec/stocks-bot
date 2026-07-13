@@ -3,9 +3,9 @@
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
   "startingCapital": 8859.25,
-  "tradeDate": "2026-07-10",
-  "lastUpdated": "2026-07-10T11:38:37Z",
-  "nextRefresh": "2026-07-13T06:35:00-05:00",
+  "tradeDate": "2026-07-13",
+  "lastUpdated": "2026-07-13T11:42:00Z",
+  "nextRefresh": "2026-07-14T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -15,5 +15,19 @@
     "Cash on low-conviction days"
   ],
   "priorRealizedPnL": -1140.75,
-  "positions": []
+  "positions": [
+    {
+      "ticker": "TMUS",
+      "name": "T-Mobile US, Inc.",
+      "sector": "Communication Services",
+      "shares": 46.998674,
+      "entry": 188.5,
+      "stopPrice": 177.19,
+      "exitRule": "Rotate next weekday 6:35am CT run",
+      "catalyst": "BofA Securities upgraded TMUS to Buy on Mon 7/13 with a $220 price target (~17% above spot). Fresh, dated, single-name catalyst on a mega-cap liquid US common stock.",
+      "driver": "Defensive rotation setup: Nasdaq 100 futures -0.86% and oil +1.6% on renewed Iran headlines while the Dow is flat-to-up — money leaving high-beta tech ahead of June CPI, Fed Chair Warsh testimony and Tue big-bank earnings. TMUS is a low-beta, high-FCF telecom sitting in the sector that receives that flow, and it is NOT extended: premarket NBBO 188.00 x 188.75 vs 187.61 close = only +0.4%, so the upgrade is un-chased. Asymmetric: ~17% to the sell-side target vs a 6% hard stop.",
+      "risks": "Analyst-upgrade drift is a real but modest edge — the 24h upside is likely low-single-digit, not a true moonshot. A hot June CPI print or an Iran de-escalation headline that rips money back into high-beta tech would blunt the defensive bid. Telecom is rate-sensitive: a hawkish Warsh could pressure the whole group.",
+      "addedDate": "2026-07-13"
+    }
+  ]
 }
