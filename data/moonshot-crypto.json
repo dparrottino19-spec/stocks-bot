@@ -2,10 +2,10 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10048.44,
-  "tradeDate": "2026-07-14",
-  "lastUpdated": "2026-07-14T11:54:35Z",
-  "nextRefresh": "2026-07-15T06:45:00-05:00",
+  "startingCapital": 10521.77,
+  "tradeDate": "2026-07-15",
+  "lastUpdated": "2026-07-15T11:55:00Z",
+  "nextRefresh": "2026-07-16T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Runs every day — crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 48.44,
+  "priorRealizedPnL": 521.77,
   "positions": [
     {
       "ticker": "ETH",
       "name": "Ethereum",
       "sector": "Crypto",
       "shares": 5.591662,
-      "entry": 1797.04,
-      "stopPrice": 1653.28,
+      "entry": 1881.69,
+      "stopPrice": 1731.15,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "ETH owns the only structurally IMPROVING institutional flow story in the majors. U.S. spot Ether ETFs are taking net inflows ($18.4M on Jul 10, BlackRock $16.2M of it) while Bitcoin's ETF complex is still ~-$5.4B net YTD in 2026 — the flow arrow points opposite directions. The staking-ETF pipeline is the live, ETH-only catalyst: the SEC/CFTC joint interpretive release (Mar 17, 2026) classified staking rewards as non-securities, Grayscale (ETHE) and BlackRock (ETHB, launched Mar 12 with $107M seed) are already live, and pending staking amendments from Fidelity, Franklin Templeton, Invesco, 21Shares and VanEck are queued for approval — each one converts ETH from a zero-yield asset into a ~2.6-3.0% yielding one inside a regulated wrapper. Second, today's binary is macro, not crypto-specific: June CPI prints 8:30am ET Jul 14 and Fed Chair Warsh testifies House today / Senate Wed. On a day whose outcome is set by an inflation number, the correct trade is the LIQUID MAJOR with the best relative strength — not the highest-beta alt. BlackRock's commentary during the week doubles as a health check on ETH ETF demand.",
-      "driver": "ETH was the ONLY major that went up over the last 24h while the tape was red. Measured on our own dashboard feed 24h-to-24h (Jul 13 11:53Z -> Jul 14 11:53Z): ETH +0.88% ($1,781.40 -> $1,797.04), BTC -0.10% ($62,867.22 -> $62,802.91), XRP -0.60% ($1.0779 -> $1.0714), SOL -1.34% ($76.39 -> $75.37). That is a clean rotation of the relative-strength baton: yesterday SOL was the best relative performer in a flush and it FAILED — it did not lead the bounce, it led the bleed, so the thesis is invalidated and we do not repeat it. ETH absorbed the oil-spike/Iran risk-off and the renewed inflation scare and still closed the 24h green, holding the $1,700-$1,800 range it has defended all month. Into a CPI print with a genuinely two-sided outcome, that is exactly the asymmetry we want: ETH sits near the LOWER half of a well-defined range (defined $1,700 shelf below = a real stop reference, $1,800 breakout trigger just overhead), it carries roughly half SOL's beta so a bad CPI hurts less, and a benign CPI puts it through $1,800 with the staking-ETF flow bid behind it. Runners-up rejected: SOL (yesterday's pick) is now the WORST 24h major and its CLARITY-Act catalyst has slipped again — the merged bill is only 'expected as soon as this week' with floor action pushed to the week of Jul 20, and delay hits high-beta alts hardest; BTC is flat, its ETF complex is still bleeding, and it is the most directly exposed to the oil/geopolitics risk-off; XRP is red with no fresh catalyst. Entry = dashboard live feed (asOf 2026-07-14T11:53:15Z).",
-      "risks": "The single biggest risk is the CPI print itself (8:30am ET today) — a hot June number revives the 'renewed inflation fears' that knocked crypto down 3% yesterday, and ETH will not be spared; the whole complex is trading as a high-beta risk asset tied to the dollar, Treasury yields and NAS100, not on crypto-native fundamentals. Warsh's first semiannual testimony (House today, Senate Wed) is an untested variable and the single largest swing factor for digital-asset liquidity — a hawkish long-run-rates message drains it. ETH's relative-strength edge is thin (~1pp over BTC) and one day old, which is the same fragile signal that just failed us on SOL. The staking-ETF catalyst is a slow institutional drip, not a next-24h event: net yield to holders after issuer cuts is a modest 2-3%, Citi just cut its 12-month ETH target from $3,175 to $2,240 citing weak flows, and ETH is still far below its 2024 ETF-launch expectations. $1,800 has been repeated overhead resistance and a rejection there is the base case if CPI is anything other than benign. Oil/Iran geopolitics remain live 24/7. Hard stop $1,653.28 (-8%).",
-      "addedDate": "2026-07-14"
+      "catalyst": "Yesterday's ETH thesis paid — the coin we held through the CPI binary was the RIGHT major and it broke out. June CPI (released Jul 14) cooled to 3.5% vs 3.8% forecast, gutting near-term Fed rate-hike odds and flipping the whole complex risk-on; ETH ran +5% and cleared the $1,800 resistance shelf it had defended all month, printing ~$1,881. The ETH-specific flow story is now CONFIRMED: U.S. spot Ether ETFs took ~$58M net inflows on the CPI day, extending the reversal that broke an eight-week outflow streak (first positive week ~$84M for the week ending Jul 11), while U.S. spot BITCOIN ETFs printed fresh OUTFLOWS led by Fidelity and BlackRock the same session — the flow arrow still points opposite directions across the two majors. Fresh ETH-forward catalyst overnight: Morgan Stanley updated its filings for proposed Ethereum (and Solana) ETFs naming Coinbase as custodian AND staking provider — the staking-ETF pipeline advancing on the record, the mechanism that converts ETH into a ~2.6-3.0% yielding asset inside a regulated wrapper (BlackRock's staked-ETH product live since Mar 12). On a confirmed risk-on tape, the correct all-in is the liquid major that owns the only improving institutional-flow story AND just confirmed a technical breakout, not the higher-beta alt chasing the same headline.",
+      "driver": "ETH now carries BOTH relative strength and confirmed momentum. It led the majors green THROUGH the risk-off two days ago, then led the bounce on soft CPI, closing above $1,800 for the first time this month (~$1,881 on the live feed) — a completed range breakout from the $1,700-$1,800 box that flips the old ceiling into support and gives clean structure: hold above breakout, stop below it. Runners-up rejected: BTC (~$64,668) rallied on the same CPI but its ETF complex is BLEEDING (fresh Fidelity/BlackRock outflows on the up day) — you don't go all-in on the major whose institutional bid is leaving; SOL (~$77.40) shares the MS-filing headline and would out-run ETH on pure risk-on continuation, but it is the SAME name that failed us on Jul 13 (led the bleed, not the bounce), its CLARITY-Act catalyst keeps slipping, and here the edge is 'own the confirmed flow story' so the extra beta is uncompensated; XRP (~$1.11), LINK (~$8.40), DOGE (~$0.074), AVAX (~$6.67) have no fresh idiosyncratic catalyst. Entry = dashboard canonical live feed, asOf 2026-07-15T11:53:18Z (ETH-USD $1,881.69).",
+      "risks": "Chasing a +5% breakout day is the core risk — ETH is now in the UPPER half of its former range, ~$80 above the $1,800 shelf, so the entry is extended and a fade back into the box (retest $1,800, then $1,731 stop) is the obvious mean-reversion. The CPI pop was partly a short-squeeze: ~$376M of crypto shorts liquidated in 24h ($127M of it ETH), and squeeze rallies routinely give back once forced buying is done. ETF inflows are real but modest ($58M) and one session old — Bitcoin's fresh ETF outflows warn that institutional appetite is uneven, and if BTC rolls over ETH will not decouple. The staking-ETF/MS-filing catalyst is a slow regulatory drip, not a next-24h event, net yield only ~2-3% after cuts. Macro remains the master variable: any hawkish Fed re-pricing, a hot data surprise, or renewed Hormuz/oil geopolitics flips the risk-on tape doing most of the work. Hard stop $1,731.15 (-8%), just under the breakout so the trade invalidates cleanly if $1,800 fails as support.",
+      "addedDate": "2026-07-15"
     }
   ]
 }
