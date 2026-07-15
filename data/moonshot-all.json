@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 9756.4,
-  "tradeDate": "2026-07-14",
-  "lastUpdated": "2026-07-14T11:45:00Z",
-  "nextRefresh": "2026-07-15T06:30:00-05:00",
+  "startingCapital": 9936.84,
+  "tradeDate": "2026-07-15",
+  "lastUpdated": "2026-07-15T11:45:00Z",
+  "nextRefresh": "2026-07-16T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -243.6,
+  "priorRealizedPnL": -63.16,
   "positions": [
     {
-      "ticker": "UCO",
-      "name": "ProShares Ultra Bloomberg Crude Oil (2x WTI)",
-      "sector": "Energy / Commodity (Leveraged ETF)",
-      "shares": 250.613922,
-      "entry": 38.93,
-      "stopPrice": 35.82,
+      "ticker": "SPXL",
+      "name": "Direxion Daily S&P 500 Bull 3X",
+      "sector": "Broad US Equity (3x Leveraged ETF)",
+      "shares": 35.854947,
+      "entry": 277.14,
+      "stopPrice": 249.43,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "The Hormuz crisis escalated from a scare into formal US policy overnight. Trump announced he is reinstating a naval blockade of Iranian ports AND imposing a 20% fee on ALL cargo shipped through the Strait of Hormuz; US forces struck 80+ targets inside Iran over the weekend and Iran's IRGC responded by closing the strait again. The physical evidence: roughly 230 loaded crude tankers are now stranded inside the Gulf with nowhere to deliver, and chartering a tanker from inside the strait costs $8-10m versus $4-5m from outside. Crude repriced hard on the announcement — Brent +4.45% to ~$87.01, WTI +3.3% to ~$80.75 (Reuters/Yahoo Finance, this morning). This is the second consecutive escalation step, and the first one that is a declared government action rather than a headline risk.",
-      "driver": "Holding the crude trade because the catalyst got STRONGER, not weaker, and the right tail is still unpriced. A 20% tariff plus a blockade applied to the waterway carrying ~20% of global crude is a supply shock, and Brent at $87 still prices a disruption, not a closure — a genuine sustained closure is a $100-150 Brent event, so the upside remains a multiple of the downside. The left tail is bounded and identifiable: a ceasefire/deal headline takes crude back toward the pre-escalation ~$73-78 shelf, roughly -8-10% on the underlying, and no de-escalation sends oil to zero. Crucially this is again the only pick on the board uncorrelated to today's three equity coin-flips — June CPI at 8:30 ET, Warsh's first Congressional testimony at 10:00, and JPM/BAC earnings — and it is the one asset that RISES if oil-driven inflation sours all three (Bloomberg: 'Stocks, Bonds Fall as Oil Jump Fuels Fed-Hike Bets'). WTI over Brent because 2x leverage on WTI's +3.3% out-torques 1x Brent's +4.45%, and a Hormuz tax structurally bids US landlocked barrels as the safe alternative supply. RUNNERS-UP: BNO (1x Brent) rejected — purest transmission of a seaborne Gulf disruption and it is outperforming WTI, but unleveraged it delivers too little torque on a high-conviction catalyst. SOXL (3x semis) rejected outright — it is +8.9% pre-market on an SK Hynix/memory bounce (SOX ETF only +2.4%), squarely inside the no-chase band, and a one-day dead-cat bounce in a sector that just got routed is the worst possible thing to buy at 3x. FRO/DHT/TNK (tankers) rejected — the obvious beneficiary, but they are only +1-2% pre-market despite the blockade, the setup is ambiguous for owners (rates spike but 230 vessels are trapped and volumes collapse), the group is already +60% YTD, and Evercore just downgraded DHT/FRO/NAT on 'reversion risk'. BOIL/UNG (natgas) rejected — Qatari LNG is also trapped, but Henry Hub is domestically set and the tape agrees: natgas is FLAT to -0.6% today, so the transmission is not there. UGL/NUGT (gold) rejected — the right hedge but only +1.3-1.4%; too little payoff for an all-in book.",
-      "risks": "This is a war trade and I am now holding it into an extended move: WTI is already +3.3% and Brent +4.45% this morning, so I am buying strength, and there is a live competing narrative that an Iran deal could 'reset the market.' A ceasefire, hostage deal, or credible Iranian climb-down gaps crude down hard overnight before we can act, and at 2x that is doubled — that is the explicit price of the convexity. Leverage stays at 2x rather than 3x-equivalent precisely because the catalyst is headline-driven, two-way, and now partially priced. Secondary risks: OPEC+ spare capacity outside the Gulf is the natural brake on any spike; UCO is futures-based so roll/contango decay exists but is immaterial over a 24h hold. Hard stop 35.82 (-8% on the 2x, i.e. ~-4% on WTI), set below the pre-blockade WTI shelf so it triggers on genuine de-escalation and not on intraday chop. PRICE-QUALITY FLAG for this run: UCO's pre-market book is thin and lagging — it quotes 38.80/38.93 (+0.2%) while USO is +2.2% and WTI futures are +3.3%, i.e. the leveraged ETF has not repriced pre-open. Both the dashboard proxy (38.74, asOf 2026-07-14T11:40:57Z) and Robinhood (bid 38.80 / ask 38.93, 11:40:39Z) agree on this level, so the book is marked consistently at it: the UCO exit was taken at the live 38.80 bid and the re-entry at the live 38.93 ask. This makes the accounting effectively close-to-close and internally consistent with Monday's entry, which was struck the same way — no phantom gain is booked; today's crude move will be captured on tomorrow's exit.",
-      "addedDate": "2026-07-14"
+      "catalyst": "Soft June CPI is the dominant fresh macro catalyst driving today's tape. Headline CPI fell 0.4% m/m and annual inflation slowed to 3.5% vs 3.8% expected (reported 7/14), collapsing the near-term Fed-hike odds that had been hanging over the market. The tape has flipped risk-on: the July 15 Polymarket contract implies a 73% probability the S&P opens higher, bank earnings are beating broadly (JPM/BAC beat, MS/BLK/JNJ/UAL reporting today), and the oil escalation that dominated this week is now FADING — Trump abandoned the 20% Strait of Hormuz cargo fee and WTI is up only ~0.45% today after +3.3% yesterday, removing an inflation overhang. SPXL is +0.44% pre-open (276.85 last / 277.05x277.14 book, Robinhood live 11:42Z), unextended and clean.",
+      "driver": "Playing the dovish-CPI risk-on with the broadest, least-extended 3x on the board. The catalyst (a soft inflation print that removes Fed-hike fear) is market-WIDE, so I want diversified index beta, not a single-sector bet. 3x is justified by a strong, fresh macro catalyst, and applying it to the S&P — the most diversified underlying available — gives the leverage the lowest single-name blow-up risk. SPXL at +0.44% pre is nowhere near the no-chase band, so entry quality is good. RUNNERS-UP: SOXL (3x semis) rejected as a chase — it is +4.2% pre-open, this is DAY 2 of the semis bounce, the 3x is running hot versus its own underlying (SMH only +1.15%), and sector leader MU has already faded to -0.5% pre-market, i.e. the move is decelerating and buying 3x into a fading Day-2 bounce is exactly the trap flagged yesterday. TQQQ (3x Nasdaq, +1.5% pre) rejected — the dovish-CPI growth tailwind is real, but IBM is -22% pre on a Q2 revenue miss and slashed guidance, sparking an AI/SaaS 'SaaSpocalypse' scare that is a direct, concentrated headwind for the Nasdaq; SPXL captures the same rate tailwind with far less of that idiosyncratic tech dispersion. FAS (3x financials, +0.6% pre) rejected — bank beats are supportive but the tape shows no real momentum in the group and MS/BLK report today, so it is a coin-flip event bet. BITX (2x BTC, +0.24%) rejected — flat, no catalyst.",
+      "risks": "This is a leveraged long into a gap-up open, so I am buying a market that is already 73% expected to open green — if the open is the high and CPI relief is 'sell the news,' 3x amplifies the fade. The live idiosyncratic risk is IBM's -22% guidance miss metastasizing into a broader 'AI capex digestion' fear that drags the whole index intraday; the S&P's diversification is the mitigant but not immunity. Oil is a two-way wildcard — Brent still ~$85 and any fresh Hormuz escalation re-arms the inflation trade and pressures multiples. Hard stop 249.43 (-10% on the 3x, i.e. a ~3.3% S&P drawdown) sized as a disaster stop that only triggers on a genuine risk-off reversal, not intraday chop. PRICE NOTE: dashboard proxy was stale (cached 2026-07-14T11:40Z), so per the fallback rule both the UCO exit (live bid 39.65) and this SPXL entry (live ask 277.14) were struck off Robinhood real-time quotes timestamped 2026-07-15T11:40-11:42Z; sanity-checked vs prior closes (UCO 39.33, SPXL 275.63).",
+      "addedDate": "2026-07-15"
     }
   ]
 }
