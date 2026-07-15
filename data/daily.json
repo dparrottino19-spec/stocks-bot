@@ -2,10 +2,10 @@
   "bookName": "Daily Trader",
   "inceptionDate": "2026-05-15",
   "inceptionCapital": 70000,
-  "startingCapital": 74578.51,
-  "tradeDate": "2026-07-14",
-  "lastUpdated": "2026-07-14T12:30:00Z",
-  "nextRefresh": "2026-07-15T07:09:00-05:00",
+  "startingCapital": 74403.42,
+  "tradeDate": "2026-07-15",
+  "lastUpdated": "2026-07-15T12:22:46Z",
+  "nextRefresh": "2026-07-16T07:09:00-05:00",
   "rules": [
     "Weekday 7am ET picks",
     "Per-pick exit rules",
@@ -13,7 +13,7 @@
     "1-week max hold",
     "<=4 names per sector"
   ],
-  "priorRealizedPnL": 4578.51,
+  "priorRealizedPnL": 4403.42,
   "positions": [
     {
       "ticker": "XOM",
@@ -40,18 +40,6 @@
       "addedDate": "2026-07-13"
     },
     {
-      "ticker": "LMT",
-      "name": "Lockheed Martin",
-      "sector": "Electronic Technology",
-      "shares": 6,
-      "entry": 526.09,
-      "exitRule": "1-3 day swing (stop -5% / take-profit +8%)",
-      "catalyst": "T1: US-Iran escalation. Held - now 519.40 (-1.3%), well inside the -5% stop (~$499.79).",
-      "risks": "Defense names often fade escalation pops within days; LMT is 24% off its March high on program-margin worries.",
-      "driver": "Tier 1: Middle East escalation",
-      "addedDate": "2026-07-13"
-    },
-    {
       "ticker": "MGM",
       "name": "MGM Resorts International",
       "sector": "Consumer Services",
@@ -62,66 +50,6 @@
       "risks": "Special committee can reject or the bid can be pulled - that round-trips the gap. Diller already controls ~26%.",
       "driver": "Tier 1: M&A approach (special committee formed)",
       "addedDate": "2026-07-13"
-    },
-    {
-      "ticker": "BIIB",
-      "name": "Biogen",
-      "sector": "Health Technology",
-      "shares": 17,
-      "entry": 201.29,
-      "exitRule": "1-3 day swing (stop -5% / take-profit +8%)",
-      "catalyst": "T2: Truist upgraded to Buy, PT $235 (7/13), ahead of Phase 2 BIIB080 data at AAIC. Working - now 208.20 (+3.4%). TP at $217.39, stop $191.23.",
-      "risks": "Binary pipeline risk sits AFTER our max hold (AAIC is next week) - we only capture the upgrade, not the data.",
-      "driver": "Tier 2: Truist Buy upgrade",
-      "addedDate": "2026-07-13"
-    },
-    {
-      "ticker": "HUM",
-      "name": "Humana",
-      "sector": "Health Services",
-      "shares": 8,
-      "entry": 398.0,
-      "exitRule": "1-3 day swing (stop -5% / take-profit +8%)",
-      "catalyst": "T2: Wells Fargo Overweight, PT $502 (7/13). Working - now 406.00 (+2.0%). TP $429.84, stop $378.10.",
-      "risks": "Huge PT jump = crowded re-rate; MA utilization is a known landmine.",
-      "driver": "Tier 2: Wells Fargo OW upgrade",
-      "addedDate": "2026-07-13"
-    },
-    {
-      "ticker": "AXP",
-      "name": "American Express",
-      "sector": "Finance",
-      "shares": 9,
-      "entry": 353.5,
-      "exitRule": "1-3 day swing (stop -5% / take-profit +8%)",
-      "catalyst": "T2: JPMorgan upgraded to Overweight, PT $400 (7/13). Flat - 353.50 vs 353.50 entry. Stop $335.83.",
-      "risks": "Consumer-spend cyclicality; the JPM call may already be in the price. Note today's bank tape is sell-the-news.",
-      "driver": "Tier 2: JPMorgan OW upgrade",
-      "addedDate": "2026-07-13"
-    },
-    {
-      "ticker": "GS",
-      "name": "Goldman Sachs Group",
-      "sector": "Finance",
-      "shares": 3,
-      "entry": 1075.0,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "T1 EARNINGS: Q2 EPS $20.98 vs $14.10 est (+49% surprise); revenue $20.3B vs $16.05B est (+26.7%). The single biggest beat of the big-bank slate. Only bank trading GREEN pre-market, +2.8%.",
-      "risks": "Every other big bank (JPM/C/BAC/WFC) beat and is DOWN 1.5-2.7% - a sell-the-news tape can swallow GS too once the open prints. Take it off by the bell.",
-      "driver": "Tier 1: Q2 earnings blowout",
-      "addedDate": "2026-07-14"
-    },
-    {
-      "ticker": "MS",
-      "name": "Morgan Stanley",
-      "sector": "Finance",
-      "shares": 15,
-      "entry": 223.49,
-      "exitRule": "Catalyst-defined: close after the Q2 earnings print (7/15 BMO)",
-      "catalyst": "T2 pre-earnings: MS reports Q2 tomorrow (7/15 AM, est $2.81). GS's trading/IB blowout is a direct read-through to MS's Institutional Securities book. +1.1% pre and holding while the lenders sell off.",
-      "risks": "Buying INTO a print is a coin-flip, and today's banks show a beat is NOT enough. 3% below 52wk high (230.47).",
-      "driver": "Tier 2: Pre-earnings setup + GS read-through",
-      "addedDate": "2026-07-14"
     },
     {
       "ticker": "HAL",
@@ -148,42 +76,6 @@
       "addedDate": "2026-07-14"
     },
     {
-      "ticker": "SLB",
-      "name": "SLB (Schlumberger)",
-      "sector": "Industrial Services",
-      "shares": 73,
-      "entry": 47.9,
-      "exitRule": "Overnight (close next open)",
-      "catalyst": "T1: Largest oilfield-services name levered to the Hormuz blockade escalation - Trump reinstated the Iranian port blockade + 20% Hormuz cargo fee, ~230 tankers stranded. +1.1% pre.",
-      "risks": "Heaviest international/Middle East revenue mix of the three - actual regional disruption could hurt operations, not just help the crude tape. 52wk 31.64-58.82.",
-      "driver": "Tier 1: Hormuz blockade / crude spike",
-      "addedDate": "2026-07-14"
-    },
-    {
-      "ticker": "OXY",
-      "name": "Occidental Petroleum",
-      "sector": "Energy Minerals",
-      "shares": 63,
-      "entry": 55.35,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "T1: Re-entry on an ESCALATED catalyst - yesterday's Hormuz closure became a full blockade + 20% cargo fee today; Brent $87.01 vs $78.12 yesterday. Highest-beta US large-cap E&P, +1.0% pre.",
-      "risks": "PE ~60; gives back fast on any ceasefire headline. Yesterday's OXY intraday trade closed +$59.52 - this is a fresh, larger catalyst, not a re-run. 52wk 38.80-67.45.",
-      "driver": "Tier 1: Hormuz blockade / crude spike",
-      "addedDate": "2026-07-14"
-    },
-    {
-      "ticker": "FANG",
-      "name": "Diamondback Energy",
-      "sector": "Energy Minerals",
-      "shares": 18,
-      "entry": 192.75,
-      "exitRule": "Overnight (close next open)",
-      "catalyst": "T1: Permian pure-play E&P with the cleanest US oil-price beta to the Hormuz blockade; WTI $80.75 (+3.3%). +0.6% pre.",
-      "risks": "PE ~207 (depressed earnings base); US shale is a domestic hedge, so it under-participates if the disruption stays purely maritime. 52wk 134.30-214.51.",
-      "driver": "Tier 1: Hormuz blockade / crude spike",
-      "addedDate": "2026-07-14"
-    },
-    {
       "ticker": "GD",
       "name": "General Dynamics",
       "sector": "Electronic Technology",
@@ -193,30 +85,6 @@
       "catalyst": "T2: Jefferies raised PT to $440 from $400 (7/14), into the US-Iran escalation (Tehran struck US Gulf facilities). Marine/Combat Systems and munitions are the direct read-through. Stop $354.83, TP $403.39.",
       "risks": "Sitting 1.9% below its 52wk high (380.71) - little room if defense fades the escalation, which it usually does within days. Pre-market action is thin (+0.2%).",
       "driver": "Tier 2: Jefferies PT hike + Mideast escalation",
-      "addedDate": "2026-07-14"
-    },
-    {
-      "ticker": "NEM",
-      "name": "Newmont",
-      "sector": "Non-Energy Minerals",
-      "shares": 37,
-      "entry": 94.28,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "T1 macro: June CPI prints 8:30am ET the same morning as the bank slate, into a Hormuz blockade. Gold bid +0.66% (GLD 377.01). Largest US gold miner, +1.3% pre - the cleanest liquid safe-haven expression of the CPI/geopolitics double-header.",
-      "risks": "A hot CPI lifts real yields and can knock gold DOWN even with war on - this is a two-sided macro bet, hence the intraday-only leash. 52wk 55.37-134.88.",
-      "driver": "Tier 1: CPI-day / geopolitical safe-haven bid",
-      "addedDate": "2026-07-14"
-    },
-    {
-      "ticker": "AEM",
-      "name": "Agnico Eagle Mines",
-      "sector": "Non-Energy Minerals",
-      "shares": 24,
-      "entry": 143.99,
-      "exitRule": "Overnight (close next open)",
-      "catalyst": "T1 macro: Same CPI-day + Hormuz safe-haven gold bid; AEM is the highest-quality large-cap gold producer and +0.3% pre. Held overnight to capture any post-CPI follow-through NEM's intraday leash would miss.",
-      "risks": "Same two-sided CPI risk as NEM, plus overnight gap exposure. Pre-market confirmation is weak (+0.3%).",
-      "driver": "Tier 1: CPI-day / geopolitical safe-haven bid",
       "addedDate": "2026-07-14"
     },
     {
@@ -232,16 +100,112 @@
       "addedDate": "2026-07-14"
     },
     {
-      "ticker": "ELV",
-      "name": "Elevance Health",
-      "sector": "Health Services",
-      "shares": 8,
-      "entry": 425.0,
-      "exitRule": "Catalyst-defined: close after the Q2 earnings print (7/15 BMO)",
-      "catalyst": "T2 pre-earnings: ELV reports Q2 tomorrow (7/15 AM, est $6.20). Pairs with the HUM Wells Fargo Overweight thesis that Q2 managed-care prints come in constructive. Flat pre (425.00) - a clean, un-chased setup.",
-      "risks": "Managed care has repeatedly blown up on MA/Medicaid utilization; buying into the print is binary. If HUM AND ELV both break, the Health Services sleeve loses twice.",
-      "driver": "Tier 2: Pre-earnings setup",
-      "addedDate": "2026-07-14"
+      "ticker": "BLK",
+      "name": "BlackRock",
+      "sector": "Finance",
+      "shares": 3,
+      "entry": 1071.0,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "T1 EARNINGS: Q2 adj EPS $13.91 vs $12.70 est; rev $7.08B; AUM record $15.3T (+22% y/y), $192B Q2 net inflows. +4.4% pre.",
+      "risks": "Earnings pop can fade into the close on a broad sell-the-news bank tape; take off by the bell.",
+      "driver": "Tier 1: Q2 earnings beat / record AUM",
+      "addedDate": "2026-07-15"
+    },
+    {
+      "ticker": "PNC",
+      "name": "PNC Financial Services",
+      "sector": "Finance",
+      "shares": 13,
+      "entry": 254.88,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "T1 EARNINGS: Q2 rev $6.88B vs $6.43B est; adj EPS $4.85 vs $4.41 est. +1.2% pre, at a fresh 52wk high.",
+      "risks": "Regional-bank credit questions linger; sits AT its 52wk high (256.22) with little room. Sell-the-news risk.",
+      "driver": "Tier 1: Q2 earnings beat",
+      "addedDate": "2026-07-15"
+    },
+    {
+      "ticker": "USB",
+      "name": "U.S. Bancorp",
+      "sector": "Finance",
+      "shares": 55,
+      "entry": 62.98,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "T1 EARNINGS: Q2 report into a soft-CPI risk-on tape; +1.35% pre near 52wk high.",
+      "risks": "Pre-market quote was early (07:05) with a wide spread (bid 62.14/ask 65.00) - fill risk. Thinnest confirmation of the three banks.",
+      "driver": "Tier 1: Q2 earnings / bank-group strength",
+      "addedDate": "2026-07-15"
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "sector": "Producer Manufacturing",
+      "shares": 5,
+      "entry": 611.77,
+      "exitRule": "Overnight (close next open)",
+      "catalyst": "T1 read-through: ASML raised 2026 sales guide + plans +30% chipmaking-equipment capacity on AI demand. Strongest WFE pre-market confirmation, +2.7%.",
+      "risks": "Second-derivative to ASML; a semi-cap fade unwinds the halo fast. Near 52wk high (739 was 6/30). 52wk 154.47-739.67.",
+      "driver": "Tier 1: ASML AI-capex guide read-through",
+      "addedDate": "2026-07-15"
+    },
+    {
+      "ticker": "LRCX",
+      "name": "Lam Research",
+      "sector": "Producer Manufacturing",
+      "shares": 9,
+      "entry": 352.5,
+      "exitRule": "Overnight (close next open)",
+      "catalyst": "T1 read-through: ASML AI-capex guidance raise + 30% capacity expansion lifts the WFE complex. +1.8% pre.",
+      "risks": "Rich valuation (PE ~62); halo trade with no company-specific news. 52wk 90.94-438.50.",
+      "driver": "Tier 1: ASML AI-capex guide read-through",
+      "addedDate": "2026-07-15"
+    },
+    {
+      "ticker": "KLAC",
+      "name": "KLA Corp",
+      "sector": "Electronic Technology",
+      "shares": 14,
+      "entry": 234.77,
+      "exitRule": "1-3 day swing (stop -5% / take-profit +8%)",
+      "catalyst": "T1 read-through: ASML guide raise lifts process-control/WFE. +1.9% pre. Stop $223.03, TP $253.55.",
+      "risks": "PE ~65; process-control is China-exposed. 52wk 83.22-307.37.",
+      "driver": "Tier 1: ASML AI-capex read-through",
+      "addedDate": "2026-07-15"
+    },
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "sector": "Electronic Technology",
+      "shares": 6,
+      "entry": 554.2,
+      "exitRule": "1-3 day swing (stop -5% / take-profit +8%)",
+      "catalyst": "T2: Fresh analyst PT raise + AI-chip strength on the ASML halo/soft-CPI risk-on tape. +1.1% pre. Stop $526.49, TP $598.54.",
+      "risks": "PE ~180; just off its 52wk high (584.73 on 6/30) - crowded. 52wk 149.22-584.73.",
+      "driver": "Tier 2: PT hike + chip-sector strength",
+      "addedDate": "2026-07-15"
+    },
+    {
+      "ticker": "TXN",
+      "name": "Texas Instruments",
+      "sector": "Electronic Technology",
+      "shares": 11,
+      "entry": 309.68,
+      "exitRule": "1-3 day swing (stop -5% / take-profit +8%)",
+      "catalyst": "T2: Analog-semi participating in the ASML AI-capex breakout; +1.35% pre. Stop $294.20, TP $334.45.",
+      "risks": "Analog cycle is its own driver; pure sector-halo trade. Near 52wk high (334.03 on 6/22). 52wk 152.73-334.03.",
+      "driver": "Tier 2: Semi-sector breakout / ASML halo",
+      "addedDate": "2026-07-15"
+    },
+    {
+      "ticker": "UAL",
+      "name": "United Airlines Holdings",
+      "sector": "Transportation",
+      "shares": 28,
+      "entry": 120.85,
+      "exitRule": "Catalyst-defined: close after tonight (7/15 AMC) Q2 earnings print",
+      "catalyst": "T2 pre-earnings: UAL reports Q2 after the close tonight; Polymarket implies 92% beat odds; 4-for-4 recent beat history. +0.4% pre.",
+      "risks": "Buying INTO a print is a coin-flip; airlines guide-sensitive. 52wk 82.42-138.77.",
+      "driver": "Tier 2: Pre-earnings setup (AMC print)",
+      "addedDate": "2026-07-15"
     }
   ]
 }
