@@ -2,10 +2,10 @@
   "bookName": "Moonshot Stocks",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8835.75,
-  "tradeDate": "2026-07-15",
-  "lastUpdated": "2026-07-15T11:39:02Z",
-  "nextRefresh": "2026-07-16T06:35:00-05:00",
+  "startingCapital": 8573.03,
+  "tradeDate": "2026-07-16",
+  "lastUpdated": "2026-07-16T11:38:53Z",
+  "nextRefresh": "2026-07-17T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -14,20 +14,20 @@
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
-  "priorRealizedPnL": -1164.25,
+  "priorRealizedPnL": -1426.97,
   "positions": [
     {
-      "ticker": "ASML",
-      "name": "ASML Holding N.V.",
-      "sector": "Semiconductor Equipment",
-      "shares": 4.802847,
-      "entry": 1839.69,
-      "stopPrice": 1729.31,
+      "ticker": "UNH",
+      "name": "UnitedHealth Group Inc.",
+      "sector": "Health Services",
+      "shares": 19.191919,
+      "entry": 446.7,
+      "stopPrice": 419.9,
       "exitRule": "Rotate next weekday 6:35am CT run",
-      "catalyst": "Q2 2026 beat + FULL-YEAR GUIDANCE RAISE (third raise this year). EPS/revenue topped consensus (~$7.94 EPS / ~$10.3B rev est), management lifted 2026 sales outlook citing AI-driven demand outpacing supply. Stock up ~3.6% pre-market on the print.",
-      "driver": "Fresh, unambiguous idiosyncratic earnings catalyst in the monopoly EUV-lithography supplier — clean direction, room to run (only +3.6% pre-market, well below the >8-10% chase threshold), and a definable stop. Macro (June PPI, 8:30am ET) resolves BEFORE the 9:30 open, so it clears ahead of entry rather than inside the hold window.",
-      "risks": "Semis are volatile — options priced an ~8% post-earnings swing, so a gap-fill/fade is possible. Sector-wide risk-off (rates/AI-capex sentiment) or a hot PPI could pressure high-multiple names. Hard stop at -6% ($1729.31) caps downside.",
-      "addedDate": "2026-07-15"
+      "catalyst": "Q2 2026 blowout + FULL-YEAR GUIDANCE RAISE. Adjusted EPS $6.38 vs $4.85 consensus (+31% beat); revenue $112.0B vs $110.76B est. Raised FY26 adj EPS guide to $19.50-$20.00 (midpoint $19.75) vs $18.48 Street. Stock +~6.7% pre-market to a fresh 52-week high (prior 52wk high $434.30 on 7/9).",
+      "driver": "Fresh, unambiguous idiosyncratic earnings catalyst with a guidance raise well above consensus in a large-cap, lower-beta defensive name. Healthcare-comeback narrative with room to run — up only ~6.7% pre-market, below the >8-10% chase threshold — and a clean, definable stop just above the pre-earnings close (~$418.5).",
+      "risks": "Managed-care sentiment can be headline-driven (MLR/utilization, regulatory/policy risk). Buying an extended breakout to new highs risks a gap-fill fade if the pop reverses. Broad risk-off (chip rout spillover — SK Hynix -6%, Kospi -7%) could pressure the tape. Hard stop at -6% ($419.90) caps downside back to roughly the pre-print close.",
+      "addedDate": "2026-07-16"
     }
   ]
 }
