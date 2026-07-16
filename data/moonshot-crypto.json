@@ -2,10 +2,10 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10521.77,
-  "tradeDate": "2026-07-15",
-  "lastUpdated": "2026-07-15T11:55:00Z",
-  "nextRefresh": "2026-07-16T06:45:00-05:00",
+  "startingCapital": 10527.86,
+  "tradeDate": "2026-07-16",
+  "lastUpdated": "2026-07-16T11:55:00Z",
+  "nextRefresh": "2026-07-17T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Runs every day — crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 521.77,
+  "priorRealizedPnL": 527.86,
   "positions": [
     {
       "ticker": "ETH",
       "name": "Ethereum",
       "sector": "Crypto",
-      "shares": 5.591662,
-      "entry": 1881.69,
-      "stopPrice": 1731.15,
+      "shares": 5.591657,
+      "entry": 1882.78,
+      "stopPrice": 1732.16,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "Yesterday's ETH thesis paid — the coin we held through the CPI binary was the RIGHT major and it broke out. June CPI (released Jul 14) cooled to 3.5% vs 3.8% forecast, gutting near-term Fed rate-hike odds and flipping the whole complex risk-on; ETH ran +5% and cleared the $1,800 resistance shelf it had defended all month, printing ~$1,881. The ETH-specific flow story is now CONFIRMED: U.S. spot Ether ETFs took ~$58M net inflows on the CPI day, extending the reversal that broke an eight-week outflow streak (first positive week ~$84M for the week ending Jul 11), while U.S. spot BITCOIN ETFs printed fresh OUTFLOWS led by Fidelity and BlackRock the same session — the flow arrow still points opposite directions across the two majors. Fresh ETH-forward catalyst overnight: Morgan Stanley updated its filings for proposed Ethereum (and Solana) ETFs naming Coinbase as custodian AND staking provider — the staking-ETF pipeline advancing on the record, the mechanism that converts ETH into a ~2.6-3.0% yielding asset inside a regulated wrapper (BlackRock's staked-ETH product live since Mar 12). On a confirmed risk-on tape, the correct all-in is the liquid major that owns the only improving institutional-flow story AND just confirmed a technical breakout, not the higher-beta alt chasing the same headline.",
-      "driver": "ETH now carries BOTH relative strength and confirmed momentum. It led the majors green THROUGH the risk-off two days ago, then led the bounce on soft CPI, closing above $1,800 for the first time this month (~$1,881 on the live feed) — a completed range breakout from the $1,700-$1,800 box that flips the old ceiling into support and gives clean structure: hold above breakout, stop below it. Runners-up rejected: BTC (~$64,668) rallied on the same CPI but its ETF complex is BLEEDING (fresh Fidelity/BlackRock outflows on the up day) — you don't go all-in on the major whose institutional bid is leaving; SOL (~$77.40) shares the MS-filing headline and would out-run ETH on pure risk-on continuation, but it is the SAME name that failed us on Jul 13 (led the bleed, not the bounce), its CLARITY-Act catalyst keeps slipping, and here the edge is 'own the confirmed flow story' so the extra beta is uncompensated; XRP (~$1.11), LINK (~$8.40), DOGE (~$0.074), AVAX (~$6.67) have no fresh idiosyncratic catalyst. Entry = dashboard canonical live feed, asOf 2026-07-15T11:53:18Z (ETH-USD $1,881.69).",
-      "risks": "Chasing a +5% breakout day is the core risk — ETH is now in the UPPER half of its former range, ~$80 above the $1,800 shelf, so the entry is extended and a fade back into the box (retest $1,800, then $1,731 stop) is the obvious mean-reversion. The CPI pop was partly a short-squeeze: ~$376M of crypto shorts liquidated in 24h ($127M of it ETH), and squeeze rallies routinely give back once forced buying is done. ETF inflows are real but modest ($58M) and one session old — Bitcoin's fresh ETF outflows warn that institutional appetite is uneven, and if BTC rolls over ETH will not decouple. The staking-ETF/MS-filing catalyst is a slow regulatory drip, not a next-24h event, net yield only ~2-3% after cuts. Macro remains the master variable: any hawkish Fed re-pricing, a hot data surprise, or renewed Hormuz/oil geopolitics flips the risk-on tape doing most of the work. Hard stop $1,731.15 (-8%), just under the breakout so the trade invalidates cleanly if $1,800 fails as support.",
-      "addedDate": "2026-07-15"
+      "catalyst": "ETH remains the confirmed relative-strength leader of the majors and its idiosyncratic flow story STRENGTHENED overnight. CoinDesk: 'Ether outruns bitcoin as ETF money returns, almost all of it from BlackRock's fund' — ETH is up ~11% over 7 days while most other large caps were flat or negative, and U.S. spot ether ETFs pulled ~$96M in the first three sessions of the week (vs the ~$58M one-day figure that anchored yesterday), heavily concentrated in BlackRock's low-fee ETHA while Grayscale's high-fee trust keeps bleeding — the cleanest institutional-bid story in the complex. NEW ETH-specific demand driver: Robinhood Chain, the layer-2 launched Jul 1 that burns ETH for gas, is now processing >$800M/day (mostly memecoin flow), a structural sink for ETH that no other major shares. Macro tailwind intact: softer June CPI keeps the tape risk-on and the House Financial Services 'Clarity Act' hearing lands Jul 17 (tomorrow) — a potential next-24h catalyst for the whole complex that ETH, as the flow leader, is best positioned to capture. On a day where BTC (-0.8% overnight to ~$64,158) and SOL (-1.6% to ~$76.14) both softened while ETH held flat (~$1,883), the all-in stays with the major that owns the improving flow AND held its bid.",
+      "driver": "ETH carries both relative strength and an improving, idiosyncratic flow story: it led the complex up ~11% on the week, is outrunning BTC on returning ETF money (concentrated in BlackRock ETHA), and now has a structural on-chain demand sink via Robinhood Chain. It held flat overnight while BTC and SOL gave back ground — the correct behavior for the coin you want to be all-in on. Structure is clean: ETH is holding above the $1,800 breakout shelf that flipped from resistance to support, so the stop sits just below at $1,732 (-8%) and the trade invalidates cleanly if $1,800 fails. Runners-up rejected: BTC (~$64,158) — its ETF outflow streak did reverse (~$191M over two days), removing yesterday's 'bleeding' knock, but ETH is still OUTRUNNING it and owns the more concentrated/accelerating flow, so BTC is the lower-beta laggard here; SOL (~$76.14) failed us on Jul 13 (led the bleed not the bounce), softened again overnight, and its Clarity/CLARITY-Act catalyst keeps slipping — extra beta uncompensated; XRP (~$1.106), LINK (~$8.43), DOGE (~$0.073), AVAX (~$6.57) have no fresh idiosyncratic catalyst. Entry = dashboard canonical live feed, asOf 2026-07-16T11:53:22Z (ETH-USD $1,882.78).",
+      "risks": "ETH is extended after a +11% week and the entry (~$1,883) sits in the upper half of its prior range, so a mean-reversion fade back to retest the $1,800 shelf (then the $1,732 stop) is the obvious risk. Some of the week's move was short-squeeze driven and squeeze rallies give back once forced buying is done. ETF inflows are real but still modest ($96M/3 days) and BTC's ETF bid has also returned — if BTC leads and ETH's relative outperformance stalls, the 'own the flow leader' edge narrows. The Clarity Act hearing (Jul 17) is a binary: a hawkish/disappointing tone or a stalled bill before summer recess could sour the whole complex. Macro remains the master variable — any hot data surprise, hawkish Fed re-pricing, or renewed geopolitics flips the risk-on tape doing most of the work. Robinhood Chain demand is real but memecoin-driven and could fade. Hard stop $1732.16 (-8%), just under the breakout so the trade invalidates cleanly if $1,800 fails as support.",
+      "addedDate": "2026-07-16"
     }
   ]
 }
