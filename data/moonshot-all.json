@@ -2,32 +2,32 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 9936.84,
-  "tradeDate": "2026-07-15",
-  "lastUpdated": "2026-07-15T11:45:00Z",
-  "nextRefresh": "2026-07-16T06:30:00-05:00",
+  "startingCapital": 9912.82,
+  "tradeDate": "2026-07-16",
+  "lastUpdated": "2026-07-16T11:43:47Z",
+  "nextRefresh": "2026-07-17T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
     "Any liquid asset: stock, crypto, or leveraged/inverse ETF",
-    "Rotate each 6:30am CT run — sell yesterday, buy today's best",
+    "Rotate each 6:30am CT run \u2014 sell yesterday, buy today's best",
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -63.16,
+  "priorRealizedPnL": -87.18,
   "positions": [
     {
-      "ticker": "SPXL",
-      "name": "Direxion Daily S&P 500 Bull 3X",
-      "sector": "Broad US Equity (3x Leveraged ETF)",
-      "shares": 35.854947,
-      "entry": 277.14,
-      "stopPrice": 249.43,
+      "ticker": "SQQQ",
+      "name": "ProShares UltraPro Short QQQ (3X Inverse Nasdaq-100)",
+      "sector": "Broad US Tech (3x Inverse Leveraged ETF)",
+      "shares": 248.068569,
+      "entry": 39.96,
+      "stopPrice": 35.96,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Soft June CPI is the dominant fresh macro catalyst driving today's tape. Headline CPI fell 0.4% m/m and annual inflation slowed to 3.5% vs 3.8% expected (reported 7/14), collapsing the near-term Fed-hike odds that had been hanging over the market. The tape has flipped risk-on: the July 15 Polymarket contract implies a 73% probability the S&P opens higher, bank earnings are beating broadly (JPM/BAC beat, MS/BLK/JNJ/UAL reporting today), and the oil escalation that dominated this week is now FADING — Trump abandoned the 20% Strait of Hormuz cargo fee and WTI is up only ~0.45% today after +3.3% yesterday, removing an inflation overhang. SPXL is +0.44% pre-open (276.85 last / 277.05x277.14 book, Robinhood live 11:42Z), unextended and clean.",
-      "driver": "Playing the dovish-CPI risk-on with the broadest, least-extended 3x on the board. The catalyst (a soft inflation print that removes Fed-hike fear) is market-WIDE, so I want diversified index beta, not a single-sector bet. 3x is justified by a strong, fresh macro catalyst, and applying it to the S&P — the most diversified underlying available — gives the leverage the lowest single-name blow-up risk. SPXL at +0.44% pre is nowhere near the no-chase band, so entry quality is good. RUNNERS-UP: SOXL (3x semis) rejected as a chase — it is +4.2% pre-open, this is DAY 2 of the semis bounce, the 3x is running hot versus its own underlying (SMH only +1.15%), and sector leader MU has already faded to -0.5% pre-market, i.e. the move is decelerating and buying 3x into a fading Day-2 bounce is exactly the trap flagged yesterday. TQQQ (3x Nasdaq, +1.5% pre) rejected — the dovish-CPI growth tailwind is real, but IBM is -22% pre on a Q2 revenue miss and slashed guidance, sparking an AI/SaaS 'SaaSpocalypse' scare that is a direct, concentrated headwind for the Nasdaq; SPXL captures the same rate tailwind with far less of that idiosyncratic tech dispersion. FAS (3x financials, +0.6% pre) rejected — bank beats are supportive but the tape shows no real momentum in the group and MS/BLK report today, so it is a coin-flip event bet. BITX (2x BTC, +0.24%) rejected — flat, no catalyst.",
-      "risks": "This is a leveraged long into a gap-up open, so I am buying a market that is already 73% expected to open green — if the open is the high and CPI relief is 'sell the news,' 3x amplifies the fade. The live idiosyncratic risk is IBM's -22% guidance miss metastasizing into a broader 'AI capex digestion' fear that drags the whole index intraday; the S&P's diversification is the mitigant but not immunity. Oil is a two-way wildcard — Brent still ~$85 and any fresh Hormuz escalation re-arms the inflation trade and pressures multiples. Hard stop 249.43 (-10% on the 3x, i.e. a ~3.3% S&P drawdown) sized as a disaster stop that only triggers on a genuine risk-off reversal, not intraday chop. PRICE NOTE: dashboard proxy was stale (cached 2026-07-14T11:40Z), so per the fallback rule both the UCO exit (live bid 39.65) and this SPXL entry (live ask 277.14) were struck off Robinhood real-time quotes timestamped 2026-07-15T11:40-11:42Z; sanity-checked vs prior closes (UCO 39.33, SPXL 275.63).",
-      "addedDate": "2026-07-15"
+      "catalyst": "A broad semiconductor/memory ROUT is the dominant fresh catalyst on today's tape. SK Hynix closed -11.5% in Seoul (reversing yesterday's +8%), Samsung -8%, Advantest -5.93%, Tokyo Electron -4%, Renesas -7%, SoftBank -6.27%; memory stocks (MU/Samsung/Hynix) have been dragged into a bear market on AI-capex-digestion fears. US pre-market confirms the spillover: SMH -2.8% (590.77->574.36), NVDA -1.6% (212.50->208.98), Micron ~-6%, SOXL (3x semis) -10.5%. This is compounded by a HAWKISH Warsh ('no tolerance for persistently elevated inflation') and a stalling two-day rally \u2014 the July 16 Polymarket contract implies only 37% chance the S&P opens higher. QQQ -0.85% pre-market. SQQQ live 39.95x39.96 (Robinhood pre-market 11:42Z), +2.6% \u2014 NOT extended.",
+      "driver": "Playing the chip-led risk-off with a 3x INVERSE on the broad Nasdaq rather than the pure-semis inverse. Direction is short/bearish: the memory bear market + hawkish Fed + failing rally point down, and QQQ is only -0.85% pre-market vs semis already -3%, so the broad index has ROOM to catch down to the chip complex during the cash session \u2014 an asymmetric setup. 3x is justified by a strong, fresh, multi-name catalyst (an entire sector entering a bear market plus a hawkish central-bank signal). Choosing SQQQ over the thematically-purer SOXS specifically to AVOID chasing: SOXS is already +9.6% pre-market (right at the >8-10% no-chase band), whereas SQQQ at +2.6% offers a clean, unextended entry with built-in diversification across the Nasdaq-100. RUNNERS-UP: SOXS (3x inverse semis) rejected as a chase at +9.6% \u2014 best thematic fit but the gap is already made and 3x inverse into an exhausted down-move risks a violent dip-buy reversal. SOXL (3x long semis) rejected \u2014 buying a falling knife down 10% into a bear-market rout is the exact trap. PYPL (+18% on a $53B Stripe/Advent buyout rumor) rejected \u2014 up far beyond the no-chase band and rumor-reversal risk. SPXL/TQQQ long rejected \u2014 wrong side of a risk-off tape. BITX (2x BTC) rejected \u2014 flat/no catalyst.",
+      "risks": "This is a leveraged SHORT into an already-down gap, so the primary risk is a 'washout bottom' bounce: Benzinga is already framing the memory slump as a 'prime AI memory entry point' and the selloff as profit-taking, so dip-buyers could reverse the tape green intraday and 3x inverse amplifies that against me. Secondary risk: a benign PPI/retail-sales read or dovish Fed-speak reignites the risk-on trade that dominated the last two sessions. The Nasdaq's diversification cuts both ways \u2014 if only memory bleeds while mega-cap software/AI holds, QQQ may not follow semis down. Hard stop 35.96 (-10% on the 3x, ~ +3.3% QQQ rally) as a disaster stop that only trips on a genuine risk-on reversal, not intraday chop. PRICE NOTE: dashboard proxy was STALE (returned exact prior-session closes: SPXL 278.71, SQQQ 38.94), so per the fallback rule the SPXL exit (live bid 276.47) and SQQQ entry (live ask 39.96) were struck off Robinhood real-time quotes timestamped 2026-07-16T11:41-11:42Z; sanity-checked vs prior closes (SPXL 278.71 close, SQQQ 38.94 close).",
+      "addedDate": "2026-07-16"
     }
   ]
 }
