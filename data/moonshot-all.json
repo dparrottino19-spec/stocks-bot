@@ -2,32 +2,32 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 9912.82,
-  "tradeDate": "2026-07-16",
-  "lastUpdated": "2026-07-16T11:43:47Z",
-  "nextRefresh": "2026-07-17T06:30:00-05:00",
+  "startingCapital": 10619.82,
+  "tradeDate": "2026-07-17",
+  "lastUpdated": "2026-07-17T11:45:00Z",
+  "nextRefresh": "2026-07-18T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
     "Any liquid asset: stock, crypto, or leveraged/inverse ETF",
-    "Rotate each 6:30am CT run \u2014 sell yesterday, buy today's best",
+    "Rotate each 6:30am CT run — sell yesterday, buy today's best",
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -87.18,
+  "priorRealizedPnL": 619.82,
   "positions": [
     {
-      "ticker": "SQQQ",
-      "name": "ProShares UltraPro Short QQQ (3X Inverse Nasdaq-100)",
-      "sector": "Broad US Tech (3x Inverse Leveraged ETF)",
-      "shares": 248.068569,
-      "entry": 39.96,
-      "stopPrice": 35.96,
+      "ticker": "UCO",
+      "name": "ProShares Ultra Bloomberg Crude Oil (2X Long WTI)",
+      "sector": "Energy / Crude Oil (2x Commodity ETF)",
+      "shares": 263.977629,
+      "entry": 40.23,
+      "stopPrice": 37.01,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "A broad semiconductor/memory ROUT is the dominant fresh catalyst on today's tape. SK Hynix closed -11.5% in Seoul (reversing yesterday's +8%), Samsung -8%, Advantest -5.93%, Tokyo Electron -4%, Renesas -7%, SoftBank -6.27%; memory stocks (MU/Samsung/Hynix) have been dragged into a bear market on AI-capex-digestion fears. US pre-market confirms the spillover: SMH -2.8% (590.77->574.36), NVDA -1.6% (212.50->208.98), Micron ~-6%, SOXL (3x semis) -10.5%. This is compounded by a HAWKISH Warsh ('no tolerance for persistently elevated inflation') and a stalling two-day rally \u2014 the July 16 Polymarket contract implies only 37% chance the S&P opens higher. QQQ -0.85% pre-market. SQQQ live 39.95x39.96 (Robinhood pre-market 11:42Z), +2.6% \u2014 NOT extended.",
-      "driver": "Playing the chip-led risk-off with a 3x INVERSE on the broad Nasdaq rather than the pure-semis inverse. Direction is short/bearish: the memory bear market + hawkish Fed + failing rally point down, and QQQ is only -0.85% pre-market vs semis already -3%, so the broad index has ROOM to catch down to the chip complex during the cash session \u2014 an asymmetric setup. 3x is justified by a strong, fresh, multi-name catalyst (an entire sector entering a bear market plus a hawkish central-bank signal). Choosing SQQQ over the thematically-purer SOXS specifically to AVOID chasing: SOXS is already +9.6% pre-market (right at the >8-10% no-chase band), whereas SQQQ at +2.6% offers a clean, unextended entry with built-in diversification across the Nasdaq-100. RUNNERS-UP: SOXS (3x inverse semis) rejected as a chase at +9.6% \u2014 best thematic fit but the gap is already made and 3x inverse into an exhausted down-move risks a violent dip-buy reversal. SOXL (3x long semis) rejected \u2014 buying a falling knife down 10% into a bear-market rout is the exact trap. PYPL (+18% on a $53B Stripe/Advent buyout rumor) rejected \u2014 up far beyond the no-chase band and rumor-reversal risk. SPXL/TQQQ long rejected \u2014 wrong side of a risk-off tape. BITX (2x BTC) rejected \u2014 flat/no catalyst.",
-      "risks": "This is a leveraged SHORT into an already-down gap, so the primary risk is a 'washout bottom' bounce: Benzinga is already framing the memory slump as a 'prime AI memory entry point' and the selloff as profit-taking, so dip-buyers could reverse the tape green intraday and 3x inverse amplifies that against me. Secondary risk: a benign PPI/retail-sales read or dovish Fed-speak reignites the risk-on trade that dominated the last two sessions. The Nasdaq's diversification cuts both ways \u2014 if only memory bleeds while mega-cap software/AI holds, QQQ may not follow semis down. Hard stop 35.96 (-10% on the 3x, ~ +3.3% QQQ rally) as a disaster stop that only trips on a genuine risk-on reversal, not intraday chop. PRICE NOTE: dashboard proxy was STALE (returned exact prior-session closes: SPXL 278.71, SQQQ 38.94), so per the fallback rule the SPXL exit (live bid 276.47) and SQQQ entry (live ask 39.96) were struck off Robinhood real-time quotes timestamped 2026-07-16T11:41-11:42Z; sanity-checked vs prior closes (SPXL 278.71 close, SQQQ 38.94 close).",
-      "addedDate": "2026-07-16"
+      "catalyst": "The US-Iran war is the freshest and most live catalyst on the tape. US Central Command confirmed overnight it completed a SIXTH consecutive night of strikes on Iran, hitting military logistics and maritime capabilities; Tehran has vowed to target regional energy infrastructure if Trump follows through on threats against its key facilities. Last month's truce has fractured and flows through the Strait of Hormuz — ~20% of the world's seaborne oil — are disrupted again. Brent Sep +0.9% to $85.01, WTI Aug +1.0% to $79.74; both contracts are +11% on the week, their best week since late April. UCO live 40.18x40.23 (Robinhood pre-market 11:42Z), +2.8% vs the 39.15 close — well inside the no-chase band. Equity tape is separately risk-off (QQQ -1.5%, SMH -2.7%, MU -1.7%, WDC -3.0% pre-market), which UCO is deliberately insulated from.",
+      "driver": "Long crude via a 2x PURE-COMMODITY vehicle — not an energy-equity fund — so there is no equity beta on a day the Nasdaq is gapping down 1.5%. The payoff is genuinely asymmetric: an actual Hormuz closure or a strike on Gulf infrastructure is a +15-25% crude event (UCO +30-50%), while the bear case is a ceasefire headline into a war premium that has a hard floor — and a truce that JUST fractured is unlikely to be re-cut within 24h. Friday adds a well-documented tailwind: traders bid crude into the weekend for gap protection when a shooting war is active. 2x (not 3x) matches conviction: the catalyst is strong and fresh, but crude is already +11% on the week so some premium is priced. RUNNERS-UP: SQQQ (3x inverse Nasdaq) — yesterday's winner and thematically still right, but rejected as a crowded short on DAY FOUR of the same memory rout with the gap already made (+4.7% pre-market), on monthly opex Friday, while UBS/BofA publish 'healthy reset, buy the dip' notes; risk/reward there is now symmetric at best. SOXS (3x inverse semis) rejected as a chase at +8.8%, inside the no-chase band. SOXL (3x long semis) rejected — falling knife, -8.5% pre-market. UVXY rejected at +7.5% with structural roll decay. GUSH/ERX (2x energy equities) rejected — right theme, wrong vehicle: equity beta drags them down with the tape, and ERX is showing a $1.77-wide pre-market spread. USO (1x crude) was the safer expression but leaves too much upside on the table given the conviction.",
+      "risks": "Primary risk is a de-escalation or ceasefire headline — crude has run +11% in a week, so the war premium is fat and unwinds violently; at 2x, an -8% crude day is -16% here. Secondary: Trump has repeatedly disputed that Hormuz is actually closed, and any 'the strait remains open to commercial traffic' statement takes the tail premium out fast. Third: a broad risk-off in which crude gets sold as a growth/demand proxy alongside equities, or an OPEC+/SPR supply response. UCO also carries 2x daily-reset decay if crude chops sideways. Hard stop 37.01 (-8% on the 2x, ~ -4% WTI) only trips on genuine de-escalation, not intraday chop. PRICE NOTE: the dashboard proxy was STALE again — it returned asOf 2026-07-14T11:40Z (three days old, UCO 38.74) and for SQQQ returned 40.89, the exact prior-session close. Per the fallback rule both fills were struck off Robinhood real-time quotes timestamped 2026-07-17T11:40-11:42Z: SQQQ exit at live bid 42.81, UCO entry at live ask 40.23. Sanity-checked vs prior closes (SQQQ 40.89, UCO 39.15) and vs the reported Brent $85.01 / WTI $79.74 levels.",
+      "addedDate": "2026-07-17"
     }
   ]
 }
