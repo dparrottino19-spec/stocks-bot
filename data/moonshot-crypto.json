@@ -2,10 +2,10 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10282.78,
-  "tradeDate": "2026-07-17",
-  "lastUpdated": "2026-07-17T11:55:00Z",
-  "nextRefresh": "2026-07-18T06:45:00-05:00",
+  "startingCapital": 10402.65,
+  "tradeDate": "2026-07-18",
+  "lastUpdated": "2026-07-18T11:55:00Z",
+  "nextRefresh": "2026-07-19T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Runs every day — crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 282.78,
+  "priorRealizedPnL": 402.65,
   "positions": [
     {
-      "ticker": "BTC",
-      "name": "Bitcoin",
+      "ticker": "ETH",
+      "name": "Ethereum",
       "sector": "Crypto",
-      "shares": 0.162597,
-      "entry": 63240.8,
-      "stopPrice": 58181.54,
+      "shares": 5.641197,
+      "entry": 1844.05,
+      "stopPrice": 1696.53,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "Yesterday's ETH thesis broke, and it broke on the exact axis it was built on: FLOW. The Jul 16 ETF tape REVERSED the story — spot ETHER ETFs posted $28M of NET OUTFLOWS (Fidelity FETH -$11.2M, Grayscale ETHE -$4.8M, Grayscale ETH -$14.3M) while spot BITCOIN ETFs took in +$79.1M. The BTC inflow mix also got HEALTHIER: Fidelity and Bitwise together contributed $45.7M, more than half the day's total, so the bid is no longer a single-issuer BlackRock story — it broadened across three major issuers. Price confirmed the flow: over the last 24h ETH -2.39% vs BTC -1.01%, i.e. the coin we owned for 'relative strength' became the laggard and BTC became the leader. The whole complex is risk-off — global crypto cap -1.6% to $2.27T, Fear & Greed 27 (Fear), whale selling and oil/geopolitical risk in the tape. Today's CLARITY Act field hearing (House Financial Services, 10am ET, New York, 'Building the Future of Finance') is a real next-24h catalyst for the complex, but it is a promotional HOUSE field hearing and the actual bottleneck is the SENATE, where H.R. 3633 sits on the calendar with no floor vote scheduled, a shrinking window before August recess, and prediction-market odds COLLAPSED from the low-70s to ~43%. That asymmetry argues for owning the complex with the LOWEST beta to a disappointing/'sell-the-news' outcome while still participating if the hearing lands well. On a low-edge, Fear-tape day with no coin showing relative strength, the rules say favor the liquid majors — and BTC is the major that now owns the flow AND held its bid.",
-      "driver": "BTC is the correct all-in on a low-edge, risk-off day: it is now the flow leader (+$79.1M vs ETH -$28M on Jul 16) with a broadening, multi-issuer bid rather than a single-fund dependency; it is the 24h relative-strength leader among majors (-1.01% vs ETH -2.39%); and it carries the lowest beta into a binary catalyst whose real gate (the Senate) today's House field hearing does not move. Entry ~$63,241 sits in the $62,500-$63,000/$63,800-$64,000 support-and-demand shelf, so the setup is asymmetric: reclaiming $64,000 opens the $64,000-$65,000 resistance band and the EMA50 at ~$64,972, while structural support at $61,000 defines the invalidation. Runners-up rejected: ETH (~$1,839) — the flow story that justified owning it inverted outright, it is capped below the 100-day EMA at $1,943, and it is bleeding relative to BTC; SOL (~$74.81) — no fresh catalyst, softened again (-1.75%), and has failed this book twice by leading the bleed rather than the bounce; LINK (~$8.20, -2.8%), XRP (~$1.084, -2.0%), AVAX (~$6.48), DOGE (~$0.072), ADA (~$0.161) — all lower and none with an idiosyncratic catalyst; Cronos (+8%) — exactly the 'most volatile coin' chase the mandate forbids, illiquid relative to the majors and no definable stop into Fear. NOTE ON PRICING: the dashboard proxy first returned a CACHED response stamped asOf 2026-07-13 (ETH $1,781.40); a cache-busted re-pull returned the live asOf 2026-07-17T11:52:50Z. The stale quote was 3.2% off and would have materially mispriced the exit. All fills here use the verified-fresh feed.",
-      "risks": "BTC has slipped BELOW the $63,800-$64,000 support band and is trading in the $62,500-$63,000 demand zone — this is a buy into a level that is being tested, not defended from above, and a clean loss of $62,500 puts $61,000 structural support in play fast. Momentum is not confirming: RSI ~39.6 on one read (Sell signal, weakening buying strength) and ~49 on the daily (indecisive, sideways), with a bearish divergence flagged and heavy whale selling reported. The CLARITY hearing is a two-sided binary — a promotional House field hearing that does nothing for the ~43% Senate odds is a live 'sell-the-news' setup, and a stalled bill before August recess sours the whole complex. Fear & Greed at 27 means the tape has no cushion for a bad headline; oil/geopolitical shocks and any hawkish Fed re-pricing hit BTC directly. Owning the lowest-beta major also caps the upside — if the hearing lands well and risk rips, ETH/SOL outrun us. And the flow read is one session old: ETF flows are noisy day-to-day and could flip back to ETH as fast as they flipped away. Hard stop $58,181.54 (-8%) per the majors rule, set with wick room BELOW the $61,000 structural support that is the true thesis invalidation — if $61,000 fails on a closing basis the trade is wrong regardless of the stop.",
-      "addedDate": "2026-07-17"
+      "catalyst": "The FLOW axis that drove yesterday's BTC pick has inverted back toward ETH. Spot ETHER ETFs broke an 8-week outflow streak and turned decisively positive — ~$84M inflow the week ending Jul 11, then ~$96M over three days that pushed ETH to $1,920, plus ~$58.4M on Jul 14 concentrated in BlackRock's ETHA. On top of the spot bid, the STAKING-ETF story is maturing: BlackRock's staked-ETH ETHB (80% staked / 20% unstaked, Coinbase custody) builds a yield-bearing structural demand source that is less sensitive to short-term price swings and rewards accumulating on weakness. Price has confirmed the flow — ETH is the 24h relative-strength leader among majors, outperforming BTC on this bounce (ETH $1,844 vs a soft BTC/SOL tape), exactly the asymmetric 'fresh catalyst + relative strength with a definable stop' the mandate prefers. The complex tape is still Fear (F&G ~25-35, total cap ~$2.19T flat), so the rules say favor a liquid MAJOR — and between the two majors, ETH now owns both the flow reversal and the momentum while still giving lower-beta-than-alt downside protection.",
+      "driver": "ETH is the correct all-in today: it carries the freshest catalyst (ETF-flow reversal + a building staking-ETF demand base), the clearest relative strength (outperforming BTC and SOL on the current bounce), and momentum turning up (RSI mid-50s, Stochastic elevated). Entry ~$1,844 sits below the $1,900/$1,920 shelf it tagged last week, so the setup is asymmetric: reclaiming $1,900 opens a run at the 100-day EMA ~$1,943 and beyond, while a loss of the ~$1,780 support that pinned it for weeks defines the invalidation. Runners-up rejected: BTC (~$63,978) — still the flow leader on absolute dollars and lower-beta, but neutral momentum (RSI ~51.7, 'defending supports, failing to clear resistance') with no fresh idiosyncratic catalyst, so it offers protection without the asymmetric upside; SOL (~$74.93) — no catalyst, softened again, and has led the bleed rather than the bounce twice for this book. PRICING: dashboard proxy first returned CACHED quotes stamped asOf 2026-07-04 (BTC $62,456); cache-busted re-pulls returned live asOf 2026-07-18T11:53:33-43Z (BTC $63,978, ETH $1,844.05, SOL $74.93). All fills use the verified-fresh feed.",
+      "risks": "ETH is 'fragile underneath the surface despite outperformance' — the strength is driven by a few large participants and concentrated ETF tickets (BlackRock ETHA/ETHB) rather than broad participation, so the bid can thin fast. It remains CAPPED below key EMAs (100-day ~$1,943) and has repeatedly stalled at $1,900/$1,920; a failure there is a live 'sell-the-news/stretched' setup. As the higher-beta major, ETH falls harder than BTC if the Fear tape (F&G ~25-35) deepens on hawkish Fed minutes, Iran/geopolitical shocks, or a fresh ETF-flow flip — and daily ETF flows are noisy and could reverse back to BTC as quickly as they swung to ETH. Hard stop $1,696.53 (-8%, majors rule) set with wick room below the ~$1,780 support that is the true thesis invalidation — a clean close under $1,780 means the trade is wrong regardless of the stop.",
+      "addedDate": "2026-07-18"
     }
   ]
 }
