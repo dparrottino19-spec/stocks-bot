@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10619.82,
-  "tradeDate": "2026-07-17",
-  "lastUpdated": "2026-07-17T11:45:00Z",
-  "nextRefresh": "2026-07-18T06:30:00-05:00",
+  "startingCapital": 10823.08,
+  "tradeDate": "2026-07-18",
+  "lastUpdated": "2026-07-18T11:45:00Z",
+  "nextRefresh": "2026-07-19T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": 619.82,
+  "priorRealizedPnL": 823.08,
   "positions": [
     {
-      "ticker": "UCO",
-      "name": "ProShares Ultra Bloomberg Crude Oil (2X Long WTI)",
-      "sector": "Energy / Crude Oil (2x Commodity ETF)",
-      "shares": 263.977629,
-      "entry": 40.23,
-      "stopPrice": 37.01,
+      "ticker": "SOL-USD",
+      "name": "Solana",
+      "sector": "Crypto / Layer-1 (spot)",
+      "shares": 144.519696,
+      "entry": 74.89,
+      "stopPrice": 67.4,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "The US-Iran war is the freshest and most live catalyst on the tape. US Central Command confirmed overnight it completed a SIXTH consecutive night of strikes on Iran, hitting military logistics and maritime capabilities; Tehran has vowed to target regional energy infrastructure if Trump follows through on threats against its key facilities. Last month's truce has fractured and flows through the Strait of Hormuz — ~20% of the world's seaborne oil — are disrupted again. Brent Sep +0.9% to $85.01, WTI Aug +1.0% to $79.74; both contracts are +11% on the week, their best week since late April. UCO live 40.18x40.23 (Robinhood pre-market 11:42Z), +2.8% vs the 39.15 close — well inside the no-chase band. Equity tape is separately risk-off (QQQ -1.5%, SMH -2.7%, MU -1.7%, WDC -3.0% pre-market), which UCO is deliberately insulated from.",
-      "driver": "Long crude via a 2x PURE-COMMODITY vehicle — not an energy-equity fund — so there is no equity beta on a day the Nasdaq is gapping down 1.5%. The payoff is genuinely asymmetric: an actual Hormuz closure or a strike on Gulf infrastructure is a +15-25% crude event (UCO +30-50%), while the bear case is a ceasefire headline into a war premium that has a hard floor — and a truce that JUST fractured is unlikely to be re-cut within 24h. Friday adds a well-documented tailwind: traders bid crude into the weekend for gap protection when a shooting war is active. 2x (not 3x) matches conviction: the catalyst is strong and fresh, but crude is already +11% on the week so some premium is priced. RUNNERS-UP: SQQQ (3x inverse Nasdaq) — yesterday's winner and thematically still right, but rejected as a crowded short on DAY FOUR of the same memory rout with the gap already made (+4.7% pre-market), on monthly opex Friday, while UBS/BofA publish 'healthy reset, buy the dip' notes; risk/reward there is now symmetric at best. SOXS (3x inverse semis) rejected as a chase at +8.8%, inside the no-chase band. SOXL (3x long semis) rejected — falling knife, -8.5% pre-market. UVXY rejected at +7.5% with structural roll decay. GUSH/ERX (2x energy equities) rejected — right theme, wrong vehicle: equity beta drags them down with the tape, and ERX is showing a $1.77-wide pre-market spread. USO (1x crude) was the safer expression but leaves too much upside on the table given the conviction.",
-      "risks": "Primary risk is a de-escalation or ceasefire headline — crude has run +11% in a week, so the war premium is fat and unwinds violently; at 2x, an -8% crude day is -16% here. Secondary: Trump has repeatedly disputed that Hormuz is actually closed, and any 'the strait remains open to commercial traffic' statement takes the tail premium out fast. Third: a broad risk-off in which crude gets sold as a growth/demand proxy alongside equities, or an OPEC+/SPR supply response. UCO also carries 2x daily-reset decay if crude chops sideways. Hard stop 37.01 (-8% on the 2x, ~ -4% WTI) only trips on genuine de-escalation, not intraday chop. PRICE NOTE: the dashboard proxy was STALE again — it returned asOf 2026-07-14T11:40Z (three days old, UCO 38.74) and for SQQQ returned 40.89, the exact prior-session close. Per the fallback rule both fills were struck off Robinhood real-time quotes timestamped 2026-07-17T11:40-11:42Z: SQQQ exit at live bid 42.81, UCO entry at live ask 40.23. Sanity-checked vs prior closes (SQQQ 40.89, UCO 39.15) and vs the reported Brent $85.01 / WTI $79.74 levels.",
-      "addedDate": "2026-07-17"
+      "catalyst": "Weekend = spot crypto only (US equities/leveraged ETFs closed). SOL carries the freshest, most specific catalyst in majors: a Wall Street firm filed a Solana ETF WITH a staking feature on 2026-07-16 (2 days old), giving institutions both price exposure and staking yield; Solana is now the largest blockchain by real-world-asset holder count (~300,130 holders, ~31% of all tracked RWA holders). BTC is flat/no fresh catalyst ($63,979, Fear&Greed 25); ETH is the weakest major (slipping ~0.75%). SOL live 74.89 (dashboard proxy asOf 2026-07-18T11:40:36Z), cross-checked vs CoinGecko/market ~75.83 — no chase, essentially flat on the day.",
+      "driver": "Long the highest-conviction spot crypto into the weekend. Asymmetry: SOL sits near multi-month lows (~$75), so a large amount of downside is already priced, while a fresh, concrete ETF-with-staking catalyst + RWA-leadership narrative gives outsized upside on any crypto relief bounce — SOL is the highest-beta major, so it delivers the most 24h upside if risk appetite returns. Spot (1x) is the only weekend vehicle and inherently caps downside vs the leveraged ETFs used on weekdays. Conviction is moderate (fear tape, F&G 25), which is exactly why 1x spot — not a leveraged crypto ETF — is the right size even setting aside the weekend rule.",
+      "risks": "Risk-off / fear tape (Fear&Greed 25, total market cap -0.2%/24h) can drag high-beta SOL down hardest; SOL fell ~1.2% into the print before stabilizing. Weekend crypto is thin-liquidity and gap-prone — a macro or regulatory headline can move it sharply with no equity hedge available. Idiosyncratic Solana network/outage risk. Hard stop 67.40 (-10% spot). PRICE NOTE: dashboard proxy was FRESH this run (asOf 2026-07-18T11:40:36Z, within minutes of runtime); SOL 74.89 / BTC 63979 / ETH 1843 cross-checked against CoinGecko-sourced market data (SOL 75.83 / BTC 63898 / ETH 1840) — consistent, no stale-morning snippet used. UCO closed at its last real quote 41.00 (equities shut on weekend).",
+      "addedDate": "2026-07-18"
     }
   ]
 }
