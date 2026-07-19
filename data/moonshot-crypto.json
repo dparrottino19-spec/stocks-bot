@@ -2,32 +2,32 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10402.65,
-  "tradeDate": "2026-07-18",
-  "lastUpdated": "2026-07-18T11:55:00Z",
-  "nextRefresh": "2026-07-19T06:45:00-05:00",
+  "startingCapital": 10555.58,
+  "tradeDate": "2026-07-19",
+  "lastUpdated": "2026-07-19T11:53:58Z",
+  "nextRefresh": "2026-07-20T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
     "Spot crypto only (BTC, ETH, SOL, and other liquid coins on Robinhood)",
-    "Rotate each 6:45am CT run — sell yesterday, buy today's best",
-    "Runs every day — crypto trades 24/7",
+    "Rotate each 6:45am CT run \u2014 sell yesterday, buy today's best",
+    "Runs every day \u2014 crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 402.65,
+  "priorRealizedPnL": 555.58,
   "positions": [
     {
       "ticker": "ETH",
       "name": "Ethereum",
       "sector": "Crypto",
-      "shares": 5.641197,
-      "entry": 1844.05,
-      "stopPrice": 1696.53,
+      "shares": 5.641196,
+      "entry": 1871.16,
+      "stopPrice": 1721.47,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "The FLOW axis that drove yesterday's BTC pick has inverted back toward ETH. Spot ETHER ETFs broke an 8-week outflow streak and turned decisively positive — ~$84M inflow the week ending Jul 11, then ~$96M over three days that pushed ETH to $1,920, plus ~$58.4M on Jul 14 concentrated in BlackRock's ETHA. On top of the spot bid, the STAKING-ETF story is maturing: BlackRock's staked-ETH ETHB (80% staked / 20% unstaked, Coinbase custody) builds a yield-bearing structural demand source that is less sensitive to short-term price swings and rewards accumulating on weakness. Price has confirmed the flow — ETH is the 24h relative-strength leader among majors, outperforming BTC on this bounce (ETH $1,844 vs a soft BTC/SOL tape), exactly the asymmetric 'fresh catalyst + relative strength with a definable stop' the mandate prefers. The complex tape is still Fear (F&G ~25-35, total cap ~$2.19T flat), so the rules say favor a liquid MAJOR — and between the two majors, ETH now owns both the flow reversal and the momentum while still giving lower-beta-than-alt downside protection.",
-      "driver": "ETH is the correct all-in today: it carries the freshest catalyst (ETF-flow reversal + a building staking-ETF demand base), the clearest relative strength (outperforming BTC and SOL on the current bounce), and momentum turning up (RSI mid-50s, Stochastic elevated). Entry ~$1,844 sits below the $1,900/$1,920 shelf it tagged last week, so the setup is asymmetric: reclaiming $1,900 opens a run at the 100-day EMA ~$1,943 and beyond, while a loss of the ~$1,780 support that pinned it for weeks defines the invalidation. Runners-up rejected: BTC (~$63,978) — still the flow leader on absolute dollars and lower-beta, but neutral momentum (RSI ~51.7, 'defending supports, failing to clear resistance') with no fresh idiosyncratic catalyst, so it offers protection without the asymmetric upside; SOL (~$74.93) — no catalyst, softened again, and has led the bleed rather than the bounce twice for this book. PRICING: dashboard proxy first returned CACHED quotes stamped asOf 2026-07-04 (BTC $62,456); cache-busted re-pulls returned live asOf 2026-07-18T11:53:33-43Z (BTC $63,978, ETH $1,844.05, SOL $74.93). All fills use the verified-fresh feed.",
-      "risks": "ETH is 'fragile underneath the surface despite outperformance' — the strength is driven by a few large participants and concentrated ETF tickets (BlackRock ETHA/ETHB) rather than broad participation, so the bid can thin fast. It remains CAPPED below key EMAs (100-day ~$1,943) and has repeatedly stalled at $1,900/$1,920; a failure there is a live 'sell-the-news/stretched' setup. As the higher-beta major, ETH falls harder than BTC if the Fear tape (F&G ~25-35) deepens on hawkish Fed minutes, Iran/geopolitical shocks, or a fresh ETF-flow flip — and daily ETF flows are noisy and could reverse back to BTC as quickly as they swung to ETH. Hard stop $1,696.53 (-8%, majors rule) set with wick room below the ~$1,780 support that is the true thesis invalidation — a clean close under $1,780 means the trade is wrong regardless of the stop.",
-      "addedDate": "2026-07-18"
+      "catalyst": "ETH remains the single best all-in: the ETF-flow reversal that took hold last week is still accelerating and still ETH-led. US spot-ETHER ETFs added ~$96M in the first three days of last week (heavily concentrated in BlackRock's low-fee ETHA), and CoinDesk's read for the week was explicit \u2014 'Ether outruns Bitcoin as ETF money returns, almost all of it from BlackRock's fund.' On top of the spot bid, BlackRock's ~$100M staked-ETH (ETHB) launch builds a yield-bearing, structural demand source less sensitive to short-term swings. The macro backdrop turned supportive too: a dovish shift from Fed Chair Warsh plus a five-day BTC-ETF inflow streak drove a broad relief bounce, and ETH is the momentum leader within it \u2014 up from ~$1,844 (yesterday's entry) to ~$1,871 while BTC/SOL bounced more modestly. Entry ~$1,871 still sits below the $1,900/$1,920 shelf, so the asymmetric 'fresh catalyst + relative strength with a definable stop' setup the mandate prefers is intact.",
+      "driver": "Re-up ETH \u2014 it owns the freshest catalyst (accelerating BlackRock-led ETF inflows + a building staking-ETF demand base) and the clearest relative strength (outrunning BTC and SOL on the bounce), with momentum turning up. Entry $1,871.16 below the $1,900/$1,920 shelf keeps the payoff asymmetric: reclaiming $1,900 opens a run at the 100-day EMA ~$1,943 and beyond, while the ~$1,780 support that pinned it for weeks defines the invalidation. Runners-up rejected: BTC (~$64,440) \u2014 flow leader on absolute dollars and lower-beta protection, but no fresh idiosyncratic catalyst and ETH is outperforming it; SOL (~$76.06) \u2014 relief-bounce participant but no ETH-grade catalyst for this book and already held in the sister Moonshot-All book.",
+      "risks": "ETH's strength is concentrated in a few large ETF tickets (BlackRock ETHA/ETHB) rather than broad participation, so the bid can thin fast, and it remains CAPPED below key EMAs (100-day ~$1,943) with repeated stalls at $1,900/$1,920 \u2014 a failure there is a live sell-the-news/stretched setup. As the higher-beta major, ETH falls harder than BTC if the relief bounce fades on hawkish surprises, geopolitical shocks, or an ETF-flow flip back to BTC (daily flows are noisy). Hard stop $1721.47 (-8%, majors rule) set with wick room below the ~$1,780 thesis-invalidation support \u2014 a clean close under $1,780 means the trade is wrong regardless of the stop.",
+      "addedDate": "2026-07-19"
     }
   ]
 }
