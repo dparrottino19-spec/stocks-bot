@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10823.08,
-  "tradeDate": "2026-07-18",
-  "lastUpdated": "2026-07-18T11:45:00Z",
-  "nextRefresh": "2026-07-19T06:30:00-05:00",
+  "startingCapital": 10999.39,
+  "tradeDate": "2026-07-19",
+  "lastUpdated": "2026-07-19T11:42:39Z",
+  "nextRefresh": "2026-07-20T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": 823.08,
+  "priorRealizedPnL": 999.39,
   "positions": [
     {
       "ticker": "SOL-USD",
       "name": "Solana",
       "sector": "Crypto / Layer-1 (spot)",
-      "shares": 144.519696,
-      "entry": 74.89,
-      "stopPrice": 67.4,
+      "shares": 144.519643,
+      "entry": 76.11,
+      "stopPrice": 68.5,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Weekend = spot crypto only (US equities/leveraged ETFs closed). SOL carries the freshest, most specific catalyst in majors: a Wall Street firm filed a Solana ETF WITH a staking feature on 2026-07-16 (2 days old), giving institutions both price exposure and staking yield; Solana is now the largest blockchain by real-world-asset holder count (~300,130 holders, ~31% of all tracked RWA holders). BTC is flat/no fresh catalyst ($63,979, Fear&Greed 25); ETH is the weakest major (slipping ~0.75%). SOL live 74.89 (dashboard proxy asOf 2026-07-18T11:40:36Z), cross-checked vs CoinGecko/market ~75.83 — no chase, essentially flat on the day.",
-      "driver": "Long the highest-conviction spot crypto into the weekend. Asymmetry: SOL sits near multi-month lows (~$75), so a large amount of downside is already priced, while a fresh, concrete ETF-with-staking catalyst + RWA-leadership narrative gives outsized upside on any crypto relief bounce — SOL is the highest-beta major, so it delivers the most 24h upside if risk appetite returns. Spot (1x) is the only weekend vehicle and inherently caps downside vs the leveraged ETFs used on weekdays. Conviction is moderate (fear tape, F&G 25), which is exactly why 1x spot — not a leveraged crypto ETF — is the right size even setting aside the weekend rule.",
-      "risks": "Risk-off / fear tape (Fear&Greed 25, total market cap -0.2%/24h) can drag high-beta SOL down hardest; SOL fell ~1.2% into the print before stabilizing. Weekend crypto is thin-liquidity and gap-prone — a macro or regulatory headline can move it sharply with no equity hedge available. Idiosyncratic Solana network/outage risk. Hard stop 67.40 (-10% spot). PRICE NOTE: dashboard proxy was FRESH this run (asOf 2026-07-18T11:40:36Z, within minutes of runtime); SOL 74.89 / BTC 63979 / ETH 1843 cross-checked against CoinGecko-sourced market data (SOL 75.83 / BTC 63898 / ETH 1840) — consistent, no stale-morning snippet used. UCO closed at its last real quote 41.00 (equities shut on weekend).",
-      "addedDate": "2026-07-18"
+      "catalyst": "Weekend = spot crypto only (US equities/leveraged ETFs closed). Broad crypto relief bounce is underway: BTC has staged one of the fastest rallies of the year ($57,950 -> $64,474 in ~9 days) with spot-BTC-ETF inflows returning (+$132M on 7/18), reclaiming the $61-62k recovery threshold; all three majors are green day-over-day (BTC 64,474 / ETH 1,873.92 / SOL 76.11 live). SOL carries the freshest, most specific catalyst among majors: a Wall Street firm's Solana ETF-with-staking filing (7/16), plus Solana's June record $3.47B tokenized-equity trading volume and continued RWA-holder leadership; SBI Holdings expanded its Solana-Foundation-linked footprint (7/16 Coinhako majority stake). SOL live 76.11 (dashboard proxy asOf 2026-07-19T11:40:35Z, within minutes of runtime), up only ~+1.6% on the day — no chase.",
+      "driver": "Long the highest-conviction, highest-beta spot crypto as the relief bounce broadens. Asymmetry: SOL sits near multi-month lows (~$76, just off the high-$70s stabilization zone), so a large share of downside is already priced, while a concrete ETF-with-staking catalyst + RWA/tokenized-equity leadership narrative gives outsized upside if the BTC-led risk-on continues — SOL is the highest-beta major, so it delivers the most 24h upside on continuation. Spot (1x) is the only weekend vehicle and inherently caps downside vs weekday leveraged ETFs. F&G still 'Fear' (~27-31), which is exactly why 1x spot — not a leveraged crypto ETF — is the correct size even setting aside the weekend rule.",
+      "risks": "Fear tape persists (Crypto Fear&Greed ~27-31) and BTC faces a $65,500 resistance wall with cooling daily volume — a stall or profit-take drags high-beta SOL down hardest. Weekend crypto is thin-liquidity and gap-prone; a macro/regulatory headline can move it sharply with no equity hedge available. Idiosyncratic Solana network/outage risk. Hard stop 68.50 (-10% spot). PRICE NOTE: dashboard proxy FRESH this run (asOf 2026-07-19T11:40:35Z) — SOL 76.11 / BTC 64474.54 / ETH 1873.92; no stale-morning snippet used. Prior SOL closed 76.11 vs 74.89 entry (+176.31).",
+      "addedDate": "2026-07-19"
     }
   ]
 }
