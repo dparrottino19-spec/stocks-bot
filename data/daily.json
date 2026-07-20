@@ -2,10 +2,10 @@
   "bookName": "Daily Trader",
   "inceptionDate": "2026-05-15",
   "inceptionCapital": 70000,
-  "startingCapital": 73139.37,
-  "tradeDate": "2026-07-17",
-  "lastUpdated": "2026-07-17T12:25:00Z",
-  "nextRefresh": "2026-07-20T07:09:00-05:00",
+  "startingCapital": 73213.87,
+  "tradeDate": "2026-07-20",
+  "lastUpdated": "2026-07-20T12:24:25Z",
+  "nextRefresh": "2026-07-21T07:09:00-05:00",
   "rules": [
     "Weekday 7am ET picks",
     "Per-pick exit rules",
@@ -13,68 +13,8 @@
     "1-week max hold",
     "<=4 names per sector"
   ],
-  "priorRealizedPnL": 3139.37,
+  "priorRealizedPnL": 3213.87,
   "positions": [
-    {
-      "ticker": "TRV",
-      "name": "The Travelers Companies",
-      "sector": "Finance",
-      "shares": 10,
-      "entry": 340.7,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "T1 EARNINGS (7/17 BMO): Q2 adj EPS $10.04 vs $4.94 est - a ~2x beat, verified actual on the brokerage earnings feed; PR headlined 'Travelers Reports Excellent Second Quarter'. Pre-mkt 340.70 (+0.85%).",
-      "risks": "Reaction is MUTED (+0.85%) for a 2x beat - the market is discounting reserve releases / benign cat losses as non-recurring. Stock already sits 2.5% under its 52wk high (349.35) after running all month. Taking it off by the bell, no weekend hold.",
-      "driver": "Tier 1: Q2 earnings beat (verified actual)",
-      "addedDate": "2026-07-17"
-    },
-    {
-      "ticker": "TFC",
-      "name": "Truist Financial",
-      "sector": "Finance",
-      "shares": 66,
-      "entry": 53.03,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "T1 EARNINGS (7/17 BMO, call 8am ET): Q2 EPS $1.23 vs $1.08 est (+13.9%), verified actual. Street wanted $5.24B revenue on +18.7% y/y EPS growth.",
-      "risks": "NO confirming pre-market action - trading 53.03, i.e. -0.41% BELOW the 53.25 close despite the beat. Ran into the print (7/16 high 54.03). This is a sell-the-news setup as much as a beat; intraday-only for that reason.",
-      "driver": "Tier 1: Q2 earnings beat (verified actual)",
-      "addedDate": "2026-07-17"
-    },
-    {
-      "ticker": "FITB",
-      "name": "Fifth Third Bancorp",
-      "sector": "Finance",
-      "shares": 59,
-      "entry": 59.21,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "T1 EARNINGS (7/17 BMO): Q2 EPS $1.02 vs $0.88 est (+15.9%) - the largest percentage beat of the regional-bank cohort, verified actual.",
-      "risks": "Closed 7/16 at 59.37, its exact 52wk high - zero cushion. Pre-mkt 59.21 (-0.27%), no confirmation, and the pre-mkt book is thin/wide (57.42 x 63.13). Intraday-only.",
-      "driver": "Tier 1: Q2 earnings beat (verified actual)",
-      "addedDate": "2026-07-17"
-    },
-    {
-      "ticker": "RF",
-      "name": "Regions Financial",
-      "sector": "Finance",
-      "shares": 108,
-      "entry": 32.4,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "T1 EARNINGS (7/17 BMO): Q2 EPS $0.68 vs $0.63 est (+7.9%), verified actual.",
-      "risks": "Weakest of the four bank beats and the tightest setup: closed 7/16 at 32.40 = its 52wk high (32.47 intraday), and pre-mkt is dead flat (0.00%). Pre-mkt ask is stale/wide (35.49). Intraday-only.",
-      "driver": "Tier 1: Q2 earnings beat (verified actual)",
-      "addedDate": "2026-07-17"
-    },
-    {
-      "ticker": "XOM",
-      "name": "Exxon Mobil",
-      "sector": "Energy Minerals",
-      "shares": 23,
-      "entry": 148.64,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "T1 MACRO (fresh overnight): CENTCOM confirmed its SIXTH consecutive night of strikes on Iran; Tehran has now instructed the Houthis to close Bab el-Mandeb if Iranian power infrastructure is hit - a second chokepoint on top of Hormuz. Brent 85.95 (+2.04%). XOM pre-mkt 148.64 (+1.84%) - the cleanest confirming tape this morning.",
-      "risks": "Re-entry of a name closed this same morning on the Friday rule - justified only because the catalyst re-dated overnight. Pure headline risk: a ceasefire print unwinds the crude premium in minutes. Going flat by the bell rather than carrying the war over a weekend.",
-      "driver": "Tier 1: Bab el-Mandeb threat + 6th night of US strikes",
-      "addedDate": "2026-07-17"
-    },
     {
       "ticker": "COP",
       "name": "ConocoPhillips",
@@ -109,18 +49,6 @@
       "catalyst": "T1 MACRO: Delaware-basin E&P, highest-beta cheap barrel in the book (PE 11.9). Pre-mkt 43.65 (+1.44%), a fresh session high vs the 7/16 range. Brent 85.95 (+2.04%).",
       "risks": "Highest beta = worst drawdown on a ceasefire headline over the weekend. 52wk 31.47-52.71.",
       "driver": "Tier 1: Hormuz + Bab el-Mandeb crude premium",
-      "addedDate": "2026-07-17"
-    },
-    {
-      "ticker": "HAL",
-      "name": "Halliburton",
-      "sector": "Industrial Services",
-      "shares": 99,
-      "entry": 35.14,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "T1 MACRO: Oilfield-services second-derivative to the two-chokepoint crude spike (Brent +2.04%, 7/17). Pre-mkt 35.14 (+0.29%).",
-      "risks": "Weak confirmation (+0.29% vs XOM +1.84%) - services are lagging the barrel this morning, which is the opposite of what you want. Sized full but intraday-only. 52wk 20.17-43.59.",
-      "driver": "Tier 1: crude spike (services beta)",
       "addedDate": "2026-07-17"
     },
     {
@@ -170,6 +98,126 @@
       "risks": "Weakest defense confirmation (+0.71%). P/B 15.8 is optically extreme (pension accounting). Same defense-fade risk as NOC/GD.",
       "driver": "Tier 2: Mideast escalation + pre-earnings 7/22",
       "addedDate": "2026-07-17"
+    },
+    {
+      "ticker": "BABA",
+      "name": "Alibaba",
+      "sector": "Retail Trade",
+      "shares": 28,
+      "entry": 119.0,
+      "exitRule": "Overnight (next-day open)",
+      "catalyst": "T1 NEWS: Alibaba previewed Qwen3.8 Max (2.4T-param frontier model) + confirmed as Apple Intelligence AI provider in China. Pre-mkt 119.00 (+3.5% vs 114.97 close).",
+      "risks": "China ADR/regulatory headline risk; discrete news pop can fade - off next open rather than carrying the theme.",
+      "driver": "Tier 1: Qwen3.8 Max + Apple-China AI deal",
+      "addedDate": "2026-07-20"
+    },
+    {
+      "ticker": "BIDU",
+      "name": "Baidu",
+      "sector": "Technology Services",
+      "shares": 30,
+      "entry": 111.01,
+      "exitRule": "Overnight (next-day open)",
+      "catalyst": "T1 NEWS: Confirmed Apple Intelligence China partner alongside Alibaba; AI Cloud infra rev +79% y/y (GPU cloud +184%). Pre-mkt 111.01 (+3.5% vs 107.24 close).",
+      "risks": "China ADR risk; sympathy move to BABA that can unwind if the China-AI bid cools. Overnight only.",
+      "driver": "Tier 1: Apple-China AI partnership + AI cloud",
+      "addedDate": "2026-07-20"
+    },
+    {
+      "ticker": "JD",
+      "name": "JD.com",
+      "sector": "Retail Trade",
+      "shares": 114,
+      "entry": 30.52,
+      "exitRule": "Overnight (next-day open)",
+      "catalyst": "T2: China e-commerce/tech rally on the Apple-Intelligence-China + Alibaba-Qwen catalyst. Pre-mkt 30.52 (+3.0% vs 29.62 close).",
+      "risks": "Read-through beta rather than an idiosyncratic JD catalyst; thin-margin retailer. Overnight only.",
+      "driver": "Tier 2: China tech rally read-through",
+      "addedDate": "2026-07-20"
+    },
+    {
+      "ticker": "PDD",
+      "name": "PDD Holdings",
+      "sector": "Retail Trade",
+      "shares": 40,
+      "entry": 85.7,
+      "exitRule": "Overnight (next-day open)",
+      "catalyst": "T2: China discount e-commerce riding the same China-AI/Apple-China rally. Pre-mkt 85.70 (+1.9% vs 84.14 close). PE 8.9.",
+      "risks": "Weakest confirmation of the China cluster (+1.9%); regulatory/ADR risk. Overnight only.",
+      "driver": "Tier 2: China tech rally read-through",
+      "addedDate": "2026-07-20"
+    },
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "sector": "Electronic Technology",
+      "shares": 6,
+      "entry": 511.79,
+      "exitRule": "Catalyst-defined: hold into Advancing AI 2026 event (7/22-23); exit after event or by Fri 7/24 close (stop -6%)",
+      "catalyst": "T1 EVENT + PT HIKES: AMD Advancing AI 2026 (7/22-23) to unveil MI450x Helios/MI500 roadmap + 2nm Venice CPUs; UBS et al raised targets. Pre-mkt 511.79 (+3.2% vs 495.76 close).",
+      "risks": "Semis extended (PE 164); sell-the-event risk once roadmap is public. 4th Electronic Technology name (with held NOC/GD/LMT) = sector cap. 52wk 149.22-584.73.",
+      "driver": "Tier 1: Advancing AI event 7/22-23",
+      "addedDate": "2026-07-20"
+    },
+    {
+      "ticker": "GEV",
+      "name": "GE Vernova",
+      "sector": "Producer Manufacturing",
+      "shares": 3,
+      "entry": 1079.89,
+      "exitRule": "1-3 day swing, exit before Q2 print (by Tue 7/21 close); stop -5% (1025.90) / TP +8% (1166.28)",
+      "catalyst": "T2 PRE-EARNINGS + THEME: Power/electrification leader on AI-datacenter power demand; Q2 due 7/22 BMO. Pre-mkt 1079.89 (+2.1% vs 1057.84 close).",
+      "risks": "High-priced, low-share position; exit BEFORE the 7/22 print to avoid the binary. Near 52wk high. 52wk 530.16-1195.94.",
+      "driver": "Tier 2: AI-power theme + pre-earnings 7/22",
+      "addedDate": "2026-07-20"
+    },
+    {
+      "ticker": "ETN",
+      "name": "Eaton",
+      "sector": "Producer Manufacturing",
+      "shares": 8,
+      "entry": 406.0,
+      "exitRule": "1-3 day swing, exit by Wed 7/22; stop -5% (385.70) / TP +8% (438.48)",
+      "catalyst": "T2 THEME: Electrical/power-management beta to AI-datacenter buildout on a risk-on tape. Pre-mkt 406.00 (+1.5% vs 399.99 close).",
+      "risks": "Theme trade, not a discrete catalyst; near 52wk high. Reports 7/29 (outside window). 52wk 311.92-436.74.",
+      "driver": "Tier 2: AI-datacenter electrification",
+      "addedDate": "2026-07-20"
+    },
+    {
+      "ticker": "VST",
+      "name": "Vistra",
+      "sector": "Utilities",
+      "shares": 22,
+      "entry": 157.0,
+      "exitRule": "1-3 day swing, exit by Wed 7/22; stop -5% (149.15) / TP +8% (169.56)",
+      "catalyst": "T2 THEME: Merchant/nuclear power on AI-datacenter power demand (CEG/VST/TLN cohort). Pre-mkt 157.00 (+1.0% vs 155.44 close).",
+      "risks": "Weakest confirmation (+1.0%); rate-sensitive. 52wk 132.66-219.82.",
+      "driver": "Tier 2: AI-power / nuclear demand",
+      "addedDate": "2026-07-20"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "sector": "Consumer Durables",
+      "shares": 9,
+      "entry": 384.99,
+      "exitRule": "1-3 day swing, exit before Q2 print (by Wed 7/22 midday ET); stop -5% (365.74) / TP +8% (415.79)",
+      "catalyst": "T2 PRE-EARNINGS: Q2 due 7/22 PM; pre-earnings momentum on risk-on tape. Pre-mkt 384.99 (+1.1% vs 380.84 close).",
+      "risks": "Exit BEFORE the 7/22 PM print to avoid the earnings binary. Extended (PE 357). 52wk 297.82-498.83.",
+      "driver": "Tier 2: pre-earnings momentum 7/22",
+      "addedDate": "2026-07-20"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "sector": "Technology Services",
+      "shares": 10,
+      "entry": 347.9,
+      "exitRule": "1-3 day swing, exit before Q2 print (by Wed 7/22 midday ET); stop -5% (330.51) / TP +8% (375.73)",
+      "catalyst": "T2 PRE-EARNINGS: Q2 due 7/22 PM; mega-cap AI into the print. Pre-mkt 347.90 (+0.3% vs 346.77 close).",
+      "risks": "Weakest pre-mkt confirmation (+0.3%) - a laggard today vs China tech/semis. Exit before the 7/22 print. 52wk 183.71-408.61.",
+      "driver": "Tier 2: pre-earnings momentum 7/22",
+      "addedDate": "2026-07-20"
     }
   ]
 }
