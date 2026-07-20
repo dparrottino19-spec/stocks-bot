@@ -2,32 +2,32 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10555.58,
-  "tradeDate": "2026-07-19",
-  "lastUpdated": "2026-07-19T11:53:58Z",
-  "nextRefresh": "2026-07-20T06:45:00-05:00",
+  "startingCapital": 10648.21,
+  "tradeDate": "2026-07-20",
+  "lastUpdated": "2026-07-20T11:55:48Z",
+  "nextRefresh": "2026-07-21T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
     "Spot crypto only (BTC, ETH, SOL, and other liquid coins on Robinhood)",
-    "Rotate each 6:45am CT run \u2014 sell yesterday, buy today's best",
-    "Runs every day \u2014 crypto trades 24/7",
+    "Rotate each 6:45am CT run — sell yesterday, buy today's best",
+    "Runs every day — crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 555.58,
+  "priorRealizedPnL": 648.21,
   "positions": [
     {
-      "ticker": "ETH",
-      "name": "Ethereum",
+      "ticker": "SOL",
+      "name": "Solana",
       "sector": "Crypto",
-      "shares": 5.641196,
-      "entry": 1871.16,
-      "stopPrice": 1721.47,
+      "shares": 138.342321,
+      "entry": 76.97,
+      "stopPrice": 69.27,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "ETH remains the single best all-in: the ETF-flow reversal that took hold last week is still accelerating and still ETH-led. US spot-ETHER ETFs added ~$96M in the first three days of last week (heavily concentrated in BlackRock's low-fee ETHA), and CoinDesk's read for the week was explicit \u2014 'Ether outruns Bitcoin as ETF money returns, almost all of it from BlackRock's fund.' On top of the spot bid, BlackRock's ~$100M staked-ETH (ETHB) launch builds a yield-bearing, structural demand source less sensitive to short-term swings. The macro backdrop turned supportive too: a dovish shift from Fed Chair Warsh plus a five-day BTC-ETF inflow streak drove a broad relief bounce, and ETH is the momentum leader within it \u2014 up from ~$1,844 (yesterday's entry) to ~$1,871 while BTC/SOL bounced more modestly. Entry ~$1,871 still sits below the $1,900/$1,920 shelf, so the asymmetric 'fresh catalyst + relative strength with a definable stop' setup the mandate prefers is intact.",
-      "driver": "Re-up ETH \u2014 it owns the freshest catalyst (accelerating BlackRock-led ETF inflows + a building staking-ETF demand base) and the clearest relative strength (outrunning BTC and SOL on the bounce), with momentum turning up. Entry $1,871.16 below the $1,900/$1,920 shelf keeps the payoff asymmetric: reclaiming $1,900 opens a run at the 100-day EMA ~$1,943 and beyond, while the ~$1,780 support that pinned it for weeks defines the invalidation. Runners-up rejected: BTC (~$64,440) \u2014 flow leader on absolute dollars and lower-beta protection, but no fresh idiosyncratic catalyst and ETH is outperforming it; SOL (~$76.06) \u2014 relief-bounce participant but no ETH-grade catalyst for this book and already held in the sister Moonshot-All book.",
-      "risks": "ETH's strength is concentrated in a few large ETF tickets (BlackRock ETHA/ETHB) rather than broad participation, so the bid can thin fast, and it remains CAPPED below key EMAs (100-day ~$1,943) with repeated stalls at $1,900/$1,920 \u2014 a failure there is a live sell-the-news/stretched setup. As the higher-beta major, ETH falls harder than BTC if the relief bounce fades on hawkish surprises, geopolitical shocks, or an ETF-flow flip back to BTC (daily flows are noisy). Hard stop $1721.47 (-8%, majors rule) set with wick room below the ~$1,780 thesis-invalidation support \u2014 a clean close under $1,780 means the trade is wrong regardless of the stop.",
-      "addedDate": "2026-07-19"
+      "catalyst": "SOL owns the freshest and most concentrated idiosyncratic catalyst stack in majors right now. Spot Solana ETFs are LEADING flows while peers bleed: ~$33M of weekly inflows (incl. a ~$6.7M single-session add) pushed cumulative spot-SOL-ETF inflows above $1B since the Oct-2025 launch, even as broad crypto-ETF flows were net-negative in early July. On-chain, Solana captured ~96% of ALL on-chain tokenized-equity trading in June (a historic high), and Securitize tokenized ~$295M of NYSE-listed common stock on Solana — a real, growing RWA demand base tied to the chain rather than to beta. Governance just leveled up too: the Solana Foundation launched a formal on-chain validator-voting framework, boosting decentralization credibility and long-term-holder confidence, with the Alpenglow consensus upgrade lined up as a potential Q3 catalyst. On the tape SOL is holding ~$76-77 and firming while ETH is the structural laggard, and entry $76.97 sits well below the $80/$83 resistance shelf — the asymmetric 'fresh catalyst + relative strength with a definable stop' setup the mandate prefers.",
+      "driver": "Rotate ETH → SOL. ETH just closed +$92.63 but remains the 6-month structural laggard (~-22% vs BTC) losing DeFi/MEV share to Solana, and its ETF bid is concentrated/fragile. SOL carries the cleaner asymmetric payoff: multi-pronged fresh catalysts (ETF-flow leadership vs a bleeding peer group, 96% tokenized-equity dominance + $295M Securitize RWA, new on-chain governance, Alpenglow ahead) plus firming relative strength, with entry $76.97 leaving room to the $80/$83 shelf while $74-75 support defines invalidation. Runners-up rejected: BTC (~$64,890) — flow leader again (spot-BTC ETFs snapped a 10-day losing streak with a ~$221.7M haul, largest in two months) and the lower-beta protective major, but no fresh idiosyncratic catalyst and lower expected next-24h payoff; ETH (~$1,888) — green today but the flow reversal is narrow/BlackRock-concentrated and it keeps stalling below key EMAs, a live sell-the-news risk.",
+      "risks": "SOL is the higher-beta major, so it falls hardest if the risk-on tape rolls over (F&G only recently off 26/Fear; social volume near 2-year lows) or on a hawkish/geopolitical shock. Its ETF-flow leadership is still small in absolute dollars and can reverse in a single session; the RWA/tokenized-equity narrative is real but early and headline-sensitive. Technically SOL faces stacked resistance at $80/$83/$90 and has repeatedly failed near $74-75 support on the downside — a clean break of $74-75 invalidates the thesis regardless of the stop. Hard stop $69.27 (-10%, higher-beta alt rule) set below the $74-75 support shelf with wick room; a decisive close under $74-75 means the trade is wrong.",
+      "addedDate": "2026-07-20"
     }
   ]
 }
