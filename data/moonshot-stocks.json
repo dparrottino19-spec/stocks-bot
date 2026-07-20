@@ -3,9 +3,9 @@
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
   "startingCapital": 8136.99,
-  "tradeDate": "2026-07-17",
-  "lastUpdated": "2026-07-17T11:40:00Z",
-  "nextRefresh": "2026-07-20T06:35:00-05:00",
+  "tradeDate": "2026-07-20",
+  "lastUpdated": "2026-07-20T11:37:43Z",
+  "nextRefresh": "2026-07-21T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -16,5 +16,5 @@
   ],
   "priorRealizedPnL": -1863.01,
   "positions": [],
-  "cashReason": "CASH — no qualifying setup. Closed UNH at $423.98 (-5.1%); the -6% stop at $419.90 was never hit (7/16 intraday low $423.00). Today's only large-cap beat is TRV: Q2 core EPS $10.04 vs ~$5.33 est (+88%), but the beat is low-quality — driven by a light catastrophe quarter ($518M cats vs $927M) plus $578M of favorable prior-year reserve releases, while net written premiums were FLAT (0% y/y) and the underlying combined ratio improved just 0.6pt (84.7%->84.1%). Insurers give no forward guide, so there is no raise to re-rate on. The market agrees: TRV only +0.56% pre-market ($339.71) on a wide 339.00/342.50 spread — the move is already priced, leaving no room to run and no definable asymmetry. The day's other fresh catalysts are all NEGATIVE for a long-only book: ISRG -11% (beat, but slowing US procedure growth and unchanged FY outlook), NFLX -10.8% (in-line, weak Q3 revenue guide, 52-week low). RF beat by only $0.05 and the stock shrugged (-0.4%). CELC's REVTORPYK FDA approval is stale (7/14), launch pushed to late Q3, and the bid/ask is 4.6% wide. Every name on the pre-market gainers board is a sub-$100M microcap or a leveraged/inverse ETF — both banned by mandate. Tape is risk-off: Nasdaq-100 futures -1.9%, S&P -0.76%, DAX -1.47% on the post-TSMC-capex chip rout. Buying an extended large-cap post-earnings gap into a weak tape is exactly what cost this book on ASML and UNH the last two sessions. No edge — holding cash."
+  "cashReason": "CASH — no qualifying setup (second straight cash day). Book was already flat coming in; nothing to close. Monday 7/20 is a very thin pre-market earnings day — the only names reporting before open are microcaps (ATLO, DIT), and the heavy Q2 reports (banks, mega-cap tech) don't hit until Tue-Thu. No fresh overnight beat+raise on a liquid US name with room to run. Weekend catalysts offer no asymmetric long: (1) Eli Lilly/AtaiBeckley $2.8B buyout is stale (announced 7/16) and a cash deal at $6.75/sh — ATAI already gapped to near deal price, so it's pure merger-arb with no upside, and LLY itself is a mega-cap that won't move on a tuck-in; (2) weekend FDA approvals are all on mega-caps where the news is incremental — Merck's oral PCSK9 (Lipfendra) and Novartis' Fabhalta IgAN label — neither offers a definable-stop moonshot; (3) Celcuity's Revtorpyk approval remains stale (7/14) with a wide spread; (4) Kelun-Biotech's positive Phase III is a China-listed name, not a clean US equity. The live pre-market gainers board is again all sub-$100M microcaps (BJDX, PMI, DXST, etc.) or leveraged/inverse ETFs — both banned by mandate. Tape is roughly flat-to-slightly-positive (S&P +0.30%, Nasdaq-100 +0.64% pre-market) but with no idiosyncratic edge to press. Buying an extended large-cap gap or an illiquid microcap with no catalyst is exactly the mistake that cost this book on ASML and UNH. No asymmetry, no definable stop, no edge — holding cash and waiting for the Tue-Thu earnings flood."
 }
