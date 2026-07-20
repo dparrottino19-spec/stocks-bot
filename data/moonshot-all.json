@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10999.39,
-  "tradeDate": "2026-07-19",
-  "lastUpdated": "2026-07-19T11:42:39Z",
-  "nextRefresh": "2026-07-20T06:30:00-05:00",
+  "startingCapital": 11136.68,
+  "tradeDate": "2026-07-20",
+  "lastUpdated": "2026-07-20T11:44:45Z",
+  "nextRefresh": "2026-07-21T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": 999.39,
+  "priorRealizedPnL": 1136.68,
   "positions": [
     {
-      "ticker": "SOL-USD",
-      "name": "Solana",
-      "sector": "Crypto / Layer-1 (spot)",
-      "shares": 144.519643,
-      "entry": 76.11,
-      "stopPrice": 68.5,
+      "ticker": "NVDL",
+      "name": "GraniteShares 2x Long NVDA Daily ETF",
+      "sector": "Single-Stock NVDA (2x Leveraged ETF)",
+      "shares": 354.897387,
+      "entry": 31.38,
+      "stopPrice": 28.87,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Weekend = spot crypto only (US equities/leveraged ETFs closed). Broad crypto relief bounce is underway: BTC has staged one of the fastest rallies of the year ($57,950 -> $64,474 in ~9 days) with spot-BTC-ETF inflows returning (+$132M on 7/18), reclaiming the $61-62k recovery threshold; all three majors are green day-over-day (BTC 64,474 / ETH 1,873.92 / SOL 76.11 live). SOL carries the freshest, most specific catalyst among majors: a Wall Street firm's Solana ETF-with-staking filing (7/16), plus Solana's June record $3.47B tokenized-equity trading volume and continued RWA-holder leadership; SBI Holdings expanded its Solana-Foundation-linked footprint (7/16 Coinhako majority stake). SOL live 76.11 (dashboard proxy asOf 2026-07-19T11:40:35Z, within minutes of runtime), up only ~+1.6% on the day — no chase.",
-      "driver": "Long the highest-conviction, highest-beta spot crypto as the relief bounce broadens. Asymmetry: SOL sits near multi-month lows (~$76, just off the high-$70s stabilization zone), so a large share of downside is already priced, while a concrete ETF-with-staking catalyst + RWA/tokenized-equity leadership narrative gives outsized upside if the BTC-led risk-on continues — SOL is the highest-beta major, so it delivers the most 24h upside on continuation. Spot (1x) is the only weekend vehicle and inherently caps downside vs weekday leveraged ETFs. F&G still 'Fear' (~27-31), which is exactly why 1x spot — not a leveraged crypto ETF — is the correct size even setting aside the weekend rule.",
-      "risks": "Fear tape persists (Crypto Fear&Greed ~27-31) and BTC faces a $65,500 resistance wall with cooling daily volume — a stall or profit-take drags high-beta SOL down hardest. Weekend crypto is thin-liquidity and gap-prone; a macro/regulatory headline can move it sharply with no equity hedge available. Idiosyncratic Solana network/outage risk. Hard stop 68.50 (-10% spot). PRICE NOTE: dashboard proxy FRESH this run (asOf 2026-07-19T11:40:35Z) — SOL 76.11 / BTC 64474.54 / ETH 1873.92; no stale-morning snippet used. Prior SOL closed 76.11 vs 74.89 entry (+176.31).",
-      "addedDate": "2026-07-19"
+      "catalyst": "AI/semiconductor is the dominant, still-accelerating market rotation. ASML raised full-year 2026 revenue guidance for the SECOND time this year (to EUR43-45B from EUR36-40B) on 'extremely strong' AI Logic+Memory order intake; SK hynix leads July large-cap momentum at +27% MTD; NVDA sits near record highs. Monday tape is risk-on (Nasdaq-100 futures +~0.7%) with the Street explicitly 'looking for the next catalyst for the AI trade' into a heavy Big-Tech earnings week (GOOGL/TSLA/INTC/IBM). NVDA pre-market +~1.6% (206.13 vs 202.81) — NOT extended; NVDL live ask 31.38 vs 30.28 close = +3.6%, inside the no-chase band. Crucially, NVDA itself does NOT report this week, so this is leverage to AI momentum WITHOUT a direct earnings binary in the next 24h.",
+      "driver": "Long the AI bellwether with 2x leverage. Asymmetry: NVDA is the highest-quality, deepest-liquidity vehicle for the sustained AI-capex momentum, entered while up only ~1.6% pre-market (unextended) rather than chasing SOXL's +8.0% pre-market gap. 2x (not 3x) is the right size because there is NO single explosive fresh catalyst today — it's broad momentum drift with geopolitical/earnings overhang — so leverage is matched to moderate-high (not maximal) conviction. Single mega-cap avoids the earnings-week binary risk baked into TQQQ/QQQ (GOOGL, TSLA, INTC, IBM all report this week) and delivers more 24h upside per unit risk than 3x-broad SPXL. Hard stop 28.87 (-8% on 2x).",
+      "risks": "US-Iran tit-for-tat strikes over the weekend pushed crude toward $90 (eased this morning) — an energy-inflation / risk-off tail that would hit high-beta semis hardest; a sharp reversal in the AI trade or a soft read-through from GOOGL/TSLA/INTC/IBM later this week could drag NVDA even though it doesn't report. 2x amplifies both directions and single-stock ETFs carry daily-reset decay if NVDA chops. Hard stop 28.87 (-8%). PRICE NOTE: dashboard proxy returned 30.28 = exact Friday close (stale pre-open for equities), so entry struck off Robinhood real-time ask 31.38 (asOf 2026-07-20T11:44:05Z), per this book's documented convention. Prior SOL-USD closed 77.06 vs 76.11 entry (+137.29).",
+      "addedDate": "2026-07-20"
     }
   ]
 }
