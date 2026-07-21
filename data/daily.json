@@ -2,10 +2,10 @@
   "bookName": "Daily Trader",
   "inceptionDate": "2026-05-15",
   "inceptionCapital": 70000,
-  "startingCapital": 73213.87,
-  "tradeDate": "2026-07-20",
-  "lastUpdated": "2026-07-20T12:24:25Z",
-  "nextRefresh": "2026-07-21T07:09:00-05:00",
+  "startingCapital": 73266.14,
+  "tradeDate": "2026-07-21",
+  "lastUpdated": "2026-07-21T12:21:35Z",
+  "nextRefresh": "2026-07-22T07:09:00-05:00",
   "rules": [
     "Weekday 7am ET picks",
     "Per-pick exit rules",
@@ -13,7 +13,7 @@
     "1-week max hold",
     "<=4 names per sector"
   ],
-  "priorRealizedPnL": 3213.87,
+  "priorRealizedPnL": 3266.14,
   "positions": [
     {
       "ticker": "COP",
@@ -100,54 +100,6 @@
       "addedDate": "2026-07-17"
     },
     {
-      "ticker": "BABA",
-      "name": "Alibaba",
-      "sector": "Retail Trade",
-      "shares": 28,
-      "entry": 119.0,
-      "exitRule": "Overnight (next-day open)",
-      "catalyst": "T1 NEWS: Alibaba previewed Qwen3.8 Max (2.4T-param frontier model) + confirmed as Apple Intelligence AI provider in China. Pre-mkt 119.00 (+3.5% vs 114.97 close).",
-      "risks": "China ADR/regulatory headline risk; discrete news pop can fade - off next open rather than carrying the theme.",
-      "driver": "Tier 1: Qwen3.8 Max + Apple-China AI deal",
-      "addedDate": "2026-07-20"
-    },
-    {
-      "ticker": "BIDU",
-      "name": "Baidu",
-      "sector": "Technology Services",
-      "shares": 30,
-      "entry": 111.01,
-      "exitRule": "Overnight (next-day open)",
-      "catalyst": "T1 NEWS: Confirmed Apple Intelligence China partner alongside Alibaba; AI Cloud infra rev +79% y/y (GPU cloud +184%). Pre-mkt 111.01 (+3.5% vs 107.24 close).",
-      "risks": "China ADR risk; sympathy move to BABA that can unwind if the China-AI bid cools. Overnight only.",
-      "driver": "Tier 1: Apple-China AI partnership + AI cloud",
-      "addedDate": "2026-07-20"
-    },
-    {
-      "ticker": "JD",
-      "name": "JD.com",
-      "sector": "Retail Trade",
-      "shares": 114,
-      "entry": 30.52,
-      "exitRule": "Overnight (next-day open)",
-      "catalyst": "T2: China e-commerce/tech rally on the Apple-Intelligence-China + Alibaba-Qwen catalyst. Pre-mkt 30.52 (+3.0% vs 29.62 close).",
-      "risks": "Read-through beta rather than an idiosyncratic JD catalyst; thin-margin retailer. Overnight only.",
-      "driver": "Tier 2: China tech rally read-through",
-      "addedDate": "2026-07-20"
-    },
-    {
-      "ticker": "PDD",
-      "name": "PDD Holdings",
-      "sector": "Retail Trade",
-      "shares": 40,
-      "entry": 85.7,
-      "exitRule": "Overnight (next-day open)",
-      "catalyst": "T2: China discount e-commerce riding the same China-AI/Apple-China rally. Pre-mkt 85.70 (+1.9% vs 84.14 close). PE 8.9.",
-      "risks": "Weakest confirmation of the China cluster (+1.9%); regulatory/ADR risk. Overnight only.",
-      "driver": "Tier 2: China tech rally read-through",
-      "addedDate": "2026-07-20"
-    },
-    {
       "ticker": "AMD",
       "name": "Advanced Micro Devices",
       "sector": "Electronic Technology",
@@ -157,18 +109,6 @@
       "catalyst": "T1 EVENT + PT HIKES: AMD Advancing AI 2026 (7/22-23) to unveil MI450x Helios/MI500 roadmap + 2nm Venice CPUs; UBS et al raised targets. Pre-mkt 511.79 (+3.2% vs 495.76 close).",
       "risks": "Semis extended (PE 164); sell-the-event risk once roadmap is public. 4th Electronic Technology name (with held NOC/GD/LMT) = sector cap. 52wk 149.22-584.73.",
       "driver": "Tier 1: Advancing AI event 7/22-23",
-      "addedDate": "2026-07-20"
-    },
-    {
-      "ticker": "GEV",
-      "name": "GE Vernova",
-      "sector": "Producer Manufacturing",
-      "shares": 3,
-      "entry": 1079.89,
-      "exitRule": "1-3 day swing, exit before Q2 print (by Tue 7/21 close); stop -5% (1025.90) / TP +8% (1166.28)",
-      "catalyst": "T2 PRE-EARNINGS + THEME: Power/electrification leader on AI-datacenter power demand; Q2 due 7/22 BMO. Pre-mkt 1079.89 (+2.1% vs 1057.84 close).",
-      "risks": "High-priced, low-share position; exit BEFORE the 7/22 print to avoid the binary. Near 52wk high. 52wk 530.16-1195.94.",
-      "driver": "Tier 2: AI-power theme + pre-earnings 7/22",
       "addedDate": "2026-07-20"
     },
     {
@@ -218,6 +158,42 @@
       "risks": "Weakest pre-mkt confirmation (+0.3%) - a laggard today vs China tech/semis. Exit before the 7/22 print. 52wk 183.71-408.61.",
       "driver": "Tier 2: pre-earnings momentum 7/22",
       "addedDate": "2026-07-20"
+    },
+    {
+      "ticker": "MMM",
+      "name": "3M",
+      "sector": "Producer Manufacturing",
+      "shares": 20,
+      "entry": 169.15,
+      "exitRule": "Overnight (next-day open)",
+      "catalyst": "T1 EARNINGS: Q2 beat \u2014 sales +5.6% y/y to $6.5B, adj EPS $2.40 (+6.8% vs cons); raised FY adj-EPS to ~$8.88 midpoint. Pre-mkt 169.15 (+6.3% vs 159.11 close).",
+      "risks": "Sell-the-gap risk on an already-large earnings pop; conglomerate/tariff exposure. 52wk 139.34-177.41.",
+      "driver": "Tier 1: Q2 beat + raised FY guidance",
+      "addedDate": "2026-07-21"
+    },
+    {
+      "ticker": "NVS",
+      "name": "Novartis",
+      "sector": "Health Technology",
+      "shares": 22,
+      "entry": 153.98,
+      "exitRule": "Overnight (next-day open)",
+      "catalyst": "T1 EARNINGS: Q2 core operating profit $5.94B vs $5.31B cons; net sales $14.41B; Kisqali +43%, Pluvicto +43%. Guidance reaffirmed. Pre-mkt 153.98 (+3.0% vs 149.56 close).",
+      "risks": "Did NOT raise FY guidance (phasing) \u2014 pop could fade; generic competition. ADR/FX. 52wk 112.34-170.46.",
+      "driver": "Tier 1: Q2 core-op beat",
+      "addedDate": "2026-07-21"
+    },
+    {
+      "ticker": "NBIS",
+      "name": "Nebius Group",
+      "sector": "Technology Services",
+      "shares": 17,
+      "entry": 194.84,
+      "exitRule": "1-3 day swing, exit by Fri 7/24; stop -6% (183.15) / TP +8% (210.43)",
+      "catalyst": "T1 NEWS: NVIDIA disclosed a 9.3% passive stake in Nebius (neocloud); renews focus on the $2B March investment. Pre-mkt 194.84 (+6.7% vs 182.62 close). Multiple PT hikes (Northland $410, BofA $280).",
+      "risks": "Very high beta (52wk 49.00-299.86), unprofitable-adjacent, AI-capex sentiment swings; stake is passive not a buyout. Sized small.",
+      "driver": "Tier 1: NVDA 9.3% stake disclosure",
+      "addedDate": "2026-07-21"
     }
   ]
 }
