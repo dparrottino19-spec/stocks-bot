@@ -2,10 +2,10 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10648.21,
-  "tradeDate": "2026-07-20",
-  "lastUpdated": "2026-07-20T11:55:48Z",
-  "nextRefresh": "2026-07-21T06:45:00-05:00",
+  "startingCapital": 10834.97,
+  "tradeDate": "2026-07-21",
+  "lastUpdated": "2026-07-21T11:54:48Z",
+  "nextRefresh": "2026-07-22T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Runs every day — crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 648.21,
+  "priorRealizedPnL": 834.97,
   "positions": [
     {
       "ticker": "SOL",
       "name": "Solana",
       "sector": "Crypto",
-      "shares": 138.342321,
-      "entry": 76.97,
-      "stopPrice": 69.27,
+      "shares": 138.342314,
+      "entry": 78.32,
+      "stopPrice": 70.49,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "SOL owns the freshest and most concentrated idiosyncratic catalyst stack in majors right now. Spot Solana ETFs are LEADING flows while peers bleed: ~$33M of weekly inflows (incl. a ~$6.7M single-session add) pushed cumulative spot-SOL-ETF inflows above $1B since the Oct-2025 launch, even as broad crypto-ETF flows were net-negative in early July. On-chain, Solana captured ~96% of ALL on-chain tokenized-equity trading in June (a historic high), and Securitize tokenized ~$295M of NYSE-listed common stock on Solana — a real, growing RWA demand base tied to the chain rather than to beta. Governance just leveled up too: the Solana Foundation launched a formal on-chain validator-voting framework, boosting decentralization credibility and long-term-holder confidence, with the Alpenglow consensus upgrade lined up as a potential Q3 catalyst. On the tape SOL is holding ~$76-77 and firming while ETH is the structural laggard, and entry $76.97 sits well below the $80/$83 resistance shelf — the asymmetric 'fresh catalyst + relative strength with a definable stop' setup the mandate prefers.",
-      "driver": "Rotate ETH → SOL. ETH just closed +$92.63 but remains the 6-month structural laggard (~-22% vs BTC) losing DeFi/MEV share to Solana, and its ETF bid is concentrated/fragile. SOL carries the cleaner asymmetric payoff: multi-pronged fresh catalysts (ETF-flow leadership vs a bleeding peer group, 96% tokenized-equity dominance + $295M Securitize RWA, new on-chain governance, Alpenglow ahead) plus firming relative strength, with entry $76.97 leaving room to the $80/$83 shelf while $74-75 support defines invalidation. Runners-up rejected: BTC (~$64,890) — flow leader again (spot-BTC ETFs snapped a 10-day losing streak with a ~$221.7M haul, largest in two months) and the lower-beta protective major, but no fresh idiosyncratic catalyst and lower expected next-24h payoff; ETH (~$1,888) — green today but the flow reversal is narrow/BlackRock-concentrated and it keeps stalling below key EMAs, a live sell-the-news risk.",
-      "risks": "SOL is the higher-beta major, so it falls hardest if the risk-on tape rolls over (F&G only recently off 26/Fear; social volume near 2-year lows) or on a hawkish/geopolitical shock. Its ETF-flow leadership is still small in absolute dollars and can reverse in a single session; the RWA/tokenized-equity narrative is real but early and headline-sensitive. Technically SOL faces stacked resistance at $80/$83/$90 and has repeatedly failed near $74-75 support on the downside — a clean break of $74-75 invalidates the thesis regardless of the stop. Hard stop $69.27 (-10%, higher-beta alt rule) set below the $74-75 support shelf with wick room; a decisive close under $74-75 means the trade is wrong.",
-      "addedDate": "2026-07-20"
+      "catalyst": "SOL still owns the freshest idiosyncratic catalyst stack in the majors. U.S. spot Solana ETFs have logged NET INFLOWS on EVERY July trading day of 2026 — the only major category positive every session while spot-BTC and spot-ETH ETFs saw outflows in the same window. Supporting the bid: Grayscale cut its Solana Staking ETF sponsor fee to 0.19% and staking fee to 7% (eff. Jun 25), and 21Shares' TSOL moves to the FTSE Digital Assets Index (eff. Aug 24) — both structural demand tailwinds. The Alpenglow consensus upgrade is lined up as a Q3 activation catalyst. On the tape SOL is firming with a risk-on session (total mkt +1.7% 24h; BTC +~1%, ETH +~1.5%) and entry $78.32 still sits below the $80/$83 resistance shelf, leaving room to run — the asymmetric 'fresh catalyst + relative strength with a definable stop' setup the mandate prefers.",
+      "driver": "Hold/re-establish SOL. Rolled +$186.76 from yesterday's SOL leg into capital. SOL keeps the cleanest asymmetric payoff vs runners-up: BTC (~$66,312) is the flow-leading, lower-beta PROTECTIVE major but carries no fresh idiosyncratic catalyst and a lower expected next-24h payoff; ETH (~$1,935) is today's best % gainer (+~1.5%) but remains the 6-month structural laggard with ETF outflows and repeated stalls below key EMAs — a live sell-the-news risk. SOL's every-session ETF inflow streak + Q3 Alpenglow + fee/benchmark tailwinds, plus firming relative strength with entry below the $80/$83 shelf, give it the best risk-adjusted 24h edge.",
+      "risks": "SOL is the higher-beta major, so it falls hardest if the risk-on tape rolls over — sentiment is still Extreme Fear and SOL trades ~57% below its Oct-2025 ETF-launch price, so the ETF-inflow narrative coexists with a heavy downtrend. ETF inflows are small in absolute dollars and can flip to outflows on broad-market weakness (the stated main risk). Technically SOL faces stacked resistance at $80/$83/$90 and has repeatedly failed near $74-75 support; a decisive break of $74-75 invalidates the thesis. Hard stop $70.49 (-10%, higher-beta rule) below the support shelf with wick room.",
+      "addedDate": "2026-07-21"
     }
   ]
 }
