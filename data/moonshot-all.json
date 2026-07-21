@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 11136.68,
-  "tradeDate": "2026-07-20",
-  "lastUpdated": "2026-07-20T11:44:45Z",
-  "nextRefresh": "2026-07-21T06:30:00-05:00",
+  "startingCapital": 11055.05,
+  "tradeDate": "2026-07-21",
+  "lastUpdated": "2026-07-21T11:43:39Z",
+  "nextRefresh": "2026-07-22T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": 1136.68,
+  "priorRealizedPnL": 1055.05,
   "positions": [
     {
       "ticker": "NVDL",
       "name": "GraniteShares 2x Long NVDA Daily ETF",
       "sector": "Single-Stock NVDA (2x Leveraged ETF)",
-      "shares": 354.897387,
-      "entry": 31.38,
-      "stopPrice": 28.87,
+      "shares": 354.555805,
+      "entry": 31.18,
+      "stopPrice": 28.69,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "AI/semiconductor is the dominant, still-accelerating market rotation. ASML raised full-year 2026 revenue guidance for the SECOND time this year (to EUR43-45B from EUR36-40B) on 'extremely strong' AI Logic+Memory order intake; SK hynix leads July large-cap momentum at +27% MTD; NVDA sits near record highs. Monday tape is risk-on (Nasdaq-100 futures +~0.7%) with the Street explicitly 'looking for the next catalyst for the AI trade' into a heavy Big-Tech earnings week (GOOGL/TSLA/INTC/IBM). NVDA pre-market +~1.6% (206.13 vs 202.81) — NOT extended; NVDL live ask 31.38 vs 30.28 close = +3.6%, inside the no-chase band. Crucially, NVDA itself does NOT report this week, so this is leverage to AI momentum WITHOUT a direct earnings binary in the next 24h.",
-      "driver": "Long the AI bellwether with 2x leverage. Asymmetry: NVDA is the highest-quality, deepest-liquidity vehicle for the sustained AI-capex momentum, entered while up only ~1.6% pre-market (unextended) rather than chasing SOXL's +8.0% pre-market gap. 2x (not 3x) is the right size because there is NO single explosive fresh catalyst today — it's broad momentum drift with geopolitical/earnings overhang — so leverage is matched to moderate-high (not maximal) conviction. Single mega-cap avoids the earnings-week binary risk baked into TQQQ/QQQ (GOOGL, TSLA, INTC, IBM all report this week) and delivers more 24h upside per unit risk than 3x-broad SPXL. Hard stop 28.87 (-8% on 2x).",
-      "risks": "US-Iran tit-for-tat strikes over the weekend pushed crude toward $90 (eased this morning) — an energy-inflation / risk-off tail that would hit high-beta semis hardest; a sharp reversal in the AI trade or a soft read-through from GOOGL/TSLA/INTC/IBM later this week could drag NVDA even though it doesn't report. 2x amplifies both directions and single-stock ETFs carry daily-reset decay if NVDA chops. Hard stop 28.87 (-8%). PRICE NOTE: dashboard proxy returned 30.28 = exact Friday close (stale pre-open for equities), so entry struck off Robinhood real-time ask 31.38 (asOf 2026-07-20T11:44:05Z), per this book's documented convention. Prior SOL-USD closed 77.06 vs 76.11 entry (+137.29).",
-      "addedDate": "2026-07-20"
+      "catalyst": "Chips are staging a comeback: risk-on tape Tue with S&P futures +~0.45% and 'chips up early on peace-talk hopes' as US-Iran de-escalation eases oil off ~$90. Semis rebounding after last week's ~9% SMH pullback; SOXL gapped +12.4% pre-market (153.75 vs 136.81) — un-chaseable. NVDA sits near record highs (+1.1% pre-market, 205.60 vs 203.28) and does NOT report this week, so this is 2x leverage to the AI/semis relief rally WITHOUT a direct earnings binary in the next 24h. GOOGL & TSLA report Wed 7/22 after close and INTC Thu 7/23 — all AFTER tomorrow's 6:30am CT rotation, so no earnings binary inside this holding window.",
+      "driver": "Long the AI bellwether with 2x leverage, entered UNEXTENDED at +2.1% pre-market (31.18 ask vs 30.51 close) rather than chasing SOXL's +12.4% gap. NVDL is the laggard, deepest-liquidity vehicle for the semis comeback with far less chase risk than 3x-broad SOXL/TQQQ. 2x (not 3x) matches conviction: this is momentum/relief-rally drift on de-escalation, not a single explosive fresh catalyst, and there is Big-Tech earnings overhang later this week. Single mega-cap avoids the GOOGL/TSLA/INTC binary baked into TQQQ. Hard stop 28.69 (-8% on 2x).",
+      "risks": "A reversal in the peace-talk narrative (Red Sea shipping worry lingers) or renewed chip-sector weakness (China open-source-model competition dinged semis last week) would hit high-beta NVDA hardest; 2x amplifies both directions and single-stock ETFs carry daily-reset decay if NVDA chops. Hard stop 28.69 (-8%). PRICE NOTE: dashboard proxy returned 30.51 = exact prior close (stale pre-open for this leveraged ETF), so fills struck off Robinhood real-time — SELL at bid 31.15, BUY at ask 31.18 (asOf 2026-07-21T11:42:05Z), per this book's documented convention. Prior NVDL closed 31.15 vs 31.38 entry (-81.63).",
+      "addedDate": "2026-07-21"
     }
   ]
 }
