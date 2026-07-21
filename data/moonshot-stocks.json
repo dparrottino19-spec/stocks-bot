@@ -3,18 +3,31 @@
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
   "startingCapital": 8136.99,
-  "tradeDate": "2026-07-20",
-  "lastUpdated": "2026-07-20T11:37:43Z",
-  "nextRefresh": "2026-07-21T06:35:00-05:00",
+  "tradeDate": "2026-07-21",
+  "lastUpdated": "2026-07-21T11:38:00Z",
+  "nextRefresh": "2026-07-22T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
-    "US equities only — no ETFs, crypto, or options",
-    "Rotate each weekday 6:35am CT run — sell prior, buy today's best",
+    "US equities only \u2014 no ETFs, crypto, or options",
+    "Rotate each weekday 6:35am CT run \u2014 sell prior, buy today's best",
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
   "priorRealizedPnL": -1863.01,
-  "positions": [],
-  "cashReason": "CASH — no qualifying setup (second straight cash day). Book was already flat coming in; nothing to close. Monday 7/20 is a very thin pre-market earnings day — the only names reporting before open are microcaps (ATLO, DIT), and the heavy Q2 reports (banks, mega-cap tech) don't hit until Tue-Thu. No fresh overnight beat+raise on a liquid US name with room to run. Weekend catalysts offer no asymmetric long: (1) Eli Lilly/AtaiBeckley $2.8B buyout is stale (announced 7/16) and a cash deal at $6.75/sh — ATAI already gapped to near deal price, so it's pure merger-arb with no upside, and LLY itself is a mega-cap that won't move on a tuck-in; (2) weekend FDA approvals are all on mega-caps where the news is incremental — Merck's oral PCSK9 (Lipfendra) and Novartis' Fabhalta IgAN label — neither offers a definable-stop moonshot; (3) Celcuity's Revtorpyk approval remains stale (7/14) with a wide spread; (4) Kelun-Biotech's positive Phase III is a China-listed name, not a clean US equity. The live pre-market gainers board is again all sub-$100M microcaps (BJDX, PMI, DXST, etc.) or leveraged/inverse ETFs — both banned by mandate. Tape is roughly flat-to-slightly-positive (S&P +0.30%, Nasdaq-100 +0.64% pre-market) but with no idiosyncratic edge to press. Buying an extended large-cap gap or an illiquid microcap with no catalyst is exactly the mistake that cost this book on ASML and UNH. No asymmetry, no definable stop, no edge — holding cash and waiting for the Tue-Thu earnings flood."
+  "positions": [
+    {
+      "ticker": "GM",
+      "name": "General Motors Company",
+      "sector": "Consumer Cyclical \u2014 Auto Manufacturers",
+      "shares": 105.41508,
+      "entry": 77.19,
+      "stopPrice": 72.56,
+      "exitRule": "Rotate next weekday 6:35am CT run",
+      "catalyst": "Q2 2026 beat-and-raise (7/21 AM): adj EPS $3.57 vs $3.15 est on ~$47B revenue; raised FY26 adj EPS to $11.50-$13.50 and adj EBIT to $13.5B-$15.5B; cut expected tariff cost to $2.5B-$3.5B (from $3B-$4B) after Supreme Court struck down IEEPA tariffs, with ~$500M tariff credit expected back.",
+      "driver": "Clean liquid mega-cap beat+raise with a fresh, quantifiable tailwind (tariff relief). Only ~+1.8% pre-market vs a 5.7% options-implied move, so room to run toward the implied move without chasing an extended gap. High liquidity = tight fills and definable stop.",
+      "risks": "Auto demand softness (Q2 US units -4.2% y/y); tariff credit not yet received; broad-market/geopolitical risk (Middle East, oil); gap could fade if guidance seen as conservative.",
+      "addedDate": "2026-07-21"
+    }
+  ]
 }
