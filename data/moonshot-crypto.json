@@ -2,10 +2,10 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10834.97,
-  "tradeDate": "2026-07-21",
-  "lastUpdated": "2026-07-21T11:54:48Z",
-  "nextRefresh": "2026-07-22T06:45:00-05:00",
+  "startingCapital": 10830.82,
+  "tradeDate": "2026-07-22",
+  "lastUpdated": "2026-07-22T16:19:20Z",
+  "nextRefresh": "2026-07-23T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Runs every day — crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 834.97,
+  "priorRealizedPnL": 830.82,
   "positions": [
     {
-      "ticker": "SOL",
-      "name": "Solana",
+      "ticker": "BTC",
+      "name": "Bitcoin",
       "sector": "Crypto",
-      "shares": 138.342314,
-      "entry": 78.32,
-      "stopPrice": 70.49,
+      "shares": 0.164013,
+      "entry": 66036.47,
+      "stopPrice": 60753.55,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "SOL still owns the freshest idiosyncratic catalyst stack in the majors. U.S. spot Solana ETFs have logged NET INFLOWS on EVERY July trading day of 2026 — the only major category positive every session while spot-BTC and spot-ETH ETFs saw outflows in the same window. Supporting the bid: Grayscale cut its Solana Staking ETF sponsor fee to 0.19% and staking fee to 7% (eff. Jun 25), and 21Shares' TSOL moves to the FTSE Digital Assets Index (eff. Aug 24) — both structural demand tailwinds. The Alpenglow consensus upgrade is lined up as a Q3 activation catalyst. On the tape SOL is firming with a risk-on session (total mkt +1.7% 24h; BTC +~1%, ETH +~1.5%) and entry $78.32 still sits below the $80/$83 resistance shelf, leaving room to run — the asymmetric 'fresh catalyst + relative strength with a definable stop' setup the mandate prefers.",
-      "driver": "Hold/re-establish SOL. Rolled +$186.76 from yesterday's SOL leg into capital. SOL keeps the cleanest asymmetric payoff vs runners-up: BTC (~$66,312) is the flow-leading, lower-beta PROTECTIVE major but carries no fresh idiosyncratic catalyst and a lower expected next-24h payoff; ETH (~$1,935) is today's best % gainer (+~1.5%) but remains the 6-month structural laggard with ETF outflows and repeated stalls below key EMAs — a live sell-the-news risk. SOL's every-session ETF inflow streak + Q3 Alpenglow + fee/benchmark tailwinds, plus firming relative strength with entry below the $80/$83 shelf, give it the best risk-adjusted 24h edge.",
-      "risks": "SOL is the higher-beta major, so it falls hardest if the risk-on tape rolls over — sentiment is still Extreme Fear and SOL trades ~57% below its Oct-2025 ETF-launch price, so the ETF-inflow narrative coexists with a heavy downtrend. ETF inflows are small in absolute dollars and can flip to outflows on broad-market weakness (the stated main risk). Technically SOL faces stacked resistance at $80/$83/$90 and has repeatedly failed near $74-75 support; a decisive break of $74-75 invalidates the thesis. Hard stop $70.49 (-10%, higher-beta rule) below the support shelf with wick room.",
-      "addedDate": "2026-07-21"
+      "catalyst": "Rotate into BTC as the protective, flow-leading major on a tape that just turned risk-off. WTI crude topped 85 dollars for the first time since June, reigniting inflation concerns and driving an explicit 'bitcoin over altcoins' safety rotation — BTC retreated only modestly from a fresh one-month high and is up ~1.7% on the session, showing relative strength AND absorbing the defensive bid while alts lag. BTC is the deepest-liquidity spot major with the cleanest definable stop, giving the best risk-adjusted next-24h payoff on a day when the macro edge for high-beta alts is compromised. Entry 66,036 sits just below the recent one-month high, leaving room to re-test it if risk stabilizes, while the safety-bid backdrop cushions downside if the tape weakens.",
+      "driver": "Rolled SOL flat (-4.15 dollars) into capital and rotated to BTC. On a low-edge, inflation-driven risk-off day the mandate favors the liquid majors with the most downside protection. BTC wins vs runners-up: SOL (~78.29) keeps the strongest idiosyncratic catalyst stack (every-July-day spot-SOL ETF inflows, Bitwise BSOL +2.64M on 7/21 to 1.14B cumulative, new Morgan Stanley MSOL spot-ETF filing at 0.14% fee, Q3 Alpenglow ~150ms finality, 7/21 tokenized-stock on-chain analytics launch) but is the highest-beta major and only +0.58% today — it falls hardest if the oil/inflation risk-off deepens. ETH (~1,941) is the best day-gainer (+1.44%) but remains the structural laggard with ETF outflows and a live sell-the-news risk. BTC's active safety-rotation bid + momentum + tightest downside give it the best risk-adjusted 24h edge today.",
+      "risks": "If the oil/inflation shock deepens into a broad risk-off liquidation, even BTC sells off — and it just retreated from a one-month high, so it could be carving a local top rather than basing. A decisive break back below the mid-63k shelf would weaken the momentum thesis. Being the protective major, BTC also gives up upside if risk snaps back on and capital rotates into the higher-beta alts (SOL/ETH) instead. Hard stop 60,753.55 (-8%, majors rule) below the recent range.",
+      "addedDate": "2026-07-22"
     }
   ]
 }
