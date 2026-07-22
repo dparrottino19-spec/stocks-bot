@@ -2,32 +2,32 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 11055.05,
-  "tradeDate": "2026-07-21",
-  "lastUpdated": "2026-07-21T11:43:39Z",
-  "nextRefresh": "2026-07-22T06:30:00-05:00",
+  "startingCapital": 11866.98,
+  "tradeDate": "2026-07-22",
+  "lastUpdated": "2026-07-22T16:16:07Z",
+  "nextRefresh": "2026-07-23T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
     "Any liquid asset: stock, crypto, or leveraged/inverse ETF",
-    "Rotate each 6:30am CT run — sell yesterday, buy today's best",
+    "Rotate each 6:30am CT run \u2014 sell yesterday, buy today's best",
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": 1055.05,
+  "priorRealizedPnL": 1866.98,
   "positions": [
     {
-      "ticker": "NVDL",
-      "name": "GraniteShares 2x Long NVDA Daily ETF",
-      "sector": "Single-Stock NVDA (2x Leveraged ETF)",
-      "shares": 354.555805,
-      "entry": 31.18,
-      "stopPrice": 28.69,
+      "ticker": "UGL",
+      "name": "ProShares Ultra Gold (2x Gold Bullion ETF)",
+      "sector": "Commodity \u2014 Gold Bullion (2x Leveraged ETF)",
+      "shares": 254.546976,
+      "entry": 46.62,
+      "stopPrice": 42.89,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Chips are staging a comeback: risk-on tape Tue with S&P futures +~0.45% and 'chips up early on peace-talk hopes' as US-Iran de-escalation eases oil off ~$90. Semis rebounding after last week's ~9% SMH pullback; SOXL gapped +12.4% pre-market (153.75 vs 136.81) — un-chaseable. NVDA sits near record highs (+1.1% pre-market, 205.60 vs 203.28) and does NOT report this week, so this is 2x leverage to the AI/semis relief rally WITHOUT a direct earnings binary in the next 24h. GOOGL & TSLA report Wed 7/22 after close and INTC Thu 7/23 — all AFTER tomorrow's 6:30am CT rotation, so no earnings binary inside this holding window.",
-      "driver": "Long the AI bellwether with 2x leverage, entered UNEXTENDED at +2.1% pre-market (31.18 ask vs 30.51 close) rather than chasing SOXL's +12.4% gap. NVDL is the laggard, deepest-liquidity vehicle for the semis comeback with far less chase risk than 3x-broad SOXL/TQQQ. 2x (not 3x) matches conviction: this is momentum/relief-rally drift on de-escalation, not a single explosive fresh catalyst, and there is Big-Tech earnings overhang later this week. Single mega-cap avoids the GOOGL/TSLA/INTC binary baked into TQQQ. Hard stop 28.69 (-8% on 2x).",
-      "risks": "A reversal in the peace-talk narrative (Red Sea shipping worry lingers) or renewed chip-sector weakness (China open-source-model competition dinged semis last week) would hit high-beta NVDA hardest; 2x amplifies both directions and single-stock ETFs carry daily-reset decay if NVDA chops. Hard stop 28.69 (-8%). PRICE NOTE: dashboard proxy returned 30.51 = exact prior close (stale pre-open for this leveraged ETF), so fills struck off Robinhood real-time — SELL at bid 31.15, BUY at ask 31.18 (asOf 2026-07-21T11:42:05Z), per this book's documented convention. Prior NVDL closed 31.15 vs 31.38 entry (-81.63).",
-      "addedDate": "2026-07-21"
+      "catalyst": "Gold printed a fresh multi-week high ~$4,150/oz (+~1.8% on the session) on safe-haven demand \u2014 Trump warned of further strikes on Iran and pledged retaliation on any Houthi disruption of Red Sea/Strait of Hormuz shipping, while mediators float a 10-day truce. Fed meeting next week adds an easing-tilt tailwind. Crucially, this catalyst is UNCORRELATED to tonight's triple mega-cap earnings binary: GOOGL (implied ~5-9%), TSLA (~6-8%) and IBM all report after today's close, INSIDE this holding window. Rather than gamble a 2x/3x Nasdaq/semis vehicle through that two-sided print, this book rotates into pure gold bullion, which tends to catch a bid on exactly the risk-off outcome that would hurt leveraged tech.",
+      "driver": "Long 2x gold BULLION (not miners) as an asymmetric safe-haven play into a known risk-event night. Chose UGL over NUGT/GDX because miners carry equity-market beta that would get dragged in a risk-off earnings selloff, defeating the hedge; bullion is the cleaner uncorrelated vehicle. Entered UNEXTENDED at +3.4% (46.62 ask vs 45.06 close) \u2014 NUGT was already +7.9% (chase risk). 2x (not 3x \u2014 none broadly liquid for bullion anyway) matches moderate-high conviction on continuation of a strong momentum/safe-haven trend, not a single explosive binary. Hard stop 42.89 (-8% on 2x).",
+      "risks": "A sudden Iran de-escalation / confirmed truce, a risk-on 'all-clear' from tonight's mega-cap earnings, or a hawkish Fed surprise next week could unwind the safe-haven bid; 2x amplifies both directions and leveraged bullion ETFs carry daily-reset decay if gold chops sideways. Gold is somewhat extended after a multi-session run. Hard stop 42.89 (-8%). PRICE NOTE: dashboard proxy 46.60 matched Robinhood real-time (last 46.60, bid 46.61 / ask 46.62) at asOf 2026-07-22T16:15:03Z \u2014 BUY struck at ask 46.62. Prior NVDL closed at live bid 33.47 vs 31.18 entry (+811.93).",
+      "addedDate": "2026-07-22"
     }
   ]
 }
