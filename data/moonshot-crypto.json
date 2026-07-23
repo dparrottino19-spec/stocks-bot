@@ -2,10 +2,10 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10830.82,
-  "tradeDate": "2026-07-22",
-  "lastUpdated": "2026-07-22T16:19:20Z",
-  "nextRefresh": "2026-07-23T06:45:00-05:00",
+  "startingCapital": 10827.74,
+  "tradeDate": "2026-07-23",
+  "lastUpdated": "2026-07-23T11:56:18Z",
+  "nextRefresh": "2026-07-24T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Runs every day — crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 830.82,
+  "priorRealizedPnL": 827.74,
   "positions": [
     {
-      "ticker": "BTC",
-      "name": "Bitcoin",
+      "ticker": "SOL",
+      "name": "Solana",
       "sector": "Crypto",
-      "shares": 0.164013,
-      "entry": 66036.47,
-      "stopPrice": 60753.55,
+      "shares": 138.783373,
+      "entry": 78.019,
+      "stopPrice": 70.22,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "Rotate into BTC as the protective, flow-leading major on a tape that just turned risk-off. WTI crude topped 85 dollars for the first time since June, reigniting inflation concerns and driving an explicit 'bitcoin over altcoins' safety rotation — BTC retreated only modestly from a fresh one-month high and is up ~1.7% on the session, showing relative strength AND absorbing the defensive bid while alts lag. BTC is the deepest-liquidity spot major with the cleanest definable stop, giving the best risk-adjusted next-24h payoff on a day when the macro edge for high-beta alts is compromised. Entry 66,036 sits just below the recent one-month high, leaving room to re-test it if risk stabilizes, while the safety-bid backdrop cushions downside if the tape weakens.",
-      "driver": "Rolled SOL flat (-4.15 dollars) into capital and rotated to BTC. On a low-edge, inflation-driven risk-off day the mandate favors the liquid majors with the most downside protection. BTC wins vs runners-up: SOL (~78.29) keeps the strongest idiosyncratic catalyst stack (every-July-day spot-SOL ETF inflows, Bitwise BSOL +2.64M on 7/21 to 1.14B cumulative, new Morgan Stanley MSOL spot-ETF filing at 0.14% fee, Q3 Alpenglow ~150ms finality, 7/21 tokenized-stock on-chain analytics launch) but is the highest-beta major and only +0.58% today — it falls hardest if the oil/inflation risk-off deepens. ETH (~1,941) is the best day-gainer (+1.44%) but remains the structural laggard with ETF outflows and a live sell-the-news risk. BTC's active safety-rotation bid + momentum + tightest downside give it the best risk-adjusted 24h edge today.",
-      "risks": "If the oil/inflation shock deepens into a broad risk-off liquidation, even BTC sells off — and it just retreated from a one-month high, so it could be carving a local top rather than basing. A decisive break back below the mid-63k shelf would weaken the momentum thesis. Being the protective major, BTC also gives up upside if risk snaps back on and capital rotates into the higher-beta alts (SOL/ETH) instead. Hard stop 60,753.55 (-8%, majors rule) below the recent range.",
-      "addedDate": "2026-07-22"
+      "catalyst": "Rotate BTC->SOL for the day's best asymmetric setup. SOL carries the densest FRESH-catalyst stack in the liquid universe: E*TRADE just launched spot SOL/BTC/ETH trading (via Zero Hash) opening a new retail-access lane; Bitwise's spot Solana ETF (BSOL) logged another +$2.64M net inflow on 7/21 to $1.14B cumulative; Korean conglomerate Hanwha raised its stake in a Solana tokenization firm; and Solana shipped an on-chain analytics platform for tokenized-stock tracking. Price is basing right at the $77 shelf (24h range ~77.01-78.63), trying to flip $77 into support -- a clean, definable-stop setup. Entry 78.019 sits just above that shelf, giving the best upside-per-unit-risk if the support flip completes.",
+      "driver": "Rolled BTC essentially flat (-$3.08) into capital and rotated to SOL. Tape is range-bound and low-momentum today (BTC ~65.7k roughly flat, ETH ~1,925 flat), so the edge comes from idiosyncratic catalyst density rather than beta. SOL wins vs runners-up: BTC (~66.0k) is the protective major with the cleanest stop but no fresh idiosyncratic catalyst and only a flat tape today; ETH (~1,939) remains the structural laggard with no standout driver. SOL's E*TRADE spot launch + continued BSOL inflows + $77 support-flip give it the best risk-adjusted 24h payoff with a definable stop.",
+      "risks": "SOL is the highest-beta major, so the key risk is the hawkish Fed FOMC on 7/28-29 -- markets are pricing a meaningful chance of a RATE HIKE, and if risk-off builds into it SOL falls hardest. A decisive loss of the $77 shelf would invalidate the support-flip thesis. Hard stop 70.22 (-10%, higher-beta alt rule) sits below the recent range to avoid noise while capping downside.",
+      "addedDate": "2026-07-23"
     }
   ]
 }
