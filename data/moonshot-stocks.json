@@ -2,32 +2,18 @@
   "bookName": "Moonshot Stocks",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8731.53,
-  "tradeDate": "2026-07-22",
-  "lastUpdated": "2026-07-22T16:20:00Z",
-  "nextRefresh": "2026-07-23T06:35:00-05:00",
+  "startingCapital": 8305.84,
+  "tradeDate": "2026-07-23",
+  "lastUpdated": "2026-07-23T11:39:34Z",
+  "nextRefresh": "2026-07-24T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
-    "US equities only \u2014 no ETFs, crypto, or options",
-    "Rotate each weekday 6:35am CT run \u2014 sell prior, buy today's best",
+    "US equities only — no ETFs, crypto, or options",
+    "Rotate each weekday 6:35am CT run — sell prior, buy today's best",
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
-  "priorRealizedPnL": -1268.47,
-  "positions": [
-    {
-      "ticker": "RKLB",
-      "name": "Rocket Lab Corporation",
-      "sector": "Electronic Technology \u2014 Aerospace & Defense",
-      "shares": 120.935319,
-      "entry": 72.2,
-      "stopPrice": 67.87,
-      "exitRule": "Rotate next weekday 6:35am CT run",
-      "catalyst": "Fresh $266M U.S. Air Force contract awarded 7/20 (12 suborbital launches, options for 6 more through 2028); reinforces role in the ~$17B Space Force hypersonic ceiling agreement. Iridium (IRDM) reports Q2 today \u2014 RKLB has a definitive agreement to acquire IRDM, keeping the strategic M&A story in the news. Space-sector sentiment catalyst.",
-      "driver": "High-beta space/defense name up only ~+4.5% intraday ($69.12 close -> $72.20) \u2014 well inside the no-chase band, with genuine 24h upside as the Air Force win + IRDM deal narrative draws retail flow back to the sector. Liquid ($43B cap, ~19M avg vol) = tight fills and a definable stop. No earnings until Aug 6, so no binary overnight print.",
-      "risks": "Very high volatility; still ~52% below the 5/27 peak ($151) so the primary trend is weak \u2014 momentum play, not value. IRDM earnings tonight could inject deal-spread noise. Broad-market/oil/geopolitical risk. Gap could fade if space-sector enthusiasm cools.",
-      "addedDate": "2026-07-22"
-    }
-  ]
+  "priorRealizedPnL": -1694.16,
+  "positions": []
 }
