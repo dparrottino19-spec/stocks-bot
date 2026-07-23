@@ -2,32 +2,32 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 11866.98,
-  "tradeDate": "2026-07-22",
-  "lastUpdated": "2026-07-22T16:16:07Z",
-  "nextRefresh": "2026-07-23T06:30:00-05:00",
+  "startingCapital": 11396.07,
+  "tradeDate": "2026-07-23",
+  "lastUpdated": "2026-07-23T11:43:50Z",
+  "nextRefresh": "2026-07-24T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
     "Any liquid asset: stock, crypto, or leveraged/inverse ETF",
-    "Rotate each 6:30am CT run \u2014 sell yesterday, buy today's best",
+    "Rotate each 6:30am CT run — sell yesterday, buy today's best",
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": 1866.98,
+  "priorRealizedPnL": 1396.07,
   "positions": [
     {
-      "ticker": "UGL",
-      "name": "ProShares Ultra Gold (2x Gold Bullion ETF)",
-      "sector": "Commodity \u2014 Gold Bullion (2x Leveraged ETF)",
-      "shares": 254.546976,
-      "entry": 46.62,
-      "stopPrice": 42.89,
+      "ticker": "GUSH",
+      "name": "Direxion Daily S&P Oil & Gas E&P Bull 2X Shares",
+      "sector": "Energy — Oil & Gas Exploration & Production (2x Leveraged ETF)",
+      "shares": 275.933898,
+      "entry": 41.30,
+      "stopPrice": 38.00,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Gold printed a fresh multi-week high ~$4,150/oz (+~1.8% on the session) on safe-haven demand \u2014 Trump warned of further strikes on Iran and pledged retaliation on any Houthi disruption of Red Sea/Strait of Hormuz shipping, while mediators float a 10-day truce. Fed meeting next week adds an easing-tilt tailwind. Crucially, this catalyst is UNCORRELATED to tonight's triple mega-cap earnings binary: GOOGL (implied ~5-9%), TSLA (~6-8%) and IBM all report after today's close, INSIDE this holding window. Rather than gamble a 2x/3x Nasdaq/semis vehicle through that two-sided print, this book rotates into pure gold bullion, which tends to catch a bid on exactly the risk-off outcome that would hurt leveraged tech.",
-      "driver": "Long 2x gold BULLION (not miners) as an asymmetric safe-haven play into a known risk-event night. Chose UGL over NUGT/GDX because miners carry equity-market beta that would get dragged in a risk-off earnings selloff, defeating the hedge; bullion is the cleaner uncorrelated vehicle. Entered UNEXTENDED at +3.4% (46.62 ask vs 45.06 close) \u2014 NUGT was already +7.9% (chase risk). 2x (not 3x \u2014 none broadly liquid for bullion anyway) matches moderate-high conviction on continuation of a strong momentum/safe-haven trend, not a single explosive binary. Hard stop 42.89 (-8% on 2x).",
-      "risks": "A sudden Iran de-escalation / confirmed truce, a risk-on 'all-clear' from tonight's mega-cap earnings, or a hawkish Fed surprise next week could unwind the safe-haven bid; 2x amplifies both directions and leveraged bullion ETFs carry daily-reset decay if gold chops sideways. Gold is somewhat extended after a multi-session run. Hard stop 42.89 (-8%). PRICE NOTE: dashboard proxy 46.60 matched Robinhood real-time (last 46.60, bid 46.61 / ask 46.62) at asOf 2026-07-22T16:15:03Z \u2014 BUY struck at ask 46.62. Prior NVDL closed at live bid 33.47 vs 31.18 entry (+811.93).",
-      "addedDate": "2026-07-22"
+      "catalyst": "Crude is spiking for a FIFTH straight session on a hard, escalating geopolitical supply shock: WTI broke $90 (+~3.8%, highest since June 8) and Brent neared $100 (+~4.6%, highest since late May) after reported attacks on tankers off Saudi Arabia and renewed US threats to escalate strikes on Iran, putting the Strait of Hormuz and Bab-el-Mandeb transit routes at risk. Brent is on track for a ~35% monthly gain — a third-largest monthly move in a decade. Crucially this catalyst is UNCORRELATED to today's risk-off tech tape: GOOGL (-~5% despite a revenue/cloud beat, sinking on a $195-205B capex hike) and TSLA (-~6.6% on its worst revenue drop in a decade) are both gapping down, and INTC reports tonight — energy sidesteps all of it and tends to catch a bid on exactly the geopolitical risk-off that hurts leveraged tech.",
+      "driver": "Long 2x oil & gas E&P (GUSH) as a momentum + supply-shock play with an asymmetric one-sided catalyst, deliberately chosen OVER the earnings binaries. Skipped shorting TSLA — TSLZ (2x inverse) had already gapped +13.5% premarket (chase risk, >8-10% rule) and Tesla is prone to intraday reversals. Skipped buying the GOOGL dip — catching a falling 2x knife (GGLL -10%) into a risk-off tape has no downside protection. Chose GUSH (E&P producers, higher crude-beta) over ERX (integrated majors) for more torque per barrel move, and it was LESS extended (+3.4% vs ERX +4.1%). Entered UNEXTENDED at ~+3.4% (41.30 vs 39.96 close) — not chasing a blown-out gap. 2x (not 3x) matches high conviction on continuation of a strong 5-day trend with a live catalyst, not a single explosive binary. Hard stop 38.00 (-8% on 2x).",
+      "risks": "A sudden Middle East de-escalation — an Iran truce, or the tanker attacks proving minor/contained — could unwind the crude bid fast on an overnight headline, and 2x amplifies both directions; leveraged energy ETFs also carry daily-reset decay if crude chops sideways. Oil is somewhat extended after a 5-session run, raising pullback risk. A broad risk-off cascade from tech earnings could drag even energy in a de-grossing. Hard stop 38.00 (-8%). PRICE NOTE: dashboard proxy was STALE (asOf 2026-07-22T16:15:03Z = prior close), so per rules fell back to Robinhood real-time. GUSH pre-market last 41.30, bid 40.82 / ask 41.51 at asOf 2026-07-23T11:43:00Z — BUY struck 41.30 (last print, between bid/ask, assume LIMIT). Prior UGL exit used Robinhood live pre-market bid 44.77 (vs 46.13 official close) — gold sold off overnight; realized -470.91.",
+      "addedDate": "2026-07-23"
     }
   ]
 }
