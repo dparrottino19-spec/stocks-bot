@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 11396.07,
-  "tradeDate": "2026-07-23",
-  "lastUpdated": "2026-07-23T11:43:50Z",
-  "nextRefresh": "2026-07-24T06:30:00-05:00",
+  "startingCapital": 10783.5,
+  "tradeDate": "2026-07-24",
+  "lastUpdated": "2026-07-24T11:43:38Z",
+  "nextRefresh": "2026-07-25T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": 1396.07,
+  "priorRealizedPnL": 783.5,
   "positions": [
     {
-      "ticker": "GUSH",
-      "name": "Direxion Daily S&P Oil & Gas E&P Bull 2X Shares",
-      "sector": "Energy — Oil & Gas Exploration & Production (2x Leveraged ETF)",
-      "shares": 275.933898,
-      "entry": 41.30,
-      "stopPrice": 38.00,
+      "ticker": "LINT",
+      "name": "Direxion Daily INTC Bull 2X Shares",
+      "sector": "Technology — Semiconductors (2x Leveraged Single-Stock ETF, long INTC)",
+      "shares": 81.10944,
+      "entry": 132.95,
+      "stopPrice": 122.31,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Crude is spiking for a FIFTH straight session on a hard, escalating geopolitical supply shock: WTI broke $90 (+~3.8%, highest since June 8) and Brent neared $100 (+~4.6%, highest since late May) after reported attacks on tankers off Saudi Arabia and renewed US threats to escalate strikes on Iran, putting the Strait of Hormuz and Bab-el-Mandeb transit routes at risk. Brent is on track for a ~35% monthly gain — a third-largest monthly move in a decade. Crucially this catalyst is UNCORRELATED to today's risk-off tech tape: GOOGL (-~5% despite a revenue/cloud beat, sinking on a $195-205B capex hike) and TSLA (-~6.6% on its worst revenue drop in a decade) are both gapping down, and INTC reports tonight — energy sidesteps all of it and tends to catch a bid on exactly the geopolitical risk-off that hurts leveraged tech.",
-      "driver": "Long 2x oil & gas E&P (GUSH) as a momentum + supply-shock play with an asymmetric one-sided catalyst, deliberately chosen OVER the earnings binaries. Skipped shorting TSLA — TSLZ (2x inverse) had already gapped +13.5% premarket (chase risk, >8-10% rule) and Tesla is prone to intraday reversals. Skipped buying the GOOGL dip — catching a falling 2x knife (GGLL -10%) into a risk-off tape has no downside protection. Chose GUSH (E&P producers, higher crude-beta) over ERX (integrated majors) for more torque per barrel move, and it was LESS extended (+3.4% vs ERX +4.1%). Entered UNEXTENDED at ~+3.4% (41.30 vs 39.96 close) — not chasing a blown-out gap. 2x (not 3x) matches high conviction on continuation of a strong 5-day trend with a live catalyst, not a single explosive binary. Hard stop 38.00 (-8% on 2x).",
-      "risks": "A sudden Middle East de-escalation — an Iran truce, or the tanker attacks proving minor/contained — could unwind the crude bid fast on an overnight headline, and 2x amplifies both directions; leveraged energy ETFs also carry daily-reset decay if crude chops sideways. Oil is somewhat extended after a 5-session run, raising pullback risk. A broad risk-off cascade from tech earnings could drag even energy in a de-grossing. Hard stop 38.00 (-8%). PRICE NOTE: dashboard proxy was STALE (asOf 2026-07-22T16:15:03Z = prior close), so per rules fell back to Robinhood real-time. GUSH pre-market last 41.30, bid 40.82 / ask 41.51 at asOf 2026-07-23T11:43:00Z — BUY struck 41.30 (last print, between bid/ask, assume LIMIT). Prior UGL exit used Robinhood live pre-market bid 44.77 (vs 46.13 official close) — gold sold off overnight; realized -470.91.",
-      "addedDate": "2026-07-23"
+      "catalyst": "Intel blew out Q2 after the close on 7/23: adjusted EPS 38c vs 24c est, and guided Q3 revenue to $15.8-16.8B vs $15.01B consensus — concrete evidence the foundry turnaround under Lip-Bu Tan is gaining traction. Analysts have been marking up PTs into the print (KeyBanc Overweight to $155, UBS to $121). INTC is trading ~+2.9% pre-market at $103.17 (live, asOf 2026-07-24T11:42Z) after tagging ~+5.5% earlier — a digestible, un-blown-out gap on a genuine fundamental beat, not a squeeze.",
+      "driver": "Long 2x INTC via LINT as a single-name, one-sided earnings-momentum play. 2x matches HIGH conviction on a strong FRESH catalyst (blowout beat + raised guide + PT hikes + turnaround narrative). Chose LINT over INTC common for torque, and over INTW (same 2x exposure, LINT more standard/liquid). Entered UNEXTENDED: LINT ~+6.8% pre-market (132.95 vs 124.24 close), well under the 8-10% chase line, because the underlying INTC gap cooled from +5.5% to +2.9% by run time. Crypto skipped (BTC/ETH choppy near lows, no edge, and equity hours favor leveraged instruments). Prior GUSH energy trade closed — crude spike reversed overnight, thesis broke. Hard stop 122.31 (-8% on 2x).",
+      "risks": "Single-stock earnings pops frequently fade intraday ('sell-the-news') once the gap is faded, and 2x amplifies both directions plus carries daily-reset decay if INTC chops. A broad risk-off tape or a semis-wide pullback could drag INTC regardless of its beat. Guidance-driven rallies can round-trip if the conference-call tone disappoints. Hard stop 122.31 (-8%). PRICE NOTE: dashboard proxy was STALE for both legs (showed prior closes — GUSH 39.51, LINT 124.24 — Yahoo not reflecting pre-market on these leveraged ETFs), so per rules used Robinhood real-time: GUSH SELL struck 39.08 (live bid 11:40Z); LINT BUY struck 132.95 (live ask, bid/ask 132.50/132.95 at 11:42Z, assume LIMIT).",
+      "addedDate": "2026-07-24"
     }
   ]
 }
