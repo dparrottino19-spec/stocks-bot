@@ -3,9 +3,9 @@
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
   "startingCapital": 8305.84,
-  "tradeDate": "2026-07-23",
-  "lastUpdated": "2026-07-23T11:39:34Z",
-  "nextRefresh": "2026-07-24T06:35:00-05:00",
+  "tradeDate": "2026-07-24",
+  "lastUpdated": "2026-07-24T11:39:31Z",
+  "nextRefresh": "2026-07-27T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -15,5 +15,19 @@
     "Cash on low-conviction days"
   ],
   "priorRealizedPnL": -1694.16,
-  "positions": []
+  "positions": [
+    {
+      "ticker": "SLB",
+      "name": "SLB Limited",
+      "sector": "Energy / Oilfield Services",
+      "shares": 169.506939,
+      "entry": 49.00,
+      "stopPrice": 46.06,
+      "exitRule": "Rotate next weekday 6:35am CT run",
+      "catalyst": "Q2 2026 earnings beat pre-market July 24 (EPS $0.55 vs $0.52 est) against a lowered bar — analysts had modeled a ~30% YoY EPS decline on Mideast/Iraq force-majeure headwinds. Beat + constructive digital/production commentary; oil tailwind with Brent briefly >$100 on Red Sea tanker-attack supply-shock fears.",
+      "driver": "Positive earnings surprise on a de-risked setup + energy-sector bid; stock ~+3.8% pre-market (49.00 vs 47.22 close), not extended, room toward mid-year highs.",
+      "risks": "Oil spike could reverse if Red Sea tensions ease, dragging energy; guidance/call details could disappoint; broad-market risk-off (Thu selloff on AI-spend fears, 10Y >4.7%). Hard stop 46.06 (-6%).",
+      "addedDate": "2026-07-24"
+    }
+  ]
 }
