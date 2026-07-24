@@ -2,32 +2,32 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10827.74,
-  "tradeDate": "2026-07-23",
-  "lastUpdated": "2026-07-23T11:56:18Z",
-  "nextRefresh": "2026-07-24T06:45:00-05:00",
+  "startingCapital": 10562.8,
+  "tradeDate": "2026-07-24",
+  "lastUpdated": "2026-07-24T11:55:04Z",
+  "nextRefresh": "2026-07-25T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
     "Spot crypto only (BTC, ETH, SOL, and other liquid coins on Robinhood)",
-    "Rotate each 6:45am CT run — sell yesterday, buy today's best",
-    "Runs every day — crypto trades 24/7",
+    "Rotate each 6:45am CT run \u2014 sell yesterday, buy today's best",
+    "Runs every day \u2014 crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 827.74,
+  "priorRealizedPnL": 562.8,
   "positions": [
     {
-      "ticker": "SOL",
-      "name": "Solana",
+      "ticker": "BTC",
+      "name": "Bitcoin",
       "sector": "Crypto",
-      "shares": 138.783373,
-      "entry": 78.019,
-      "stopPrice": 70.22,
+      "shares": 0.163829,
+      "entry": 64474.54,
+      "stopPrice": 59316.58,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "Rotate BTC->SOL for the day's best asymmetric setup. SOL carries the densest FRESH-catalyst stack in the liquid universe: E*TRADE just launched spot SOL/BTC/ETH trading (via Zero Hash) opening a new retail-access lane; Bitwise's spot Solana ETF (BSOL) logged another +$2.64M net inflow on 7/21 to $1.14B cumulative; Korean conglomerate Hanwha raised its stake in a Solana tokenization firm; and Solana shipped an on-chain analytics platform for tokenized-stock tracking. Price is basing right at the $77 shelf (24h range ~77.01-78.63), trying to flip $77 into support -- a clean, definable-stop setup. Entry 78.019 sits just above that shelf, giving the best upside-per-unit-risk if the support flip completes.",
-      "driver": "Rolled BTC essentially flat (-$3.08) into capital and rotated to SOL. Tape is range-bound and low-momentum today (BTC ~65.7k roughly flat, ETH ~1,925 flat), so the edge comes from idiosyncratic catalyst density rather than beta. SOL wins vs runners-up: BTC (~66.0k) is the protective major with the cleanest stop but no fresh idiosyncratic catalyst and only a flat tape today; ETH (~1,939) remains the structural laggard with no standout driver. SOL's E*TRADE spot launch + continued BSOL inflows + $77 support-flip give it the best risk-adjusted 24h payoff with a definable stop.",
-      "risks": "SOL is the highest-beta major, so the key risk is the hawkish Fed FOMC on 7/28-29 -- markets are pricing a meaningful chance of a RATE HIKE, and if risk-off builds into it SOL falls hardest. A decisive loss of the $77 shelf would invalidate the support-flip thesis. Hard stop 70.22 (-10%, higher-beta alt rule) sits below the recent range to avoid noise while capping downside.",
-      "addedDate": "2026-07-23"
+      "catalyst": "Rotate SOL->BTC on a risk-OFF tape where downside protection wins. The crypto complex is turning defensive: total market cap -1.3% to ~$2.3T, Fear & Greed dropped to 28 (fear), BTC -1.4% (~$64,961) and ETH soft (~$1,625). BTC is holding the $64,000 floor of a well-defined $64,000-$66,800 range after a ~13% recovery off July's lows, giving the cleanest definable-stop setup in the liquid universe. No fresh idiosyncratic BTC catalyst, but the setup is a base-holding major into event risk rather than a momentum chase.",
+      "driver": "Rolled SOL out at 76.11 for a -$264.94 loss (range-bound alt gave back its shelf) and rotated to the protective major. On a low-edge, fear-driven day the mandate favors the liquid majors with the tightest downside, not the highest-beta alt. BTC wins vs runners-up: SOL (~76.11) and ETH (~1,874) both carry the fresher catalyst (Morgan Stanley's 0.14% ultra-low-fee ETH/SOL ETFs, continued BSOL inflows, Solana on-chain analytics) but are higher-beta and fall hardest if risk-off deepens into the 7/28-29 FOMC. BTC's range floor + 8% stop give the best risk-adjusted 24h payoff when protection is the priority.",
+      "risks": "Key risk is a hawkish FOMC (7/28-29) with a non-trivial rate-HIKE probability priced in; a risk-off break of the $64,000 range floor invalidates the base-holding thesis and BTC could slide toward the low-$60Ks. Fear & Greed at 28 signals fragile sentiment. Hard stop 59316.58 (-8%, majors rule) sits below the range floor to avoid noise while capping downside.",
+      "addedDate": "2026-07-24"
     }
   ]
 }
