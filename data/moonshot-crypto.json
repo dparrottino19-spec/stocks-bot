@@ -2,32 +2,32 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10562.8,
-  "tradeDate": "2026-07-24",
-  "lastUpdated": "2026-07-24T11:55:04Z",
-  "nextRefresh": "2026-07-25T06:45:00-05:00",
+  "startingCapital": 10490.6,
+  "tradeDate": "2026-07-25",
+  "lastUpdated": "2026-07-25T11:56:16Z",
+  "nextRefresh": "2026-07-26T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
     "Spot crypto only (BTC, ETH, SOL, and other liquid coins on Robinhood)",
-    "Rotate each 6:45am CT run \u2014 sell yesterday, buy today's best",
-    "Runs every day \u2014 crypto trades 24/7",
+    "Rotate each 6:45am CT run — sell yesterday, buy today's best",
+    "Runs every day — crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 562.8,
+  "priorRealizedPnL": 490.6,
   "positions": [
     {
-      "ticker": "BTC",
-      "name": "Bitcoin",
+      "ticker": "ETH",
+      "name": "Ethereum",
       "sector": "Crypto",
-      "shares": 0.163829,
-      "entry": 64474.54,
-      "stopPrice": 59316.58,
+      "shares": 5.647913,
+      "entry": 1857.43,
+      "stopPrice": 1708.84,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "Rotate SOL->BTC on a risk-OFF tape where downside protection wins. The crypto complex is turning defensive: total market cap -1.3% to ~$2.3T, Fear & Greed dropped to 28 (fear), BTC -1.4% (~$64,961) and ETH soft (~$1,625). BTC is holding the $64,000 floor of a well-defined $64,000-$66,800 range after a ~13% recovery off July's lows, giving the cleanest definable-stop setup in the liquid universe. No fresh idiosyncratic BTC catalyst, but the setup is a base-holding major into event risk rather than a momentum chase.",
-      "driver": "Rolled SOL out at 76.11 for a -$264.94 loss (range-bound alt gave back its shelf) and rotated to the protective major. On a low-edge, fear-driven day the mandate favors the liquid majors with the tightest downside, not the highest-beta alt. BTC wins vs runners-up: SOL (~76.11) and ETH (~1,874) both carry the fresher catalyst (Morgan Stanley's 0.14% ultra-low-fee ETH/SOL ETFs, continued BSOL inflows, Solana on-chain analytics) but are higher-beta and fall hardest if risk-off deepens into the 7/28-29 FOMC. BTC's range floor + 8% stop give the best risk-adjusted 24h payoff when protection is the priority.",
-      "risks": "Key risk is a hawkish FOMC (7/28-29) with a non-trivial rate-HIKE probability priced in; a risk-off break of the $64,000 range floor invalidates the base-holding thesis and BTC could slide toward the low-$60Ks. Fear & Greed at 28 signals fragile sentiment. Hard stop 59316.58 (-8%, majors rule) sits below the range floor to avoid noise while capping downside.",
-      "addedDate": "2026-07-24"
+      "catalyst": "Rotate BTC->ETH on the one liquid major with a fresh, structural bid. Spot ETH ETFs broke an 8-week outflow streak and logged a 2nd-3rd consecutive week of net creations (~$105M week of 7/13-17; positive daily prints 7/20-21), with BlackRock's ETHA leading and its new ETHB staking ETF (80% staked ETH, yield passed through) adding a demand source plain spot funds lack. Ethereum's validator exit queue is near-empty amid a staking surge, tightening float. ETH has shown relative strength, recovering from late-June multi-year lows near $1,566 to ~$1,857-1,915 while BTC sees ETF OUTFLOWS (-$225M Thu). On a risk-off tape (Fear&Greed 27, higher yields/tariffs/oil), ETH pairs a fresh idiosyncratic catalyst with major-coin liquidity and a definable stop.",
+      "driver": "Closed BTC at 64,033.86 for a small -$72.20 loss (defensive base-hold gave back a hair; BTC carried NO fresh catalyst and bled ETF outflows). Rotated to ETH as the asymmetric setup: freshest coin-specific catalyst (ETF inflow-streak reversal + BlackRock staking ETF + empty exit queue) plus relative strength vs BTC/SOL, while still being a liquid major with contained downside. Wins vs runners-up: BTC (~64,034) is purely defensive with outflows and no catalyst; SOL (~73.97, -2.2% today) has the Morgan Stanley 0.14% spot ETF story but is the weakest of the three today and higher-beta into the 7/28-29 FOMC. ETH gives the best risk-adjusted 24h payoff with an 8% major stop.",
+      "risks": "Risk-off macro is the main threat: higher Treasury yields, tariff/oil-driven inflation fears, and a hawkish 7/28-29 FOMC could drag the whole complex; Fear&Greed at 27 signals fragile sentiment. ETH-specific: ETF inflows are early and could stall, and ETH remains beta to BTC. A break below the ~$1,800 area invalidates the recovery. Hard stop 1708.84 (-8%, majors rule) caps downside while giving room above near-term support.",
+      "addedDate": "2026-07-25"
     }
   ]
 }
