@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10783.5,
-  "tradeDate": "2026-07-24",
-  "lastUpdated": "2026-07-24T11:43:38Z",
-  "nextRefresh": "2026-07-25T06:30:00-05:00",
+  "startingCapital": 8581.38,
+  "tradeDate": "2026-07-25",
+  "lastUpdated": "2026-07-25T11:43:00Z",
+  "nextRefresh": "2026-07-26T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": 783.5,
+  "priorRealizedPnL": -1418.62,
   "positions": [
     {
-      "ticker": "LINT",
-      "name": "Direxion Daily INTC Bull 2X Shares",
-      "sector": "Technology — Semiconductors (2x Leveraged Single-Stock ETF, long INTC)",
-      "shares": 81.10944,
-      "entry": 132.95,
-      "stopPrice": 122.31,
+      "ticker": "BTC-USD",
+      "name": "Bitcoin (spot)",
+      "sector": "Cryptocurrency — Large-cap / store-of-value",
+      "shares": 0.134109,
+      "entry": 63987.92,
+      "stopPrice": 57589.13,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Intel blew out Q2 after the close on 7/23: adjusted EPS 38c vs 24c est, and guided Q3 revenue to $15.8-16.8B vs $15.01B consensus — concrete evidence the foundry turnaround under Lip-Bu Tan is gaining traction. Analysts have been marking up PTs into the print (KeyBanc Overweight to $155, UBS to $121). INTC is trading ~+2.9% pre-market at $103.17 (live, asOf 2026-07-24T11:42Z) after tagging ~+5.5% earlier — a digestible, un-blown-out gap on a genuine fundamental beat, not a squeeze.",
-      "driver": "Long 2x INTC via LINT as a single-name, one-sided earnings-momentum play. 2x matches HIGH conviction on a strong FRESH catalyst (blowout beat + raised guide + PT hikes + turnaround narrative). Chose LINT over INTC common for torque, and over INTW (same 2x exposure, LINT more standard/liquid). Entered UNEXTENDED: LINT ~+6.8% pre-market (132.95 vs 124.24 close), well under the 8-10% chase line, because the underlying INTC gap cooled from +5.5% to +2.9% by run time. Crypto skipped (BTC/ETH choppy near lows, no edge, and equity hours favor leveraged instruments). Prior GUSH energy trade closed — crude spike reversed overnight, thesis broke. Hard stop 122.31 (-8% on 2x).",
-      "risks": "Single-stock earnings pops frequently fade intraday ('sell-the-news') once the gap is faded, and 2x amplifies both directions plus carries daily-reset decay if INTC chops. A broad risk-off tape or a semis-wide pullback could drag INTC regardless of its beat. Guidance-driven rallies can round-trip if the conference-call tone disappoints. Hard stop 122.31 (-8%). PRICE NOTE: dashboard proxy was STALE for both legs (showed prior closes — GUSH 39.51, LINT 124.24 — Yahoo not reflecting pre-market on these leveraged ETFs), so per rules used Robinhood real-time: GUSH SELL struck 39.08 (live bid 11:40Z); LINT BUY struck 132.95 (live ask, bid/ask 132.50/132.95 at 11:42Z, assume LIMIT).",
-      "addedDate": "2026-07-24"
+      "catalyst": "Weekend session (US equity & leveraged-ETF markets closed) — spot crypto is the only tradable universe. Tape is cautious/risk-off: total crypto market cap ~$2.28T, -1.1% on 24h; Fear & Greed 27 (Fear). BTC ~$63,988 (-1.3% 24h) but BTC dominance has firmed to ~56.4% as capital rotates defensively OUT of alts (SOL -2.2%, weakest) and toward BTC. No fresh single-name crypto catalyst strong enough to justify higher-beta alt exposure on an all-in weekend hold.",
+      "driver": "LONG BTC spot as a low-edge-day, capital-preservation parking pick — per mandate ('on low-edge days park in lower-vol/spot'). BTC is the lowest-volatility, deepest-liquidity crypto and the defensive rotation beneficiary in a risk-off weekend tape; it offers the best downside protection while retaining upside if the weekend stabilizes. Chose BTC over ETH (ETH the relative-strength leader at -0.5%, but higher beta with no fresh catalyst to justify the extra risk on 100% size) and over SOL (weakest, -2.2%, highest vol — a short candidate, but inverse/leveraged instruments are unavailable on weekends). Leverage N/A (weekend spot only). Hard stop 57,589.13 (-10% spot-crypto rule).",
+      "risks": "Crypto trades 24/7, so a weekend headline (regulatory/macro/liquidation cascade) can move BTC hard with no equity-hours circuit breaker; Fear-zone sentiment can accelerate downside. As an all-in single asset there is no diversification. Upside on a flat cautious weekend may be muted (low expected edge — this is a defensive park, not a high-conviction swing). PRICE NOTE: dashboard crypto proxy initially returned a STALE 2026-07-04 snapshot; a cache-busted re-pull returned FRESH data (asOf 2026-07-25T11:42:49Z) matching independent news feeds. Coinbase/Kraken public APIs returned inconsistent figures (BTC $60k vs $77k) and were disregarded in favor of the dashboard's own canonical Yahoo feed = $63,987.92.",
+      "addedDate": "2026-07-25"
     }
   ]
 }
