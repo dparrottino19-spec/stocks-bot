@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8581.38,
-  "tradeDate": "2026-07-25",
-  "lastUpdated": "2026-07-25T11:43:00Z",
-  "nextRefresh": "2026-07-26T06:30:00-05:00",
+  "startingCapital": 8640.95,
+  "tradeDate": "2026-07-26",
+  "lastUpdated": "2026-07-26T11:43:00Z",
+  "nextRefresh": "2026-07-27T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -1418.62,
+  "priorRealizedPnL": -1359.05,
   "positions": [
     {
       "ticker": "BTC-USD",
       "name": "Bitcoin (spot)",
       "sector": "Cryptocurrency — Large-cap / store-of-value",
       "shares": 0.134109,
-      "entry": 63987.92,
-      "stopPrice": 57589.13,
+      "entry": 64432.11,
+      "stopPrice": 57988.9,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Weekend session (US equity & leveraged-ETF markets closed) — spot crypto is the only tradable universe. Tape is cautious/risk-off: total crypto market cap ~$2.28T, -1.1% on 24h; Fear & Greed 27 (Fear). BTC ~$63,988 (-1.3% 24h) but BTC dominance has firmed to ~56.4% as capital rotates defensively OUT of alts (SOL -2.2%, weakest) and toward BTC. No fresh single-name crypto catalyst strong enough to justify higher-beta alt exposure on an all-in weekend hold.",
-      "driver": "LONG BTC spot as a low-edge-day, capital-preservation parking pick — per mandate ('on low-edge days park in lower-vol/spot'). BTC is the lowest-volatility, deepest-liquidity crypto and the defensive rotation beneficiary in a risk-off weekend tape; it offers the best downside protection while retaining upside if the weekend stabilizes. Chose BTC over ETH (ETH the relative-strength leader at -0.5%, but higher beta with no fresh catalyst to justify the extra risk on 100% size) and over SOL (weakest, -2.2%, highest vol — a short candidate, but inverse/leveraged instruments are unavailable on weekends). Leverage N/A (weekend spot only). Hard stop 57,589.13 (-10% spot-crypto rule).",
-      "risks": "Crypto trades 24/7, so a weekend headline (regulatory/macro/liquidation cascade) can move BTC hard with no equity-hours circuit breaker; Fear-zone sentiment can accelerate downside. As an all-in single asset there is no diversification. Upside on a flat cautious weekend may be muted (low expected edge — this is a defensive park, not a high-conviction swing). PRICE NOTE: dashboard crypto proxy initially returned a STALE 2026-07-04 snapshot; a cache-busted re-pull returned FRESH data (asOf 2026-07-25T11:42:49Z) matching independent news feeds. Coinbase/Kraken public APIs returned inconsistent figures (BTC $60k vs $77k) and were disregarded in favor of the dashboard's own canonical Yahoo feed = $63,987.92.",
-      "addedDate": "2026-07-25"
+      "catalyst": "Weekend session (US equity & leveraged-ETF markets closed) — spot crypto is the only tradable universe. Tape has turned mildly constructive vs Saturday: total crypto market cap ~$2.2T, +0.65% 24h. Fresh BTC-specific catalyst: White House confirmed setup of an official US strategic Bitcoin reserve (sector +9.28%), and SEC/CFTC clarity that 16 major coins aren't securities lifted digital-commodities sentiment +9.12%. BTC ~$64,432 (firm, near $1.26T cap).",
+      "driver": "LONG BTC spot — the reserve-confirmation headline is a genuine fresh BTC-specific bullish catalyst, and BTC remains the deepest-liquidity, lowest-vol crypto = best downside protection for a 100% weekend hold. Chose BTC over ETH ($1,884.72; higher beta, its ETF/staking catalyst is being worked in the separate crypto book, no incremental edge here at 100% size) and over SOL ($74.91; laggard/highest-vol, no fresh long catalyst — a short candidate, but inverse/leveraged instruments are unavailable on weekends). Leverage N/A (weekend spot only). Hard stop 57,988.90 (-10% spot-crypto rule).",
+      "risks": "Crypto trades 24/7 so a weekend headline (regulatory reversal / macro / liquidation cascade) can move BTC hard with no equity-hours circuit breaker. All-in single asset = no diversification. Reserve/regulatory catalysts are narrative-driven and could fade into Monday. PRICE NOTE: canonical dashboard proxy returned FRESH data asOf 2026-07-26T11:41:14Z (BTC 64432.11) matching independent news feeds (~$64,600); used as price of record.",
+      "addedDate": "2026-07-26"
     }
   ]
 }
