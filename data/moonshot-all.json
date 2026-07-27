@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8640.95,
-  "tradeDate": "2026-07-26",
-  "lastUpdated": "2026-07-26T11:43:00Z",
-  "nextRefresh": "2026-07-27T06:30:00-05:00",
+  "startingCapital": 8441.22,
+  "tradeDate": "2026-07-27",
+  "lastUpdated": "2026-07-27T11:45:00Z",
+  "nextRefresh": "2026-07-28T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -1359.05,
+  "priorRealizedPnL": -1558.78,
   "positions": [
     {
-      "ticker": "BTC-USD",
-      "name": "Bitcoin (spot)",
-      "sector": "Cryptocurrency — Large-cap / store-of-value",
-      "shares": 0.134109,
-      "entry": 64432.11,
-      "stopPrice": 57988.9,
+      "ticker": "TQQQ",
+      "name": "ProShares UltraPro QQQ (3x Nasdaq-100)",
+      "sector": "Leveraged ETF — 3x Long Nasdaq-100 (Large-cap Tech)",
+      "shares": 126.687970,
+      "entry": 66.63,
+      "stopPrice": 59.97,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Weekend session (US equity & leveraged-ETF markets closed) — spot crypto is the only tradable universe. Tape has turned mildly constructive vs Saturday: total crypto market cap ~$2.2T, +0.65% 24h. Fresh BTC-specific catalyst: White House confirmed setup of an official US strategic Bitcoin reserve (sector +9.28%), and SEC/CFTC clarity that 16 major coins aren't securities lifted digital-commodities sentiment +9.12%. BTC ~$64,432 (firm, near $1.26T cap).",
-      "driver": "LONG BTC spot — the reserve-confirmation headline is a genuine fresh BTC-specific bullish catalyst, and BTC remains the deepest-liquidity, lowest-vol crypto = best downside protection for a 100% weekend hold. Chose BTC over ETH ($1,884.72; higher beta, its ETF/staking catalyst is being worked in the separate crypto book, no incremental edge here at 100% size) and over SOL ($74.91; laggard/highest-vol, no fresh long catalyst — a short candidate, but inverse/leveraged instruments are unavailable on weekends). Leverage N/A (weekend spot only). Hard stop 57,988.90 (-10% spot-crypto rule).",
-      "risks": "Crypto trades 24/7 so a weekend headline (regulatory reversal / macro / liquidation cascade) can move BTC hard with no equity-hours circuit breaker. All-in single asset = no diversification. Reserve/regulatory catalysts are narrative-driven and could fade into Monday. PRICE NOTE: canonical dashboard proxy returned FRESH data asOf 2026-07-26T11:41:14Z (BTC 64432.11) matching independent news feeds (~$64,600); used as price of record.",
-      "addedDate": "2026-07-26"
+      "catalyst": "Broad risk-on Monday to open the biggest megacap-earnings week of the quarter. Premarket: Nasdaq-100 +1.62%, S&P +0.96%, Dow +1.01%, Russell +1.29%; oil tumbling (macro tailwind). Semiconductor leadership is the standout — memory/HBM surge with SK hynix, Micron (MU +2.0% premkt) and Sandisk rallying; SOXS inverse -6.7% confirms broad semi strength. Amazon, Meta and Microsoft report Wed/Thu and Apple Thu after close — a week of forward catalysts for the Nasdaq megacaps that dominate QQQ.",
+      "driver": "LONG 3x Nasdaq-100. Chose TQQQ over SOXL (3x semis, the higher-octane runner-up) because SOXL was already +6.6% in premarket — approaching the no-chase zone with the highest single-sector concentration/vol — whereas TQQQ at +4.1% premarket is less extended and far broader (holds NVDA/AVGO plus every megacap reporting this week), giving more downside protection for a 100% all-in hold. 3x leverage justified by the strong multi-factor fresh catalyst (broad risk-on breadth + semi memory surge + imminent megacap prints). Also weighed MU 2x single-stock (too concentrated ahead of peers' earnings) and staying in cash (edge is clearly positive today, not a low-edge day). Hard stop 59.97 (-10%, 3x rule).",
+      "risks": "3x daily-reset ETF — decay and gap risk; a risk-off reversal or a single disappointing megacap guide (AMZN/META/MSFT Wed-Thu, AAPL Thu) can whip the Nasdaq and hit 3x exposure three times as hard. All-in single instrument = no diversification. a premarket open-and-fade would erode the gap. Semi leadership is momentum-driven and can rotate. PRICE NOTE: canonical dashboard proxy was FRESH by timestamp (asOf 2026-07-27T11:41:49Z) but its value was Friday's close (TQQQ 64.00) because the regular session was not yet open — a stale-by-value pre-open snapshot. Per the ban on stale/morning prints, and matching how the sibling moonshot-stocks book handled the identical situation today, used the Robinhood real-time premarket quote as price of record: last 66.63 (+4.1% vs Fri close 64.00), asOf 2026-07-27T11:41:44Z. This avoids booking a phantom overnight gap gain.",
+      "addedDate": "2026-07-27"
     }
   ]
 }
