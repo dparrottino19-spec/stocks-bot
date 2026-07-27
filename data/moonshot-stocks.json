@@ -2,10 +2,10 @@
   "bookName": "Moonshot Stocks",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8305.84,
-  "tradeDate": "2026-07-24",
-  "lastUpdated": "2026-07-24T11:39:31Z",
-  "nextRefresh": "2026-07-27T06:35:00-05:00",
+  "startingCapital": 8749.95,
+  "tradeDate": "2026-07-27",
+  "lastUpdated": "2026-07-27T11:41:00Z",
+  "nextRefresh": "2026-07-28T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -14,20 +14,20 @@
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
-  "priorRealizedPnL": -1694.16,
+  "priorRealizedPnL": -1250.05,
   "positions": [
     {
-      "ticker": "SLB",
-      "name": "SLB Limited",
-      "sector": "Energy / Oilfield Services",
-      "shares": 169.506939,
-      "entry": 49.00,
-      "stopPrice": 46.06,
+      "ticker": "MU",
+      "name": "Micron Technology, Inc.",
+      "sector": "Electronic Technology / Semiconductors (Memory)",
+      "shares": 9.320951,
+      "entry": 938.74,
+      "stopPrice": 882.42,
       "exitRule": "Rotate next weekday 6:35am CT run",
-      "catalyst": "Q2 2026 earnings beat pre-market July 24 (EPS $0.55 vs $0.52 est) against a lowered bar — analysts had modeled a ~30% YoY EPS decline on Mideast/Iraq force-majeure headwinds. Beat + constructive digital/production commentary; oil tailwind with Brent briefly >$100 on Red Sea tanker-attack supply-shock fears.",
-      "driver": "Positive earnings surprise on a de-risked setup + energy-sector bid; stock ~+3.8% pre-market (49.00 vs 47.22 close), not extended, room toward mid-year highs.",
-      "risks": "Oil spike could reverse if Red Sea tensions ease, dragging energy; guidance/call details could disappoint; broad-market risk-off (Thu selloff on AI-spend fears, 10Y >4.7%). Hard stop 46.06 (-6%).",
-      "addedDate": "2026-07-24"
+      "catalyst": "Memory super-cycle leadership on a broad risk-on, semis-led tape (Nasdaq 100 +1.6% pre-market July 27). HBM capacity confirmed sold out through 2026 AND 2027; Street models data-center memory pricing +25-40% QoQ into Q3. Standing analyst conviction — KeyBanc OW/$1,750 target and BofA US-1 high-conviction add — reinforces upward direction.",
+      "driver": "Sector momentum + structural HBM scarcity narrative; entry not extended today (~+2% pre-market at 938.74 vs 920.95 close, already off the ~950 pre-market high), leaving room to run while comfortably under the >8-10% no-chase line.",
+      "risks": "Highly extended after ~+20% on the week and +700%+ over 12 months — vulnerable to profit-taking/mean-reversion. Binary event risk this week: MSFT/META/AMZN cloud earnings test AI-capex, which directly drives memory sentiment. High-beta name; a normal pullback could hit the stop. Hard stop 882.42 (-6%).",
+      "addedDate": "2026-07-27"
     }
   ]
 }
