@@ -2,32 +2,32 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10637.55,
-  "tradeDate": "2026-07-27",
-  "lastUpdated": "2026-07-27T11:52:34Z",
-  "nextRefresh": "2026-07-28T06:45:00-05:00",
+  "startingCapital": 10548.81,
+  "tradeDate": "2026-07-28",
+  "lastUpdated": "2026-07-29T02:59:33Z",
+  "nextRefresh": "2026-07-29T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
     "Spot crypto only (BTC, ETH, SOL, and other liquid coins on Robinhood)",
-    "Rotate each 6:45am CT run \u2014 sell yesterday, buy today's best",
-    "Runs every day \u2014 crypto trades 24/7",
+    "Rotate each 6:45am CT run — sell yesterday, buy today's best",
+    "Runs every day — crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 637.55,
+  "priorRealizedPnL": 548.81,
   "positions": [
     {
       "ticker": "BTC",
       "name": "Bitcoin",
       "sector": "Crypto",
       "shares": 0.165097,
-      "entry": 64432.11,
-      "stopPrice": 59277.54,
+      "entry": 63894.6,
+      "stopPrice": 58783.03,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "FOMC (7/28-29) is the dominant near-term catalyst for the whole complex. Into the meeting, BTC is firming (~+1.5% on 7/27 toward ~$65k) with spot BTC ETF net inflows (~$69M on 7/22) and dominance holding ~56.6%. On a low-edge, macro-binary day, BTC pairs the day's cleanest institutional bid with the deepest liquidity and lowest volatility = the best downside protection in the universe.",
-      "driver": "Closed prior BTC at 64432.11 (canonical proxy) for -$2.32 (entry 64446.18, essentially flat). Re-selected BTC as the best risk-adjusted next-24h setup on a fragile, FOMC-risk tape. Wins vs runners-up: ETH (~1884.72) trades as BTC beta and just broke its ETF inflow streak with outflows on 7/24; SOL (~74.91) is the weakest \u2014 near the low of its range with spot SOL ETF outflows and no fresh idiosyncratic catalyst. BTC gives the cleanest asymmetric payoff with an 8% major stop and the strongest downside protection ahead of the Fed.",
-      "risks": "FOMC 7/28-29 is a binary macro risk: a hawkish hold, higher Treasury yields, or renewed tariff/inflation fears could pressure the entire complex; sentiment is fragile and ETF flows have been mixed and could resume bleeding. A break below ~$62.5k would signal the pre-Fed bid is unwinding. Hard stop 59277.54 (-8%, majors rule) caps downside while leaving room below near-term support.",
-      "addedDate": "2026-07-27"
+      "catalyst": "FOMC (7/28-29) is the dominant binary catalyst for the entire complex, and the setup turned more hawkish: CME FedWatch now prices a 35.8% chance of a rate HIKE (up from 25.7% a week ago), the hardest Fed meeting to call in years. Risk appetite is defensive — Crypto Fear & Greed sits in 'fear,' BTC slid ~2.5% from ~$65k toward ~$63.9k and ETH -3.2% at the open. On a low-edge, macro-binary, risk-off day, BTC pairs the deepest liquidity and lowest beta with the best downside protection in the universe.",
+      "driver": "Closed prior BTC at 63894.60 (canonical live proxy, asOf 2026-07-29T02:57Z) for -$88.74 (entry 64432.11). Re-selected BTC as the best risk-adjusted next-24h setup into a hawkish binary FOMC. Wins vs runners-up: ETH (~1909) is firming on a record staking ratio and showed relative strength, but is higher-beta and would be hit hardest on a hawkish surprise; SOL (~73.7) and XRP (~1.08) had only modest weekly inflows and no fresh idiosyncratic catalyst. With hike odds rising, BTC's low beta + 8% major stop gives the cleanest asymmetric payoff with the most downside protection ahead of the Fed.",
+      "risks": "FOMC 7/28-29 is a binary macro risk with rising hike odds (35.8%): a hawkish hold/hike, higher Treasury yields, or renewed inflation/tariff fears could pressure the whole complex; sentiment is already in 'fear' and ETF flows have been mixed. A decisive break below ~$62.5k would signal the pre-Fed bid is unwinding. Hard stop 58783.03 (-8%, majors rule) caps downside while leaving room below near-term support.",
+      "addedDate": "2026-07-28"
     }
   ]
 }
