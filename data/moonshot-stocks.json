@@ -2,10 +2,10 @@
   "bookName": "Moonshot Stocks",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8749.95,
-  "tradeDate": "2026-07-27",
-  "lastUpdated": "2026-07-27T11:41:00Z",
-  "nextRefresh": "2026-07-28T06:35:00-05:00",
+  "startingCapital": 7386.02,
+  "tradeDate": "2026-07-28",
+  "lastUpdated": "2026-07-29T03:01:28Z",
+  "nextRefresh": "2026-07-29T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -14,20 +14,20 @@
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
-  "priorRealizedPnL": -1250.05,
+  "priorRealizedPnL": -2613.98,
   "positions": [
     {
-      "ticker": "MU",
-      "name": "Micron Technology, Inc.",
-      "sector": "Electronic Technology / Semiconductors (Memory)",
-      "shares": 9.320951,
-      "entry": 938.74,
-      "stopPrice": 882.42,
+      "ticker": "STX",
+      "name": "Seagate Technology Holdings plc",
+      "sector": "Electronic Technology / Computer Peripherals (Data Storage)",
+      "shares": 9.629878,
+      "entry": 766.99,
+      "stopPrice": 720.97,
       "exitRule": "Rotate next weekday 6:35am CT run",
-      "catalyst": "Memory super-cycle leadership on a broad risk-on, semis-led tape (Nasdaq 100 +1.6% pre-market July 27). HBM capacity confirmed sold out through 2026 AND 2027; Street models data-center memory pricing +25-40% QoQ into Q3. Standing analyst conviction — KeyBanc OW/$1,750 target and BofA US-1 high-conviction add — reinforces upward direction.",
-      "driver": "Sector momentum + structural HBM scarcity narrative; entry not extended today (~+2% pre-market at 938.74 vs 920.95 close, already off the ~950 pre-market high), leaving room to run while comfortably under the >8-10% no-chase line.",
-      "risks": "Highly extended after ~+20% on the week and +700%+ over 12 months — vulnerable to profit-taking/mean-reversion. Binary event risk this week: MSFT/META/AMZN cloud earnings test AI-capex, which directly drives memory sentiment. High-beta name; a normal pullback could hit the stop. Hard stop 882.42 (-6%).",
-      "addedDate": "2026-07-27"
+      "catalyst": "FQ4'26 (reported 7/28 after close) blowout: adj EPS $5.71 vs $5.09 est on $3.6B revenue (+49% YoY). Blockbuster FY27 guide — CEO Mosley sees FY27 revenue growth OUTPACING FY26 with sequential revenue/margin/cash-flow expansion every quarter. Data-center now ~90% of shipments with capacity largely allocated into calendar 2028 and customers seeking extensions through 2029+. Goldman Sachs reiterated Buy, $960 PT (~25% upside). Stock reversed a sharp regular-session chip-selloff decline and popped in after-hours.",
+      "driver": "Fresh overnight beat-and-raise with a multi-year locked-in-demand narrative (mass-capacity HAMR HDDs for AI data centers). Entry ~766.99 post-market is only ~+2.6% over the 7/28 close of 747.30 and still BELOW the intraday open (777.52) — not extended, comfortably under the >8-10% no-chase line, leaving clear room toward the $960 Street target.",
+      "risks": "Reported into a violent memory/storage sell-off (NAND names like SNDK -25% on 7/28); broad semis/storage sentiment could cap or reverse the AH pop at the open. Rich valuation (P/E ~71, P/B ~153) and up massively off the 52w low (138 -> 767). After-hours print may not hold in regular session. High-beta; a normal pullback could hit the stop. Hard stop 720.97 (-6%).",
+      "addedDate": "2026-07-28"
     }
   ]
 }
