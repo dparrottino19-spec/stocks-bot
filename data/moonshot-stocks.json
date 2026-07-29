@@ -2,10 +2,10 @@
   "bookName": "Moonshot Stocks",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 7386.02,
-  "tradeDate": "2026-07-28",
-  "lastUpdated": "2026-07-29T03:01:28Z",
-  "nextRefresh": "2026-07-29T06:35:00-05:00",
+  "startingCapital": 7636.49,
+  "tradeDate": "2026-07-29",
+  "lastUpdated": "2026-07-29T11:38:31Z",
+  "nextRefresh": "2026-07-30T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -14,20 +14,20 @@
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
-  "priorRealizedPnL": -2613.98,
+  "priorRealizedPnL": -2363.51,
   "positions": [
     {
-      "ticker": "STX",
-      "name": "Seagate Technology Holdings plc",
-      "sector": "Electronic Technology / Computer Peripherals (Data Storage)",
-      "shares": 9.629878,
-      "entry": 766.99,
-      "stopPrice": 720.97,
+      "ticker": "F",
+      "name": "Ford Motor Company",
+      "sector": "Consumer Durables / Automotive",
+      "shares": 483.322152,
+      "entry": 15.80,
+      "stopPrice": 14.85,
       "exitRule": "Rotate next weekday 6:35am CT run",
-      "catalyst": "FQ4'26 (reported 7/28 after close) blowout: adj EPS $5.71 vs $5.09 est on $3.6B revenue (+49% YoY). Blockbuster FY27 guide — CEO Mosley sees FY27 revenue growth OUTPACING FY26 with sequential revenue/margin/cash-flow expansion every quarter. Data-center now ~90% of shipments with capacity largely allocated into calendar 2028 and customers seeking extensions through 2029+. Goldman Sachs reiterated Buy, $960 PT (~25% upside). Stock reversed a sharp regular-session chip-selloff decline and popped in after-hours.",
-      "driver": "Fresh overnight beat-and-raise with a multi-year locked-in-demand narrative (mass-capacity HAMR HDDs for AI data centers). Entry ~766.99 post-market is only ~+2.6% over the 7/28 close of 747.30 and still BELOW the intraday open (777.52) — not extended, comfortably under the >8-10% no-chase line, leaving clear room toward the $960 Street target.",
-      "risks": "Reported into a violent memory/storage sell-off (NAND names like SNDK -25% on 7/28); broad semis/storage sentiment could cap or reverse the AH pop at the open. Rich valuation (P/E ~71, P/B ~153) and up massively off the 52w low (138 -> 767). After-hours print may not hold in regular session. High-beta; a normal pullback could hit the stop. Hard stop 720.97 (-6%).",
-      "addedDate": "2026-07-28"
+      "catalyst": "Q2'26 (reported 7/28 after close) beat-and-raise: adj EPS $0.42 vs $0.35 est; adj EBIT $2.5B vs $2.15B est (5.2% margin, +0.9pp YoY). Ford RAISED full-year 2026 adjusted EBIT guidance to $10B-$11B (from $8.5B-$10.5B) and lifted adjusted FCF target to $6B-$7B (from $5B-$6B), citing pricing, improved product mix and net tariff exposure. Stock jumped ~8% after-hours Tuesday; opened Wed pre-market ~+5.6% at 15.80 (bid 15.77 / ask 15.87, live 11:37-11:38 UTC print).",
+      "driver": "Fresh, confirmed overnight beat-and-raise on a highly liquid mega-cap with a tight spread. Entry 15.80 is +5.6% over the 7/28 close of 14.96 — comfortably below the >8-10% no-chase line and still UNDER the after-hours +8% high, leaving room for post-earnings drift to reclaim/exceed the AH level. Low-beta value name provides strong downside protection vs the choppy semi-driven tape.",
+      "risks": "FOMC rate decision at 2pm ET today — a macro event that can override single-stock moves and whipsaw a rate-sensitive auto/credit name over the 24h hold. Broad tape weak (semiconductor selloff dragging Nasdaq toward correction). Autos are cyclical; slowing unit sales were flagged even as profit beat. Pre-market gaps can fade at the regular open (sell-the-news). Hard stop 14.85 (-6%).",
+      "addedDate": "2026-07-29"
     }
   ]
 }
