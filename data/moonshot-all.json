@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8441.22,
-  "tradeDate": "2026-07-27",
-  "lastUpdated": "2026-07-27T11:45:00Z",
-  "nextRefresh": "2026-07-28T06:30:00-05:00",
+  "startingCapital": 7798.91,
+  "tradeDate": "2026-07-28",
+  "lastUpdated": "2026-07-29T02:58:00Z",
+  "nextRefresh": "2026-07-29T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -1558.78,
+  "priorRealizedPnL": -2201.09,
   "positions": [
     {
-      "ticker": "TQQQ",
-      "name": "ProShares UltraPro QQQ (3x Nasdaq-100)",
-      "sector": "Leveraged ETF — 3x Long Nasdaq-100 (Large-cap Tech)",
-      "shares": 126.687970,
-      "entry": 66.63,
-      "stopPrice": 59.97,
+      "ticker": "FAS",
+      "name": "Direxion Daily Financial Bull 3X",
+      "sector": "Leveraged ETF — 3x Long US Financials",
+      "shares": 43.31284,
+      "entry": 180.06,
+      "stopPrice": 162.05,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Broad risk-on Monday to open the biggest megacap-earnings week of the quarter. Premarket: Nasdaq-100 +1.62%, S&P +0.96%, Dow +1.01%, Russell +1.29%; oil tumbling (macro tailwind). Semiconductor leadership is the standout — memory/HBM surge with SK hynix, Micron (MU +2.0% premkt) and Sandisk rallying; SOXS inverse -6.7% confirms broad semi strength. Amazon, Meta and Microsoft report Wed/Thu and Apple Thu after close — a week of forward catalysts for the Nasdaq megacaps that dominate QQQ.",
-      "driver": "LONG 3x Nasdaq-100. Chose TQQQ over SOXL (3x semis, the higher-octane runner-up) because SOXL was already +6.6% in premarket — approaching the no-chase zone with the highest single-sector concentration/vol — whereas TQQQ at +4.1% premarket is less extended and far broader (holds NVDA/AVGO plus every megacap reporting this week), giving more downside protection for a 100% all-in hold. 3x leverage justified by the strong multi-factor fresh catalyst (broad risk-on breadth + semi memory surge + imminent megacap prints). Also weighed MU 2x single-stock (too concentrated ahead of peers' earnings) and staying in cash (edge is clearly positive today, not a low-edge day). Hard stop 59.97 (-10%, 3x rule).",
-      "risks": "3x daily-reset ETF — decay and gap risk; a risk-off reversal or a single disappointing megacap guide (AMZN/META/MSFT Wed-Thu, AAPL Thu) can whip the Nasdaq and hit 3x exposure three times as hard. All-in single instrument = no diversification. a premarket open-and-fade would erode the gap. Semi leadership is momentum-driven and can rotate. PRICE NOTE: canonical dashboard proxy was FRESH by timestamp (asOf 2026-07-27T11:41:49Z) but its value was Friday's close (TQQQ 64.00) because the regular session was not yet open — a stale-by-value pre-open snapshot. Per the ban on stale/morning prints, and matching how the sibling moonshot-stocks book handled the identical situation today, used the Robinhood real-time premarket quote as price of record: last 66.63 (+4.1% vs Fri close 64.00), asOf 2026-07-27T11:41:44Z. This avoids booking a phantom overnight gap gain.",
-      "addedDate": "2026-07-27"
+      "catalyst": "The 'Great Rotation of 2026' accelerated on Jul 28: money bailing out of high-flying chips/AI into cyclical & value. SOX -6.4%, Nasdaq tech -3.8% (NVDA -5%, SNDK -11%, AMD -5.2%, SK hynix -7.5%) on fears circular AI-financing arrangements unravel if hyperscalers trim capex. Meanwhile Dow +1.0%, and the Financials SPDR (XLF) AND Health Care (XLV) both closed at RECORD HIGHS, led by insurers/banks. Financials are drawing sustained inflows into Q2 bank-earnings season, with falling oil an added macro tailwind.",
+      "driver": "LONG 3x US Financials. Chose FAS over the higher-octane semi trades because the dominant momentum edge is the rotation INTO value, not another chase of the extended semi wreck. SOXS (3x inverse semi) is up ~40% over two down days = deep no-chase zone and a landmine into MSFT/META hyperscaler-capex prints Wed after close (a strong capex guide would violently bounce semis and crush a fresh short). SOXL (3x long semi) is a falling knife into that same binary. FAS rides a broad, funded, multi-factor, multi-week trend (XLF+XLV record highs, bank-earnings inflows, falling oil) with far less single-catalyst binary risk and it is NOT extended in no-chase terms (broad-index ~1%/day => ~3% on FAS). 3x justified by the breadth and durability of the rotation. Also weighed spot BTC (no fresh catalyst; edge is clearly in equities today) and cash (not a low-edge day). Hard stop 162.05 (-10%, 3x rule).",
+      "risks": "3x daily-reset ETF — decay & gap risk, amplified 3x. Key risk: if the semi/AI unwind metastasizes into a broad risk-off, financials get dragged down too and 3x hits hard. MSFT & META report Wed after close and AAPL/AMZN Thu — a market-wide risk sentiment swing from those prints (held through to the Thu 6:30am CT rotation) can gap FAS either way. Rotation trades can reverse if tech snaps back and money rotates BACK into the megacap winners. Financials also sensitive to a sharp rate/curve move. PRICE NOTE: run executed after the Jul 28 cash close; canonical dashboard proxy asOf 2026-07-29T02:56:08Z = 180.06, matching Robinhood official close 180.06 and post-market 180.06 — consistent, real, non-stale. Entry of record 180.06.",
+      "addedDate": "2026-07-28"
     }
   ]
 }
