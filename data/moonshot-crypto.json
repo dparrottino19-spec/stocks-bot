@@ -2,32 +2,32 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10548.81,
-  "tradeDate": "2026-07-28",
-  "lastUpdated": "2026-07-29T02:59:33Z",
-  "nextRefresh": "2026-07-29T06:45:00-05:00",
+  "startingCapital": 10634.72,
+  "tradeDate": "2026-07-29",
+  "lastUpdated": "2026-07-29T11:54:15Z",
+  "nextRefresh": "2026-07-30T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
     "Spot crypto only (BTC, ETH, SOL, and other liquid coins on Robinhood)",
-    "Rotate each 6:45am CT run — sell yesterday, buy today's best",
-    "Runs every day — crypto trades 24/7",
+    "Rotate each 6:45am CT run \u2014 sell yesterday, buy today's best",
+    "Runs every day \u2014 crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 548.81,
+  "priorRealizedPnL": 634.72,
   "positions": [
     {
-      "ticker": "BTC",
-      "name": "Bitcoin",
+      "ticker": "ETH",
+      "name": "Ethereum",
       "sector": "Crypto",
-      "shares": 0.165097,
-      "entry": 63894.6,
-      "stopPrice": 58783.03,
+      "shares": 5.55933,
+      "entry": 1912.95,
+      "stopPrice": 1759.91,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "FOMC (7/28-29) is the dominant binary catalyst for the entire complex, and the setup turned more hawkish: CME FedWatch now prices a 35.8% chance of a rate HIKE (up from 25.7% a week ago), the hardest Fed meeting to call in years. Risk appetite is defensive — Crypto Fear & Greed sits in 'fear,' BTC slid ~2.5% from ~$65k toward ~$63.9k and ETH -3.2% at the open. On a low-edge, macro-binary, risk-off day, BTC pairs the deepest liquidity and lowest beta with the best downside protection in the universe.",
-      "driver": "Closed prior BTC at 63894.60 (canonical live proxy, asOf 2026-07-29T02:57Z) for -$88.74 (entry 64432.11). Re-selected BTC as the best risk-adjusted next-24h setup into a hawkish binary FOMC. Wins vs runners-up: ETH (~1909) is firming on a record staking ratio and showed relative strength, but is higher-beta and would be hit hardest on a hawkish surprise; SOL (~73.7) and XRP (~1.08) had only modest weekly inflows and no fresh idiosyncratic catalyst. With hike odds rising, BTC's low beta + 8% major stop gives the cleanest asymmetric payoff with the most downside protection ahead of the Fed.",
-      "risks": "FOMC 7/28-29 is a binary macro risk with rising hike odds (35.8%): a hawkish hold/hike, higher Treasury yields, or renewed inflation/tariff fears could pressure the whole complex; sentiment is already in 'fear' and ETF flows have been mixed. A decisive break below ~$62.5k would signal the pre-Fed bid is unwinding. Hard stop 58783.03 (-8%, majors rule) caps downside while leaving room below near-term support.",
-      "addedDate": "2026-07-28"
+      "catalyst": "ETH carries the freshest idiosyncratic catalyst stack in the majors: spot Ethereum ETFs just broke an 8-week outflow streak with ~+$337.7M net inflows in July (BlackRock's ETHA leading), the validator exit queue has emptied while the staking ratio hits records, and a recent SEC settlement adds regulatory clarity. That demand pushed ETH ~+3.5-4% to ~$1,913 over the last day while BTC stayed flat near $64.4k \u2014 clear relative strength.",
+      "driver": "Closed prior BTC at 64414.96 (canonical live proxy, asOf 2026-07-29T11:52Z) for +$85.91 (entry 63894.60). Rotated into ETH as the best risk-adjusted next-24h setup: it pairs a real, Fed-independent demand driver (ETF inflow reversal + staking surge + regulatory clarity) with visible relative strength vs a flat BTC. Wins vs runners-up: BTC (~64.4k) is flat with no fresh catalyst; SOL (~73.9) had only modest flows and no idiosyncratic news; re-buying BTC would forgo ETH's momentum and fund-flow tailwind. ETH's asymmetric payoff on a definable 8% stop beats a stale major on a low-edge day.",
+      "risks": "FOMC decision lands today 2:00pm ET (inside the 24h hold): expected hold at 3.50-3.75% but ~35% odds of a HIKE per CME FedWatch. A hawkish surprise or hawkish Warsh presser would hit higher-beta ETH harder than BTC, and ETF inflows can reverse quickly. A decisive break below ~$1,860 would signal the momentum bid is unwinding. Hard stop 1759.91 (-8%) caps downside while leaving room below near-term support ahead of the Fed.",
+      "addedDate": "2026-07-29"
     }
   ]
 }
