@@ -2,32 +2,32 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10634.72,
-  "tradeDate": "2026-07-29",
-  "lastUpdated": "2026-07-29T11:54:15Z",
-  "nextRefresh": "2026-07-30T06:45:00-05:00",
+  "startingCapital": 10681.75,
+  "tradeDate": "2026-07-30",
+  "lastUpdated": "2026-07-30T11:55:00Z",
+  "nextRefresh": "2026-07-31T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
     "Spot crypto only (BTC, ETH, SOL, and other liquid coins on Robinhood)",
-    "Rotate each 6:45am CT run \u2014 sell yesterday, buy today's best",
-    "Runs every day \u2014 crypto trades 24/7",
+    "Rotate each 6:45am CT run — sell yesterday, buy today's best",
+    "Runs every day — crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 634.72,
+  "priorRealizedPnL": 681.75,
   "positions": [
     {
       "ticker": "ETH",
       "name": "Ethereum",
       "sector": "Crypto",
-      "shares": 5.55933,
-      "entry": 1912.95,
-      "stopPrice": 1759.91,
+      "shares": 5.559329,
+      "entry": 1921.41,
+      "stopPrice": 1767.7,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "ETH carries the freshest idiosyncratic catalyst stack in the majors: spot Ethereum ETFs just broke an 8-week outflow streak with ~+$337.7M net inflows in July (BlackRock's ETHA leading), the validator exit queue has emptied while the staking ratio hits records, and a recent SEC settlement adds regulatory clarity. That demand pushed ETH ~+3.5-4% to ~$1,913 over the last day while BTC stayed flat near $64.4k \u2014 clear relative strength.",
-      "driver": "Closed prior BTC at 64414.96 (canonical live proxy, asOf 2026-07-29T11:52Z) for +$85.91 (entry 63894.60). Rotated into ETH as the best risk-adjusted next-24h setup: it pairs a real, Fed-independent demand driver (ETF inflow reversal + staking surge + regulatory clarity) with visible relative strength vs a flat BTC. Wins vs runners-up: BTC (~64.4k) is flat with no fresh catalyst; SOL (~73.9) had only modest flows and no idiosyncratic news; re-buying BTC would forgo ETH's momentum and fund-flow tailwind. ETH's asymmetric payoff on a definable 8% stop beats a stale major on a low-edge day.",
-      "risks": "FOMC decision lands today 2:00pm ET (inside the 24h hold): expected hold at 3.50-3.75% but ~35% odds of a HIKE per CME FedWatch. A hawkish surprise or hawkish Warsh presser would hit higher-beta ETH harder than BTC, and ETF inflows can reverse quickly. A decisive break below ~$1,860 would signal the momentum bid is unwinding. Hard stop 1759.91 (-8%) caps downside while leaving room below near-term support ahead of the Fed.",
-      "addedDate": "2026-07-29"
+      "catalyst": "ETH is the clear beneficiary of an accelerating BTC->altcoin ETF rotation. Bitcoin spot ETFs shed ~3,170 BTC (~$200M) over the 7 days to Jul 28 while Ethereum ETFs extended a 3rd straight week of NET inflows (~37,959 ETH / ~$71M). On Jul 29 Morgan Stanley launched low-cost (0.14%) spot ETH and SOL ETPs WITH staking on NYSE Arca (MSSE/MSOL), a fresh structural demand channel, and the Clarity Act push adds regulatory tailwind. ETH held its bid at ~$1,921 (asOf 2026-07-30T11:52Z) while the broad tape stayed soft — visible relative strength.",
+      "driver": "Closed prior ETH at 1921.41 (canonical live proxy, asOf 2026-07-30T11:52:49Z) for +$47.03 (entry 1912.95). Re-entered ETH as the best risk-adjusted next-24h setup on a low-edge, cautious tape (declining volume, market cap -0.1%/24h). Per strategy, low-edge days favor liquid majors: ETH pairs a durable, Fed-independent demand driver (3-week ETF inflow streak + new Morgan Stanley staking ETP) with the clearest relative strength as the rotation-out-of-BTC beneficiary. Wins vs runners-up: SOL (~74.13) has the freshest single catalyst (MSOL launch, Solflare bridge) but is higher-beta and testing local support in a weak tape — more downside risk; BTC (~64,734) is bleeding ETF flows with no fresh catalyst. ETH's asymmetric payoff on a tight 8% major stop beats a higher-beta alt on a cautious day.",
+      "risks": "Broad crypto sentiment is weak with declining conviction/volume; a risk-off leg or a reversal in the ETH ETF inflow streak would pressure price. ETF-rotation narrative can unwind quickly if BTC dominance reasserts. A decisive break below ~$1,860 would signal the momentum bid is failing. Hard stop 1767.70 (-8%) caps downside while leaving room below near-term support.",
+      "addedDate": "2026-07-30"
     }
   ]
 }
