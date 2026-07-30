@@ -2,32 +2,32 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 7798.91,
-  "tradeDate": "2026-07-29",
-  "lastUpdated": "2026-07-29T11:43:04Z",
-  "nextRefresh": "2026-07-30T06:30:00-05:00",
+  "startingCapital": 7664.87,
+  "tradeDate": "2026-07-30",
+  "lastUpdated": "2026-07-30T11:43:57Z",
+  "nextRefresh": "2026-07-31T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
     "Any liquid asset: stock, crypto, or leveraged/inverse ETF",
-    "Rotate each 6:30am CT run \u2014 sell yesterday, buy today's best",
+    "Rotate each 6:30am CT run — sell yesterday, buy today's best",
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -2201.09,
+  "priorRealizedPnL": -2335.13,
   "positions": [
     {
-      "ticker": "XLF",
-      "name": "Financial Select Sector SPDR ETF",
-      "sector": "Sector ETF \u2014 1x US Financials",
-      "shares": 135.397743,
-      "entry": 57.6,
-      "stopPrice": 54.14,
+      "ticker": "SOXL",
+      "name": "Direxion Daily Semiconductor Bull 3X Shares",
+      "sector": "Leveraged ETF — 3x US Semiconductors",
+      "shares": 77.422929,
+      "entry": 99.0,
+      "stopPrice": 89.1,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "The multi-week 'Great Rotation of 2026' into value/cyclicals remains intact: XLF and XLV closed at RECORD HIGHS on Jul 28, drawing sustained inflows out of extended AI/semis. But Jul 29 is a rare DOUBLE-BINARY overnight: FOMC rate decision midday (Chair Warsh's first-cycle presser) PLUS MSFT + META + QCOM earnings after the close \u2014 all held through tomorrow's 6:30am CT rotation. Banks have already reported, so financials are structurally insulated from tonight's mega-cap TECH prints, and the sector rides a broad, funded trend rather than a single catalyst.",
-      "driver": "LONG 1x US Financials. Deliberately dialed leverage DOWN from yesterday's 3x FAS to 1x XLF. Rationale: this is a high-uncertainty, low-directional-edge day \u2014 a Fed decision I cannot predict (Warsh hawkish tail risk) layered on top of MSFT/META/QCOM after close, both binary and both held overnight. The strategy prizes downside protection on such days. XLF keeps me in the ONE trend that still has a real multi-factor edge (rotation into financials, XLF at record highs, banks done reporting = insulated from tonight's tech binary) while cutting Fed/gap risk to ~1/3 of a 3x vehicle. Chose XLF over: FAS 3x (too much Fed gap amplification on a coin-flip macro print); SOXL/SOXS (falling knife / deep no-chase into MSFT capex binary); spot BTC (no fresh catalyst, still Fed-sensitive); cash (trend still intact, so not a zero-edge day). Unleveraged 6% hard stop 54.14.",
-      "risks": "1x sector ETF \u2014 lower vol, but not risk-free. Key risk: a hawkish Warsh Fed surprise triggers a broad risk-off that drags financials down with everything else. Second risk: a blowout MSFT/META beat sparks a violent SNAP-BACK into megacap tech and OUT of the value/financials rotation, hurting XLF even as tech rallies \u2014 the rotation trade's mirror image. Financials also sensitive to a sharp flattening of the curve. Held through both the Fed print AND after-close tech earnings until the Thu 6:30am CT rotation. PRICE NOTE: pre-market run; canonical dashboard proxy asOf 2026-07-29T11:42:02Z = 57.60, matching Robinhood official close 57.60 and pre-market 57.57 \u2014 consistent, real, non-stale. Entry of record 57.60.",
-      "addedDate": "2026-07-29"
+      "catalyst": "AI-capex acceleration confirmed overnight: MSFT +8.3% pre-market on an Azure blowout, and META RAISED FY capex guidance to $130-145B (from $125-145B). Both hyperscalers spending MORE on AI infrastructure — an unambiguous, non-binary tailwind for the semiconductor supply chain (NVDA, the SOX complex). Fed HELD rates on Jul 29 (uncertainty cleared), and Nasdaq-100 futures lead +1.1%. Semis underlying (SMH) is up a healthy but non-exhausted +2.5% pre-market; SOXL's +7.6% is simply 3x that math, not a blow-off top.",
+      "driver": "LONG 3x US semiconductors. Leverage dialed UP from yesterday's 1x XLF because today has a STRONG FRESH CATALYST (confirmed capex acceleration) rather than a coin-flip macro print — exactly the condition the strategy reserves 3x for. Chose SOXL over: TQQQ 3x QQQ (broader but less pure capex leverage, +3.9% pre-market); NVDA 1x (underlevered +1.6% but single-name idiosyncratic risk); MSFT (catalyst spent, up 8.3% = no-chase); XLF/financials (yesterday's rotation trade broke — XLF fell to 56.68). Underlying SMH +2.5% is not chased; entering the leverage, not an exhausted gap. Hard 10% stop 89.10.",
+      "risks": "3x leveraged ETF — amplified daily moves and decay on chop. PRIMARY RISK: AMZN and AAPL both report after the close TONIGHT (held through tomorrow's 6:30am CT rotation) — a double-binary overnight. A weak AWS/capex print from AMZN could reverse the entire AI-infra complex and gap SOXL down hard at 3x. Secondary: the pre-market semis gap fades intraday; a hawkish-tilt repricing of the Fed hold; single-sector concentration. Mitigant: MSFT/META capex read-through and AWS re-acceleration trend tilt AMZN's print toward CONFIRMING the thesis. PRICE NOTE: dashboard proxy was STALE (asOf 2026-07-29T11:42Z, returning 57.60 for XLF); fell back to Robinhood real-time per rules. SOXL entry 99.00 = RH pre-market last-trade 2026-07-30T11:41:46Z (bid 98.99/ask 99.00), coherent with SMH +2.5%. Non-stale, real.",
+      "addedDate": "2026-07-30"
     }
   ]
 }
