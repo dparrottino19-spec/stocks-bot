@@ -2,10 +2,10 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10681.75,
-  "tradeDate": "2026-07-30",
-  "lastUpdated": "2026-07-30T11:55:00Z",
-  "nextRefresh": "2026-07-31T06:45:00-05:00",
+  "startingCapital": 10473.36,
+  "tradeDate": "2026-07-31",
+  "lastUpdated": "2026-07-31T11:54:08Z",
+  "nextRefresh": "2026-08-01T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Runs every day — crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 681.75,
+  "priorRealizedPnL": 473.36,
   "positions": [
     {
-      "ticker": "ETH",
-      "name": "Ethereum",
+      "ticker": "SOL",
+      "name": "Solana",
       "sector": "Crypto",
-      "shares": 5.559329,
-      "entry": 1921.41,
-      "stopPrice": 1767.7,
+      "shares": 121.275591,
+      "entry": 86.36,
+      "stopPrice": 77.72,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "ETH is the clear beneficiary of an accelerating BTC->altcoin ETF rotation. Bitcoin spot ETFs shed ~3,170 BTC (~$200M) over the 7 days to Jul 28 while Ethereum ETFs extended a 3rd straight week of NET inflows (~37,959 ETH / ~$71M). On Jul 29 Morgan Stanley launched low-cost (0.14%) spot ETH and SOL ETPs WITH staking on NYSE Arca (MSSE/MSOL), a fresh structural demand channel, and the Clarity Act push adds regulatory tailwind. ETH held its bid at ~$1,921 (asOf 2026-07-30T11:52Z) while the broad tape stayed soft — visible relative strength.",
-      "driver": "Closed prior ETH at 1921.41 (canonical live proxy, asOf 2026-07-30T11:52:49Z) for +$47.03 (entry 1912.95). Re-entered ETH as the best risk-adjusted next-24h setup on a low-edge, cautious tape (declining volume, market cap -0.1%/24h). Per strategy, low-edge days favor liquid majors: ETH pairs a durable, Fed-independent demand driver (3-week ETF inflow streak + new Morgan Stanley staking ETP) with the clearest relative strength as the rotation-out-of-BTC beneficiary. Wins vs runners-up: SOL (~74.13) has the freshest single catalyst (MSOL launch, Solflare bridge) but is higher-beta and testing local support in a weak tape — more downside risk; BTC (~64,734) is bleeding ETF flows with no fresh catalyst. ETH's asymmetric payoff on a tight 8% major stop beats a higher-beta alt on a cautious day.",
-      "risks": "Broad crypto sentiment is weak with declining conviction/volume; a risk-off leg or a reversal in the ETH ETF inflow streak would pressure price. ETF-rotation narrative can unwind quickly if BTC dominance reasserts. A decisive break below ~$1,860 would signal the momentum bid is failing. Hard stop 1767.70 (-8%) caps downside while leaving room below near-term support.",
-      "addedDate": "2026-07-30"
+      "catalyst": "SOL is decisively decoupling from a weak BTC tape on a structural ETF-demand story. Spot Solana ETFs have posted NET INFLOWS on every single trading day in July 2026 (BSOL cumulative ~$1.14B) while spot Bitcoin ETFs bled ~$8.2B across an 8-week outflow streak and Ethereum funds joined them in the red. Overnight SOL broke out ~+16.5% to $86.36 (Coinbase live, NOW 2026-07-31T11:54Z) while BTC fell to ~$59,978 (-7.3% d/d) and ETH slipped to ~$1,884 (-2% d/d) — a stark, quantifiable relative-strength divergence. The Alpenglow consensus upgrade (targeting sub-150ms finality, expected activation Q3) plus recent Grayscale staking-ETF fee cuts and the Morgan Stanley MSOL staking ETP add a durable, multi-week catalyst stack.",
+      "driver": "Closed prior ETH at 1883.925 (Coinbase live proxy after dashboard feed froze at yesterday's asOf) for -$208.39 (entry 1921.41). Rotated into SOL as the single best asymmetric next-24h setup: it is the only major showing fresh catalyst + momentum + clear relative strength simultaneously. Wins vs runners-up: BTC (~59,978) is in an active ETF-outflow bleed with no fresh catalyst and just broke lower — pure downside; ETH (~1,884) has lost its earlier inflow edge as ETH funds turned red alongside BTC, leaving it soft with no differentiated driver. SOL's persistent daily ETF inflows and Alpenglow runway give a definable, catalyst-backed uptrend to lean on, and a 10% stop on a higher-beta alt keeps the payoff asymmetric even after the overnight run.",
+      "risks": "SOL just ran ~+16.5% overnight, so a mean-reversion pullback is the primary near-term risk; an intraday give-back of the breakout is plausible. Broad risk-off led by BTC's weakness could drag SOL lower despite its independent ETF bid, and any single-day break in the SOL ETF inflow streak would remove the core thesis. A decisive loss of the ~$80 breakout shelf would signal the momentum bid is failing. Hard stop 77.72 (-10%) caps downside below that shelf while leaving room for normal high-beta chop.",
+      "addedDate": "2026-07-31"
     }
   ]
 }
