@@ -2,32 +2,32 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 7664.87,
-  "tradeDate": "2026-07-30",
-  "lastUpdated": "2026-07-30T11:43:57Z",
-  "nextRefresh": "2026-07-31T06:30:00-05:00",
+  "startingCapital": 9861.36,
+  "tradeDate": "2026-07-31",
+  "lastUpdated": "2026-07-31T11:43:00Z",
+  "nextRefresh": "2026-08-01T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
     "Any liquid asset: stock, crypto, or leveraged/inverse ETF",
-    "Rotate each 6:30am CT run — sell yesterday, buy today's best",
+    "Rotate each 6:30am CT run \u2014 sell yesterday, buy today's best",
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -2335.13,
+  "priorRealizedPnL": -138.64,
   "positions": [
     {
-      "ticker": "SOXL",
-      "name": "Direxion Daily Semiconductor Bull 3X Shares",
-      "sector": "Leveraged ETF — 3x US Semiconductors",
-      "shares": 77.422929,
-      "entry": 99.0,
-      "stopPrice": 89.1,
+      "ticker": "MU",
+      "name": "Micron Technology",
+      "sector": "Electronic Technology \u2014 HBM/DRAM Memory",
+      "shares": 10.777443,
+      "entry": 915.0,
+      "stopPrice": 860.1,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "AI-capex acceleration confirmed overnight: MSFT +8.3% pre-market on an Azure blowout, and META RAISED FY capex guidance to $130-145B (from $125-145B). Both hyperscalers spending MORE on AI infrastructure — an unambiguous, non-binary tailwind for the semiconductor supply chain (NVDA, the SOX complex). Fed HELD rates on Jul 29 (uncertainty cleared), and Nasdaq-100 futures lead +1.1%. Semis underlying (SMH) is up a healthy but non-exhausted +2.5% pre-market; SOXL's +7.6% is simply 3x that math, not a blow-off top.",
-      "driver": "LONG 3x US semiconductors. Leverage dialed UP from yesterday's 1x XLF because today has a STRONG FRESH CATALYST (confirmed capex acceleration) rather than a coin-flip macro print — exactly the condition the strategy reserves 3x for. Chose SOXL over: TQQQ 3x QQQ (broader but less pure capex leverage, +3.9% pre-market); NVDA 1x (underlevered +1.6% but single-name idiosyncratic risk); MSFT (catalyst spent, up 8.3% = no-chase); XLF/financials (yesterday's rotation trade broke — XLF fell to 56.68). Underlying SMH +2.5% is not chased; entering the leverage, not an exhausted gap. Hard 10% stop 89.10.",
-      "risks": "3x leveraged ETF — amplified daily moves and decay on chop. PRIMARY RISK: AMZN and AAPL both report after the close TONIGHT (held through tomorrow's 6:30am CT rotation) — a double-binary overnight. A weak AWS/capex print from AMZN could reverse the entire AI-infra complex and gap SOXL down hard at 3x. Secondary: the pre-market semis gap fades intraday; a hawkish-tilt repricing of the Fed hold; single-sector concentration. Mitigant: MSFT/META capex read-through and AWS re-acceleration trend tilt AMZN's print toward CONFIRMING the thesis. PRICE NOTE: dashboard proxy was STALE (asOf 2026-07-29T11:42Z, returning 57.60 for XLF); fell back to Robinhood real-time per rules. SOXL entry 99.00 = RH pre-market last-trade 2026-07-30T11:41:46Z (bid 98.99/ask 99.00), coherent with SMH +2.5%. Non-stale, real.",
-      "addedDate": "2026-07-30"
+      "catalyst": "AI-capex blowout confirmed: AMZN +11-13% pre-market on a strong AWS/cloud-AI print (following MSFT Azure beat and META/MSFT raised capex). All that hyperscaler spend funnels into high-bandwidth memory (HBM) \u2014 the single most supply-constrained node in the AI stack. SK hynix +5.7% and MU +4.6% pre-market confirm the memory super-cycle; demand described as 'insatiable.' MU is the cleanest US-listed HBM beneficiary and, unlike the chased vehicles, has room left to run.",
+      "driver": "LONG 1x MU (unleveraged, single large-cap). Chose deliberate 1x over leverage today because the leveraged/broad vehicles are ALL chased above the no-chase threshold: SOXL 3x semis +11%, AMZN +11%, and even the 2x MU bull ETF (MUU) already +8.75%. MU itself at +4.6% pre-market is NOT chased, giving a cleaner asymmetric entry with the most downside protection (no decay, hard 6% stop). Best risk-adjusted next-24h move: strong fresh multi-quarter catalyst, un-exhausted gap, capped downside. Runners-up: MUU 2x MU (passed \u2014 +8.75% borderline chase + leverage decay), SOXL/AMZN (chased +11% gaps), AAPL short (passed \u2014 chasing a -7% China-miss down-gap that may not persist).",
+      "risks": "Single-name concentration; a memory-cycle or AI-capex narrative wobble hits MU directly. Pre-market +4.6% gap could fade intraday. Broader tape risk: AAPL -7% is a Nasdaq drag; a hawkish macro repricing could pressure high-multiple semis. Mitigant: HBM demand is contract/capacity-driven (multi-quarter visibility), not a one-print event, and MU is the least-chased way to express it. PRICE NOTE: dashboard proxy was STALE in pre-market (asOf 2026-07-31T11:40Z but returned 114.72 for SOXL = yesterday's official close, marketState null); fell back to Robinhood real-time per rules. MU entry 915.00 = RH real-time last-trade 2026-07-31T11:41:50Z (bid 915.00/ask 915.75). Non-stale, real.",
+      "addedDate": "2026-07-31"
     }
   ]
 }
