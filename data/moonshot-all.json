@@ -2,32 +2,32 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 9861.36,
-  "tradeDate": "2026-07-31",
-  "lastUpdated": "2026-07-31T11:43:00Z",
-  "nextRefresh": "2026-08-01T06:30:00-05:00",
+  "startingCapital": 8870.16,
+  "tradeDate": "2026-08-01",
+  "lastUpdated": "2026-08-01T11:42:09Z",
+  "nextRefresh": "2026-08-02T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
     "Any liquid asset: stock, crypto, or leveraged/inverse ETF",
-    "Rotate each 6:30am CT run \u2014 sell yesterday, buy today's best",
+    "Rotate each 6:30am CT run — sell yesterday, buy today's best",
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -138.64,
+  "priorRealizedPnL": -1129.84,
   "positions": [
     {
-      "ticker": "MU",
-      "name": "Micron Technology",
-      "sector": "Electronic Technology \u2014 HBM/DRAM Memory",
-      "shares": 10.777443,
-      "entry": 915.0,
-      "stopPrice": 860.1,
+      "ticker": "BTC-USD",
+      "name": "Bitcoin",
+      "sector": "Cryptocurrency — Large-cap / Store-of-value",
+      "shares": 0.140772,
+      "entry": 63010.94,
+      "stopPrice": 56709.85,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "AI-capex blowout confirmed: AMZN +11-13% pre-market on a strong AWS/cloud-AI print (following MSFT Azure beat and META/MSFT raised capex). All that hyperscaler spend funnels into high-bandwidth memory (HBM) \u2014 the single most supply-constrained node in the AI stack. SK hynix +5.7% and MU +4.6% pre-market confirm the memory super-cycle; demand described as 'insatiable.' MU is the cleanest US-listed HBM beneficiary and, unlike the chased vehicles, has room left to run.",
-      "driver": "LONG 1x MU (unleveraged, single large-cap). Chose deliberate 1x over leverage today because the leveraged/broad vehicles are ALL chased above the no-chase threshold: SOXL 3x semis +11%, AMZN +11%, and even the 2x MU bull ETF (MUU) already +8.75%. MU itself at +4.6% pre-market is NOT chased, giving a cleaner asymmetric entry with the most downside protection (no decay, hard 6% stop). Best risk-adjusted next-24h move: strong fresh multi-quarter catalyst, un-exhausted gap, capped downside. Runners-up: MUU 2x MU (passed \u2014 +8.75% borderline chase + leverage decay), SOXL/AMZN (chased +11% gaps), AAPL short (passed \u2014 chasing a -7% China-miss down-gap that may not persist).",
-      "risks": "Single-name concentration; a memory-cycle or AI-capex narrative wobble hits MU directly. Pre-market +4.6% gap could fade intraday. Broader tape risk: AAPL -7% is a Nasdaq drag; a hawkish macro repricing could pressure high-multiple semis. Mitigant: HBM demand is contract/capacity-driven (multi-quarter visibility), not a one-print event, and MU is the least-chased way to express it. PRICE NOTE: dashboard proxy was STALE in pre-market (asOf 2026-07-31T11:40Z but returned 114.72 for SOXL = yesterday's official close, marketState null); fell back to Robinhood real-time per rules. MU entry 915.00 = RH real-time last-trade 2026-07-31T11:41:50Z (bid 915.00/ask 915.75). Non-stale, real.",
-      "addedDate": "2026-07-31"
+      "catalyst": "Saturday — US equity/ETF markets closed, so spot crypto is the only tradable universe. Tape is risk-off into the weekend: BTC has slipped below $64k on renewed US-Iran tensions and a Fed hold, with ~$527M of BTC spot-ETF outflows and a broad crypto pullback (SOL -2.5%, ETH capped at resistance). Rather than a fresh bullish catalyst, the setup is volatility compression: BTC is consolidating in a tight range near the lower boundary of its channel, coiling for a directional break. Long spot BTC is the most downside-protected way to hold exposure over a 24h window where the next move is more likely a mean-revert bounce off support than a fresh leg down.",
+      "driver": "LONG spot BTC-USD (unleveraged, 100% capital). Weekend rules forbid leveraged/equity vehicles, so the choice is among spot BTC/ETH/SOL. Picked BTC as the lowest-vol, highest-liquidity, most-downside-protected instrument on a low-edge risk-off day — exactly the 'park in lower-vol/spot' mandate. BTC has the deepest bid and the least idiosyncratic headwind: SOL carries a live DeFi-slowdown narrative and ETH is pinned under resistance, both higher-beta into a weak tape. No leverage today because there is no fresh catalyst to justify it and downside protection is the priority; hard 10% spot-crypto stop caps the loss. Runners-up: ETH (passed — stuck below key resistance, higher beta), SOL (passed — DeFi-slowdown headwind + -2.5% weakness makes long the wrong side).",
+      "risks": "Directional risk into a risk-off weekend: if US-Iran tensions escalate or ETF-outflow selling continues, BTC can break the lower channel and trip the stop. Crypto trades 24/7, so a weekend liquidity air-pocket can gap through the 56,709.85 stop before rotation. Mitigant: BTC is the least volatile major, spot avoids leverage decay, and the position sits near support where risk/reward favors a bounce. PRICE NOTE: entry 63010.94 = dashboard canonical proxy for BTC-USD, asOf 2026-08-01T11:40:45Z (within minutes of run time NOW 11:42Z); consistent with WebSearch narrative putting BTC ~$62.9k, and RH-scale cross-checks. Non-stale, real.",
+      "addedDate": "2026-08-01"
     }
   ]
 }
