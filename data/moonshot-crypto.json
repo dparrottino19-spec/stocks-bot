@@ -2,10 +2,10 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10347.53,
-  "tradeDate": "2026-08-01",
-  "lastUpdated": "2026-08-01T11:59:06Z",
-  "nextRefresh": "2026-08-02T06:45:00-05:00",
+  "startingCapital": 10377.38,
+  "tradeDate": "2026-08-02",
+  "lastUpdated": "2026-08-02T11:54:15Z",
+  "nextRefresh": "2026-08-03T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Runs every day — crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 347.53,
+  "priorRealizedPnL": 377.38,
   "positions": [
     {
       "ticker": "SOL",
       "name": "Solana",
       "sector": "Crypto",
-      "shares": 142.136401,
-      "entry": 72.8,
-      "stopPrice": 65.52,
+      "shares": 142.13642,
+      "entry": 73.01,
+      "stopPrice": 65.71,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "SOL remains the only major with a differentiated positive catalyst: spot Solana ETFs keep posting net inflows (cumulative >$1.12B since launch; a recent 7-day streak ~$39M) even as spot BTC funds stay in an outflow regime, and on-chain demand is visible in fresh whale accumulation (a dormant wallet reactivated to buy ~67,648 SOL/~$6.2M). Infrastructure runway is intact (Firedancer at ~207 validators; Alpenglow sub-150ms finality on the runway). On a broad risk-off tape (renewed US-Iran tensions + Fed on hold) SOL is down ~2.5% on the day vs BTC ~-3.25% / ETH ~-3.2% — modest but real relative strength from its independent flow bid. Canonical price 72.80 (dashboard Yahoo feed, asOf 2026-08-01T11:57:42Z).",
-      "driver": "Closed prior SOL at 72.80 (canonical dashboard feed) for -115.13 (entry 73.61); SOL was ~flat/soft vs entry as the whole tape sold off. Re-selected SOL as the best risk-adjusted next-24h pick: it is the only major carrying an active idiosyncratic catalyst (persistent spot-ETF inflows + whale accumulation + Firedancer/Alpenglow) AND it is outperforming on the down day (-2.5% vs BTC/ETH ~-3.2%). Wins vs runners-up: BTC (~63,016) is the max-downside-protection major but sits mid ETF-outflow with no fresh catalyst; ETH (~1,865) is soft with no differentiated driver. Close & re-entry are on the SAME canonical basis (72.80) so this is a clean rotation-in-place with no phantom P&L. DATA NOTE: the dashboard proxy served stale CDN shards on first pulls (asOf 07-19/07-26/07-31); a cache-busted request returned fresh data asOf 2026-08-01T11:57:42Z matching the moonshot-all run (BTC 63,010 @ 11:40) and the news tape. Third-party exchange prints (Kraken SOL ~97, Coinbase SOL ~86) were rejected as spurious outliers vs the canonical ~72.8. 10% stop keeps the higher-beta payoff asymmetric.",
-      "risks": "Thesis is catalyst/flow-dependent, not a momentum breakout: any single-day break in the ETF-inflow streak removes SOL's core edge. A deepening risk-off (further Iran escalation, accelerating BTC ETF outflows) can drag high-beta SOL down despite its independent bid; a decisive loss of the ~$70 shelf would signal the flow bid is failing. Hard stop 65.52 (-10%) caps downside while leaving room for normal alt chop.",
-      "addedDate": "2026-08-01"
+      "catalyst": "SOL is the momentum AND flow leader into today's session. On a broadly green risk-on tape (BTC +~0.8%/day, +3.35%/week; CMC20 +0.96%/day), SOL is leading the majors (~+5% on the week) and has reclaimed its breakout shelf out of a multi-week consolidation. The idiosyncratic edge is intact and strengthening: spot Solana ETFs logged positive inflows on EVERY July trading day and added ~$33M last week (cumulative approaching $1B) while Ethereum spot ETFs just printed a $75.9M net outflow that snapped a 10-day inflow streak. Ecosystem prints confirm real demand — Solana perp DEXs set a new quarterly record of $183B volume and Circle minted a fresh $250M USDC batch on Solana (liquidity tailwind). Canonical price 73.01 (dashboard Yahoo feed, asOf 2026-08-02T11:53:13Z).",
+      "driver": "Closed prior SOL at 73.01 (canonical dashboard feed) for +29.85 (entry 72.80) — SOL ground higher into a green tape. Re-selected SOL as the best risk-adjusted next-24h pick: unlike yesterday's risk-off hold on relative strength, today SOL carries BOTH an active idiosyncratic catalyst (uninterrupted ETF-inflow streak + $183B perp-DEX record + $250M USDC mint) AND positive momentum as the week's leading major on a risk-on session. Wins vs runners-up: BTC (~63,040) is the max-downside-protection major but sits down YTD with no fresh catalyst; ETH (~1,852) just snapped its 10-day ETF-inflow streak with a $75.9M outflow — an active near-term headwind despite its YTD leadership. Close & re-entry are on the SAME canonical basis (73.01) so this is a clean rotation-in-place with no phantom P&L. 10% stop keeps the higher-beta payoff asymmetric.",
+      "risks": "Momentum + flow thesis is flow-dependent: a single break in the SOL ETF-inflow streak, or a rotation of speculative flow back toward BTC/ETH, removes the core edge. High-beta SOL will underperform if the broad tape flips risk-off; a decisive loss of the ~$70 shelf would signal the breakout has failed. Hard stop 65.71 (-10%) caps downside while leaving room for normal alt chop.",
+      "addedDate": "2026-08-02"
     }
   ]
 }
