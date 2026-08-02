@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8870.16,
-  "tradeDate": "2026-08-01",
-  "lastUpdated": "2026-08-01T11:42:09Z",
-  "nextRefresh": "2026-08-02T06:30:00-05:00",
+  "startingCapital": 8884.03,
+  "tradeDate": "2026-08-02",
+  "lastUpdated": "2026-08-02T11:42:19Z",
+  "nextRefresh": "2026-08-03T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -1129.84,
+  "priorRealizedPnL": -1115.97,
   "positions": [
     {
       "ticker": "BTC-USD",
       "name": "Bitcoin",
       "sector": "Cryptocurrency — Large-cap / Store-of-value",
       "shares": 0.140772,
-      "entry": 63010.94,
-      "stopPrice": 56709.85,
+      "entry": 63109.44,
+      "stopPrice": 56798.5,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Saturday — US equity/ETF markets closed, so spot crypto is the only tradable universe. Tape is risk-off into the weekend: BTC has slipped below $64k on renewed US-Iran tensions and a Fed hold, with ~$527M of BTC spot-ETF outflows and a broad crypto pullback (SOL -2.5%, ETH capped at resistance). Rather than a fresh bullish catalyst, the setup is volatility compression: BTC is consolidating in a tight range near the lower boundary of its channel, coiling for a directional break. Long spot BTC is the most downside-protected way to hold exposure over a 24h window where the next move is more likely a mean-revert bounce off support than a fresh leg down.",
-      "driver": "LONG spot BTC-USD (unleveraged, 100% capital). Weekend rules forbid leveraged/equity vehicles, so the choice is among spot BTC/ETH/SOL. Picked BTC as the lowest-vol, highest-liquidity, most-downside-protected instrument on a low-edge risk-off day — exactly the 'park in lower-vol/spot' mandate. BTC has the deepest bid and the least idiosyncratic headwind: SOL carries a live DeFi-slowdown narrative and ETH is pinned under resistance, both higher-beta into a weak tape. No leverage today because there is no fresh catalyst to justify it and downside protection is the priority; hard 10% spot-crypto stop caps the loss. Runners-up: ETH (passed — stuck below key resistance, higher beta), SOL (passed — DeFi-slowdown headwind + -2.5% weakness makes long the wrong side).",
-      "risks": "Directional risk into a risk-off weekend: if US-Iran tensions escalate or ETF-outflow selling continues, BTC can break the lower channel and trip the stop. Crypto trades 24/7, so a weekend liquidity air-pocket can gap through the 56,709.85 stop before rotation. Mitigant: BTC is the least volatile major, spot avoids leverage decay, and the position sits near support where risk/reward favors a bounce. PRICE NOTE: entry 63010.94 = dashboard canonical proxy for BTC-USD, asOf 2026-08-01T11:40:45Z (within minutes of run time NOW 11:42Z); consistent with WebSearch narrative putting BTC ~$62.9k, and RH-scale cross-checks. Non-stale, real.",
-      "addedDate": "2026-08-01"
+      "catalyst": "Sunday — US equity/ETF markets closed, so spot crypto is the only tradable universe. Tape is mildly constructive: BTC rebounded off the ~$59k area as buyers stepped in, recovering toward $63k, though weekly declines across majors remain notable and crypto has not tracked the AI-equity bid. No fresh single-name catalyst over the weekend; the setup is a bounce-off-support consolidation rather than a breakout. Long spot BTC is the most downside-protected way to hold 24h exposure while the market coils.",
+      "driver": "LONG spot BTC-USD (unleveraged, 100% capital). Weekend rules forbid leveraged/equity vehicles, so the choice is among spot BTC/ETH/SOL. Re-selected BTC as the lowest-vol, deepest-liquidity, most-downside-protected instrument on a low-edge weekend — exactly the 'park in lower-vol/spot' mandate — after it rebounded off ~$59k support with buyers stepping in. No leverage available/warranted with no fresh catalyst; hard 10% spot stop caps loss. Runners-up: SOL (passed — strongest forward catalyst stack via spot-SOL-ETF inflows >$1B + Firedancer/Alpenglow, but higher beta into a still-weak weekly tape, so more downside risk); ETH (passed — higher beta, pinned near resistance, no fresh edge).",
+      "risks": "Directional risk into an uncertain weekend: crypto trades 24/7, so a weekend liquidity air-pocket or renewed macro/geopolitical headline can gap BTC back toward — and through — the 56798.50 stop before Monday rotation. Weekly trend is still soft, so the bounce could fail. Mitigant: BTC is the least volatile major, spot avoids leverage decay, and the position sits above reclaimed support where risk/reward favors continuation of the bounce. PRICE NOTE: entry 63109.44 = dashboard canonical proxy for BTC-USD, asOf 2026-08-02T11:40:49Z (within minutes of run time NOW 2026-08-02T11:42:19Z); consistent with WebSearch narrative (BTC rebounded off ~$59k toward $63k). Non-stale, real.",
+      "addedDate": "2026-08-02"
     }
   ]
 }
