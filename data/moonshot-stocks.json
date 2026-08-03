@@ -2,10 +2,10 @@
   "bookName": "Moonshot Stocks",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8338.36,
-  "tradeDate": "2026-07-31",
-  "lastUpdated": "2026-07-31T11:39:12Z",
-  "nextRefresh": "2026-08-03T06:35:00-05:00",
+  "startingCapital": 7786.18,
+  "tradeDate": "2026-08-03",
+  "lastUpdated": "2026-08-03T15:44:55Z",
+  "nextRefresh": "2026-08-04T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -14,20 +14,20 @@
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
-  "priorRealizedPnL": -1661.64,
+  "priorRealizedPnL": -2213.82,
   "positions": [
     {
-      "ticker": "MGA",
-      "name": "Magna International Inc.",
-      "sector": "Consumer Discretionary / Auto Parts",
-      "shares": 113.617114,
-      "entry": 73.39,
-      "stopPrice": 68.99,
+      "ticker": "BABA",
+      "name": "Alibaba Group Holding Ltd (ADR)",
+      "sector": "Communication Services / China Internet & AI",
+      "shares": 60.329924,
+      "entry": 129.06,
+      "stopPrice": 121.32,
       "exitRule": "Rotate next weekday 6:35am CT run",
-      "catalyst": "Q2'26 (reported 7/31 AM) beat + RAISED FY26 outlook: record Q2 adj EPS +29% to $1.86 vs $1.51 est; sales $11.0B (+3% y/y); adj EBIT +16% to $677M, margin +70bps to 6.2%; FCF more than doubled to $617M. Raised FY26 adj EPS to $6.70-$7.30 (from $6.25-$7.25) and lifted adj EBIT margin & FCF outlook; $598M returned to shareholders in the quarter. Live pre-market last print 73.39 (bid 70.00/ask 75.00, 11:14 UTC) vs the 7/30 close of 69.85 (+5.1%).",
-      "driver": "Clean beat-and-raise with expanding margins, doubling free cash flow and active capital returns — a fundamentally-driven move rather than a hype spike. Entry 73.39 is only +5.1% over prior close, well below the >8-10% no-chase line, leaving room to run. Chose MGA over NVT (a superior AI-data-center beat-and-raise story) precisely because NVT was up +9.8% at an all-time high — inside the no-chase band — and going 100% all-in on an extended gapper conflicts with this book's downside-protection mandate. Definable stop 68.99 sits just under the 7/30 unchanged line / gap base.",
-      "risks": "Auto supplier — cyclical, tariff- and FX-sensitive, thin ~6% EBIT margins; volume tied to OEM production schedules that can soften. Thin/wide pre-market quote (70.00/75.00) means the open could reprice below the 73.39 print (sell-the-news gap-fade risk). Broad tape choppy after Meta -9% and mixed mega-cap tech earnings. Hard stop 68.99 (-6%).",
-      "addedDate": "2026-07-31"
+      "catalyst": "Alibaba unveiled Qwen3.8-Max, which it calls its largest and most capable AI model to date, reinforcing its lead in China AI and cloud. BABA gapped to a live 129.06 (Robinhood real-time 15:41:56Z; dashboard 128.94 asOf 15:43:05Z) vs the 7/31 close of 122.25 — about +5.6%, below the >8-10% no-chase line, leaving room to run.",
+      "driver": "Fresh, genuine product catalyst (flagship AI model) on a mega-cap ADR with deep liquidity, still below the no-chase band with a definable stop. Chose BABA over FERG (+8.3%, inside the no-chase band — rejecting an extended gapper is consistent with this book's downside-protection mandate and last run's rejection of NVT at +9.8%) and over the day's M&A takeouts (ATKR $95, BOW, ITGR $127, LNTH up to $114.50) whose fixed cash deal prices cap upside to ~0. Stop 121.32 sits just below the 122.25 gap base / prior close.",
+      "risks": "Chinese ADR — unhedgeable overnight regulatory/geopolitical headline tail on a 100% all-in 24h hold; AI-launch enthusiasm can fade intraday; broad tape rotating out of mega-cap tech into small-caps/industrials today (oil -6%, IWM +1.3%). Hard stop 121.32 (-6%).",
+      "addedDate": "2026-08-03"
     }
   ]
 }
