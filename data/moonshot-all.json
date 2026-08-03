@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8884.03,
-  "tradeDate": "2026-08-02",
-  "lastUpdated": "2026-08-02T11:42:19Z",
-  "nextRefresh": "2026-08-03T06:30:00-05:00",
+  "startingCapital": 8982.94,
+  "tradeDate": "2026-08-03",
+  "lastUpdated": "2026-08-03T15:42:00Z",
+  "nextRefresh": "2026-08-04T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -1115.97,
+  "priorRealizedPnL": -1017.06,
   "positions": [
     {
-      "ticker": "BTC-USD",
-      "name": "Bitcoin",
-      "sector": "Cryptocurrency — Large-cap / Store-of-value",
-      "shares": 0.140772,
-      "entry": 63109.44,
-      "stopPrice": 56798.5,
+      "ticker": "TNA",
+      "name": "Direxion Daily Small Cap Bull 3X",
+      "sector": "Leveraged ETF — 3x Long Russell 2000 (Small-cap)",
+      "shares": 127.075117,
+      "entry": 70.69,
+      "stopPrice": 63.62,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Sunday — US equity/ETF markets closed, so spot crypto is the only tradable universe. Tape is mildly constructive: BTC rebounded off the ~$59k area as buyers stepped in, recovering toward $63k, though weekly declines across majors remain notable and crypto has not tracked the AI-equity bid. No fresh single-name catalyst over the weekend; the setup is a bounce-off-support consolidation rather than a breakout. Long spot BTC is the most downside-protected way to hold 24h exposure while the market coils.",
-      "driver": "LONG spot BTC-USD (unleveraged, 100% capital). Weekend rules forbid leveraged/equity vehicles, so the choice is among spot BTC/ETH/SOL. Re-selected BTC as the lowest-vol, deepest-liquidity, most-downside-protected instrument on a low-edge weekend — exactly the 'park in lower-vol/spot' mandate — after it rebounded off ~$59k support with buyers stepping in. No leverage available/warranted with no fresh catalyst; hard 10% spot stop caps loss. Runners-up: SOL (passed — strongest forward catalyst stack via spot-SOL-ETF inflows >$1B + Firedancer/Alpenglow, but higher beta into a still-weak weekly tape, so more downside risk); ETH (passed — higher beta, pinned near resistance, no fresh edge).",
-      "risks": "Directional risk into an uncertain weekend: crypto trades 24/7, so a weekend liquidity air-pocket or renewed macro/geopolitical headline can gap BTC back toward — and through — the 56798.50 stop before Monday rotation. Weekly trend is still soft, so the bounce could fail. Mitigant: BTC is the least volatile major, spot avoids leverage decay, and the position sits above reclaimed support where risk/reward favors continuation of the bounce. PRICE NOTE: entry 63109.44 = dashboard canonical proxy for BTC-USD, asOf 2026-08-02T11:40:49Z (within minutes of run time NOW 2026-08-02T11:42:19Z); consistent with WebSearch narrative (BTC rebounded off ~$59k toward $63k). Non-stale, real.",
-      "addedDate": "2026-08-02"
+      "catalyst": "Broad risk-on rotation to open August: crude oil down ~6% on renewed US-Iran talks/easing tensions, a cooler Treasury tape (yields lower), and decisively strong breadth with small-caps and blue-chip industrials leading the 'catch-up' trade. IWM (Russell 2000) +1.34% intraday and outrunning a muted mega-cap tech tape. This is a multi-factor macro tailwind (lower oil + lower rates + broad participation), not a single binary event, so the leadership group has room to extend into the next 24h.",
+      "driver": "LONG TNA (3x Russell 2000), 100% capital. Small-caps are the day's clear leadership and are the most rate-/oil-sensitive cohort — exactly the group that benefits most from a 6% oil drop and a cooler rates read, giving a genuine fresh multi-factor catalyst that justifies 3x leverage. Chose TNA over SPXL (3x S&P, +0.57% — broader but far less momentum; S&P dragged by muted tech) because the leadership and the macro sensitivity both point to small caps. Entry 70.69 is only ~4% up on the day (IWM +1.34%), so not chasing an extended gap. Hard 10% stop (63.62) caps a 3x drawdown. Runners-up: SPXL (passed — less momentum, tech-muted index); BMY (passed — +3% on FT report of AstraZeneca merger talks, but a single unconfirmed headline that could reverse on denial, no leverage edge); PLTR (passed — Q2 earnings tonight after close is a binary gap event with NO stop protection, the opposite of the mandate's downside-protection requirement).",
+      "risks": "3x leverage magnifies any reversal: if the rotation fades intraday, tech reasserts leadership, oil bounces, or a hot macro print lifts yields, TNA can shed high-single-digit % fast and gap through the 63.62 stop. Small-cap breadth trades are prone to sharp mean-reversion. Mitigant: entry is early in a confirmed leadership move with a real macro tailwind (oil + rates), not an extended chase; hard 10% stop and daily rotation cap the loss. PRICE NOTE: entry 70.69 = dashboard canonical proxy for TNA, asOf 2026-08-03T15:41:18Z (within ~1 min of run time NOW); BTC exit 63812.04 asOf 2026-08-03T15:40:10Z. Non-stale, real.",
+      "addedDate": "2026-08-03"
     }
   ]
 }
