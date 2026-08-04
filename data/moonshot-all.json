@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8982.94,
-  "tradeDate": "2026-08-03",
-  "lastUpdated": "2026-08-03T15:42:00Z",
-  "nextRefresh": "2026-08-04T06:30:00-05:00",
+  "startingCapital": 9355.27,
+  "tradeDate": "2026-08-04",
+  "lastUpdated": "2026-08-04T15:20:00Z",
+  "nextRefresh": "2026-08-05T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -1017.06,
+  "priorRealizedPnL": -644.73,
   "positions": [
     {
-      "ticker": "TNA",
-      "name": "Direxion Daily Small Cap Bull 3X",
-      "sector": "Leveraged ETF — 3x Long Russell 2000 (Small-cap)",
-      "shares": 127.075117,
-      "entry": 70.69,
-      "stopPrice": 63.62,
+      "ticker": "TQQQ",
+      "name": "ProShares UltraPro QQQ",
+      "sector": "Leveraged ETF — 3x Long Nasdaq-100 (Big-cap Tech/AI)",
+      "shares": 127.944065,
+      "entry": 73.12,
+      "stopPrice": 65.81,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Broad risk-on rotation to open August: crude oil down ~6% on renewed US-Iran talks/easing tensions, a cooler Treasury tape (yields lower), and decisively strong breadth with small-caps and blue-chip industrials leading the 'catch-up' trade. IWM (Russell 2000) +1.34% intraday and outrunning a muted mega-cap tech tape. This is a multi-factor macro tailwind (lower oil + lower rates + broad participation), not a single binary event, so the leadership group has room to extend into the next 24h.",
-      "driver": "LONG TNA (3x Russell 2000), 100% capital. Small-caps are the day's clear leadership and are the most rate-/oil-sensitive cohort — exactly the group that benefits most from a 6% oil drop and a cooler rates read, giving a genuine fresh multi-factor catalyst that justifies 3x leverage. Chose TNA over SPXL (3x S&P, +0.57% — broader but far less momentum; S&P dragged by muted tech) because the leadership and the macro sensitivity both point to small caps. Entry 70.69 is only ~4% up on the day (IWM +1.34%), so not chasing an extended gap. Hard 10% stop (63.62) caps a 3x drawdown. Runners-up: SPXL (passed — less momentum, tech-muted index); BMY (passed — +3% on FT report of AstraZeneca merger talks, but a single unconfirmed headline that could reverse on denial, no leverage edge); PLTR (passed — Q2 earnings tonight after close is a binary gap event with NO stop protection, the opposite of the mandate's downside-protection requirement).",
-      "risks": "3x leverage magnifies any reversal: if the rotation fades intraday, tech reasserts leadership, oil bounces, or a hot macro print lifts yields, TNA can shed high-single-digit % fast and gap through the 63.62 stop. Small-cap breadth trades are prone to sharp mean-reversion. Mitigant: entry is early in a confirmed leadership move with a real macro tailwind (oil + rates), not an extended chase; hard 10% stop and daily rotation cap the loss. PRICE NOTE: entry 70.69 = dashboard canonical proxy for TNA, asOf 2026-08-03T15:41:18Z (within ~1 min of run time NOW); BTC exit 63812.04 asOf 2026-08-03T15:40:10Z. Non-stale, real.",
-      "addedDate": "2026-08-03"
+      "catalyst": "AI trade re-ignites: Palantir's Q2 blowout (revenue $1.94B, EPS $0.41, raised full-year guide) sent PLTR +15-17% and lifted the entire AI/semis complex — NVDA +2.9%, MU +5%, QQQ +2.1%, semis rebounding hard. Leadership rotated decisively out of Monday's small-cap/industrials catch-up trade and back into mega-cap tech/AI. Fresh, high-conviction sentiment catalyst reigniting the dominant market theme into a heavy AI-earnings week.",
+      "driver": "LONG TQQQ (3x Nasdaq-100), 100% capital. Today's clear leadership is mega-cap tech/AI (QQQ +2.1% vs IWM +0.86%), sparked by Palantir's blowout re-rating AI demand across the complex. Chose TQQQ over SOXL (3x semis): SOXL is higher-beta but already up ~10%+ intraday (MU +5% underlying) — violates the no-chasing rule — and carries concentrated single-name gap risk into AMD earnings tonight. TQQQ tracks a +2.1% underlying (not extended), spreads AMD-tonight exposure across 100 names for more downside protection, still captures AI leadership at 3x. Stop 65.81 (-10%). Runners-up: SOXL (passed — chasing extended semis + AMD risk); TNA (sold — small-cap leadership faded); MU/NVDA single names (passed — single-name overnight gap risk vs diversified index).",
+      "risks": "3x magnifies reversals and the book holds overnight into AMD earnings (after close) plus SpaceX's first public print — an AMD miss could drag semis and gap the Nasdaq through the 65.81 stop before tomorrow's rotation. A hot JOLTS/jobs read or renewed oil spike could unwind the risk-on bid. Mitigant: entry tracks a +2.1% underlying (not chased), AMD is only ~1-2% of QQQ so a miss is cushioned vs SOXL, Palantir's blowout skews the AI read-through bullish, hard 10% stop + daily rotation cap loss. PRICE NOTE: entry 73.12 = canonical proxy for TQQQ asOf 2026-08-04T15:19:43Z (within ~1 min of NOW 15:20Z); TNA exit 73.62 asOf 2026-08-04T15:18:59Z. Non-stale, real.",
+      "addedDate": "2026-08-04"
     }
   ]
 }
