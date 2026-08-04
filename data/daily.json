@@ -2,10 +2,10 @@
   "bookName": "Daily Trader",
   "inceptionDate": "2026-05-15",
   "inceptionCapital": 70000,
-  "startingCapital": 74468.94,
-  "tradeDate": "2026-08-03",
-  "lastUpdated": "2026-08-03T16:12:13Z",
-  "nextRefresh": "2026-08-04T07:09:00-05:00",
+  "startingCapital": 75509.0,
+  "tradeDate": "2026-08-04",
+  "lastUpdated": "2026-08-04T15:23:57Z",
+  "nextRefresh": "2026-08-05T07:09:00-05:00",
   "rules": [
     "Weekday 7am ET picks",
     "Per-pick exit rules",
@@ -13,44 +13,8 @@
     "1-week max hold",
     "<=4 names per sector"
   ],
-  "priorRealizedPnL": 4468.94,
+  "priorRealizedPnL": 5509.0,
   "positions": [
-    {
-      "ticker": "PLTR",
-      "name": "Palantir Technologies",
-      "sector": "Technology Services",
-      "shares": 27,
-      "entry": 125.43,
-      "exitRule": "Catalyst-defined (Q2 report tonight 8/3 AMC)",
-      "catalyst": "T1 EARNINGS TONIGHT: Q2 2026 report 8/3 AMC; Street sees rev ~$1.81B (+81% YoY), EPS $0.34; options imply ~12% move, watch for FY guide raise to >75% growth (Baird reit. Outperform $200 PT).",
-      "risks": "8 straight beats but stock fell after 4 of last 4 reports; PE ~139, high bar. 52wk 106.37-207.52.",
-      "driver": "Tier 1: earnings-night catalyst",
-      "addedDate": "2026-08-03"
-    },
-    {
-      "ticker": "ON",
-      "name": "ON Semiconductor",
-      "sector": "Electronic Technology",
-      "shares": 42,
-      "entry": 81.73,
-      "exitRule": "Catalyst-defined (Q2 report tonight 8/3 AMC)",
-      "catalyst": "T1 EARNINGS TONIGHT: ON Semi Q2 2026 report 8/3 AMC; auto/industrial power-chip demand and margin recovery in focus; opened +2.5% intraday off the print run-up.",
-      "risks": "Cyclical auto/industrial semis; PE ~58; sharp earnings gap risk. 52wk 44.56-134.92.",
-      "driver": "Tier 1: earnings-night catalyst",
-      "addedDate": "2026-08-03"
-    },
-    {
-      "ticker": "FANG",
-      "name": "Diamondback Energy",
-      "sector": "Energy Minerals",
-      "shares": 17,
-      "entry": 198.58,
-      "exitRule": "Catalyst-defined (Q2 report tonight 8/3 AMC)",
-      "catalyst": "T1 EARNINGS TONIGHT: Diamondback Q2 2026 report 8/3 AMC; Permian volumes, FCF and variable-dividend update the driver amid softer crude.",
-      "risks": "Oil-price sensitivity; crude sold off into the print; PE optically high on writedowns. 52wk 134.30-214.51.",
-      "driver": "Tier 1: earnings-night catalyst",
-      "addedDate": "2026-08-03"
-    },
     {
       "ticker": "AMD",
       "name": "Advanced Micro Devices",
@@ -100,66 +64,6 @@
       "addedDate": "2026-08-03"
     },
     {
-      "ticker": "MCD",
-      "name": "McDonald's",
-      "sector": "Consumer Services",
-      "shares": 13,
-      "entry": 268.69,
-      "exitRule": "Overnight (next-day open)",
-      "catalyst": "T2 PRE-EARNINGS DRIFT: McDonald's Q2 2026 report Tue 8/4 BMO; US comps/value-menu traffic in focus. Buy pre-report near 52wk low (260.96), exit at 8/4 open.",
-      "risks": "Consumer-spend softness; muted setup, sitting near 52wk low. 52wk 260.96-341.75.",
-      "driver": "Tier 2: pre-earnings drift",
-      "addedDate": "2026-08-03"
-    },
-    {
-      "ticker": "CAT",
-      "name": "Caterpillar",
-      "sector": "Producer Manufacturing",
-      "shares": 4,
-      "entry": 823.73,
-      "exitRule": "Overnight (next-day open)",
-      "catalyst": "T2 PRE-EARNINGS DRIFT: Caterpillar Q2 2026 report Tue 8/4 BMO; construction/Power-&-Energy datacenter-genset demand and pricing the driver. Exit at 8/4 open.",
-      "risks": "Extended into a strong run; high dollar price sizes to 4 shares. 52wk 405.46-1073.46.",
-      "driver": "Tier 2: pre-earnings drift",
-      "addedDate": "2026-08-03"
-    },
-    {
-      "ticker": "MRK",
-      "name": "Merck",
-      "sector": "Health Technology",
-      "shares": 27,
-      "entry": 127.45,
-      "exitRule": "Overnight (next-day open)",
-      "catalyst": "T2 PRE-EARNINGS DRIFT: Merck Q2 2026 report Tue 8/4 BMO; Keytruda subcutaneous ramp and Winrevair the focus; sold off ~2% into the setup. Exit at 8/4 open.",
-      "risks": "Keytruda LOE-overhang narrative; pre-report drift only. 52wk 77.53-135.05.",
-      "driver": "Tier 2: pre-earnings drift",
-      "addedDate": "2026-08-03"
-    },
-    {
-      "ticker": "PFE",
-      "name": "Pfizer",
-      "sector": "Health Technology",
-      "shares": 140,
-      "entry": 24.91,
-      "exitRule": "Overnight (next-day open)",
-      "catalyst": "T2 PRE-EARNINGS DRIFT: Pfizer Q2 2026 report Tue 8/4 BMO; cost-cut execution, oncology (Seagen) and ~6.9% dividend in focus near 52wk low. Exit at 8/4 open.",
-      "risks": "Pipeline/patent-cliff overhang; low-beta, thin drift. 52wk 23.11-28.745.",
-      "driver": "Tier 2: pre-earnings drift",
-      "addedDate": "2026-08-03"
-    },
-    {
-      "ticker": "DVN",
-      "name": "Devon Energy",
-      "sector": "Energy Minerals",
-      "shares": 78,
-      "entry": 44.51,
-      "exitRule": "Overnight (next-day open)",
-      "catalyst": "T2 PRE-EARNINGS DRIFT: Devon Energy Q2 2026 report Tue 8/4; Permian/Delaware volumes and FCF-return the driver; sitting mid-range. Exit at 8/4 open.",
-      "risks": "Crude-price sensitivity; energy weak into the print. 52wk 31.47-52.71.",
-      "driver": "Tier 2: pre-earnings drift",
-      "addedDate": "2026-08-03"
-    },
-    {
       "ticker": "GLW",
       "name": "Corning",
       "sector": "Electronic Technology",
@@ -194,6 +98,42 @@
       "risks": "Trough-earnings (negative PE); chemical-margin risk. 52wk 41.58-83.94.",
       "driver": "Tier 2: analyst upgrade",
       "addedDate": "2026-08-03"
+    },
+    {
+      "ticker": "ZBRA",
+      "name": "Zebra Technologies",
+      "sector": "Electronic Technology",
+      "shares": 10,
+      "entry": 348.885,
+      "exitRule": "Overnight (next-day open)",
+      "catalyst": "T1 EARNINGS: Q2 adj EPS $3.61 vs $3.34, raised FY26 EPS to $15.25-15.75 (from $13.75-14.75) + $1.3B Elo Touch acquisition; +19.6% to 348.89 (vs 291.64 close).",
+      "risks": "Chasing a ~20% earnings gap into 52wk high (360.58); intraday-momentum risk. 52wk 199.05-360.58.",
+      "driver": "Tier 1: earnings beat + guide raise",
+      "addedDate": "2026-08-04"
+    },
+    {
+      "ticker": "IT",
+      "name": "Gartner",
+      "sector": "Technology Services",
+      "shares": 21,
+      "entry": 175.37,
+      "exitRule": "Overnight (next-day open)",
+      "catalyst": "T1 EARNINGS: Q2 beat, +15.8% to 175.37 (vs 151.53 close); research/advisory demand recovery, low PE ~15 after a rough 12mo.",
+      "risks": "Well below 52wk high (337.29) \u2014 bounce not trend; contract-value growth must confirm. 52wk 124.25-337.29.",
+      "driver": "Tier 1: earnings beat",
+      "addedDate": "2026-08-04"
+    },
+    {
+      "ticker": "W",
+      "name": "Wayfair",
+      "sector": "Retail Trade",
+      "shares": 25,
+      "entry": 114.39,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "T1 EARNINGS + SQUEEZE: Q2 rev $3.52B beat, adj EPS $0.95 vs $0.89, best US growth (+8.7%) since 2020; short-squeeze pop +28% to 114.39 (vs 89.31 close).",
+      "risks": "Squeeze-driven, high-beta, negative GAAP earnings; sized smaller; intraday only. 52wk 55.60-119.98.",
+      "driver": "Tier 1: earnings beat + short squeeze",
+      "addedDate": "2026-08-04"
     }
   ]
 }
