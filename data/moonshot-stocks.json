@@ -2,10 +2,10 @@
   "bookName": "Moonshot Stocks",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 7786.18,
-  "tradeDate": "2026-08-03",
-  "lastUpdated": "2026-08-03T15:44:55Z",
-  "nextRefresh": "2026-08-04T06:35:00-05:00",
+  "startingCapital": 7821.4,
+  "tradeDate": "2026-08-04",
+  "lastUpdated": "2026-08-04T15:27:49Z",
+  "nextRefresh": "2026-08-05T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -14,20 +14,7 @@
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
-  "priorRealizedPnL": -2213.82,
-  "positions": [
-    {
-      "ticker": "BABA",
-      "name": "Alibaba Group Holding Ltd (ADR)",
-      "sector": "Communication Services / China Internet & AI",
-      "shares": 60.329924,
-      "entry": 129.06,
-      "stopPrice": 121.32,
-      "exitRule": "Rotate next weekday 6:35am CT run",
-      "catalyst": "Alibaba unveiled Qwen3.8-Max, which it calls its largest and most capable AI model to date, reinforcing its lead in China AI and cloud. BABA gapped to a live 129.06 (Robinhood real-time 15:41:56Z; dashboard 128.94 asOf 15:43:05Z) vs the 7/31 close of 122.25 — about +5.6%, below the >8-10% no-chase line, leaving room to run.",
-      "driver": "Fresh, genuine product catalyst (flagship AI model) on a mega-cap ADR with deep liquidity, still below the no-chase band with a definable stop. Chose BABA over FERG (+8.3%, inside the no-chase band — rejecting an extended gapper is consistent with this book's downside-protection mandate and last run's rejection of NVT at +9.8%) and over the day's M&A takeouts (ATKR $95, BOW, ITGR $127, LNTH up to $114.50) whose fixed cash deal prices cap upside to ~0. Stop 121.32 sits just below the 122.25 gap base / prior close.",
-      "risks": "Chinese ADR — unhedgeable overnight regulatory/geopolitical headline tail on a 100% all-in 24h hold; AI-launch enthusiasm can fade intraday; broad tape rotating out of mega-cap tech into small-caps/industrials today (oil -6%, IWM +1.3%). Hard stop 121.32 (-6%).",
-      "addedDate": "2026-08-03"
-    }
-  ]
+  "priorRealizedPnL": -2178.6,
+  "note": "2026-08-03 scheduler run was skipped fleet-wide; book held MGA (from 07/31) through the skip. This 08/04 run closed MGA at a canonical live Aug 4 quote and reverted an earlier erroneous entry that had used day-stale Aug 3 prices.",
+  "positions": []
 }
