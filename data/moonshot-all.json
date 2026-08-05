@@ -2,32 +2,32 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 9355.27,
-  "tradeDate": "2026-08-04",
-  "lastUpdated": "2026-08-04T15:20:00Z",
-  "nextRefresh": "2026-08-05T06:30:00-05:00",
+  "startingCapital": 9558.7,
+  "tradeDate": "2026-08-05",
+  "lastUpdated": "2026-08-05T15:05:28Z",
+  "nextRefresh": "2026-08-06T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
     "Any liquid asset: stock, crypto, or leveraged/inverse ETF",
-    "Rotate each 6:30am CT run — sell yesterday, buy today's best",
+    "Rotate each 6:30am CT run \u2014 sell yesterday, buy today's best",
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -644.73,
+  "priorRealizedPnL": -441.3,
   "positions": [
     {
-      "ticker": "TQQQ",
-      "name": "ProShares UltraPro QQQ",
-      "sector": "Leveraged ETF — 3x Long Nasdaq-100 (Big-cap Tech/AI)",
-      "shares": 127.944065,
-      "entry": 73.12,
-      "stopPrice": 65.81,
+      "ticker": "SPXL",
+      "name": "Direxion Daily S&P 500 Bull 3X Shares",
+      "sector": "Leveraged ETF \u2014 3x Long S&P 500 (Broad US Large-Cap)",
+      "shares": 32.189594,
+      "entry": 296.95,
+      "stopPrice": 267.25,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "AI trade re-ignites: Palantir's Q2 blowout (revenue $1.94B, EPS $0.41, raised full-year guide) sent PLTR +15-17% and lifted the entire AI/semis complex — NVDA +2.9%, MU +5%, QQQ +2.1%, semis rebounding hard. Leadership rotated decisively out of Monday's small-cap/industrials catch-up trade and back into mega-cap tech/AI. Fresh, high-conviction sentiment catalyst reigniting the dominant market theme into a heavy AI-earnings week.",
-      "driver": "LONG TQQQ (3x Nasdaq-100), 100% capital. Today's clear leadership is mega-cap tech/AI (QQQ +2.1% vs IWM +0.86%), sparked by Palantir's blowout re-rating AI demand across the complex. Chose TQQQ over SOXL (3x semis): SOXL is higher-beta but already up ~10%+ intraday (MU +5% underlying) — violates the no-chasing rule — and carries concentrated single-name gap risk into AMD earnings tonight. TQQQ tracks a +2.1% underlying (not extended), spreads AMD-tonight exposure across 100 names for more downside protection, still captures AI leadership at 3x. Stop 65.81 (-10%). Runners-up: SOXL (passed — chasing extended semis + AMD risk); TNA (sold — small-cap leadership faded); MU/NVDA single names (passed — single-name overnight gap risk vs diversified index).",
-      "risks": "3x magnifies reversals and the book holds overnight into AMD earnings (after close) plus SpaceX's first public print — an AMD miss could drag semis and gap the Nasdaq through the 65.81 stop before tomorrow's rotation. A hot JOLTS/jobs read or renewed oil spike could unwind the risk-on bid. Mitigant: entry tracks a +2.1% underlying (not chased), AMD is only ~1-2% of QQQ so a miss is cushioned vs SOXL, Palantir's blowout skews the AI read-through bullish, hard 10% stop + daily rotation cap loss. PRICE NOTE: entry 73.12 = canonical proxy for TQQQ asOf 2026-08-04T15:19:43Z (within ~1 min of NOW 15:20Z); TNA exit 73.62 asOf 2026-08-04T15:18:59Z. Non-stale, real.",
-      "addedDate": "2026-08-04"
+      "catalyst": "Broad risk-on melt-up to fresh record highs: S&P 500 and Dow at all-time highs (+0.6%) with ~90% of reporting companies beating estimates, and oil falling hard as President Trump signaled a Strait of Hormuz reopening deal could land as early as today \u2014 a clean macro tailwind (lower energy costs, geopolitical de-escalation) that broadens the rally beyond tech. Eli Lilly crossed a $1T cap on a Q2 beat, adding to the broad-based earnings strength lifting the tape.",
+      "driver": "LONG SPXL (3x S&P 500), 100% capital. Today's leadership is BROAD/cyclical, not tech-concentrated: Dow & S&P print new highs while the Nasdaq only digests tech earnings. Chose SPXL over TQQQ/SOXL because the day's soft spot is exactly semis/mega-cap tech \u2014 AMD is -6.5% (sell-the-news despite a double-beat + strong guide) and SpaceX -9% on its first public print, dragging on the Nasdaq. SPXL captures the record-high momentum + the Hormuz oil-down tailwind across 500 names with far more downside protection than a semis (SOXL) or Nasdaq (TQQQ) vehicle exposed to today's AMD/semis wobble. Entry only ~+0.8% on the day (SPXL 296.95 vs 294.56 close) \u2014 NOT extended, no chase. Stop 267.25 (-10%, matched to 3x). Runners-up: TQQQ (passed \u2014 Nasdaq lagging on AMD/SpaceX drag); SOXS 3x-inverse semis (passed \u2014 AMD weak but NVDA holding and fighting a record-high risk-on tape is low-edge); LLY (passed \u2014 extended after $1T milestone, no clean leveraged vehicle).",
+      "risks": "3x magnifies reversals; a broad market already at record highs is vulnerable to a sharp mean-reversion or profit-taking day, and the Hormuz 'deal close' headline could disappoint/reverse (oil spikes back, risk-off) and gap SPXL toward the 267.25 stop. A hot macro print (jobs/inflation) or a deepening AMD-led semis rout spilling into the broad index are the key risks. Mitigants: 500-name diversification cushions single-stock gap risk (vs SOXL/TQQQ), entry is not chased (+0.8% on day), broad 90% beat rate + oil-down macro skews the read-through bullish, hard 10% stop + daily rotation cap loss. PRICE NOTE: entry 296.95 = canonical proxy for SPXL asOf 2026-08-05T15:03:46Z (RH exact match 296.95, within ~1 min of NOW); TQQQ exit 74.71 asOf 2026-08-05T15:02:03Z (RH cross-check 74.732). Non-stale, real.",
+      "addedDate": "2026-08-05"
     }
   ]
 }
