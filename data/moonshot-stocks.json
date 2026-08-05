@@ -3,18 +3,31 @@
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
   "startingCapital": 7821.4,
-  "tradeDate": "2026-08-04",
-  "lastUpdated": "2026-08-04T15:27:49Z",
-  "nextRefresh": "2026-08-05T06:35:00-05:00",
+  "tradeDate": "2026-08-05",
+  "lastUpdated": "2026-08-05T15:03:48Z",
+  "nextRefresh": "2026-08-06T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
-    "US equities only — no ETFs, crypto, or options",
-    "Rotate each weekday 6:35am CT run — sell prior, buy today's best",
+    "US equities only \u2014 no ETFs, crypto, or options",
+    "Rotate each weekday 6:35am CT run \u2014 sell prior, buy today's best",
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
   "priorRealizedPnL": -2178.6,
-  "note": "2026-08-03 scheduler run was skipped fleet-wide; book held MGA (from 07/31) through the skip. This 08/04 run closed MGA at a canonical live Aug 4 quote and reverted an earlier erroneous entry that had used day-stale Aug 3 prices.",
-  "positions": []
+  "positions": [
+    {
+      "ticker": "LLY",
+      "name": "Eli Lilly & Co.",
+      "sector": "Healthcare \u2014 Pharmaceuticals",
+      "shares": 6.825314,
+      "entry": 1145.94,
+      "stopPrice": 1077.18,
+      "exitRule": "Rotate next weekday 6:35am CT run",
+      "catalyst": "Q2 2026 blowout beat + raise (pre-mkt Aug 5): adj EPS $8.38 vs $6.01 est; revenue $23.0B (+48% YoY) vs $20.7B est. Raised FY26 revenue to $85-87B from $82-85B. Mounjaro +91% to $9.9B, Zepbound US $4.9B (+44%). New CVS collaboration expands Zepbound/Foundayo access.",
+      "driver": "Clean beat-and-raise on the strongest GLP-1 franchise; stock only +2.7% live (room to run vs 8-10% chase cap), mega-cap gives downside protection with a defined stop.",
+      "risks": "Mega-cap = capped 24h upside vs small-caps; GLP-1 net-price/competition headlines; broad-market/sector rotation; gap-fill if beat already partly priced.",
+      "addedDate": "2026-08-05"
+    }
+  ]
 }
