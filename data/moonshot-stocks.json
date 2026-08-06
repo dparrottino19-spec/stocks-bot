@@ -2,32 +2,32 @@
   "bookName": "Moonshot Stocks",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 7821.4,
-  "tradeDate": "2026-08-05",
-  "lastUpdated": "2026-08-05T15:03:48Z",
-  "nextRefresh": "2026-08-06T06:35:00-05:00",
+  "startingCapital": 8077.76,
+  "tradeDate": "2026-08-06",
+  "lastUpdated": "2026-08-06T11:40:39Z",
+  "nextRefresh": "2026-08-07T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
-    "US equities only \u2014 no ETFs, crypto, or options",
-    "Rotate each weekday 6:35am CT run \u2014 sell prior, buy today's best",
+    "US equities only — no ETFs, crypto, or options",
+    "Rotate each weekday 6:35am CT run — sell prior, buy today's best",
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
-  "priorRealizedPnL": -2178.6,
+  "priorRealizedPnL": -1922.24,
   "positions": [
     {
-      "ticker": "LLY",
-      "name": "Eli Lilly & Co.",
-      "sector": "Healthcare \u2014 Pharmaceuticals",
-      "shares": 6.825314,
-      "entry": 1145.94,
-      "stopPrice": 1077.18,
+      "ticker": "MSI",
+      "name": "Motorola Solutions, Inc.",
+      "sector": "Technology — Communications Equipment",
+      "shares": 17.664801,
+      "entry": 457.28,
+      "stopPrice": 429.84,
       "exitRule": "Rotate next weekday 6:35am CT run",
-      "catalyst": "Q2 2026 blowout beat + raise (pre-mkt Aug 5): adj EPS $8.38 vs $6.01 est; revenue $23.0B (+48% YoY) vs $20.7B est. Raised FY26 revenue to $85-87B from $82-85B. Mounjaro +91% to $9.9B, Zepbound US $4.9B (+44%). New CVS collaboration expands Zepbound/Foundayo access.",
-      "driver": "Clean beat-and-raise on the strongest GLP-1 franchise; stock only +2.7% live (room to run vs 8-10% chase cap), mega-cap gives downside protection with a defined stop.",
-      "risks": "Mega-cap = capped 24h upside vs small-caps; GLP-1 net-price/competition headlines; broad-market/sector rotation; gap-fill if beat already partly priced.",
-      "addedDate": "2026-08-05"
+      "catalyst": "Q2 2026 beat-and-raise (pre-mkt Aug 6, reported Aug 5 AH): adj EPS $4.41 vs $3.89 est; revenue $3.13B (+13.3% YoY) vs $3.03B est. Raised FY26 revenue to $12.975B from $12.8B and FY non-GAAP EPS to $17.62-17.72 from $16.87-16.99. Record backlog $15.6B (+11% YoY); Silvus + public-safety LMR driving the raise.",
+      "driver": "Clean beat-and-raise on a defensive mega-cap; ~$73B public-safety/government franchise with record backlog gives revenue visibility and downside protection. Only ~+5% pre-market (room to run vs 8-10% chase cap) with a definable stop.",
+      "risks": "Thin/wide pre-market spread (bid 450 / ask 470) = fill risk; mega-cap caps 24h upside vs small-caps; government-budget/spending headlines; broad-market rotation; gap-fill if beat already partly priced.",
+      "addedDate": "2026-08-06"
     }
   ]
 }
