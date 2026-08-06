@@ -2,10 +2,10 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10469.51,
-  "tradeDate": "2026-08-05",
-  "lastUpdated": "2026-08-05T15:05:00Z",
-  "nextRefresh": "2026-08-06T06:45:00-05:00",
+  "startingCapital": 10575.12,
+  "tradeDate": "2026-08-06",
+  "lastUpdated": "2026-08-06T11:54:27Z",
+  "nextRefresh": "2026-08-07T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Runs every day — crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 469.51,
+  "priorRealizedPnL": 575.12,
   "positions": [
     {
       "ticker": "ETH",
       "name": "Ethereum",
       "sector": "Crypto",
-      "shares": 5.583498,
-      "entry": 1875.08,
-      "stopPrice": 1725.07,
+      "shares": 5.583499,
+      "entry": 1893.995,
+      "stopPrice": 1742.48,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "ETH is the momentum-leading major with the single strongest active positive flow catalyst on the tape: August marked the FIRST month ETH ETF inflows (~$3.87B) overtook Bitcoin's — while BTC ETFs saw ~$750M of net OUTFLOWS. The GENIUS Act stablecoin framework continues to drive settlement-layer demand for ETH (dollar-backed stablecoins issued/custodied on Ethereum), a structural ETH-specific tailwind. Session tape is risk-on: global crypto cap ~$2.27T (+0.7%/24h, ~$52B volume) on Trump/Strait-of-Hormuz de-escalation optimism ahead of Friday's July jobs report. ETH opened ~1,868 and firmed to ~1,881 intraday. Canonical live price 1875.08 (dashboard Yahoo feed, asOf 2026-08-05T15:02:27Z; corroborated by narrative sources putting ETH ~1,868-1,881 today).",
-      "driver": "Closed prior ETH at 1875.08 (canonical dashboard feed) vs entry 1861.89 for +73.65 (+0.71%) — ETH firmed with the risk-on tape. RE-SELECTED ETH as the best risk-adjusted next-24h pick: it now pairs momentum leadership among majors with a concrete ETH-specific bullish flow catalyst (ETF inflows overtaking BTC for the first time + GENIUS Act stablecoin settlement demand), which is more asymmetric than a purely defensive major hold. Wins vs runners-up: BTC is the safest major but carries a NEGATIVE flow catalyst right now (~$750M ETF outflows) and only modest price gains; SOL has real catalysts (BlackRock tokenized stablecoin reserve on Solana, Agave 4.2 upgrade with 90% rent reduction) but remains stuck in a tight two-week range with no momentum confirmation and higher beta; smaller AI/alt names (TAO, LINK) are less liquid and more speculative. Dashboard price of record used for both fills to avoid phantom P&L. 8% major stop keeps payoff asymmetric.",
-      "risks": "Fear Index still low (~27) — sentiment is fragile and a risk-off flush (Hormuz talks collapsing, a hot/cold jobs surprise Friday, or renewed geopolitical stress) would drag ETH with the broad tape. ETF-flow leadership is a monthly aggregate, not a guarantee of next-24h price follow-through, and ETH has faded intraday before. Hard stop 1725.07 (-8%).",
-      "addedDate": "2026-08-05"
+      "catalyst": "ETH remains the momentum leader among the majors with the strongest active positive flow catalyst on the tape. Spot ETH ETFs added ~$365M in July — a sharp rebound after shedding ~$528M in June and ~$540M in May — and staking/ETF inflows continue to firm. ETH recovered off ~1,867 to ~1,894 today (Coinbase live), pressing the top of its established $1,750-1,980 August range and showing clear relative strength versus a flat BTC (~64.5k) and a technically weak SOL (stuck below its $77 pivot). Canonical dashboard proxy was STALE this run (asOf 2026-08-05T15:02:27Z, ~24h old), so entry/exit used a live Coinbase spot fallback per the runbook: ETH 1893.995, BTC 64538.685, SOL 73.615, pulled at run time ~2026-08-06T11:54Z.",
+      "driver": "Closed prior ETH at 1893.995 (Coinbase live fallback) vs entry 1875.08 for +105.61 (+1.01%) — ETH firmed overnight while the majors were mixed. RE-SELECTED ETH as the best risk-adjusted next-24h pick: it pairs momentum leadership with a concrete, still-positive ETH-specific flow catalyst (July ETF inflow rebound + staking demand) and shows the cleanest relative strength on the board. Wins vs runners-up: BTC is the safest major but is drifting flat near 64.5k with no catalyst edge; SOL has genuine catalysts (staking-enabled spot ETFs, Western Union Stablecard/USDPT issued on Solana, ongoing ETF inflows) but sits in a confirmed bearish structure below its $77 pivot with no momentum confirmation and higher beta — higher odds of getting stopped. ETH offers the asymmetric setup with a definable stop. 8% major stop keeps payoff asymmetric.",
+      "risks": "ETH is pressing the top of a multi-week range ($1,980 overhead resistance) and has faded intraday before; a failure to clear overhead plus a risk-off macro turn would cap the rally and drag ETH with the broad tape. ETF-flow leadership is a monthly aggregate, not a guarantee of next-24h follow-through. Dashboard price feed was stale this run — Coinbase live fallback used, which may differ slightly from the site's Yahoo feed. Hard stop 1742.48 (-8%).",
+      "addedDate": "2026-08-06"
     }
   ]
 }
