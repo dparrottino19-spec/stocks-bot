@@ -2,10 +2,10 @@
   "bookName": "Moonshot Stocks",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8077.76,
-  "tradeDate": "2026-08-06",
-  "lastUpdated": "2026-08-06T11:40:39Z",
-  "nextRefresh": "2026-08-07T06:35:00-05:00",
+  "startingCapital": 8374.35,
+  "tradeDate": "2026-08-07",
+  "lastUpdated": "2026-08-07T11:40:15Z",
+  "nextRefresh": "2026-08-10T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -14,20 +14,20 @@
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
-  "priorRealizedPnL": -1922.24,
+  "priorRealizedPnL": -1625.65,
   "positions": [
     {
-      "ticker": "MSI",
-      "name": "Motorola Solutions, Inc.",
-      "sector": "Technology — Communications Equipment",
-      "shares": 17.664801,
-      "entry": 457.28,
-      "stopPrice": 429.84,
+      "ticker": "ABNB",
+      "name": "Airbnb, Inc.",
+      "sector": "Consumer Discretionary — Travel/Online Marketplace",
+      "shares": 51.219266,
+      "entry": 163.5,
+      "stopPrice": 153.69,
       "exitRule": "Rotate next weekday 6:35am CT run",
-      "catalyst": "Q2 2026 beat-and-raise (pre-mkt Aug 6, reported Aug 5 AH): adj EPS $4.41 vs $3.89 est; revenue $3.13B (+13.3% YoY) vs $3.03B est. Raised FY26 revenue to $12.975B from $12.8B and FY non-GAAP EPS to $17.62-17.72 from $16.87-16.99. Record backlog $15.6B (+11% YoY); Silvus + public-safety LMR driving the raise.",
-      "driver": "Clean beat-and-raise on a defensive mega-cap; ~$73B public-safety/government franchise with record backlog gives revenue visibility and downside protection. Only ~+5% pre-market (room to run vs 8-10% chase cap) with a definable stop.",
-      "risks": "Thin/wide pre-market spread (bid 450 / ask 470) = fill risk; mega-cap caps 24h upside vs small-caps; government-budget/spending headlines; broad-market rotation; gap-fill if beat already partly priced.",
-      "addedDate": "2026-08-06"
+      "catalyst": "Q2 2026 beat-and-raise (reported Aug 6 AH): revenue $3.6B (+17% YoY), GAAP EPS $1.37 (~9.5% above consensus); record quarter. Raised FY26 revenue growth to 'at least mid-teens' (from low-to-mid-teens) and lifted FY26 adj EBITDA margin floor to 'at least 35.5%' (from 35%) on strong travel demand. Second guidance raise this year.",
+      "driver": "Clean double-raise breakout: pre-market ~$163.5 (+7.8%) clears the prior 52-week high (~$156.50) on record results — momentum with a fundamental floor. Profitable mega-cap (~$100B) with heavy free cash flow gives downside protection; entered under the 8-10% chase cap with a definable stop. Chosen over Cloudflare (+15%, past chase cap) and faded AH pops (SMCI +2%, CHYM ~flat).",
+      "risks": "Gap-fill risk if the breakout fails back toward the $151.64 prior close; rich valuation on a momentum name; broad-market risk-off around the jobs report; travel-demand/macro sensitivity; pre-market print above the dashboard's lagged Yahoo feed (151.64) — fill risk if regular-session open is lower.",
+      "addedDate": "2026-08-07"
     }
   ]
 }
