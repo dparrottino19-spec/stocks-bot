@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 9485.31,
-  "tradeDate": "2026-08-06",
-  "lastUpdated": "2026-08-06T11:45:52Z",
-  "nextRefresh": "2026-08-07T06:30:00-05:00",
+  "startingCapital": 9451.19,
+  "tradeDate": "2026-08-07",
+  "lastUpdated": "2026-08-07T11:45:53Z",
+  "nextRefresh": "2026-08-08T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -514.69,
+  "priorRealizedPnL": -548.81,
   "positions": [
     {
-      "ticker": "BTC-USD",
-      "name": "Bitcoin (spot)",
-      "sector": "Spot Crypto",
-      "shares": 0.146893,
-      "entry": 64572.97,
-      "stopPrice": 58115.67,
+      "ticker": "UGL",
+      "name": "ProShares Ultra Gold (2x Gold Bullion)",
+      "sector": "Leveraged Commodity ETF — Gold",
+      "shares": 188.158280,
+      "entry": 50.23,
+      "stopPrice": 46.21,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Pre-NFP positioning day: the July jobs report (Employment Situation) lands tomorrow Fri Aug 7 8:30am ET — a binary macro event that can gap 3x equity ETFs violently. No strong fresh catalyst today to justify leverage: the S&P/Dow sit at record highs (extended), semis are mixed (NVDA +1.2% and SMH +0.4% firm pre-market while memory — MU -3.4%, SK Hynix -6.1% — is the only clear weak spot, so no clean sector short), and ABNB/LYFT/NET report after today's close adding single-name landmines. BTC has recovered from the early-August dip, holding above its 20-day EMA with RSI ~65 and steady spot-ETF inflows absorbing supply; near-term resistance $66–67k vs support ~$63.9k/$62.7k gives modestly positive asymmetry.",
-      "driver": "LONG BTC-USD SPOT, 1x, 100% capital — the deliberate low-edge-day park. Strategy calls for lower-vol/spot when there is no strong fresh catalyst and leverage should match conviction; with a binary NFP print tomorrow and equities extended at record highs, a 3x SPXL/SOXL/TQQQ bet carries outsized overnight gap risk for low edge. Spot BTC (~2–3%/day vol vs 4–6%+ for 3x ETFs) sidesteps both the equity jobs-gap and tonight's tech earnings, while still offering upside toward $66–67k on constructive momentum + ETF inflows. Chose spot over BITX (2x BTC) because event risk argues against leverage; over SPXL/SPY long (extended, NFP-exposed); over SOXS/SQQQ inverse (fighting a firm NVDA-led tape and a record-high broad market — low edge). Entry 64,572.97 = canonical proxy asOf 2026-08-06T11:43:56Z (fresh, ~2 min old). Stop 58,115.67 (-10%, matched to spot-crypto overnight vol).",
-      "risks": "Spot crypto still carries overnight gap risk and is macro-sensitive: a hot or cold NFP tomorrow could swing BTC via the dollar/rates channel (risk-off = BTC down toward $62.7k support then the $58.1k stop). A broad risk-on equity melt-up continuing would mean BTC underperforms a 3x equity long (opportunity cost). Momentum is 'balanced/waiting on a catalyst,' so range-bound chop is the base case. Mitigants: 1x (no leverage) is the biggest downside protection; not exposed to tonight's ABNB/LYFT/NET earnings; defined -10% stop + daily rotation caps loss; support shelf at $63.9k/$62.7k below entry.",
-      "addedDate": "2026-08-06"
+      "catalyst": "July Employment Situation (NFP) lands TODAY 8:30am ET — consensus +83k, unemployment 4.2%, but leading indicators skew soft: ADP printed just +44k vs +75k expected, and Goldman flags July NFP historically misses with downward prior revisions (June was +57k; Apr/May revised -74k combined). A soft print reinforces Fed rate-cut pricing → lower real yields + weaker USD = tailwind for gold. Gold is already having its strongest week since January (~,250/oz, 7-week high) on the same weak-labor repricing plus falling energy (Hormuz ceasefire hopes cutting inflation risk). UGL is the 2x-bullion expression; entered here because gold BULLION is only modestly up pre-market (GLD +1.8%, UGL +3.5%) — NOT extended — whereas the leveraged gold MINERS gapped +8% to +12% pre-market (NUGT +8.3%, JNUG +8.1%, GDXU +12%), tripping the no-chase rule.",
+      "driver": "LONG UGL, 2x gold, 100% capital. Asymmetric macro catalyst with a directional lean: two of three NFP outcomes favor gold — a dovish-soft print (base case given ADP/revision trend) lifts gold via rate-cut repricing, and a very-soft/risk-off print lifts gold as a safe haven; only a HOT surprise (low-probability tail) reverses it. 2x leverage is matched to a genuine fresh catalyst (today's jobs print + confirmed dovish gold trend), while deliberately AVOIDING the far-more-extended 2x/3x leveraged miners (up 8-12% pre-market — chasing). Chose UGL over: NUGT/GDXU (overextended gaps, chase-rule fail); GLD/GLDM (1x — lower asymmetric payoff for the same thesis); SOXL 3x semis (+4.6% pre-market but two-sided into NFP at record-high equity valuations, no semis-specific fresh catalyst); staying in spot BTC (range-bound chop, no fresh catalyst today). Entry 50.23 = Robinhood real-time pre-market last (11:43:32Z, bid 50.23/ask 50.25) — the dashboard proxy still shows the prior regular-session close (48.53) pre-open because Yahoo does not stream pre-market for this ETF; the 50.23 live quote will match the dashboard feed once the session opens. Stop 46.21 (-8%, matched to 2x leverage).",
+      "risks": "Binary event risk: a HOT NFP or hawkish wage surprise reverses the gold rally, and 2x leverage amplifies the drop; gold is already extended after its strongest week since January, so an in-line/priced-in print offers limited fresh upside (buy-the-rumor/sell-the-news). A continued risk-on equity melt-up would mean gold underperforms a 3x equity long (opportunity cost). Pre-market ETF liquidity is thinner than at the open, so the 50.23 fill assumes a limit near the pre-market mid. Mitigants: -8% hard stop caps loss; gold's dual-sided asymmetry (rises on BOTH dovish and risk-off outcomes) is the structural downside protection; chose bullion (UGL) over the far-more-extended leveraged miners; daily rotation limits the hold to ~24h.",
+      "addedDate": "2026-08-07"
     }
   ]
 }
