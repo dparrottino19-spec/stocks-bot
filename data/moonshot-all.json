@@ -2,32 +2,32 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 9451.19,
-  "tradeDate": "2026-08-07",
-  "lastUpdated": "2026-08-07T11:45:53Z",
-  "nextRefresh": "2026-08-08T06:30:00-05:00",
+  "startingCapital": 9537.74,
+  "tradeDate": "2026-08-08",
+  "lastUpdated": "2026-08-08T11:42:20Z",
+  "nextRefresh": "2026-08-09T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
     "Any liquid asset: stock, crypto, or leveraged/inverse ETF",
-    "Rotate each 6:30am CT run — sell yesterday, buy today's best",
+    "Rotate each 6:30am CT run \u2014 sell yesterday, buy today's best",
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -548.81,
+  "priorRealizedPnL": -462.26,
   "positions": [
     {
-      "ticker": "UGL",
-      "name": "ProShares Ultra Gold (2x Gold Bullion)",
-      "sector": "Leveraged Commodity ETF — Gold",
-      "shares": 188.158280,
-      "entry": 50.23,
-      "stopPrice": 46.21,
+      "ticker": "BTC-USD",
+      "name": "Bitcoin (spot)",
+      "sector": "Cryptocurrency \u2014 Large Cap",
+      "shares": 0.146891,
+      "entry": 64930.71,
+      "stopPrice": 58437.64,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "July Employment Situation (NFP) lands TODAY 8:30am ET — consensus +83k, unemployment 4.2%, but leading indicators skew soft: ADP printed just +44k vs +75k expected, and Goldman flags July NFP historically misses with downward prior revisions (June was +57k; Apr/May revised -74k combined). A soft print reinforces Fed rate-cut pricing → lower real yields + weaker USD = tailwind for gold. Gold is already having its strongest week since January (~,250/oz, 7-week high) on the same weak-labor repricing plus falling energy (Hormuz ceasefire hopes cutting inflation risk). UGL is the 2x-bullion expression; entered here because gold BULLION is only modestly up pre-market (GLD +1.8%, UGL +3.5%) — NOT extended — whereas the leveraged gold MINERS gapped +8% to +12% pre-market (NUGT +8.3%, JNUG +8.1%, GDXU +12%), tripping the no-chase rule.",
-      "driver": "LONG UGL, 2x gold, 100% capital. Asymmetric macro catalyst with a directional lean: two of three NFP outcomes favor gold — a dovish-soft print (base case given ADP/revision trend) lifts gold via rate-cut repricing, and a very-soft/risk-off print lifts gold as a safe haven; only a HOT surprise (low-probability tail) reverses it. 2x leverage is matched to a genuine fresh catalyst (today's jobs print + confirmed dovish gold trend), while deliberately AVOIDING the far-more-extended 2x/3x leveraged miners (up 8-12% pre-market — chasing). Chose UGL over: NUGT/GDXU (overextended gaps, chase-rule fail); GLD/GLDM (1x — lower asymmetric payoff for the same thesis); SOXL 3x semis (+4.6% pre-market but two-sided into NFP at record-high equity valuations, no semis-specific fresh catalyst); staying in spot BTC (range-bound chop, no fresh catalyst today). Entry 50.23 = Robinhood real-time pre-market last (11:43:32Z, bid 50.23/ask 50.25) — the dashboard proxy still shows the prior regular-session close (48.53) pre-open because Yahoo does not stream pre-market for this ETF; the 50.23 live quote will match the dashboard feed once the session opens. Stop 46.21 (-8%, matched to 2x leverage).",
-      "risks": "Binary event risk: a HOT NFP or hawkish wage surprise reverses the gold rally, and 2x leverage amplifies the drop; gold is already extended after its strongest week since January, so an in-line/priced-in print offers limited fresh upside (buy-the-rumor/sell-the-news). A continued risk-on equity melt-up would mean gold underperforms a 3x equity long (opportunity cost). Pre-market ETF liquidity is thinner than at the open, so the 50.23 fill assumes a limit near the pre-market mid. Mitigants: -8% hard stop caps loss; gold's dual-sided asymmetry (rises on BOTH dovish and risk-off outcomes) is the structural downside protection; chose bullion (UGL) over the far-more-extended leveraged miners; daily rotation limits the hold to ~24h.",
-      "addedDate": "2026-08-07"
+      "catalyst": "Weekend, US equity markets closed \u2192 spot crypto only (leveraged crypto ETFs trade equity hours only). Macro tape is risk-off: Middle East tensions escalating (Houthi attacks on Saudi Arabia), Brent crude >$83/bbl, and crypto is range-bound waiting on the next catalyst \u2014 BTC pinned near $65k, ETH ~$1,900, SOL ~$75. No fresh 24h catalyst strong enough to justify a high-beta bet; the market is 'waiting rather than breaking out.'",
+      "driver": "LONG BTC spot, 100% capital, no leverage (crypto weekend). On a low-edge, risk-off weekend the objective favors the most defensive spot expression with the best downside protection: BTC is the lowest-vol major and holds the $63-64k support shelf, so a weekend bounce or safe-haven bid is captured while drawdown risk is minimized. Chose BTC over: SOL (real catalyst \u2014 Anza SIMD-0525 client upgrade cutting slot times 400ms\u2192200ms and rent ~90% \u2014 but mainnet activation is ~9 days out the week of Aug 17, NOT next-24h, and SOL is higher-beta into a risk-off weekend = more downside); ETH (range-bound ~$1,900, no fresh catalyst, mid-beta); staying in UGL (equity ETF, cannot trade weekend). Entry 64930.71 = dashboard live proxy quote, asOf 2026-08-08T11:40:59Z. Stop 58437.64 (-10%, spot-crypto band).",
+      "risks": "Weekend crypto liquidity is thin and there are no circuit breakers, so a risk-off deepening (oil spike, Middle East headlines) can gap BTC through $63k support sharply. Opportunity cost if SOL front-runs its Aug 17 upgrade or a risk-on reversal favors higher-beta alts. Mitigants: -10% hard stop caps loss; BTC is the least-volatile major (structural downside protection vs alts); daily rotation limits the hold to ~24h; sizing is spot (no leverage amplification).",
+      "addedDate": "2026-08-08"
     }
   ]
 }
