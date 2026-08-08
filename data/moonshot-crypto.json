@@ -2,32 +2,32 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10683.02,
-  "tradeDate": "2026-08-07",
-  "lastUpdated": "2026-08-07T11:55:00Z",
-  "nextRefresh": "2026-08-08T06:45:00-05:00",
+  "startingCapital": 10714.68,
+  "tradeDate": "2026-08-08",
+  "lastUpdated": "2026-08-08T11:55:00Z",
+  "nextRefresh": "2026-08-09T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
     "Spot crypto only (BTC, ETH, SOL, and other liquid coins on Robinhood)",
-    "Rotate each 6:45am CT run \u2014 sell yesterday, buy today's best",
-    "Runs every day \u2014 crypto trades 24/7",
+    "Rotate each 6:45am CT run — sell yesterday, buy today's best",
+    "Runs every day — crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 683.02,
+  "priorRealizedPnL": 714.68,
   "positions": [
     {
       "ticker": "ETH",
       "name": "Ethereum",
       "sector": "Crypto",
       "shares": 5.583499,
-      "entry": 1913.32,
-      "stopPrice": 1760.25,
+      "entry": 1918.99,
+      "stopPrice": 1765.47,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "ETH is the standout catalyst leader on the tape. Ethereum ETPs have pulled a record ~$5B of net inflows so far in August \u2014 surpassing flows into every major US sector ETF category \u2014 after a best-in-9-months $365M July. ETH/BTC broke out to a multi-year high (first such move in ~9 years) on sustained ETF demand and whale accumulation. Canonical dashboard proxy was FRESH this run (asOf 2026-08-07T11:52:45Z): ETH 1913.32, BTC 64947.01, SOL 73.54, pulled at run time ~2026-08-07T11:55Z.",
-      "driver": "Closed prior ETH at 1913.32 (canonical live) vs entry 1893.995 for +107.90 (+1.02%) \u2014 ETH firmed overnight while BTC was flat. RE-SELECTED ETH as the best risk-adjusted next-24h pick: it owns the strongest active flow catalyst (record August ETP inflows + ETH/BTC breakout) and the cleanest relative strength, up ~1% today vs a flat BTC (~64.9k) and a technically weak SOL (73.5, still below its ~$77 pivot). Wins vs runners-up: BTC is the safe major but drifting with no catalyst edge, and the CLARITY Act Senate vote slipped to September (Thune confirmed no August vote), removing a near-term broad-tape catalyst that would have helped BTC most; SOL has real long-run fundamentals (36%+ of DEX spot volume) but sits in bearish structure below pivot with higher beta and higher stop-out odds. ETH offers the asymmetric setup with a definable stop. 8% major stop keeps payoff asymmetric.",
-      "risks": "ETH has run hard into the August ETF-flow narrative and is extended; record monthly inflows are an aggregate, not a guarantee of next-24h follow-through, and a risk-off macro turn or ETF-flow cool-off could trigger a sharp mean-reversion. ETH/BTC breakouts can fail and retrace. Hard stop 1760.25 (-8%).",
-      "addedDate": "2026-08-07"
+      "catalyst": "ETH remains the clearest active-catalyst leader on the tape. US spot Ether ETFs are on a sustained inflow streak — $60.86M (Aug 5) and $92.15M (Aug 6), pushing the weekly total to ~$244.94M, a 4-month high — led by BlackRock's ETHA. ETH/BTC is still testing a nine-year breakout level, backed by whale accumulation. Canonical dashboard proxy was FRESH this run (asOf 2026-08-08T11:52:51Z): ETH 1918.99, BTC 64928.31, SOL 75.41, pulled at run time ~2026-08-08T11:55Z.",
+      "driver": "Closed prior ETH at 1918.99 (canonical live) vs entry 1913.32 for +31.66 (+0.30%) — ETH firmed further overnight, holding above the $1,900 pivot while BTC stayed flat (~64.9k). RE-SELECTED ETH as the best risk-adjusted next-24h pick: it owns the strongest active flow catalyst (multi-session record ETP inflows + nine-year ETH/BTC breakout in progress) and the cleanest relative strength. Wins vs runners-up: BTC (~64.9k) is the safe major but drifting — its ETF inflows still are not translating into price, so no near-term edge; SOL bounced to 75.41 (from 73.54) but remains below its ~$77 pivot with higher beta and higher stop-out odds. ETH offers the asymmetric setup with a definable 8% major stop.",
+      "risks": "ETH has run into the ETF-flow narrative and consolidates in a tight $1,910-$1,918 range — flow-driven moves can cool off quickly and Friday's US jobs print is the key macro swing factor; a risk-off surprise could trigger sharp mean-reversion. ETH/BTC nine-year breakouts can fail and retrace. Hard stop 1765.47 (-8%).",
+      "addedDate": "2026-08-08"
     }
   ]
 }
