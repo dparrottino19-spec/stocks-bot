@@ -2,32 +2,32 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 9537.74,
-  "tradeDate": "2026-08-08",
-  "lastUpdated": "2026-08-08T11:42:20Z",
-  "nextRefresh": "2026-08-09T06:30:00-05:00",
+  "startingCapital": 9538.99,
+  "tradeDate": "2026-08-09",
+  "lastUpdated": "2026-08-09T11:42:09Z",
+  "nextRefresh": "2026-08-10T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
     "Any liquid asset: stock, crypto, or leveraged/inverse ETF",
-    "Rotate each 6:30am CT run \u2014 sell yesterday, buy today's best",
+    "Rotate each 6:30am CT run — sell yesterday, buy today's best",
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -462.26,
+  "priorRealizedPnL": -461.01,
   "positions": [
     {
       "ticker": "BTC-USD",
       "name": "Bitcoin (spot)",
-      "sector": "Cryptocurrency \u2014 Large Cap",
+      "sector": "Cryptocurrency — Large Cap",
       "shares": 0.146891,
-      "entry": 64930.71,
-      "stopPrice": 58437.64,
+      "entry": 64939.19,
+      "stopPrice": 58445.27,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Weekend, US equity markets closed \u2192 spot crypto only (leveraged crypto ETFs trade equity hours only). Macro tape is risk-off: Middle East tensions escalating (Houthi attacks on Saudi Arabia), Brent crude >$83/bbl, and crypto is range-bound waiting on the next catalyst \u2014 BTC pinned near $65k, ETH ~$1,900, SOL ~$75. No fresh 24h catalyst strong enough to justify a high-beta bet; the market is 'waiting rather than breaking out.'",
-      "driver": "LONG BTC spot, 100% capital, no leverage (crypto weekend). On a low-edge, risk-off weekend the objective favors the most defensive spot expression with the best downside protection: BTC is the lowest-vol major and holds the $63-64k support shelf, so a weekend bounce or safe-haven bid is captured while drawdown risk is minimized. Chose BTC over: SOL (real catalyst \u2014 Anza SIMD-0525 client upgrade cutting slot times 400ms\u2192200ms and rent ~90% \u2014 but mainnet activation is ~9 days out the week of Aug 17, NOT next-24h, and SOL is higher-beta into a risk-off weekend = more downside); ETH (range-bound ~$1,900, no fresh catalyst, mid-beta); staying in UGL (equity ETF, cannot trade weekend). Entry 64930.71 = dashboard live proxy quote, asOf 2026-08-08T11:40:59Z. Stop 58437.64 (-10%, spot-crypto band).",
-      "risks": "Weekend crypto liquidity is thin and there are no circuit breakers, so a risk-off deepening (oil spike, Middle East headlines) can gap BTC through $63k support sharply. Opportunity cost if SOL front-runs its Aug 17 upgrade or a risk-on reversal favors higher-beta alts. Mitigants: -10% hard stop caps loss; BTC is the least-volatile major (structural downside protection vs alts); daily rotation limits the hold to ~24h; sizing is spot (no leverage amplification).",
-      "addedDate": "2026-08-08"
+      "catalyst": "Sunday, US equity markets closed → spot crypto only (leveraged crypto ETFs trade equity hours only). Supportive-but-cautious tape: US spot BTC ETFs logged a 5th straight day of inflows (~$850M cumulative since Aug 3), an active institutional bid under price; offset by risk-off sentiment (Crypto Fear & Greed 39). BTC pinned ~$64.9k, ETH ~$1,919, SOL ~$76 (+1.8%). No fresh next-24h catalyst strong enough for a high-beta bet.",
+      "driver": "LONG BTC spot, 100% capital, no leverage (crypto weekend). On a low-edge, fear-territory weekend the objective favors the most defensive spot expression with the best downside protection: BTC is the lowest-vol major, holds the $63-65k shelf, and now has a concrete tailwind — 5 consecutive days of spot-BTC-ETF inflows (~$850M) providing a real institutional bid. Chose BTC over: SOL (genuine catalysts — Western Union selecting Solana for stablecoin settlement across 150M+ customers, plus Anza SIMD-0525 slot-time upgrade — but the upgrade mainnet-activates the week of Aug 17, NOT next-24h, and SOL is higher-beta into fear sentiment = more weekend downside); ETH (range-bound ~$1,919, no fresh 24h catalyst, mid-beta). Entry 64939.19 = dashboard live proxy quote, asOf 2026-08-09T11:40:58Z. Stop 58445.27 (-10%, spot-crypto band).",
+      "risks": "Weekend crypto liquidity is thin with no circuit breakers, so a risk-off deepening (macro/geopolitical headline) can gap BTC through $63k support sharply. ETF-inflow support is a weekday-market dynamic and does not backstop weekend price directly. Opportunity cost if SOL front-runs its catalysts or a risk-on reversal favors higher-beta alts. Mitigants: -10% hard stop caps loss; BTC is the least-volatile major (structural downside protection vs alts); daily rotation caps the hold to ~24h; spot sizing (no leverage amplification).",
+      "addedDate": "2026-08-09"
     }
   ]
 }
