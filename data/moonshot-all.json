@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 9538.99,
-  "tradeDate": "2026-08-09",
-  "lastUpdated": "2026-08-09T11:42:09Z",
-  "nextRefresh": "2026-08-10T06:30:00-05:00",
+  "startingCapital": 9551.38,
+  "tradeDate": "2026-08-10",
+  "lastUpdated": "2026-08-10T11:44:36Z",
+  "nextRefresh": "2026-08-11T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -461.01,
+  "priorRealizedPnL": -448.62,
   "positions": [
     {
-      "ticker": "BTC-USD",
-      "name": "Bitcoin (spot)",
-      "sector": "Cryptocurrency — Large Cap",
-      "shares": 0.146891,
-      "entry": 64939.19,
-      "stopPrice": 58445.27,
+      "ticker": "SOXL",
+      "name": "Direxion Daily Semiconductor Bull 3X",
+      "sector": "Leveraged Equity ETF — Semiconductors (3x long)",
+      "shares": 66.975528,
+      "entry": 142.61,
+      "stopPrice": 128.35,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Sunday, US equity markets closed → spot crypto only (leveraged crypto ETFs trade equity hours only). Supportive-but-cautious tape: US spot BTC ETFs logged a 5th straight day of inflows (~$850M cumulative since Aug 3), an active institutional bid under price; offset by risk-off sentiment (Crypto Fear & Greed 39). BTC pinned ~$64.9k, ETH ~$1,919, SOL ~$76 (+1.8%). No fresh next-24h catalyst strong enough for a high-beta bet.",
-      "driver": "LONG BTC spot, 100% capital, no leverage (crypto weekend). On a low-edge, fear-territory weekend the objective favors the most defensive spot expression with the best downside protection: BTC is the lowest-vol major, holds the $63-65k shelf, and now has a concrete tailwind — 5 consecutive days of spot-BTC-ETF inflows (~$850M) providing a real institutional bid. Chose BTC over: SOL (genuine catalysts — Western Union selecting Solana for stablecoin settlement across 150M+ customers, plus Anza SIMD-0525 slot-time upgrade — but the upgrade mainnet-activates the week of Aug 17, NOT next-24h, and SOL is higher-beta into fear sentiment = more weekend downside); ETH (range-bound ~$1,919, no fresh 24h catalyst, mid-beta). Entry 64939.19 = dashboard live proxy quote, asOf 2026-08-09T11:40:58Z. Stop 58445.27 (-10%, spot-crypto band).",
-      "risks": "Weekend crypto liquidity is thin with no circuit breakers, so a risk-off deepening (macro/geopolitical headline) can gap BTC through $63k support sharply. ETF-inflow support is a weekday-market dynamic and does not backstop weekend price directly. Opportunity cost if SOL front-runs its catalysts or a risk-on reversal favors higher-beta alts. Mitigants: -10% hard stop caps loss; BTC is the least-volatile major (structural downside protection vs alts); daily rotation caps the hold to ~24h; spot sizing (no leverage amplification).",
-      "addedDate": "2026-08-09"
+      "catalyst": "Risk-on tape driven by weak July jobs (-23k NFP, soft wages) → active rate-cut repricing; 10y yield slipped to 4.60%, 1y inflation expectations to 3.6%; S&P futures +0.6% pre-market. Semis are THE 2026 leadership group (AMAT ~+110% YTD, COHR ~+105%) and are leading the pre-market bid: SOXL +1.68% pre-open vs TQQQ +0.55% / SPXL +0.27%. Next macro event is July CPI Wed Aug 12 (Cleveland Fed nowcast ~3.45%) — outside this 24h window since book rotates tomorrow AM.",
+      "driver": "LONG 3x semiconductors, 100% capital. On a soft-jobs / falling-yield risk-on Monday the most asymmetric next-24h expression is to ride the leadership group with the strongest relative strength — semis — via 3x SOXL. Chose SOXL over: TQQQ (3x Nasdaq, broader but lagging pre-market +0.55%, less beta to today's flow); SPXL (3x S&P, only +0.27%, too broad/slow for a moonshot); BITX (2x BTC, no fresh catalyst, BTC flat ~$65k). 3x leverage matched to the confluence of active rate-cut repricing + clearest sector momentum + confirming pre-market relative strength. Entry 142.61 = Robinhood real-time pre-market last (bid 142.50 / ask 142.77); dashboard proxy still showed the stale Aug-7 prior close ($140.25) pre-open, so used Robinhood live per canonical fallback. +1.68% pre-open is well under the 8-10% chase cap. Stop 128.35 (-10%, 3x band).",
+      "risks": "3x semis is the highest-beta expression on the board: an intraday risk-off reversal (hawkish Fed-speak, a geopolitical/tariff headline, or profit-taking in extended chip names) is amplified ~3x and decay/path-dependence hurt on a choppy day. Semi-specific earnings cluster later this week (AMAT etc.) can inject sector volatility even before those prints. Mitigants: -10% hard stop caps the loss; ~24h hold via daily rotation exits before Wed CPI event risk; entered on confirmed pre-market relative strength, not a chase.",
+      "addedDate": "2026-08-10"
     }
   ]
 }
