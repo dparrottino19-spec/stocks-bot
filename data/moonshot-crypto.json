@@ -2,32 +2,32 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10715.13,
-  "tradeDate": "2026-08-09",
-  "lastUpdated": "2026-08-09T11:45:00Z",
-  "nextRefresh": "2026-08-10T06:45:00-05:00",
+  "startingCapital": 10778.234417,
+  "tradeDate": "2026-08-10",
+  "lastUpdated": "2026-08-10T11:54:27Z",
+  "nextRefresh": "2026-08-11T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
     "Spot crypto only (BTC, ETH, SOL, and other liquid coins on Robinhood)",
-    "Rotate each 6:45am CT run — sell yesterday, buy today's best",
-    "Runs every day — crypto trades 24/7",
+    "Rotate each 6:45am CT run \u2014 sell yesterday, buy today's best",
+    "Runs every day \u2014 crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 715.13,
+  "priorRealizedPnL": 778.234417,
   "positions": [
     {
-      "ticker": "SOL",
-      "name": "Solana",
+      "ticker": "BTC",
+      "name": "Bitcoin",
       "sector": "Crypto",
-      "shares": 140.232038,
-      "entry": 76.41,
-      "stopPrice": 68.0,
+      "shares": 0.165789,
+      "entry": 65011.76,
+      "stopPrice": 59810.82,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "SOL is the clearest mover on an otherwise flat tape. It bounced from the low-$70s (~73.5) to 76.41 overnight — the strongest relative strength in the majors — and is pressing directly into the $77-$78 resistance/pivot; a clean break opens room to run. Canonical dashboard proxy was FRESH this run (asOf 2026-08-09T11:40:58Z): SOL 76.41, BTC 64939.19, ETH 1919.07.",
-      "driver": "Closed prior ETH at 1919.07 (canonical live) vs entry 1918.99 for +0.45 (+0.00%) — ETH is dead money, consolidating in a razor-tight range with ETF inflows still not translating into price. ROTATED into SOL as the best risk-adjusted next-24h pick: it owns the only real momentum/relative-strength signal on the tape (up ~4% overnight, testing the $77-78 pivot) and offers an asymmetric payoff if it clears resistance. Wins vs runners-up: ETH (1919) has the flow catalyst but zero price traction — repeatedly flat; BTC (~64.9k) is the safe major with the strongest ETF inflows (5 straight days, ~$850M) but is drifting sideways with no near-term edge. SOL is where the actual move is, with a definable higher-beta stop.",
-      "risks": "SOL carries the highest beta of the three and — unlike BTC/ETH — has NO ETF flow support (all six US SOL ETFs logged ~5 straight sessions of zero/negative net flows), so the move is momentum-only and can reverse fast. Broad sentiment is still in fear (F&G ~39). If the $77-78 pivot rejects, expect mean reversion toward the low-$70s. Hard stop 68.00 (-11%).",
-      "addedDate": "2026-08-09"
+      "catalyst": "Low-edge, fear-gripped tape (F&G ~39) with the majors churning sideways \u2014 exactly the setup where the strategy favors the liquid majors. BTC owns the only durable institutional bid: US spot BTC ETFs have logged ~5 straight sessions of inflows (~$850M since Aug 3), while ETH is dead money and SOL/XRP ETFs are bleeding or flat. BTC is holding firmly above $64k and pressing $65k. Asymmetric trigger: a clean break of $66-67k opens $68k then $69k; the ETF bid cushions downside. Canonical dashboard proxy FRESH this run (asOf 2026-08-10T11:53:08Z): BTC 65011.76, ETH 1916.80, SOL 76.86.",
+      "driver": "Closed prior SOL at 76.86 (canonical live) vs entry 76.41 for +63.10 (+0.59%) \u2014 SOL's momentum bet paid a small profit but stalled at the $77-78 pivot with NO ETF flow support and negative net flows. ROTATED into BTC as the best risk-adjusted next-24h pick on a low-edge day: it has the strongest relative strength AND the most downside protection of the universe (5 straight days of ETF inflows, deepest liquidity), plus near-term catalysts in Fed guidance and fresh ETF flow prints. Wins vs runners-up: SOL (76.86) is momentum-only and rejecting resistance with ETF outflows; ETH (1916.80) still can't convert inflows into price and sits mid-range; XRP (~1.03) has seen ETF inflows dry to near-zero and is pinned near its $1 floor. BTC is the highest-quality asymmetric hold when the tape offers no clear edge.",
+      "risks": "BTC's edge here is quality/protection, not explosive upside \u2014 on a fear tape it can keep grinding sideways and produce little. A hawkish Fed surprise or a break below $64k support risks a slide toward $63k then $62.5k. ETF-inflow streaks can reverse abruptly and remove the bid. Hard stop 59810.82 (-8%).",
+      "addedDate": "2026-08-10"
     }
   ]
 }
