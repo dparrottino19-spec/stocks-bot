@@ -2,32 +2,32 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 9551.38,
-  "tradeDate": "2026-08-10",
-  "lastUpdated": "2026-08-10T11:44:36Z",
-  "nextRefresh": "2026-08-11T06:30:00-05:00",
+  "startingCapital": 9008.88,
+  "tradeDate": "2026-08-11",
+  "lastUpdated": "2026-08-11T11:44:30Z",
+  "nextRefresh": "2026-08-12T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
     "Any liquid asset: stock, crypto, or leveraged/inverse ETF",
-    "Rotate each 6:30am CT run — sell yesterday, buy today's best",
+    "Rotate each 6:30am CT run \u2014 sell yesterday, buy today's best",
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -448.62,
+  "priorRealizedPnL": -991.12,
   "positions": [
     {
-      "ticker": "SOXL",
-      "name": "Direxion Daily Semiconductor Bull 3X",
-      "sector": "Leveraged Equity ETF — Semiconductors (3x long)",
-      "shares": 66.975528,
-      "entry": 142.61,
-      "stopPrice": 128.35,
+      "ticker": "MARA",
+      "name": "MARA Holdings, Inc.",
+      "sector": "Bitcoin Miner / Digital-Asset Compute (single stock, unleveraged)",
+      "shares": 909.987879,
+      "entry": 9.9,
+      "stopPrice": 9.31,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Risk-on tape driven by weak July jobs (-23k NFP, soft wages) → active rate-cut repricing; 10y yield slipped to 4.60%, 1y inflation expectations to 3.6%; S&P futures +0.6% pre-market. Semis are THE 2026 leadership group (AMAT ~+110% YTD, COHR ~+105%) and are leading the pre-market bid: SOXL +1.68% pre-open vs TQQQ +0.55% / SPXL +0.27%. Next macro event is July CPI Wed Aug 12 (Cleveland Fed nowcast ~3.45%) — outside this 24h window since book rotates tomorrow AM.",
-      "driver": "LONG 3x semiconductors, 100% capital. On a soft-jobs / falling-yield risk-on Monday the most asymmetric next-24h expression is to ride the leadership group with the strongest relative strength — semis — via 3x SOXL. Chose SOXL over: TQQQ (3x Nasdaq, broader but lagging pre-market +0.55%, less beta to today's flow); SPXL (3x S&P, only +0.27%, too broad/slow for a moonshot); BITX (2x BTC, no fresh catalyst, BTC flat ~$65k). 3x leverage matched to the confluence of active rate-cut repricing + clearest sector momentum + confirming pre-market relative strength. Entry 142.61 = Robinhood real-time pre-market last (bid 142.50 / ask 142.77); dashboard proxy still showed the stale Aug-7 prior close ($140.25) pre-open, so used Robinhood live per canonical fallback. +1.68% pre-open is well under the 8-10% chase cap. Stop 128.35 (-10%, 3x band).",
-      "risks": "3x semis is the highest-beta expression on the board: an intraday risk-off reversal (hawkish Fed-speak, a geopolitical/tariff headline, or profit-taking in extended chip names) is amplified ~3x and decay/path-dependence hurt on a choppy day. Semi-specific earnings cluster later this week (AMAT etc.) can inject sector volatility even before those prints. Mitigants: -10% hard stop caps the loss; ~24h hold via daily rotation exits before Wed CPI event risk; entered on confirmed pre-market relative strength, not a chase.",
-      "addedDate": "2026-08-10"
+      "catalyst": "Bitcoin-miner Q2 earnings cluster led by RIOT, which beat on Q2 and gapped +16% pre-market; sector sympathy bid lifting peers. MARA +3.6% pre-market (9.90 vs 9.56 close) on the read-through. Broad Q2 beat tone across the tape (RIOT, News Corp, CoreCivic, Axcelis all raised/beat). Note: CPI (Wed Aug 12, ~7:30am CT) lands AFTER tomorrow's 6:30am rotation, so this 24h hold exits BEFORE the CPI print \u2014 event risk sits outside the window.",
+      "driver": "LONG single-stock miner, UNLEVERAGED (1x), 100% capital. On a flat, pre-CPI tape (S&P/Nasdaq futures ~unchanged) the only live catalyst cluster is the Bitcoin-miner Q2 beat led by RIOT. RIOT itself is barred by the >8-10% chase cap (+16% pre-market), so the rule-compliant expression of the same theme is the sympathy leader MARA at +3.6% \u2014 well inside the chase band with room to run on post-earnings sector drift. Deliberately UNLEVERAGED: conviction is moderate (derivative catalyst, BTC soft at ~$64.3k) so no 2x/3x \u2014 leverage matched to conviction, capital-preservation prioritized after yesterday's 3x-semi loss. Chosen over: RIOT (barred, chasing); TQQQ/BITX (+0.9%/+1.0%, no fresh catalyst, poor edge into CPI); SOXL bounce (falling-knife mean-reversion in the group that just lost -8.9%). Entry 9.90 = Robinhood real-time pre-market (last 9.90, bid 9.89/ask 9.90) at 11:43Z; dashboard proxy still echoing the 9.56 prior close pre-open, so used RH live per canonical fallback. Stop 9.31 (-6%, unleveraged band).",
+      "risks": "Sympathy/derivative catalyst: MARA's bid rests on RIOT's beat, not its own print, and BTC is soft (~$64.3k, drifting) \u2014 if RIOT's gap fades intraday or crypto keeps sliding the sympathy trade reverses quickly, and low-priced miners are high-beta. Broad-tape risk is muted pre-CPI but a hawkish headline could pressure high-beta names. Mitigants: -6% hard stop; unleveraged so no decay/path amplification; ~24h rotation exits before the Wed CPI event; entry not a chase (+3.6%).",
+      "addedDate": "2026-08-11"
     }
   ]
 }
