@@ -2,11 +2,11 @@
   "bookName": "Weekly Trader",
   "inceptionDate": "2026-05-13",
   "inceptionCapital": 70000,
-  "startingCapital": 74925.93,
-  "weekStart": "2026-08-03",
-  "weekEnd": "2026-08-07",
-  "lastUpdated": "2026-08-03T16:05:35Z",
-  "nextRefresh": "2026-08-10T07:30:00-05:00",
+  "startingCapital": 76514.03,
+  "weekStart": "2026-08-10",
+  "weekEnd": "2026-08-14",
+  "lastUpdated": "2026-08-10T13:35:00Z",
+  "nextRefresh": "2026-08-17T07:30:00-05:00",
   "rules": [
     "1-wk max hold",
     "<=10% per position",
@@ -14,148 +14,128 @@
     "Real-time catalyst-driven",
     "Max returns objective"
   ],
-  "priorWeekRealizedPnL": -1382.96,
-  "note": "Week 2026-08-03 build. Prior 7/27-7/31 book closed at official Fri 7/31 closes for -1382.96 realized (winners MSFT +1042, AMZN +873, GEV +107, PYPL +83, V +43; losers RDDT -1133 post-earnings, QCOM -624, HOOD -384, META -353, INSM -350, VST -309, LLY -193, CEG -183). New week targets the second heavy Q2 week: AI-semis AMD+ANET (Tue 8/4), PLTR (Mon 8/3) & DDOG/APP software prints, SPOT (Tue), UBER/MELI (Wed 8/5), ABNB/DKNG (Thu 8/6), CAT (Tue) industrials, VRTX/GILD healthcare, and VST (Fri 8/7) on the AI-power theme. 14 names, ~89% deployed, ~11% cash. Entered Monday 8/3 at verified live quotes.",
+  "priorWeekRealizedPnL": 1588.1,
+  "note": "Week 2026-08-10 build. Prior 8/3-8/7 book closed at official Fri 8/7 closes for +1588.10 realized (winners PLTR +1791, ABNB +836, UBER +242, VRTX +241, ANET +182, GILD +117, CAT +114, DKNG +108, AMD +23; losers DDOG -693, APP -675, VST -428, MELI -208, SPOT -61). New week targets the tail of Q2 earnings season, dominated by AI infrastructure: CRWV & SMCI (Tue 8/11), CSCO (Wed 8/12), AMAT (Thu 8/13), plus NBIS & LITE this week; momentum continuation on last week's beats PLTR/ABNB/UBER/DKNG; NVDA as the AI-semi anchor; JD adds a cheap China e-commerce earnings catalyst. CPI/PPI land mid-week. 12 names, ~89.5% deployed, ~10.5% cash. Entered Monday 8/10 at verified session quotes.",
   "positions": [
     {
-      "ticker": "AMD",
-      "name": "Advanced Micro Devices, Inc.",
-      "sector": "Technology / Semis",
-      "shares": 10,
-      "entry": 481.06,
-      "catalyst": "Q2 earnings Tue 8/4 AMC; Street models ~$11.3B rev (+47% YoY) and EPS ~$1.62; Polymarket >90% odds DC rev tops $6B; Wedbush PT $600 on MI350/Helios ramp.",
-      "risks": "Binary earnings event in-window; high beta; below $585 52w high.",
-      "driver": "Marquee AI-semi earnings catalyst of the week."
+      "ticker": "CRWV",
+      "name": "CoreWeave, Inc.",
+      "sector": "Technology / AI Cloud",
+      "shares": 75,
+      "entry": 88.21,
+      "catalyst": "Q2 earnings Tue 8/11 AMC; consensus ~$2.56B rev (>2x YoY) on a $99B+ backlog; options price a ~13-15% move; new-customer wins and the $31-35B capex plan in focus.",
+      "risks": "Binary earnings in-window; still unprofitable (est. EPS loss ~$1.21); margin/capital-intensity scrutiny; high beta.",
+      "driver": "Marquee AI-cloud earnings catalyst of the week."
     },
     {
-      "ticker": "ANET",
-      "name": "Arista Networks, Inc.",
+      "ticker": "NBIS",
+      "name": "Nebius Group N.V.",
+      "sector": "Technology / AI Cloud",
+      "shares": 28,
+      "entry": 184.06,
+      "catalyst": "Q2 earnings this week; AI-cloud GPU-cluster capacity ramp plus Toloka data-services; strong momentum, well off the $300 52w high.",
+      "risks": "Binary earnings; high multiple; capex-heavy AI infra; Europe-domiciled ADR.",
+      "driver": "High-growth AI-infrastructure earnings catalyst."
+    },
+    {
+      "ticker": "SMCI",
+      "name": "Super Micro Computer, Inc.",
+      "sector": "Technology / Hardware",
+      "shares": 165,
+      "entry": 31.445,
+      "catalyst": "Q4 earnings Tue 8/11 AMC; AI-server (GB200/300 rack-scale) shipments and margin recovery the swing factors; cheap ~15x P/E.",
+      "risks": "Binary earnings; historically volatile guidance/margins; component-supply timing.",
+      "driver": "AI-server earnings catalyst with low-multiple re-rate potential."
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials, Inc.",
+      "sector": "Technology / Semis",
+      "shares": 13,
+      "entry": 521.95,
+      "catalyst": "Q3 earnings Thu 8/13 AMC; leading-edge/DRAM WFE demand and AI-driven capex the driver; China exposure and gross-margin trajectory in focus.",
+      "risks": "Binary earnings; China export-control headline risk; semicap cyclicality.",
+      "driver": "Semicap earnings catalyst levered to AI capex."
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation",
+      "sector": "Technology / Semis",
+      "shares": 29,
+      "entry": 217.56,
+      "catalyst": "AI-semis bellwether into a heavy AI-print week (CRWV/AMAT/CSCO); Blackwell/data-center demand momentum; sits ~8% below the $236 52w high.",
+      "risks": "No in-window earnings (reports late Aug); high-beta into CPI/PPI; China-policy headlines.",
+      "driver": "AI-semi momentum anchor confirmed by sector-wide earnings flow."
+    },
+    {
+      "ticker": "LITE",
+      "name": "Lumentum Holdings Inc.",
+      "sector": "Technology / Optical",
+      "shares": 7,
+      "entry": 813.86,
+      "catalyst": "Earnings this week; AI-datacenter optical/transceiver (800G/1.6T) demand and the datacom up-cycle the driver; strong uptrend below the $1,086 52w high.",
+      "risks": "Binary earnings; rich ~145x P/E; customer-concentration; high nominal price.",
+      "driver": "AI-optical earnings catalyst on a datacom up-cycle."
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco Systems, Inc.",
       "sector": "Technology / Networking",
-      "shares": 26,
-      "entry": 181.68,
-      "catalyst": "Q2 earnings Tue 8/4 AMC; AI back-end/Ethernet networking demand; pressing against $190 52w high into the print.",
-      "risks": "Earnings-event beta; customer-concentration; rich multiple.",
-      "driver": "AI-networking momentum confirmed by earnings."
+      "shares": 46,
+      "entry": 122.61,
+      "catalyst": "Q4 FY26 earnings Wed 8/12 AMC; AI-infrastructure order growth and Splunk/security cross-sell; pressing against the $130 52w high.",
+      "risks": "Binary earnings; enterprise-spend/macro sensitivity; slower-growth franchise.",
+      "driver": "AI-networking earnings catalyst near new highs."
     },
     {
       "ticker": "PLTR",
       "name": "Palantir Technologies Inc.",
       "sector": "Technology / Software",
       "shares": 38,
-      "entry": 124.88,
-      "catalyst": "Q2 earnings Mon 8/3 AMC; consensus ~$1.81B rev (+81% YoY), EPS $0.34; 8 straight beats; AIP/commercial acceleration the swing factor.",
-      "risks": "71x sales leaves no room for a miss; options price ~12% move; ~40% off high.",
-      "driver": "In-window earnings catalyst on a high-momentum AI software name."
-    },
-    {
-      "ticker": "DDOG",
-      "name": "Datadog, Inc.",
-      "sector": "Technology / Software",
-      "shares": 17,
-      "entry": 274.69,
-      "catalyst": "Q2 earnings Thu 8/6; observability/AI-monitoring demand; printing fresh 52w highs into the report.",
-      "risks": "Extended multiple (>20x sales); earnings-event risk.",
-      "driver": "Breakout-to-highs momentum with an earnings catalyst."
-    },
-    {
-      "ticker": "APP",
-      "name": "AppLovin Corporation",
-      "sector": "Technology / Software",
-      "shares": 12,
-      "entry": 403.06,
-      "catalyst": "Q2 earnings Wed 8/5 AMC; AXON ad-engine and e-commerce ad expansion the driver; rebounding off the $359 52w low base.",
-      "risks": "Volatile; short-report overhang history; below $746 high.",
-      "driver": "AdTech earnings catalyst with recovery momentum."
-    },
-    {
-      "ticker": "SPOT",
-      "name": "Spotify Technology S.A.",
-      "sector": "Communication Services",
-      "shares": 9,
-      "entry": 494.91,
-      "catalyst": "Q2 earnings Tue 8/4; subscriber adds, price hikes and gross-margin expansion in focus.",
-      "risks": "Near 52w-low third of range; FX headwinds; guidance sensitivity.",
-      "driver": "Earnings catalyst on a margin-inflection streaming leader."
-    },
-    {
-      "ticker": "UBER",
-      "name": "Uber Technologies, Inc.",
-      "sector": "Industrials / Transportation",
-      "shares": 66,
-      "entry": 71.36,
-      "catalyst": "Q2 earnings Wed 8/5; mobility+delivery bookings, robotaxi partnership commentary; bouncing off the $65 52w low.",
-      "risks": "Trading near 52w lows; consumer-spend and AV-competition risk.",
-      "driver": "Earnings catalyst with autonomy-narrative optionality."
+      "entry": 175.22,
+      "catalyst": "Post-earnings continuation after the Q2 beat-and-raise (rev +80%+ YoY); AIP/commercial acceleration; broke to fresh relative highs on 8/7-8/10.",
+      "risks": "~107x earnings leaves no room for error; high beta; profit-taking after the run.",
+      "driver": "High-momentum AI-software follow-through off a fresh beat."
     },
     {
       "ticker": "ABNB",
       "name": "Airbnb, Inc.",
       "sector": "Consumer Discretionary",
-      "shares": 31,
-      "entry": 151.09,
-      "catalyst": "Q2 earnings Thu 8/6; summer travel bookings and new-services rollout; sitting just under the $156.50 52w high.",
-      "risks": "Binary earnings; travel-demand normalization risk.",
-      "driver": "Near-highs momentum into an earnings catalyst."
+      "shares": 30,
+      "entry": 184.68,
+      "catalyst": "Post-earnings momentum after the +17% Q2 breakout (bookings + new-services rollout); printed a fresh $186 52w high on 8/10.",
+      "risks": "Extended after the earnings gap; travel-demand/macro sensitivity; near-high entry.",
+      "driver": "Breakout momentum confirmed by a fresh earnings beat."
     },
     {
       "ticker": "DKNG",
       "name": "DraftKings Inc.",
       "sector": "Consumer Discretionary",
-      "shares": 200,
-      "entry": 23.49,
-      "catalyst": "Q2 earnings Thu 8/6; live/parlay handle growth and iGaming expansion; basing off the $20 52w low.",
-      "risks": "Deep off $49 high; sports-outcome/tax-headline risk; high beta.",
-      "driver": "Turnaround momentum with an in-window earnings catalyst."
+      "shares": 210,
+      "entry": 24.275,
+      "catalyst": "Post-earnings momentum after the Q2 beat (+8% on 8/7); NFL-season handle ramp and iGaming expansion; basing above the $20 52w low.",
+      "risks": "Prediction-market/regulatory competition; promotional intensity; consumer-spend sensitivity.",
+      "driver": "Sports-betting momentum into football-season seasonality."
     },
     {
-      "ticker": "MELI",
-      "name": "MercadoLibre, Inc.",
+      "ticker": "JD",
+      "name": "JD.com, Inc.",
       "sector": "Consumer Discretionary",
-      "shares": 3,
-      "entry": 1889.88,
-      "catalyst": "Q2 earnings Wed 8/5; LatAm e-commerce GMV and fintech (Mercado Pago) growth; recovering off the $1,495 52w low.",
-      "risks": "High notional; FX/Argentina macro; earnings-event beta.",
-      "driver": "LatAm growth compounder with an earnings catalyst."
+      "shares": 130,
+      "entry": 33.475,
+      "catalyst": "Q2 earnings this week; China consumer-stimulus tailwind, JD Retail margin and food-delivery push in focus; sits below the $37 52w high with a ~3% yield.",
+      "risks": "Binary earnings; China macro/competition (food-delivery price war); ADR/regulatory risk.",
+      "driver": "Cheap China e-commerce with an in-window earnings catalyst."
     },
     {
-      "ticker": "CAT",
-      "name": "Caterpillar, Inc.",
-      "sector": "Industrials",
-      "shares": 6,
-      "entry": 823.26,
-      "catalyst": "Q2 earnings Tue 8/4; data-center/power-gen and infrastructure demand; riding a strong uptrend below its $1,073 high.",
-      "risks": "Cyclical; tariff/input-cost sensitivity; earnings-event risk.",
-      "driver": "Industrial-cyclical momentum with an earnings catalyst."
-    },
-    {
-      "ticker": "VRTX",
-      "name": "Vertex Pharmaceuticals Inc.",
-      "sector": "Healthcare",
-      "shares": 10,
-      "entry": 471.98,
-      "catalyst": "Q2 earnings Mon 8/3 AMC; CF franchise plus Journavx (pain) and vanza launches the focus.",
-      "risks": "Binary pharma earnings; pipeline/launch-trajectory risk.",
-      "driver": "Large-cap biotech earnings catalyst with new-launch momentum."
-    },
-    {
-      "ticker": "GILD",
-      "name": "Gilead Sciences, Inc.",
-      "sector": "Healthcare",
-      "shares": 36,
-      "entry": 129.97,
-      "catalyst": "Q2 earnings Tue 8/4; HIV franchise plus Yeztugo (lenacapavir PrEP) launch ramp; defensive with a 2.5% yield.",
-      "risks": "Patent-cliff/biosimilar overhang; launch-uptake risk.",
-      "driver": "Earnings catalyst on a re-rating HIV/PrEP story."
-    },
-    {
-      "ticker": "VST",
-      "name": "Vistra Corp.",
-      "sector": "Utilities",
-      "shares": 30,
-      "entry": 154.86,
-      "catalyst": "Q2 earnings Fri 8/7; AI-datacenter power-demand and nuclear/gas fleet the driver; bouncing off the $132.66 52w low.",
-      "risks": "Well below $220 high; power-price and rate sensitivity.",
-      "driver": "AI-power theme with an end-of-week earnings catalyst."
+      "ticker": "UBER",
+      "name": "Uber Technologies, Inc.",
+      "sector": "Industrials / Transportation",
+      "shares": 70,
+      "entry": 78.0,
+      "catalyst": "Post-earnings momentum after the strong Q2 print (+5% into 8/7); mobility+delivery bookings and robotaxi/AV partnership commentary; new leg higher.",
+      "risks": "Extended off the $65 52w low; consumer/gig-labor and AV-competition risk.",
+      "driver": "Post-earnings momentum with expanding platform economics."
     }
   ]
 }
