@@ -2,10 +2,10 @@
   "bookName": "Moonshot Stocks",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 9067.35,
-  "tradeDate": "2026-08-10",
-  "lastUpdated": "2026-08-10T11:42:57Z",
-  "nextRefresh": "2026-08-11T06:35:00-05:00",
+  "startingCapital": 8360.19,
+  "tradeDate": "2026-08-11",
+  "lastUpdated": "2026-08-11T11:40:06Z",
+  "nextRefresh": "2026-08-12T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -14,20 +14,6 @@
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
-  "priorRealizedPnL": -932.65,
-  "positions": [
-    {
-      "ticker": "AAOI",
-      "name": "Applied Optoelectronics, Inc.",
-      "sector": "Technology — Optical Networking/Communications Equipment",
-      "shares": 63.823115,
-      "entry": 142.07,
-      "stopPrice": 133.55,
-      "exitRule": "Rotate next weekday 6:35am CT run",
-      "catalyst": "Q2 2026 beat-and-raise (reported Fri Aug 7): revenue $191.9M (+86% YoY, +27% QoQ) beat consensus $190.5M; raised FY26 revenue outlook to ~$1.1B; management says AI-networking (800G/datacenter transceiver) demand is 'bounded almost entirely by production capacity,' with forecast demand exceeding capacity through mid-2027; expects to stay non-GAAP profitable through 2026 as capacity ramps.",
-      "driver": "Day-after post-earnings continuation on a genuine beat-and-raise: pre-market ~$142.07 (+4.75% vs $135.63 close) on top of Friday's ~+11% earnings pop — momentum with a fundamental floor (capacity-constrained AI optical demand, raised guide, returning profitability). Binary earnings risk already resolved to the upside, so no overnight earnings gap during the ~24h hold. Entered well under the 8-10% chase cap with a definable ~6% stop. Chosen over RKLB and PLUG (both report AH today = unresolved binary held overnight) and CECO (fading pre-market into an unresolved same-morning print).",
-      "risks": "High-beta small/mid-cap optical name (~$7.5B) — a 6% stop can be hit on normal intraday volatility; two-day cumulative run (~+17%) raises give-back risk if momentum fades; component/capacity execution risk and customer concentration; broad risk-off or semis/AI-trade rotation would pressure the whole group; pre-market print above the dashboard's lagged Yahoo feed ($135.63) — fill risk if the regular-session open is lower.",
-      "addedDate": "2026-08-10"
-    }
-  ]
+  "priorRealizedPnL": -1639.81,
+  "positions": []
 }
