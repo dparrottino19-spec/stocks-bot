@@ -3,9 +3,9 @@
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
   "startingCapital": 8360.19,
-  "tradeDate": "2026-08-11",
-  "lastUpdated": "2026-08-11T11:40:06Z",
-  "nextRefresh": "2026-08-12T06:35:00-05:00",
+  "tradeDate": "2026-08-12",
+  "lastUpdated": "2026-08-12T11:38:55Z",
+  "nextRefresh": "2026-08-13T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -15,5 +15,19 @@
     "Cash on low-conviction days"
   ],
   "priorRealizedPnL": -1639.81,
-  "positions": []
+  "positions": [
+    {
+      "ticker": "GLBE",
+      "name": "Global-E Online Ltd.",
+      "sector": "Technology — E-commerce enablement",
+      "shares": 194.740042,
+      "entry": 42.93,
+      "stopPrice": 40.35,
+      "exitRule": "Rotate next weekday 6:35am CT run",
+      "catalyst": "Q2 2026 beat + raised FY26 outlook (Aug 12 pre-market): GMV $2.089B (+44% YoY), revenue $299.0M (+39% YoY), adj. EBITDA $62.4M (+62%, 20.9% margin), non-GAAP net profit $64.9M, FCF $73.2M. Raised FY26 revenue guide to $1.305-1.355B (from $1.220-1.280B) and adj. EBITDA to $278-300M.",
+      "driver": "Cross-border e-commerce enablement scaling with AI-driven operating leverage; margin step-up + guidance raise = clean beat-and-raise with room to run. +5% pre-market, not overextended.",
+      "risks": "High-multiple growth name; premarket gap can fade at the open; Shopify/partner concentration; broad tech-tape risk; ADR/FX (Israel-domiciled).",
+      "addedDate": "2026-08-12"
+    }
+  ]
 }
