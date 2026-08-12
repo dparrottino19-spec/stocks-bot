@@ -2,32 +2,32 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 9008.88,
-  "tradeDate": "2026-08-11",
-  "lastUpdated": "2026-08-11T11:44:30Z",
-  "nextRefresh": "2026-08-12T06:30:00-05:00",
+  "startingCapital": 9118.08,
+  "tradeDate": "2026-08-12",
+  "lastUpdated": "2026-08-12T11:44:09Z",
+  "nextRefresh": "2026-08-13T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
     "Any liquid asset: stock, crypto, or leveraged/inverse ETF",
-    "Rotate each 6:30am CT run \u2014 sell yesterday, buy today's best",
+    "Rotate each 6:30am CT run — sell yesterday, buy today's best",
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -991.12,
+  "priorRealizedPnL": -881.92,
   "positions": [
     {
-      "ticker": "MARA",
-      "name": "MARA Holdings, Inc.",
-      "sector": "Bitcoin Miner / Digital-Asset Compute (single stock, unleveraged)",
-      "shares": 909.987879,
-      "entry": 9.9,
-      "stopPrice": 9.31,
+      "ticker": "TQQQ",
+      "name": "ProShares UltraPro QQQ (3x Nasdaq-100)",
+      "sector": "Leveraged broad equity ETF — 3x long Nasdaq-100 (mega-cap tech)",
+      "shares": 122.505441,
+      "entry": 74.43,
+      "stopPrice": 66.99,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Bitcoin-miner Q2 earnings cluster led by RIOT, which beat on Q2 and gapped +16% pre-market; sector sympathy bid lifting peers. MARA +3.6% pre-market (9.90 vs 9.56 close) on the read-through. Broad Q2 beat tone across the tape (RIOT, News Corp, CoreCivic, Axcelis all raised/beat). Note: CPI (Wed Aug 12, ~7:30am CT) lands AFTER tomorrow's 6:30am rotation, so this 24h hold exits BEFORE the CPI print \u2014 event risk sits outside the window.",
-      "driver": "LONG single-stock miner, UNLEVERAGED (1x), 100% capital. On a flat, pre-CPI tape (S&P/Nasdaq futures ~unchanged) the only live catalyst cluster is the Bitcoin-miner Q2 beat led by RIOT. RIOT itself is barred by the >8-10% chase cap (+16% pre-market), so the rule-compliant expression of the same theme is the sympathy leader MARA at +3.6% \u2014 well inside the chase band with room to run on post-earnings sector drift. Deliberately UNLEVERAGED: conviction is moderate (derivative catalyst, BTC soft at ~$64.3k) so no 2x/3x \u2014 leverage matched to conviction, capital-preservation prioritized after yesterday's 3x-semi loss. Chosen over: RIOT (barred, chasing); TQQQ/BITX (+0.9%/+1.0%, no fresh catalyst, poor edge into CPI); SOXL bounce (falling-knife mean-reversion in the group that just lost -8.9%). Entry 9.90 = Robinhood real-time pre-market (last 9.90, bid 9.89/ask 9.90) at 11:43Z; dashboard proxy still echoing the 9.56 prior close pre-open, so used RH live per canonical fallback. Stop 9.31 (-6%, unleveraged band).",
-      "risks": "Sympathy/derivative catalyst: MARA's bid rests on RIOT's beat, not its own print, and BTC is soft (~$64.3k, drifting) \u2014 if RIOT's gap fades intraday or crypto keeps sliding the sympathy trade reverses quickly, and low-priced miners are high-beta. Broad-tape risk is muted pre-CPI but a hawkish headline could pressure high-beta names. Mitigants: -6% hard stop; unleveraged so no decay/path amplification; ~24h rotation exits before the Wed CPI event; entry not a chase (+3.6%).",
-      "addedDate": "2026-08-11"
+      "catalyst": "July CPI prints today at 7:30am CT (8:30am EDT), squarely INSIDE this 24h hold window. Consensus: headline +0.1% m/m / 3.4% y/y (down from 3.5%), core +0.2% m/m / 2.5% y/y (down from 2.6%) — a disinflation read. Prediction markets (Kalshi) skew even softer: <55% odds CPI >3.3% y/y, only 15% >3.4%. Soft/in-line print raises Sept rate-cut odds and is risk-on for rate-sensitive mega-cap tech. Pre-market tape already leaning that way: QQQ +0.58% leading the majors, CoreWeave/SMCI up on earnings.",
+      "driver": "LONG 3x Nasdaq-100, 100% capital. Leverage matched to a STRONG, FRESH macro catalyst (CPI in-window) with a real directional edge — both consensus and prediction markets point to cooling inflation, and pre-market momentum confirms (QQQ leading, TQQQ +1.9% at 74.43 vs 73.06 close, well inside the chase band). Chosen over: SOXL (already +5.9% pre-market, stretched toward the chase cap and the falling-knife semis group that lost -8.9% recently); TNA (small caps lagging at +0.6%, tape not confirming the rate-cut trade yet); QLD (2x — same thesis but under-levered vs a catalyst this clean). TQQQ is the diversified mega-cap expression rather than the stretched semis. Entry 74.43 = Robinhood real-time pre-market ask (bid 74.42/ask 74.43, last 74.44) at ~11:43Z; dashboard proxy still echoing the 73.06 prior close pre-open, so used RH live per canonical fallback (same pattern documented yesterday on MARA). Stop 66.99 (-10%, 3x band).",
+      "risks": "Binary event risk: CPI is two-sided — a hot print (e.g. Apple hardware price hikes lifting core goods more than expected) reverses the risk-on trade hard, and 3x amplifies the downside. QQQ ~ -3.3% would trip the -10% stop. This is the opposite of a structurally asymmetric payoff; the edge rests on the disinflation lean, not certainty. Mitigants: -10% hard stop caps the loss; the print lands mid-window so the reaction is realized while we hold (not gapped over a rotation); pick is not a chase (+1.9%); Nasdaq is the most rate-sensitive, highest-quality high-beta expression rather than the stretched semis.",
+      "addedDate": "2026-08-12"
     }
   ]
 }
