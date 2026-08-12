@@ -2,10 +2,10 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10662.371116,
-  "tradeDate": "2026-08-11",
-  "lastUpdated": "2026-08-11T11:54:24Z",
-  "nextRefresh": "2026-08-12T06:45:00-05:00",
+  "startingCapital": 10639.276708,
+  "tradeDate": "2026-08-12",
+  "lastUpdated": "2026-08-12T11:54:51Z",
+  "nextRefresh": "2026-08-13T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Runs every day — crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 662.371116,
+  "priorRealizedPnL": 639.276708,
   "positions": [
     {
-      "ticker": "BTC",
-      "name": "Bitcoin",
+      "ticker": "SOL",
+      "name": "Solana",
       "sector": "Crypto",
-      "shares": 0.165789,
-      "entry": 64312.9,
-      "stopPrice": 59167.87,
+      "shares": 138.568334,
+      "entry": 76.78,
+      "stopPrice": 69.102,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "Risk-off, fear tape ahead of Wednesday's July CPI print (Fed still higher-for-longer). Total crypto cap -1.3% on the day; over-leveraged longs flushed. This is exactly the low-edge day the strategy meets with the liquid majors + max downside protection. BTC owns the only durable institutional bid: spot BTC ETFs posted their strongest inflow week since April (week ending Aug 7, ~$102M on Aug 7 alone) and large holders are adding through weakness while exchange balances fall. Asymmetric trigger: a soft CPI Wednesday flips the tape and headlines already frame BTC eyeing $69k; the ETF bid cushions the downside. Canonical dashboard proxy FRESH this run (asOf 2026-08-11T11:53:10Z): BTC 64312.90, ETH 1891.52, SOL 76.12.",
-      "driver": "Closed prior BTC at 64312.90 (canonical live) vs entry 65011.76 for -115.86 (-1.07%) — the sideways grind gave back a small loss as the whole tape de-risked into CPI. ROTATED back into BTC as the best risk-adjusted next-24h pick on a fear day: it has the strongest relative bid AND the most downside protection of the universe (strongest ETF inflow week since April, deepest liquidity, whales accumulating), plus a binary near-term catalyst in Wednesday's CPI. Wins vs runners-up: SOL (76.12) has a real forward catalyst (Agave 4.2 / Alpenglow mainnet week of Aug 17) but it's ~6 days out and SOL is higher-beta that bleeds hardest in a pre-CPI risk-off; ETH (1891.52) is the weakest of the group, down ~2.4% and unable to convert inflows into price; XRP (~1.0) is range-bound with ETF flows dried up. BTC is the highest-quality asymmetric hold when the tape offers no clear edge and event risk is imminent.",
-      "risks": "BTC's edge here is quality/protection, not explosive upside — on a fear tape it can keep grinding and produce little. A hot CPI Wednesday or a break of $64k support risks a slide toward $63k then $62.5k (RSI already slipping below 50, rejected at channel top). ETF-inflow streaks can reverse abruptly and remove the bid. Hard stop 59167.87 (-8%).",
-      "addedDate": "2026-08-11"
+      "catalyst": "CPI day (July CPI 8:30am ET Aug 12) — the binary macro trigger the whole tape is pinned to. But the asymmetric edge is SOL-specific: the Alpenglow upgrade — the largest consensus change in Solana's history (replaces TowerBFT/removes Proof of History, targets ~150ms and potentially ~100ms block confirmation) — is LIVE now, entering community validator testing, i.e. the catalyst the prior note flagged as '6 days out' has arrived. SOL also shows the clearest relative strength of the universe into CPI (holding ~$76.78, roughly flat, while BTC -1.7% and ETH -2.4% overnight), and SOL ETF inflows jumped to a 3-month high (~$8.8M, strongest since May 12), signaling returning institutional bid. Canonical dashboard proxy FRESH this run (asOf 2026-08-12T11:53:20Z): SOL 76.78, BTC 64173.60, ETH 1913.30.",
+      "driver": "Closed prior BTC at 64173.60 (canonical live) vs entry 64312.90 for -23.09 (-0.22%) — BTC did exactly what the prior risk note warned: ground sideways into CPI and gave back a hair. ROTATED into SOL as the best risk-adjusted next-24h pick: it now pairs a FRESH, live network catalyst (Alpenglow activation/validator testing) with the tape's clearest relative strength and improving ETF flows, giving asymmetric upside if CPI prints soft while the majors just tag their event-driven range. Wins vs runners-up: BTC (64173.60) is the quality/protection pick but keeps grinding out near-zero on a fear tape (as it did yesterday); ETH (1913.30) is the laggard, unable to convert inflows into price; XRP is underperforming (~-5% over the stretch) with no fresh trigger. SOL is the one name with both a catalyst that has actually landed and momentum leadership into the print.",
+      "risks": "Higher-beta alt into a binary macro print: a hot CPI flushes risk and SOL bleeds harder than the majors. Alpenglow is still in validator TESTING (not fully activated) so 'sell-the-news' or a delay headline could cap upside. A loss of ~$74 support opens a slide toward $72 then the low-$70s. ETF inflow revival can reverse fast. Hard stop 69.10 (-10%).",
+      "addedDate": "2026-08-12"
     }
   ]
 }
