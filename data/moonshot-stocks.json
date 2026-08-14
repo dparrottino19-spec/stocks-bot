@@ -2,32 +2,32 @@
   "bookName": "Moonshot Stocks",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8360.19,
-  "tradeDate": "2026-08-12",
-  "lastUpdated": "2026-08-12T11:38:55Z",
-  "nextRefresh": "2026-08-13T06:35:00-05:00",
+  "startingCapital": 8216.08,
+  "tradeDate": "2026-08-14",
+  "lastUpdated": "2026-08-14T13:24:45Z",
+  "nextRefresh": "2026-08-17T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
-    "US equities only — no ETFs, crypto, or options",
-    "Rotate each weekday 6:35am CT run — sell prior, buy today's best",
+    "US equities only \u2014 no ETFs, crypto, or options",
+    "Rotate each weekday 6:35am CT run \u2014 sell prior, buy today's best",
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
-  "priorRealizedPnL": -1639.81,
+  "priorRealizedPnL": -1783.92,
   "positions": [
     {
-      "ticker": "GLBE",
-      "name": "Global-E Online Ltd.",
-      "sector": "Technology — E-commerce enablement",
-      "shares": 194.740042,
-      "entry": 42.93,
-      "stopPrice": 40.35,
+      "ticker": "AMAT",
+      "name": "Applied Materials, Inc.",
+      "sector": "Technology \u2014 Semiconductor Equipment & Materials",
+      "shares": 16.344553,
+      "entry": 502.68,
+      "stopPrice": 472.52,
       "exitRule": "Rotate next weekday 6:35am CT run",
-      "catalyst": "Q2 2026 beat + raised FY26 outlook (Aug 12 pre-market): GMV $2.089B (+44% YoY), revenue $299.0M (+39% YoY), adj. EBITDA $62.4M (+62%, 20.9% margin), non-GAAP net profit $64.9M, FCF $73.2M. Raised FY26 revenue guide to $1.305-1.355B (from $1.220-1.280B) and adj. EBITDA to $278-300M.",
-      "driver": "Cross-border e-commerce enablement scaling with AI-driven operating leverage; margin step-up + guidance raise = clean beat-and-raise with room to run. +5% pre-market, not overextended.",
-      "risks": "High-multiple growth name; premarket gap can fade at the open; Shopify/partner concentration; broad tech-tape risk; ADR/FX (Israel-domiciled).",
-      "addedDate": "2026-08-12"
+      "catalyst": "FQ3 2026 (Aug 13 post-close) beat AND a large guidance raise: revenue $9.12B (+25% YoY) vs $8.99B est, adj. EPS $3.50 vs $3.40 est; FQ4 guide revenue $10.25B +/- $0.5B vs $9.54B consensus (~7% above) and adj. EPS $3.82-4.22 vs $3.69 est, with management citing 'unprecedented' AI-driven demand, multi-year visibility and another 'strong growth year' in 2027. Stock nonetheless gapped DOWN ~6% pre-market to ~$502 on elevated expectations after a ~184% 52-week run.",
+      "driver": "Asymmetric because the catalyst is available at a discount rather than a premium: a strongly positive fundamental surprise paired with a negative price reaction is a favorable mean-reversion / PEAD setup. Entry ~$502 vs $548 pre-print and a $639 consensus target (~27% above entry), with semis broadly on the cusp of a new bull leg and the S&P 500 at a record high. MarketWatch reports analysts calling the dip a buy. Definable stop just under the pre-market low.",
+      "risks": "A down-gap on a beat can extend \u2014 the tape is de-rating the multiple (46x trailing) after a huge run, and Reuters flags intensifying competition (China domestic toolmakers, share risk) as the overhang. Three-day hold across the weekend adds gap risk. Beta 1.62; ex-dividend Aug 20. No forced buyer here \u2014 a discretionary bounce bet, unlike a mechanical index-flow trade.",
+      "addedDate": "2026-08-14"
     }
   ]
 }
