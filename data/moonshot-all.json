@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 9118.08,
-  "tradeDate": "2026-08-12",
-  "lastUpdated": "2026-08-12T11:44:09Z",
-  "nextRefresh": "2026-08-13T06:30:00-05:00",
+  "startingCapital": 9451.29,
+  "tradeDate": "2026-08-14",
+  "lastUpdated": "2026-08-14T13:20:00Z",
+  "nextRefresh": "2026-08-15T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -881.92,
+  "priorRealizedPnL": -548.71,
   "positions": [
     {
-      "ticker": "TQQQ",
-      "name": "ProShares UltraPro QQQ (3x Nasdaq-100)",
-      "sector": "Leveraged broad equity ETF — 3x long Nasdaq-100 (mega-cap tech)",
-      "shares": 122.505441,
-      "entry": 74.43,
-      "stopPrice": 66.99,
+      "ticker": "NUGT",
+      "name": "Direxion Daily Gold Miners Index Bull 2X Shares",
+      "sector": "Leveraged equity ETF — 2x long senior gold miners (GDX)",
+      "shares": 60.924966,
+      "entry": 155.13,
+      "stopPrice": 142.72,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "July CPI prints today at 7:30am CT (8:30am EDT), squarely INSIDE this 24h hold window. Consensus: headline +0.1% m/m / 3.4% y/y (down from 3.5%), core +0.2% m/m / 2.5% y/y (down from 2.6%) — a disinflation read. Prediction markets (Kalshi) skew even softer: <55% odds CPI >3.3% y/y, only 15% >3.4%. Soft/in-line print raises Sept rate-cut odds and is risk-on for rate-sensitive mega-cap tech. Pre-market tape already leaning that way: QQQ +0.58% leading the majors, CoreWeave/SMCI up on earnings.",
-      "driver": "LONG 3x Nasdaq-100, 100% capital. Leverage matched to a STRONG, FRESH macro catalyst (CPI in-window) with a real directional edge — both consensus and prediction markets point to cooling inflation, and pre-market momentum confirms (QQQ leading, TQQQ +1.9% at 74.43 vs 73.06 close, well inside the chase band). Chosen over: SOXL (already +5.9% pre-market, stretched toward the chase cap and the falling-knife semis group that lost -8.9% recently); TNA (small caps lagging at +0.6%, tape not confirming the rate-cut trade yet); QLD (2x — same thesis but under-levered vs a catalyst this clean). TQQQ is the diversified mega-cap expression rather than the stretched semis. Entry 74.43 = Robinhood real-time pre-market ask (bid 74.42/ask 74.43, last 74.44) at ~11:43Z; dashboard proxy still echoing the 73.06 prior close pre-open, so used RH live per canonical fallback (same pattern documented yesterday on MARA). Stop 66.99 (-10%, 3x band).",
-      "risks": "Binary event risk: CPI is two-sided — a hot print (e.g. Apple hardware price hikes lifting core goods more than expected) reverses the risk-on trade hard, and 3x amplifies the downside. QQQ ~ -3.3% would trip the -10% stop. This is the opposite of a structurally asymmetric payoff; the edge rests on the disinflation lean, not certainty. Mitigants: -10% hard stop caps the loss; the print lands mid-window so the reaction is realized while we hold (not gapped over a rotation); pick is not a chase (+1.9%); Nasdaq is the most rate-sensitive, highest-quality high-beta expression rather than the stretched semis.",
-      "addedDate": "2026-08-12"
+      "catalyst": "Full-week macro trifecta all landed dovish-for-metals: July CPI cooled (Wed), July PPI came in FLAT vs +0.2% expected (Thu), and July retail sales printed -0.6% m/m this morning at 7:30am CT — the biggest monthly drop in more than a year, versus +0.3% consensus. CME FedWatch now shows 69.4% odds the Fed HOLDS in September, with only 30.6% still pricing a hike (this cycle's risk is a hike, not a cut, with funds at 3.50-3.75%). Receding hike risk = lower real yields = the core gold input. Tape confirms the rotation: gold is holding above $4,400 ($4,419.60 this morning, +10% month-to-date) and silver punched back over $65 to a near-14-year high, while crypto slipped and equities went wait-and-see. Yahoo Finance explicitly flagged that metals 'moved higher and held those positions' this week while bitcoin/ether did not.",
+      "driver": "LONG 2x senior gold miners, 100% of capital. The asymmetry here is operating leverage, not just index leverage: with gold near $4,420 the miners' all-in sustaining margins are at record wides, so GDX earnings are convex to the gold price — NUGT's 2x sits on top of GDX's own ~2x beta to bullion, giving roughly 4x effective gold exposure from a sector that is still under-owned relative to bullion's move. Leverage deliberately capped at 2x (not 3x) because today's catalyst has already fired — retail sales printed ~45 minutes before entry — so this is a trend-continuation trade, not a fresh-event trade, and the mandate says match leverage to conviction. Chosen over: (1) RDDT — up 12% pre-market on S&P 500 inclusion effective Aug 18, but that is both a chase (>8-10% cap) and unpriceable today, since the canonical proxy is still echoing Thursday's 158.12 close and no Robinhood real-time feed is available this session; buying at 158.12 would fabricate a ~12% gap gain. (2) TMF (3x long Treasuries) — the most direct read on a weak-consumer print, but the same stale-quote problem applies in reverse: TLT's 82.59 is Thursday's close and bonds already rallied on the 7:30am retail miss, so the fill would be an artificial edge; also carries curve-steepener risk where the long end lags the front end. (3) TNA (3x small caps) — rate relief is a positive but a -0.6% retail sales print is net NEGATIVE for the most consumer-exposed index; two-sided, no edge. (4) TQQQ roll / SPXL — S&P and Nasdaq are at record closing highs with the week's catalysts spent; no fresh edge for 3x. (5) Spot BTC/ETH — negative momentum, BTC backing off to ~62.6k and pointedly NOT responding to the soft inflation data. (6) AGQ (2x silver) — strongest momentum but silver is +100% YTD at a 14-year high and profit-taking headlines are already appearing; too parabolic for an all-in book. Entry 155.13 = canonical dashboard live feed, asOf 2026-08-14T13:17:54Z. This is an honest fill: gold opened -0.3% and recovered to roughly flat versus Thursday's close, so there is no overnight gap being harvested, unlike RDDT/SNDK/AMAT. Stop 142.72 (-8%, the 2x band) = roughly a 4% move down in GDX.",
+      "risks": "Crowding/extension is the main one: gold is +10% month-to-date and silver has doubled year-to-date at a near-14-year high — 'profit booking intensifies' headlines are already running, and a Friday afternoon unwind into the weekend is a live scenario for a trade this consensus. A firmer dollar or any hawkish Fed speak walking back the soft-data read would hit real yields and gold together, and 2x plus miner beta means GDX only needs about -4% to trip the -8% stop. Miners also carry idiosyncratic equity risk bullion does not (cost inflation, single-name production misses, and they trade with the broad tape on a bad equity day). Second-order: the catalyst already fired before entry, so this leans on trend persistence rather than an in-window event — a lower-quality edge than a pre-event setup. Operational note: the next rotation falls on Saturday 8/15 with US equity markets closed, so NUGT will have to be marked out at Friday's official closing print rather than an intraday live quote; that is a real verified print, but it means no ability to stop out across the weekend gap. Mitigants: -8% hard stop, leverage held to 2x rather than 3x, gold (not silver) as the underlying, and the entry is not chasing a gap.",
+      "addedDate": "2026-08-14"
     }
   ]
 }
