@@ -2,10 +2,10 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10425.881474,
-  "tradeDate": "2026-08-14",
-  "lastUpdated": "2026-08-14T13:20:00Z",
-  "nextRefresh": "2026-08-15T06:45:00-05:00",
+  "startingCapital": 10421.724424,
+  "tradeDate": "2026-08-15",
+  "lastUpdated": "2026-08-15T10:55:00Z",
+  "nextRefresh": "2026-08-16T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Runs every day — crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 425.881474,
+  "priorRealizedPnL": 421.724424,
   "positions": [
     {
-      "ticker": "SOL",
-      "name": "Solana",
+      "ticker": "LINK",
+      "name": "Chainlink",
       "sector": "Crypto",
-      "shares": 138.568334,
-      "entry": 75.24,
-      "stopPrice": 67.72,
+      "shares": 1117.970867,
+      "entry": 9.322,
+      "stopPrice": 8.3898,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "TODAY, 10:00am ET: the SEC's three-member commission (Atkins, Peirce, Uyeda) votes at an open meeting on whether to publish 'Regulation Crypto' — a ~400-page proposal with a startup exemption (~$5M via whitepaper disclosure, 4-year runway), a $75M/12-month fundraising exemption, and, critically, an investment-contract SAFE HARBOR letting tokens exit securities classification once their networks are sufficiently decentralized. That relief accrues almost entirely to ALTCOINS, not BTC — BTC was never the securities question. TD Cowen's Jaret Seiberg called it 'a pivotal rulemaking.' Stacking on top: Solana's Agave v4.2 targets MAINNET ACTIVATION the week of Aug 17 (Monday), starting the phased slot-time cut toward 200ms and enabling the Alpenglow consensus overhaul (finality 12.8s -> 150ms; on-chain vote costs eliminated, dropping minimum profitable validator stake to ~450 SOL). SOL ETFs also logged $8.8M of inflows on Aug 10, the strongest day since May 12, lifting net assets to ~$906M. Canonical dashboard proxy FRESH this run (asOf 2026-08-14T13:18:29Z): SOL 75.24, BTC 62594.23, ETH 1866.88, XRP 1.0008, LINK 8.795, AVAX 6.37, ADA 0.17922.",
-      "driver": "NOTE: the Aug 13 run did not fire, so SOL was held two days rather than one. Closed SOL at 75.24 (canonical live) vs entry 76.78 for -213.40 (-2.01%) — a soft, broadly risk-off tape, not a SOL-specific break. ROLLED BACK INTO SOL as today's best risk-adjusted pick. Wins vs runners-up on the merits: BTC (62594.23) is the nominal 'protection' pick but it is the one asset the SEC proposal does NOT help, its ETF flows flipped negative (-$144.6M on Aug 10, snapping a 7-day positive streak), and it has now lost the $63k handle — over the last two days BTC fell -2.46% vs SOL's -2.01%, i.e. the safe pick was not actually safer. ETH (1866.88) remains the laggard with no dated catalyst. XRP (1.0008) is sitting on round-number support but has no fresh trigger and has been underperforming. LINK/AVAX/ADA are higher-risk with nothing dated. SOL is the only name in the liquid universe stacking TWO dated catalysts inside 72 hours — the SEC alt-favorable vote today and Agave v4.2 mainnet activation Monday — with returning ETF bid and demonstrated relative strength through the drawdown. That is the asymmetry: capped, definable downside at the -10% stop against two live upside triggers.",
-      "risks": "The vote only opens the proposal for PUBLIC COMMENT — it is not a final rule and it is well-telegraphed, so classic sell-the-news is the single biggest risk; a delay or a contentious dissent would hit alts hardest. The tape is genuinely risk-off: BTC dominance 56.5%, Altcoin Season Index sub-50, BTC ETF flows negative — capital is hiding in BTC and a further BTC leg down drags SOL harder (higher beta). Agave v4.2 is a PHASED activation and the full 'Alpenswitch' to Alpenglow is not until late Q3/early Q4, so any slippage in the Aug 17 window removes the second leg of the thesis. Loss of ~$74 opens a slide to $72 and the low-$70s. Hard stop 67.72 (-10%).",
-      "addedDate": "2026-08-14"
+      "catalyst": "FRESH BREAKOUT WITH INSTITUTIONAL SPONSORSHIP. LINK is the single strongest relative-strength name in the liquid universe overnight: 8.795 -> 9.322 (+5.99%) while BTC did +0.61%, ETH +0.64% and SOL was flat at -0.04%. Three stacked, dated drivers: (1) STANDARD CHARTERED INITIATED COVERAGE (Aug 10) with a $200 end-2030 target and — the number that matters for a 24h book — a near-term $13 target for 2026, ~39% above spot; the bank's thesis is Chainlink as core settlement/oracle infrastructure as financial assets migrate on-chain. (2) PREDICTION MARKETS CROSSED $40B in cumulative volume (Aug 13) with Chainlink oracles as the resolution engine, and EtherFi relaunched as a neobank with TOKENIZED STOCKS verified by Chainlink Proof of Reserve (Aug 13) — real, dated revenue-adjacent adoption, not narrative. (3) ON-CHAIN CONFIRMATION: Santiment counted 246 LINK transfers >=$100k in 24h on Aug 12, the highest daily whale count in FIVE MONTHS, and one >$10M wallet is still adding. Technically LINK broke a multi-month downtrend on Aug 11 and has now cleared the $8.80 and $9.04 resistance shelf, turning both into support directly beneath the entry — that is what makes the stop definable. Canonical dashboard proxy FRESH this run (asOf 2026-08-15T10:52:47Z): LINK 9.322, SOL 75.21, BTC 62975.24, ETH 1878.82, XRP 1.0016, AVAX 6.585, ADA 0.17895, LTC 44.01, DOGE 0.06997.",
+      "driver": "Closed SOL at 75.21 (canonical live) vs entry 75.24 for -4.16 (-0.04%) — essentially flat, because the primary SOL thesis broke. THE SEC CANCELED FRIDAY'S OPEN MEETING and delayed the tokenized-stock/Regulation Crypto release. That was leg one of yesterday's two-catalyst SOL case and it simply did not happen, so SOL is not being re-upped on a thesis that already failed. ROTATING TO LINK. Wins vs runners-up on the merits: SOL (75.21) still has Agave v4.2 activating the week of Aug 17, but the research now confirms ALPENGLOW IS NOT ACTIVATED IN 4.2 — it ships only as testable code for a later 4.3 release, so the headline finality upgrade is deferred and what actually lands Monday is a phased 400ms->350ms slot step plus a rent cut. That is a real but muted, already-priced engineering milestone, and SOL showed zero relative strength overnight. BTC (62975.24) reclaimed $62.9k but is the pure-beta hold with no idiosyncratic catalyst and negative recent ETF flows. ETH (1878.82) remains the laggard with nothing dated. XRP (1.0016) is pinned at the round number, unchanged for three sessions. AVAX (+3.4%) is the only other mover but has no named catalyst behind it. LINK is the only name pairing a dated institutional catalyst, confirmed on-chain accumulation and demonstrated price leadership with a clean technical shelf to stop against. Asymmetry: ~10% capped, structurally-defined downside against a Street near-term target ~39% higher.",
+      "risks": "CHASING RISK IS THE MAIN ONE — LINK is already +6% in 24h and roughly +10% on the week, so entry is extended and a same-day mean reversion back into the $8.80-9.04 shelf is the likeliest adverse path. The Standard Chartered call is a valuation thesis, not an event; it can be faded and the $200/2030 headline is the kind of number that marks local tops. Rising open interest alongside the move means leverage is building, which cuts both ways — a long squeeze is possible on any BTC air pocket. Tape is still risk-off: total crypto cap $2.24T and falling, BTC dominance elevated, Altcoin Season Index sub-50, and the CLARITY Act procedural vote is not until Sept 15, so there is no regulatory support underneath alts near-term; LINK is high-beta and will lead down if BTC loses $62k. Losing $9.04 invalidates the breakout and opens $8.40. Hard stop 8.3898 (-10%).",
+      "addedDate": "2026-08-15"
     }
   ]
 }
