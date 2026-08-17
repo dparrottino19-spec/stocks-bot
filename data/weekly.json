@@ -5,7 +5,7 @@
   "startingCapital": 81721.65,
   "weekStart": "2026-08-17",
   "weekEnd": "2026-08-21",
-  "lastUpdated": "2026-08-17T03:50:55Z",
+  "lastUpdated": "2026-08-17T03:55:00Z",
   "nextRefresh": "2026-08-23T21:00:00-05:00",
   "rules": [
     "1-wk max hold",
@@ -15,7 +15,7 @@
     "Max returns objective"
   ],
   "priorWeekRealizedPnL": 5207.62,
-  "note": "Week 2026-08-17 build. Prior 8/10-8/14 book closed at official Fri 8/14 SIP closes for +5207.62 realized (winners NBIS +2621, SMCI +1385, CRWV +1279, LITE +786, DKNG +392, NVDA +220; losers JD -574, CSCO -503, AMAT -192, UBER -144, PLTR -45, ABNB -19). New week is a barbell: (1) the AI hardware supply chain, where the fresh catalyst is Samsung's memory supply warning plus JPMorgan's SNDK upgrade to Overweight ($2,250 PT) and Fabrinet's Mon 8/17 AMC print anchoring optical; (2) a dense retail earnings slate testing the consumer \u2014 TJX/LOW/TGT Wed, WMT/BABA/DE Thu BMO, ROST Thu AMC \u2014 into which the XRT retail ETF fell 2% last week, resetting the bar. RDDT is a mechanical add: it joins the S&P 500 before Tuesday's open, replacing AvalonBay. Macro in-window: July FOMC minutes Wed 8/19 from a contentious meeting with three hike dissents under Chair Warsh; Jackson Hole is 8/27-29, outside the window. 15 names, ~86.9% deployed, ~13.1% cash. Entries recorded at verified Fri 8/14 SIP closes; positions open Monday 8/17.",
+  "note": "Week 2026-08-17 build. Prior 8/10-8/14 book closed at official Fri 8/14 SIP closes for +5207.62 realized (winners NBIS +2621, SMCI +1385, CRWV +1279, LITE +786, DKNG +392, NVDA +220; losers JD -574, CSCO -503, AMAT -192, UBER -144, PLTR -45, ABNB -19). New week is a barbell: (1) the AI hardware supply chain, where the fresh catalyst is Samsung's Q2 supply warning and ~20% DRAM contract price hikes, plus JPMorgan's SNDK upgrade to Overweight ($2,250 PT) and Fabrinet's Mon 8/17 AMC print anchoring optical; (2) a dense retail earnings slate testing the consumer \u2014 TJX/LOW/TGT Wed, WMT/BABA/DE Thu BMO, ROST Thu AMC \u2014 into which the XRT retail ETF fell 2% last week, resetting the bar. RDDT is a mechanical add: it joins the S&P 500 before Tuesday's open, replacing AvalonBay. Macro in-window: July FOMC minutes Wed 8/19 from a contentious meeting with three hike dissents under Chair Warsh; Jackson Hole is 8/27-29, outside the window. 15 names, ~86.9% deployed, ~13.1% cash. Entries recorded at verified Fri 8/14 SIP closes; positions open Monday 8/17. CORRECTION: an earlier draft of this file described Micron's FQ3 as beating consensus by 17.6%; that figure was in fact the $17.6B sequential revenue increase (FQ3 reported 6/24/26). MU's catalyst text now cites the FQ4 guide of $50.0B vs $43.45B consensus instead.",
   "positions": [
     {
       "ticker": "FN",
@@ -33,8 +33,8 @@
       "sector": "Technology / Memory & Storage",
       "shares": 6,
       "entry": 971.66,
-      "catalyst": "Memory supercycle: Samsung warned of tightening supply, driving a sector-wide re-rate (MU +6% Thu, +15% on the 7/30 move). Q3 FY26 rev $41.46B beat consensus by 17.6%; HBM/enterprise SSD content per AI rack still climbing.",
-      "risks": "No company-specific catalyst in-window; +237% YTD leaves it extended; hawkish FOMC minutes could hit high-beta semis.",
+      "catalyst": "Memory supercycle: Samsung's Q2 call warns the shortage worsens through 2027 with no relief before 2028, and it is seeking ~20% DRAM contract price hikes (LPDDR >20%) plus 10-15% on NAND. Micron's own FQ4 guide of $50.0B +/- $1.0B sits ~$6.6B (~15%) above the $43.45B consensus, with GM guided to ~86%.",
+      "risks": "No company-specific catalyst in-window (FQ3 was reported 6/24; FQ4 lands late September); +237% YTD leaves it extended; hawkish FOMC minutes could hit high-beta semis.",
       "driver": "Confirmed sector momentum on a fresh supply-tightening catalyst."
     },
     {
