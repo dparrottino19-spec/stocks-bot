@@ -2,32 +2,32 @@
   "bookName": "Moonshot Stocks",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8216.08,
-  "tradeDate": "2026-08-14",
-  "lastUpdated": "2026-08-14T13:24:45Z",
-  "nextRefresh": "2026-08-17T06:35:00-05:00",
+  "startingCapital": 8417.44,
+  "tradeDate": "2026-08-17",
+  "lastUpdated": "2026-08-17T10:40:00Z",
+  "nextRefresh": "2026-08-18T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
-    "US equities only \u2014 no ETFs, crypto, or options",
-    "Rotate each weekday 6:35am CT run \u2014 sell prior, buy today's best",
+    "US equities only — no ETFs, crypto, or options",
+    "Rotate each weekday 6:35am CT run — sell prior, buy today's best",
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
-  "priorRealizedPnL": -1783.92,
+  "priorRealizedPnL": -1582.56,
   "positions": [
     {
       "ticker": "AMAT",
       "name": "Applied Materials, Inc.",
-      "sector": "Technology \u2014 Semiconductor Equipment & Materials",
-      "shares": 16.344553,
-      "entry": 502.68,
-      "stopPrice": 472.52,
+      "sector": "Technology — Semiconductor Equipment & Materials",
+      "shares": 16.299601,
+      "entry": 516.42,
+      "stopPrice": 482.85,
       "exitRule": "Rotate next weekday 6:35am CT run",
-      "catalyst": "FQ3 2026 (Aug 13 post-close) beat AND a large guidance raise: revenue $9.12B (+25% YoY) vs $8.99B est, adj. EPS $3.50 vs $3.40 est; FQ4 guide revenue $10.25B +/- $0.5B vs $9.54B consensus (~7% above) and adj. EPS $3.82-4.22 vs $3.69 est, with management citing 'unprecedented' AI-driven demand, multi-year visibility and another 'strong growth year' in 2027. Stock nonetheless gapped DOWN ~6% pre-market to ~$502 on elevated expectations after a ~184% 52-week run.",
-      "driver": "Asymmetric because the catalyst is available at a discount rather than a premium: a strongly positive fundamental surprise paired with a negative price reaction is a favorable mean-reversion / PEAD setup. Entry ~$502 vs $548 pre-print and a $639 consensus target (~27% above entry), with semis broadly on the cusp of a new bull leg and the S&P 500 at a record high. MarketWatch reports analysts calling the dip a buy. Definable stop just under the pre-market low.",
-      "risks": "A down-gap on a beat can extend \u2014 the tape is de-rating the multiple (46x trailing) after a huge run, and Reuters flags intensifying competition (China domestic toolmakers, share risk) as the overhang. Three-day hold across the weekend adds gap risk. Beta 1.62; ex-dividend Aug 20. No forced buyer here \u2014 a discretionary bounce bet, unlike a mechanical index-flow trade.",
-      "addedDate": "2026-08-14"
+      "catalyst": "Re-upped. Friday's FQ3 print (Aug 13) was a beat AND a large raise — FQ4 revenue guide $10.25B +/- $0.5B vs $9.54B consensus (~7% above), adj. EPS $3.82-4.22 vs $3.69 est — yet the stock gapped down ~6% to $497. It reversed hard intraday Friday (low $497.10, high $523.00, close $507.18) and is extending to ~$516 pre-market. Fresh sector fuel Monday: the memory shortage trade is re-accelerating (MU +3.5%, SNDK +5.5%, WDC +3.8%, STX +2.6% pre-market) on Samsung/SK hynix warnings that AI-driven memory shortages run through 2027-28, which is a direct read-through to wafer-fab-equipment capex — Lam already lifted its 2026 WFE view to the 'low $150B range' from $140B.",
+      "driver": "The gap-down on a beat has been rejected: Friday's low held and price has now reclaimed the close and is 3.8% off that low, turning the failed breakdown into a definable-risk long. Entry $516 sits ~6% below the $548 pre-print price and ~30% below the $739.67 52-week high (Jun 30), against a ~$640 consensus target (~24% above entry). AMAT is also the cheapest of the WFE trio (43.7x trailing vs LRCX 57.7x, KLAC 55.7x) and the least-extended pre-market — no chasing. Stop $482.85 sits below Friday's entire range, so invalidation is unambiguous.",
+      "risks": "Second-day continuation trades fail when the gap-down de-rating resumes — the tape has been marking down semi-cap multiples since the Jun 30 peak (AMAT -30%, KLAC -33%, LRCX -23% off highs) and China domestic-toolmaker share loss remains the structural overhang. Entry is $14 worse than Friday's, so less margin of safety. Ex-dividend Aug 20 ($0.53). Beta 1.62; a heavy retail-earnings week (HD Tue, TGT/TJX Wed, WMT Thu) could swing broad risk appetite. Momentum-derivative bet with no forced buyer.",
+      "addedDate": "2026-08-17"
     }
   ]
 }
