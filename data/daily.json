@@ -2,10 +2,10 @@
   "bookName": "Daily Trader",
   "inceptionDate": "2026-05-15",
   "inceptionCapital": 70000,
-  "startingCapital": 77642.77,
-  "tradeDate": "2026-08-14",
-  "lastUpdated": "2026-08-14T12:25:00Z",
-  "nextRefresh": "2026-08-17T07:09:00-05:00",
+  "startingCapital": 79464.11,
+  "tradeDate": "2026-08-17",
+  "lastUpdated": "2026-08-17T11:30:00Z",
+  "nextRefresh": "2026-08-18T07:09:00-05:00",
   "rules": [
     "Weekday 7am ET picks",
     "Per-pick exit rules",
@@ -13,7 +13,7 @@
     "1-week max hold",
     "<=4 names per sector"
   ],
-  "priorRealizedPnL": 7642.77,
+  "priorRealizedPnL": 9464.11,
   "positions": [
     {
       "ticker": "RDDT",
@@ -25,54 +25,6 @@
       "catalyst": "T1 INDEX ADD: S&P Dow Jones Indices confirmed RDDT replaces AvalonBay (AVB) in the S&P 500 prior to the open Tue 8/18 (AVB being acquired by EQR). +10.4% on 8/13, ~+15.9% AH to 177.80.",
       "risks": "Chasing a ~16% gap; index-add flows can fully front-run by the effective date. Still 44% below 52wk high 282.95 and -32% YTD. Weekend gap risk.",
       "driver": "Tier 1: S&P 500 index inclusion",
-      "addedDate": "2026-08-14"
-    },
-    {
-      "ticker": "SNDK",
-      "name": "Sandisk Corporation",
-      "sector": "Electronic Technology",
-      "shares": 2,
-      "entry": 1528.11,
-      "exitRule": "1-3 day swing",
-      "catalyst": "T1 INVESTOR DAY (8/13): FY28-30 targets of mid/high-teens rev growth, ~80% non-GAAP gross margin, ~50% adj FCF margin; $94B long-term contract book; 9th-gen 2Tb QLC 3D NAND with Kioxia; FY26 data-center rev +437%. Closed +13.67%.",
-      "risks": "Very high absolute share price ($1.5K) - 2 shares only, poor granularity. Parabolic 2026 run. Price cross-checked: 8/12 close 1344.29 x 1.1367 = 1527.8, reconciles to 1528.11.",
-      "driver": "Tier 1: investor day long-term guide",
-      "addedDate": "2026-08-14"
-    },
-    {
-      "ticker": "MRVL",
-      "name": "Marvell Technology",
-      "sector": "Electronic Technology",
-      "shares": 15,
-      "entry": 227.58,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "T2 SECTOR/PRODUCT: FMS 2026 AI memory + Bravera SC6 PCIe 6.0 SSD controller launch; Goldman PT hike to $195; FCC move to ban new Chinese optical transceiver imports shifts demand to MRVL. +5.36% on 8/13, semis leading the tape.",
-      "risks": "Up ~40% in two weeks and +154% YTD - extended. Goldman's PT ($195) sits BELOW spot, i.e. valuation stretched. Fiscal Q2 print not until 8/27.",
-      "driver": "Tier 2: semis/optical momentum + product launch",
-      "addedDate": "2026-08-14"
-    },
-    {
-      "ticker": "NTAP",
-      "name": "NetApp Inc.",
-      "sector": "Electronic Technology",
-      "shares": 17,
-      "entry": 205.34,
-      "exitRule": "Overnight (next-day open)",
-      "catalyst": "T2 PT HIKES: broker PT raised to $210 on AI-driven enterprise storage demand (follows Argus to $200, Morgan Stanley upgrade to Equal Weight/$173). Trading at/near all-time high on AI storage read-through from SNDK investor day.",
-      "risks": "PT-hike-driven, not a hard event. Near all-time high; several PTs sit below spot. Session range 202.99-209.00.",
-      "driver": "Tier 2: multi-broker PT hikes + AI storage read-through",
-      "addedDate": "2026-08-14"
-    },
-    {
-      "ticker": "LRCX",
-      "name": "Lam Research",
-      "sector": "Producer Manufacturing",
-      "shares": 10,
-      "entry": 326.36,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "T1 CAPEX ANNOUNCEMENT: LRCX said it will invest >$3B over five years to expand its global R&D lab network, adding capability to raise experiment capacity >50%. Trading +4.83% (range 323.67-328.49) vs prior close 311.33.",
-      "risks": "Semicap peer AMAT is DOWN ~5% today post-earnings on op-margin miss/China mix - sector read-through is mixed. Announcement is a spend commitment, not a revenue event. Intraday only for this reason.",
-      "driver": "Tier 1: R&D capacity expansion announcement",
       "addedDate": "2026-08-14"
     },
     {
@@ -100,18 +52,6 @@
       "addedDate": "2026-08-14"
     },
     {
-      "ticker": "KTOS",
-      "name": "Kratos Defense & Security",
-      "sector": "Aerospace & Defense",
-      "shares": 55,
-      "entry": 62.55,
-      "exitRule": "Overnight (next-day open)",
-      "catalyst": "T1 POLICY: named by Benzinga alongside AVAV as a primary beneficiary of the 8/13 100% foreign-drone tariff proclamation. Q2 EPS $0.21 vs $0.13 est, rev $458.8M +19.1% organic; FY26 organic growth guide raised to 19-23% from 15-20%.",
-      "risks": "Quote is the 8/12 close (62.55, prior close 63.73) - freshest cleanly-labelled print I could verify; 2 days stale, so held to a single overnight. Consensus PT $107 implies the name is already a crowded long.",
-      "driver": "Tier 1: drone tariff proclamation",
-      "addedDate": "2026-08-14"
-    },
-    {
       "ticker": "TSN",
       "name": "Tyson Foods",
       "sector": "Consumer Non-Durables",
@@ -124,28 +64,160 @@
       "addedDate": "2026-08-14"
     },
     {
-      "ticker": "MAR",
-      "name": "Marriott International",
-      "sector": "Consumer Services",
-      "shares": 9,
-      "entry": 352.53,
-      "exitRule": "Overnight (next-day open)",
-      "catalyst": "T2 UPGRADE + OUTLOOK (8/13): analyst upgrade paired with a refreshed 2026 outlook pointing to higher global RevPAR growth and larger capital returns; consensus PT $390.88 (~12% upside), Moderate Buy.",
-      "risks": "Softest catalyst in the book - a broker action, not a company event. PE ~36.8, thin 0.77% yield. Session range 350.98-357.35.",
-      "driver": "Tier 2: upgrade + raised RevPAR/capital-return outlook",
-      "addedDate": "2026-08-14"
+      "ticker": "MU",
+      "name": "Micron Technology",
+      "sector": "Electronic Technology",
+      "shares": 3,
+      "entry": 1000.91,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "T1 NAMED PARTNERSHIP: Micron/Anthropic multi-year co-engineering and supply agreement covering HBM, data-center DRAM and SSDs; management guides 'very tight' memory conditions past 2027, with 2027 tighter than 2026. FQ3 rev $41.46B (+345.7% YoY) beat consensus $35.25B by 17.6%; non-GAAP EPS $25.11 vs $20.28. +3.0% pre-market to 1000.91 on 8/17.",
+      "risks": "Crossed $1T market cap and is up ~9x off the 52wk low of 113.46. PE 22 is not demanding, but the multiple assumes the memory cycle does not roll. The Anthropic deal is 3-4 sessions old, so the news edge is decaying - held intraday only for that reason.",
+      "driver": "Tier 1: Anthropic memory supply partnership + AI memory tightness",
+      "addedDate": "2026-08-17"
     },
     {
-      "ticker": "HTFL",
-      "name": "HeartFlow Inc.",
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "sector": "Electronic Technology",
+      "shares": 6,
+      "entry": 520.3,
+      "exitRule": "Overnight (next-day open)",
+      "catalyst": "T1 FINANCING + CUSTOMER: AMD completed a record $4.75B bond sale on 8/14, read by the tape as AI capacity funding rather than balance-sheet stress, and BofA published a bullish long-term forecast. Anthropic has committed to up to 2 GW of MI450-series capacity. Q2 data-center rev doubled YoY to $6.7B; Q3 guide ~$13B (+41% YoY). Closed +6.5% at 514.39.",
+      "risks": "PE 132 is the richest multiple in the book. A debt-funded AI buildout cuts both ways if capex expectations reset. The 52wk high of 584.73 sits ~12% above spot, so there is real overhead supply.",
+      "driver": "Tier 1: record bond sale + BofA forecast + Anthropic 2GW commitment",
+      "addedDate": "2026-08-17"
+    },
+    {
+      "ticker": "NBIS",
+      "name": "Nebius Group N.V.",
+      "sector": "Technology Services",
+      "shares": 12,
+      "entry": 282.29,
+      "exitRule": "Overnight (next-day open)",
+      "catalyst": "T1 EARNINGS (8/14): Q2 rev $582.3M, +454% YoY; group adj EBITDA $236.2M at a 41% margin; core AI cloud +514% YoY; four cloud deals closed in the quarter each above $1B total contract value; 2026 outlook reaffirmed. Closed +8.9% at 277.68 and added another 1.7% pre-market Monday.",
+      "risks": "PE above 1,000 and a ~$70B market cap on $582M of quarterly revenue - the valuation is entirely forward-looking. Float is only 202M of 251M shares outstanding, so moves overshoot. The 52wk high of 299.86 is close overhead.",
+      "driver": "Tier 1: Q2 blowout + reaffirmed 2026 outlook",
+      "addedDate": "2026-08-17"
+    },
+    {
+      "ticker": "BMY",
+      "name": "Bristol Myers Squibb",
       "sector": "Health Technology",
-      "shares": 112,
-      "entry": 31.01,
+      "shares": 55,
+      "entry": 63.59,
+      "exitRule": "Catalyst-defined: FDA action on the EXCALIBER-RRMM application - exit on the decision or by Wednesday's close, whichever comes first",
+      "catalyst": "T1 PDUFA TODAY (8/17): FDA target action date for iberdomide + daratumumab + dexamethasone versus daratumumab/bortezomib/dexamethasone in relapsed-refractory multiple myeloma (EXCALIBER-RRMM). A binary, calendar-dated regulatory decision.",
+      "risks": "PDUFA dates slip routinely, in which case this becomes dead money rather than a loss. BMY is a $130B mega-cap, so a single myeloma label is a modest revenue swing - expect a small percentage move in either direction. Trades near the 52wk high of 68.10 set 8/3.",
+      "driver": "Tier 1: PDUFA action date",
+      "addedDate": "2026-08-17"
+    },
+    {
+      "ticker": "ETON",
+      "name": "Eton Pharmaceuticals",
+      "sector": "Health Technology",
+      "shares": 40,
+      "entry": 59.73,
       "exitRule": "1-3 day swing",
-      "catalyst": "T1 EARNINGS (8/13 AMC): Q2 adj EPS -$0.07 vs -$0.19 est (63% beat); rev $64.1M +48% YoY vs $56.6M est; gross margin +770bps to 83.3%; plaque rev $7.8M, $4M above plan on record physician orders. RAISED FY26 rev guide to $246-250M (40-42% growth) vs $230M consensus. +17% AH.",
-      "risks": "Smallest name in the book at ~$2.5B cap and a 2025 IPO - thin float, high beta. Still cash-flow negative with breakeven not guided until mid-2028. Chasing a +17% gap.",
-      "driver": "Tier 1: earnings beat + raised guide",
-      "addedDate": "2026-08-14"
+      "catalyst": "T1 EARNINGS + REGULATORY (8/13-8/14): Q2 non-GAAP EPS $0.43 vs $0.19 consensus; rev $37.6M vs $27.1M est, +99% YoY on the Hemangeol relaunch. FY26 revenue guide raised to at least $145M from at least $120M. FDA Fast Track granted for AMGLIDIA; acquired US commercialization rights to orphan drug IMPAVIDO. H.C. Wainwright PT $70, Craig-Hallum $76. Closed +44%.",
+      "risks": "SMALLEST AND THINNEST NAME IN THE BOOK: $1.6B cap, 25.9M share float, ~644K average daily volume, PE 156, P/B 35.7. Deliberately sized to ~$2.4K rather than the full 5% for this reason. Closed 8/14 at 58.86 against a 52wk high of 59.79 set the same day - this is a fresh-high chase.",
+      "driver": "Tier 1: Q2 beat + raised FY26 guide + Fast Track designation",
+      "addedDate": "2026-08-17"
+    },
+    {
+      "ticker": "FN",
+      "name": "Fabrinet",
+      "sector": "Electronic Technology",
+      "shares": 5,
+      "entry": 584.5,
+      "exitRule": "Catalyst-defined: FQ4 report after tonight's close - exit at Tuesday's open on the print",
+      "catalyst": "T1 EARNINGS TONIGHT (8/17 AMC): Fabrinet reports fiscal Q4 with consensus EPS of $3.79. As the contract optical-packaging manufacturer for the AI networking supply chain, this print is the cleanest available read on 800G/1.6T transceiver demand. +2.5% pre-market to 584.50.",
+      "risks": "This is a pre-print position - deliberate event risk with no directional edge. The stock is ~22% below its 52wk high of 748.89 (5/14), so the tape has already de-rated it once this year. Only 35.7M shares outstanding; post-earnings moves are violent.",
+      "driver": "Tier 1: scheduled FQ4 earnings tonight",
+      "addedDate": "2026-08-17"
+    },
+    {
+      "ticker": "HD",
+      "name": "Home Depot",
+      "sector": "Retail Trade",
+      "shares": 10,
+      "entry": 338.01,
+      "exitRule": "Catalyst-defined: Q2 report before the open Tuesday 8/18 - exit into the print at Tuesday's open",
+      "catalyst": "T1 EARNINGS TOMORROW (8/18 BMO): Home Depot reports Q2 with consensus EPS of $4.73 - the opening act of the heavy retail week (TGT/LOW/TJX on Wednesday) and the tone-setter for the whole consumer complex.",
+      "risks": "Trades 21% below its 52wk high of 426.75 and only 17% above the 52wk low of 289.10 - housing turnover and big-ticket remodel demand have been weak all year. Exiting AT Tuesday's open means the earnings gap is realized rather than avoided.",
+      "driver": "Tier 1: scheduled Q2 earnings 8/18 BMO",
+      "addedDate": "2026-08-17"
+    },
+    {
+      "ticker": "TOL",
+      "name": "Toll Brothers",
+      "sector": "Consumer Durables",
+      "shares": 23,
+      "entry": 148.5,
+      "exitRule": "Catalyst-defined: FQ3 report after the close Tuesday 8/18 - exit at Wednesday's open",
+      "catalyst": "T1 EARNINGS (8/18 AMC): Toll Brothers reports fiscal Q3 with consensus EPS of $2.92. Luxury-homebuilder read on high-end demand and incentive levels; the XHB complex trades off it. PE 11.2 and P/B 1.64 make it the cheapest multiple in the book.",
+      "risks": "Homebuilders (XHB) were the weakest group on Friday at -0.5%. Rate-sensitive into a Jackson Hole month, where hawkish Fed rhetoric would hit the group directly. 52wk range 123.15-168.36 - mid-range, no technical edge.",
+      "driver": "Tier 1: scheduled FQ3 earnings 8/18 AMC",
+      "addedDate": "2026-08-17"
+    },
+    {
+      "ticker": "ADI",
+      "name": "Analog Devices",
+      "sector": "Electronic Technology",
+      "shares": 8,
+      "entry": 394.0,
+      "exitRule": "Catalyst-defined: FQ3 report before the open Wednesday 8/19 - exit into the print",
+      "catalyst": "T1 EARNINGS (8/19 BMO): Analog Devices reports fiscal Q3 with consensus EPS of $3.33. The bellwether for analog/industrial semis - a sub-sector that has badly lagged the AI names - so a beat would broaden the semi rally beyond memory and GPUs. +1.2% pre-market to 394.00.",
+      "risks": "PE 58 on an industrial-cycle business is demanding. The 52wk high of 445.91 (6/22) is 13% overhead. Analog end markets (auto, industrial) are still working through a destocking hangover, so this is a genuine coin-flip.",
+      "driver": "Tier 1: scheduled FQ3 earnings 8/19 BMO",
+      "addedDate": "2026-08-17"
+    },
+    {
+      "ticker": "TGT",
+      "name": "Target Corp.",
+      "sector": "Retail Trade",
+      "shares": 22,
+      "entry": 154.55,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "T2 MULTI-BROKER PT HIKES (last 48h): Telsey Advisory raised its target to $170 from $150 (Outperform, ~10% implied upside), with Truist and Deutsche Bank also raising ahead of the 8/19 Q2 print (consensus ~$26B rev / ~$2.30 EPS). Confirming price action: fresh 52wk high of 156.47 set 8/13.",
+      "risks": "Broker actions are not a company event - the softest catalyst among today's picks, which is why it is intraday only. The stock has nearly doubled off the 83.44 52wk low, so the turnaround is substantially priced in ahead of the print. Explicitly NOT held into Wednesday's earnings.",
+      "driver": "Tier 2: multi-broker PT hikes + fresh 52wk high",
+      "addedDate": "2026-08-17"
+    },
+    {
+      "ticker": "LOW",
+      "name": "Lowe's Companies",
+      "sector": "Retail Trade",
+      "shares": 16,
+      "entry": 218.22,
+      "exitRule": "Overnight (next-day open)",
+      "catalyst": "T2 PRE-EARNINGS SETUP: Lowe's reports Q2 before the open Wednesday 8/19 (consensus EPS $4.38) and trades at 218.22 - only 9% above its 52wk low of 199.40 set 7/23 and 25% below the 293.06 high. Home Depot's Tuesday-morning print is the read-through catalyst; an HD beat has historically dragged LOW with it.",
+      "risks": "A sympathy trade on someone else's earnings is a thinner thesis than owning the reporting name. Negative book value (P/B -13.2) after years of buybacks. Exiting at Tuesday's open closes the position BEFORE Lowe's own print - deliberate.",
+      "driver": "Tier 2: HD read-through ahead of LOW's own 8/19 print",
+      "addedDate": "2026-08-17"
+    },
+    {
+      "ticker": "TJX",
+      "name": "TJX Companies",
+      "sector": "Retail Trade",
+      "shares": 23,
+      "entry": 151.28,
+      "exitRule": "Overnight (next-day open)",
+      "catalyst": "T2 PRE-EARNINGS SETUP: TJX reports Q2 before the open Wednesday 8/19 (consensus EPS $1.19). Off-price retail is the standard hedge into a soft-consumer print - it takes share when discretionary spend tightens - making TJX the cleanest expression of HD's Tuesday-morning consumer read.",
+      "risks": "PE 29.5 and P/B 16.2 are premium multiples for a retailer. 11% below the 52wk high of 170.00 (6/11), and XRT was -0.4% Friday, so the group has no momentum. Went ex-dividend $0.48 on 8/13.",
+      "driver": "Tier 2: off-price read-through into the 8/19 retail block",
+      "addedDate": "2026-08-17"
+    },
+    {
+      "ticker": "NEM",
+      "name": "Newmont Corp.",
+      "sector": "Non-Energy Minerals",
+      "shares": 29,
+      "entry": 119.3,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "T2 SECTOR BREAKOUT: gold miners (GDX) were the single best-performing group on Friday at +1.9%, with spot gold at/near record levels on soft inflation data. NEM closed +3.2% at 117.76 on 8/14 and is up ~21.5% month-to-date on record free cash flow at high realized gold prices. +1.3% pre-market to 119.30.",
+      "risks": "A commodity/sector move, not a company event - if gold reverses, so does this, immediately. NEM is already 11% off its 52wk high of 134.88 (1/29) after a 78% run off the 67.20 low. Jackson Hole rhetoric later this month is the obvious reversal risk. Intraday only.",
+      "driver": "Tier 2: gold-miner sector breakout on record spot gold",
+      "addedDate": "2026-08-17"
     }
   ]
 }
