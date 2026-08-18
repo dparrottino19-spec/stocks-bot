@@ -2,10 +2,10 @@
   "bookName": "Moonshot Stocks",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8417.44,
-  "tradeDate": "2026-08-17",
-  "lastUpdated": "2026-08-17T10:40:00Z",
-  "nextRefresh": "2026-08-18T06:35:00-05:00",
+  "startingCapital": 8337.25,
+  "tradeDate": "2026-08-18",
+  "lastUpdated": "2026-08-18T10:40:00Z",
+  "nextRefresh": "2026-08-19T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -14,20 +14,20 @@
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
-  "priorRealizedPnL": -1582.56,
+  "priorRealizedPnL": -1662.75,
   "positions": [
     {
-      "ticker": "AMAT",
-      "name": "Applied Materials, Inc.",
-      "sector": "Technology — Semiconductor Equipment & Materials",
-      "shares": 16.299601,
-      "entry": 516.42,
-      "stopPrice": 482.85,
+      "ticker": "AS",
+      "name": "Amer Sports, Inc.",
+      "sector": "Consumer Discretionary — Apparel, Footwear & Sporting Goods",
+      "shares": 253.874848,
+      "entry": 32.84,
+      "stopPrice": 30.87,
       "exitRule": "Rotate next weekday 6:35am CT run",
-      "catalyst": "Re-upped. Friday's FQ3 print (Aug 13) was a beat AND a large raise — FQ4 revenue guide $10.25B +/- $0.5B vs $9.54B consensus (~7% above), adj. EPS $3.82-4.22 vs $3.69 est — yet the stock gapped down ~6% to $497. It reversed hard intraday Friday (low $497.10, high $523.00, close $507.18) and is extending to ~$516 pre-market. Fresh sector fuel Monday: the memory shortage trade is re-accelerating (MU +3.5%, SNDK +5.5%, WDC +3.8%, STX +2.6% pre-market) on Samsung/SK hynix warnings that AI-driven memory shortages run through 2027-28, which is a direct read-through to wafer-fab-equipment capex — Lam already lifted its 2026 WFE view to the 'low $150B range' from $140B.",
-      "driver": "The gap-down on a beat has been rejected: Friday's low held and price has now reclaimed the close and is 3.8% off that low, turning the failed breakdown into a definable-risk long. Entry $516 sits ~6% below the $548 pre-print price and ~30% below the $739.67 52-week high (Jun 30), against a ~$640 consensus target (~24% above entry). AMAT is also the cheapest of the WFE trio (43.7x trailing vs LRCX 57.7x, KLAC 55.7x) and the least-extended pre-market — no chasing. Stop $482.85 sits below Friday's entire range, so invalidation is unambiguous.",
-      "risks": "Second-day continuation trades fail when the gap-down de-rating resumes — the tape has been marking down semi-cap multiples since the Jun 30 peak (AMAT -30%, KLAC -33%, LRCX -23% off highs) and China domestic-toolmaker share loss remains the structural overhang. Entry is $14 worse than Friday's, so less margin of safety. Ex-dividend Aug 20 ($0.53). Beta 1.62; a heavy retail-earnings week (HD Tue, TGT/TJX Wed, WMT Thu) could swing broad risk appetite. Momentum-derivative bet with no forced buyer.",
-      "addedDate": "2026-08-17"
+      "catalyst": "Q2 2026 reported before the open TODAY (Aug 18): a clean beat AND a raise on every line. Revenue +32% y/y to $1,633M (+30% ex-FX); adj. EPS $0.22 vs $0.11 consensus (a 100% surprise); group operating margin +300bps ex-tariff-refunds. Every region and every segment grew double digits — Technical Apparel +32% (Arc'teryx), Outdoor Performance +37% (Salomon softgoods), Ball & Racquet +24% (Wilson Tennis 360). Full-year guidance raised across the board: Technical Apparel and Outdoor Performance revenue growth to 22-24%, Ball & Racquet to 10-12%, adj. gross margin to 59-59.5%, operating margin to 13.4-13.7%, and adj. diluted EPS to $1.18-1.23 from $1.10-1.15.",
+      "driver": "This is the day's cleanest under-reaction. The options market priced an 8.9% earnings move; the stock is up ~0.8% pre-market ($32.84 vs $32.57 close) on a 2x EPS beat plus a four-line guidance raise — so there is nothing to chase and the gap risk is already spent. AS sits ~23% below its $42.76 52-week high and inside the $32.02-$37.17 base it has traded since March, meaning a re-rate toward the top of that base is a 10-13% move against a defined 6% stop. It is also the right side of today's tape: QQQ is -1.2% pre-market on a semiconductor/AI unwind (SMH -3%, MU -4.9%, our own AMAT -4.5%) while the Dow is flat-to-green — a non-tech consumer compounder with a fresh, company-specific catalyst has the least correlation to that unwind. Stop $30.87 sits below every 2026 monthly low except March's $30.55, so invalidation is unambiguous.",
+      "risks": "The headline EPS is flattered by net tariff refunds — management explicitly frames results 'excluding the benefit from net tariff refunds' and the CFO has said the company has 'no visibility at all' into future refunds, so the quality of the beat is lower than the print suggests and the market may be discounting it for exactly that reason. AS has repeatedly failed at the top of this range in 2026 (Feb $42.76, then straight down), and Anta's controlling stake is a persistent secondary-offering overhang. Chinese-consumer and tariff exposure both cut against a discretionary apparel name, and a broad risk-off session (S&P futures -0.5%, oil up, yields up) can drown a good print. Under-reaction can also mean the market simply disagrees — a stock that does not rally on a beat-and-raise often drifts lower.",
+      "addedDate": "2026-08-18"
     }
   ]
 }
