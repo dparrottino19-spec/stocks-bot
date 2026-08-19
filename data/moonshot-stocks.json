@@ -2,10 +2,10 @@
   "bookName": "Moonshot Stocks",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8337.25,
-  "tradeDate": "2026-08-18",
-  "lastUpdated": "2026-08-18T10:40:00Z",
-  "nextRefresh": "2026-08-19T06:35:00-05:00",
+  "startingCapital": 8535.27,
+  "tradeDate": "2026-08-19",
+  "lastUpdated": "2026-08-19T10:40:00Z",
+  "nextRefresh": "2026-08-20T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -14,20 +14,20 @@
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
-  "priorRealizedPnL": -1662.75,
+  "priorRealizedPnL": -1464.73,
   "positions": [
     {
-      "ticker": "AS",
-      "name": "Amer Sports, Inc.",
-      "sector": "Consumer Discretionary — Apparel, Footwear & Sporting Goods",
-      "shares": 253.874848,
-      "entry": 32.84,
-      "stopPrice": 30.87,
+      "ticker": "KEYS",
+      "name": "Keysight Technologies, Inc.",
+      "sector": "Electronic Technology — Electronic Equipment & Instruments",
+      "shares": 24.336404,
+      "entry": 350.72,
+      "stopPrice": 329.68,
       "exitRule": "Rotate next weekday 6:35am CT run",
-      "catalyst": "Q2 2026 reported before the open TODAY (Aug 18): a clean beat AND a raise on every line. Revenue +32% y/y to $1,633M (+30% ex-FX); adj. EPS $0.22 vs $0.11 consensus (a 100% surprise); group operating margin +300bps ex-tariff-refunds. Every region and every segment grew double digits — Technical Apparel +32% (Arc'teryx), Outdoor Performance +37% (Salomon softgoods), Ball & Racquet +24% (Wilson Tennis 360). Full-year guidance raised across the board: Technical Apparel and Outdoor Performance revenue growth to 22-24%, Ball & Racquet to 10-12%, adj. gross margin to 59-59.5%, operating margin to 13.4-13.7%, and adj. diluted EPS to $1.18-1.23 from $1.10-1.15.",
-      "driver": "This is the day's cleanest under-reaction. The options market priced an 8.9% earnings move; the stock is up ~0.8% pre-market ($32.84 vs $32.57 close) on a 2x EPS beat plus a four-line guidance raise — so there is nothing to chase and the gap risk is already spent. AS sits ~23% below its $42.76 52-week high and inside the $32.02-$37.17 base it has traded since March, meaning a re-rate toward the top of that base is a 10-13% move against a defined 6% stop. It is also the right side of today's tape: QQQ is -1.2% pre-market on a semiconductor/AI unwind (SMH -3%, MU -4.9%, our own AMAT -4.5%) while the Dow is flat-to-green — a non-tech consumer compounder with a fresh, company-specific catalyst has the least correlation to that unwind. Stop $30.87 sits below every 2026 monthly low except March's $30.55, so invalidation is unambiguous.",
-      "risks": "The headline EPS is flattered by net tariff refunds — management explicitly frames results 'excluding the benefit from net tariff refunds' and the CFO has said the company has 'no visibility at all' into future refunds, so the quality of the beat is lower than the print suggests and the market may be discounting it for exactly that reason. AS has repeatedly failed at the top of this range in 2026 (Feb $42.76, then straight down), and Anta's controlling stake is a persistent secondary-offering overhang. Chinese-consumer and tariff exposure both cut against a discretionary apparel name, and a broad risk-off session (S&P futures -0.5%, oil up, yields up) can drown a good print. Under-reaction can also mean the market simply disagrees — a stock that does not rally on a beat-and-raise often drifts lower.",
-      "addedDate": "2026-08-18"
+      "catalyst": "Q3 FY26 reported after the close YESTERDAY (Aug 18) and it was a blowout on every line. Revenue $1.846B, +36% y/y. Orders a record $2.091B, +56% y/y — the first $2B order quarter in company history. Non-GAAP EPS $3.07, +79% y/y and roughly a 24% beat vs consensus. Commercial communications crossed $1B of revenue for the first time ever and wireline revenue exceeded wireless for the first time in company history, with wireline orders more than doubling y/y on AI data-center buildout. Guidance was raised, not just met: Q4 revenue $1.930-1.950B (+37% y/y at the midpoint) and Q4 EPS $3.34-3.40 (+76% y/y at the midpoint); full-year FY26 lifted to ~$7.103B revenue (+32%) and ~$11.48 non-GAAP EPS (+60%).",
+      "driver": "This is the cleanest under-reaction on the tape. KEYS was dumped into the print — it opened Aug 18 at $349.96, traded down to $332.64 intraday in the semiconductor/AI unwind, and closed $341.00 — and is only bid ~$350.7 pre-market, +2.9%. So a 24% EPS beat, record orders and a full-year raise have bought the stock roughly nothing beyond recovering one bad session; it still sits ~6% below its $374.96 June 52-week high. Gap risk is already spent, so there is nothing to chase, and the invalidation is unambiguous: a $329.68 stop (6%) sits below yesterday's $332.64 low, i.e. below the entire capitulation range. Against that, yesterday's $350.90 high is the only overhead level before open air toward $365-375. Compared with today's other catalysts this is the best skew — Estée Lauder is a genuine beat-and-raise but is already +7% pre-market (buying the top of the gap, where a gap-fill is a stop-out), Target is -3.6% and Lowe's -1.9% on their prints, TJX had not released as of the run, and ADI reports after the close.",
+      "risks": "KEYS is levered to AI and semiconductor capex, which is exactly what is being unwound — a second down day in SMH/AI infrastructure can drag KEYS lower regardless of its own numbers, and that is the single biggest threat to this trade. Management flagged supply-chain constraints limiting the ability to convert record orders into revenue, which is the bear hook analysts will press on and which caps how much of that $2.09B backlog is real near-term revenue. The stock already carries a ~59x trailing P/E and has run from $152.85 (Aug 2025 low) to $375, so a lot of the AI test-demand story is priced; a 'good but priced in' verdict would leave it flat-to-down. Broader tape is unhelpful — yields and oil climbing, the ceasefire lapsed, and FOMC minutes land this afternoon, any of which can produce a risk-off session that overwhelms a single company's print. Finally, an under-reaction can simply mean the market disagrees.",
+      "addedDate": "2026-08-19"
     }
   ]
 }
