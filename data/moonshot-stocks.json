@@ -2,10 +2,10 @@
   "bookName": "Moonshot Stocks",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8535.27,
-  "tradeDate": "2026-08-19",
-  "lastUpdated": "2026-08-19T10:40:00Z",
-  "nextRefresh": "2026-08-20T06:35:00-05:00",
+  "startingCapital": 7774.27,
+  "tradeDate": "2026-08-20",
+  "lastUpdated": "2026-08-20T10:40:00Z",
+  "nextRefresh": "2026-08-21T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -14,20 +14,20 @@
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
-  "priorRealizedPnL": -1464.73,
+  "priorRealizedPnL": -2225.73,
   "positions": [
     {
-      "ticker": "KEYS",
-      "name": "Keysight Technologies, Inc.",
-      "sector": "Electronic Technology — Electronic Equipment & Instruments",
-      "shares": 24.336404,
-      "entry": 350.72,
-      "stopPrice": 329.68,
+      "ticker": "DE",
+      "name": "Deere & Company",
+      "sector": "Producer Manufacturing — Trucks/Construction/Farm Machinery",
+      "shares": 12.957117,
+      "entry": 600.0,
+      "stopPrice": 570.0,
       "exitRule": "Rotate next weekday 6:35am CT run",
-      "catalyst": "Q3 FY26 reported after the close YESTERDAY (Aug 18) and it was a blowout on every line. Revenue $1.846B, +36% y/y. Orders a record $2.091B, +56% y/y — the first $2B order quarter in company history. Non-GAAP EPS $3.07, +79% y/y and roughly a 24% beat vs consensus. Commercial communications crossed $1B of revenue for the first time ever and wireline revenue exceeded wireless for the first time in company history, with wireline orders more than doubling y/y on AI data-center buildout. Guidance was raised, not just met: Q4 revenue $1.930-1.950B (+37% y/y at the midpoint) and Q4 EPS $3.34-3.40 (+76% y/y at the midpoint); full-year FY26 lifted to ~$7.103B revenue (+32%) and ~$11.48 non-GAAP EPS (+60%).",
-      "driver": "This is the cleanest under-reaction on the tape. KEYS was dumped into the print — it opened Aug 18 at $349.96, traded down to $332.64 intraday in the semiconductor/AI unwind, and closed $341.00 — and is only bid ~$350.7 pre-market, +2.9%. So a 24% EPS beat, record orders and a full-year raise have bought the stock roughly nothing beyond recovering one bad session; it still sits ~6% below its $374.96 June 52-week high. Gap risk is already spent, so there is nothing to chase, and the invalidation is unambiguous: a $329.68 stop (6%) sits below yesterday's $332.64 low, i.e. below the entire capitulation range. Against that, yesterday's $350.90 high is the only overhead level before open air toward $365-375. Compared with today's other catalysts this is the best skew — Estée Lauder is a genuine beat-and-raise but is already +7% pre-market (buying the top of the gap, where a gap-fill is a stop-out), Target is -3.6% and Lowe's -1.9% on their prints, TJX had not released as of the run, and ADI reports after the close.",
-      "risks": "KEYS is levered to AI and semiconductor capex, which is exactly what is being unwound — a second down day in SMH/AI infrastructure can drag KEYS lower regardless of its own numbers, and that is the single biggest threat to this trade. Management flagged supply-chain constraints limiting the ability to convert record orders into revenue, which is the bear hook analysts will press on and which caps how much of that $2.09B backlog is real near-term revenue. The stock already carries a ~59x trailing P/E and has run from $152.85 (Aug 2025 low) to $375, so a lot of the AI test-demand story is priced; a 'good but priced in' verdict would leave it flat-to-down. Broader tape is unhelpful — yields and oil climbing, the ceasefire lapsed, and FOMC minutes land this afternoon, any of which can produce a risk-off session that overwhelms a single company's print. Finally, an under-reaction can simply mean the market disagrees.",
-      "addedDate": "2026-08-19"
+      "catalyst": "FQ3 2026 reported before the open THIS MORNING (Aug 20) and beat a bar the sell side had been cutting into. Diluted EPS $5.10 vs ~$4.70-4.72 consensus (~8% beat) and up 7% y/y; net sales and revenues $12.608B, +6% y/y; equipment-operations net sales $10.999B, +6%. Net income $1.379B, +7%. Construction & Forestry was the engine — net sales $3.618B, +18% y/y, with segment operating profit roughly $237M to $436M (~+84%) and the FY26 C&F margin outlook set at 10.5-11.5%; Small Ag & Turf sales $3.383B, +12%, operating profit $485M to $622M. Management RAISED the FY2026 net-income floor to $4.75-5.0B from the $4.5-5.0B range carried since May (itself a raise off the $4.00-4.75B November 2025 outlook), and guided FY26 equipment-operations operating cash flow to $5.0-5.5B. This is the 16th straight EPS beat and the 28th straight revenue beat.",
+      "driver": "Best risk/reward on the board today because the gap is small and the invalidation sits under the entire move. DE is bid $598.00/$600.00 pre-market against a $580.63 close — only +3.3%, so there is nothing to chase, yet a 5% stop at $570.00 sits BELOW yesterday's $579.31 low and below a complete gap-fill at $580.63: the trade can give back the whole earnings pop and still not stop out. That is the asymmetry the book is supposed to buy. The setup is also a textbook lowered-bar beat — 18 downward EPS revisions versus 5 upward went into this print, consensus had EPS declining y/y, and Deere delivered growth instead. Overhead is open: DE is ~11% below its $674.19 February 52-week high, and $600 reclaims yesterday's $596.06 high. The tape favors it too — Wednesday's session was tech-weak with health care and cyclicals bid, and DE is a liquid ($157B cap, ~1.0M shares/day) industrial cyclical rather than another AI-semi name, which is precisely what cost this book money on KEYS yesterday. Runners-up were rejected on skew, not quality: NDSN posted a record quarter with backlog +35% and a raised FY guide but is already +6.5% pre-market at ~$331 versus a $315.68 52-week high, so any gap-fill to $309.92 is a stop-out; BILL's FY27 EPS guide of $3.56-3.79 is strong but the stock is only +1.7% and the market has repeatedly refused to pay for it; ADI beat ($3.45 vs $3.34) but is only +0.8% and carries the same AI-semi tape risk that just broke KEYS; AAP beat on EPS ($1.03 vs $0.81) yet is indicated down ~12%, a clear guidance problem; WMT had not printed at run time.",
+      "risks": "The core ag franchise is still in recession and the raise did not fix it — Deere's own FY26 industry outlook has U.S./Canada large ag down 15-20% and South America down 15-20%, July retail sales show large tractors down 7% and combines down 20% industry-wide, and Deere dealer inventories of 100+ PTO hp tractors sit at 33% of trailing retail versus 31% a year ago. Production & Precision Ag operating profit actually FELL ($580M to $527M) on volume and warranty, so the beat leaned on Construction & Forestry and Small Ag — a mix the bears will call low quality, and the FY2027 order-book gap is the open question analysts will press on the 9:00am CT call, which is the single biggest same-day risk: a soft FY27 order commentary can reverse the gap intraday. Valuation offers no cushion — 33x trailing earnings after a 26-32% YTD run, so 'good but priced in' is a live verdict. Macro is unhelpful: Jackson Hole begins today, Walmart's print this morning sets the consumer tone, and yesterday's FOMC minutes left rate-path uncertainty; a risk-off session can overwhelm a single beat. Finally, a 5% stop on a $600 stock is a real $389 of capital at risk against a book that has drawn down to $7,774.",
+      "addedDate": "2026-08-20"
     }
   ]
 }
