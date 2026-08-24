@@ -2,10 +2,10 @@
   "bookName": "Moonshot Stocks",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8045.59,
-  "tradeDate": "2026-08-21",
-  "lastUpdated": "2026-08-21T10:40:00Z",
-  "nextRefresh": "2026-08-24T06:35:00-05:00",
+  "startingCapital": 7723.77,
+  "tradeDate": "2026-08-24",
+  "lastUpdated": "2026-08-24T10:45:00Z",
+  "nextRefresh": "2026-08-25T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -14,20 +14,7 @@
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
-  "priorRealizedPnL": -1954.41,
-  "positions": [
-    {
-      "ticker": "ROST",
-      "name": "Ross Stores, Inc.",
-      "sector": "Retail Trade — Apparel/Footwear Retail",
-      "shares": 32.311606,
-      "entry": 249.0,
-      "stopPrice": 234.06,
-      "exitRule": "Rotate next weekday 6:35am CT run",
-      "catalyst": "FQ2 2026 reported after the close LAST NIGHT (Aug 20) and it was the cleanest blowout of the entire retail week. EPS $2.66 versus consensus ~$1.94 — a 37% beat — and versus the company's OWN guidance of $1.85-$1.93, meaning Ross beat its own high end by 38%. Total sales +13% y/y to $6.3B. Comparable-store sales +10%, and management attributed the gain primarily to CUSTOMER TRAFFIC rather than ticket, which is the highest-quality comp driver there is. Full-year FY2026 EPS guidance RAISED to $8.61-$8.77 against $6.61 earned a year ago; roughly $0.60 of that is a one-time tariff refund, so the clean adjusted range is $8.01-$8.17 — still a very large raise. Forward comp guidance was raised too despite tougher compares: +6-7% in Q3 and +4-5% in Q4. The store-opening plan went to 115 from 110, and Ross repurchased ~1.4M shares for $319M in the quarter. CEO framed off-price as the 'winning sector' as full-price retailers cancel orders — which is exactly the merchandise-availability tailwind that drives Ross's margin. Shares jumped ~8% in after-hours and are bid $248.07 / asked $249.53 pre-market against a $228.99 close.",
-      "driver": "It is the only A-grade catalyst on the board today and the tape is set up to let it work. This is a genuinely light session — no major earnings or economic releases scheduled ahead of the open beyond the S&P Global flash PMIs at 8:45am CT — so there is no competing macro headline to drown out a single-stock story, and Jackson Hole is NEXT week (Aug 27-29, Warsh's first keynote Aug 28), not today, so there is no Powell-style event risk in the next 24 hours. Futures are modestly green with QQQ +0.65% and SPY +0.34%. Crucially, the +8.7% pre-market move is inside the book's do-not-chase threshold AND is not a blue-sky breakout: ROST's 52-week high is $257.00 set only three weeks ago on Aug 3, so a $249.00 entry is still 3.1% BELOW the high — the stock is reclaiming a level it already held in early August, not making a new one. That is the material difference from the setups this book has correctly rejected (NDSN yesterday was gapping INTO a new high). The relative-strength case is the strongest part: in the same five sessions Walmart posted its slowest quarterly sales growth in six years and fell ~6%, Coty missed and fell 18% while refusing to guide FY27, Target's raise was met with a 0.2% shrug, and Advance Auto guided down. Ross printed +10% traffic comps into that. When the consumer trades down, the off-price channel takes share, and the market has one obvious vehicle for that trade today. Liquidity is not a constraint — $73B cap, 2.8M shares average daily volume. Runners-up were rejected on catalyst quality, not price: BEKE beat ($0.42 vs $0.28 EPS, $3.6B vs $3.51B revenue) and is +3.6%, but it is a Chinese property-adjacent ADR with overnight policy risk and a 4.7% pre-market bid/ask spread, which is exactly the kind of gap-risk this book should not own all-in; BJ's Wholesale was still reporting at run time with a wide $90.00/$92.19 market and no confirmed numbers, so it is unknowable; Buckle had not printed and is quoted $40.60/$49.00, uninvestable; Target's Q2 raise drew a wave of price-target increases (Guggenheim to $175, RBC to $178) but the stock is flat at $158 and the move is already a day old.",
-      "risks": "The stop does not sit under the gap, and that is the honest weakness of this trade. A 6% stop at $234.06 is still 2.2% ABOVE the $228.99 close, so a full gap-fill takes us out for a ~$483 loss — unlike the DE trade, ROST cannot give back the entire earnings pop and survive. The most likely mechanism for that is the tariff math: roughly $0.60 of the beat and of the raised full-year guide is a one-time tariff refund, and once the sell side strips it out the 'real' beat is closer to 6% than 37% and the clean guide is $8.01-$8.17. If the morning's analyst notes lead with that adjustment, the gap can bleed all day. Valuation offers no cushion either — 32.7x trailing, roughly 28-29x the new guide, for a retailer whose own forward comp guidance decelerates from +10% actual to +6-7% in Q3 and +4-5% in Q4, so the growth peak may be in this print. Today is also monthly options expiration (third Friday), which adds pin risk and can cap or whip a freshly gapped name into the close. Sector risk is real: the same consumer that just made Walmart miss badly is the customer base here, and a soft flash PMI at 8:45am CT would revive the consumer-weakness trade that has already hit WMT, COTY and AAP this week. Finally, gap-ups of this size in retail frequently fade from the opening print — the first 30 minutes usually mark the high — so entry at the $249 pre-market level is the single largest execution risk in the trade.",
-      "addedDate": "2026-08-21"
-    }
-  ]
+  "priorRealizedPnL": -2276.23,
+  "cashReason": "CASH — no qualifying setup. The only large-cap catalyst on the board is PDD Holdings, and at run time (6:45am ET) its Q2 2026 release is not yet public on the IR wire — the tape shows a $2.85 actual against a $2.77 consensus, a 2.9% beat, but the full P&L, gross-margin trajectory, Temu segment detail and any capital-return news are unreadable, and the earnings call is at 7:30am ET, two hours BEFORE the open. That is the same 'still reporting, unknowable at run time' condition that got BJ's Wholesale correctly rejected on Friday, compounded by Chinese-ADR overnight policy risk (the BEKE rejection). The beat itself is the weakest surprise in PDD's last eight quarters (prior four: +7.8%, -21%, -35%, and now +2.9%) and follows two consecutive large misses, so it reads as less-bad-than-feared rather than a fresh catalyst — and the stock is already bid +2.9%, i.e. the entire beat is in the price. A 6% stop is well inside PDD's normal earnings-day range. Beyond PDD the premarket board is uninvestable under this book's rules: the top gainers are a SPAC (RFAI +290%), micro-cap biotech (HOWL, JUNS, ADXN), stablecoin shells (USDE, SDEV) and two leveraged ETFs, all barred. The apparent +105% in IES Holdings is a 2-for-1 stock-split artifact, not news. Broad tape is flat and waiting: SPY +0.17%, QQQ +0.11%, no market-moving US data today (only bill auctions), with Nvidia's FQ2 print Wednesday Aug 26 after the close and Jackson Hole Aug 27-29 freezing positioning all week. Book is down 22.8% from inception; capital preservation on a genuinely low-conviction Monday is the higher-expected-value action.",
+  "positions": []
 }
