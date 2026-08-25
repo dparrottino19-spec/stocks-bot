@@ -3,9 +3,9 @@
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
   "startingCapital": 7723.77,
-  "tradeDate": "2026-08-24",
-  "lastUpdated": "2026-08-24T10:45:00Z",
-  "nextRefresh": "2026-08-25T06:35:00-05:00",
+  "tradeDate": "2026-08-25",
+  "lastUpdated": "2026-08-25T10:42:00Z",
+  "nextRefresh": "2026-08-26T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -15,6 +15,19 @@
     "Cash on low-conviction days"
   ],
   "priorRealizedPnL": -2276.23,
-  "cashReason": "CASH — no qualifying setup. The only large-cap catalyst on the board is PDD Holdings, and at run time (6:45am ET) its Q2 2026 release is not yet public on the IR wire — the tape shows a $2.85 actual against a $2.77 consensus, a 2.9% beat, but the full P&L, gross-margin trajectory, Temu segment detail and any capital-return news are unreadable, and the earnings call is at 7:30am ET, two hours BEFORE the open. That is the same 'still reporting, unknowable at run time' condition that got BJ's Wholesale correctly rejected on Friday, compounded by Chinese-ADR overnight policy risk (the BEKE rejection). The beat itself is the weakest surprise in PDD's last eight quarters (prior four: +7.8%, -21%, -35%, and now +2.9%) and follows two consecutive large misses, so it reads as less-bad-than-feared rather than a fresh catalyst — and the stock is already bid +2.9%, i.e. the entire beat is in the price. A 6% stop is well inside PDD's normal earnings-day range. Beyond PDD the premarket board is uninvestable under this book's rules: the top gainers are a SPAC (RFAI +290%), micro-cap biotech (HOWL, JUNS, ADXN), stablecoin shells (USDE, SDEV) and two leveraged ETFs, all barred. The apparent +105% in IES Holdings is a 2-for-1 stock-split artifact, not news. Broad tape is flat and waiting: SPY +0.17%, QQQ +0.11%, no market-moving US data today (only bill auctions), with Nvidia's FQ2 print Wednesday Aug 26 after the close and Jackson Hole Aug 27-29 freezing positioning all week. Book is down 22.8% from inception; capital preservation on a genuinely low-conviction Monday is the higher-expected-value action.",
-  "positions": []
+  "positions": [
+    {
+      "ticker": "MU",
+      "name": "Micron Technology, Inc.",
+      "sector": "Semiconductors — Memory (DRAM/NAND)",
+      "shares": 8.277537,
+      "entry": 933.1,
+      "stopPrice": 877.11,
+      "exitRule": "Rotate next weekday 6:35am CT run",
+      "catalyst": "Overnight WSJ report that the U.S. government has formally WARNED Apple not to source memory chips from Chinese suppliers (CXMT/YMTC) — a direct reversal of the weekend report that Washington might ALLOW it, which is what crushed the memory complex on Monday (SNDK -9%, MU -5.8% to -7%, WDC -7%). The bear headline that caused the drawdown has been invalidated inside 24 hours, and the tape is confirming: MU +2.5% premarket to $933.10 (prev close $910.43), SNDK +3.7%, STX +3.3%, WDC +2.7%, QQQ +0.93% vs SPY +0.45% — a clean memory-led risk-on rotation, not a broad beta bounce.",
+      "driver": "Three stacked drivers into a ~24h hold. (1) Headline reversal: Monday's selloff was a policy scare, now reversed by the White House pushing Apple AWAY from Chinese memory — structurally bullish for MU, an incumbent Apple DRAM/NAND supplier, and sell-side (Lynx) already called Monday's move an overreaction on the grounds that CXMT cannot qualify for iPhone and YMTC has committed its newest NAND domestically. (2) Pricing upcycle intact: TrendForce sees Q3-26 conventional DRAM contract prices +13-18% q/q and NAND +10-15%; Samsung is pushing ~20% q/q DRAM ASP hikes and SK hynix has scrapped price ceilings on long-term supply agreements. (3) Positioning: NVDA reports FQ2 Wednesday Aug 26 AFTER the close — memory names typically get bid into that print, and this book rotates out Wednesday MORNING, capturing the anticipation drift while exiting BEFORE the binary event. Chose MU over SNDK deliberately: SNDK offers more raw upside but MU is the mega-cap, most-liquid expression, is the least premarket-extended of the group (+2.5% vs SNDK +3.7%, nowhere near the 8-10% chase threshold), and still trades well below Friday's level, leaving gap-fill room. Given the book is -22.8% from inception, downside protection is weighted over raw beta.",
+      "risks": "MU-specific Netlist patent litigation is a live, unresolved overhang that resurfaced in Monday's coverage. MU is a high-volatility name: Monday's intraday range alone was $887.61-$942.52 (~6%), so the 6% stop at $877.11 sits only ~1.2% below Monday's low and can be taken out on noise rather than thesis failure. The Apple/China policy story is headline-driven and could flip a third time ahead of Xi's U.S. visit. Broader risk: pre-NVDA de-risking can resume at any point this week, and Jackson Hole runs Aug 27-29 — a hawkish drift in rates has already hit memory once this month (Aug 18). Samsung's disappointing shareholder-return plan (-9% Monday) shows the memory trade is crowded and reacts violently to non-fundamental news. Dick's Sporting Goods (DKS) reports at 7:00am ET, after this run — deliberately not traded, unknowable at run time.",
+      "addedDate": "2026-08-25"
+    }
+  ]
 }
