@@ -2,10 +2,10 @@
   "bookName": "Moonshot Stocks",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 7723.77,
-  "tradeDate": "2026-08-25",
-  "lastUpdated": "2026-08-25T10:42:00Z",
-  "nextRefresh": "2026-08-26T06:35:00-05:00",
+  "startingCapital": 7677.08,
+  "tradeDate": "2026-08-26",
+  "lastUpdated": "2026-08-26T10:40:00Z",
+  "nextRefresh": "2026-08-27T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -14,20 +14,20 @@
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
-  "priorRealizedPnL": -2276.23,
+  "priorRealizedPnL": -2322.92,
   "positions": [
     {
-      "ticker": "MU",
-      "name": "Micron Technology, Inc.",
-      "sector": "Semiconductors — Memory (DRAM/NAND)",
-      "shares": 8.277537,
-      "entry": 933.1,
-      "stopPrice": 877.11,
+      "ticker": "SMTC",
+      "name": "Semtech Corporation",
+      "sector": "Semiconductors — Signal Integrity / AI Data-Center Interconnect",
+      "shares": 57.78758,
+      "entry": 132.85,
+      "stopPrice": 123.55,
       "exitRule": "Rotate next weekday 6:35am CT run",
-      "catalyst": "Overnight WSJ report that the U.S. government has formally WARNED Apple not to source memory chips from Chinese suppliers (CXMT/YMTC) — a direct reversal of the weekend report that Washington might ALLOW it, which is what crushed the memory complex on Monday (SNDK -9%, MU -5.8% to -7%, WDC -7%). The bear headline that caused the drawdown has been invalidated inside 24 hours, and the tape is confirming: MU +2.5% premarket to $933.10 (prev close $910.43), SNDK +3.7%, STX +3.3%, WDC +2.7%, QQQ +0.93% vs SPY +0.45% — a clean memory-led risk-on rotation, not a broad beta bounce.",
-      "driver": "Three stacked drivers into a ~24h hold. (1) Headline reversal: Monday's selloff was a policy scare, now reversed by the White House pushing Apple AWAY from Chinese memory — structurally bullish for MU, an incumbent Apple DRAM/NAND supplier, and sell-side (Lynx) already called Monday's move an overreaction on the grounds that CXMT cannot qualify for iPhone and YMTC has committed its newest NAND domestically. (2) Pricing upcycle intact: TrendForce sees Q3-26 conventional DRAM contract prices +13-18% q/q and NAND +10-15%; Samsung is pushing ~20% q/q DRAM ASP hikes and SK hynix has scrapped price ceilings on long-term supply agreements. (3) Positioning: NVDA reports FQ2 Wednesday Aug 26 AFTER the close — memory names typically get bid into that print, and this book rotates out Wednesday MORNING, capturing the anticipation drift while exiting BEFORE the binary event. Chose MU over SNDK deliberately: SNDK offers more raw upside but MU is the mega-cap, most-liquid expression, is the least premarket-extended of the group (+2.5% vs SNDK +3.7%, nowhere near the 8-10% chase threshold), and still trades well below Friday's level, leaving gap-fill room. Given the book is -22.8% from inception, downside protection is weighted over raw beta.",
-      "risks": "MU-specific Netlist patent litigation is a live, unresolved overhang that resurfaced in Monday's coverage. MU is a high-volatility name: Monday's intraday range alone was $887.61-$942.52 (~6%), so the 6% stop at $877.11 sits only ~1.2% below Monday's low and can be taken out on noise rather than thesis failure. The Apple/China policy story is headline-driven and could flip a third time ahead of Xi's U.S. visit. Broader risk: pre-NVDA de-risking can resume at any point this week, and Jackson Hole runs Aug 27-29 — a hawkish drift in rates has already hit memory once this month (Aug 18). Samsung's disappointing shareholder-return plan (-9% Monday) shows the memory trade is crowded and reacts violently to non-fundamental news. Dick's Sporting Goods (DKS) reports at 7:00am ET, after this run — deliberately not traded, unknowable at run time.",
-      "addedDate": "2026-08-25"
+      "catalyst": "Semtech reported FQ2-27 after the close Aug 25 and delivered a beat-AND-raise of unusual magnitude that the tape has barely priced. Record net sales $341.9M (+33% y/y, +17% q/q) vs ~$328.6M consensus; adjusted EPS $0.71 vs $0.61 est (+15.6%). The real catalyst is the FQ3 guide: $410M revenue against roughly $360M consensus — a ~$50M / ~14% guidance beat and another ~20% sequential step-up — with adjusted operating margin guided to 31.0%, up ~660bps sequentially. Infrastructure revenue $124M (+69% y/y, +25% q/q) on a record $100M data-center quarter, and CEO Hong Hou explicitly flagged 'accelerating bookings and record backlog' with visibility 'well into next fiscal year.' Premarket $132.85 vs $127.52 prior close = +4.2%, well inside the chase threshold.",
+      "driver": "The asymmetry is the gap between the size of the guidance revision and the size of the price reaction. A ~14% raise to next-quarter revenue plus 660bps of operating-margin expansion normally re-rates a $12B semi by double digits; SMTC is up 4.2%. It also still trades ~25% below its June 15 52-week high of $177.35, so there is real gap-fill room overhead, and sell-side targets sit far above spot (Roth $190, UBS $225 post-Q1). Company-specific downside is materially de-risked because management has already put FQ3 numbers on the table — the quarter is guided, not guessed. Business mix is the AI data-center interconnect franchise (CopperEdge active copper cables designed into NVIDIA rack-scale systems, 800G FiberEdge and 1.6T optical DSPs, plus a named hyperscaler design win ramping through 2026), which is the fastest-growing part of the AI capex stack. Liquidity is fine for a 100% book: $11.9B market cap, 8.9M shares traded Tuesday vs a 3.3M two-week average. Chose SMTC over the alternatives deliberately: INTU (-11.7%) and ZM (-5.8%) are post-guidance falling knives, SUPN is already +20% on an ALL-STOCK merger of equals with no cash floor and is past the chase threshold, and the rest of the premarket gainer list is sub-$50M micro-cap noise that the mandate bans.",
+      "risks": "The dominant risk is event overlap, and it is not small. NVIDIA reports FQ2 tonight after the close (consensus ~$2.09 EPS on ~$92.01B revenue) and this book does not flatten intraday — the position is held straight through that print and exits tomorrow morning. SMTC is a high-beta NVIDIA-supply-chain derivative; a light NVDA guide gaps SMTC down overnight and a stop order does not protect against an overnight gap. Second, PCE, core PCE, personal income/spending, July durable goods and the second Q2 GDP estimate all hit at 8:30am ET today, with the 10-year at 4.64% and CME FedWatch pricing a 36.1% chance the Fed HIKES in September — a hot PCE is a direct multiple hit to a 19x-book semi. Third, the stop at $123.55 (-7%) sits just below Tuesday's $124.11 low, so it is a genuine thesis-invalidation level rather than noise, but it also means a full round-trip of the earnings gap takes the position out. Company-specific: SMTC carries a negative trailing P/E (-322) and a 19.6x price/book, there is a reported GaN supply constraint on tunable laser chips, and the muted +4% reaction may itself signal that buy-side expectations were already above the raised guide. Jackson Hole runs Aug 27-29.",
+      "addedDate": "2026-08-26"
     }
   ]
 }
