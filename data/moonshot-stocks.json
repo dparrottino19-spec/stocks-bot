@@ -2,10 +2,10 @@
   "bookName": "Moonshot Stocks",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 7677.08,
-  "tradeDate": "2026-08-26",
-  "lastUpdated": "2026-08-26T10:40:00Z",
-  "nextRefresh": "2026-08-27T06:35:00-05:00",
+  "startingCapital": 8298.3,
+  "tradeDate": "2026-08-27",
+  "lastUpdated": "2026-08-27T10:40:00Z",
+  "nextRefresh": "2026-08-28T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -14,20 +14,20 @@
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
-  "priorRealizedPnL": -2322.92,
+  "priorRealizedPnL": -1701.7,
   "positions": [
     {
-      "ticker": "SMTC",
-      "name": "Semtech Corporation",
-      "sector": "Semiconductors — Signal Integrity / AI Data-Center Interconnect",
-      "shares": 57.78758,
-      "entry": 132.85,
-      "stopPrice": 123.55,
+      "ticker": "MU",
+      "name": "Micron Technology, Inc.",
+      "sector": "Semiconductors — DRAM / High-Bandwidth Memory (HBM)",
+      "shares": 8.506191,
+      "entry": 975.56,
+      "stopPrice": 907.27,
       "exitRule": "Rotate next weekday 6:35am CT run",
-      "catalyst": "Semtech reported FQ2-27 after the close Aug 25 and delivered a beat-AND-raise of unusual magnitude that the tape has barely priced. Record net sales $341.9M (+33% y/y, +17% q/q) vs ~$328.6M consensus; adjusted EPS $0.71 vs $0.61 est (+15.6%). The real catalyst is the FQ3 guide: $410M revenue against roughly $360M consensus — a ~$50M / ~14% guidance beat and another ~20% sequential step-up — with adjusted operating margin guided to 31.0%, up ~660bps sequentially. Infrastructure revenue $124M (+69% y/y, +25% q/q) on a record $100M data-center quarter, and CEO Hong Hou explicitly flagged 'accelerating bookings and record backlog' with visibility 'well into next fiscal year.' Premarket $132.85 vs $127.52 prior close = +4.2%, well inside the chase threshold.",
-      "driver": "The asymmetry is the gap between the size of the guidance revision and the size of the price reaction. A ~14% raise to next-quarter revenue plus 660bps of operating-margin expansion normally re-rates a $12B semi by double digits; SMTC is up 4.2%. It also still trades ~25% below its June 15 52-week high of $177.35, so there is real gap-fill room overhead, and sell-side targets sit far above spot (Roth $190, UBS $225 post-Q1). Company-specific downside is materially de-risked because management has already put FQ3 numbers on the table — the quarter is guided, not guessed. Business mix is the AI data-center interconnect franchise (CopperEdge active copper cables designed into NVIDIA rack-scale systems, 800G FiberEdge and 1.6T optical DSPs, plus a named hyperscaler design win ramping through 2026), which is the fastest-growing part of the AI capex stack. Liquidity is fine for a 100% book: $11.9B market cap, 8.9M shares traded Tuesday vs a 3.3M two-week average. Chose SMTC over the alternatives deliberately: INTU (-11.7%) and ZM (-5.8%) are post-guidance falling knives, SUPN is already +20% on an ALL-STOCK merger of equals with no cash floor and is past the chase threshold, and the rest of the premarket gainer list is sub-$50M micro-cap noise that the mandate bans.",
-      "risks": "The dominant risk is event overlap, and it is not small. NVIDIA reports FQ2 tonight after the close (consensus ~$2.09 EPS on ~$92.01B revenue) and this book does not flatten intraday — the position is held straight through that print and exits tomorrow morning. SMTC is a high-beta NVIDIA-supply-chain derivative; a light NVDA guide gaps SMTC down overnight and a stop order does not protect against an overnight gap. Second, PCE, core PCE, personal income/spending, July durable goods and the second Q2 GDP estimate all hit at 8:30am ET today, with the 10-year at 4.64% and CME FedWatch pricing a 36.1% chance the Fed HIKES in September — a hot PCE is a direct multiple hit to a 19x-book semi. Third, the stop at $123.55 (-7%) sits just below Tuesday's $124.11 low, so it is a genuine thesis-invalidation level rather than noise, but it also means a full round-trip of the earnings gap takes the position out. Company-specific: SMTC carries a negative trailing P/E (-322) and a 19.6x price/book, there is a reported GaN supply constraint on tunable laser chips, and the muted +4% reaction may itself signal that buy-side expectations were already above the raised guide. Jackson Hole runs Aug 27-29.",
-      "addedDate": "2026-08-26"
+      "catalyst": "NVIDIA cleared the single largest overhang in the market last night and Micron is the most under-reacting way to own the result. NVDA FQ2-27: revenue $96.2B (+106% y/y, +18% q/q) vs ~$92.2B consensus; Data Center $89.0B (+117% y/y); non-GAAP EPS $2.22 vs $2.09 est. The number that matters is the FQ3 guide of $108B — roughly a 12% sequential step-up, several billion above consensus, and guided with ZERO China compute assumed, meaning the figure is pure non-China demand rather than a hopeful re-opening. Every one of those units carries Micron content, and the content per unit is stepping up hard: HBM4 for the Vera Rubin platform began shipping in March and is ramping at ~2x the pace of HBM3E 12-high with yields ahead of plan, and the R100's maximum HBM load goes from 192GB to 288GB on a part reported to be ~80% more expensive per GB-class unit. Micron's entire 2026 HBM output is already sold out under fixed-price contracts, FQ3 guidance is ~$33.5B revenue at 81% gross margin and >$19 EPS, and management has said data centers want ~50% more memory than Micron can ship. Pre-market $975.56 vs $938.40 close = +4.0%, comfortably inside the chase threshold.",
+      "driver": "The asymmetry is that MU is the cheapest, most liquid, most contractually de-risked name in the group that just got re-rated — and it moved the least. Against the NVDA print, NVDA itself is +6.9%, NBIS +6.3%, CRDO +5.5%, COHR +3.9%; Micron, whose revenue per NVIDIA rack is going UP on the Rubin transition, is only +4.0%. Valuation is the downside protection: 21.1x trailing earnings against a guided >$19 quarterly EPS and 81% gross margin, versus 90x for CRDO and 143x for ALAB, the two obvious higher-beta alternatives. Revenue is contracted, not forecast — 2026 HBM is sold out at fixed prices, so the thesis does not depend on a spot-price cycle holding up over the next 24 hours. There is real overhead room: $975.56 sits ~22% below the June 25 52-week high of $1,255, so this is gap-fill territory rather than blue-sky extension. Liquidity is best-in-class for a 100% book at a $1.06T market cap and 27.7M shares/day average (yesterday traded a light 18.7M into the print, so there is unfilled demand). Critically for a held-through-the-night position, Micron does NOT report until late September — there is no binary event inside the holding window, which is exactly the failure mode that made yesterday's SMTC position uncomfortable. Deliberately passed on the alternatives: MRVL (+4.6%), ADSK, WDAY, AFRM, ULTA, ESTC and RBRK all report TONIGHT after the close and this book does not flatten intraday; OKTA (+19.9%) and CRM (+11.4%) are past the chase threshold; CRWD (+8.9%) is at the threshold, is a software beat that tends to gap-and-fade, and sits within 10% of its Aug 14 52-week high; ALAB and CRDO offer more beta but at 143x and 90x earnings with CRDO's own print due within about a week.",
+      "risks": "This is a 100% position in a high-beta memory cyclical whose 52-week range is $114.25 to $1,255.00 — an 11x band in twelve months. That range is the risk statement: MU does not trade like a $1T mega-cap, it trades like a levered call on AI capex, and a sentiment crack takes 10%+ out of it quickly. Second, the trade is a sympathy move, not a company-specific event: Micron has released no news of its own, so if the NVDA gap fades intraday — and NVDA's average one-day post-earnings reaction over the prior five quarters was actually NEGATIVE 2.65% despite beating every time — the derivative names fade harder than the principal. That gap-and-fade pattern is the single most likely way this loses. Third, macro: Jackson Hole runs Aug 27-29 with Powell expected Friday morning; the position exits at tomorrow's 6:35am CT run, ahead of the speech, but overnight rate repricing on Thursday's data can still hit a high-multiple semi, and the stop does not protect against an overnight gap. Fourth, memory is a cycle business — the sold-out fixed-price 2026 book that protects near-term revenue also caps upside if spot DRAM/HBM pricing runs, and any hint of 2027 supply additions from Samsung or SK Hynix compresses the multiple immediately. Fifth, NVDA guided $108B assuming zero China; if China policy loosens, that is upside, but the corollary is that the guide already embeds no China cushion if non-China demand disappoints. The stop at $907.27 (-7%) sits below yesterday's entire range (low $924.60, open $925.74), so it is a genuine thesis-invalidation level — a full round-trip of the NVDA gap plus more — rather than noise, but it also means a sharp fade closes the position at a full 7% loss on the whole book.",
+      "addedDate": "2026-08-27"
     }
   ]
 }
