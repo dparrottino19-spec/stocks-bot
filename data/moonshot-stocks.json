@@ -2,10 +2,10 @@
   "bookName": "Moonshot Stocks",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8298.3,
-  "tradeDate": "2026-08-27",
-  "lastUpdated": "2026-08-27T10:40:00Z",
-  "nextRefresh": "2026-08-28T06:35:00-05:00",
+  "startingCapital": 7791.33,
+  "tradeDate": "2026-08-28",
+  "lastUpdated": "2026-08-28T10:45:00Z",
+  "nextRefresh": "2026-08-31T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -14,20 +14,7 @@
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
-  "priorRealizedPnL": -1701.7,
-  "positions": [
-    {
-      "ticker": "MU",
-      "name": "Micron Technology, Inc.",
-      "sector": "Semiconductors — DRAM / High-Bandwidth Memory (HBM)",
-      "shares": 8.506191,
-      "entry": 975.56,
-      "stopPrice": 907.27,
-      "exitRule": "Rotate next weekday 6:35am CT run",
-      "catalyst": "NVIDIA cleared the single largest overhang in the market last night and Micron is the most under-reacting way to own the result. NVDA FQ2-27: revenue $96.2B (+106% y/y, +18% q/q) vs ~$92.2B consensus; Data Center $89.0B (+117% y/y); non-GAAP EPS $2.22 vs $2.09 est. The number that matters is the FQ3 guide of $108B — roughly a 12% sequential step-up, several billion above consensus, and guided with ZERO China compute assumed, meaning the figure is pure non-China demand rather than a hopeful re-opening. Every one of those units carries Micron content, and the content per unit is stepping up hard: HBM4 for the Vera Rubin platform began shipping in March and is ramping at ~2x the pace of HBM3E 12-high with yields ahead of plan, and the R100's maximum HBM load goes from 192GB to 288GB on a part reported to be ~80% more expensive per GB-class unit. Micron's entire 2026 HBM output is already sold out under fixed-price contracts, FQ3 guidance is ~$33.5B revenue at 81% gross margin and >$19 EPS, and management has said data centers want ~50% more memory than Micron can ship. Pre-market $975.56 vs $938.40 close = +4.0%, comfortably inside the chase threshold.",
-      "driver": "The asymmetry is that MU is the cheapest, most liquid, most contractually de-risked name in the group that just got re-rated — and it moved the least. Against the NVDA print, NVDA itself is +6.9%, NBIS +6.3%, CRDO +5.5%, COHR +3.9%; Micron, whose revenue per NVIDIA rack is going UP on the Rubin transition, is only +4.0%. Valuation is the downside protection: 21.1x trailing earnings against a guided >$19 quarterly EPS and 81% gross margin, versus 90x for CRDO and 143x for ALAB, the two obvious higher-beta alternatives. Revenue is contracted, not forecast — 2026 HBM is sold out at fixed prices, so the thesis does not depend on a spot-price cycle holding up over the next 24 hours. There is real overhead room: $975.56 sits ~22% below the June 25 52-week high of $1,255, so this is gap-fill territory rather than blue-sky extension. Liquidity is best-in-class for a 100% book at a $1.06T market cap and 27.7M shares/day average (yesterday traded a light 18.7M into the print, so there is unfilled demand). Critically for a held-through-the-night position, Micron does NOT report until late September — there is no binary event inside the holding window, which is exactly the failure mode that made yesterday's SMTC position uncomfortable. Deliberately passed on the alternatives: MRVL (+4.6%), ADSK, WDAY, AFRM, ULTA, ESTC and RBRK all report TONIGHT after the close and this book does not flatten intraday; OKTA (+19.9%) and CRM (+11.4%) are past the chase threshold; CRWD (+8.9%) is at the threshold, is a software beat that tends to gap-and-fade, and sits within 10% of its Aug 14 52-week high; ALAB and CRDO offer more beta but at 143x and 90x earnings with CRDO's own print due within about a week.",
-      "risks": "This is a 100% position in a high-beta memory cyclical whose 52-week range is $114.25 to $1,255.00 — an 11x band in twelve months. That range is the risk statement: MU does not trade like a $1T mega-cap, it trades like a levered call on AI capex, and a sentiment crack takes 10%+ out of it quickly. Second, the trade is a sympathy move, not a company-specific event: Micron has released no news of its own, so if the NVDA gap fades intraday — and NVDA's average one-day post-earnings reaction over the prior five quarters was actually NEGATIVE 2.65% despite beating every time — the derivative names fade harder than the principal. That gap-and-fade pattern is the single most likely way this loses. Third, macro: Jackson Hole runs Aug 27-29 with Powell expected Friday morning; the position exits at tomorrow's 6:35am CT run, ahead of the speech, but overnight rate repricing on Thursday's data can still hit a high-multiple semi, and the stop does not protect against an overnight gap. Fourth, memory is a cycle business — the sold-out fixed-price 2026 book that protects near-term revenue also caps upside if spot DRAM/HBM pricing runs, and any hint of 2027 supply additions from Samsung or SK Hynix compresses the multiple immediately. Fifth, NVDA guided $108B assuming zero China; if China policy loosens, that is upside, but the corollary is that the guide already embeds no China cushion if non-China demand disappoints. The stop at $907.27 (-7%) sits below yesterday's entire range (low $924.60, open $925.74), so it is a genuine thesis-invalidation level — a full round-trip of the NVDA gap plus more — rather than noise, but it also means a sharp fade closes the position at a full 7% loss on the whole book.",
-      "addedDate": "2026-08-27"
-    }
-  ]
+  "priorRealizedPnL": -2208.67,
+  "cashReason": "CASH — no qualifying setup. Three independent disqualifiers stacked on the same morning. (1) The chase filter empties the board. Every liquid US equity with a real overnight catalyst is already extended past the 8-10% pre-market threshold: ESTC +19.6% ($100.17 vs $83.74), GAP +13.4%, SOLS +13.4%, AFRM +12.3% ($87.35 vs $77.49). The entire remainder of the pre-market gainer list above those names is sub-$100M microcaps and sub-$1 tickers (WHLR +129%, AEMD +46%, XTNT +26% at $0.41, LGCL at $0.06) — categorically excluded as penny/illiquid. Meanwhile every name that reported and did NOT gap up is gapping DOWN on guidance: MRVL -7.5%, RBRK -7.2%, ADSK -4.3% (FY27 EPS guide below consensus), ULTA -3.4% (beat but raised FY midpoint <1%), S -2.8%, WDAY -2.3% (Q3 subscription growth decelerating to 12%). There is no name in the middle — nothing with a fresh catalyst, room to run, and a definable stop. (2) A macro binary lands inside the first 30 minutes of the holding window. Kevin Warsh delivers his first Jackson Hole keynote as Fed Chair today at 10:00am ET, 19 days ahead of the Sept 16-17 FOMC, with July core PCE at 3.3% y/y and headline at 3.7% against a 2% target, and the 10-year near 4.7%. A new chair's debut framing of the reaction function is not a handicappable event — it is a coin flip on duration and multiples, and a 100% single-name book has no way to express a view on it. (3) The holding window is three days, not one. Today is Friday, so this book does not rotate until Monday's 6:35am CT run and does not flatten intraday. Any position taken this morning absorbs the Warsh reaction, Friday's full session, and two days of weekend headline risk with a stop that cannot protect against a Monday gap. Taking a chased entry into a Fed-chair debut and holding it over a weekend is precisely the combination that turns a -5% stop into a -10% realized loss. Passing costs nothing; the book rotates Monday with the filter intact.",
+  "positions": []
 }
