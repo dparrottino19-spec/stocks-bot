@@ -2,11 +2,11 @@
   "bookName": "Weekly Trader",
   "inceptionDate": "2026-05-13",
   "inceptionCapital": 70000,
-  "startingCapital": 76114.98,
-  "weekStart": "2026-08-24",
-  "weekEnd": "2026-08-28",
-  "lastUpdated": "2026-08-24T01:09:46Z",
-  "nextRefresh": "2026-08-30T21:00:00-05:00",
+  "startingCapital": 73580.45,
+  "weekStart": "2026-08-31",
+  "weekEnd": "2026-09-04",
+  "lastUpdated": "2026-08-31T19:57:57Z",
+  "nextRefresh": "2026-09-06T21:00:00-05:00",
   "rules": [
     "1-wk max hold",
     "<=10% per position",
@@ -14,148 +14,128 @@
     "Real-time catalyst-driven",
     "Max returns objective"
   ],
-  "priorWeekRealizedPnL": -5606.67,
-  "note": "Week 2026-08-24 build. Prior 8/17-8/21 book closed at official Fri 8/21 SIP closes for -5606.67 realized - the worst week since inception, with 14 of 15 names red. The book was ~70% technology into a week when info tech shed more than 3% and a bond-market selloff (Treasury's doubled long-end buyback did not steady the tape) hit high-multiple growth; FN -23.4% on its 8/17 print, CRWV -16.5%, RDDT -13.9%, KEYS -11.7% and WMT -10.0% on its sales miss did the damage, with only DE (+6.3%) green. This week deliberately rotates out of that concentration and into what is actually working, confirmed by fresh catalysts: (1) metals - copper at record Comex highs on a supply squeeze (FCX closed Friday at a 52-week high after PT hikes) and gold near three-month highs with GDX +23.75% in August, its best month since April 2020; (2) energy - Brent near $89 with the Strait of Hormuz still closed after US-Iran talks collapsed, COP at a 52-week high; (3) crypto-levered financials - bitcoin's best week since March 2023 (+22% to $77,000+) on the SEC's 8/18 'Regulation Crypto Assets' proposal and the White House push for the CLARITY Act, with HOOD +13.6% Friday and COIN +8%; (4) fresh single-stock catalysts - MRK at a 52-week high on the first-ever positive Phase 3 for an individualized neoantigen cancer therapy, TGT at a 52-week high on a beat-and-raise, F on a Jefferies upgrade to Buy. Tech exposure is cut to two names, both held for in-window prints: NVDA Wed 8/26 AMC (guided $91.0B +/- 2%, street $91.9-95B) and MRVL Thu 8/27 AMC. DY (Wed) and ULTA (Thu) round out the in-window earnings sleeve at small size. Macro risk sits at the end of the window: Jackson Hole runs 8/27-8/29 and Chair Warsh delivers his first keynote as Chair on Friday 8/28 - a hawkish lean would compress September cut odds, lift real yields and pressure both the gold sleeve and the high-multiple names. 14 names, ~89.9% deployed, ~10.1% cash. Entries recorded at verified Fri 8/21 SIP closes; positions open Monday 8/24.",
+  "priorWeekRealizedPnL": -2534.53,
+  "note": "Week 2026-08-31 build. NOTE ON TIMING: this run fired late - Monday 8/31 afternoon rather than Sunday evening - so entries are recorded at verified live SIP quotes struck between 15:50 and 15:56 ET on Monday 8/31, NOT at the prior Friday close. Backdating entries to the 8/28 close after a full session had already traded would have imported hindsight into the book; the prior-week close-out is still taken at official Fri 8/28 SIP closes, which is the correct end of that book's hold horizon. Prior 8/24-8/28 book closed for -2534.53 realized, the second straight losing week, with 13 of 14 names red - but far shallower than the prior week's -5606.67. DY did the damage again (-25.1%, -690.27) after a disastrous FQ2 print on 8/25 that took it from $390 to $310 in two sessions; MRVL (-8.6%) and XOM (-5.1%) followed. NVDA (+1.3%) was the only green name, having beaten on 8/26 and rallied 8.7% on 8/27 before giving half of it back Friday. THE REGIME CHANGED ON FRIDAY. Chair Warsh used his first Jackson Hole keynote to say the Fed's 'predominant focus right now should be on prices' and that policymakers 'have work to do'; September rate-HIKE odds jumped from ~35% to ~60%, the 2-year rose 11bp to 4.34% and the dollar gained 0.6%. That is the organizing fact of this week and it drove three decisions: (1) the gold sleeve is gone - NEM and AEM fell 3.3% and 4.7% Friday and another 1.9% and ~1% Monday, and FCX is red too, so the entire metals complex is cut to zero; (2) the deployment weight moved toward cash-generative, lower-multiple names (VLO at 14.6x, DE, SLB, APO) and away from long-duration software; (3) HOOD is held partly BECAUSE a hike lifts net interest revenue on customer cash. The book is built on three legs. ENERGY (3 names) is the day's live catalyst: the US struck Iranian rocket launchers preparing to mine the Strait of Hormuz on Sunday and Trump said the US will respond to an Iranian attack on US forces in Jordan, sending Brent up ~4.9% to $90.31; SLB added a $4.1B Kelvion acquisition that doubles its revenue per gigawatt of data-center capacity and closed at a 52-week high, VLO closed at a 52-week high with Trump hosting refining executives Tuesday, and FANG is the E&P beta still 7.7% below its own high. TECHNOLOGY (3 names) is entirely an in-window earnings sleeve - DELL Tue AMC, AVGO and the AI print of the week Wed AMC ($16B guided AI revenue, +200% YoY), PANW Tue AMC into its FY27 guide - sized so that three consecutive event nights cannot break the book. FINANCIALS (3 names) pairs the crypto-policy trade (COIN +6% Monday, bitcoin ~$78.4K, CLARITY Act Senate vote dated 9/15) with HOOD's rate leverage and APO's same-day Kelvion realization. DE carries industrials on Baird's Outperform upgrade and $800 target, RVMD carries healthcare on its first FDA approval (Rasonque in metastatic pancreatic cancer, 8/26) plus a Needham raise to $275, and FIVE is the discretionary in-window print. THE RISK SITS AT THE END OF THE WINDOW AGAIN: August payrolls land Friday 9/4 with consensus around +58K after July's -23K, and after Warsh a hot number now cuts both ways - it validates the hike and compresses every multiple in the book. 12 names, ~87.0% deployed, ~13.0% cash held deliberately wide for that reason.",
   "positions": [
     {
-      "ticker": "FCX",
-      "name": "Freeport-McMoRan",
-      "sector": "Materials / Copper & Gold",
-      "shares": 89,
-      "entry": 76.66,
-      "catalyst": "Copper broke to record Comex highs through August on a deepening global supply squeeze, falling Chinese refined output and pending US copper tariff decisions; FCX closed Friday at a fresh 52-week high (+7.6% on the session) after Q2 adj EPS of $0.74 vs $0.59 consensus and a wave of PT hikes (Wells Fargo to Overweight/$70, Barclays $82, Argus $78).",
-      "risks": "No company-specific catalyst in-window; a copper tariff resolution or Chinese demand wobble unwinds the squeeze fast; closed exactly at its 52-week high, so no cushion.",
-      "driver": "Strongest confirmed momentum in the materials complex on a live commodity catalyst."
-    },
-    {
-      "ticker": "MRK",
-      "name": "Merck & Co.",
-      "sector": "Healthcare / Pharmaceuticals",
-      "shares": 45,
-      "entry": 152.55,
-      "catalyst": "Merck and Moderna's Phase 3 INTerpath-001 trial of intismeran autogene + KEYTRUDA hit both recurrence-free and distant-metastasis-free survival endpoints in resected stage IIB-IV melanoma on 8/19 - the first positive Phase 3 for an individualized neoantigen therapy and the first to beat KEYTRUDA monotherapy. MRK jumped 7% and closed Friday at a 52-week high of $152.55.",
-      "risks": "Closed at its 52-week high with no in-window follow-on catalyst; the readout is topline only, with full data at a later medical meeting; large-cap pharma beta is low so upside is capped.",
-      "driver": "Fresh, franchise-extending clinical catalyst that de-risks the KEYTRUDA patent cliff."
-    },
-    {
-      "ticker": "TGT",
-      "name": "Target",
-      "sector": "Consumer Staples / Retail",
-      "shares": 39,
-      "entry": 165.44,
-      "catalyst": "Q2 on 8/19 beat across the board - net sales $26.5B (+5.3%), comps +3.8% vs 2.4% consensus, EPS $4.11 vs $2.05 a year ago - and management raised FY26 EPS guidance to $9.90-$10.90 from $7.50-$8.50 with sales to ~$110.0B. Stock printed a fresh 52-week high and held it into Friday's close.",
-      "risks": "Catalyst is behind it, so this is post-beat drift; July retail sales fell 0.6% MoM; a two-quarter turnaround is not yet a trend.",
-      "driver": "Post-earnings momentum with a raised guide - the one retailer whose bar went up, not down."
-    },
-    {
-      "ticker": "NEM",
-      "name": "Newmont",
-      "sector": "Materials / Gold",
-      "shares": 45,
-      "entry": 131.58,
-      "catalyst": "Gold pushed to a near three-month high on 8/21 on a softer dollar and falling long-end yields after Treasury doubled its 20- and 30-year buybacks; the VanEck Gold Miners ETF gained 23.75% in August, its best month since April 2020. Newmont's Q2 realized price of $4,414/oz drove a record $2.2B of quarterly free cash flow.",
-      "risks": "No in-window company catalyst; a hawkish Warsh at Jackson Hole on Friday 8/28 would lift real yields and hit bullion; the August move is already large.",
-      "driver": "Highest-FCF leverage to a gold tape making new highs on a live macro catalyst."
-    },
-    {
-      "ticker": "COP",
-      "name": "ConocoPhillips",
-      "sector": "Energy / Oil & Gas E&P",
-      "shares": 44,
-      "entry": 134.87,
-      "catalyst": "Brent is holding near $89 with the Strait of Hormuz - roughly a fifth of seaborne crude - still closed after US-Iran talks to reopen it collapsed. COP closed Friday at a 52-week high of $134.87, the cleanest large-cap E&P leverage to the price of the barrel.",
-      "risks": "A surprise diplomatic breakthrough on Hormuz could send Brent toward $70 and unwind the entire trade in a session; no company catalyst in-window.",
-      "driver": "Pure-play E&P momentum at a 52-week high confirmed by an unresolved supply shock."
-    },
-    {
-      "ticker": "XOM",
-      "name": "Exxon Mobil",
-      "sector": "Energy / Integrated Oil",
-      "shares": 34,
-      "entry": 165.11,
-      "catalyst": "Same Hormuz supply shock, but with integrated downstream and chemicals to absorb it: XOM is up roughly 29-31% YTD as XLE gained over 21%, and refining margins are widening as rerouted barrels lengthen voyages. Trades ~6% below its March 52-week high of $176.41, so it is not extended.",
-      "risks": "No in-window catalyst; a Hormuz reopening compresses both crude and crack spreads; mega-cap energy lags the E&Ps on any spike.",
-      "driver": "Lower-beta way to hold the energy momentum with room to the prior high."
-    },
-    {
-      "ticker": "AEM",
-      "name": "Agnico Eagle Mines",
-      "sector": "Materials / Gold",
-      "shares": 23,
-      "entry": 216.06,
-      "catalyst": "Second leg of the gold trade and the highest-quality operator in it - $1.3B of Q2 free cash flow at $1,459 AISC, the widest margin in the senior producer group, into bullion at record levels. Sits ~15% below its March 52-week high of $255.24, so the August miner rally has not yet re-rated it fully.",
-      "risks": "No company catalyst in-window; correlated one-for-one with NEM, so the gold sleeve moves together; Jackson Hole is the obvious reversal risk.",
-      "driver": "Best-margin senior gold producer with catch-up room versus the sector's August move."
-    },
-    {
-      "ticker": "NVDA",
-      "name": "NVIDIA",
+      "ticker": "AVGO",
+      "name": "Broadcom",
       "sector": "Technology / Semiconductors",
-      "shares": 25,
-      "entry": 214.72,
-      "catalyst": "Q2 FY27 results Wed 8/26 AMC - the single largest scheduled event of the week. Company guided to $91.0B +/- 2%; the sell side is modeling $91.9B-$95B (roughly 67-75% YoY) on a Blackwell ramp with data center alone potentially above $80B, and EPS consensus of $2.07-$2.08. Analyst targets cluster $275-$325.",
-      "risks": "Binary print mid-week that sets the tone for the whole tape; NVDA fell 4.6% last week as info tech shed more than 3%; China policy commentary is an unquantifiable swing factor.",
-      "driver": "The marquee in-window catalyst, entered after a 9% drawdown from the May high."
+      "shares": 18,
+      "entry": 370.49,
+      "catalyst": "FQ3 2026 results Wed 9/2 AMC - the single largest scheduled event of the week. Consensus is ~$29.4B revenue (+85% YoY) and non-GAAP EPS near $3.24, with AI semiconductor revenue guided to ~$16B, up more than 200% YoY and over half of total revenue. Q2 AI bookings of $30B+ against $10.8B shipped leave a backlog that extends visibility into FY28; top targets run to $545.",
+      "risks": "Binary print that sets the tone for the whole AI complex; sell-side margin expectations look optimistic given customer mix shift; a hawkish jobs print Friday hits high-multiple semis regardless of the result.",
+      "driver": "Marquee in-window catalyst, entered 25% below the June 52-week high rather than at it."
+    },
+    {
+      "ticker": "SLB",
+      "name": "SLB (Schlumberger)",
+      "sector": "Energy / Oilfield Services",
+      "shares": 110,
+      "entry": 60.03,
+      "catalyst": "Agreed Monday 8/31 to buy Kelvion from Apollo for $4.1B including debt ($3.4B cash), doubling its revenue opportunity per gigawatt of delivered data-center capacity; Kelvion does $1.2-1.3B of 2026 data-center revenue and the deal is priced at ~11x 2026E EBITDA (8.5x post-synergy). SLB guides to $2B+ combined data-center revenue this year and $4.5-5B by 2028. Stock closed at a fresh 52-week high on ~2x average volume, the day's best large-cap energy performer.",
+      "risks": "Deal needs regulatory approval and does not close until H1 2027, so nothing changes near-term earnings; sits exactly at its 52-week high with no cushion; a Hormuz de-escalation drags the whole energy tape down with it.",
+      "driver": "The only name in the book with both a same-day M&A catalyst and a 52-week-high breakout on confirming volume."
+    },
+    {
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "sector": "Technology / Hardware",
+      "shares": 13,
+      "entry": 459.64,
+      "catalyst": "FQ2 2027 results Tue 9/1 AMC, consensus $4.88 EPS. BofA raised its target to $505 from $500 Monday morning on the AI server ramp; the stock traded as high as $474.14 intraday. Shares are up more than 4x off the January low of $110.22 and sit 10% below the 8/13 52-week high of $514.",
+      "risks": "Binary print the night before AVGO, so the tech sleeve carries two consecutive event nights; AI server gross margin has been the recurring bear point and a mix-driven miss is the obvious way this breaks; faded hard off the intraday high Monday.",
+      "driver": "In-window print in the cheapest large-cap way to own the AI server build-out."
+    },
+    {
+      "ticker": "DE",
+      "name": "Deere & Company",
+      "sector": "Industrials / Machinery",
+      "shares": 9,
+      "entry": 655.06,
+      "catalyst": "Baird upgraded Deere to Outperform from Neutral Monday 8/31 and raised its target to $800 from $640, roughly 22% above the current price. Shares rose ~3.9% on the upgrade to within 2.8% of the $674.19 February 52-week high. Deere was also the single green name in the book's 8/17 week (+6.3%), so this is a re-rating on top of already-working relative strength.",
+      "risks": "No company event in-window, so this is upgrade drift; an ag-equipment cycle call is a rate-sensitive one and Friday's payrolls could reprice it; the stock has failed at $674 twice this year.",
+      "driver": "Largest-magnitude sell-side upgrade of the day landing on a stock already outperforming."
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "sector": "Energy / Refining",
+      "shares": 16,
+      "entry": 360.23,
+      "catalyst": "Closed Monday at a fresh 52-week high of $360.23 as Brent jumped ~4.9% to $90.31 after the US struck Iranian rocket launchers preparing to mine the Strait of Hormuz. Reuters reported Monday that President Trump will host oil refining executives at the White House Tuesday 9/1 - an in-window, sector-specific event - and rerouted barrels are lengthening voyages and widening crack spreads. Trades at 14.6x earnings, the cheapest multiple in the book.",
+      "risks": "52-week high with no cushion; the Tuesday refiner meeting is as likely to be about pump prices as about margins, which would be a negative surprise; a Hormuz reopening compresses cracks fast.",
+      "driver": "Cheapest name in the book at a 52-week high with a scheduled in-window policy event."
+    },
+    {
+      "ticker": "FANG",
+      "name": "Diamondback Energy",
+      "sector": "Energy / Oil & Gas E&P",
+      "shares": 28,
+      "entry": 200.1,
+      "catalyst": "Pure Permian leverage to a barrel that gapped higher Monday on renewed US-Iran military escalation - Trump said the US will respond to an Iranian attack on US forces in Jordan overnight, and Brent pushed back above $90 after mediators' reopening efforts stalled. Unlike SLB and VLO, FANG sits 7.7% below its 8/20 52-week high of $216.90, so it has not yet recovered last week's 2% energy-sector drawdown.",
+      "risks": "Highest single-factor risk in the book - one diplomatic headline on Hormuz unwinds it in a session; no company catalyst in-window; energy was the second-worst sector last week, so multi-week momentum is against it.",
+      "driver": "Cleanest E&P beta to the day's live geopolitical catalyst, with room back to the prior high."
+    },
+    {
+      "ticker": "PANW",
+      "name": "Palo Alto Networks",
+      "sector": "Technology / Cybersecurity Software",
+      "shares": 14,
+      "entry": 382.29,
+      "catalyst": "FQ4 2026 results Tue 9/1 AMC, consensus $0.88 EPS, and the print that sets initial FY27 guidance. Shares rose ~2.9% Monday to within 4% of the 8/13 52-week high of $398.88, extending a cybersecurity bid that produced a 14% weekly gain in CrowdStrike last week on a beat-and-raise driven by AI-risk demand.",
+      "risks": "Binary print with a full-year guide attached, the highest-variance format there is; 305x trailing GAAP earnings leaves no room for a soft platformization number; third consecutive event night in the tech sleeve.",
+      "driver": "In-window print in the one software vertical that visibly worked last week."
     },
     {
       "ticker": "COIN",
       "name": "Coinbase Global",
       "sector": "Financials / Crypto Exchange",
-      "shares": 24,
-      "entry": 186.49,
-      "catalyst": "Bitcoin's best week since March 2023 - up ~22% to above $77,000 - on genuine policy catalysts: the SEC proposed 'Regulation Crypto Assets' on 8/18 (its first crypto rulemaking rather than an enforcement action, with a $75M token safe harbor) and Trump publicly pushed Congress on the CLARITY Act. COIN gained ~8% on Friday; Q2 showed 10.3% trading share and a 14th straight positive adjusted-EBITDA quarter.",
-      "risks": "Highest-beta name in the book - a bitcoin reversal cuts it twice as hard; still ~54% below its October 52-week high; rulemaking is a proposal, not a rule.",
-      "driver": "Direct equity expression of a crypto tape making its biggest weekly move in two years."
+      "shares": 27,
+      "entry": 189.35,
+      "catalyst": "Rose ~6% Monday, the strongest large-cap financial on a red tape, extending bitcoin's 22% weekly gain to roughly $78,400. The CLARITY Act - which would classify most tokens as digital commodities under the CFTC - is now scheduled for a Senate floor vote on 9/15, giving a two-week runway of positioning. Coinbase also expanded its Webull infrastructure partnership into Canada Monday and launched a token-backed mortgage with Better.",
+      "risks": "Highest-beta name in the book; the Senate vote is after the window, so this is anticipation, not resolution, and it can be sold on any whip-count wobble; still 53% below the October 52-week high.",
+      "driver": "Best single-day relative strength in financials on a policy catalyst with a dated near-term deadline."
+    },
+    {
+      "ticker": "FIVE",
+      "name": "Five Below",
+      "sector": "Consumer Discretionary / Specialty Retail",
+      "shares": 19,
+      "entry": 246.26,
+      "catalyst": "Q2 results Wed 9/2 AMC, consensus $1.15 EPS. Shares gained ~1.8% Monday and sit 6.7% below the 52-week high of $263.88 set on 8/24, the strongest chart in discretionary retail after Target's beat-and-raise reset the category bar. Up ~79% from the October low with comps and unit growth both re-accelerating.",
+      "risks": "Discretionary spend is the softest part of the tape - July retail sales fell 0.6% MoM and UMich sentiment is 51.7; small float makes the earnings reaction violent; tariff exposure on imported low-price goods is unresolved.",
+      "driver": "In-window print in the one discretionary retailer whose chart is still making higher highs."
     },
     {
       "ticker": "HOOD",
       "name": "Robinhood Markets",
       "sector": "Financials / Brokerage",
-      "shares": 36,
-      "entry": 108.13,
-      "catalyst": "Closed Friday around $108, +13.6% on the session and +13% on the week, its best week since July 2, on the same crypto-regulation catalyst plus Vlad Tenev's widely-circulated 8/18 push for domestic tokenized equities and continued private-market product expansion.",
-      "risks": "Friday's move was enormous and invites profit-taking; 47x earnings; retail engagement falls off fast if the crypto bid fades.",
-      "driver": "Fastest-moving name in the financials complex on the week's clearest policy catalyst."
+      "shares": 42,
+      "entry": 105.43,
+      "catalyst": "Second leg of the crypto-regulation trade alongside COIN, with the added kicker that ~60% odds of a September Fed hike lift net interest revenue on customer cash. Tenev's tokenized-equities push and continued private-market product expansion remain live, and the stock has held the 8/21 breakout level after a +13% week.",
+      "risks": "Lagged COIN badly Monday (+1.1% vs +6%), so the crypto bid is not fully transmitting; 46x earnings; retail engagement falls off fast if bitcoin rolls over; still 31% below the October 52-week high.",
+      "driver": "Rate-sensitive crypto proxy that benefits from both the CLARITY runway and a hawkish Fed."
     },
     {
-      "ticker": "F",
-      "name": "Ford Motor",
-      "sector": "Consumer Discretionary / Autos",
-      "shares": 253,
-      "entry": 14.41,
-      "catalyst": "Jefferies upgraded Ford to Buy with a $17.50 target on 8/21, arguing Q2 marked the volume trough as production and US demand recover; shares rose more than 6% after Q2 earnings topped expectations and full-year core profit guidance moved higher. Trades at $14.41 against a $17.78 52-week high.",
-      "risks": "Deep-cyclical exposure into a tape worried about oil-driven inflation; tariff and warranty costs remain live; the stock has repeatedly failed to hold rallies over the past year.",
-      "driver": "Fresh sell-side upgrade on top of a beat-and-raise, with a clear gap to the prior high."
+      "ticker": "APO",
+      "name": "Apollo Global Management",
+      "sector": "Financials / Alternative Asset Management",
+      "shares": 29,
+      "entry": 136.8,
+      "catalyst": "Two same-day monetization and deployment events: Apollo-managed funds agreed Monday to sell Kelvion to SLB for $4.1B including debt, and Apollo is funding a $9B non-voting minority equity investment behind ONEOK's $4.43B acquisition of Brazos Midstream. Shares rose ~1.3% and have recovered from the March low of $99.56.",
+      "risks": "Smallest catalyst-to-price-move ratio in the book - a $1.3% day is weak confirmation; sits 10.8% below the January 52-week high, so this is a recovery name rather than a momentum name; alt managers are credit-spread-sensitive into a hawkish Fed.",
+      "driver": "Fresh realization event at a manager whose deployment engine is visibly running."
     },
     {
-      "ticker": "MRVL",
-      "name": "Marvell Technology",
-      "sector": "Technology / Semiconductors",
-      "shares": 13,
-      "entry": 237.04,
-      "catalyst": "Q2 FY27 results Thu 8/27 AMC, consensus $0.87 EPS. Management has guided optical interconnect revenue to grow above 70% YoY in FY27 - outpacing custom AI silicon at 20%+ - with a design-win pipeline above 50 opportunities and the $12B Google custom-chip relationship validating the ASIC platform. 25 of 35 covering analysts rate it Strong Buy.",
-      "risks": "Sold off ~6% on Friday alone (open $252.39, close $237.04), so short-term momentum is negative going in; 53x forward earnings and 16.5x sales leave no room for a soft custom-silicon ramp; binary print.",
-      "driver": "In-window earnings catalyst in the second-best AI interconnect franchise, entered on a pullback."
-    },
-    {
-      "ticker": "DY",
-      "name": "Dycom Industries",
-      "sector": "Industrials / Engineering & Construction",
-      "shares": 7,
-      "entry": 392.95,
-      "catalyst": "FQ2 FY27 results Wed 8/26 - the company carries a record $11.9B backlog (+25% sequentially, 2.2x book-to-bill) with $6.4B due in the next twelve months, FQ1 revenue +56.1% YoY to $1.96B, and the Power Solutions acquisition has pivoted it into AI data centers where over 90% of that segment serves hyperscalers. FY27 revenue guidance was raised to $7.38-$7.65B.",
-      "risks": "Trades ~31% below its May 52-week high of $566.47, so momentum is against it going into the print; thin float and low liquidity make the earnings reaction violent in both directions; smallest position in the book for that reason.",
-      "driver": "Highest-visibility AI-infrastructure backlog in the book with an in-window print."
-    },
-    {
-      "ticker": "ULTA",
-      "name": "Ulta Beauty",
-      "sector": "Consumer Discretionary / Specialty Retail",
-      "shares": 5,
-      "entry": 521.46,
-      "catalyst": "Q2 results Thu 8/27 AMC, consensus $6.21 EPS (+7.4% YoY) on $2.98B revenue (+6.9%), with AI-guided shopping being pushed to lift conversion. The stock has stabilized in the low $500s after basing at $443.60 on 6/30, so the bar into the print is materially lower than it was in February.",
-      "risks": "Still ~27% below its February 52-week high, so this is a mean-reversion earnings bet rather than a momentum trade; discretionary beauty spend is exposed to the same consumer softness that hit WMT last week.",
-      "driver": "In-window earnings catalyst where sentiment has already been reset."
+      "ticker": "RVMD",
+      "name": "Revolution Medicines",
+      "sector": "Healthcare / Oncology",
+      "shares": 19,
+      "entry": 207.02,
+      "catalyst": "The FDA approved Rasonque (daraxonrasib) for metastatic pancreatic cancer on Wed 8/26 - the company's first commercial approval and the first RAS(ON) inhibitor to clear in that indication. Needham raised its target to $275 from $240 Monday 8/31 while maintaining Buy. Shares set a 52-week high of $224.31 on 8/27 and are up ~451% from the August 2025 low of $37.56.",
+      "risks": "Still loss-making with a 17x book multiple and no revenue history to anchor the launch; the Trump administration was reported to be announcing a fresh round of Medicaid drug-pricing agreements with mid-sized biotechs Monday, an unquantified overhang; drifted -0.4% Monday, so momentum paused.",
+      "driver": "First-approval launch story with the strongest 12-month momentum in the book and a fresh target raise."
     }
   ]
 }
