@@ -2,10 +2,10 @@
   "bookName": "Daily Trader",
   "inceptionDate": "2026-05-15",
   "inceptionCapital": 70000,
-  "startingCapital": 70474.53,
-  "tradeDate": "2026-09-14",
-  "lastUpdated": "2026-09-14T11:30:00Z",
-  "nextRefresh": "2026-09-15T07:09:00-05:00",
+  "startingCapital": 70389.36,
+  "tradeDate": "2026-09-15",
+  "lastUpdated": "2026-09-15T11:21:53Z",
+  "nextRefresh": "2026-09-16T07:09:00-05:00",
   "rules": [
     "Weekday 7am ET picks",
     "Per-pick exit rules",
@@ -13,7 +13,7 @@
     "1-week max hold",
     "<=4 names per sector"
   ],
-  "priorRealizedPnL": 474.53,
+  "priorRealizedPnL": 389.36,
   "positions": [
     {
       "ticker": "MPC",
@@ -37,18 +37,6 @@
       "catalyst": "Tier 1 PHYSICAL SUPPLY SHOCK - same named catalyst as MPC, expressed through the most export-weighted US refiner. Valero runs 15 refineries and is the largest US exporter of refined product, which matters specifically here: the Petroline shutdown and the collapse in Hormuz transit (single digits per day versus a pre-war 125) disrupt seaborne crude supply to Europe and Asia, and the marginal replacement barrel of gasoline and diesel for those markets comes off the US Gulf Coast. Valero is bid +1.61% pre-market to 396.71 from the 9/11 close of 390.42. Friday's session printed a new 52-week high of 399.255 on 3.06M shares against a 2.44M 30-day average - 1.25x relative volume, so the breakout had real participation behind it rather than being a quiet drift. At 16.2x earnings and a 4.5x book the valuation is undemanding relative to the move.",
       "risks": "Same reversal risk as MPC and it is the dominant one: this is a two-name expression of a single geopolitical headline, so MPC and VLO will move together and a Petroline restart takes both down at once. Also at a 52-week high with no support beneath. Valero carries more renewable-diesel and ethanol exposure than Marathon, segments that have been a persistent drag and that do not benefit from a crude supply shock. Crack-spread inversion risk if crude outruns products. The FOMC decision lands Thursday with a hike roughly 86% priced - this position is closed Wednesday specifically to avoid holding through it.",
       "driver": "Second leg of the Hormuz/Petroline refining trade through the largest US product exporter, +1.61% pre-market after a 1.25x-volume 52-week-high breakout on Friday.",
-      "addedDate": "2026-09-14"
-    },
-    {
-      "ticker": "XOM",
-      "name": "Exxon Mobil Corporation",
-      "sector": "Energy Minerals",
-      "shares": 20,
-      "entry": 168.45,
-      "exitRule": "Overnight (next-day open) - flat on the Tuesday 9/15 open",
-      "catalyst": "Tier 1 PHYSICAL SUPPLY SHOCK, taken through the most liquid vehicle available. Exxon is a $682B integrated with 13.7M shares of 30-day average volume, so it is the position in this book that can actually be exited into a reversal. The upstream barrel reprices immediately with Brent at $108.17 (+3.4%) while the downstream and chemical segments hedge the crack-spread risk that the pure refiners carry - this is the lower-variance way to own the same shock. XOM is bid +1.48% pre-market to 168.45 from the 9/11 close of 165.99, tight two-sided at 168.45/168.60, which is the cleanest quote on the entire board this morning. Unlike the refiners it is NOT extended: at 168.45 the stock is still 4.5% below its 176.41 52-week high from March, so there is a clear technical reference above and the entry is not a chase.",
-      "risks": "Integrateds capture less of a crude spike than E&Ps do, so the upside here is deliberately muted - this position is sized as ballast, not as the expression of maximum conviction. Exxon has direct operational exposure in the region, and an escalation severe enough to threaten assets or personnel would flip the sign on the trade. A confirmed Petroline restart unwinds the premium. The FOMC hike roughly 86% priced for Thursday pressures the broad market regardless of sector, which is why this is an overnight hold only. XOM went ex-dividend 8/17 so there is no distribution inside the window.",
-      "driver": "Lowest-variance expression of the Brent supply shock: $682B market cap, the tightest pre-market spread on the board, and still 4.5% below its March 52-week high.",
       "addedDate": "2026-09-14"
     },
     {
@@ -100,54 +88,6 @@
       "addedDate": "2026-09-14"
     },
     {
-      "ticker": "KO",
-      "name": "The Coca-Cola Company",
-      "sector": "Consumer Non-Durables",
-      "shares": 39,
-      "entry": 89.32,
-      "exitRule": "Intraday - flat by the 9/14 close (deliberately NOT held overnight: KO goes ex-dividend Tuesday 9/15 at $0.53)",
-      "catalyst": "Tier 2 DEFENSIVE ROTATION with confirming price action, and the counterweight to an energy-heavy book. Nasdaq 100 futures are -1.49% and the S&P -0.62% pre-market on an AI de-rating driven by Anthropic's Dario Amodei publishing a slow-down essay and OpenAI delaying its IPO, while the oil shock pushes an inflation impulse into a Fed meeting already priced roughly 86% for a 25bp hike. That combination - long-duration equity selling off, inflation rising, rates rising - is the specific tape in which large-cap staples with pricing power outperform, and it is showing up in the quotes: KO is bid +1.17% pre-market to 89.32 from the 9/11 close of 88.29 with a six-cent spread at 89.26/89.32, the tightest two-sided market on the entire board this morning, on a day when the index is down. A staple outbidding a falling market is the rotation confirming itself rather than a narrative.",
-      "risks": "The single most important detail in this position is the reason it is intraday: Coca-Cola goes ex-dividend TOMORROW, 9/15, at $0.53 per share, so an overnight hold would mechanically give back 0.59% at Tuesday's open - roughly $21 on a $3,483 position - which on a trade with this modest an expected move is most of the edge. Beyond that, defensive rotations reverse the moment risk appetite returns, and a single de-escalation headline out of the rescheduled Oman talks could flip the entire tape intraday. At 26.6x earnings and 10.5x book KO is not cheap defence. It is also directly exposed to the oil impulse through packaging, freight and input costs, so the same catalyst driving the rotation is a slow headwind to its own margins.",
-      "driver": "Tightest two-sided quote on the board bid +1.17% into a tape where Nasdaq futures are -1.49%, taken intraday only because KO goes ex-dividend at $0.53 tomorrow.",
-      "addedDate": "2026-09-14"
-    },
-    {
-      "ticker": "PG",
-      "name": "The Procter & Gamble Company",
-      "sector": "Consumer Non-Durables",
-      "shares": 23,
-      "entry": 146.5,
-      "exitRule": "Overnight (next-day open) - flat on the Tuesday 9/15 open",
-      "catalyst": "Tier 2 DEFENSIVE ROTATION, taken at the deepest discount in the staples group. Same mechanism as KO - Nasdaq futures -1.49% on the Amodei slow-down essay and the OpenAI IPO delay, an oil-driven inflation impulse, and a Fed meeting roughly 86% priced for a hike - but the setup here is materially better on valuation and position. PG is bid +0.85% pre-market to 146.50 from the 9/11 close of 145.27, and at that price the stock is 12.4% BELOW its 167.25 52-week high from February and only 6.5% above its 137.62 January low. This is the one name entered today that is genuinely beaten down rather than extended, which means the rotation has room to run in it before it meets supply. Friday's volume of 11.53M against a 9.18M 30-day average is 1.26x relative volume - accumulation into the low, not distribution.",
-      "risks": "The +0.85% pre-market bid is the weakest confirmation among the three staples taken today, and there is a reason PG sits 12% off its high while KO sits near its own: P&G has been losing the volume-versus-price argument, with pricing carrying growth while units stagnate. A consumer-products company is squarely on the wrong side of an oil shock through resin, packaging and freight costs, so the same catalyst driving investors into the name raises its input bill. Defensive rotations unwind on any risk-on headline. At 21.9x earnings this is not a value entry in absolute terms. PG went ex-dividend 7/24 so there is no distribution inside the window - unlike KO, which is why this one can be held overnight.",
-      "driver": "The one genuinely beaten-down name entered today - 12.4% below its February high with 1.26x-volume accumulation - bid into a defensive rotation with no ex-dividend complication.",
-      "addedDate": "2026-09-14"
-    },
-    {
-      "ticker": "MO",
-      "name": "Altria Group, Inc.",
-      "sector": "Consumer Non-Durables",
-      "shares": 49,
-      "entry": 69.95,
-      "exitRule": "Intraday - flat by the 9/14 close (deliberately NOT held overnight: MO goes ex-dividend Tuesday 9/15 at $1.11)",
-      "catalyst": "Tier 2 DEFENSIVE ROTATION through the lowest-beta, highest-yield name in the large-cap universe. Altria is the closest thing in equities to a bond substitute, with a 6.1% trailing dividend yield, near-zero cyclical sensitivity and no meaningful input exposure to crude - which makes it the purest defensive vehicle on a day when Nasdaq futures are -1.49% and the whole long-duration complex is being repriced on the Amodei slow-down essay and the OpenAI IPO delay. MO is bid +1.41% pre-market to 69.95 from the 9/11 close of 68.98, the strongest confirming move among the three staples entered today, on a live 69.35/70.00 quote at 11:14 UTC. At 14.5x earnings it is the cheapest of the three on a P/E basis.",
-      "risks": "Intraday only for the same mechanical reason as KO: Altria goes ex-dividend TOMORROW, 9/15, at $1.11 per share - a 1.59% haircut at Tuesday's open, roughly $54 on a $3,428 position, which would exceed the expected edge on an overnight hold. Note also that a $1.11 ex-dividend one day out is itself part of why the stock is bid this morning, so some of the +1.41% is dividend-capture flow that will reverse tomorrow rather than genuine rotation - a real caveat on the strength of the signal. Altria's negative book value (-43.2x P/B) reflects a balance sheet carrying large buyback-driven deficits. Secular volume decline in combustibles is the permanent bear case and does not pause for a defensive rotation. Litigation and FDA regulatory headline risk is idiosyncratic and uncorrelated with anything else in this book.",
-      "driver": "Lowest-beta, highest-yield defensive in the large-cap universe bid +1.41% into a -1.49% Nasdaq tape, taken intraday because a $1.11 ex-dividend lands tomorrow.",
-      "addedDate": "2026-09-14"
-    },
-    {
-      "ticker": "JNJ",
-      "name": "Johnson & Johnson",
-      "sector": "Health Technology",
-      "shares": 12,
-      "entry": 268.76,
-      "exitRule": "Overnight (next-day open) - flat on the Tuesday 9/15 open",
-      "catalyst": "Tier 2 DEFENSIVE ROTATION into the sector least exposed to both of today's macro forces. Pharmaceutical earnings are essentially insensitive to a 25bp Fed hike and insensitive to a crude spike - no meaningful energy input, no rate-sensitive demand - which makes large-cap pharma the structurally correct hiding place in a tape where Nasdaq futures are -1.49% on an AI de-rating and the FOMC is roughly 86% priced for a hike on Thursday. JNJ is bid +1.20% pre-market to 268.76 from the 9/11 close of 265.58 on a tight 268.00/269.34 quote, outperforming both the index and two of the three staples. Friday's session was a strong reversal: opened 268.44, broke to 265.25, closed 265.58 after touching 270.385 - and the pre-market bid takes it straight back above the Friday high. The stock is 4.4% below its 281.07 52-week high set 9/2, so it is near but not at resistance.",
-      "risks": "A 4.4% gap to the 52-week high is not much room, and JNJ has already run 55% off its September 2025 low of 173.33 - this is a defensive name that has itself become a crowded trade. At 30.8x trailing earnings, JNJ is the most expensive defensive in this book and carries no valuation cushion. Talc and opioid litigation remains the standing idiosyncratic risk and produces headline gaps unrelated to any macro thesis. Defensive rotations reverse on a single risk-on catalyst, and a rescheduled Oman de-escalation would do it. JNJ went ex-dividend 8/25 so there is no distribution inside the window.",
-      "driver": "Large-cap pharma is insensitive to both the rate hike and the oil shock; JNJ bid +1.20% back above Friday's high while Nasdaq futures sit -1.49%.",
-      "addedDate": "2026-09-14"
-    },
-    {
       "ticker": "LLY",
       "name": "Eli Lilly and Company",
       "sector": "Health Technology",
@@ -158,6 +98,150 @@
       "risks": "At $1,127.79 a share a $3,500 cap buys exactly 3 shares, so execution is chunky and a single point of slippage is a meaningful share of the expected move - this is the least precisely sizeable position in the book. At 37.9x earnings and 31.0x book LLY is priced for continued GLP-1 dominance, and the 12.8% drawdown from the August high is itself evidence that the market is re-rating that assumption; I am buying the dip in a story that may still be de-rating rather than a washout. Single-product concentration in the incretin franchise means one competitive trial readout or reimbursement headline moves the stock 5%+ independently of any macro thesis, which is why this carries a hard 5% stop. LLY went ex-dividend 8/14; nothing inside the window. Closed Wednesday ahead of the FOMC statement.",
       "driver": "The best-positioned defensive entry today: confirming with the rotation at +1.08% while sitting 12.8% below its August 52-week high, on the tightest large-cap spread on the board.",
       "addedDate": "2026-09-14"
+    },
+    {
+      "ticker": "ZS",
+      "name": "Zscaler, Inc.",
+      "sector": "Information Technology",
+      "shares": 18,
+      "entry": 187.33,
+      "exitRule": "Overnight (next-day open) - flat on the Wed 9/16 open, before the FOMC statement",
+      "catalyst": "Cybersecurity re-rating: weekend AI-safety warnings from Anthropic's Dario Amodei, OpenAI's Sam Altman and Elon Musk drove ZS +15.3% on Mon 9/14 as traders repriced security budgets higher. Builds on Citi's PT raise to $205 from $175 (9/8) and Wedbush's Outperform initiation (9/11). Still 44% below its Nov-2025 52-week high of $336.99.",
+      "risks": "Day-2 chase risk after a 15% single-day move; already -2.3% in 9/15 pre-market. Negative trailing P/E, so it de-rates hard if the 10-year keeps climbing.",
+      "driver": "Tier 1 - named sector catalyst",
+      "addedDate": "2026-09-15"
+    },
+    {
+      "ticker": "PANW",
+      "name": "Palo Alto Networks, Inc.",
+      "sector": "Information Technology",
+      "shares": 9,
+      "entry": 366.97,
+      "exitRule": "Intraday - flat by the 9/15 close",
+      "catalyst": "Same cyber re-rating (PANW +13.1% Mon 9/14). RBC's 9/14 off-quarter software note named PANW among the cyber/infra/data leaders with the highest post-earnings confidence, and a bullish Oct-16 $350 call sweep worth $94.7K in premium printed Monday.",
+      "risks": "$306B market cap at an 823x trailing P/E - the most rate-sensitive multiple in the group with the 10-year above 5%. Mean-reversion risk after a 13% day; -1.9% pre-market.",
+      "driver": "Tier 1 - named sector catalyst",
+      "addedDate": "2026-09-15"
+    },
+    {
+      "ticker": "OKTA",
+      "name": "Okta, Inc.",
+      "sector": "Information Technology",
+      "shares": 19,
+      "entry": 183.0,
+      "exitRule": "Intraday - flat by the 9/15 close",
+      "catalyst": "Identity-security proxy for agent-driven AI risk: OKTA +12.0% Mon 9/14 alongside SailPoint +15.4% and Rubrik +13.4%, closing at a fresh 52-week high of $189.72 on the same AI-safety repricing.",
+      "risks": "Closed AT its 52-week high, so there is no overhead supply to absorb a reversal, and it is -1.9% pre-market. Pure sympathy move - no company-specific news at all.",
+      "driver": "Tier 1 - named sector catalyst",
+      "addedDate": "2026-09-15"
+    },
+    {
+      "ticker": "GLW",
+      "name": "Corning Incorporated",
+      "sector": "Information Technology",
+      "shares": 24,
+      "entry": 145.5,
+      "exitRule": "1-3 day swing - exit Thu 9/17 at the close, or on a 5% stop / 8% take-profit",
+      "catalyst": "Dilution overreaction: GLW fell 13.7% Mon 9/14 (worst S&P 500 performer) on a $2B at-the-market equity program with Goldman Sachs - roughly 1.6% of its $124B market cap. It recovered +1.1% after hours and is +1.3% in 9/15 pre-market.",
+      "risks": "The AI-infrastructure de-rating that also hit MACOM (-11.3%), Teradyne (-11.2%) and Coherent (-10.0%) on Monday is a separate, live headwind, and ATM programs print supply into every rally. GLW had run ~91% YTD before this.",
+      "driver": "Tier 2 - named dislocation",
+      "addedDate": "2026-09-15"
+    },
+    {
+      "ticker": "LMT",
+      "name": "Lockheed Martin Corp.",
+      "sector": "Industrials",
+      "shares": 6,
+      "entry": 530.0,
+      "exitRule": "Overnight (next-day open) - flat on the Wed 9/16 open, before the FOMC statement",
+      "catalyst": "Awarded a $1.21B Army contract on Mon 9/14 at 5:40pm ET - after the close, so the tape has not traded it - for Precision Strike Missile Increment 2 Early Operational Capability, running through Sept 2031.",
+      "risks": "Defense primes have repeatedly SOLD escalation headlines this cycle, and XLI fell 1.5% Monday. LMT sits 23% below its March 52-week high of $692, so the group de-rating is intact.",
+      "driver": "Tier 1 - discrete contract award",
+      "addedDate": "2026-09-15"
+    },
+    {
+      "ticker": "RTX",
+      "name": "RTX Corp.",
+      "sector": "Industrials",
+      "shares": 17,
+      "entry": 194.75,
+      "exitRule": "1-3 day swing - exit Thu 9/17 at the close, or on a 5% stop / 8% take-profit",
+      "catalyst": "The DoD Lead Inspector General report to Congress, released Mon 9/14, documents munitions inventory shortfalls and industrial-base bottlenecks from the $33.4B Iran war. Trump separately named RTX's Tomahawk, Standard Missile and Patriot lines on Truth Social. Follows Raytheon's $22.9B August Tomahawk award.",
+      "risks": "Resupply spending is a multi-year story the market may ignore over three days. Pratt & Whitney's commercial aero exposure is a drag while jet fuel runs ~70% above 2025 and carriers cut routes.",
+      "driver": "Tier 1 - named policy catalyst",
+      "addedDate": "2026-09-15"
+    },
+    {
+      "ticker": "NOC",
+      "name": "Northrop Grumman Corp.",
+      "sector": "Industrials",
+      "shares": 6,
+      "entry": 527.41,
+      "exitRule": "Overnight (next-day open) - flat on the Wed 9/16 open, before the FOMC statement",
+      "catalyst": "Guggenheim initiated coverage at Buy with a $612 price target at 5:34am ET on 9/15 - 16% above Monday's $527.39 close, against a FactSet consensus PT of $651.91.",
+      "risks": "A single initiation is a thin catalyst on its own. NOC is 32% below its March 52-week high of $774 and the whole group de-rated Monday.",
+      "driver": "Tier 2 - fresh initiation",
+      "addedDate": "2026-09-15"
+    },
+    {
+      "ticker": "FPS",
+      "name": "Forgent Power Solutions, Inc.",
+      "sector": "Industrials",
+      "shares": 113,
+      "entry": 30.9,
+      "exitRule": "Intraday - flat by the 9/15 close",
+      "catalyst": "Fiscal Q4 beat-and-raise reported before the bell 9/15: revenue $461.7M vs $429.9M FactSet consensus, adjusted net income $77.3M vs $20.6M a year earlier, and FY27 guidance of $2.40-2.60B revenue and $1.26-1.40 adjusted EPS against consensus of $2.09B and $1.19. Shares +7.9% pre-market.",
+      "risks": "Data-center electrical suppliers were the epicentre of Monday's AI-capex de-rating (nVent -9.7%). At an $8.7B market cap and 21.7x book this is the highest-beta name in the book, which is why it is intraday only - no overnight gap risk.",
+      "driver": "Tier 1 - earnings beat and raise",
+      "addedDate": "2026-09-15"
+    },
+    {
+      "ticker": "AON",
+      "name": "Aon Plc",
+      "sector": "Financials",
+      "shares": 11,
+      "entry": 311.65,
+      "exitRule": "1-3 day swing - exit Thu 9/17 at the close, or on a 5% stop / 8% take-profit",
+      "catalyst": "Commenced a seven-tranche US investment-grade debt sale Mon 9/14 to fund the planned $17B acquisition of USI Insurance Services from KKR. Shares rose 2.3% on the day while XLF fell 0.5% and BAC dropped 5.1% - financing progress de-risks the deal.",
+      "risks": "Locking in long-term debt with the 10-year above 5% raises the deal's cost of capital. AON printed a 52-week low of $302.44 on 9/11, so the primary trend is still down.",
+      "driver": "Tier 1 - named corporate action",
+      "addedDate": "2026-09-15"
+    },
+    {
+      "ticker": "CME",
+      "name": "CME Group, Inc.",
+      "sector": "Financials",
+      "shares": 12,
+      "entry": 280.15,
+      "exitRule": "Catalyst-defined - flat immediately after the Wed 9/16 FOMC statement and dot plot, or on a 5% stop",
+      "catalyst": "Fed-meeting volume trade: the FOMC's two-day meeting opens 9/15 with CME FedWatch pricing a 94.5% chance of the first rate hike since 2023, plus a fresh dot plot. The 10-year crossed 5% Monday for the first time since 2023 (highest close since 2007) - CME's rate complex is where that repricing gets hedged.",
+      "risks": "Volume converts to revenue with a lag, and the stock can fall on a hawkish risk-off day even as volumes spike. The 25bp hike is already 94.5% priced, so only the dot plot is a real surprise.",
+      "driver": "Tier 2 - macro/Fed-day trade",
+      "addedDate": "2026-09-15"
+    },
+    {
+      "ticker": "MET",
+      "name": "MetLife, Inc.",
+      "sector": "Financials",
+      "shares": 35,
+      "entry": 97.75,
+      "exitRule": "Catalyst-defined - flat immediately after the Wed 9/16 FOMC statement and dot plot, or on a 5% stop",
+      "catalyst": "Rate-hike beneficiary into Wednesday: the 10-year hit 5.01% intraday Monday, its highest close since 2007, lifting reinvestment yields on MetLife's spread-based Retirement and Income Solutions book. UBS expects the dot plot to signal a further hike this year.",
+      "risks": "No 9/15 pre-market print existed, so the entry is marked at Monday's $97.75 official close - execution slippage is possible. A dovish dot plot flattens the curve and reverses the trade, and credit losses rise if higher rates crack the economy.",
+      "driver": "Tier 2 - macro/Fed-day trade",
+      "addedDate": "2026-09-15"
+    },
+    {
+      "ticker": "TCOM",
+      "name": "Trip.com Group Ltd.",
+      "sector": "Consumer Discretionary",
+      "shares": 88,
+      "entry": 39.72,
+      "exitRule": "Intraday - flat by the 9/15 close (deliberately NOT held into tonight's earnings)",
+      "catalyst": "Reports Q2 after the close 9/15 with FactSet consensus at $0.91 EPS - a pre-earnings drift setup. The stock closed $39.08, within 2.7% of its 52-week low of $38.04, at a 6.1x trailing P/E, and is +1.6% pre-market.",
+      "risks": "Jet fuel running ~70% above 2025 levels with carriers cutting routes is a direct demand headwind, plus China ADR regulatory risk. Exiting before the print by design, so the setup fails if the drift never materialises.",
+      "driver": "Tier 2 - pre-earnings setup",
+      "addedDate": "2026-09-15"
     }
   ]
 }
