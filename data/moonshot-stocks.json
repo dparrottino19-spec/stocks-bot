@@ -2,10 +2,10 @@
   "bookName": "Moonshot Stocks",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 6635.79,
-  "tradeDate": "2026-09-16",
-  "lastUpdated": "2026-09-16T10:40:00Z",
-  "nextRefresh": "2026-09-17T06:35:00-05:00",
+  "startingCapital": 6548.26,
+  "tradeDate": "2026-09-17",
+  "lastUpdated": "2026-09-17T10:40:00Z",
+  "nextRefresh": "2026-09-18T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -14,20 +14,20 @@
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
-  "priorRealizedPnL": -3364.21,
+  "priorRealizedPnL": -3451.74,
   "positions": [
     {
-      "ticker": "TCOM",
-      "name": "Trip.com Group Limited",
-      "sector": "Consumer Services",
-      "shares": 162.085735,
-      "entry": 40.94,
-      "stopPrice": 38.69,
+      "ticker": "CMI",
+      "name": "Cummins Inc.",
+      "sector": "Producer Manufacturing",
+      "shares": 12.297895,
+      "entry": 532.47,
+      "stopPrice": 500.52,
       "exitRule": "Rotate next weekday 6:35am CT run",
-      "catalyst": "Q2 2026 reported after Tuesday's close: non-GAAP EPS US$1.07 (RMB 7.27) vs US$0.91 consensus, a ~17.6% beat, on net revenue of RMB 15.66B vs RMB 15.56B expected (+6% YoY). International OTA platform revenue +50% YoY; first/business-class bookings +70%; customized tours +600%; entertainment gross bookings +80%. Critically, the SAMR anti-monopoly matter is now CLOSED — the RMB 5.18B expense and RMB 122M contra-revenue are one-time Q2 charges, and management has accepted the decision and begun rectification. Ex-penalty net income was RMB 2.7B (US$402M).",
-      "driver": "Beaten-down quality at a resolved-overhang inflection. TCOM closed at $39.25, $1.21 above its 52-week low of $38.04 and ~50% below its $78.99 January high, at 6.15x earnings and 1.13x book with RMB 100.5B (US$14.8B) of cash against a US$27.7B market cap. The multi-quarter de-rate was driven by the regulatory investigation, which just concluded — the charge is taken, the uncertainty is gone, and the underlying business beat. Entry at $40.94 is only +4.3% off the close, well inside the do-not-chase band, and the stop at $38.69 sits below the prior close but above the 52-week low, so an ordinary gap-fill does not stop me out; it takes a break of the 52-week low to do that. Street targets are $60-$72 (Citi $62, JPM $72, Barclays $60, Benchmark $65, Mizuho $65). Liquid: 4.66M average daily shares.",
-      "risks": "FOMC decision at 2pm ET today with a 25bp HIKE ~92.5% priced — a hawkish dot plot hits all risk assets inside the hold window. Revenue growth is only +6% YoY and transportation ticketing was -1%; CFO guided to 'some volatilities in our domestic performance' as Tier 1 and Tier 2 distribution programs are discontinued. China ADR and PRC regulatory risk is structural. Elevated fuel prices and airfares (Brent ~$108, WTI ~$105) are a live headwind to long-haul travel demand. A +4% earnings gap can fade; the stop at $38.69 is the line.",
-      "addedDate": "2026-09-16"
+      "catalyst": "Amazon's 8-K-confirmed, warrant-linked long-term backup-generator supply agreement with Generac (filed after Wednesday's close) is the hard datapoint of the day: a warrant for up to 1,693,745 GNRC shares at $200.9266, 307,954 vesting immediately and the rest tranched against aggregate gross payments of up to $8B, with $2.4B of gensets slated for 2027-2028. GNRC gapped +34% to ~$234 pre-market. The read-through is the trade: hyperscalers are now locking in multi-year data-center standby-generation capacity with equity-linked contracts, and Cummins Power Systems is the incumbent leader in the high-horsepower standby gensets that actually back AI data centers — a far larger data-center franchise than Generac's, which is mostly residential standby.",
+      "driver": "The market repriced the pure-play +34% and left the category leader at +0.9%. CMI closed $527.50 and is only ~$5 higher pre-market, ~28% below its $737.76 June 18 high, at 27.5x earnings and 5.8x book with a 1.52% dividend and a $72.6B cap — an unlevered, 107-year-old industrial, not a momentum vehicle. FactSet mean price target is $781.63 (CICC initiated Outperform at $781 on 8/24). Entry at $532.47 is +0.94% over the prior close, far inside the do-not-chase band, versus GNRC's unchaseable +34% gap. Yesterday's Fed-day industrial selloff (Dow -614 Wed) dragged CMI from a $541.74 open to a $527.50 close, so today's entry is into a one-day flush rather than a breakout. Deeply liquid: 1.18M average daily shares, ~$620M/day notional. Stop at $500.52 sits 3.6% below yesterday's $519.09 low and far above the $400.72 52-week low.",
+      "risks": "This is a second-derivative read-through, not company-specific news for Cummins — if the Street decides the Amazon deal is a Generac share-gain story rather than a TAM story, CMI gets no bid and just tracks the tape. The Fed hiked 25bp to 3.75-4.00% Wednesday, the first hike since 2023, with a hawkish tone and the 2-year at 4.72% (highest since 2024); rising rates pressure industrial capex and CMI's truck-engine core, which is cyclical and unrelated to data centers. Pre-market book is wide (532.00 bid / 541.37 ask), so a real limit fill could land worse than modeled. A $72.6B mega-cap rarely moves 5% in 24h, so the upside here is a 1-3% grind, not a moonshot — accepted deliberately in exchange for a floor. Yesterday's high-to-low range was 4.7%; the $500.52 stop is the line.",
+      "addedDate": "2026-09-17"
     }
   ]
 }
