@@ -2,10 +2,10 @@
   "bookName": "Moonshot Stocks",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 6548.26,
-  "tradeDate": "2026-09-17",
-  "lastUpdated": "2026-09-17T10:40:00Z",
-  "nextRefresh": "2026-09-18T06:35:00-05:00",
+  "startingCapital": 6442.62,
+  "tradeDate": "2026-09-18",
+  "lastUpdated": "2026-09-18T10:42:00Z",
+  "nextRefresh": "2026-09-21T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -14,20 +14,20 @@
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
-  "priorRealizedPnL": -3451.74,
+  "priorRealizedPnL": -3557.38,
   "positions": [
     {
-      "ticker": "CMI",
-      "name": "Cummins Inc.",
-      "sector": "Producer Manufacturing",
-      "shares": 12.297895,
-      "entry": 532.47,
-      "stopPrice": 500.52,
+      "ticker": "RARE",
+      "name": "Ultragenyx Pharmaceutical Inc.",
+      "sector": "Health Technology",
+      "shares": 437.084125,
+      "entry": 14.74,
+      "stopPrice": 13.71,
       "exitRule": "Rotate next weekday 6:35am CT run",
-      "catalyst": "Amazon's 8-K-confirmed, warrant-linked long-term backup-generator supply agreement with Generac (filed after Wednesday's close) is the hard datapoint of the day: a warrant for up to 1,693,745 GNRC shares at $200.9266, 307,954 vesting immediately and the rest tranched against aggregate gross payments of up to $8B, with $2.4B of gensets slated for 2027-2028. GNRC gapped +34% to ~$234 pre-market. The read-through is the trade: hyperscalers are now locking in multi-year data-center standby-generation capacity with equity-linked contracts, and Cummins Power Systems is the incumbent leader in the high-horsepower standby gensets that actually back AI data centers — a far larger data-center franchise than Generac's, which is mostly residential standby.",
-      "driver": "The market repriced the pure-play +34% and left the category leader at +0.9%. CMI closed $527.50 and is only ~$5 higher pre-market, ~28% below its $737.76 June 18 high, at 27.5x earnings and 5.8x book with a 1.52% dividend and a $72.6B cap — an unlevered, 107-year-old industrial, not a momentum vehicle. FactSet mean price target is $781.63 (CICC initiated Outperform at $781 on 8/24). Entry at $532.47 is +0.94% over the prior close, far inside the do-not-chase band, versus GNRC's unchaseable +34% gap. Yesterday's Fed-day industrial selloff (Dow -614 Wed) dragged CMI from a $541.74 open to a $527.50 close, so today's entry is into a one-day flush rather than a breakout. Deeply liquid: 1.18M average daily shares, ~$620M/day notional. Stop at $500.52 sits 3.6% below yesterday's $519.09 low and far above the $400.72 52-week low.",
-      "risks": "This is a second-derivative read-through, not company-specific news for Cummins — if the Street decides the Amazon deal is a Generac share-gain story rather than a TAM story, CMI gets no bid and just tracks the tape. The Fed hiked 25bp to 3.75-4.00% Wednesday, the first hike since 2023, with a hawkish tone and the 2-year at 4.72% (highest since 2024); rising rates pressure industrial capex and CMI's truck-engine core, which is cyclical and unrelated to data centers. Pre-market book is wide (532.00 bid / 541.37 ask), so a real limit fill could land worse than modeled. A $72.6B mega-cap rarely moves 5% in 24h, so the upside here is a 1-3% grind, not a moonshot — accepted deliberately in exchange for a floor. Yesterday's high-to-low range was 4.7%; the $500.52 stop is the line.",
-      "addedDate": "2026-09-17"
+      "catalyst": "The FDA granted FULL approval of FAYUVI (rebisufligene etisparvovec-hopf, formerly UX111) at ~3:57pm ET Thursday — roughly three minutes before the closing bell. It is the first-ever approved treatment for Sanfilippo syndrome Type A (MPS IIIA), a fatal pediatric lysosomal storage disease with a median life expectancy of 15 years, and it is Ultragenyx's second approved gene therapy. The approval rests on the pivotal Transpher A trial with follow-up now extending nearly eight years: treated patients (mITT, N=17) scored 23.5 points higher on the Bayley-III cognitive scale than an untreated external natural-history cohort (N=27), p<0.0001. Critically, the approval carries a Priority Review Voucher — PRVs have historically sold to other drugmakers for hundreds of millions of dollars, against a total market cap of only $1.43B. Commercial product is expected to reach Qualified Treatment Centers within 30 to 60 days.",
+      "driver": "This is the cleanest asymmetry on the board because the catastrophic binary already happened and is already priced. On Sept 3 the Phase 3 Aspire study of apazunersen in Angelman syndrome missed both its primary and a key secondary endpoint; RARE fell 44% in a session on 19.8M shares and analysts cut price targets to roughly $16.53 (Baird, Evercore ISI). The stock then bled to a 52-week low of $12.73 on Sept 16 — two days ago. What is left after that washout is a company with two approved gene therapies, four marketed products (Crysvita, Mepsevii, Dojolvi, Evkeeza), and a sellable voucher, at a $1.43B cap. The approval landed with three minutes left in Thursday's session, so the market had essentially no opportunity to price it: RARE closed at $14.50, up 12.58%, AT the session high ($14.57) on 12.4M shares versus a 5.3M 30-day average — a capitulation low followed immediately by a catalyst reversal on 2.3x volume. Entry at $14.74 is only +1.66% over the prior close, far inside the do-not-chase band, versus the semiconductor complex where today's alternatives (INTC +2.9% after +9.7% Thursday, GLW +3.2%) are day three of a beta rebound with no fresh company news. Liquid enough many times over for this book: ~5.3M-8.5M shares/day, $77-123M notional. RSI 28, trading at ~6.5% of its 52-week range, down 50% over twelve months — positioning is empty and the takeover chatter (BioMarin floated publicly after the Angelman failure) is a live free option.",
+      "risks": "MPS IIIA is ultra-rare — incidence near 1 in 70,000 births — so the approved product's own revenue ramp will be small and slow regardless of pricing; a meaningful part of this thesis rests on the Priority Review Voucher, whose sale is neither guaranteed nor time-certain. Sell-the-news is the direct risk: the stock already gained 12.58% Thursday, and gene-therapy approvals in ultra-rare indications have repeatedly been faded. The FAYUVI label carries warnings for blood-clotting complications and tumor formation and requires immunosuppressive steroids around dosing, which is a real commercial headwind at launch. The company is cutting costs after the Angelman failure and runs negative earnings (P/E -2.48, P/B -4.90), so financing risk is live and an equity raise into strength would be punishing. STOP CAVEAT — the $13.71 stop is 7% below entry, the maximum this book allows, but Thursday's intraday low was $13.20 and the Sept 16 52-week low was $12.73, both BELOW the stop; a full retrace of the approval pop stops this out before reaching prior support. That is an accepted, explicit trade-off, not an oversight. Position is also held across a weekend (rotation is Monday) into an active Middle East conflict, and today is September quad-witching with the S&P quarterly rebalance effective at the close, so index-mechanical volume will be abnormal.",
+      "addedDate": "2026-09-18"
     }
   ]
 }
