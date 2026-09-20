@@ -57,6 +57,56 @@ export default async function handler(req, res) {
       });
     }
 
+    // stats=dow -> per-day-of-week distribution of the NEXT-DAY close-to-close
+    // absolute return, bucketed against a threshold (default 1.86%, the measured
+    // Robinhood market-maker round-trip spread on spot crypto).
+    if (String((req.query && req.query.stats) || "") === "dow") {
+      const thr = Number((req.query && req.query.threshold) || 1.86);
+      const NAMES = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+      const buckets = {};
+      for (const n of NAMES) buckets[n] = { day: n, n: 0, exceed: 0, up: 0, sumAbs: 0, moves: [] };
+      for (let i = 0; i < bars.length - 1; i++) {
+        const a = bars[i], b = bars[i + 1];
+        if (!a.close || !b.close) continue;
+        // guard against gaps: only count consecutive calendar days
+        const gap = (Date.parse(b.date) - Date.parse(a.date)) / 86400000;
+        if (gap !== 1) continue;
+        const dow = NAMES[new Date(a.date + "T00:00:00Z").getUTCDay()];
+        const pct = ((b.close / a.close) - 1) * 100;
+        const k = buckets[dow];
+        k.n += 1;
+        k.sumAbs += Math.abs(pct);
+        if (Math.abs(pct) > thr) k.exceed += 1;
+        if (pct > 0) k.up += 1;
+        k.moves.push(pct);
+      }
+      const out = NAMES.map(n => {
+        const k = buckets[n];
+        const sorted = k.moves.slice().sort((x, y) => x - y);
+        const med = sorted.length ? sorted[Math.floor(sorted.length / 2)] : null;
+        return {
+          fromDay: k.day,
+          n: k.n,
+          meanAbsPct: k.n ? +(k.sumAbs / k.n).toFixed(3) : null,
+          medianPct: med == null ? null : +med.toFixed(3),
+          pctUp: k.n ? +((k.up / k.n) * 100).toFixed(1) : null,
+          exceedCount: k.exceed,
+          exceedPct: k.n ? +((k.exceed / k.n) * 100).toFixed(1) : null
+        };
+      });
+      res.status(200).json({
+        symbol,
+        asOf: new Date().toISOString(),
+        threshold: thr,
+        note: "fromDay X = close(X) -> close(X+1) move. exceedPct = share of those moves whose ABSOLUTE size exceeds threshold.",
+        bars: bars.length,
+        firstDate: bars.length ? bars[0].date : null,
+        lastDate: bars.length ? bars[bars.length - 1].date : null,
+        stats: out
+      });
+      return;
+    }
+
     res.status(200).json({
       symbol,
       asOf: new Date().toISOString(),
