@@ -2,10 +2,10 @@
   "bookName": "Daily Trader",
   "inceptionDate": "2026-05-15",
   "inceptionCapital": 70000,
-  "startingCapital": 71456.3,
-  "tradeDate": "2026-09-21",
-  "lastUpdated": "2026-09-21T11:40:00Z",
-  "nextRefresh": "2026-09-22T07:09:00-05:00",
+  "startingCapital": 72353.63,
+  "tradeDate": "2026-09-22",
+  "lastUpdated": "2026-09-22T11:40:00Z",
+  "nextRefresh": "2026-09-23T07:09:00-05:00",
   "rules": [
     "Weekday 7am ET picks",
     "Per-pick exit rules",
@@ -13,7 +13,7 @@
     "1-week max hold",
     "<=4 names per sector"
   ],
-  "priorRealizedPnL": 1456.3,
+  "priorRealizedPnL": 2353.63,
   "positions": [
     {
       "ticker": "CIEN",
@@ -40,30 +40,6 @@
       "addedDate": "2026-09-21"
     },
     {
-      "ticker": "NVDA",
-      "name": "NVIDIA",
-      "sector": "Electronic Technology",
-      "shares": 15,
-      "entry": 222.27,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Chipmakers rallying pre-market into the Sept 24 Trump-Xi White House summit where AI and export controls are on the agenda; SMH +1.66% pre-market.",
-      "risks": "Summit is three days out and headline risk cuts both ways; DeepSeek's CEO signalling a domestic-chip pivot with Huawei deliveries from Q4 is a structural China-demand negative.",
-      "driver": "Semis bid into US-China summit",
-      "addedDate": "2026-09-21"
-    },
-    {
-      "ticker": "MU",
-      "name": "Micron Technology",
-      "sector": "Electronic Technology",
-      "shares": 3,
-      "entry": 1015.8,
-      "exitRule": "Overnight (next day open)",
-      "catalyst": "Memory complex bid with the broader semi tape into the Trump-Xi summit; MU closed Friday at $1,015.80, within $0.64 of the session high on 35.8M shares vs a 24.9M 30-day average.",
-      "risks": "Stock has run from a $154.65 52-week low and sits 19% below the $1,255 June high; fiscal Q4 earnings land later this month, outside this trade's window.",
-      "driver": "HBM/memory momentum on elevated volume",
-      "addedDate": "2026-09-21"
-    },
-    {
       "ticker": "LITE",
       "name": "Lumentum Holdings",
       "sector": "Producer Manufacturing",
@@ -73,66 +49,6 @@
       "catalyst": "Announced a joint die-to-die optical interconnect demonstration with Qualcomm Technologies and Corning at ECOC 2026, combining Qualcomm D2D interface IP with Lumentum's VCSEL platform.",
       "risks": "Negative trailing earnings (PE -11.3) and a 6.4x move off the $144.52 52-week low; any AI-capex wobble hits this name hardest.",
       "driver": "VCSEL optical interconnect for AI scale-up",
-      "addedDate": "2026-09-21"
-    },
-    {
-      "ticker": "WBD",
-      "name": "Warner Bros. Discovery",
-      "sector": "Consumer Services",
-      "shares": 110,
-      "entry": 29.81,
-      "exitRule": "Catalyst-defined",
-      "catalyst": "Paramount Skydance in advanced talks with state attorneys general to clear its $110B acquisition, including a reported $1.5B California production commitment; WBD quoted at $29.81 (+7.23%) Monday.",
-      "risks": "Entered at a 7% gap into the $30.00 52-week high with deal-value upside capped; if any state AG holds out the gap fills fast. Exit trigger: close on a definitive settlement announcement or on any AG rejecting terms.",
-      "driver": "Merger-arb spread narrowing on AG settlement progress",
-      "addedDate": "2026-09-21"
-    },
-    {
-      "ticker": "DAL",
-      "name": "Delta Air Lines",
-      "sector": "Transportation",
-      "shares": 42,
-      "entry": 79.62,
-      "exitRule": "Overnight (next day open)",
-      "catalyst": "Brent fell a fourth straight session to $100.47 (-3.40) and Nymex to $97.12 (-3.18) - the longest losing streak in three months, directly cutting jet-fuel input costs.",
-      "risks": "Delta owns a refinery segment, which mutes the fuel-cost benefit versus pure carriers; crude is falling despite Iran-US threats and a Houthi strike on Riyadh, so the move could reverse violently.",
-      "driver": "Jet fuel cost relief on four-day crude slide",
-      "addedDate": "2026-09-21"
-    },
-    {
-      "ticker": "UAL",
-      "name": "United Airlines Holdings",
-      "sector": "Transportation",
-      "shares": 30,
-      "entry": 108.27,
-      "exitRule": "Overnight (next day open)",
-      "catalyst": "Same four-day crude decline; UAL is the higher-beta expression with no refinery offset and trades at 10.2x earnings.",
-      "risks": "Priced from an intraday Friday quote rather than a confirmed settlement print (see price audit); 22% below its $138.77 June high.",
-      "driver": "Cleanest short-oil expression in the airline group",
-      "addedDate": "2026-09-21"
-    },
-    {
-      "ticker": "COIN",
-      "name": "Coinbase Global",
-      "sector": "Finance",
-      "shares": 17,
-      "entry": 194.25,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Bitcoin +4.3% to $84,670, a seven-month high, extending the weekend rally; COIN closed Friday +11.7% on Wall Street PT hikes.",
-      "risks": "Chasing a name that already gained 11.7% in the prior session into a further gap - elevated fade risk. The intraday exit is deliberate for this reason.",
-      "driver": "Crypto beta to seven-month-high bitcoin",
-      "addedDate": "2026-09-21"
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Robinhood Markets",
-      "sector": "Finance",
-      "shares": 27,
-      "entry": 119.82,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Same bitcoin move to $84,670; HOOD closed Friday +9.12% at $119.82 on a wave of bullish analyst targets.",
-      "risks": "Also extended after a 9% session; 53x earnings and 11.4x book. Same fade risk as COIN, hence the intraday leash.",
-      "driver": "Retail brokerage leverage to crypto volumes",
       "addedDate": "2026-09-21"
     },
     {
@@ -146,7 +62,151 @@
       "risks": "Contrarian bounce: ACN fell 4.95% Friday post-earnings and sits 38% below its January high of $291.09 on AI-disruption fears. One announcement may not turn that narrative.",
       "driver": "AI-services narrative repair via Anthropic tie-up",
       "addedDate": "2026-09-21"
+    },
+    {
+      "ticker": "AZO",
+      "name": "AutoZone",
+      "sector": "Retail Trade",
+      "shares": 1,
+      "entry": 2866.99,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "Fiscal Q4 (ended Aug 29) EPS $56.05 vs FactSet $54.18, up from $48.71 a year ago; gross margin 53.3%, +182bp YoY. Reported 7:00 AM ET today; stock +2.27% pre-market.",
+      "risks": "Revenue MISSED at $6.59B vs $6.71B consensus - a margin-driven beat on soft top line. Monday's $2,803.25 close was a fresh 52-week low (range $2,796.85-$4,332.68) and Oppenheimer cut its target to $3,500 from $4,300 on Sept 18 and dropped it from Top Picks. Options implied a ~9.7% post-print move, so the intraday leash is deliberate.",
+      "driver": "Margin-led Q4 earnings beat off a 52-week low",
+      "addedDate": "2026-09-22"
+    },
+    {
+      "ticker": "ONON",
+      "name": "On Holding",
+      "sector": "Consumer Non-Durables",
+      "shares": 120,
+      "entry": 29.05,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Announced a share buyback of up to $1 billion running through 2029 plus new long-term financial targets; +6.33% pre-market.",
+      "risks": "Buyback is announced capacity, not executed repurchases. Stock printed its 52-week low of $26.365 on Sept 17, five sessions ago, and sits 43% below the January high of $51.08 - the buyback is a response to a broken chart, not a demand signal.",
+      "driver": "$1B buyback authorization off a 52-week low",
+      "addedDate": "2026-09-22"
+    },
+    {
+      "ticker": "SHOP",
+      "name": "Shopify",
+      "sector": "Commercial Services",
+      "shares": 24,
+      "entry": 142.06,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Mark Zuckerberg announced Monday that Meta is integrating Shopify into Muse, its personal AI agent, for in-agent shopping and checkout. Muse has been the #1 free US iPhone app for three straight days (Sensor Tower). SHOP ran from a $128.80 open to $138.03 on 16.6M shares vs an 8.5M 30-day average; +3.00% pre-market.",
+      "risks": "Chasing a second gap after a 7% Monday. No revenue-share or economics were disclosed for the Meta tie-up, and SHOP trades at 87x earnings, 13.1x book. 52-week range $94.00-$182.19.",
+      "driver": "Meta Muse agentic-commerce integration",
+      "addedDate": "2026-09-22"
+    },
+    {
+      "ticker": "LEN",
+      "name": "Lennar",
+      "sector": "Consumer Durables",
+      "shares": 44,
+      "entry": 79.33,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Berkshire Hathaway disclosed a roughly $1.2 billion stake in Lennar; +1.60% pre-market. 10-year Treasury yield eased 4.1bp to 4.96%, off its highest level since 2007.",
+      "risks": "Monday's close of $78.08 sits just $2.38 above the Sept 18 52-week low of $75.70, and the stock is 42% below its December high of $133.76. Berkshire is a patient holder - a stake disclosure does not fix mortgage rates, and CME FedWatch puts 57.6% odds on another Fed HIKE after October.",
+      "driver": "Berkshire Hathaway $1.2B stake disclosure",
+      "addedDate": "2026-09-22"
+    },
+    {
+      "ticker": "PSKY",
+      "name": "Paramount Skydance",
+      "sector": "Consumer Services",
+      "shares": 345,
+      "entry": 10.13,
+      "exitRule": "Catalyst-defined",
+      "catalyst": "Settled the 12-state AG antitrust suit AND the Writers Guild suit on Sept 21 - the only two remaining barriers to closing the $110B Warner Bros. Discovery acquisition (EU and UK already cleared). Paramount said earlier this month all other closing conditions were satisfied. PSKY FELL 2.9% Monday while WBD rose 11%, so the acquirer has not repriced. +2.22% pre-market. EXIT TRIGGER: close on announcement of deal completion, or on any court refusing to approve the consent decree.",
+      "risks": "Settlement is subject to court approval and carries real cost: $300M+ per year of incremental US film production for five years, 30-32 movies annually, a three-year freeze on theater rate increases, a $47.5M worker fund and a news editorial-independence board over CBS and CNN. Tender/exchange offers for Discovery notes were extended to Oct 2 with only 66.87%/75.12% tendered as of Sept 18. Negative trailing earnings (PE -17.6).",
+      "driver": "Final antitrust barrier to the $110B WBD close removed",
+      "addedDate": "2026-09-22"
+    },
+    {
+      "ticker": "MRK",
+      "name": "Merck & Co.",
+      "sector": "Health Technology",
+      "shares": 23,
+      "entry": 149.9,
+      "exitRule": "1-3 day swing",
+      "catalyst": "FDA approved a US label update for WINREVAIR (sotatercept-csrk) at 7:15 AM ET today, based on the Phase 3 HYPERION trial in newly diagnosed pulmonary arterial hypertension - a 76% reduction in risk of clinical worsening vs placebo (HR 0.24), expanding the addressable population to recently diagnosed patients.",
+      "risks": "Label expansion rather than a new approval, so the revenue delta is incremental. Pre-market move is only +0.27% - the market is not treating this as a needle-mover. Stock is near the top of its 52-week range ($77.58-$156.92) and carries a 119x trailing PE.",
+      "driver": "FDA label expansion for WINREVAIR on HYPERION data",
+      "addedDate": "2026-09-22"
+    },
+    {
+      "ticker": "LMT",
+      "name": "Lockheed Martin",
+      "sector": "Electronic Technology",
+      "shares": 6,
+      "entry": 536.54,
+      "exitRule": "Overnight (next day open)",
+      "catalyst": "Secured a $1.2 billion US Army missile system contract Monday. Separately, Treasury Secretary Bessent said Iranian airlines will be shut down worldwide by Wednesday and Treasury sanctioned banks in Egypt, Turkey and Russia for facilitating Iranian transactions - Brent reversed higher to ~$101.4 on the news.",
+      "risks": "Pre-market reaction is muted at +0.21%, so the contract is largely priced. LMT is 23% below its March high of $692.00 and defense has been a persistent underperformer. A Trump-Pezeshkian meeting at the UN this week could de-escalate as fast as it escalated.",
+      "driver": "$1.2B Army missile award plus Iran escalation bid",
+      "addedDate": "2026-09-22"
+    },
+    {
+      "ticker": "RKLB",
+      "name": "Rocket Lab",
+      "sector": "Electronic Technology",
+      "shares": 49,
+      "entry": 71.35,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "Launched its 96th Electron mission Saturday, delivering Synspective's 12th StriX satellite into a precise 572km low-Earth orbit - the 17th Electron launch of 2026, with 15 more dedicated Synspective missions booked through the end of the decade. Shares +7.25% Monday on 26.0M vs an 18.5M 30-day average; +2.09% pre-market.",
+      "risks": "Second consecutive gap into a weak longer-term chart: RKLB sits below its 200-day SMA ($80.48) after an August death cross, and a bearish Jan-27 $80 call sweep ($122.8K premium sold) printed Monday. PE is -250. 52-week range $37.57-$151.00 - the name halves and doubles. Intraday leash is deliberate.",
+      "driver": "96th Electron launch and Synspective backlog",
+      "addedDate": "2026-09-22"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "sector": "Consumer Durables",
+      "shares": 9,
+      "entry": 378.13,
+      "exitRule": "Overnight (next day open)",
+      "catalyst": "Morgan Stanley (Adam Jonas) published overnight on the SpaceX/Tesla shared-infrastructure thesis, counting 71 'Tesla' mentions in SpaceX's S-1 (34% direct collaboration) and framing a possible merger; the two are jointly building the $119B Terafab chip plant with Intel. TSLA +3.03% Monday, +0.75% pre-market to a new marginal high above Monday's $378.36 intraday high.",
+      "risks": "This is a broker note on a speculative structure, not a company announcement - no merger has been proposed. TSLA trades at 338x earnings and 16.6x book, and is on trial in California over the state Civil Rights Department's racial harassment claims as of Monday. 52-week range $297.38-$498.83.",
+      "driver": "Morgan Stanley SpaceX/Tesla 'physical AI' convergence note",
+      "addedDate": "2026-09-22"
+    },
+    {
+      "ticker": "CTAS",
+      "name": "Cintas",
+      "sector": "Commercial Services",
+      "shares": 17,
+      "entry": 196.88,
+      "exitRule": "Catalyst-defined",
+      "catalyst": "Reports fiscal Q1 before the open Wednesday Sept 23, consensus $1.36 EPS. Cintas has a long record of raising full-year guidance alongside the Q1 print. EXIT TRIGGER: close on the Sept 23 BMO earnings reaction, win or lose.",
+      "risks": "Pre-earnings setup, not a realized catalyst - this is the lowest-conviction bucket and a guide-down cuts both ways. Priced at Monday's verified SIP close of $196.88 rather than the pre-market print, which was 3+ hours stale against a wide $196.50/$200.00 book. 40x earnings, 15.4x book, 10% below the July high of $219.17.",
+      "driver": "Pre-earnings setup into Sept 23 BMO print",
+      "addedDate": "2026-09-22"
+    },
+    {
+      "ticker": "GRAL",
+      "name": "GRAIL",
+      "sector": "Health Technology",
+      "shares": 15,
+      "entry": 108.0,
+      "exitRule": "Catalyst-defined",
+      "catalyst": "FDA's Molecular and Clinical Genetics Panel meets Wednesday Sept 23 to discuss and vote on the premarket approval application for Galleri, GRAIL's multi-cancer early-detection blood test. EXIT TRIGGER: close on the panel vote outcome.",
+      "risks": "HALF SIZE ON PURPOSE - this is a binary advisory-panel vote with two-way gap risk. The market already front-ran it: GRAL ran from a $92.01 open to a $111.49 high Monday (+17%) on 3.5M shares vs a 1.0M 30-day average, so the good outcome is partly paid for. Pre-market book is $106.00/$110.00, a 3.7% spread on a 42M-share float. PE -11.1. 52-week range $41.50-$118.84.",
+      "driver": "Sept 23 FDA advisory panel vote on Galleri",
+      "addedDate": "2026-09-22"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "sector": "Technology Services",
+      "shares": 9,
+      "entry": 357.33,
+      "exitRule": "Overnight (next day open)",
+      "catalyst": "The White House launched a 24/7 'Trump TV' stream on YouTube Monday after barring CNN, MS NOW and Politico, routing official White House video through Alphabet's platform. Separately Accenture and Google Cloud announced today that Volvo Cars is lead industry partner for the Horizon software venture. GOOGL +1.9% Monday, +0.67% pre-market to $357.33, just above Monday's $357.58 high.",
+      "risks": "The 'Trump TV' item is an engagement headline with no disclosed economics and carries political/regulatory blowback risk - the barred outlets have sued the administration. Alphabet is 12.6% below its May high of $408.61. Overnight leash keeps the exposure short.",
+      "driver": "YouTube distribution headline plus Volvo/Horizon cloud win",
+      "addedDate": "2026-09-22"
     }
   ],
-  "note": "2026-09-21: book opened the day flat (no positions carried from 2026-09-18), so there were no closures and no realized P&L today. 11 new positions opened, $35,288.09 deployed (49.4%). PRICING METHODOLOGY - the Robinhood real-time quote feed (get_equity_quotes) answered exactly one call at 11:14Z and then hard-declined every subsequent call for the rest of the run, as it did on 2026-09-18; get_equity_historicals was declined outright. get_equity_fundamentals stayed available, so every entry was struck by cross-validating a WebSearch close against Robinhood's own verified 2026-09-18 regular-session low-high band and 52-week range: a price was accepted only if it fell inside the broker-verified intraday band. All 11 entries passed. Ten are struck at the verified Friday 2026-09-18 close (the same convention the weekly book uses for Monday opens) and therefore sit roughly 0.7-1.1% below where a real Monday fill would land, since S&P futures were +0.70% and Nasdaq +1.12% pre-market - P&L on those names is flattered by about that much. WBD is the exception, struck at a directly quoted live Monday price of $29.81. PSKY and LEGN were dropped under rule 3(b): both gapped hard on idiosyncratic overnight news (PSKY +6.7% pre-open on the California production concession, LEGN sharply higher on CEO and analyst news) and the only way to reach a current price for either was to infer it from a percentage-move narrative, which the price-integrity rules forbid. Tape was risk-on: SPY +0.65%, QQQ +0.93%, SMH +1.66% pre-market, Brent -3.40 to $100.47 (fourth straight decline), 10Y 4.95%, bitcoin +4.3% to $84,670."
+  "note": "2026-09-22: closed 7 positions for +$897.33 realized (NVDA +76.65, MU +58.68, DAL +187.74, UAL +251.40, COIN +115.60, HOOD +93.96, WBD +113.30) - every closure a winner. WBD's catalyst-defined trigger fired exactly as written: Paramount Skydance settled with the 12-state AG coalition and the WGA on Sept 21, the named definitive-settlement event, so the position was closed rather than held. Four 1-3 day swings carried forward (CIEN, GLW, LITE, ACN) - none hit the -5% stop or the +8% take-profit; CIEN +4.9%, GLW +5.9%, ACN +2.7%, LITE +2.5% at Monday's close. 12 new positions opened, $38496.99 deployed; total book deployment $50995.00 of $70K (72.8%), cash $21358.63. PRICING: the Robinhood real-time quote feed (get_equity_quotes) and get_equity_fundamentals both stayed available for the entire run - unlike 2026-09-18 and 2026-09-21 - so every entry and every exit is a broker-verified quote cross-checked against the 52-week range, with no WebSearch-inferred prices. All 12 entries sit inside their 52-week bands and within 7% of Monday's official SIP close. CTAS was struck at Monday's verified $196.88 SIP close rather than its pre-market print, which was 3+ hours stale against a wide $196.50/$200.00 book. GRAL was deliberately HALF SIZED ($1,620 vs the $3,500 cap) because its Sept 23 FDA panel vote is a two-way binary and the pre-market spread is 3.7% wide on a 42M float. TAPE REVERSAL - the oil trade flipped overnight: Monday's four-day crude slide (WTI -4.9% to $95.43, Brent under $100 for the first time since Sept 9 on Saudi Aramco reloading 14M bbl across seven supertankers) reversed after Treasury Secretary Bessent said Iranian airlines will be shut down worldwide by Wednesday and Treasury sanctioned banks in Egypt, Turkey and Russia; Brent bounced ~1.1-1.4% to ~$101.4. DAL and UAL were therefore closed into pre-market strength and NOT re-entered, and no fresh airline longs were added. DROPPED under the named-catalyst and price-integrity rules: MLKN (EPS beat $0.53 vs $0.35 but revenue missed AND FY27 sales guidance was cut to $3.88-4.03B from $3.93-4.13B - trading down pre-market); GRML (+230% Monday, +11% pre-market, parabolic $9 microcap miner); KBH (reports tonight, pre-market book $44.28/$52.32 is uninvestable); DHI and PHM (stale pre-market quotes, wide books); META, INTC, AMD, ARM, QCOM, SNDK (all fading pre-market after Monday's AI melt-up, no fresh named catalyst today); the energy complex (XOM, CVX, OXY, SLB, COP, HAL all DOWN pre-market despite Brent bouncing - the equity tape refused to confirm the macro, so no Tier 2 entry); banks (57.6% CME odds of an October Fed hike is a real macro catalyst but JPM/BAC/GS were +0.05% to +0.27%, no confirming price action). RKLB replaced RTX to stay inside the 4-names-per-sector cap in Electronic Technology (CIEN, GLW, LMT, RKLB) - RTX's catalyst was generic geopolitics while RKLB's was a specific launch and booked backlog. Exit-rule mix: 5 intraday/overnight, 7 swing/catalyst-defined. Backdrop: Nasdaq closed at a record 27,122.09 (+2.26%), S&P 7,764.70 (+1.49%), 10Y 4.96%-4.97%, bitcoin +3.5% to $85,400, Trump-Xi summit Thursday, CNN Fear & Greed at 34 ('Fear'), futures mixed into the open."
 }
