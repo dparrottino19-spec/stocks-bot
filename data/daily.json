@@ -2,10 +2,10 @@
   "bookName": "Daily Trader",
   "inceptionDate": "2026-05-15",
   "inceptionCapital": 70000,
-  "startingCapital": 72794.66,
-  "tradeDate": "2026-09-23",
-  "lastUpdated": "2026-09-23T13:40:00Z",
-  "nextRefresh": "2026-09-24T07:09:00-05:00",
+  "startingCapital": 72442.91,
+  "tradeDate": "2026-09-24",
+  "lastUpdated": "2026-09-24T11:40:00Z",
+  "nextRefresh": "2026-09-25T07:09:00-05:00",
   "rules": [
     "Weekday 7am ET picks",
     "Per-pick exit rules",
@@ -13,44 +13,8 @@
     "1-week max hold",
     "<=4 names per sector"
   ],
-  "priorRealizedPnL": 2794.66,
+  "priorRealizedPnL": 2442.91,
   "positions": [
-    {
-      "ticker": "ONON",
-      "name": "On Holding",
-      "sector": "Consumer Non-Durables",
-      "shares": 120,
-      "entry": 29.05,
-      "exitRule": "1-3 day swing",
-      "catalyst": "Announced a share buyback of up to $1 billion running through 2029 plus new long-term financial targets; +6.33% pre-market.",
-      "risks": "Buyback is announced capacity, not executed repurchases. Stock printed its 52-week low of $26.365 on Sept 17, five sessions ago, and sits 43% below the January high of $51.08 - the buyback is a response to a broken chart, not a demand signal.",
-      "driver": "$1B buyback authorization off a 52-week low",
-      "addedDate": "2026-09-22"
-    },
-    {
-      "ticker": "SHOP",
-      "name": "Shopify",
-      "sector": "Commercial Services",
-      "shares": 24,
-      "entry": 142.06,
-      "exitRule": "1-3 day swing",
-      "catalyst": "Mark Zuckerberg announced Monday that Meta is integrating Shopify into Muse, its personal AI agent, for in-agent shopping and checkout. Muse has been the #1 free US iPhone app for three straight days (Sensor Tower). SHOP ran from a $128.80 open to $138.03 on 16.6M shares vs an 8.5M 30-day average; +3.00% pre-market.",
-      "risks": "Chasing a second gap after a 7% Monday. No revenue-share or economics were disclosed for the Meta tie-up, and SHOP trades at 87x earnings, 13.1x book. 52-week range $94.00-$182.19.",
-      "driver": "Meta Muse agentic-commerce integration",
-      "addedDate": "2026-09-22"
-    },
-    {
-      "ticker": "LEN",
-      "name": "Lennar",
-      "sector": "Consumer Durables",
-      "shares": 44,
-      "entry": 79.33,
-      "exitRule": "1-3 day swing",
-      "catalyst": "Berkshire Hathaway disclosed a roughly $1.2 billion stake in Lennar; +1.60% pre-market. 10-year Treasury yield eased 4.1bp to 4.96%, off its highest level since 2007.",
-      "risks": "Monday's close of $78.08 sits just $2.38 above the Sept 18 52-week low of $75.70, and the stock is 42% below its December high of $133.76. Berkshire is a patient holder - a stake disclosure does not fix mortgage rates, and CME FedWatch puts 57.6% odds on another Fed HIKE after October.",
-      "driver": "Berkshire Hathaway $1.2B stake disclosure",
-      "addedDate": "2026-09-22"
-    },
     {
       "ticker": "PSKY",
       "name": "Paramount Skydance",
@@ -62,78 +26,6 @@
       "risks": "Settlement is subject to court approval and carries real cost: $300M+ per year of incremental US film production for five years, 30-32 movies annually, a three-year freeze on theater rate increases, a $47.5M worker fund and a news editorial-independence board over CBS and CNN. Tender/exchange offers for Discovery notes were extended to Oct 2 with only 66.87%/75.12% tendered as of Sept 18. Negative trailing earnings (PE -17.6).",
       "driver": "Final antitrust barrier to the $110B WBD close removed",
       "addedDate": "2026-09-22"
-    },
-    {
-      "ticker": "MRK",
-      "name": "Merck & Co.",
-      "sector": "Health Technology",
-      "shares": 23,
-      "entry": 149.9,
-      "exitRule": "1-3 day swing",
-      "catalyst": "FDA approved a US label update for WINREVAIR (sotatercept-csrk) at 7:15 AM ET today, based on the Phase 3 HYPERION trial in newly diagnosed pulmonary arterial hypertension - a 76% reduction in risk of clinical worsening vs placebo (HR 0.24), expanding the addressable population to recently diagnosed patients.",
-      "risks": "Label expansion rather than a new approval, so the revenue delta is incremental. Pre-market move is only +0.27% - the market is not treating this as a needle-mover. Stock is near the top of its 52-week range ($77.58-$156.92) and carries a 119x trailing PE.",
-      "driver": "FDA label expansion for WINREVAIR on HYPERION data",
-      "addedDate": "2026-09-22"
-    },
-    {
-      "ticker": "GRAL",
-      "name": "GRAIL",
-      "sector": "Health Technology",
-      "shares": 15,
-      "entry": 108.0,
-      "exitRule": "Catalyst-defined",
-      "catalyst": "FDA's Molecular and Clinical Genetics Panel meets Wednesday Sept 23 to discuss and vote on the premarket approval application for Galleri, GRAIL's multi-cancer early-detection blood test. EXIT TRIGGER: close on the panel vote outcome.",
-      "risks": "HALF SIZE ON PURPOSE - this is a binary advisory-panel vote with two-way gap risk. The market already front-ran it: GRAL ran from a $92.01 open to a $111.49 high Monday (+17%) on 3.5M shares vs a 1.0M 30-day average, so the good outcome is partly paid for. Pre-market book is $106.00/$110.00, a 3.7% spread on a 42M-share float. PE -11.1. 52-week range $41.50-$118.84.",
-      "driver": "Sept 23 FDA advisory panel vote on Galleri",
-      "addedDate": "2026-09-22"
-    },
-    {
-      "ticker": "IONQ",
-      "name": "IonQ",
-      "sector": "Electronic Technology",
-      "shares": 76,
-      "entry": 45.6,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "After Tuesday's close IonQ announced the industry's first end-to-end real-time quantum error-correction decoder running on a single standard CPU, tested on circuits simulating up to 408 logical qubits and 31.5M operations with 0.02% overhead. +11.9% pre-market to $45.60 on 7.4M shares pre-open.",
-      "risks": "Gap-and-fade risk: a research milestone, not revenue. Stock is 46% below its October 2025 high of $84.64; PE -8.96. Russell 2000 futures -0.5% into the open.",
-      "driver": "Real-time QEC decoder milestone",
-      "addedDate": "2026-09-23"
-    },
-    {
-      "ticker": "CART",
-      "name": "Maplebear (Instacart)",
-      "sector": "Transportation",
-      "shares": 75,
-      "entry": 46.25,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Instacart announced customers can use Meta's personal AI agent Muse on its grocery platform - the second Muse commerce integration after Shopify on Monday. +4.1% pre-market to $46.25 (prior close $44.41).",
-      "risks": "No economics disclosed. Costco just signed delivery deals with DoorDash and Uber, a direct competitive threat; CART fell 2.5% Tuesday. 52-week range $32.73-$52.68.",
-      "driver": "Meta Muse agentic-commerce integration",
-      "addedDate": "2026-09-23"
-    },
-    {
-      "ticker": "META",
-      "name": "Meta Platforms",
-      "sector": "Technology Services",
-      "shares": 4,
-      "entry": 739.18,
-      "exitRule": "Overnight (next day open)",
-      "catalyst": "KeyBanc raised its PT to $900 from $780 (Overweight). Muse is tracking near 70% of ChatGPT's adoption curve, and Shopify (Mon) and Instacart (Wed) signed in-agent commerce deals in back-to-back sessions. $739.18 pre-market vs $736.60 close.",
-      "risks": "Stock is 4% below its 52-week high of $770.60; KeyBanc hike is one broker. Muse monetization is unproven and implies heavier inference capex.",
-      "driver": "KeyBanc PT hike + Muse commerce partner momentum",
-      "addedDate": "2026-09-23"
-    },
-    {
-      "ticker": "VLO",
-      "name": "Valero Energy",
-      "sector": "Energy Minerals",
-      "shares": 9,
-      "entry": 379.78,
-      "exitRule": "Overnight (next day open)",
-      "catalyst": "Goldman Sachs (Neil Mehta) raised its PT to $457 from $365, Buy. $379.78 pre-market vs $377.14 close.",
-      "risks": "WTI down 1.65% to ~$89 and Brent back under $100 on Trump's Iran-deal comments; VLO is 9% off its Sept 21 52-week high of $419.04 and ran from $155 a year ago.",
-      "driver": "Goldman $457 price target",
-      "addedDate": "2026-09-23"
     },
     {
       "ticker": "MSFT",
@@ -170,7 +62,127 @@
       "risks": "Jefferies and others expect only incremental results; ADM is +48% YTD so much is pre-bought, and it fell 1.3% Tuesday to $82.30. 52-week range $55.58-$88.75.",
       "driver": "Trump-Xi summit ag-purchase catalyst",
       "addedDate": "2026-09-23"
+    },
+    {
+      "ticker": "P",
+      "name": "Everpure",
+      "sector": "Electronic Technology",
+      "shares": 29,
+      "entry": 116.75,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "Issued a preliminary FY28 outlook of $7.0-7.3B revenue (+39-45%) and $1.7-1.9B non-GAAP operating income (+80-100%), above consensus, and reaffirmed FY27 guidance of $5.03-5.07B; +6.5% pre-market to $116.75 vs $109.65 close.",
+      "risks": "Gap into a red, rate-shocked tape; stock is 2% below its $119.10 Aug 18 52-week high and trades at ~150x trailing earnings. A long-range target, not a quarterly beat.",
+      "driver": "FY28 outlook tops consensus",
+      "addedDate": "2026-09-24"
+    },
+    {
+      "ticker": "SNX",
+      "name": "TD Synnex",
+      "sector": "Distribution Services",
+      "shares": 12,
+      "entry": 280.0,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "FQ3 BMO: adjusted EPS $5.68 vs $4.70 FactSet, revenue $21.56B vs $18.91B (+14% surprise); FQ4 adj EPS guided $5.65-6.15. Stock is -2.7% pre-market at $280.00 - buying the sell-the-news dip on a large beat.",
+      "risks": "SNX ran to a 52-week high of $298.77 Wednesday on 2.6M shares vs a 0.76M 30-day average, so the beat was front-run; the FQ4 guide may sit near the Street. Thin pre-market book (277.55/283.00).",
+      "driver": "Large FQ3 beat, sell-the-news dip",
+      "addedDate": "2026-09-24"
+    },
+    {
+      "ticker": "PWR",
+      "name": "Quanta Services",
+      "sector": "Industrial Services",
+      "shares": 5,
+      "entry": 640.25,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Bernstein (Chad Dillard) upgraded to Outperform from Market Perform and raised the PT to $775 from $748. Pre-market $640.25 vs $634.90 close. AI power-infrastructure demand theme.",
+      "risks": "Single-broker upgrade on a 74x PE name; 19% below its May high of $788.75. Rising yields weigh on long-duration industrial multiples.",
+      "driver": "Bernstein upgrade to Outperform",
+      "addedDate": "2026-09-24"
+    },
+    {
+      "ticker": "BA",
+      "name": "Boeing",
+      "sector": "Electronic Technology",
+      "shares": 17,
+      "entry": 199.6,
+      "exitRule": "Catalyst-defined",
+      "catalyst": "Trump hosts Xi in the Oval Office today. China agreed in May to buy 200 Boeing jets (option for up to 750), but the order has not been finalized - the timetable and firm commitments are expected to hinge on this meeting. EXIT TRIGGER: close on the Trump-Xi summit readout (win or lose).",
+      "risks": "Experts expect few deliverables; the 200-jet headline is already public, so only firm delivery schedules or a larger order move the stock. 52-week range $176.77-$254.35.",
+      "driver": "Trump-Xi summit - China Boeing order",
+      "addedDate": "2026-09-24"
+    },
+    {
+      "ticker": "GE",
+      "name": "GE Aerospace",
+      "sector": "Electronic Technology",
+      "shares": 11,
+      "entry": 317.94,
+      "exitRule": "Catalyst-defined",
+      "catalyst": "Trump said in May that GE would supply 400-450 engines tied to the China Boeing order; firm terms are expected to hinge on today's Trump-Xi meeting. EXIT TRIGGER: close on the Trump-Xi summit readout.",
+      "risks": "Same summit risk as BA; stock is 18% off its Aug 6 high of $388.84. Pre-market -0.6%.",
+      "driver": "Trump-Xi summit - engine orders",
+      "addedDate": "2026-09-24"
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "sector": "Electronic Technology",
+      "shares": 15,
+      "entry": 223.17,
+      "exitRule": "Catalyst-defined",
+      "catalyst": "NVIDIA is awaiting Chinese approval to sell its H200 in China (already cleared by the US); the Trump-Xi summit is the most likely venue for a breakthrough. EXIT TRIGGER: close on the Trump-Xi summit readout.",
+      "risks": "Nasdaq futures -1% on the rates shock (10Y 5.14%, 70.9% odds of an October hike). No approval is promised. 52-week range $164.27-$236.54.",
+      "driver": "Trump-Xi summit - H200 China approval",
+      "addedDate": "2026-09-24"
+    },
+    {
+      "ticker": "COST",
+      "name": "Costco Wholesale",
+      "sector": "Retail Trade",
+      "shares": 3,
+      "entry": 906.5,
+      "exitRule": "Catalyst-defined",
+      "catalyst": "FQ4 results after the close today (Street: EPS ~$6.52-6.53, revenue ~$94.8B). Pre-earnings position. EXIT TRIGGER: close at Friday's pre-market/open reaction to the print.",
+      "risks": "Binary print with two-way gap risk; COST trades at 45x earnings and sits 17% below its May high of $1,096.50. Half-size ($2.7K) because of the earnings gap.",
+      "driver": "FQ4 earnings after close",
+      "addedDate": "2026-09-24"
+    },
+    {
+      "ticker": "XOM",
+      "name": "Exxon Mobil",
+      "sector": "Energy Minerals",
+      "shares": 21,
+      "entry": 162.6,
+      "exitRule": "Overnight (next day open)",
+      "catalyst": "WTI +2.4% to ~$94.35 after Iran security chief Rezaee warned neighbors against enforcing US sanctions and said the Strait of Hormuz will not reopen without conditions; energy was the only sector higher Wednesday. $162.60 pre-market vs $161.23 close.",
+      "risks": "Headline-driven crude; a Trump-Xi or Iran de-escalation headline could reverse it. 8% below the March high of $176.41.",
+      "driver": "Crude +2.4% on Hormuz stance",
+      "addedDate": "2026-09-24"
+    },
+    {
+      "ticker": "BP",
+      "name": "BP plc",
+      "sector": "Energy Minerals",
+      "shares": 78,
+      "entry": 44.84,
+      "exitRule": "1-3 day swing",
+      "catalyst": "JPMorgan (Matthew Lofting) upgraded to Overweight from Neutral on Sept 23, and crude is +2.4% this morning on Iran's Hormuz stance. $44.84 pre-market vs $44.49 close.",
+      "risks": "Upgrade is a day old; a UK ADR with low beta. 52-week range $32.72-$48.27.",
+      "driver": "JPMorgan upgrade + crude bid",
+      "addedDate": "2026-09-24"
+    },
+    {
+      "ticker": "COP",
+      "name": "ConocoPhillips",
+      "sector": "Energy Minerals",
+      "shares": 27,
+      "entry": 129.0,
+      "exitRule": "Overnight (next day open)",
+      "catalyst": "Pure-play upstream exposure to WTI's +2.4% move to ~$94 on Iran's Hormuz stance. $129.00 pre-market vs $128.09 close.",
+      "risks": "Hit a 52-week high of $141.62 on Sept 15 and has since fallen 9%; thin pre-market book (128.65/130.64).",
+      "driver": "Crude +2.4% on Hormuz stance",
+      "addedDate": "2026-09-24"
     }
   ],
-  "note": "2026-09-23: closed 10 positions for +441.03 realized (CIEN +159.30, GLW +188.10, LITE +27.27, ACN +66.78, AZO +27.74, LMT -73.74, RKLB +30.87, TSLA +8.10, CTAS +52.87, GOOGL -46.26). CIEN/GLW/LITE/ACN hit their 3-day swing exit date; AZO/RKLB intraday closed at Tuesday SIP close; LMT/TSLA/GOOGL overnight closed at Wednesday pre-market; CTAS catalyst trigger fired (FQ1 beat: EPS $1.39 vs $1.36, rev $3.01B vs $2.98B). Held: ONON, SHOP, LEN (swings, all +3-5%, under stop/target), PSKY (no WBD close or court ruling yet), MRK, GRAL (FDA panel votes today - exits on the vote). 7 new positions, $23,132.75 deployed; total book deployment $42,081.26, cash $30,713.40. PRICING: the Robinhood real-time quote feed answered once at 11:22Z (all closure prices are broker-verified) and was then auto-declined for the rest of the run (no approver present), as were historicals and earnings calendar. get_equity_fundamentals still worked and supplied the 52-week ranges and extended-session high/low used to cross-check every web quote. New entries are priced from Benzinga/stockanalysis pre-market quotes (IONQ, CART, META, MSFT, VLO, RCL) and ADM from the Robinhood extended range next to its $82.30 close. BELOW 10 PICKS by rule (b): WOR (+15.9% to $68.33 on an FQ1 beat) failed Step D - entry more than 15% above the verified close; RGTI, GIS, BG, PAYX could not be priced reliably without the quote feed; CBRL (+11% on a Q4 beat) is a ~$1.0B cap, below the mid-cap floor; KMX dropped because Morgan Stanley's raised PT ($47) sits below the price; KBH dropped (guide miss, falling). Backdrop: Nasdaq record 27,244 Tuesday, S&P flat 7,764.64; futures turned slightly red into the open; WTI ~$89, Brent < $100 after Trump's UN Iran remarks; 10Y 4.96%; flash PMIs 9:45 ET; Trump-Xi Thursday."
+  "note": "2026-09-24: closed 9 positions for -351.75 realized (IONQ -232.56, CART -246.75, META -39.28, VLO +0.36, GRAL +91.50, ONON +150.00, SHOP -97.44, LEN +73.48, MRK -51.06). IONQ/CART intraday closed at Wednesday SIP close; META/VLO overnight closed at Thursday pre-market; GRAL catalyst fired (favorable FDA panel vote on Galleri); ONON/SHOP/LEN/MRK hit their 1-3 day swing exit date. Held: PSKY (no WBD close yet; Citi starts loan investor meetings today), MSFT (-0.9%), RCL (-3.9%, above -5% stop), ADM (Trump-Xi readout later today). 10 new positions, $33,299.71 deployed; total book deployment $46,618.22, cash $25,824.69. All prices from the Robinhood real-time feed (11:10-11:23Z) with 52-week ranges from Robinhood fundamentals. Backdrop: futures S&P -0.65%, Nasdaq-100 -1.06%; 10Y 5.14%, CME 70.9% odds of an October hike; WTI +2.4% ~$94; Trump-Xi Oval Office meeting today; jobless claims 8:30 ET; COST after the close."
 }
