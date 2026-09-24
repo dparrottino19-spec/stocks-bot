@@ -2,32 +2,32 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 9530.6,
-  "tradeDate": "2026-09-23",
-  "lastUpdated": "2026-09-23T10:50:00Z",
-  "nextRefresh": "2026-09-24T06:30:00-05:00",
+  "startingCapital": 9403.05,
+  "tradeDate": "2026-09-24",
+  "lastUpdated": "2026-09-24T10:45:00Z",
+  "nextRefresh": "2026-09-25T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
     "Any liquid asset: stock, crypto, or leveraged/inverse ETF",
-    "Rotate each 6:30am CT run — sell yesterday, buy today's best",
+    "Rotate each 6:30am CT run \u2014 sell yesterday, buy today's best",
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -469.4,
+  "priorRealizedPnL": -596.95,
   "positions": [
     {
-      "ticker": "SPY",
-      "name": "SPDR S&P 500 ETF Trust",
-      "sector": "Broad equity ETF — 1x S&P 500",
-      "shares": 12.312005,
-      "entry": 774.09,
-      "stopPrice": 727.64,
+      "ticker": "QID",
+      "name": "ProShares UltraShort QQQ",
+      "sector": "Inverse leveraged ETF \u2014 2x short Nasdaq-100",
+      "shares": 703.821108,
+      "entry": 13.36,
+      "stopPrice": 12.29,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "LOW-EDGE PARK DAY. No liquid catalyst on the tape: every premarket top-10 gainer/loser is a sub-$200M micro-cap (WHLR, IPDN, VTGN…), index futures flat (SPY +0.10%, QQQ -0.05%, IWM -0.21%). The only dated in-window events are Fed speeches at 10:05 and 10:20 ET with FedWatch leaning toward an October hike, plus CTAS/PAYX/GIS earnings (not all-in material). Mandate explicitly says park in lower-vol on low-edge days.",
-      "driver": "PRE-COMMITMENT (4), THIRD CONSECUTIVE 1x: the structural reason is that the skill's own low-edge clause applies — no fresh catalyst anywhere in the liquid universe, and a hawkish-Fed event risk mid-window argues against leverage. Concession recorded anyway: three 1x days in a row is drift risk and tomorrow must clear a higher bar to stay 1x. SPY chosen over QQQ/SMH because it holds its session-high region (774.04/774.09 vs 773.38 close, 0.6bp spread — cheapest round trip on the board) while semis are red premarket (SMH -0.6%, SOXL -2.1%) after a +3.9% two-day run. Recording spread per pre-commitment (1): bid 774.04 / ask 774.09.",
-      "risks": "Hawkish Fed speakers at 10:05/10:20 ET trigger a rates-driven reversal (10y ~4.97%); crude/financials weakness spreads. Opportunity cost if semis resume their run and 1x lags a leveraged alternative. Stop 727.64 (-6%) is wide for SPY — realistically not in play within 24h, so the risk is a small drift loss, not a stop-out.",
-      "addedDate": "2026-09-23"
+      "catalyst": "RATES BREAKOUT. 10y Treasury yield ~5.11%, highest since July 2007, after a hot S&P Global PMI (multi-year-high input/output price inflation), a weak Treasury auction and energy-driven inflation fears \u2014 pricing another Fed hike this year. Nasdaq-100 fell 1.13% Wed and is -0.93% premarket (QQQ bid 734.33 vs 741.21 close); semis leading down (SMH -1.8%, SOXL -5.7%, MU -2.4%) after a +11% run from the 09-16 low.",
+      "driver": "Long-duration growth is the most rate-sensitive sleeve; QQQ printed a failed breakout (747.46 close 09-22, lower close 09-23) and TLT broke to 80.46 on 53.5M shares (2x avg). Ends the three-day 1x drift per pre-commitment: fresh catalyst clears the bar for leverage, but 2x not 3x because the Trump\u2013Xi bilateral is today with chips/AI on the agenda. QID only +1.8% premarket \u2014 no chase. Spread 7.5bp (13.35/13.36). Runners-up: SQQQ (3x, same thesis, too much gap risk into Xi headlines), SOXS (semis weakest but most exposed to a chip-export headline squeeze), TMV/TBT (direct rates bet but TBT quote was stale/wide 35.79/44.17, TMV 54bp spread), SDS (2x short SPX \u2014 less rate beta than NDX).",
+      "risks": "Trump\u2013Xi summit produces a positive AI/chip or tariff headline and squeezes tech (truce already extended to Jan 10, so partly priced). Yields reverse on a soft data print (new home sales 10:00 ET) or dovish Fedspeak. 2x daily-reset decay if choppy. Hard stop 12.29 (-8%) \u2248 QQQ +4%.",
+      "addedDate": "2026-09-24"
     }
   ]
 }
