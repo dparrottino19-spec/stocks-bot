@@ -2,10 +2,10 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 13797.172962,
-  "tradeDate": "2026-09-23",
-  "lastUpdated": "2026-09-23T10:53:00Z",
-  "nextRefresh": "2026-09-24T06:45:00-05:00",
+  "startingCapital": 13427.24447,
+  "tradeDate": "2026-09-24",
+  "lastUpdated": "2026-09-24T10:56:00Z",
+  "nextRefresh": "2026-09-25T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Runs every day — crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 3797.172982,
+  "priorRealizedPnL": 3427.24449,
   "positions": [
     {
       "ticker": "BTC",
       "name": "Bitcoin",
       "sector": "Crypto",
       "shares": 0.160756,
-      "entry": 85826.6,
-      "stopPrice": 78960.47,
+      "entry": 83525.42,
+      "stopPrice": 76843.39,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "DAY NINE. AVALANCHE EXITED ON PRE-REGISTERED INVALIDATION #3 (SELL-THE-NEWS), NOT ON BOARD RANK. AVAX is actually FIRST of eight this morning (+0.48% vs midnight Chicago, the only green name) and passes both legs of the two-part test on paper. But yesterday I wrote four structural invalidations that end the position regardless of price, and #3 was: AVAX closes the post-activation session BELOW its pre-activation level. Helicon activated at 15:00 UTC; AVAX sold off from ~11.38 to ~10.53 on the 15-minute chart through the activation (-5.7% intraday) and has recovered to 11.19 — still ~1.7% under the pre-activation ~11.38 print. That is the sell-the-news outcome I named as the strongest argument against the trade. The pre-activation level comes from a narrative source (KuCoin 15m chart write-up), not the canonical feed, so this is a judgment on an unverified number; I am honoring the rule anyway because a rule I only follow when the price source is convenient is not a rule. The exit was profitable: the anticipation dip was bought at 10.905 before the event.\n\nWHY BITCOIN. The tape is broadly RISK-OFF overnight: 7 of 8 names red vs Chicago midnight (AVAX +0.48%, BTC -1.51%, SOL -1.74%, ETH -1.75%, LTC -2.13%, ADA -2.46%, XRP -2.92%, DOGE -3.68%). BTC tagged ~87,165 at midnight and has given back to ~85,830. On a red, low-edge board the mandate says default to the liquid majors, and BTC is SECOND on the board — the best-holding major, losing the least — with a live affirmative catalyst: US spot BTC ETFs took in ~$715M on Sep 22 (third-largest inflow of September, BlackRock-led) inside a ~$3.8B three-week inflow run, the best stretch of 2026. Deepest book in the asset class and the tightest 8% stop tier = the most downside protection available.",
-      "driver": "Closed AVALANCHE at 11.188 (canonical feed, asOf 2026-09-23T10:51:44.656Z) vs entry 10.905: +0.283/unit, +349.00 total (+2.60%) on 1,233.211741 AVAX. Book rolls 13,448.17 -> 13,797.17, +37.97% on inception — NEW HIGH-WATER MARK, third straight winning rotation.\n\nBOUGHT BITCOIN at 85,826.60 (same canonical call/asOf). 0.160756 BTC = $13,797.14 deployed, 100%. Stop 78,960.47 (-8%, majors tier).\n\nRUNNERS-UP: HOLD AVAX — board leader and the only green name; if the post-dump recovery continues through 11.38-11.54 resistance I will have exited a winner a day early by rule, and I will record that. SOL (-1.74%) / ETH (-1.75%) — third/fourth, statistically tied, no in-window catalyst, higher beta than BTC on a red tape. XRP (-2.92%) — failed the 1.54 zone call in reverse: it cleared it (1.59) but is now seventh on the board; XRP ETF inflows were a monthly high ($20M) but that is small money. DOGE last again.\n\nCROSS-CHECK: Robinhood marks AVAX 11.2010, BTC 85,844.79 vs canonical 11.188 / 85,826.60 (~12bp / ~2bp). Board from Robinhood open_price anchored to midnight America/Chicago; canonical proxy still returns previousClose null. Search snippets used for narrative only.",
-      "risks": "BUYING BACK THE ASSET I ROTATED OUT OF TWO DAYS AGO, ON A RED TAPE. BTC is -1.5% since midnight and pulled back from ~87.2K; momentum is negative intraday, and I am buying relative strength (least-bad), not absolute strength. A continued risk-off leg (Japan 10Y at 2.95%, highest since 1996, and BOJ hike bets are a live global-yield headwind) hits BTC too — the 8% stop at 78,960.47 is the backstop.\n\nI MAY HAVE EXITED A WINNER ON A NOISY INPUT. AVAX leads the board and recovered ~6% off the post-activation low; the pre-activation level that triggered invalidation #3 came from a third-party 15m chart, not my canonical feed. If AVAX reclaims 11.38-11.54 today, this rotation was wrong.\n\nCHURN: sixteen rotations in sixteen days at ~190bp Robinhood markup each way is real friction the paper book does not charge.\n\nTWO-PART TEST FOR TOMORROW, RE-BASED TO BITCOIN: hold only if BTC is TOP-THREE on the eight-name board AND spot BTC ETF flows print net positive on the most recent observable session (a landed catalyst counts only with board-rank follow-through). STRUCTURAL INVALIDATION: BTC below 83,000 (thesis failure ahead of the stop), or net negative spot ETF flows. Hard stop 78,960.47 (-8%).",
-      "addedDate": "2026-09-23"
+      "catalyst": "DAY TEN. HOLD BITCOIN: BOTH LEGS OF YESTERDAY'S PRE-REGISTERED TEST PASSED. (1) Board rank: BTC is FIRST of eight vs midnight America/Chicago (BTC -0.58%, ETH -1.23%, DOGE -1.52%, SOL -1.65%, XRP -2.10%, ADA -2.25%, AVAX -2.32%, LTC -2.57%). The whole board is red for a second straight morning, and BTC is losing the least. (2) Flows: US spot BTC ETFs posted another net inflow on Sep 23 (~7,107 BTC per TokenPost), keeping the 7-day total positive inside a ~$4.6B run since Aug 19 (Bloomberg). Structural invalidation (BTC < 83,000) did NOT trigger: 83,525 is about 0.6% above it. On a red, low-edge tape the mandate says stay in the liquid major with the best relative strength and a live flow bid, and that is BTC. Mechanically: closed and reopened at the same canonical print.",
+      "driver": "Closed BTC at 83,525.42 (canonical feed, asOf 2026-09-24T10:51:17.430Z) vs entry 85,826.60: -2,301.18/BTC, -369.93 total (-2.68%) on 0.160756 BTC. First losing rotation after three wins. Book rolls 13,797.17 -> 13,427.24 (+34.27% on inception).\n\nRE-BOUGHT BITCOIN at 83,525.42 (same call/asOf). 0.160756 BTC = $13,427.21 deployed, 100%. Stop 76,843.39 (-8%, majors tier).\n\nRUNNERS-UP: ETH (#2, -1.23%) has a bigger relative ETF flow (+67,597 ETH on Sep 23) but has more beta and trails BTC on the board. DOGE (#3, -1.52%) is a meme-beta bounce with no catalyst. SOL (#4, -1.65%) has no catalyst in the window. AVAX fell to 7th (-2.32%, 10.12), which supports yesterday's sell-the-news exit at 11.188.\n\nCROSS-CHECK: Robinhood mark 83,534.24 vs canonical 83,525.42 (~1bp). Board from Robinhood open_price anchored to Chicago midnight. Search results used for narrative only.",
+      "risks": "BTC IS SITTING JUST ABOVE MY OWN INVALIDATION LINE. At 83,525 it is about 0.6% above the 83,000 structural level. It has now made two red mornings in a row after the rejection above 87K (it closed Sep 23 at 84,383, -2.08%), and profit-taking is overpowering record ETF inflows. BitMEX's shutdown on Sep 23 adds derivatives-venue noise. The global-yield headwind (Japan 10Y near 1996 highs) is still live.\n\nCHURN / FRICTION: the Robinhood spread is ~190bp each way, and the paper book does not charge it.\n\nTWO-PART TEST FOR TOMORROW: hold BTC only if it is TOP-THREE on the eight-name board AND spot BTC ETF flows are net positive on the latest session. STRUCTURAL INVALIDATION: BTC closes below 83,000 or ETF flows turn net negative; either one means rotate out regardless of rank. Hard stop 76,843.39 (-8%).",
+      "addedDate": "2026-09-24"
     }
   ]
 }
