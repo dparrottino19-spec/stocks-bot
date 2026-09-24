@@ -3,9 +3,9 @@
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
   "startingCapital": 6342.09,
-  "tradeDate": "2026-09-23",
-  "lastUpdated": "2026-09-23T11:02:38Z",
-  "nextRefresh": "2026-09-24T06:35:00-05:00",
+  "tradeDate": "2026-09-24",
+  "lastUpdated": "2026-09-24T10:45:21Z",
+  "nextRefresh": "2026-09-25T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -15,6 +15,6 @@
     "Cash on low-conviction days"
   ],
   "priorRealizedPnL": -3657.91,
-  "cashReason": "CASH — no qualifying setup. Book entered flat at $6,342.09 (no prior holding, no realized P&L). The two real overnight catalysts both fail the entry structure: Worthington (WOR) beat Q1 ($0.82 vs $0.75 EPS, $343.9M vs $331.3M revenue) but is bid 67.60 / ask 69.00 vs a 58.94 close (+14.6%), and IonQ (IONQ) is 46.27 vs 40.74 (+13.6%) on a real-time QEC-decoder technical milestone press release — both above the 8-10% do-not-chase band, and any legal 5-7% stop sits well above the gap origin (the same air-pocket structure rejected on VICR and INTC). KB Home (KBH) beat (1.05 vs 0.90) but trades lower (47.91 vs 48.59) with a 7% pre-market spread — the market is rejecting the print. Accenture's reported +5% was a stale snippet; live it is +0.6% (184.79). RCL +1% on a $3B Sandals stake is an acquirer, not a long catalyst. CTAS (8:30 ET), PAYX and GIS had not printed at run time; entering ahead of a print is a coin flip, not a definable-stop setup. All larger % gainers (WHLR, IPDN, CAPS, EDVA, VTGN, DCOY, SQFT, TLSI) are sub-$10 microcaps / reverse-split squeezes, banned on liquidity or penny rules. Macro is hostile to a 100% single-name long: 10y at 4.96%, FedWatch pricing a 57.6% chance of an October hike, and fresh Iran rhetoric at UNGA. Cash preserved at $6,342.09.",
+  "cashReason": "CASH — no qualifying setup. Book entered flat at $6,342.09 (no prior holding, no realized P&L). Macro is hostile to a 100% single-name long: Nasdaq-100 futures -1.0%, S&P -0.6%, 10y at 5.14% (highest since 2007), FedWatch 70.9% odds of an October hike, WTI +2.4% to ~$94 on Iran/Hormuz tension; live quotes confirm broad risk-off (MU 1046.5 vs 1071.88, META 727.0 vs 744.10, NVDA 223.2 vs 225.51, IONQ 41.28 vs 42.54). The only large-cap catalysts had not printed at run time (10:45Z): TD Synnex (SNX, ~7:00 ET, indicated 293 vs 287.89 into the print — RBC beat-thesis already partly priced) and Darden (DRI) — entering ahead of a print is a coin flip, not a definable-stop setup. H.B. Fuller (FUL) posted a mixed quarter (EPS beat, revenue miss), only +0.6% with a 44.54/54.70 spread. Cintas/General Mills beat-and-raise printed yesterday and are stale. Stitch Fix -16% is a short setup. Premarket % gainers are sub-$10 microcaps (GCTK, WETO, TWG, BENF, WHLR) banned on liquidity/penny rules. Cash preserved at $6,342.09.",
   "positions": []
 }
