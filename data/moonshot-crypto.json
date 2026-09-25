@@ -2,32 +2,32 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 13427.24447,
-  "tradeDate": "2026-09-24",
-  "lastUpdated": "2026-09-24T10:56:00Z",
-  "nextRefresh": "2026-09-25T06:45:00-05:00",
+  "startingCapital": 13619.74335,
+  "tradeDate": "2026-09-25",
+  "lastUpdated": "2026-09-25T10:53:00Z",
+  "nextRefresh": "2026-09-26T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
     "Spot crypto only (BTC, ETH, SOL, and other liquid coins on Robinhood)",
-    "Rotate each 6:45am CT run — sell yesterday, buy today's best",
-    "Runs every day — crypto trades 24/7",
+    "Rotate each 6:45am CT run \u2014 sell yesterday, buy today's best",
+    "Runs every day \u2014 crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 3427.24449,
+  "priorRealizedPnL": 3619.74337,
   "positions": [
     {
-      "ticker": "BTC",
-      "name": "Bitcoin",
+      "ticker": "SOL",
+      "name": "Solana",
       "sector": "Crypto",
-      "shares": 0.160756,
-      "entry": 83525.42,
-      "stopPrice": 76843.39,
+      "shares": 114.451625,
+      "entry": 119.0,
+      "stopPrice": 107.1,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "DAY TEN. HOLD BITCOIN: BOTH LEGS OF YESTERDAY'S PRE-REGISTERED TEST PASSED. (1) Board rank: BTC is FIRST of eight vs midnight America/Chicago (BTC -0.58%, ETH -1.23%, DOGE -1.52%, SOL -1.65%, XRP -2.10%, ADA -2.25%, AVAX -2.32%, LTC -2.57%). The whole board is red for a second straight morning, and BTC is losing the least. (2) Flows: US spot BTC ETFs posted another net inflow on Sep 23 (~7,107 BTC per TokenPost), keeping the 7-day total positive inside a ~$4.6B run since Aug 19 (Bloomberg). Structural invalidation (BTC < 83,000) did NOT trigger: 83,525 is about 0.6% above it. On a red, low-edge tape the mandate says stay in the liquid major with the best relative strength and a live flow bid, and that is BTC. Mechanically: closed and reopened at the same canonical print.",
-      "driver": "Closed BTC at 83,525.42 (canonical feed, asOf 2026-09-24T10:51:17.430Z) vs entry 85,826.60: -2,301.18/BTC, -369.93 total (-2.68%) on 0.160756 BTC. First losing rotation after three wins. Book rolls 13,797.17 -> 13,427.24 (+34.27% on inception).\n\nRE-BOUGHT BITCOIN at 83,525.42 (same call/asOf). 0.160756 BTC = $13,427.21 deployed, 100%. Stop 76,843.39 (-8%, majors tier).\n\nRUNNERS-UP: ETH (#2, -1.23%) has a bigger relative ETF flow (+67,597 ETH on Sep 23) but has more beta and trails BTC on the board. DOGE (#3, -1.52%) is a meme-beta bounce with no catalyst. SOL (#4, -1.65%) has no catalyst in the window. AVAX fell to 7th (-2.32%, 10.12), which supports yesterday's sell-the-news exit at 11.188.\n\nCROSS-CHECK: Robinhood mark 83,534.24 vs canonical 83,525.42 (~1bp). Board from Robinhood open_price anchored to Chicago midnight. Search results used for narrative only.",
-      "risks": "BTC IS SITTING JUST ABOVE MY OWN INVALIDATION LINE. At 83,525 it is about 0.6% above the 83,000 structural level. It has now made two red mornings in a row after the rejection above 87K (it closed Sep 23 at 84,383, -2.08%), and profit-taking is overpowering record ETF inflows. BitMEX's shutdown on Sep 23 adds derivatives-venue noise. The global-yield headwind (Japan 10Y near 1996 highs) is still live.\n\nCHURN / FRICTION: the Robinhood spread is ~190bp each way, and the paper book does not charge it.\n\nTWO-PART TEST FOR TOMORROW: hold BTC only if it is TOP-THREE on the eight-name board AND spot BTC ETF flows are net positive on the latest session. STRUCTURAL INVALIDATION: BTC closes below 83,000 or ETF flows turn net negative; either one means rotate out regardless of rank. Hard stop 76,843.39 (-8%).",
-      "addedDate": "2026-09-24"
+      "catalyst": "DAY ELEVEN. ROTATE BTC -> SOL: BTC FAILED LEG 1 OF THE PRE-REGISTERED TEST. The board flipped green overnight and BTC fell to 7th of 8 vs midnight America/Chicago (SOL +2.33%, ADA +1.82%, DOGE +1.76%, AVAX +1.68%, XRP +1.58%, ETH +1.31%, BTC +0.66%, LTC -0.27%). Leg 2 passed (spot BTC ETFs +$191M on Sep 24, sixth straight inflow day), and BTC reclaimed 83K, but the rule requires top-three rank. On a risk-on green tape the leader is SOL: #1 on the board, ~+10% on the week with SOL ETF inflows building, Solana app fees above $100M/week for the first time since Sep 2025, and the Sep 18 faster-slot upgrade live. Definable floor: the $110 support shelf sits just above the stop.",
+      "driver": "Closed BTC at 84,722.88 (canonical feed, asOf 2026-09-25T10:51:10.410Z) vs entry 83,525.42: +1,197.46/BTC, +192.50 total (+1.43%) on 0.160756 BTC. Book rolls 13,427.24 -> 13,619.74 (+36.20% on inception).\n\nBOUGHT SOLANA at 119.00 (same call/asOf). 114.451625 SOL = $13,619.74 deployed, 100%. Stop 107.10 (-10%, higher-beta tier; just below the $110 support shelf).\n\nRUNNERS-UP: ETH (#6, +1.31%) has five straight days of spot ETF inflows (+$66M Sep 24) but lags the board; kept as the fallback major. ADA (#2, +1.82%) and DOGE (#3, +1.76%) are beta bounces with no named catalyst. BTC (#7) fails the rank test despite flows.\n\nCROSS-CHECK: Robinhood mark 119.10 vs canonical 119.00 (~8bp). Board from Robinhood open_price anchored to Chicago midnight. Search used for narrative only.",
+      "risks": "SOL is the highest-beta major on the board; a green-tape reversal hits it hardest. It is up ~10% on the week into overhead resistance (technical traders flag bearish patterns capping gains), so this is a momentum-continuation bet, not a value entry. The global-yield headwind is still live, and weekend liquidity thins after this entry.\n\nFRICTION: Robinhood spread ~190bp each way on SOL; the paper book does not charge it.\n\nTEST FOR TOMORROW: hold SOL only if it is TOP-THREE on the eight-name board AND holds above 115 (below that, the breakout is failing). STRUCTURAL INVALIDATION: loses the $110 support shelf. Hard stop 107.10 (-10%).",
+      "addedDate": "2026-09-25"
     }
   ]
 }
