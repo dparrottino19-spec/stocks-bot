@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 9403.05,
-  "tradeDate": "2026-09-24",
-  "lastUpdated": "2026-09-24T10:45:00Z",
-  "nextRefresh": "2026-09-25T06:30:00-05:00",
+  "startingCapital": 9135.6,
+  "tradeDate": "2026-09-25",
+  "lastUpdated": "2026-09-25T10:44:00Z",
+  "nextRefresh": "2026-09-26T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -596.95,
+  "priorRealizedPnL": -864.4,
   "positions": [
     {
-      "ticker": "QID",
-      "name": "ProShares UltraShort QQQ",
-      "sector": "Inverse leveraged ETF \u2014 2x short Nasdaq-100",
-      "shares": 703.821108,
-      "entry": 13.36,
-      "stopPrice": 12.29,
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "sector": "Semiconductors \u2014 1x long single stock",
+      "shares": 14.209102,
+      "entry": 642.94,
+      "stopPrice": 604.36,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "RATES BREAKOUT. 10y Treasury yield ~5.11%, highest since July 2007, after a hot S&P Global PMI (multi-year-high input/output price inflation), a weak Treasury auction and energy-driven inflation fears \u2014 pricing another Fed hike this year. Nasdaq-100 fell 1.13% Wed and is -0.93% premarket (QQQ bid 734.33 vs 741.21 close); semis leading down (SMH -1.8%, SOXL -5.7%, MU -2.4%) after a +11% run from the 09-16 low.",
-      "driver": "Long-duration growth is the most rate-sensitive sleeve; QQQ printed a failed breakout (747.46 close 09-22, lower close 09-23) and TLT broke to 80.46 on 53.5M shares (2x avg). Ends the three-day 1x drift per pre-commitment: fresh catalyst clears the bar for leverage, but 2x not 3x because the Trump\u2013Xi bilateral is today with chips/AI on the agenda. QID only +1.8% premarket \u2014 no chase. Spread 7.5bp (13.35/13.36). Runners-up: SQQQ (3x, same thesis, too much gap risk into Xi headlines), SOXS (semis weakest but most exposed to a chip-export headline squeeze), TMV/TBT (direct rates bet but TBT quote was stale/wide 35.79/44.17, TMV 54bp spread), SDS (2x short SPX \u2014 less rate beta than NDX).",
-      "risks": "Trump\u2013Xi summit produces a positive AI/chip or tariff headline and squeezes tech (truce already extended to Jan 10, so partly priced). Yields reverse on a soft data print (new home sales 10:00 ET) or dovish Fedspeak. 2x daily-reset decay if choppy. Hard stop 12.29 (-8%) \u2248 QQQ +4%.",
-      "addedDate": "2026-09-24"
+      "catalyst": "Report that AMD notified customers of a ~10% chip price hike starting Q4 (TSMC cost pass-through, AI compute demand) \u2014 pricing-power/margin catalyst; stock +2.2% premarket (642.94 ask vs 629.26 close), extending a 3-session run. Nasdaq futures +0.4\u20130.6%, semis bid (SMH +1.2%, MU +1.2%), oil -2.3% on US\u2013Iran/Hormuz talk progress.",
+      "driver": "Stock-specific margin catalyst is less rate-dependent than a broad-index bet while the 10y sits at a 17-year high (5.19%). Not chasing: +2.2% vs >8% bar. 1x not 2x (AMDL +4%) because the price-hike report is unverified and yields are still rising into Friday data. Runners-up: AMDL (2x same thesis, too much gap risk on unverified report), SOXL (3x semis +4.1% pre \u2014 broad chase into yields), TSLA/TSLL (Roadster tease is Oct 1, weak near-term catalyst), SCO (oil -2.3% already moved), BTC spot (flat, 190bp spread).",
+      "risks": "AMD denies/walks back the price-hike report; yields extend above 5.2% on a hot inflation print and hit long-duration tech; semis give back premarket gap. Hard stop 604.36 (-6%).",
+      "addedDate": "2026-09-25"
     }
   ]
 }
