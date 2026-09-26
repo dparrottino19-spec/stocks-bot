@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 9135.6,
-  "tradeDate": "2026-09-25",
-  "lastUpdated": "2026-09-25T10:44:00Z",
-  "nextRefresh": "2026-09-26T06:30:00-05:00",
+  "startingCapital": 8960.69,
+  "tradeDate": "2026-09-26",
+  "lastUpdated": "2026-09-26T10:45:00Z",
+  "nextRefresh": "2026-09-27T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -864.4,
+  "priorRealizedPnL": -1039.31,
   "positions": [
     {
-      "ticker": "AMD",
-      "name": "Advanced Micro Devices",
-      "sector": "Semiconductors \u2014 1x long single stock",
-      "shares": 14.209102,
-      "entry": 642.94,
-      "stopPrice": 604.36,
+      "ticker": "BTC-USD",
+      "name": "Bitcoin",
+      "sector": "Crypto \u2014 spot, 1x long",
+      "shares": 0.106503,
+      "entry": 84135.86,
+      "stopPrice": 75722.27,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Report that AMD notified customers of a ~10% chip price hike starting Q4 (TSMC cost pass-through, AI compute demand) \u2014 pricing-power/margin catalyst; stock +2.2% premarket (642.94 ask vs 629.26 close), extending a 3-session run. Nasdaq futures +0.4\u20130.6%, semis bid (SMH +1.2%, MU +1.2%), oil -2.3% on US\u2013Iran/Hormuz talk progress.",
-      "driver": "Stock-specific margin catalyst is less rate-dependent than a broad-index bet while the 10y sits at a 17-year high (5.19%). Not chasing: +2.2% vs >8% bar. 1x not 2x (AMDL +4%) because the price-hike report is unverified and yields are still rising into Friday data. Runners-up: AMDL (2x same thesis, too much gap risk on unverified report), SOXL (3x semis +4.1% pre \u2014 broad chase into yields), TSLA/TSLL (Roadster tease is Oct 1, weak near-term catalyst), SCO (oil -2.3% already moved), BTC spot (flat, 190bp spread).",
-      "risks": "AMD denies/walks back the price-hike report; yields extend above 5.2% on a hot inflation print and hit long-duration tech; semis give back premarket gap. Hard stop 604.36 (-6%).",
-      "addedDate": "2026-09-25"
+      "catalyst": "Weekend (US market closed) \u2192 spot crypto only. No fresh catalyst: BTC ~84.1k, -0.8% 24h, ETH/SOL/XRP/DOGE flat-to-down vs midnight open; total crypto cap ~$2.98T; Fear & Greed 74 (Greed). DeFi +3% but no liquid spot proxy on Robinhood.",
+      "driver": "Low-edge day \u2192 park in the lowest-vol, deepest-liquidity spot asset per rules. BTC dominance 56.5% and tightest relative book among majors; alts (SOL, ETH, XRP, DOGE) carry higher beta with no differentiated catalyst. Runners-up: ETH (flat, higher beta), SOL (flat, higher beta), XRP (-0.6% vs open, weak), DOGE (meme beta, no catalyst).",
+      "risks": "Weekend thin liquidity + macro overhang (10y at 17-yr high, US\u2013Iran headlines) can trigger a sharp weekend flush; greed reading (74) leaves room for a long-liquidation cascade. Robinhood MM spread ~1.9% is a real friction. Hard stop 75,722.27 (-10%).",
+      "addedDate": "2026-09-26"
     }
   ]
 }
