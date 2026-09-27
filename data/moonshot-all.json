@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8960.69,
-  "tradeDate": "2026-09-26",
-  "lastUpdated": "2026-09-26T10:45:00Z",
-  "nextRefresh": "2026-09-27T06:30:00-05:00",
+  "startingCapital": 9037.6,
+  "tradeDate": "2026-09-27",
+  "lastUpdated": "2026-09-27T10:45:00Z",
+  "nextRefresh": "2026-09-28T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -1039.31,
+  "priorRealizedPnL": -962.4,
   "positions": [
     {
-      "ticker": "BTC-USD",
-      "name": "Bitcoin",
+      "ticker": "SOL-USD",
+      "name": "Solana",
       "sector": "Crypto \u2014 spot, 1x long",
-      "shares": 0.106503,
-      "entry": 84135.86,
-      "stopPrice": 75722.27,
+      "shares": 72.919154,
+      "entry": 123.94,
+      "stopPrice": 111.55,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Weekend (US market closed) \u2192 spot crypto only. No fresh catalyst: BTC ~84.1k, -0.8% 24h, ETH/SOL/XRP/DOGE flat-to-down vs midnight open; total crypto cap ~$2.98T; Fear & Greed 74 (Greed). DeFi +3% but no liquid spot proxy on Robinhood.",
-      "driver": "Low-edge day \u2192 park in the lowest-vol, deepest-liquidity spot asset per rules. BTC dominance 56.5% and tightest relative book among majors; alts (SOL, ETH, XRP, DOGE) carry higher beta with no differentiated catalyst. Runners-up: ETH (flat, higher beta), SOL (flat, higher beta), XRP (-0.6% vs open, weak), DOGE (meme beta, no catalyst).",
-      "risks": "Weekend thin liquidity + macro overhang (10y at 17-yr high, US\u2013Iran headlines) can trigger a sharp weekend flush; greed reading (74) leaves room for a long-liquidation cascade. Robinhood MM spread ~1.9% is a real friction. Hard stop 75,722.27 (-10%).",
-      "addedDate": "2026-09-26"
+      "catalyst": "Sunday (US market closed) \u2192 spot crypto only. SOL is the relative-strength leader among majors: 123.94, +2.8% vs 120.59 midnight open (BTC +0.6%, ETH +0.5%, XRP +1.4%, DOGE +1.6%). Cleared the ~$120 ceiling that rejected it twice this month (Sep 21 high 117 \u2192 124 now); spot SOL ETF inflow streak ~12 weeks.",
+      "driver": "Breakout above well-watched resistance with institutional (ETF) bid underneath \u2192 asymmetric: next technical target ~$125-130 with $120 as retest support; stop well below. Sunday-evening CME open often extends weekend trends. Beat BTC (low-edge park, only +0.6%), DOGE (meme beta, no catalyst), XRP (lagging), ETH (weakest).",
+      "risks": "Weekend thin liquidity: a failed breakout back below $120 could flush fast; higher beta than BTC; macro overhang (10y yields ~17-yr high, US\u2013Iran headlines) into Monday open. Robinhood MM spread ~1.9%. Hard stop 111.55 (-10%).",
+      "addedDate": "2026-09-27"
     }
   ]
 }
