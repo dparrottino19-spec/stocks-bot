@@ -2,10 +2,10 @@
   "bookName": "Daily Trader",
   "inceptionDate": "2026-05-15",
   "inceptionCapital": 70000,
-  "startingCapital": 72272.97,
-  "tradeDate": "2026-09-25",
-  "lastUpdated": "2026-09-25T11:25:47Z",
-  "nextRefresh": "2026-09-28T07:09:00-05:00",
+  "startingCapital": 71889.26,
+  "tradeDate": "2026-09-28",
+  "lastUpdated": "2026-09-28T11:24:45Z",
+  "nextRefresh": "2026-09-29T07:09:00-05:00",
   "rules": [
     "Weekday 7am ET picks",
     "Per-pick exit rules",
@@ -13,7 +13,7 @@
     "1-week max hold",
     "<=4 names per sector"
   ],
-  "priorRealizedPnL": 2272.97,
+  "priorRealizedPnL": 1889.26,
   "positions": [
     {
       "ticker": "PSKY",
@@ -26,18 +26,6 @@
       "risks": "Settlement is subject to court approval and carries real cost: $300M+ per year of incremental US film production for five years, 30-32 movies annually, a three-year freeze on theater rate increases, a $47.5M worker fund and a news editorial-independence board over CBS and CNN. Tender/exchange offers for Discovery notes were extended to Oct 2 with only 66.87%/75.12% tendered as of Sept 18. Negative trailing earnings (PE -17.6).",
       "driver": "Final antitrust barrier to the $110B WBD close removed",
       "addedDate": "2026-09-22"
-    },
-    {
-      "ticker": "AMD",
-      "name": "Advanced Micro Devices",
-      "sector": "Electronic Technology",
-      "shares": 5,
-      "entry": 640.51,
-      "exitRule": "1-3 day swing",
-      "catalyst": "Broke out above its prior 52-week high of $630.80 Thursday (+2.4%) and is +1.8% pre-market to $640.51 on reports of ~10% price increases across AI chips/GPUs and analyst views that agentic AI (Meta Muse) could require far more CPUs per GPU; Anthropic's $11.6B CPU-centric Akamai deal reinforces the CPU-demand leg.",
-      "risks": "RSI ~73 and 23% above its 20-day SMA; 158x trailing PE; 10Y at a 17-year high 5.19% and ~69% odds of an October hike. Exit Wed 9/30 at the latest.",
-      "driver": "52-week-high breakout + CPU demand",
-      "addedDate": "2026-09-25"
     },
     {
       "ticker": "MU",
@@ -76,30 +64,6 @@
       "addedDate": "2026-09-25"
     },
     {
-      "ticker": "NET",
-      "name": "Cloudflare",
-      "sector": "Technology Services",
-      "shares": 9,
-      "entry": 363.69,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Sympathy with Akamai's $11.6B Anthropic distributed-cloud deal (AKAM +20% pre-market) - the closest listed peer in edge/distributed compute; also part of this week's cybersecurity rally. +1.4% pre-market to $363.69.",
-      "risks": "At a fresh 52-week high ($367.43 Thursday); sympathy moves often fade; thin pre-market book.",
-      "driver": "Akamai-Anthropic deal sympathy",
-      "addedDate": "2026-09-25"
-    },
-    {
-      "ticker": "META",
-      "name": "Meta Platforms",
-      "sector": "Technology Services",
-      "shares": 4,
-      "entry": 774.5,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Tigress Financial raised its PT to $995 from $945; stock is within 1% of a $2T market cap after +4.5% Thursday on Muse agent adoption (top free iPhone app three days running).",
-      "risks": "Flat pre-market (-0.4%) after a 17% weekly run; Michael Burry's warning on hyperscaler AI capex write-downs is in the headlines.",
-      "driver": "Tigress PT hike + $2T test",
-      "addedDate": "2026-09-25"
-    },
-    {
       "ticker": "PPLI",
       "name": "People Inc.",
       "sector": "Technology Services",
@@ -124,41 +88,125 @@
       "addedDate": "2026-09-25"
     },
     {
-      "ticker": "UAL",
-      "name": "United Airlines Holdings",
-      "sector": "Transportation",
-      "shares": 30,
-      "entry": 113.1,
-      "exitRule": "Overnight (next day open)",
-      "catalyst": "Iran's FM Araghchi offered to reopen the Strait of Hormuz within seven days if the US meets the Islamabad MOU conditions; WTI -1.9% to ~$92.8 and airlines are bid. +1.7% pre-market to $113.10.",
-      "risks": "Conditional offer - a US rejection would reverse crude; diesel/jet fuel at records. Held over the weekend (exit Monday open).",
-      "driver": "Crude -1.9% on Iran Hormuz offer",
-      "addedDate": "2026-09-25"
-    },
-    {
-      "ticker": "DAL",
-      "name": "Delta Air Lines",
-      "sector": "Transportation",
-      "shares": 41,
-      "entry": 83.75,
+      "ticker": "XOM",
+      "name": "Exxon Mobil",
+      "sector": "Energy Minerals",
+      "shares": 21,
+      "entry": 163.02,
       "exitRule": "Intraday - flat by close",
-      "catalyst": "Same Hormuz-reopening oil relief; +1.2% indicated (bid/ask 83.50/84.00). Entry at the pre-market midpoint $83.75.",
-      "risks": "Last pre-market trade stale (08:01Z); headline-driven crude.",
-      "driver": "Crude -1.9% on Iran Hormuz offer",
-      "addedDate": "2026-09-25"
+      "catalyst": "Trump rejected Iran's proposal to reopen the Strait of Hormuz over the weekend and WSJ reports he plans to resume bombing Iran after the Nov 3 midterms; WTI +4% to ~$96, Brent ~$108. XOM +1.5% pre-market to $163.02.",
+      "risks": "Headline-driven crude can reverse on any new Iran offer; 8% below the March high; broad tape risk-off.",
+      "driver": "Crude +4% on Trump rejecting Hormuz deal",
+      "addedDate": "2026-09-28"
     },
     {
-      "ticker": "CCL",
-      "name": "Carnival",
-      "sector": "Consumer Services",
-      "shares": 158,
-      "entry": 22.11,
+      "ticker": "CVX",
+      "name": "Chevron",
+      "sector": "Energy Minerals",
+      "shares": 16,
+      "entry": 207.66,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "Same crude spike (WTI +4%) after Trump rejected the Hormuz reopening proposal; CVX +1.6% pre-market to $207.66, within 5% of its Sept 15 52-week high of $217.78.",
+      "risks": "Same headline risk as XOM; energy fell Friday while the market rose.",
+      "driver": "Crude +4% on Trump rejecting Hormuz deal",
+      "addedDate": "2026-09-28"
+    },
+    {
+      "ticker": "OXY",
+      "name": "Occidental Petroleum",
+      "sector": "Energy Minerals",
+      "shares": 60,
+      "entry": 58.12,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Highest-beta large-cap E&P to the crude spike: WTI +4% on the halted US-Iran talks; OXY +2.2% pre-market to $58.12. Exit by Wed 9/30 close, -5% stop / +8% target.",
+      "risks": "Pure-play oil beta cuts both ways; any renewed Iran diplomacy would hit it hardest.",
+      "driver": "Crude +4% on Trump rejecting Hormuz deal",
+      "addedDate": "2026-09-28"
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "sector": "Energy Minerals",
+      "shares": 8,
+      "entry": 393.0,
       "exitRule": "Overnight (next day open)",
-      "catalyst": "Fuel-cost relief from the Iran Hormuz offer (WTI -1.9%); cruise lines fell on rates this week and CCL closed at a 52-week low of $21.45 Thursday. +1.5% pre-market to $22.11.",
-      "risks": "Buying at a 52-week low; high debt load and 5%+ yields; weekend headline risk.",
-      "driver": "Crude -1.9% on Iran Hormuz offer",
-      "addedDate": "2026-09-25"
+      "catalyst": "Refiners flagged as early leaders (Hammerstone) with Brent ~$108 and diesel/jet at records; VLO +1.5% pre-market to $393.00, 6% below its Sept 21 52-week high.",
+      "risks": "Rising crude input cost can squeeze cracks; wide pre-market spread (392.20/394.72).",
+      "driver": "Refiners bid on crude/product spike",
+      "addedDate": "2026-09-28"
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "sector": "Electronic Technology",
+      "shares": 15,
+      "entry": 227.4,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "China signaled its big tech companies may be allowed to buy Nvidia's new RTX Pro 5500 chips, and NVDA launched two open-source AI-agent security tools; +1.0% pre-market to $227.40 while Nasdaq futures are -1%.",
+      "risks": "Semis are rate-sensitive with the 10Y at 5.23% and ~70% odds of an October hike; China approval is only 'signaled'.",
+      "driver": "China RTX Pro 5500 access signal",
+      "addedDate": "2026-09-28"
+    },
+    {
+      "ticker": "TFX",
+      "name": "Teleflex",
+      "sector": "Health Technology",
+      "shares": 28,
+      "entry": 123.8,
+      "exitRule": "1-3 day swing",
+      "catalyst": "BofA's Craig Bijou upgraded TFX to Buy from Neutral and raised the PT to $158 from $145; +1.4% pre-market to $123.80. Exit by Wed 9/30 close.",
+      "risks": "Thin pre-market (last trade 11:06Z, 122.50/124.79 book); negative GAAP earnings; 15% below the August high.",
+      "driver": "BofA upgrade to Buy, PT $158",
+      "addedDate": "2026-09-28"
+    },
+    {
+      "ticker": "RCL",
+      "name": "Royal Caribbean Group",
+      "sector": "Consumer Services",
+      "shares": 14,
+      "entry": 244.16,
+      "exitRule": "Catalyst-defined",
+      "catalyst": "Deutsche Bank upgraded RCL to Buy from Hold (PT $299), citing the 26% pullback since Aug 5; stock bounced off a 52-week low ($222.22) set Sept 23. +0.6% pre-market to $244.16. EXIT TRIGGER: close on the reaction to Carnival's Q3 print (Tue 9/29 BMO), or by Wed 9/30 close.",
+      "risks": "Oil +4% is a direct fuel-cost headwind; Carnival consensus EPS was cut ~12% for fuel; peer read-through could be negative.",
+      "driver": "Deutsche Bank upgrade + CCL print read-through",
+      "addedDate": "2026-09-28"
+    },
+    {
+      "ticker": "PK",
+      "name": "Park Hotels & Resorts",
+      "sector": "Finance",
+      "shares": 217,
+      "entry": 16.1,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Raymond James double-upgraded PK to Strong Buy from Market Perform with a $19 PT. Quoted 15.70/16.50 pre-market; entry at the midpoint $16.10. Exit by Wed 9/30 close.",
+      "risks": "Very wide, thin pre-market book (last print $15.59 at 08:01Z); near its $16.20 52-week high; goes ex-dividend $0.25 on 9/30.",
+      "driver": "Raymond James double upgrade to Strong Buy",
+      "addedDate": "2026-09-28"
+    },
+    {
+      "ticker": "JEF",
+      "name": "Jefferies Financial Group",
+      "sector": "Finance",
+      "shares": 73,
+      "entry": 47.7,
+      "exitRule": "Catalyst-defined",
+      "catalyst": "Reports FQ3 after the close today (consensus $0.93 EPS on $2.17B revenue); investment-banking read-through from a busy M&A quarter (PSKY/WBD, AKAM/Anthropic, People/MGM). Entry $47.70 (last pre-market trade). EXIT TRIGGER: close at Tuesday's open after the print.",
+      "risks": "Binary earnings event; stock is 32% below its 52-week high with a weak trend; wide pre-market book (47.04/52.11).",
+      "driver": "FQ3 earnings after close today",
+      "addedDate": "2026-09-28"
+    },
+    {
+      "ticker": "LLY",
+      "name": "Eli Lilly",
+      "sector": "Health Technology",
+      "shares": 2,
+      "entry": 1185.81,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "FDA approved once-daily Olumiant (baricitinib) for patients 12+ with severe alopecia areata (announced Friday); defensive large-cap bid as the tape rotates out of growth. +0.2% pre-market to $1,185.81.",
+      "risks": "Modest label expansion, not a needle-mover on its own; 40x PE; 8% below the August high.",
+      "driver": "FDA pediatric alopecia approval + defensive rotation",
+      "addedDate": "2026-09-28"
     }
   ],
-  "note": "2026-09-25: closed 13 positions for -169.94 realized (P +148.77, SNX -246.36, XOM -49.14, COP -21.60, COST -38.07, BA -22.95, GE +34.43, NVDA +43.65, ADM -39.90, MSFT -26.76, RCL +51.66, PWR +57.95, BP -61.62). P/SNX intraday closed at Thursday SIP close; XOM/COP overnight at Friday pre-market; COST catalyst fired (FQ4 beat, stock -0.3%); BA/GE/NVDA/ADM catalyst fired (Trump-Xi readout: truce extended two months to Jan 10, no firm Boeing/engine/H200/ag deals); MSFT/RCL/PWR/BP closed on the Friday swing rule. Held: PSKY (no WBD close announced yet). 11 new positions, $36,769.75 deployed; total book deployment $40,264.60, cash $32,008.37. AKAM (Anthropic $11.6B deal, +20% pre-market) skipped: entry would be >15% above the verified close. All prices from the Robinhood real-time feed (11:09-11:25Z) with 52-week ranges from Robinhood fundamentals. Backdrop: futures S&P +0.3%, Nasdaq-100 +0.5%; 10Y 5.18%, CME ~69% odds of an October hike; WTI -1.9% ~$92.8 on Iran Hormuz offer; durable goods 8:30 ET, UMich 10:00 ET."
+  "note": "2026-09-28: closed 6 positions for -383.71 realized (NET -132.03, META -91.36, DAL +48.79 at Friday SIP close per intraday rule; UAL -54.30, CCL -34.76 at Monday pre-market per overnight rule; AMD -120.05 swing closed early as the $630.80 breakout failed). Held: PSKY (no WBD close yet), MU (exit by 9/30 close before print), P, BE, PPLI (no formal MGM bid yet; deadline Thu 10/1), TSLA (Roadster reveal 10/1). 10 new positions, $33,020.24 deployed; total book deployment $53,390.95, cash $18,498.31. Skipped KOD (+68% pre-market on pivotal wAMD data; >15% above verified close), LMT/FTAI (Electronic Technology sector cap; LMT flat pre-market), MP (critical-minerals WSJ story but -2% pre-market). All prices from the Robinhood real-time feed (~11:20Z) with 52-week ranges from Robinhood fundamentals. Backdrop: S&P futures -0.6%, Nasdaq -1.0%; Trump rejected Iran's Hormuz proposal, WTI +4% ~$96, Brent ~$108; 10Y 5.23%, ~70% odds of an October hike; gold -3%."
 }
