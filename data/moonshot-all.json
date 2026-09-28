@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 9037.6,
-  "tradeDate": "2026-09-27",
-  "lastUpdated": "2026-09-27T10:45:00Z",
-  "nextRefresh": "2026-09-28T06:30:00-05:00",
+  "startingCapital": 8643.11,
+  "tradeDate": "2026-09-28",
+  "lastUpdated": "2026-09-28T10:45:00Z",
+  "nextRefresh": "2026-09-29T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -962.4,
+  "priorRealizedPnL": -1356.89,
   "positions": [
     {
-      "ticker": "SOL-USD",
-      "name": "Solana",
-      "sector": "Crypto \u2014 spot, 1x long",
-      "shares": 72.919154,
-      "entry": 123.94,
-      "stopPrice": 111.55,
+      "ticker": "XOM",
+      "name": "Exxon Mobil",
+      "sector": "Energy \u2014 1x long single stock",
+      "shares": 52.863058,
+      "entry": 163.5,
+      "stopPrice": 153.69,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Sunday (US market closed) \u2192 spot crypto only. SOL is the relative-strength leader among majors: 123.94, +2.8% vs 120.59 midnight open (BTC +0.6%, ETH +0.5%, XRP +1.4%, DOGE +1.6%). Cleared the ~$120 ceiling that rejected it twice this month (Sep 21 high 117 \u2192 124 now); spot SOL ETF inflow streak ~12 weeks.",
-      "driver": "Breakout above well-watched resistance with institutional (ETF) bid underneath \u2192 asymmetric: next technical target ~$125-130 with $120 as retest support; stop well below. Sunday-evening CME open often extends weekend trends. Beat BTC (low-edge park, only +0.6%), DOGE (meme beta, no catalyst), XRP (lagging), ETH (weakest).",
-      "risks": "Weekend thin liquidity: a failed breakout back below $120 could flush fast; higher beta than BTC; macro overhang (10y yields ~17-yr high, US\u2013Iran headlines) into Monday open. Robinhood MM spread ~1.9%. Hard stop 111.55 (-10%).",
-      "addedDate": "2026-09-27"
+      "catalyst": "Brent +3.8% to ~$108 / WTI ~$96 after Trump rejected Iran's proposal to reopen the Strait of Hormuz; Houthi drones intercepted near Riyadh and Aramco areas. USO +4.5% premarket, but XOM only +1.8% (163.28 mid vs 160.59 close) and XLE +1.5% \u2014 producers lagging the crude move.",
+      "driver": "Risk-off Monday rotation out of tech/semis/metals (QQQ -1.0%, SOXL -6.8%, GLD -3%, SLV -4.7%) into energy. XOM is the liquid, low-beta way to own the oil shock with catch-up room vs crude; mega-cap balance sheet limits downside if the headline fades. Beat SOXS (+7% already \u2014 chasing), UCO (2x crude, +4.7% gapped, headline-reversal risk), SQQQ (3x, low conviction on a -1% tape), OXY (stale premarket book).",
+      "risks": "Headline whipsaw: any Hormuz de-escalation or Trump reversal could drop crude 5%+ in minutes. Buying a +1.8% gap. Broad market selloff could drag all equities. Hard stop 153.69 (-6%).",
+      "addedDate": "2026-09-28"
     }
   ]
 }
