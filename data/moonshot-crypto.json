@@ -2,10 +2,10 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 13913.017505,
-  "tradeDate": "2026-09-27",
-  "lastUpdated": "2026-09-27T10:53:00Z",
-  "nextRefresh": "2026-09-28T06:45:00-05:00",
+  "startingCapital": 593.338734,
+  "tradeDate": "2026-09-28",
+  "lastUpdated": "2026-09-28T10:52:00Z",
+  "nextRefresh": "2026-09-29T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Runs every day \u2014 crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 3913.017525,
+  "priorRealizedPnL": -9406.661246,
   "positions": [
     {
-      "ticker": "SOL",
-      "name": "Solana",
+      "ticker": "ETH",
+      "name": "Ethereum",
       "sector": "Crypto",
-      "shares": 112.210803,
-      "entry": 123.99,
-      "stopPrice": 111.59,
+      "shares": 0.223577,
+      "entry": 2653.84,
+      "stopPrice": 2441.53,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "DAY THIRTEEN. ROTATE BTC -> SOL: BTC FAILED THE RANK LEG. Sunday board vs Chicago midnight (Robinhood open_price): SOL +3.26%, AVAX +3.18%, DOGE +2.27%, ADA +2.26%, XRP +1.94%, ETH +0.67%, BTC +0.60%, LTC +0.28%. BTC held above 83K but ranked 7th of 8, so yesterday's defensive hold test fails. Board is broadly green and risk-on (Fear & Greed ~70), which favors beta over the majors. SOL leads and is the only leader with a named catalyst: clean break back above $120 (first since late January, now ~124), 12 straight weeks of US spot SOL ETF inflows (~$1.8B AUM), Alpenglow live on both testnets and 250ms slots since Sep 18. Definable stop under the $120 breakout / $112 area.",
-      "driver": "Closed BTC at 84818.87 (canonical feed, asOf 2026-09-27T10:51:47.115Z) vs entry 84,161.30: +657.57/BTC, +107.86 total (+0.78%) on 0.164032 BTC. Book rolls 13,805.15 -> 13,913.02 (+39.13% on inception).\n\nBOUGHT SOLANA at 123.99 (same call/asOf). 112.210803 SOL = $13,913.02 deployed, 100%. Stop 111.59 (-10%, higher-beta tier).\n\nRUNNERS-UP: AVAX (#2, +3.18%) nearly matches SOL's move but has no catalyst and a thinner book. DOGE/ADA (+2.3%) are pure beta. ETH (+0.67%) is the fallback major with ETF flows, but lags on a risk-on tape. BTC (#7) fails the rank test.\n\nCROSS-CHECK: Robinhood mark 124.06 vs canonical 123.99 (~6bp). Search used for narrative only.",
-      "risks": "SOL ETF inflows have slowed sharply week over week, so the flow bid is fading; the $120 breakout is only days old and Sunday liquidity is thin, so a failed retest could drop it back to 115-117 quickly. High-beta: a BTC flush below 83K would hit SOL harder.\n\nFRICTION: Robinhood spread ~190bp round-trip on SOL; the paper book does not charge it.\n\nTEST FOR TOMORROW: hold SOL only if it is TOP-THREE on the eight-name board AND holds above 120. STRUCTURAL INVALIDATION: loses 115. Hard stop 111.59 (-10%).",
-      "addedDate": "2026-09-27"
+      "catalyst": "DAY FOURTEEN. ROTATE SOL -> ETH: SOL FAILED BOTH LEGS. Monday board vs Chicago midnight (Robinhood open_price): LTC +1.39%, ETH -0.17%, XRP -0.45%, BTC -0.70%, SOL -1.21%, DOGE -1.32%, ADA -1.48%, AVAX -1.55%. SOL lost $120 and ranked 6th of 8, so yesterday's hold test fails. Board is red and beta is leaking (alts -1.2% to -1.6%) as BTC backs off $84K after last week's hawkish Fed hike to 4% and ahead of US jobs data; Bitget's ~$387M hack adds a sentiment overhang. Low-edge, risk-off-leaning tape -> default to the strongest liquid major. ETH is #2 overall and the best major (-0.17% vs BTC -0.70%), with ~$12B in US spot ETH ETF assets as a structural bid.",
+      "driver": "Closed SOL at 118.46 (canonical feed, asOf 2026-09-28T10:50:46.782Z) vs entry 123.99: -5.53/SOL, -12699.15 total (-4.46%) on 5.008777 SOL. Book rolls 13,292.49 -> 593.34 (-94.07% on inception).\n\nBOUGHT ETHEREUM at 2653.84 (same call/asOf). 0.223577 ETH = $593.34 deployed, 100%. Stop 2441.53 (-8%, major tier).\n\nRUNNERS-UP: LTC (#1, +1.39%) has the only green print and a real catalyst (record 175K LTC in ETFs on Sep 25) but just spiked ~16%, failed to hold $75, and futures OI jumped ~$270M in a week: crowded, liquidation-prone. BTC (-0.70%) is the other major but lags ETH. XRP (-0.45%) has no catalyst. SOL/AVAX/ADA/DOGE are the weakest on a red tape.\n\nCROSS-CHECK: Robinhood mark 2653.78 vs canonical 2653.84 (~0bp). Search used for narrative only.",
+      "risks": "ETH is picked for relative strength, not a fresh catalyst; exchange inflows point to near-term selling pressure. A hot jobs print this week could extend the post-Fed de-risking and drag ETH with BTC below 82K.\n\nFRICTION: Robinhood spread ~187bp round-trip on ETH; the paper book does not charge it.\n\nTEST FOR TOMORROW: hold ETH only if it is TOP-THREE on the eight-name board AND holds above 2,600. STRUCTURAL INVALIDATION: loses 2,550. Hard stop 2441.53 (-8%).",
+      "addedDate": "2026-09-28"
     }
   ]
 }
