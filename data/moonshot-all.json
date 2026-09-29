@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8643.11,
-  "tradeDate": "2026-09-28",
-  "lastUpdated": "2026-09-28T10:45:00Z",
-  "nextRefresh": "2026-09-29T06:30:00-05:00",
+  "startingCapital": 8563.82,
+  "tradeDate": "2026-09-29",
+  "lastUpdated": "2026-09-29T10:50:00Z",
+  "nextRefresh": "2026-09-30T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -1356.89,
+  "priorRealizedPnL": -1436.18,
   "positions": [
     {
-      "ticker": "XOM",
-      "name": "Exxon Mobil",
-      "sector": "Energy \u2014 1x long single stock",
-      "shares": 52.863058,
-      "entry": 163.5,
-      "stopPrice": 153.69,
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "sector": "Semiconductors \u2014 1x long single stock",
+      "shares": 37.103332,
+      "entry": 230.81,
+      "stopPrice": 216.96,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Brent +3.8% to ~$108 / WTI ~$96 after Trump rejected Iran's proposal to reopen the Strait of Hormuz; Houthi drones intercepted near Riyadh and Aramco areas. USO +4.5% premarket, but XOM only +1.8% (163.28 mid vs 160.59 close) and XLE +1.5% \u2014 producers lagging the crude move.",
-      "driver": "Risk-off Monday rotation out of tech/semis/metals (QQQ -1.0%, SOXL -6.8%, GLD -3%, SLV -4.7%) into energy. XOM is the liquid, low-beta way to own the oil shock with catch-up room vs crude; mega-cap balance sheet limits downside if the headline fades. Beat SOXS (+7% already \u2014 chasing), UCO (2x crude, +4.7% gapped, headline-reversal risk), SQQQ (3x, low conviction on a -1% tape), OXY (stale premarket book).",
-      "risks": "Headline whipsaw: any Hormuz de-escalation or Trump reversal could drop crude 5%+ in minutes. Buying a +1.8% gap. Broad market selloff could drag all equities. Hard stop 153.69 (-6%).",
-      "addedDate": "2026-09-28"
+      "catalyst": "Semis rebounding premarket after Monday's risk-off flush (SOXL -6.8% Mon, now +1.9% pre; MU +1.6%, NVTS +11%); NVDA +0.85% pre (230.81 ask vs 228.86 close). Oil fading (USO -1%, XOM -0.3%) removes Monday's rotation-into-energy bid.",
+      "driver": "Low-edge, flat index tape (SPY/QQQ ~flat) with JOLTS + Conf. Board confidence at 10am ET and 10Y at a 19-yr high 5.27% \u2192 no conviction for leverage. NVDA 1x is the liquid, lower-vol way to own a mean-reversion bounce in the AI/semis complex. Beat SOXL (3x into a yield spike \u2014 too much gap risk), MU (+1.6% at ~$1,071, far higher vol), SMMT (+24% gap \u2014 chasing), XOM hold (oil fading).",
+      "risks": "Hot JOLTS/confidence \u2192 yields spike further, hitting long-duration tech; Hormuz headline escalation re-ignites risk-off. Hard stop 216.96 (-6%).",
+      "addedDate": "2026-09-29"
     }
   ]
 }
