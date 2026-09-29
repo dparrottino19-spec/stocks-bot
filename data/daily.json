@@ -2,10 +2,10 @@
   "bookName": "Daily Trader",
   "inceptionDate": "2026-05-15",
   "inceptionCapital": 70000,
-  "startingCapital": 71889.26,
-  "tradeDate": "2026-09-28",
-  "lastUpdated": "2026-09-28T11:24:45Z",
-  "nextRefresh": "2026-09-29T07:09:00-05:00",
+  "startingCapital": 71342.55,
+  "tradeDate": "2026-09-29",
+  "lastUpdated": "2026-09-29T11:26:04Z",
+  "nextRefresh": "2026-09-30T07:09:00-05:00",
   "rules": [
     "Weekday 7am ET picks",
     "Per-pick exit rules",
@@ -13,7 +13,7 @@
     "1-week max hold",
     "<=4 names per sector"
   ],
-  "priorRealizedPnL": 1889.26,
+  "priorRealizedPnL": 1342.55,
   "positions": [
     {
       "ticker": "PSKY",
@@ -76,78 +76,6 @@
       "addedDate": "2026-09-25"
     },
     {
-      "ticker": "TSLA",
-      "name": "Tesla",
-      "sector": "Consumer Durables",
-      "shares": 9,
-      "entry": 382.04,
-      "exitRule": "Catalyst-defined",
-      "catalyst": "Launched high-volume Semi production at a Nevada plant (50,000/yr target; ZET Scale initial 2,500-truck order, Einride 500) and teased the Roadster reveal for next week. +1.1% pre-market to $382.04. EXIT TRIGGER: close at the Oct 1 Roadster reveal.",
-      "risks": "Cox sees Q3 US sales -31% y/y and Q3 deliveries land around Oct 2; 353x PE.",
-      "driver": "Semi volume production + Oct 1 Roadster reveal",
-      "addedDate": "2026-09-25"
-    },
-    {
-      "ticker": "XOM",
-      "name": "Exxon Mobil",
-      "sector": "Energy Minerals",
-      "shares": 21,
-      "entry": 163.02,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Trump rejected Iran's proposal to reopen the Strait of Hormuz over the weekend and WSJ reports he plans to resume bombing Iran after the Nov 3 midterms; WTI +4% to ~$96, Brent ~$108. XOM +1.5% pre-market to $163.02.",
-      "risks": "Headline-driven crude can reverse on any new Iran offer; 8% below the March high; broad tape risk-off.",
-      "driver": "Crude +4% on Trump rejecting Hormuz deal",
-      "addedDate": "2026-09-28"
-    },
-    {
-      "ticker": "CVX",
-      "name": "Chevron",
-      "sector": "Energy Minerals",
-      "shares": 16,
-      "entry": 207.66,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Same crude spike (WTI +4%) after Trump rejected the Hormuz reopening proposal; CVX +1.6% pre-market to $207.66, within 5% of its Sept 15 52-week high of $217.78.",
-      "risks": "Same headline risk as XOM; energy fell Friday while the market rose.",
-      "driver": "Crude +4% on Trump rejecting Hormuz deal",
-      "addedDate": "2026-09-28"
-    },
-    {
-      "ticker": "OXY",
-      "name": "Occidental Petroleum",
-      "sector": "Energy Minerals",
-      "shares": 60,
-      "entry": 58.12,
-      "exitRule": "1-3 day swing",
-      "catalyst": "Highest-beta large-cap E&P to the crude spike: WTI +4% on the halted US-Iran talks; OXY +2.2% pre-market to $58.12. Exit by Wed 9/30 close, -5% stop / +8% target.",
-      "risks": "Pure-play oil beta cuts both ways; any renewed Iran diplomacy would hit it hardest.",
-      "driver": "Crude +4% on Trump rejecting Hormuz deal",
-      "addedDate": "2026-09-28"
-    },
-    {
-      "ticker": "VLO",
-      "name": "Valero Energy",
-      "sector": "Energy Minerals",
-      "shares": 8,
-      "entry": 393.0,
-      "exitRule": "Overnight (next day open)",
-      "catalyst": "Refiners flagged as early leaders (Hammerstone) with Brent ~$108 and diesel/jet at records; VLO +1.5% pre-market to $393.00, 6% below its Sept 21 52-week high.",
-      "risks": "Rising crude input cost can squeeze cracks; wide pre-market spread (392.20/394.72).",
-      "driver": "Refiners bid on crude/product spike",
-      "addedDate": "2026-09-28"
-    },
-    {
-      "ticker": "NVDA",
-      "name": "NVIDIA",
-      "sector": "Electronic Technology",
-      "shares": 15,
-      "entry": 227.4,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "China signaled its big tech companies may be allowed to buy Nvidia's new RTX Pro 5500 chips, and NVDA launched two open-source AI-agent security tools; +1.0% pre-market to $227.40 while Nasdaq futures are -1%.",
-      "risks": "Semis are rate-sensitive with the 10Y at 5.23% and ~70% odds of an October hike; China approval is only 'signaled'.",
-      "driver": "China RTX Pro 5500 access signal",
-      "addedDate": "2026-09-28"
-    },
-    {
       "ticker": "TFX",
       "name": "Teleflex",
       "sector": "Health Technology",
@@ -184,29 +112,125 @@
       "addedDate": "2026-09-28"
     },
     {
-      "ticker": "JEF",
-      "name": "Jefferies Financial Group",
+      "ticker": "KMX",
+      "name": "CarMax",
+      "sector": "Retail Trade",
+      "shares": 58,
+      "entry": 59.85,
+      "exitRule": "1-3 day swing",
+      "catalyst": "FQ2 blowout (reported 9/29 BMO): EPS $1.16 vs ~$0.70 est, revenue +19.5% to $7.9B, comparable-store used units +13.0%. +5.8% pre-market to $59.85. Exit by Thu 10/1 close; -5% stop / +8% target.",
+      "risks": "GPU per retail unit fell $111 on pricing actions (margin-for-volume trade); options implied ~12% move so gap can fade; 8% below the Aug 52-week high.",
+      "driver": "FQ2 EPS/comps beat",
+      "addedDate": "2026-09-29"
+    },
+    {
+      "ticker": "AIR",
+      "name": "AAR Corp",
+      "sector": "Electronic Technology",
+      "shares": 28,
+      "entry": 121.58,
+      "exitRule": "1-3 day swing",
+      "catalyst": "FQ1 beat after the close 9/28: adj EPS $1.49 vs $1.29-1.30 est, sales +24% to $918M, strong Q2 sales outlook plus deal to take control of MRO Holdings. +5.6% pre-market; entry at book midpoint $121.58. Exit by Thu 10/1 close; -5% stop / +8% target.",
+      "risks": "Thin, wide pre-market book (120.10/123.06, last print $123.97 at 11:12Z); legacy programs could clip margins; 21% below the Aug high.",
+      "driver": "FQ1 beat + guide + MRO Holdings deal",
+      "addedDate": "2026-09-29"
+    },
+    {
+      "ticker": "CVNA",
+      "name": "Carvana",
+      "sector": "Retail Trade",
+      "shares": 57,
+      "entry": 61.29,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "Read-through from CarMax's +13% comparable used-unit growth (strong used-car demand); +1.4% pre-market to $61.29 after Monday's -6% drop.",
+      "risks": "Read-through, not own news; KMX gained share via price cuts which could be a competitive negative; high-beta.",
+      "driver": "KMX used-car demand read-through",
+      "addedDate": "2026-09-29"
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Netflix",
+      "sector": "Technology Services",
+      "shares": 49,
+      "entry": 70.05,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "Deutsche Bank's Bryan Kraft upgraded NFLX to Buy from Hold (PT $95, ~35% upside). +1.2% pre-market to $70.05.",
+      "risks": "PT was cut to $95 from $100 alongside the upgrade; stock 44% below its 52-week high with weak trend.",
+      "driver": "Deutsche Bank upgrade to Buy",
+      "addedDate": "2026-09-29"
+    },
+    {
+      "ticker": "HOOD",
+      "name": "Robinhood Markets",
       "sector": "Finance",
-      "shares": 73,
-      "entry": 47.7,
-      "exitRule": "Catalyst-defined",
-      "catalyst": "Reports FQ3 after the close today (consensus $0.93 EPS on $2.17B revenue); investment-banking read-through from a busy M&A quarter (PSKY/WBD, AKAM/Anthropic, People/MGM). Entry $47.70 (last pre-market trade). EXIT TRIGGER: close at Tuesday's open after the print.",
-      "risks": "Binary earnings event; stock is 32% below its 52-week high with a weak trend; wide pre-market book (47.04/52.11).",
-      "driver": "FQ3 earnings after close today",
-      "addedDate": "2026-09-28"
+      "shares": 29,
+      "entry": 118.19,
+      "exitRule": "1-3 day swing",
+      "catalyst": "BTIG raised its PT to $135 from $125 (Buy) after September month-to-date metrics: crypto volume tracking best month since Feb, event contracts ~$5.5B, ~$267B equity notional. +1.5% pre-market to $118.19. Exit by Thu 10/1 close; -5% stop / +8% target.",
+      "risks": "High beta to crypto and rates; 23% below the 52-week high; Q3 print still weeks away so the PT hike may already be priced.",
+      "driver": "BTIG PT hike on Sept metrics",
+      "addedDate": "2026-09-29"
     },
     {
       "ticker": "LLY",
       "name": "Eli Lilly",
       "sector": "Health Technology",
       "shares": 2,
-      "entry": 1185.81,
+      "entry": 1186.35,
       "exitRule": "Intraday - flat by close",
-      "catalyst": "FDA approved once-daily Olumiant (baricitinib) for patients 12+ with severe alopecia areata (announced Friday); defensive large-cap bid as the tape rotates out of growth. +0.2% pre-market to $1,185.81.",
-      "risks": "Modest label expansion, not a needle-mover on its own; 40x PE; 8% below the August high.",
-      "driver": "FDA pediatric alopecia approval + defensive rotation",
-      "addedDate": "2026-09-28"
+      "catalyst": "New indirect comparison: oral GLP-1 Foundayo (orforglipron) 17.2 mg showed greater weight loss and A1C reduction than oral semaglutide 25 mg in T2D adults; lands the same morning Novo pays $300M for a Chinese oral GLP-1. +0.1% pre-market to $1,186.35.",
+      "risks": "Indirect (not head-to-head) comparison; muted pre-market reaction; 40x PE.",
+      "driver": "Foundayo vs oral semaglutide data",
+      "addedDate": "2026-09-29"
+    },
+    {
+      "ticker": "UAL",
+      "name": "United Airlines",
+      "sector": "Transportation",
+      "shares": 31,
+      "entry": 112.6,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "Oil reversing lower (WTI -0.6% to ~$92, Brent ~$105) and yields easing as mediators work a US-Iran deal to reopen Hormuz; UAL also accelerating the Starlink Wi-Fi rollout. +1.0% pre-market to $112.60.",
+      "risks": "Pure headline trade - any breakdown in Iran talks re-spikes jet fuel; 19% below the June high.",
+      "driver": "Crude pullback on renewed US-Iran talks",
+      "addedDate": "2026-09-29"
+    },
+    {
+      "ticker": "NKE",
+      "name": "Nike",
+      "sector": "Consumer Non-Durables",
+      "shares": 95,
+      "entry": 36.53,
+      "exitRule": "Catalyst-defined",
+      "catalyst": "Pre-earnings setup into FQ1 results Thu Oct 1 after the close; Jefferies is betting on the recovery and sees a Q1 beat; stock sits at its 52-week low (35.22 on 9/25) with a 4.6% yield. EXIT TRIGGER: close by the Oct 1 close, before the print.",
+      "risks": "Stock heading for another red month; tariff/China exposure; weak trend could keep grinding lower into the print.",
+      "driver": "Pre-earnings setup (FQ1 on 10/1)",
+      "addedDate": "2026-09-29"
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir Technologies",
+      "sector": "Technology Services",
+      "shares": 18,
+      "entry": 187.93,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "White House AI summit today: Trump and Speaker Johnson host Alex Karp, Jensen Huang and Dario Amodei on regulation, infrastructure spend and national security - a direct policy/defense-AI catalyst for PLTR. $187.93 pre-market.",
+      "risks": "Summit could produce restrictive AI-safety headlines; 161x PE; rate-sensitive growth tape with 10Y near 5.2%.",
+      "driver": "White House AI executive summit",
+      "addedDate": "2026-09-29"
+    },
+    {
+      "ticker": "HUM",
+      "name": "Humana",
+      "sector": "Health Services",
+      "shares": 9,
+      "entry": 388.01,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Setup into the Oct 8 Medicare Advantage Star ratings after Barclays upgraded to Overweight (PT $515 from $407) on 9/25 expecting better Stars/bonus payments; pulled back 2.5% Monday to $389.63, entry $388.01 (last pre-market print). Exit by Fri 10/2 close; -5% stop / +8% target.",
+      "risks": "Thin pre-market (last print 05:35Z, 384.45/397.20 book); Stars outcome lands after our exit window; stock +60% YTD.",
+      "driver": "Barclays upgrade + Star ratings setup",
+      "addedDate": "2026-09-29"
     }
   ],
-  "note": "2026-09-28: closed 6 positions for -383.71 realized (NET -132.03, META -91.36, DAL +48.79 at Friday SIP close per intraday rule; UAL -54.30, CCL -34.76 at Monday pre-market per overnight rule; AMD -120.05 swing closed early as the $630.80 breakout failed). Held: PSKY (no WBD close yet), MU (exit by 9/30 close before print), P, BE, PPLI (no formal MGM bid yet; deadline Thu 10/1), TSLA (Roadster reveal 10/1). 10 new positions, $33,020.24 deployed; total book deployment $53,390.95, cash $18,498.31. Skipped KOD (+68% pre-market on pivotal wAMD data; >15% above verified close), LMT/FTAI (Electronic Technology sector cap; LMT flat pre-market), MP (critical-minerals WSJ story but -2% pre-market). All prices from the Robinhood real-time feed (~11:20Z) with 52-week ranges from Robinhood fundamentals. Backdrop: S&P futures -0.6%, Nasdaq -1.0%; Trump rejected Iran's Hormuz proposal, WTI +4% ~$96, Brent ~$108; 10Y 5.23%, ~70% odds of an October hike; gold -3%."
+  "note": "2026-09-29: closed 8 positions for -546.71 realized (XOM -10.50, CVX -20.64, NVDA +21.90, LLY -2.06, VLO -91.12, JEF -80.30, OXY -154.20, TSLA -209.79). Intraday names flat at Monday SIP close; VLO/JEF/OXY/TSLA at Tuesday pre-market last prints (OXY: crude catalyst reversed; TSLA: -6% stop). Held: PSKY (judge wanted responses by 9/29; no close yet), MU (exit by 9/30 close pre-print), P, BE, TFX, PK (swings, exit by 9/30), PPLI (MGM deadline 10/1), RCL (CCL Q3 not yet out at run time). 10 new positions, $33,437.51 deployed; total book deployment $60,748.20, cash $10,594.35. Skipped SMMT (+18% pre-market on AZN $2B investment; >15% above verified close), NVTS (+10% on Army ALATTIS award; Electronic Technology sector cap), FICO (-18% pre-market, long-only), GS/AZN (low-impact catalysts), LBRT (Monday upgrade already faded, no pre-market liquidity). All prices from Robinhood real-time feed (~11:25Z). Backdrop: futures flat, WTI -0.6% ~$92 on renewed US-Iran mediation, 10Y easing from 5.23%; JOLTS + Conference Board confidence today; White House AI summit."
 }
