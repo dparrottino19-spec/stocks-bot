@@ -3,17 +3,31 @@
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
   "startingCapital": 6164.05,
-  "tradeDate": "2026-09-28",
-  "lastUpdated": "2026-09-28T10:47:00Z",
-  "nextRefresh": "2026-09-29T06:35:00-05:00",
+  "tradeDate": "2026-09-29",
+  "lastUpdated": "2026-09-29T10:47:00Z",
+  "nextRefresh": "2026-09-30T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
-    "US equities only — no ETFs, crypto, or options",
-    "Rotate each weekday 6:35am CT run — sell prior, buy today's best",
+    "US equities only \u2014 no ETFs, crypto, or options",
+    "Rotate each weekday 6:35am CT run \u2014 sell prior, buy today's best",
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
   "priorRealizedPnL": -3835.95,
-  "positions": []
+  "positions": [
+    {
+      "ticker": "KMX",
+      "name": "CarMax, Inc.",
+      "sector": "Consumer Discretionary \u2014 Auto Retail",
+      "shares": 105.368376,
+      "entry": 58.5,
+      "stopPrice": 54.41,
+      "exitRule": "Rotate next weekday 6:35am CT run",
+      "catalyst": "FQ2 FY27 blowout (reported 6:50am ET Sep 29): EPS $1.16 vs ~$0.68-0.73 consensus (+81% y/y), revenue $7.88B vs ~$7.03B (+19.5%), comp used units +13.0%, CAF income +32%, SG&A/unit -8.8%, buybacks resuming in Q3, Strategic Update Nov 3.",
+      "driver": "Under-reaction: a ~60% EPS beat and double-digit comps with the stock only +3.5% pre-market ($58.50 vs $56.55 close) \u2014 room for post-call follow-through and short covering in a beaten-down turnaround name.",
+      "risks": "Retail GPU fell $111/unit (growth bought with price cuts) \u2014 the 8am ET call could pivot the narrative to margins; wide pre-market book (57.50/58.60); weak tape (Dow -347 Mon, 10Y ~5.2%, Fed-hike chatter) hits rate-sensitive auto lenders. Hard stop $54.41 (-7%), below Monday's close.",
+      "addedDate": "2026-09-29"
+    }
+  ]
 }
