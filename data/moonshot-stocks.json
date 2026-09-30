@@ -2,10 +2,10 @@
   "bookName": "Moonshot Stocks",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 6164.05,
-  "tradeDate": "2026-09-29",
-  "lastUpdated": "2026-09-29T10:47:00Z",
-  "nextRefresh": "2026-09-30T06:35:00-05:00",
+  "startingCapital": 6216.73,
+  "tradeDate": "2026-09-30",
+  "lastUpdated": "2026-09-30T10:46:00Z",
+  "nextRefresh": "2026-10-01T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -14,20 +14,20 @@
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
-  "priorRealizedPnL": -3835.95,
+  "priorRealizedPnL": -3783.27,
   "positions": [
     {
-      "ticker": "KMX",
-      "name": "CarMax, Inc.",
-      "sector": "Consumer Discretionary \u2014 Auto Retail",
-      "shares": 105.368376,
-      "entry": 58.5,
-      "stopPrice": 54.41,
+      "ticker": "BA",
+      "name": "The Boeing Company",
+      "sector": "Aerospace & Defense",
+      "shares": 32.282962,
+      "entry": 192.57,
+      "stopPrice": 181.02,
       "exitRule": "Rotate next weekday 6:35am CT run",
-      "catalyst": "FQ2 FY27 blowout (reported 6:50am ET Sep 29): EPS $1.16 vs ~$0.68-0.73 consensus (+81% y/y), revenue $7.88B vs ~$7.03B (+19.5%), comp used units +13.0%, CAF income +32%, SG&A/unit -8.8%, buybacks resuming in Q3, Strategic Update Nov 3.",
-      "driver": "Under-reaction: a ~60% EPS beat and double-digit comps with the stock only +3.5% pre-market ($58.50 vs $56.55 close) \u2014 room for post-call follow-through and short covering in a beaten-down turnaround name.",
-      "risks": "Retail GPU fell $111/unit (growth bought with price cuts) \u2014 the 8am ET call could pivot the narrative to margins; wide pre-market book (57.50/58.60); weak tape (Dow -347 Mon, 10Y ~5.2%, Fed-hike chatter) hits rate-sensitive auto lenders. Hard stop $54.41 (-7%), below Monday's close.",
-      "addedDate": "2026-09-29"
+      "catalyst": "Won the U.S. Navy F/A-XX next-generation carrier stealth fighter development contract (>$20B), beating Northrop Grumman \u2014 announced after Tuesday's close. NOC -4.3% pre-market confirms the read-through.",
+      "driver": "Fresh, unambiguous multi-decade defense franchise win on a liquid mega-cap trading near its 52-week low ($176.77; high $254.35). Only +2.6% pre-market ($192.57 vs $187.68 close) \u2014 room for day-1 institutional follow-through, and pairs with the F-47 win to re-rate BDS.",
+      "risks": "Fixed-price development contracts have burned BDS before (KC-46, T-7) \u2014 bears may frame it as margin risk; macro tape shaky (10Y ~5.2%, Fed-hike chatter); gap could fade into the open. Hard stop $181.02 (-6%), below Tuesday's $185.26 open.",
+      "addedDate": "2026-09-30"
     }
   ]
 }
