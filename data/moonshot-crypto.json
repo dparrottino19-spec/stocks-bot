@@ -2,10 +2,10 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 13575.637928,
-  "tradeDate": "2026-09-29",
-  "lastUpdated": "2026-09-29T10:53:00Z",
-  "nextRefresh": "2026-09-30T06:45:00-05:00",
+  "startingCapital": 13488.585384,
+  "tradeDate": "2026-09-30",
+  "lastUpdated": "2026-09-30T10:55:00Z",
+  "nextRefresh": "2026-10-01T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Runs every day \u2014 crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 3575.637948,
+  "priorRealizedPnL": 3488.585404,
   "positions": [
     {
-      "ticker": "ETH",
-      "name": "Ethereum",
+      "ticker": "XRP",
+      "name": "XRP",
       "sector": "Crypto",
-      "shares": 5.008777,
-      "entry": 2710.37,
-      "stopPrice": 2493.54,
+      "shares": 8918.072981,
+      "entry": 1.5125,
+      "stopPrice": 1.3613,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "DAY FIFTEEN. RE-ENTER ETH: price leg passed (2,710 > 2,600), rank leg narrowly missed (#4 of 8, 0.38pt behind DOGE) but the three names ahead are high-beta alts, and ETH is still the best major. Tuesday board vs Chicago midnight (Robinhood open_price): AVAX +10.10%, ADA +3.29%, DOGE +2.03%, ETH +1.65%, SOL +1.51%, XRP +1.39%, LTC +1.33%, BTC +1.02%. Green board (85% of coins up, Fear&Greed 73). ETH is #1 among majors, beat BTC again, held well above 2,600 (now 2,710). Relative strength vs BTC is persisting for a second day and the ~$12B spot ETH ETF base is a structural bid.",
-      "driver": "Closed ETH at 2710.37 (canonical feed, asOf 2026-09-29T10:51:06.050Z) vs entry 2653.84: +56.53/ETH, +283.15 total (+2.13%) on 5.008777 ETH. Book rolls 13,292.49 -> 13,575.64 (+35.76% on inception).\n\nRE-BOUGHT ETHEREUM at 2710.37 (same call/asOf). 5.008777 ETH = $13,575.64 deployed, 100%. Stop 2493.54 (-8%, major tier).\n\nRUNNERS-UP: AVAX (#1, +10.1% overnight, ~+24%/24h, +20% on the week) has a real catalyst (Helicon upgrade shortening staking lock-ups) but is a vertical, extended move after a 60% 90-day run: poor asymmetry for a 24h hold, 10-12% stop would sit inside normal noise. ADA (+3.3%) no named catalyst. DOGE (+2.03%, #3) is meme beta with no catalyst. BTC (+1.02%) lagging ETH. SOL (+1.51%) still below $120.\n\nCROSS-CHECK: Robinhood mark 2711.01 vs canonical 2710.37 (~2bp). Search used for narrative only.",
-      "risks": "Rotation into high-beta alts (AVAX, ADA) could see ETH lag if risk-on extends; conversely a hot US jobs print this week or Iran-headline risk could reverse the green tape. BTC dominance slipping helps ETH but also alts more.\n\nFRICTION: Robinhood spread ~189bp round-trip on ETH; the paper book does not charge it.\n\nTEST FOR TOMORROW: hold ETH only if it is TOP-THREE on the eight-name board AND holds above 2,650. STRUCTURAL INVALIDATION: loses 2,600. Hard stop 2493.54 (-8%).",
-      "addedDate": "2026-09-29"
+      "catalyst": "DAY SIXTEEN. ROTATE ETH -> XRP. ETH failed yesterday's hold test (needed top-three; finished #4 of 8, +0.90%). XRP is #3 on the Wednesday board and is the only name with a DATED catalyst today: the Evernorth shareholder vote (Sept 30) that would take the XRP treasury company public on Nasdaq as 'XRPN' holding ~473M XRP, which is a new structural bid. Board vs Chicago midnight (Robinhood open_price): DOGE +1.97%, ADA +1.77%, XRP +1.31%, ETH +0.90%, SOL +0.88%, BTC +0.86%, LTC +0.57%, AVAX -0.78%.",
+      "driver": "Closed ETH at 2692.99 (canonical feed, asOf 2026-09-30T10:51:01.895Z) vs entry 2710.37: -17.38/ETH, -87.05 total (-0.64%) on 5.008777 ETH. Book rolls 13,575.64 -> 13,488.59 (+34.89% on inception).\n\nBOUGHT XRP at 1.5125 (same call/asOf). 8918.072981 XRP = $13,488.59 deployed, 100%. Stop 1.3613 (-10%, large-cap alt tier).\n\nRUNNERS-UP: DOGE (#1, +1.97%) is meme beta pinned under $0.10 resistance; its record-but-tiny $2.9M ETF inflow is not a 24h catalyst. ADA (#2, +1.77%) consolidating below $0.26; cbADA-on-Solana is minor. ETH (#4) best major but lost the rank test and spot ETH ETF inflows slowed to $17M from $87M. BTC (+0.86%) stuck in 82-85K range after rejecting 87K; the low-edge default, but no catalyst.\n\nCROSS-CHECK: Robinhood mark 1.51268 vs canonical 1.5125 (~1bp). Search used for narrative only.",
+      "risks": "Sell-the-news if the Evernorth vote passes (or a delay/fail) could reverse the bid. Overhang: ~$83M of stolen XRP moved to unfreezable wallets Sept 28 (potential dump supply). Tape is low-edge (all moves under 2%); BTC losing 82K support would drag everything.\n\nFRICTION: Robinhood spread ~191bp round-trip on XRP; the paper book does not charge it.\n\nTEST FOR TOMORROW: hold XRP only if TOP-THREE on the eight-name board AND above 1.50. STRUCTURAL INVALIDATION: loses 1.45. Hard stop 1.3613 (-10%).",
+      "addedDate": "2026-09-30"
     }
   ]
 }
