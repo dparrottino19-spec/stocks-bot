@@ -2,10 +2,10 @@
   "bookName": "Daily Trader",
   "inceptionDate": "2026-05-15",
   "inceptionCapital": 70000,
-  "startingCapital": 71342.55,
-  "tradeDate": "2026-09-29",
-  "lastUpdated": "2026-09-29T11:26:04Z",
-  "nextRefresh": "2026-09-30T07:09:00-05:00",
+  "startingCapital": 71532.16,
+  "tradeDate": "2026-09-30",
+  "lastUpdated": "2026-09-30T11:26:43Z",
+  "nextRefresh": "2026-10-01T07:09:00-05:00",
   "rules": [
     "Weekday 7am ET picks",
     "Per-pick exit rules",
@@ -13,20 +13,8 @@
     "1-week max hold",
     "<=4 names per sector"
   ],
-  "priorRealizedPnL": 1342.55,
+  "priorRealizedPnL": 1532.16,
   "positions": [
-    {
-      "ticker": "PSKY",
-      "name": "Paramount Skydance",
-      "sector": "Consumer Services",
-      "shares": 345,
-      "entry": 10.13,
-      "exitRule": "Catalyst-defined",
-      "catalyst": "Settled the 12-state AG antitrust suit AND the Writers Guild suit on Sept 21 - the only two remaining barriers to closing the $110B Warner Bros. Discovery acquisition (EU and UK already cleared). Paramount said earlier this month all other closing conditions were satisfied. PSKY FELL 2.9% Monday while WBD rose 11%, so the acquirer has not repriced. +2.22% pre-market. EXIT TRIGGER: close on announcement of deal completion, or on any court refusing to approve the consent decree.",
-      "risks": "Settlement is subject to court approval and carries real cost: $300M+ per year of incremental US film production for five years, 30-32 movies annually, a three-year freeze on theater rate increases, a $47.5M worker fund and a news editorial-independence board over CBS and CNN. Tender/exchange offers for Discovery notes were extended to Oct 2 with only 66.87%/75.12% tendered as of Sept 18. Negative trailing earnings (PE -17.6).",
-      "driver": "Final antitrust barrier to the $110B WBD close removed",
-      "addedDate": "2026-09-22"
-    },
     {
       "ticker": "MU",
       "name": "Micron Technology",
@@ -37,30 +25,6 @@
       "catalyst": "Pre-earnings run into FQ4 results after the close Wed Sept 30; +1.4% pre-market to $1,095.60 with the semi group leading futures. EXIT TRIGGER: close by the Sept 30 close, before the print.",
       "risks": "Trades 13% below its June high of $1,255; memory is cyclical and the stock is widely owned into the print. Semis are rate-sensitive.",
       "driver": "Pre-earnings setup (FQ4 on 9/30)",
-      "addedDate": "2026-09-25"
-    },
-    {
-      "ticker": "P",
-      "name": "Everpure",
-      "sector": "Electronic Technology",
-      "shares": 27,
-      "entry": 126.35,
-      "exitRule": "1-3 day swing",
-      "catalyst": "Day 2 after the FY28 outlook ($7.0-7.3B revenue, above consensus): Piper Sandler raised its PT to $162 from $133. Stock closed +11% at $121.88 and is +3.7% pre-market to $126.35, still below Thursday's $131.41 intraday high.",
-      "risks": "~150x trailing earnings; Thursday spiked to $131.41 and faded to $121.88, so a second-day gap can fade again. At the 52-week high.",
-      "driver": "Piper PT hike to $162 after FY28 guide",
-      "addedDate": "2026-09-25"
-    },
-    {
-      "ticker": "BE",
-      "name": "Bloom Energy",
-      "sector": "Electronic Technology",
-      "shares": 12,
-      "entry": 272.28,
-      "exitRule": "1-3 day swing",
-      "catalyst": "Bloom reaffirmed Oracle's commitment to the 2.4 GW fuel-cell contract for Project Jupiter, easing fears after Oracle's force-majeure notice on the New Mexico site. +2.1% pre-market to $272.28.",
-      "risks": "Project Jupiter still faces pipeline and permit delays; 375x PE; 22% below its June high of $351.28.",
-      "driver": "Oracle 2.4 GW contract reaffirmed",
       "addedDate": "2026-09-25"
     },
     {
@@ -88,18 +52,6 @@
       "addedDate": "2026-09-28"
     },
     {
-      "ticker": "RCL",
-      "name": "Royal Caribbean Group",
-      "sector": "Consumer Services",
-      "shares": 14,
-      "entry": 244.16,
-      "exitRule": "Catalyst-defined",
-      "catalyst": "Deutsche Bank upgraded RCL to Buy from Hold (PT $299), citing the 26% pullback since Aug 5; stock bounced off a 52-week low ($222.22) set Sept 23. +0.6% pre-market to $244.16. EXIT TRIGGER: close on the reaction to Carnival's Q3 print (Tue 9/29 BMO), or by Wed 9/30 close.",
-      "risks": "Oil +4% is a direct fuel-cost headwind; Carnival consensus EPS was cut ~12% for fuel; peer read-through could be negative.",
-      "driver": "Deutsche Bank upgrade + CCL print read-through",
-      "addedDate": "2026-09-28"
-    },
-    {
       "ticker": "PK",
       "name": "Park Hotels & Resorts",
       "sector": "Finance",
@@ -107,7 +59,7 @@
       "entry": 16.1,
       "exitRule": "1-3 day swing",
       "catalyst": "Raymond James double-upgraded PK to Strong Buy from Market Perform with a $19 PT. Quoted 15.70/16.50 pre-market; entry at the midpoint $16.10. Exit by Wed 9/30 close.",
-      "risks": "Very wide, thin pre-market book (last print $15.59 at 08:01Z); near its $16.20 52-week high; goes ex-dividend $0.25 on 9/30.",
+      "risks": "Very wide, thin pre-market book (last print $15.59 at 08:01Z); near its $16.20 52-week high; goes ex-dividend $0.25 on 9/30. NOTE: PK went ex-dividend $0.25 on 9/30 while held -> add $54.25 (217 x $0.25) to realized P&L when closed at the 9/30 close.",
       "driver": "Raymond James double upgrade to Strong Buy",
       "addedDate": "2026-09-28"
     },
@@ -124,42 +76,6 @@
       "addedDate": "2026-09-29"
     },
     {
-      "ticker": "AIR",
-      "name": "AAR Corp",
-      "sector": "Electronic Technology",
-      "shares": 28,
-      "entry": 121.58,
-      "exitRule": "1-3 day swing",
-      "catalyst": "FQ1 beat after the close 9/28: adj EPS $1.49 vs $1.29-1.30 est, sales +24% to $918M, strong Q2 sales outlook plus deal to take control of MRO Holdings. +5.6% pre-market; entry at book midpoint $121.58. Exit by Thu 10/1 close; -5% stop / +8% target.",
-      "risks": "Thin, wide pre-market book (120.10/123.06, last print $123.97 at 11:12Z); legacy programs could clip margins; 21% below the Aug high.",
-      "driver": "FQ1 beat + guide + MRO Holdings deal",
-      "addedDate": "2026-09-29"
-    },
-    {
-      "ticker": "CVNA",
-      "name": "Carvana",
-      "sector": "Retail Trade",
-      "shares": 57,
-      "entry": 61.29,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Read-through from CarMax's +13% comparable used-unit growth (strong used-car demand); +1.4% pre-market to $61.29 after Monday's -6% drop.",
-      "risks": "Read-through, not own news; KMX gained share via price cuts which could be a competitive negative; high-beta.",
-      "driver": "KMX used-car demand read-through",
-      "addedDate": "2026-09-29"
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Netflix",
-      "sector": "Technology Services",
-      "shares": 49,
-      "entry": 70.05,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Deutsche Bank's Bryan Kraft upgraded NFLX to Buy from Hold (PT $95, ~35% upside). +1.2% pre-market to $70.05.",
-      "risks": "PT was cut to $95 from $100 alongside the upgrade; stock 44% below its 52-week high with weak trend.",
-      "driver": "Deutsche Bank upgrade to Buy",
-      "addedDate": "2026-09-29"
-    },
-    {
       "ticker": "HOOD",
       "name": "Robinhood Markets",
       "sector": "Finance",
@@ -169,30 +85,6 @@
       "catalyst": "BTIG raised its PT to $135 from $125 (Buy) after September month-to-date metrics: crypto volume tracking best month since Feb, event contracts ~$5.5B, ~$267B equity notional. +1.5% pre-market to $118.19. Exit by Thu 10/1 close; -5% stop / +8% target.",
       "risks": "High beta to crypto and rates; 23% below the 52-week high; Q3 print still weeks away so the PT hike may already be priced.",
       "driver": "BTIG PT hike on Sept metrics",
-      "addedDate": "2026-09-29"
-    },
-    {
-      "ticker": "LLY",
-      "name": "Eli Lilly",
-      "sector": "Health Technology",
-      "shares": 2,
-      "entry": 1186.35,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "New indirect comparison: oral GLP-1 Foundayo (orforglipron) 17.2 mg showed greater weight loss and A1C reduction than oral semaglutide 25 mg in T2D adults; lands the same morning Novo pays $300M for a Chinese oral GLP-1. +0.1% pre-market to $1,186.35.",
-      "risks": "Indirect (not head-to-head) comparison; muted pre-market reaction; 40x PE.",
-      "driver": "Foundayo vs oral semaglutide data",
-      "addedDate": "2026-09-29"
-    },
-    {
-      "ticker": "UAL",
-      "name": "United Airlines",
-      "sector": "Transportation",
-      "shares": 31,
-      "entry": 112.6,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Oil reversing lower (WTI -0.6% to ~$92, Brent ~$105) and yields easing as mediators work a US-Iran deal to reopen Hormuz; UAL also accelerating the Starlink Wi-Fi rollout. +1.0% pre-market to $112.60.",
-      "risks": "Pure headline trade - any breakdown in Iran talks re-spikes jet fuel; 19% below the June high.",
-      "driver": "Crude pullback on renewed US-Iran talks",
       "addedDate": "2026-09-29"
     },
     {
@@ -208,18 +100,6 @@
       "addedDate": "2026-09-29"
     },
     {
-      "ticker": "PLTR",
-      "name": "Palantir Technologies",
-      "sector": "Technology Services",
-      "shares": 18,
-      "entry": 187.93,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "White House AI summit today: Trump and Speaker Johnson host Alex Karp, Jensen Huang and Dario Amodei on regulation, infrastructure spend and national security - a direct policy/defense-AI catalyst for PLTR. $187.93 pre-market.",
-      "risks": "Summit could produce restrictive AI-safety headlines; 161x PE; rate-sensitive growth tape with 10Y near 5.2%.",
-      "driver": "White House AI executive summit",
-      "addedDate": "2026-09-29"
-    },
-    {
       "ticker": "HUM",
       "name": "Humana",
       "sector": "Health Services",
@@ -230,7 +110,127 @@
       "risks": "Thin pre-market (last print 05:35Z, 384.45/397.20 book); Stars outcome lands after our exit window; stock +60% YTD.",
       "driver": "Barclays upgrade + Star ratings setup",
       "addedDate": "2026-09-29"
+    },
+    {
+      "ticker": "BA",
+      "name": "Boeing",
+      "sector": "Electronic Technology",
+      "shares": 18,
+      "entry": 191.88,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Pentagon awarded Boeing the Navy F/A-XX sixth-gen fighter (full-scale development, >$20B) over Northrop on 9/29, adding to the Air Force F-47 win - Boeing now holds both next-gen US fighter programs. +2.2% pre-market to $191.88 (NOC -3.5%). Exit by Fri 10/2 close; -5% stop / +8% target.",
+      "risks": "Defense is a small slice of BA revenue; commercial delivery/production issues dominate the stock; 25% below the Jan 52-week high; fixed-price development contracts have burned BA before.",
+      "driver": "Navy F/A-XX fighter award",
+      "addedDate": "2026-09-30"
+    },
+    {
+      "ticker": "CLS",
+      "name": "Celestica",
+      "sector": "Electronic Technology",
+      "shares": 9,
+      "entry": 368.64,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Bernstein (Daniel Zhu) initiated at Outperform with a $520 PT (~41% upside) as part of an AI networking/optical coverage launch. Pre-market book 367.27/370.00; entry at midpoint $368.64. Exit by Fri 10/2 close; -5% stop / +8% target.",
+      "risks": "Initiation, not new fundamentals; 22% below June high; high-beta AI hardware name into MU print tonight.",
+      "driver": "Bernstein initiation Outperform, PT $520",
+      "addedDate": "2026-09-30"
+    },
+    {
+      "ticker": "FORM",
+      "name": "FormFactor",
+      "sector": "Electronic Technology",
+      "shares": 25,
+      "entry": 138.2,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "Deutsche Bank initiated at Buy with a $200 PT (~45% upside); +1.4% pre-market to $138.20. Semis bid into Micron FQ4 print after the close.",
+      "risks": "Thin pre-market; 90x PE; 14% below June high; semi group can reverse on MU after-hours.",
+      "driver": "Deutsche Bank initiation Buy, PT $200",
+      "addedDate": "2026-09-30"
+    },
+    {
+      "ticker": "NICE",
+      "name": "NICE Ltd",
+      "sector": "Technology Services",
+      "shares": 32,
+      "entry": 107.99,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "Oppenheimer (Timothy Horan) upgraded NICE to Outperform from Perform with a $150 PT, citing its AI CX platform and Cognigy cross-sell. +1.1% pre-market to $107.99.",
+      "risks": "Wide pre-market book (106.81/108.58); stock -28% from 52-week high with persistent AI-disruption fears on contact-center software.",
+      "driver": "Oppenheimer upgrade to Outperform",
+      "addedDate": "2026-09-30"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "sector": "Technology Services",
+      "shares": 6,
+      "entry": 508.29,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "Piper Sandler raised its PT to $610 from $550 (Overweight) this morning. $508.29 pre-market.",
+      "risks": "No pre-market reaction yet (flat); mega-cap with 10Y near 5.2%; 8% below 52-week high.",
+      "driver": "Piper Sandler PT hike to $610",
+      "addedDate": "2026-09-30"
+    },
+    {
+      "ticker": "GME",
+      "name": "GameStop",
+      "sector": "Retail Trade",
+      "shares": 144,
+      "entry": 24.14,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "CEO Ryan Cohen bought another ~$10.6M of stock on 9/29 (450K shares at ~$23.47, 13D/A filed), on top of 1.15M shares on 9/21; now owns ~8.8%. +1.6% pre-market to $24.14.",
+      "risks": "Meme-driven volatility; insider-buy pops often fade intraday; below Oct-2025 high of $28.10.",
+      "driver": "CEO open-market purchase ($10.6M)",
+      "addedDate": "2026-09-30"
+    },
+    {
+      "ticker": "CCL",
+      "name": "Carnival",
+      "sector": "Consumer Services",
+      "shares": 140,
+      "entry": 24.95,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Day 2 after Q3 beat: BNP Paribas reiterated Outperform and raised PT to $33 from $31. Stock bounced from its 9/24 52-week low ($21.45); $24.95 pre-market. Exit by Fri 10/2 close; -5% stop / +8% target.",
+      "risks": "Fuel-cost headwind with oil elevated (US-Iran/Hormuz); -0.6% pre-market giveback after Tuesday pop; high leverage.",
+      "driver": "Q3 beat + BNP PT hike to $33",
+      "addedDate": "2026-09-30"
+    },
+    {
+      "ticker": "TWST",
+      "name": "Twist Bioscience",
+      "sector": "Health Technology",
+      "shares": 18,
+      "entry": 189.0,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "Leerink Partners raised its PT to $190 from $160 (Outperform) on 9/29 on its AI/DNA-data-storage growth outlook; stock closed at a 52-week high and is +1.5% pre-market to $189.00.",
+      "risks": "Parabolic: up ~8x from Nov-2025 low; already at the new PT; negative earnings; thin pre-market.",
+      "driver": "Leerink PT hike to $190",
+      "addedDate": "2026-09-30"
+    },
+    {
+      "ticker": "HNGE",
+      "name": "Hinge Health",
+      "sector": "Technology Services",
+      "shares": 37,
+      "entry": 94.28,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Two broker actions in 24h: Needham raised PT to $115 from $97 (Buy) today and BofA resumed coverage at Buy with a $110 PT. Stock closed Tue at a 52-week high ($95.21). Entry at last pre-market print $94.28. Exit by Fri 10/2 close; -5% stop / +8% target.",
+      "risks": "No pre-market confirmation (book 90.00/94.95, last print 04:36Z); 71x PE; stock +3x from Feb low.",
+      "driver": "Needham PT hike + BofA Buy",
+      "addedDate": "2026-09-30"
+    },
+    {
+      "ticker": "UGI",
+      "name": "UGI Corp",
+      "sector": "Distribution Services",
+      "shares": 96,
+      "entry": 36.15,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Scotiabank (Ian Rapp) initiated UGI at Sector Outperform with a $46 PT (~27% upside) on 9/29 in a utilities coverage launch; defensive, 4.1% yield on a yields-easing PCE morning. No pre-market prints; entry at Tue close $36.15. Exit by Fri 10/2 close; -5% stop / +8% target.",
+      "risks": "Initiation drew little reaction Tuesday (+0.1%); no pre-market liquidity (32.81/40.16 book); propane exposure to weather.",
+      "driver": "Scotiabank initiation Sector Outperform, PT $46",
+      "addedDate": "2026-09-30"
     }
   ],
-  "note": "2026-09-29: closed 8 positions for -546.71 realized (XOM -10.50, CVX -20.64, NVDA +21.90, LLY -2.06, VLO -91.12, JEF -80.30, OXY -154.20, TSLA -209.79). Intraday names flat at Monday SIP close; VLO/JEF/OXY/TSLA at Tuesday pre-market last prints (OXY: crude catalyst reversed; TSLA: -6% stop). Held: PSKY (judge wanted responses by 9/29; no close yet), MU (exit by 9/30 close pre-print), P, BE, TFX, PK (swings, exit by 9/30), PPLI (MGM deadline 10/1), RCL (CCL Q3 not yet out at run time). 10 new positions, $33,437.51 deployed; total book deployment $60,748.20, cash $10,594.35. Skipped SMMT (+18% pre-market on AZN $2B investment; >15% above verified close), NVTS (+10% on Army ALATTIS award; Electronic Technology sector cap), FICO (-18% pre-market, long-only), GS/AZN (low-impact catalysts), LBRT (Monday upgrade already faded, no pre-market liquidity). All prices from Robinhood real-time feed (~11:25Z). Backdrop: futures flat, WTI -0.6% ~$92 on renewed US-Iran mediation, 10Y easing from 5.23%; JOLTS + Conference Board confidence today; White House AI summit."
+  "note": "2026-09-30: closed 10 positions for +189.61 realized (CVNA +132.81, NFLX +12.25, LLY -3.44, UAL +1.55, PLTR -17.28, PSKY -44.85, AIR -415.24, RCL +190.12, BE +248.64, P +85.05). Intraday names flat at Tue SIP close; PSKY at 1-week max hold; AIR on -5% stop (-12%); RCL (CCL catalyst played out), BE and P (swing windows done) at Wed pre-market prints. Held: MU (exit at 9/30 close, before FQ4 print), TFX and PK (exit at 9/30 close; PK +$54.25 dividend accrual, ex 9/30), PPLI (MGM deadline 10/1), KMX, HOOD, NKE (pre-print exit 10/1), HUM. 10 new positions, $34,061.94 deployed; total book deployment $61,641.98, cash $9,890.18. Skipped: LITE/CIEN/COHR/ANET Bernstein initiations (Electronic Technology sector cap at 4), GO (BofA upgrade, +5%, but ~$1.1B small-cap), JBL/CAG (BMO prints not out at run time), FDS (beat but -3.8% pre), NGG (+2.2% with no verifiable catalyst), DYN (HCW PT hike, no pre-market prints), MRNA/NOC/FICO (long-only). All prices from Robinhood real-time feed (~11:25Z). Backdrop: futures +0.1%, 10Y easing ahead of 8:30 ET PCE (core est +0.3% m/m); Micron FQ4 after the close."
 }
