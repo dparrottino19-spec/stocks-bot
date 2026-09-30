@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8563.82,
-  "tradeDate": "2026-09-29",
-  "lastUpdated": "2026-09-29T10:50:00Z",
-  "nextRefresh": "2026-09-30T06:30:00-05:00",
+  "startingCapital": 8459.19,
+  "tradeDate": "2026-09-30",
+  "lastUpdated": "2026-09-30T10:45:00Z",
+  "nextRefresh": "2026-10-01T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -1436.18,
+  "priorRealizedPnL": -1540.81,
   "positions": [
     {
-      "ticker": "NVDA",
-      "name": "NVIDIA",
-      "sector": "Semiconductors \u2014 1x long single stock",
-      "shares": 37.103332,
-      "entry": 230.81,
-      "stopPrice": 216.96,
+      "ticker": "SPY",
+      "name": "SPDR S&P 500 ETF Trust",
+      "sector": "Broad market \u2014 1x long index ETF (park)",
+      "shares": 11.061813,
+      "entry": 764.72,
+      "stopPrice": 718.84,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Semis rebounding premarket after Monday's risk-off flush (SOXL -6.8% Mon, now +1.9% pre; MU +1.6%, NVTS +11%); NVDA +0.85% pre (230.81 ask vs 228.86 close). Oil fading (USO -1%, XOM -0.3%) removes Monday's rotation-into-energy bid.",
-      "driver": "Low-edge, flat index tape (SPY/QQQ ~flat) with JOLTS + Conf. Board confidence at 10am ET and 10Y at a 19-yr high 5.27% \u2192 no conviction for leverage. NVDA 1x is the liquid, lower-vol way to own a mean-reversion bounce in the AI/semis complex. Beat SOXL (3x into a yield spike \u2014 too much gap risk), MU (+1.6% at ~$1,071, far higher vol), SMMT (+24% gap \u2014 chasing), XOM hold (oil fading).",
-      "risks": "Hot JOLTS/confidence \u2192 yields spike further, hitting long-duration tech; Hormuz headline escalation re-ignites risk-off. Hard stop 216.96 (-6%).",
-      "addedDate": "2026-09-29"
+      "catalyst": "Futures firm but modest (S&P +0.2%, Nasdaq +0.4%, VIX 15.75 -2%); crude -1.9% (WTI ~$90.9) easing the inflation/oil bid; BTC +0.8%. Binary macro cluster at 8:30 ET: August PCE, GDP 3rd est., personal income/outlays \u2014 with 10Y ~5.24% near multidecade highs.",
+      "driver": "Low-edge park day: no fresh single-name catalyst worth leverage into a binary PCE print with yields at multidecade highs. SPY 1x keeps capital in a mildly bid tape with the lowest vol on the shortlist. Beat NVDA hold (+0.3% pre but failed rebound Tue, -1.6%), SOXL (-0.9% pre despite Nasdaq bid \u2014 relative weakness, 3x into PCE = gap risk), QQQ/TQQQ (flat-to-down pre), USO/UCO (crude fading, UCO spread too wide).",
+      "risks": "Hot PCE \u2192 10Y breaks higher, broad de-rating; Hormuz/Iran headline shock. Hard stop 718.84 (-6%).",
+      "addedDate": "2026-09-30"
     }
   ]
 }
