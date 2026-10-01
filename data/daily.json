@@ -2,10 +2,10 @@
   "bookName": "Daily Trader",
   "inceptionDate": "2026-05-15",
   "inceptionCapital": 70000,
-  "startingCapital": 71532.16,
-  "tradeDate": "2026-09-30",
-  "lastUpdated": "2026-09-30T11:26:43Z",
-  "nextRefresh": "2026-10-01T07:09:00-05:00",
+  "startingCapital": 71680.65,
+  "tradeDate": "2026-10-01",
+  "lastUpdated": "2026-10-01T11:24:46Z",
+  "nextRefresh": "2026-10-02T07:09:00-05:00",
   "rules": [
     "Weekday 7am ET picks",
     "Per-pick exit rules",
@@ -13,20 +13,8 @@
     "1-week max hold",
     "<=4 names per sector"
   ],
-  "priorRealizedPnL": 1532.16,
+  "priorRealizedPnL": 1680.65,
   "positions": [
-    {
-      "ticker": "MU",
-      "name": "Micron Technology",
-      "sector": "Electronic Technology",
-      "shares": 3,
-      "entry": 1095.6,
-      "exitRule": "Catalyst-defined",
-      "catalyst": "Pre-earnings run into FQ4 results after the close Wed Sept 30; +1.4% pre-market to $1,095.60 with the semi group leading futures. EXIT TRIGGER: close by the Sept 30 close, before the print.",
-      "risks": "Trades 13% below its June high of $1,255; memory is cyclical and the stock is widely owned into the print. Semis are rate-sensitive.",
-      "driver": "Pre-earnings setup (FQ4 on 9/30)",
-      "addedDate": "2026-09-25"
-    },
     {
       "ticker": "PPLI",
       "name": "People Inc.",
@@ -38,42 +26,6 @@
       "risks": "Only talks - MGM 'could' propose in coming days; wide pre-market book (38.01/39.40); $2.7B market cap, lower liquidity.",
       "driver": "MGM takeover-bid report",
       "addedDate": "2026-09-25"
-    },
-    {
-      "ticker": "TFX",
-      "name": "Teleflex",
-      "sector": "Health Technology",
-      "shares": 28,
-      "entry": 123.8,
-      "exitRule": "1-3 day swing",
-      "catalyst": "BofA's Craig Bijou upgraded TFX to Buy from Neutral and raised the PT to $158 from $145; +1.4% pre-market to $123.80. Exit by Wed 9/30 close.",
-      "risks": "Thin pre-market (last trade 11:06Z, 122.50/124.79 book); negative GAAP earnings; 15% below the August high.",
-      "driver": "BofA upgrade to Buy, PT $158",
-      "addedDate": "2026-09-28"
-    },
-    {
-      "ticker": "PK",
-      "name": "Park Hotels & Resorts",
-      "sector": "Finance",
-      "shares": 217,
-      "entry": 16.1,
-      "exitRule": "1-3 day swing",
-      "catalyst": "Raymond James double-upgraded PK to Strong Buy from Market Perform with a $19 PT. Quoted 15.70/16.50 pre-market; entry at the midpoint $16.10. Exit by Wed 9/30 close.",
-      "risks": "Very wide, thin pre-market book (last print $15.59 at 08:01Z); near its $16.20 52-week high; goes ex-dividend $0.25 on 9/30. NOTE: PK went ex-dividend $0.25 on 9/30 while held -> add $54.25 (217 x $0.25) to realized P&L when closed at the 9/30 close.",
-      "driver": "Raymond James double upgrade to Strong Buy",
-      "addedDate": "2026-09-28"
-    },
-    {
-      "ticker": "KMX",
-      "name": "CarMax",
-      "sector": "Retail Trade",
-      "shares": 58,
-      "entry": 59.85,
-      "exitRule": "1-3 day swing",
-      "catalyst": "FQ2 blowout (reported 9/29 BMO): EPS $1.16 vs ~$0.70 est, revenue +19.5% to $7.9B, comparable-store used units +13.0%. +5.8% pre-market to $59.85. Exit by Thu 10/1 close; -5% stop / +8% target.",
-      "risks": "GPU per retail unit fell $111 on pricing actions (margin-for-volume trade); options implied ~12% move so gap can fade; 8% below the Aug 52-week high.",
-      "driver": "FQ2 EPS/comps beat",
-      "addedDate": "2026-09-29"
     },
     {
       "ticker": "HOOD",
@@ -136,54 +88,6 @@
       "addedDate": "2026-09-30"
     },
     {
-      "ticker": "FORM",
-      "name": "FormFactor",
-      "sector": "Electronic Technology",
-      "shares": 25,
-      "entry": 138.2,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Deutsche Bank initiated at Buy with a $200 PT (~45% upside); +1.4% pre-market to $138.20. Semis bid into Micron FQ4 print after the close.",
-      "risks": "Thin pre-market; 90x PE; 14% below June high; semi group can reverse on MU after-hours.",
-      "driver": "Deutsche Bank initiation Buy, PT $200",
-      "addedDate": "2026-09-30"
-    },
-    {
-      "ticker": "NICE",
-      "name": "NICE Ltd",
-      "sector": "Technology Services",
-      "shares": 32,
-      "entry": 107.99,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Oppenheimer (Timothy Horan) upgraded NICE to Outperform from Perform with a $150 PT, citing its AI CX platform and Cognigy cross-sell. +1.1% pre-market to $107.99.",
-      "risks": "Wide pre-market book (106.81/108.58); stock -28% from 52-week high with persistent AI-disruption fears on contact-center software.",
-      "driver": "Oppenheimer upgrade to Outperform",
-      "addedDate": "2026-09-30"
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Microsoft",
-      "sector": "Technology Services",
-      "shares": 6,
-      "entry": 508.29,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Piper Sandler raised its PT to $610 from $550 (Overweight) this morning. $508.29 pre-market.",
-      "risks": "No pre-market reaction yet (flat); mega-cap with 10Y near 5.2%; 8% below 52-week high.",
-      "driver": "Piper Sandler PT hike to $610",
-      "addedDate": "2026-09-30"
-    },
-    {
-      "ticker": "GME",
-      "name": "GameStop",
-      "sector": "Retail Trade",
-      "shares": 144,
-      "entry": 24.14,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "CEO Ryan Cohen bought another ~$10.6M of stock on 9/29 (450K shares at ~$23.47, 13D/A filed), on top of 1.15M shares on 9/21; now owns ~8.8%. +1.6% pre-market to $24.14.",
-      "risks": "Meme-driven volatility; insider-buy pops often fade intraday; below Oct-2025 high of $28.10.",
-      "driver": "CEO open-market purchase ($10.6M)",
-      "addedDate": "2026-09-30"
-    },
-    {
       "ticker": "CCL",
       "name": "Carnival",
       "sector": "Consumer Services",
@@ -193,18 +97,6 @@
       "catalyst": "Day 2 after Q3 beat: BNP Paribas reiterated Outperform and raised PT to $33 from $31. Stock bounced from its 9/24 52-week low ($21.45); $24.95 pre-market. Exit by Fri 10/2 close; -5% stop / +8% target.",
       "risks": "Fuel-cost headwind with oil elevated (US-Iran/Hormuz); -0.6% pre-market giveback after Tuesday pop; high leverage.",
       "driver": "Q3 beat + BNP PT hike to $33",
-      "addedDate": "2026-09-30"
-    },
-    {
-      "ticker": "TWST",
-      "name": "Twist Bioscience",
-      "sector": "Health Technology",
-      "shares": 18,
-      "entry": 189.0,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Leerink Partners raised its PT to $190 from $160 (Outperform) on 9/29 on its AI/DNA-data-storage growth outlook; stock closed at a 52-week high and is +1.5% pre-market to $189.00.",
-      "risks": "Parabolic: up ~8x from Nov-2025 low; already at the new PT; negative earnings; thin pre-market.",
-      "driver": "Leerink PT hike to $190",
       "addedDate": "2026-09-30"
     },
     {
@@ -230,7 +122,151 @@
       "risks": "Initiation drew little reaction Tuesday (+0.1%); no pre-market liquidity (32.81/40.16 book); propane exposure to weather.",
       "driver": "Scotiabank initiation Sector Outperform, PT $46",
       "addedDate": "2026-09-30"
+    },
+    {
+      "ticker": "ACN",
+      "name": "Accenture",
+      "sector": "Technology Services",
+      "shares": 15,
+      "entry": 218.0,
+      "exitRule": "1-3 day swing",
+      "catalyst": "FQ4 double beat (BMO 10/1): adj EPS $3.29 vs $3.19 est, revenue $18.7B vs $18.05B, record 141 $100M+ bookings, >= $9.5B FY27 capital return. +18.9% pre-market to $218.00 (book 217.50/219.00). Exit by Fri 10/2 close; -5% stop / +8% target.",
+      "risks": "Huge gap off a depressed base (25% below Jan high) can fade; AI-disruption fears on IT services persist; FY27 guide only in line.",
+      "driver": "FQ4 beat + record bookings",
+      "addedDate": "2026-10-01"
+    },
+    {
+      "ticker": "VICR",
+      "name": "Vicor",
+      "sector": "Electronic Technology",
+      "shares": 10,
+      "entry": 322.0,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "Raised Q3 sequential revenue growth guide to >30% from >20% (second raise in ~10 days) on higher Vertical Power Delivery licensing royalties. +11.4% pre-market to $322.00 (book 321/325).",
+      "risks": "Thin float (~26M shares), 93x PE; gap may fade intraday; 16% below June high.",
+      "driver": "Q3 guide raise (VPD royalties)",
+      "addedDate": "2026-10-01"
+    },
+    {
+      "ticker": "SNPS",
+      "name": "Synopsys",
+      "sector": "Technology Services",
+      "shares": 7,
+      "entry": 450.84,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Guided FY27 adj EPS $19.04-19.12 vs $17.32 consensus and revenue $11.1-11.2B vs $10.73B. +3.7% pre-market to $450.84 (book 450.05/450.89). Exit by Fri 10/2 close; -5% stop / +8% target.",
+      "risks": "Stock near its 9/15 52-week low after an extended derating; 73x trailing PE; rising yields hit long-duration software.",
+      "driver": "FY27 guide well above consensus",
+      "addedDate": "2026-10-01"
+    },
+    {
+      "ticker": "LRCX",
+      "name": "Lam Research",
+      "sector": "Producer Manufacturing",
+      "shares": 10,
+      "entry": 335.5,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "Micron FQ4 beat-and-raise (EPS $33.42 vs $31.16; FQ1 guide $38.15 vs $36.02) with a higher FY27 capex plan -> wafer-fab-equipment read-through. +2.1% pre-market to $335.50.",
+      "risks": "MU itself ~flat pre-market on margin/opex commentary; 24% below June high; yields at multi-decade highs.",
+      "driver": "Micron capex read-through",
+      "addedDate": "2026-10-01"
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "sector": "Producer Manufacturing",
+      "shares": 6,
+      "entry": 521.48,
+      "exitRule": "Overnight (next day open)",
+      "catalyst": "Micron FQ4 beat-and-raise and higher FY27 capex -> WFE read-through; Reuters notes LRCX/AMAT +1.8% pre-market. $521.48 last pre-market print (book 520.00/521.23).",
+      "risks": "30% below June high; semis volatile with 10Y yields surging; overnight gap risk.",
+      "driver": "Micron capex read-through",
+      "addedDate": "2026-10-01"
+    },
+    {
+      "ticker": "OXY",
+      "name": "Occidental Petroleum",
+      "sector": "Energy Minerals",
+      "shares": 60,
+      "entry": 55.63,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Goldman Sachs upgraded OXY to Buy from Neutral (10/1). +0.6% pre-market to $55.63. Exit by Fri 10/2 close; -5% stop / +8% target.",
+      "risks": "Crude-sensitive; modest pre-market reaction; Wells Fargo downgraded XOM same morning; 18% below March high.",
+      "driver": "Goldman upgrade to Buy",
+      "addedDate": "2026-10-01"
+    },
+    {
+      "ticker": "DLTR",
+      "name": "Dollar Tree",
+      "sector": "Retail Trade",
+      "shares": 29,
+      "entry": 115.5,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "Loop Capital upgraded DLTR to Buy from Hold (10/1). Pre-market book 114.89/116.10 vs Wed close $114.02; entry at midpoint $115.50.",
+      "risks": "Thin pre-market (last print $114.51 at 11:00Z); 19% below Jan high; consumer trade-down thesis already well known.",
+      "driver": "Loop Capital upgrade to Buy",
+      "addedDate": "2026-10-01"
+    },
+    {
+      "ticker": "UTHR",
+      "name": "United Therapeutics",
+      "sector": "Health Technology",
+      "shares": 6,
+      "entry": 547.38,
+      "exitRule": "1-3 day swing",
+      "catalyst": "BTIG upgraded UTHR to Buy from Neutral (10/1), following a +12% Wednesday surge (range 475-557). Book 545.06/549.69; entry at midpoint $547.38. Exit by Fri 10/2 close; -5% stop / +8% target.",
+      "risks": "Chasing after a 12% day; thin pre-market (last print 10:03Z); biotech headline risk.",
+      "driver": "BTIG upgrade to Buy",
+      "addedDate": "2026-10-01"
+    },
+    {
+      "ticker": "ED",
+      "name": "Consolidated Edison",
+      "sector": "Utilities",
+      "shares": 32,
+      "entry": 102.8,
+      "exitRule": "Overnight (next day open)",
+      "catalyst": "Wells Fargo upgraded ED to Overweight from Equal Weight (10/1). +0.6% pre-market to $102.80 (book 102.65/103.40).",
+      "risks": "Rate-sensitive utility with 10Y yields at multi-decade highs; slow mover.",
+      "driver": "Wells Fargo upgrade to Overweight",
+      "addedDate": "2026-10-01"
+    },
+    {
+      "ticker": "WMB",
+      "name": "Williams Cos.",
+      "sector": "Industrial Services",
+      "shares": 49,
+      "entry": 68.52,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Barclays reinstated WMB at Overweight (10/1); gas-demand/AI-power pipeline story. Last pre-market print $68.52 (08:01Z) vs Wed close $67.97. Exit by Fri 10/2 close; -5% stop / +8% target.",
+      "risks": "Thin, wide pre-market book (63.28/70.07); 14% below May high; reinstatement rather than an upgrade.",
+      "driver": "Barclays reinstated Overweight",
+      "addedDate": "2026-10-01"
+    },
+    {
+      "ticker": "TRP",
+      "name": "TC Energy",
+      "sector": "Industrial Services",
+      "shares": 58,
+      "entry": 58.02,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Goldman Sachs upgraded TRP to Buy from Neutral (10/1); 4.3% yield. Last pre-market print $58.02 (07:16Z) vs Wed close $57.78. Exit by Fri 10/2 close; -5% stop / +8% target.",
+      "risks": "Thin pre-market (book 57.64/64.33); Canadian listing; rate-sensitive; 19% below May high.",
+      "driver": "Goldman upgrade to Buy",
+      "addedDate": "2026-10-01"
+    },
+    {
+      "ticker": "TEVA",
+      "name": "Teva Pharmaceutical",
+      "sector": "Health Technology",
+      "shares": 85,
+      "entry": 39.57,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "TD Cowen initiated TEVA at Buy (10/1); stock sits near its 52-week high ($40.79, 9/21) on the branded-pipeline turnaround. $39.57 pre-market (book 39.51/39.58).",
+      "risks": "Flat pre-market so far - initiation may already be priced; stock +135% off the Oct-2025 low.",
+      "driver": "TD Cowen initiation Buy",
+      "addedDate": "2026-10-01"
     }
   ],
-  "note": "2026-09-30: closed 10 positions for +189.61 realized (CVNA +132.81, NFLX +12.25, LLY -3.44, UAL +1.55, PLTR -17.28, PSKY -44.85, AIR -415.24, RCL +190.12, BE +248.64, P +85.05). Intraday names flat at Tue SIP close; PSKY at 1-week max hold; AIR on -5% stop (-12%); RCL (CCL catalyst played out), BE and P (swing windows done) at Wed pre-market prints. Held: MU (exit at 9/30 close, before FQ4 print), TFX and PK (exit at 9/30 close; PK +$54.25 dividend accrual, ex 9/30), PPLI (MGM deadline 10/1), KMX, HOOD, NKE (pre-print exit 10/1), HUM. 10 new positions, $34,061.94 deployed; total book deployment $61,641.98, cash $9,890.18. Skipped: LITE/CIEN/COHR/ANET Bernstein initiations (Electronic Technology sector cap at 4), GO (BofA upgrade, +5%, but ~$1.1B small-cap), JBL/CAG (BMO prints not out at run time), FDS (beat but -3.8% pre), NGG (+2.2% with no verifiable catalyst), DYN (HCW PT hike, no pre-market prints), MRNA/NOC/FICO (long-only). All prices from Robinhood real-time feed (~11:25Z). Backdrop: futures +0.1%, 10Y easing ahead of 8:30 ET PCE (core est +0.3% m/m); Micron FQ4 after the close."
+  "note": "2026-10-01: closed 9 positions for +148.49 realized (MU -91.47, TFX +34.72, PK -93.31, FORM +277.75, NICE +104.96, MSFT +27.66, GME +73.44, TWST +76.32, KMX -261.58). Intraday names (FORM, NICE, MSFT, GME, TWST) flat at Wed SIP close; MU closed at Wed close before its FQ4 print per catalyst rule; TFX/PK swing windows done at Wed close (PK incl. $54.25 dividend); KMX on -5% stop (Wed close -7.9%) at Thu pre-market $55.34. Held: PPLI (MGM deadline today, no formal proposal yet; +7.6%), HOOD and NKE (exit at today's close; NKE before FQ1 print), HUM, BA, CLS, CCL, HNGE, UGI (exit by Fri 10/2). 12 new positions, $39477.03 deployed; held book $31085.20; cash $1118.42. Skipped: AYI (beat but sales light, -1.4% pre), NBIS (BNP upgrade not fresh), TOL (MS init OW but yields at multi-decade highs and MS initiated LEN/KBH/NVR Underweight), BP/BHP (upgrades but red pre-market), STZ (BMO print not out), CTVA (-57% is spin-off adjustment). All prices Robinhood real-time (~11:23Z). Backdrop: S&P futures +0.3%, Nasdaq +0.6% on Micron, Dow futures at 3-month low as Treasury yields hit multi-decade highs."
 }
