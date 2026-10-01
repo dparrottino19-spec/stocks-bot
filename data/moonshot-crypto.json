@@ -2,10 +2,10 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 13488.585384,
-  "tradeDate": "2026-09-30",
-  "lastUpdated": "2026-09-30T10:55:00Z",
-  "nextRefresh": "2026-10-01T06:45:00-05:00",
+  "startingCapital": 13295.0632,
+  "tradeDate": "2026-10-01",
+  "lastUpdated": "2026-10-01T10:53:00Z",
+  "nextRefresh": "2026-10-02T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Runs every day \u2014 crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 3488.585404,
+  "priorRealizedPnL": 3295.06322,
   "positions": [
     {
-      "ticker": "XRP",
-      "name": "XRP",
+      "ticker": "BTC",
+      "name": "Bitcoin",
       "sector": "Crypto",
-      "shares": 8918.072981,
-      "entry": 1.5125,
-      "stopPrice": 1.3613,
+      "shares": 0.158401,
+      "entry": 83933.02,
+      "stopPrice": 77218.38,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "DAY SIXTEEN. ROTATE ETH -> XRP. ETH failed yesterday's hold test (needed top-three; finished #4 of 8, +0.90%). XRP is #3 on the Wednesday board and is the only name with a DATED catalyst today: the Evernorth shareholder vote (Sept 30) that would take the XRP treasury company public on Nasdaq as 'XRPN' holding ~473M XRP, which is a new structural bid. Board vs Chicago midnight (Robinhood open_price): DOGE +1.97%, ADA +1.77%, XRP +1.31%, ETH +0.90%, SOL +0.88%, BTC +0.86%, LTC +0.57%, AVAX -0.78%.",
-      "driver": "Closed ETH at 2692.99 (canonical feed, asOf 2026-09-30T10:51:01.895Z) vs entry 2710.37: -17.38/ETH, -87.05 total (-0.64%) on 5.008777 ETH. Book rolls 13,575.64 -> 13,488.59 (+34.89% on inception).\n\nBOUGHT XRP at 1.5125 (same call/asOf). 8918.072981 XRP = $13,488.59 deployed, 100%. Stop 1.3613 (-10%, large-cap alt tier).\n\nRUNNERS-UP: DOGE (#1, +1.97%) is meme beta pinned under $0.10 resistance; its record-but-tiny $2.9M ETF inflow is not a 24h catalyst. ADA (#2, +1.77%) consolidating below $0.26; cbADA-on-Solana is minor. ETH (#4) best major but lost the rank test and spot ETH ETF inflows slowed to $17M from $87M. BTC (+0.86%) stuck in 82-85K range after rejecting 87K; the low-edge default, but no catalyst.\n\nCROSS-CHECK: Robinhood mark 1.51268 vs canonical 1.5125 (~1bp). Search used for narrative only.",
-      "risks": "Sell-the-news if the Evernorth vote passes (or a delay/fail) could reverse the bid. Overhang: ~$83M of stolen XRP moved to unfreezable wallets Sept 28 (potential dump supply). Tape is low-edge (all moves under 2%); BTC losing 82K support would drag everything.\n\nFRICTION: Robinhood spread ~191bp round-trip on XRP; the paper book does not charge it.\n\nTEST FOR TOMORROW: hold XRP only if TOP-THREE on the eight-name board AND above 1.50. STRUCTURAL INVALIDATION: loses 1.45. Hard stop 1.3613 (-10%).",
-      "addedDate": "2026-09-30"
+      "catalyst": "DAY SEVENTEEN. ROTATE XRP -> BTC. Red tape, low-edge day: every coin is down vs Chicago midnight, so the rule defaults to the most liquid major with the shallowest drawdown. BTC is #1 of 8 (-0.14%) and holding the 83-84K shelf after the PCE whipsaw (spike to ~85.6K, reversal to 83K). Spot BTC ETFs: ~$3.1B over a nine-session inflow streak / $2.65B net in September, though the latest session printed -$125.6M. Board (Robinhood mark vs open_price): BTC -0.14%, LTC -0.19%, ETH -0.33%, XRP -0.88%, SOL -0.91%, AVAX -0.95%, DOGE -1.07%, ADA -2.14%.",
+      "driver": "Closed XRP at 1.4908 (canonical feed, asOf 2026-10-01T10:51:33.829Z) vs entry 1.5125: -0.0217/XRP, -193.52 total (-1.43%) on 8918.072981 XRP. Book rolls 13,488.59 -> 13,295.06 (+32.95% on inception).\n\nBOUGHT BTC at 83,933.02 (same call/asOf). 0.158401 BTC = $13,295.07 deployed, 100%. Stop 77,218.38 (-8%, majors tier).\n\nWHY XRP WENT: it failed both legs of yesterday's hold test, #4 of 8 and below 1.50 (1.4908). The Evernorth/XRPN vote passed but was sold into (sell-the-news), and today's 1B XRP monthly escrow unlock adds supply.\n\nRUNNERS-UP: LTC (#2, -0.19%) has no catalyst and thin depth. ETH (#3, -0.33%) is stuck under 2,700 with slowing ETF inflows. XRP rebuy rejected: lost 1.50 with escrow overhang. Higher-beta alts (SOL/ADA/AVAX/DOGE) are leading to the downside.\n\nCROSS-CHECK: Robinhood BTC mark 83,935.18 vs canonical 83,933.02 (~0.3bp). Search used for narrative only.",
+      "risks": "Macro: 10Y Treasury yields near 5.3% plus payrolls ahead, a hot print could push BTC through 82K support toward the 80K range low. ETF flows flipped to a -$125.6M outflow last session; a second outflow day would weaken the bid. A risk-on alt rotation would leave BTC lagging.\n\nFRICTION: Robinhood spread ~189bp round-trip on BTC; the paper book does not charge it.\n\nTEST FOR TOMORROW: hold BTC only if TOP-THREE on the eight-name board AND above 83,000. STRUCTURAL INVALIDATION: loses 82,000. Hard stop 77,218.38 (-8%).",
+      "addedDate": "2026-10-01"
     }
   ]
 }
