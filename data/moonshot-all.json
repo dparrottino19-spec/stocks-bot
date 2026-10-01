@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8459.19,
-  "tradeDate": "2026-09-30",
-  "lastUpdated": "2026-09-30T10:45:00Z",
-  "nextRefresh": "2026-10-01T06:30:00-05:00",
+  "startingCapital": 8468.92,
+  "tradeDate": "2026-10-01",
+  "lastUpdated": "2026-10-01T10:45:00Z",
+  "nextRefresh": "2026-10-02T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -1540.81,
+  "priorRealizedPnL": -1531.08,
   "positions": [
     {
-      "ticker": "SPY",
-      "name": "SPDR S&P 500 ETF Trust",
-      "sector": "Broad market \u2014 1x long index ETF (park)",
-      "shares": 11.061813,
-      "entry": 764.72,
-      "stopPrice": 718.84,
+      "ticker": "GOOGL",
+      "name": "Alphabet Inc. Class A",
+      "sector": "Communication Services / AI \u2014 1x long single stock",
+      "shares": 24.071741,
+      "entry": 351.82,
+      "stopPrice": 330.71,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Futures firm but modest (S&P +0.2%, Nasdaq +0.4%, VIX 15.75 -2%); crude -1.9% (WTI ~$90.9) easing the inflation/oil bid; BTC +0.8%. Binary macro cluster at 8:30 ET: August PCE, GDP 3rd est., personal income/outlays \u2014 with 10Y ~5.24% near multidecade highs.",
-      "driver": "Low-edge park day: no fresh single-name catalyst worth leverage into a binary PCE print with yields at multidecade highs. SPY 1x keeps capital in a mildly bid tape with the lowest vol on the shortlist. Beat NVDA hold (+0.3% pre but failed rebound Tue, -1.6%), SOXL (-0.9% pre despite Nasdaq bid \u2014 relative weakness, 3x into PCE = gap risk), QQQ/TQQQ (flat-to-down pre), USO/UCO (crude fading, UCO spread too wide).",
-      "risks": "Hot PCE \u2192 10Y breaks higher, broad de-rating; Hormuz/Iran headline shock. Hard stop 718.84 (-6%).",
-      "addedDate": "2026-09-30"
+      "catalyst": "Google launched Gemini 4 Argon overnight \u2014 record 77.9% on DeepSWE v1.1 coding benchmark, priced at $2/$10 per M tokens (well below rivals). GOOGL +2.2% pre (351.7 vs 344.08 close). Nasdaq-100 futures +0.5-0.8% leading while Dow -0.5%; semis bid (SOXL +4% pre, ARM +2.3%, AMD +1.2%).",
+      "driver": "Only large-cap with a fresh, stock-specific catalyst in a tech-led tape; gap is a modest +2.2% (no chase). 1x because 10Y ~5.3% (2002 highs) and ~39% Oct hike odds make leverage gap-risky. Beat SOXL (+4% pre, 3x into ISM/claims with yields at highs), CEG (+3.6% on Amazon nuclear PPA but weak trend), QQQ (broad but lower upside), VICR (+12% gap = chase).",
+      "risks": "Launch-day fade: reports of internal skepticism on real-world Gemini 4 performance; yields breaking higher on claims/ISM; Iran ceasefire headlines. Hard stop 330.71 (-6%).",
+      "addedDate": "2026-10-01"
     }
   ]
 }
