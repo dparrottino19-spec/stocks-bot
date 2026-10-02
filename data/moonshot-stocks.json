@@ -2,10 +2,10 @@
   "bookName": "Moonshot Stocks",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 6036.91,
-  "tradeDate": "2026-10-01",
-  "lastUpdated": "2026-10-01T10:46:00Z",
-  "nextRefresh": "2026-10-02T06:35:00-05:00",
+  "startingCapital": 6191.94,
+  "tradeDate": "2026-10-02",
+  "lastUpdated": "2026-10-02T10:46:00Z",
+  "nextRefresh": "2026-10-05T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -14,20 +14,20 @@
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
-  "priorRealizedPnL": -3963.09,
+  "priorRealizedPnL": -3808.06,
   "positions": [
     {
-      "ticker": "LRCX",
-      "name": "Lam Research Corporation",
-      "sector": "Semiconductors \u2014 Wafer Fab Equipment",
-      "shares": 17.86068,
-      "entry": 338.0,
-      "stopPrice": 317.72,
+      "ticker": "MRNA",
+      "name": "Moderna, Inc.",
+      "sector": "Biotechnology \u2014 mRNA Therapeutics",
+      "shares": 32.222835,
+      "entry": 192.16,
+      "stopPrice": 178.71,
       "exitRule": "Rotate next weekday 6:35am CT run",
-      "catalyst": "Micron FQ4 blowout (rev $54.2B vs $51.1B, FQ1 guide $61.5B vs ~$57B) and a raised FY27 capex plan (~$11.5B in FQ1, ~$25B 1H FY27, higher in 2H) announced after Wednesday's close. LRCX is the most memory-levered WFE name (DRAM/NAND etch & deposition).",
-      "driver": "MU itself is flat pre-market, but the capex dollars flow to equipment \u2014 LRCX/AMAT/KLAC all +2.9-3.1% pre-market on the read-through. Only +2.9% ($338.00 vs $328.51 close), still ~23% below the late-June high ($438.50) after a September base ($265-317), so room to re-rate; liquid mega-cap with a clean stop.",
-      "risks": "Read-through trades can fade at the open (MU itself didn't rally); semis are high-beta in a shaky rate tape; Micron flagged construction capex growing faster than equipment capex. Hard stop $317.72 (-6%), below Wednesday's $328.51 close and the prior week's breakout area.",
-      "addedDate": "2026-10-01"
+      "catalyst": "Nasdaq announced Thursday (Oct 1) that Moderna joins the Nasdaq-100 before the Oct 9 open, replacing Warner Bros. Discovery (exiting on the Paramount-Skydance deal close). Index funds tracking the NDX (>$800B in 200+ products) must buy into the Oct 8 close.",
+      "driver": "Fresh, mechanical forced-buying catalyst with a known date; pre-market reaction only +1.7% ($192.16 vs $188.94 close), so most of the passive demand window is still ahead. Stock is in a strong September uptrend ($135 \u2192 $203 high 9/29) and pulled back ~7% from that high into the announcement. Futures green (Nasdaq +0.6%) ahead of payrolls.",
+      "risks": "Extremely volatile (~6x YTD, 5-8% daily ranges); index-add pops are often front-run and sold into; an analyst 'sell' call circulating; 8:30am ET September payrolls can swing the whole tape. Hard stop $178.71 (-7%), below the 9/30 low ($184.58) and Oct 1 low ($186.01).",
+      "addedDate": "2026-10-02"
     }
   ]
 }
