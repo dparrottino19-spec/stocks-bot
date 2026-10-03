@@ -2,10 +2,10 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 13665.8451,
-  "tradeDate": "2026-10-02",
-  "lastUpdated": "2026-10-02T10:52:00Z",
-  "nextRefresh": "2026-10-03T06:45:00-05:00",
+  "startingCapital": 13359.6829,
+  "tradeDate": "2026-10-03",
+  "lastUpdated": "2026-10-03T10:53:00Z",
+  "nextRefresh": "2026-10-04T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Runs every day \u2014 crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 3665.84511,
+  "priorRealizedPnL": 3359.6829,
   "positions": [
     {
-      "ticker": "ETH",
-      "name": "Ethereum",
+      "ticker": "BTC",
+      "name": "Bitcoin",
       "sector": "Crypto",
-      "shares": 4.982298,
-      "entry": 2742.88,
-      "stopPrice": 2523.45,
+      "shares": 0.1579,
+      "entry": 84608.56,
+      "stopPrice": 77839.88,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "DAY EIGHTEEN. ROTATE BTC -> ETH. Overnight bounce (BTC 83.9K -> 86.3K, +2.8%) then a flat-to-red drift since Chicago midnight ahead of the 7:30am CT September payrolls print (consensus ~93-95K, UE 4.1%). Binary macro hour = low-edge day, so the rule stays in the majors. ETH is #2 of 9 on the board (+0.04%) and the top-ranked MAJOR, and has reclaimed 2,700 (was stuck under it yesterday) at 2,743. Citi lifted its 12-mo ETH target to $3,028 (from $2,240) alongside BTC $113K. Board (Robinhood mark vs Chicago-midnight open): XRP +0.71%, ETH +0.04%, AVAX -0.03%, DOGE -0.03%, LTC -0.09%, ADA -0.12%, BTC -0.40%, SOL -1.29%, LINK -1.57%.",
-      "driver": "Closed BTC at 86,273.80 (canonical feed, asOf 2026-10-02T10:51:23.959Z) vs entry 83,933.02: +2,340.78/BTC, +370.78 total (+2.79%) on 0.158401 BTC. Book rolls 13,295.06 -> 13,665.85 (+36.66% on inception).\n\nBOUGHT ETH at 2,742.88 (same call/asOf). 4.982298 ETH = $13,665.85 deployed, 100%. Stop 2,523.45 (-8%, majors tier).\n\nWHY BTC WENT: it banked the overnight +2.8% but failed the rank leg of its hold test (#7 of 9, -0.40% since midnight) despite holding above 83,000. It is fading from the 86.6K midnight print into payrolls.\n\nRUNNERS-UP: XRP (#1, +0.71%, ETF inflows back to +$4.07M, reclaimed 1.50) was passed because the 1B escrow unlock overhang remains and the 10% alt stop is wider into a binary macro print. BTC hold was rejected on rank. AVAX/DOGE/LTC are flat with no catalyst; SOL/LINK lead lower.\n\nCROSS-CHECK: Robinhood ETH mark 2,742.95 vs canonical 2,742.88 (~0.3bp). Search used for narrative only.",
-      "risks": "Payrolls at 7:30am CT, about 45 min after entry: a hot print (with 10Y near 5.3%) could knock ETH back under 2,700. ETH ETFs bled -$55.4M on Oct 1 while BTC ETFs took +$102.7M, so flows favor BTC. ETH beta to BTC is >1 on the downside.\n\nFRICTION: Robinhood spread ~188bp round-trip on ETH; the paper book does not charge it.\n\nTEST FOR TOMORROW: hold ETH only if TOP-THREE on the nine-name board AND above 2,700. STRUCTURAL INVALIDATION: loses 2,650. Hard stop 2,523.45 (-8%).",
-      "addedDate": "2026-10-02"
+      "catalyst": "DAY NINETEEN. ROTATE ETH -> BTC. September payrolls missed badly (+29K vs ~90K consensus, UE 4.2%): 10Y yields slumped and Fed-hike odds for Oct 28 collapsed toward a pause. BTC tagged 87.2K on the print, was rejected at resistance, and faded overnight to 84.6K, but it is holding the 84K shelf on a thin Saturday tape. Low-edge weekend, so the rule stays in the majors, and BTC is the lowest-beta way to own the dovish macro shift. Board (Robinhood mark vs Chicago-midnight open): AVAX +1.15%, LTC +0.52%, SOL +0.22%, ETH +0.21%, BTC +0.06%, ADA -0.07%, LINK -0.04%, XRP -0.11%, DOGE -0.11%.",
+      "driver": "Closed ETH at 2,681.43 (canonical feed, asOf 2026-10-03T10:51:00.781Z) vs entry 2,742.88: -61.45/ETH, -306.16 total (-2.24%) on 4.982298 ETH. Book rolls 13,665.85 -> 13,359.68 (+33.60% on inception).\n\nBOUGHT BTC at 84,608.56 (same call/asOf). 0.1579 BTC = $13,359.68 deployed, 100%. Stop 77,839.88 (-8%, majors tier).\n\nWHY ETH WENT: it failed both legs of its hold test. It ranked #4 of 9, not top three, and sat at 2,681, below 2,700. ETH ETF flows lag BTC's.\n\nRUNNERS-UP: AVAX (#1, +1.15%) has no named catalyst and an alt-tier stop on a thin weekend tape. ETH hold (Glamsterdam first public testnet Oct 6) is the best catalyst, but it failed the rule test; re-evaluate Sunday/Monday. LTC/SOL are small moves with no catalyst.\n\nCROSS-CHECK: Robinhood BTC mark 84,629.79 vs canonical 84,608.56 (~2.5bp). Search used for narrative only.",
+      "risks": "Weekend liquidity is thin, and the 87K rejection leaves a lower high. The read could also flip from dovish to stagflation/growth-scare risk-off. ETH's Glamsterdam testnet could pull rotation into ETH before Monday.\n\nFRICTION: Robinhood spread ~186bp round-trip on BTC; the paper book does not charge it.\n\nTEST FOR TOMORROW: hold BTC only if TOP-THREE on the nine-name board AND above 84,000. STRUCTURAL INVALIDATION: loses 83,000. Hard stop 77,839.88 (-8%).",
+      "addedDate": "2026-10-03"
     }
   ]
 }
