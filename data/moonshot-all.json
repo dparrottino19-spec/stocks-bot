@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8199.32,
-  "tradeDate": "2026-10-02",
-  "lastUpdated": "2026-10-02T10:44:00Z",
-  "nextRefresh": "2026-10-03T06:30:00-05:00",
+  "startingCapital": 8220.38,
+  "tradeDate": "2026-10-03",
+  "lastUpdated": "2026-10-03T10:45:00Z",
+  "nextRefresh": "2026-10-04T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -1800.68,
+  "priorRealizedPnL": -1779.62,
   "positions": [
     {
-      "ticker": "QQQ",
-      "name": "Invesco QQQ Trust",
-      "sector": "Broad market / Nasdaq-100 \u2014 1x long index ETF (park)",
-      "shares": 10.966643,
-      "entry": 747.66,
-      "stopPrice": 702.8,
+      "ticker": "BTC-USD",
+      "name": "Bitcoin (spot)",
+      "sector": "Crypto \u2014 spot BTC, 1x (weekend park)",
+      "shares": 0.097177,
+      "entry": 84591.89,
+      "stopPrice": 76132.7,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Nasdaq-100 futures +0.8% pre (QQQ 747.6 vs 742.03 close) as oil slides (USO -4% pre) and chips extend the post-Micron rally (SOXL +4.6%, NVDA +1.2%, AMD +1.3%). September NFP at 8:30 ET (consensus ~84k, UE 4.1%).",
-      "driver": "Low-edge, binary-event day: NFP lands an hour after entry with 10Y near 24-year highs and Oct hike odds live \u2014 last strong print (Sep 3) knocked the Dow 260pts. Park 1x in the leadership index rather than levering into the number. Beat SOXL (+4.6% gap into NFP = chase w/ 3x), TQQQ (3x into binary data), GOOGL hold (Gemini 4 pop faded: closed 338.24 vs 351.82 entry), USO short/inverse (move already -4%).",
-      "risks": "Hot payrolls \u2192 yields spike/hike repricing hits long-duration tech; gap-fade from +0.8% pre. Hard stop 702.80 (-6%).",
-      "addedDate": "2026-10-02"
+      "catalyst": "Saturday \u2014 US markets closed, spot crypto only. BTC flat on the day (~84.6k vs 84.7k midnight ET open); ETH/SOL/XRP/DOGE also flat-to-down. No fresh weekend catalyst; ETF inflows have cooled ($1B\u2192$134M/day) with 10Y ~5.2% and Oct 27-28 FOMC hike odds ~64%.",
+      "driver": "Low-edge weekend: park in the lowest-vol, deepest-liquidity crypto rather than reach for beta. Beat ETH (flat, higher beta with no catalyst), SOL (flat, ~1.5x BTC vol), XRP/DOGE (slightly red, wider spreads), and cash (book rule: stay deployed; BTC is the closest proxy to a park).",
+      "risks": "Thin weekend liquidity \u2192 stop-hunt wicks; macro headwinds (high real yields, fading ETF flows, seasonal-cycle bottom narrative). Hard stop 76,132.70 (-10%).",
+      "addedDate": "2026-10-03"
     }
   ]
 }
