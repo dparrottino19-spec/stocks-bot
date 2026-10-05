@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8292.13,
-  "tradeDate": "2026-10-04",
-  "lastUpdated": "2026-10-04T10:45:00Z",
-  "nextRefresh": "2026-10-05T06:30:00-05:00",
+  "startingCapital": 8358.67,
+  "tradeDate": "2026-10-05",
+  "lastUpdated": "2026-10-05T10:50:00Z",
+  "nextRefresh": "2026-10-06T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -1707.87,
+  "priorRealizedPnL": -1641.33,
   "positions": [
     {
       "ticker": "BTC-USD",
       "name": "Bitcoin (spot)",
-      "sector": "Crypto \u2014 spot BTC, 1x (weekend park)",
+      "sector": "Crypto \u2014 spot BTC, 1x (low-edge park)",
       "shares": 0.097177,
-      "entry": 85330.28,
-      "stopPrice": 76797.25,
+      "entry": 86014.99,
+      "stopPrice": 77413.49,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Sunday \u2014 US markets closed, spot crypto only. BTC +0.6% vs midnight ET (85.33k vs 84.85k), holding the 82k\u201386k range after another failed push through 87k; futures taker CVD back positive. ETH/SOL/XRP/DOGE all +0.3\u20130.9%, no alt-specific catalyst. Monday reopens equities ahead of Oct 27-28 FOMC.",
-      "driver": "Still a low-edge weekend tape: stay parked in the lowest-vol, deepest-liquidity crypto into Monday's equity open. Beat ETH (+0.3%, lagging BTC, higher beta), SOL (+0.6%, ~1.5x vol), XRP/DOGE (+0.8\u20130.9% but wider spreads and meme/headline risk with no catalyst).",
-      "risks": "Range rejection at 86k\u201388k and thin Sunday-night liquidity (stop-hunt wicks into CME open); macro headwinds \u2014 10Y ~5.2%, FOMC hike odds, cooling ETF flows, prediction markets lean to sub-82.5k by end of October. Hard stop 76,797.25 (-10%).",
-      "addedDate": "2026-10-04"
+      "catalyst": "Monday pre-market: US futures flat to -0.1% (ES 7,771.75, NQ 31,036.50), 10Y at 5.28% (20+ yr highs), VIX +7% to 16.4, light calendar (ISM services 10am ET, no notable earnings). BTC +1.1% on the day at ~86.0k, breaking above the 82k-86k range top with gold also bid (+0.8%) \u2014 hard-asset bid while equities stall.",
+      "driver": "Low-edge equity tape with no fresh catalyst, so stay parked in the only asset showing positive momentum and 24/7 stop coverage. Beat QQQ (-0.3% pre-mkt at 747.42, yields rising), SOXL (-1.8% pre at 160.78, 3x into rising-yield tape not justified), BITX (2x BTC, already +4% pre-mkt vs Friday close \u2014 chasing the weekend move + leverage on a low-conviction day), NVDA (+0.5% pre, no catalyst).",
+      "risks": "Rejection at the 86k-88k ceiling; 10Y >5.25% and FOMC-hike odds; Oct 7 Fed minutes; cooling ETF flows; equity risk-off spill-over if ISM prices-paid runs hot. Hard stop 77,413.49 (-10%).",
+      "addedDate": "2026-10-05"
     }
   ]
 }
