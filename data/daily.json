@@ -2,10 +2,10 @@
   "bookName": "Daily Trader",
   "inceptionDate": "2026-05-15",
   "inceptionCapital": 70000,
-  "startingCapital": 72705.77,
-  "tradeDate": "2026-10-05",
-  "lastUpdated": "2026-10-05T11:45:00Z",
-  "nextRefresh": "2026-10-06T07:09:00-05:00",
+  "startingCapital": 72963.99,
+  "tradeDate": "2026-10-06",
+  "lastUpdated": "2026-10-06T11:40:00Z",
+  "nextRefresh": "2026-10-07T07:09:00-05:00",
   "rules": [
     "Weekday 7am ET picks",
     "Per-pick exit rules",
@@ -13,20 +13,8 @@
     "1-week max hold",
     "<=4 names per sector"
   ],
-  "priorRealizedPnL": 2705.77,
+  "priorRealizedPnL": 2963.99,
   "positions": [
-    {
-      "ticker": "ON",
-      "name": "ON Semiconductor (onsemi)",
-      "sector": "Electronic Technology",
-      "shares": 39,
-      "entry": 86.3,
-      "exitRule": "1-3 day swing",
-      "catalyst": "Amended Synaptics merger (Thu AH): onsemi now pays $123/sh all-cash (~$5.7B vs ~$7B prior cash+stock), removing share issuance and certain closing conditions; deal now immediately accretive to non-GAAP EPS, financed with cash + $2.45B Morgan Stanley term loan. +7.8% pre-market to $86.30. Exit by Tue 10/6 close; -5% stop / +8% target.",
-      "risks": "Competing bidder for SYNA could force a higher price; 36% below the June 52-week high; added leverage; NFP-day volatility.",
-      "driver": "Accretive all-cash SYNA deal amendment",
-      "addedDate": "2026-10-02"
-    },
     {
       "ticker": "MRNA",
       "name": "Moderna",
@@ -49,18 +37,6 @@
       "catalyst": "WSJ (10/1): Authentic Brands Group privately discussed a takeover valuing Mattel at >$20/share (~$6B); a person familiar confirmed preliminary talks to CNBC. Thu close $15.04 leaves ~33% gap to the reported price. $15.11 pre-market. EXIT TRIGGER: close on a formal bid or a Mattel rejection, or by Thu 10/8 close; -8% stop.",
       "risks": "Talks 'very preliminary', no formal sale process; Thursday spike (range 12.40-16.70) can retrace; new CEO transition just announced.",
       "driver": "Authentic Brands takeover interest",
-      "addedDate": "2026-10-02"
-    },
-    {
-      "ticker": "ABNB",
-      "name": "Airbnb",
-      "sector": "Consumer Services",
-      "shares": 21,
-      "entry": 163.06,
-      "exitRule": "1-3 day swing",
-      "catalyst": "KeyBanc upgraded ABNB to Overweight from Sector Weight with a $191 PT (core business growing steadily; hotel bookings a new growth leg). +1.6% pre-market to $163.06. Exit by Tue 10/6 close; -5% stop / +8% target.",
-      "risks": "Four-week losing streak into the call; travel demand sensitive to oil (~$90 WTI) and rates.",
-      "driver": "KeyBanc upgrade to Overweight",
       "addedDate": "2026-10-02"
     },
     {
@@ -100,42 +76,6 @@
       "addedDate": "2026-10-05"
     },
     {
-      "ticker": "R",
-      "name": "Ryder System",
-      "sector": "Transportation",
-      "shares": 14,
-      "entry": 241.0,
-      "exitRule": "Overnight (next day open)",
-      "catalyst": "JPMorgan upgraded Ryder to Overweight from Neutral (10/5), PT $298: mix now ~60% asset-light contractual revenue, 7 straight quarters of EPS growth through the freight downturn. Last pre-market print $241.00 (+1.6%). Exit at Tue 10/6 open.",
-      "risks": "Thin pre-market (wide 239.58/247.90 book); freight cycle; Q3 print 10/22.",
-      "driver": "JPM upgrade to OW, $298 PT",
-      "addedDate": "2026-10-05"
-    },
-    {
-      "ticker": "CBRS",
-      "name": "Cerebras Systems",
-      "sector": "Technology Services",
-      "shares": 20,
-      "entry": 174.81,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Sam Altman (Fri on X) called Cerebras a 'close partner' with 'deep engagement pushing on the frontiers of speed', easing fears after last week's 20% drop on GPT-6.1 'Ultrafast'-on-Nvidia reports; UBS reiterates Buy/$330. +5.0% pre-market to $174.81. Flat by close.",
-      "risks": "Relief bounce near post-IPO lows ($160.81 52-wk low); high-beta; OpenAI concentration.",
-      "driver": "Altman 'close partner' reassurance",
-      "addedDate": "2026-10-05"
-    },
-    {
-      "ticker": "ADSK",
-      "name": "Autodesk",
-      "sector": "Technology Services",
-      "shares": 15,
-      "entry": 222.0,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Read-through from Schneider Electric's $205/sh all-cash ($22.6B) takeout of PTC at a 42% premium - resets engineering/design software multiples; ADSK seen as closest US peer. +4.7% pre-market to $222.00. Flat by close.",
-      "risks": "Read-through fades are common; no direct bid for ADSK; AI-disruption overhang on software.",
-      "driver": "PTC takeout re-rates design-software peers",
-      "addedDate": "2026-10-05"
-    },
-    {
       "ticker": "PTC",
       "name": "PTC Inc.",
       "sector": "Technology Services",
@@ -145,30 +85,6 @@
       "catalyst": "Definitive agreement: Schneider Electric to acquire PTC for $205/sh cash (~$22.6B equity), 42% premium; close expected by Q3 2027. Entry $196.47 pre-market = 4.3% gross spread. EXIT TRIGGER: close Fri 10/9 close, or earlier if spread < 2% (>$201) or on a competing bid; -4% stop (deal-risk).",
       "risks": "Long timeline (Q3 2027) + regulatory/CFIUS review; Schneider shares -8% on the deal (financing pushback); spread unlikely to compress fast.",
       "driver": "Schneider $205 cash takeout (merger arb)",
-      "addedDate": "2026-10-05"
-    },
-    {
-      "ticker": "WDC",
-      "name": "Western Digital",
-      "sector": "Electronic Technology",
-      "shares": 8,
-      "entry": 422.0,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Rebound setup after Friday's -10.2% flush on a Nikkei report that Toshiba will double HDD capacity by FY27 (~$380M investment) - incremental supply is years out while nearline HDD stays tight on AI storage demand. +1.6% pre-market to $422.00, holding above the 200-day (~$400). Flat by close.",
-      "risks": "Supply-overhang narrative may keep pressure on; still well below 20/50-day SMAs; STX/WDC tape volatile.",
-      "driver": "Toshiba-capacity selloff rebound",
-      "addedDate": "2026-10-05"
-    },
-    {
-      "ticker": "NEM",
-      "name": "Newmont",
-      "sector": "Non-Energy Minerals",
-      "shares": 30,
-      "entry": 115.97,
-      "exitRule": "Overnight (next day open)",
-      "catalyst": "Precious metals bid overnight: gold futures +0.65% to ~$4,189, silver +1.9% to ~$61 as the 10Y hits 5.28% and Brent holds >$100 (Middle East war). Largest gold miner, 14% off its Aug high. $115.97 pre-market. Exit at Tue 10/6 open.",
-      "risks": "Rising real yields can cap gold; macro-only catalyst; ISM services 10:00 ET.",
-      "driver": "Gold/silver overnight bid",
       "addedDate": "2026-10-05"
     },
     {
@@ -194,7 +110,139 @@
       "risks": "High beta, -49% from May high; options imply a large earnings move; dilution history.",
       "driver": "FQ1 earnings run-up (10/7 AMC)",
       "addedDate": "2026-10-05"
+    },
+    {
+      "ticker": "CEG",
+      "name": "Constellation Energy",
+      "sector": "Utilities",
+      "shares": 12,
+      "entry": 284.69,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Google and Constellation announced a 20-year deal supporting 890 MW of new nuclear capacity (IL/PA/NJ, >$4.3B CEG investment) plus a 15-year deal for 2,700 MW from the existing PJM fleet and a 5-yr Google Cloud/Gemini partnership. +6.4% pre-market to $284.69. Exit by Thu 10/8 close; -5% stop / +8% target.",
+      "risks": "Gap may fade intraday; stock -31% from 52-wk high; 10Y yield >5.2% weighs on utilities; VST also held (sector 2/4).",
+      "driver": "Google 20-yr nuclear PPA",
+      "addedDate": "2026-10-06"
+    },
+    {
+      "ticker": "CTVA",
+      "name": "Corteva (crop chemicals)",
+      "sector": "Process Industries",
+      "shares": 273,
+      "entry": 12.78,
+      "exitRule": "1-3 day swing",
+      "catalyst": "JPMorgan upgraded Corteva to Overweight from Neutral after the seed-business spin, $19 PT (sees ~$21/sh at 10x 2027 EBITDA ex-environmental liabilities). Stock hit a post-spin low $11.74 Mon on 183M shares (4.5x avg). +3.1% pre-market to $12.78. Exit by Thu 10/8 close; -5% stop / +8% target.",
+      "risks": "Post-spin index/forced selling may continue; PFAS/environmental liabilities; thin history at new price level.",
+      "driver": "JPM upgrade to OW post-spin",
+      "addedDate": "2026-10-06"
+    },
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "sector": "Electronic Technology",
+      "shares": 5,
+      "entry": 644.14,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "Report this morning: Lisa Su says AI chip demand is outrunning supply and AMD is planning a substantial 2027 ramp with supply partners (70%+ YoY growth targeted). +2.0% pre-market to $644.14, at a fresh 52-week high (prior $645.46 on 10/2). Flat by close.",
+      "risks": "Extended at all-time highs; P/E >160; semis crowded; Nasdaq futures could reverse.",
+      "driver": "Su: AI demand outrunning supply",
+      "addedDate": "2026-10-06"
+    },
+    {
+      "ticker": "MRVL",
+      "name": "Marvell Technology",
+      "sector": "Electronic Technology",
+      "shares": 12,
+      "entry": 273.25,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "Marvell Investor Day this morning in NYC (CEO Matt Murphy + leadership) laying out AI-infrastructure growth drivers and long-term targets. +0.7% pre-market to $273.25. Flat by close.",
+      "risks": "Sell-the-news risk if LT targets disappoint; 17% below June high; event-day volatility.",
+      "driver": "Investor Day today (NYC)",
+      "addedDate": "2026-10-06"
+    },
+    {
+      "ticker": "PG",
+      "name": "Procter & Gamble",
+      "sector": "Consumer Non-Durables",
+      "shares": 23,
+      "entry": 148.04,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Evercore ISI upgraded P&G to Outperform from In Line (10/6). +1.4% pre-market to $148.04, 11% below the Feb high. Defensive ballast into a rate-pressured tape. Exit by Thu 10/8 close; -5% stop / +8% target.",
+      "risks": "Low-beta (8% target unlikely); FQ1 earnings mid/late Oct outside window; rising yields pressure staples.",
+      "driver": "Evercore ISI upgrade to Outperform",
+      "addedDate": "2026-10-06"
+    },
+    {
+      "ticker": "CLF",
+      "name": "Cleveland-Cliffs",
+      "sector": "Non-Energy Minerals",
+      "shares": 273,
+      "entry": 12.8,
+      "exitRule": "Overnight (next day open)",
+      "catalyst": "Wells Fargo upgraded Cleveland-Cliffs to Overweight from Equal Weight (10/6). Follows a +7% Monday on 25M shares (1.4x avg); +4.9% pre-market to $12.80. Exit at Wed 10/7 open.",
+      "risks": "High beta, unprofitable (negative EPS); steel price/tariff headlines; two-day run can retrace.",
+      "driver": "Wells Fargo upgrade to OW",
+      "addedDate": "2026-10-06"
+    },
+    {
+      "ticker": "BWA",
+      "name": "BorgWarner",
+      "sector": "Producer Manufacturing",
+      "shares": 55,
+      "entry": 62.51,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Morgan Stanley upgraded BorgWarner to Overweight from Equal Weight (10/6). +3.7% pre-market to $62.51 (last print 10:33Z; book 61.66/63.25). Exit by Wed 10/7 close; -5% stop / +8% target.",
+      "risks": "Wide pre-market spread; auto production/tariff risk; 21% below June high.",
+      "driver": "Morgan Stanley upgrade to OW",
+      "addedDate": "2026-10-06"
+    },
+    {
+      "ticker": "BYD",
+      "name": "Boyd Gaming",
+      "sector": "Consumer Services",
+      "shares": 49,
+      "entry": 70.43,
+      "exitRule": "Overnight (next day open)",
+      "catalyst": "Deutsche Bank upgraded Boyd Gaming to Buy from Hold (10/6; also upgraded PENN). Stock bounced off a 52-week low ($65.00 on 10/1); +2.5% pre-market to $70.43. Exit at Wed 10/7 open.",
+      "risks": "Las Vegas locals softness; downtrend from July high ($91); thin pre-market.",
+      "driver": "Deutsche Bank upgrade to Buy",
+      "addedDate": "2026-10-06"
+    },
+    {
+      "ticker": "MYRG",
+      "name": "MYR Group",
+      "sector": "Industrial Services",
+      "shares": 11,
+      "entry": 309.9,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Jefferies upgraded MYR Group to Buy from Hold (10/6) - T&D grid contractor leveraged to data-center/utility capex (read-across with the CEG/Google nuclear build). +2.4% pre-market to $309.90. Exit by Thu 10/8 close; -5% stop / +8% target.",
+      "risks": "Thin liquidity (~230K avg vol), last print 08:08Z; 38% below June high; Q3 print late Oct.",
+      "driver": "Jefferies upgrade to Buy",
+      "addedDate": "2026-10-06"
+    },
+    {
+      "ticker": "QGEN",
+      "name": "Qiagen",
+      "sector": "Health Technology",
+      "shares": 74,
+      "entry": 47.18,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "Barclays upgraded Qiagen to Overweight from Equal Weight (10/6). +3.0% pre-market to $47.18 (bid/ask 46.95/47.05). Flat by close.",
+      "risks": "Netherlands-domiciled (US-listed, NYSE); life-science tools demand soft; upgrade pops often fade intraday.",
+      "driver": "Barclays upgrade to OW",
+      "addedDate": "2026-10-06"
+    },
+    {
+      "ticker": "FTRE",
+      "name": "Fortrea Holdings",
+      "sector": "Commercial Services",
+      "shares": 160,
+      "entry": 21.81,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "Barclays upgraded Fortrea to Overweight from Equal Weight (10/6). Breaking out: Mon close $21.11 near the $21.39 52-week high on 1.6x volume; +3.3% pre-market to $21.81 (new high). Flat by close.",
+      "risks": "~$2B cap, unprofitable CRO; extended after 150% run from April low; breakout failure risk.",
+      "driver": "Barclays upgrade to OW",
+      "addedDate": "2026-10-06"
     }
   ],
-  "note": "2026-10-05: closed 5 positions for +468.02 realized (TSLA +125.28, KLAC +38.40, AVGO +70.56, RKLB +115.20, FCX +118.58). TSLA/KLAC intraday at Fri 10/2 SIP close; AVGO/RKLB/FCX overnight at Mon Robinhood pre-market prints. Held: ON (exit by Tue 10/6), ABNB (Tue 10/6), AMZN (Wed 10/7), MRNA (Thu 10/8 index add), MAT (Thu 10/8 / bid trigger) - none hit stops/targets. 10 new positions, $34,128.70 deployed; open book $51,034.04; cash $21,671.73. Thin tape (no notable earnings, ISM services 10:00 ET). Skipped: PEP/STZ (pre-earnings at fresh 52-wk lows), SYNA (~1.5% arb), BSY (Schneider talk headline is from 2024), FPS (Bernstein init was Fri, already +8%), Brazil ADRs XP/STNE/PAGS (non-US issuers, election gap), COIN/MSTR (no named catalyst). Backdrop: ES -0.1%, NQ -0.2%, 10Y 5.28%, VIX 16.3 (+6%), gold +0.6%, WTI ~$90.5, Brent >$100."
+  "note": "2026-10-06: closed 7 positions for +258.22 realized (ON +7.80, ABNB +30.24, R -70.84, CBRS +134.80, ADSK -6.60, WDC +157.12, NEM +5.70). CBRS/ADSK/WDC intraday at Mon 10/5 SIP close; NEM overnight at Tue Robinhood pre-market; R overnight at last print $235.94 (no Tue pre-market trades); ON/ABNB swing exit date reached, Tue pre-market prints. Held: MRNA (Thu 10/8 index add, +6.6%), MAT (Thu 10/8 / bid trigger, +5.8%), AMZN/VST/APLD (Wed 10/7), WFC (Wed 10/7), PTC (Fri 10/9; -1.8% vs -4% stop after BMO/Oppenheimer downgrades), DAL (Thu 10/8) - none hit stops/targets. 11 new positions, $37,583.18 deployed; open book $64,771.96; cash $8,192.03. Skipped: OPCH (+21% gap on MCK/CD&R buyout talks fails the 15%-of-close entry check), STZ (reports AMC today, binary), RXO (cash+stock CHRW arb, multiple downgrades), PENN (prefer BYD on same DB call), LMT/NOC/KTOS (initiations, <1% moves), TXRH (StoneX), NKE (Berenberg Sell - long-only book), WK (small-cap index add). Backdrop: SPY +0.2%, DIA +0.4% pre-market; Nasdaq at record after Mon +1.05%."
 }
