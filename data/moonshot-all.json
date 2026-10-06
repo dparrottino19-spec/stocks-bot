@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8358.67,
-  "tradeDate": "2026-10-05",
-  "lastUpdated": "2026-10-05T10:50:00Z",
-  "nextRefresh": "2026-10-06T06:30:00-05:00",
+  "startingCapital": 8367.94,
+  "tradeDate": "2026-10-06",
+  "lastUpdated": "2026-10-06T10:45:00Z",
+  "nextRefresh": "2026-10-07T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -1641.33,
+  "priorRealizedPnL": -1632.06,
   "positions": [
     {
       "ticker": "BTC-USD",
       "name": "Bitcoin (spot)",
       "sector": "Crypto \u2014 spot BTC, 1x (low-edge park)",
       "shares": 0.097177,
-      "entry": 86014.99,
-      "stopPrice": 77413.49,
+      "entry": 86110.43,
+      "stopPrice": 77499.39,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Monday pre-market: US futures flat to -0.1% (ES 7,771.75, NQ 31,036.50), 10Y at 5.28% (20+ yr highs), VIX +7% to 16.4, light calendar (ISM services 10am ET, no notable earnings). BTC +1.1% on the day at ~86.0k, breaking above the 82k-86k range top with gold also bid (+0.8%) \u2014 hard-asset bid while equities stall.",
-      "driver": "Low-edge equity tape with no fresh catalyst, so stay parked in the only asset showing positive momentum and 24/7 stop coverage. Beat QQQ (-0.3% pre-mkt at 747.42, yields rising), SOXL (-1.8% pre at 160.78, 3x into rising-yield tape not justified), BITX (2x BTC, already +4% pre-mkt vs Friday close \u2014 chasing the weekend move + leverage on a low-conviction day), NVDA (+0.5% pre, no catalyst).",
-      "risks": "Rejection at the 86k-88k ceiling; 10Y >5.25% and FOMC-hike odds; Oct 7 Fed minutes; cooling ETF flows; equity risk-off spill-over if ISM prices-paid runs hot. Hard stop 77,413.49 (-10%).",
-      "addedDate": "2026-10-05"
+      "catalyst": "Tuesday pre-market: futures modestly green (SPY +0.2%, QQQ +0.35%, DIA +0.5%) on Hormuz-reopening headlines, but 10Y still near 5.28% with Fed minutes Oct 7 and only ADP/trade balance on the calendar. BTC holding the 86k range top (+0.7% vs Eastern-midnight open 85,502).",
+      "driver": "No fresh, high-conviction equity catalyst; stay parked in the asset with 24/7 stop coverage and positive drift. Beat QQQ (+0.35% pre, 1x, rising-yield headwind into Fed minutes), SOXL (+0.8% pre, 3x not justified without a catalyst), BITX (2x BTC, +1% pre \u2014 leverage on a low-edge day), NVDA (+0.8% pre, no catalyst).",
+      "risks": "Rejection at the 86k-88k ceiling; Fed minutes Oct 7 / 10Y >5.25%; Iran-Hormuz headline reversal; equity risk-off spill-over. Hard stop 77,499.39 (-10%).",
+      "addedDate": "2026-10-06"
     }
   ]
 }
