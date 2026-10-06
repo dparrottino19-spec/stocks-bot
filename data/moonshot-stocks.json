@@ -2,10 +2,10 @@
   "bookName": "Moonshot Stocks",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 6090.76,
-  "tradeDate": "2026-10-05",
-  "lastUpdated": "2026-10-05T10:46:00Z",
-  "nextRefresh": "2026-10-06T06:35:00-05:00",
+  "startingCapital": 6392.75,
+  "tradeDate": "2026-10-06",
+  "lastUpdated": "2026-10-06T10:47:00Z",
+  "nextRefresh": "2026-10-07T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -14,20 +14,7 @@
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
-  "priorRealizedPnL": -3909.24,
-  "positions": [
-    {
-      "ticker": "MELI",
-      "name": "MercadoLibre, Inc.",
-      "sector": "Consumer Internet \u2014 LatAm E-commerce & Fintech",
-      "shares": 3.395072,
-      "entry": 1794.0,
-      "stopPrice": 1686.36,
-      "exitRule": "Rotate next weekday 6:35am CT run",
-      "catalyst": "Brazil first-round election surprise (Sun Oct 4): Flavio Bolsonaro took ~47% vs Lula ~45%, beating polls that had Lula first. Markets read it as a pro-fiscal-discipline, business-friendly shift; Brazil ADRs gapping hard pre-market (EWZ +12.9%, ITUB +12.5%, BBD +13%, NU +10.5%, XP +16%, PAGS/STNE +15%).",
-      "driver": "Brazil is MELI's largest market (e-commerce + Mercado Pago fintech/credit), yet MELI is only +5.6% pre-market vs +10-16% for pure-Brazil names \u2014 a liquid, large-cap laggard with catch-up room and under the 8% no-chase line. Stock had sold off ~19% from the late-Aug high ($2,066) to $1,668 last week, so the macro catalyst lands on an oversold base. Election-surprise rallies in Brazil assets have historically carried past day one.",
-      "risks": "Gap-and-fade risk on a macro-driven open; runoff (late Oct) keeps political uncertainty alive; MELI has Argentina/Mexico exposure that dilutes the Brazil beta; US futures slightly red (SPY -0.2%) on higher yields; MELI downtrend since August. Hard stop $1,686.36 (-6%), just below Friday's $1,696.56 close (full gap fill = thesis broken).",
-      "addedDate": "2026-10-05"
-    }
-  ]
+  "priorRealizedPnL": -3607.25,
+  "positions": [],
+  "cashReason": "CASH 2026-10-06 \u2014 no qualifying asymmetric setup. Pre-market tape thin on fresh catalysts: OPCH +18% on unconfirmed McKesson/CD&R deal reports (past no-chase line, deal-capped upside); MRVL Investor Day 9am ET is a binary event after a +32% run since Sep 1 (sell-the-news risk, no definable edge); MELI Brazil-election catalyst is now day-2 (+9.7% Mon, +1.2% pre) with runoff risk; CBRS (+0.9%) and FPS (+1%) lack size of edge. Preserving capital after -39% drawdown."
 }
