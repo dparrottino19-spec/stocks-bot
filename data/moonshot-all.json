@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8367.94,
-  "tradeDate": "2026-10-06",
-  "lastUpdated": "2026-10-06T10:45:00Z",
-  "nextRefresh": "2026-10-07T06:30:00-05:00",
+  "startingCapital": 8130.52,
+  "tradeDate": "2026-10-07",
+  "lastUpdated": "2026-10-07T10:46:00Z",
+  "nextRefresh": "2026-10-08T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -1632.06,
+  "priorRealizedPnL": -1869.48,
   "positions": [
     {
-      "ticker": "BTC-USD",
-      "name": "Bitcoin (spot)",
-      "sector": "Crypto \u2014 spot BTC, 1x (low-edge park)",
-      "shares": 0.097177,
-      "entry": 86110.43,
-      "stopPrice": 77499.39,
+      "ticker": "SPY",
+      "name": "SPDR S&P 500 ETF Trust",
+      "sector": "Broad US equity index, 1x (low-edge park)",
+      "shares": 10.454033,
+      "entry": 777.74,
+      "stopPrice": 731.08,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Tuesday pre-market: futures modestly green (SPY +0.2%, QQQ +0.35%, DIA +0.5%) on Hormuz-reopening headlines, but 10Y still near 5.28% with Fed minutes Oct 7 and only ADP/trade balance on the calendar. BTC holding the 86k range top (+0.7% vs Eastern-midnight open 85,502).",
-      "driver": "No fresh, high-conviction equity catalyst; stay parked in the asset with 24/7 stop coverage and positive drift. Beat QQQ (+0.35% pre, 1x, rising-yield headwind into Fed minutes), SOXL (+0.8% pre, 3x not justified without a catalyst), BITX (2x BTC, +1% pre \u2014 leverage on a low-edge day), NVDA (+0.8% pre, no catalyst).",
-      "risks": "Rejection at the 86k-88k ceiling; Fed minutes Oct 7 / 10Y >5.25%; Iran-Hormuz headline reversal; equity risk-off spill-over. Hard stop 77,499.39 (-10%).",
-      "addedDate": "2026-10-06"
+      "catalyst": "Wednesday pre-market risk-off: S&P futures -0.15%, Dow -0.36%, Russell -0.46%; chips giving back an early-October rally (SOXL -3.8% pre) while NVDA is flat near records; TLT -0.75% (yields up) into the 2pm ET Fed minutes. BTC broke the 86k range (-2.8% overnight to 83.7k).",
+      "driver": "No high-conviction directional edge. Park in the lowest-vol liquid instrument at a small pre-market discount (-0.17% vs 779.09 close) rather than holding BTC after a range breakdown. Beat SOXS (3x inverse semis, already +3.9% pre; buy-the-dip risk in a strong uptrend, no fresh negative catalyst to justify 3x), SQQQ (3x, same issue), BTC-USD (lost 86k support, momentum negative), deliberate cash (gives up positive index drift).",
+      "risks": "Hawkish Fed minutes / 10Y pushing higher; chip selloff broadening into mega-cap tech; geopolitical/oil headlines. Hard stop 731.08 (-6%).",
+      "addedDate": "2026-10-07"
     }
   ]
 }
