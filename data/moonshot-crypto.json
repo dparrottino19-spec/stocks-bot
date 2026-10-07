@@ -2,10 +2,10 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 13552.1012,
-  "tradeDate": "2026-10-06",
-  "lastUpdated": "2026-10-06T10:52:00Z",
-  "nextRefresh": "2026-10-07T06:45:00-05:00",
+  "startingCapital": 12879.3263,
+  "tradeDate": "2026-10-07",
+  "lastUpdated": "2026-10-07T10:53:00Z",
+  "nextRefresh": "2026-10-08T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Runs every day \u2014 crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 3552.1012,
+  "priorRealizedPnL": 2879.3263,
   "positions": [
     {
-      "ticker": "ETH",
-      "name": "Ethereum",
+      "ticker": "BTC",
+      "name": "Bitcoin",
       "sector": "Crypto",
-      "shares": 4.992393,
-      "entry": 2714.55,
-      "stopPrice": 2497.39,
+      "shares": 0.153702,
+      "entry": 83793.99,
+      "stopPrice": 77090.47,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "DAY TWENTY-TWO. ROTATE BTC -> ETH. Glamsterdam activates on the Sepolia testnet today (~13:53 UTC), inside this 24h window. It is the first public rehearsal of Ethereum's Q4 scaling upgrade (block-level access lists for parallel execution, plus ePBS). A clean activation removes the 'slipped again' overhang and keeps the Q4 mainnet timeline credible. Meanwhile BTC spot ETFs posted their first October outflow (-$89.9M on Oct 5), which takes away BTC's flow tailwind. The tape is quiet and slightly green (total cap ~$3.01T, +0.8% 24h), so it is a low-edge day and the rule keeps the book in a major. Board (Robinhood mark vs CT-midnight open): ADA +2.56%, LINK +1.55%, LTC +1.18%, BTC +0.70%, XRP +0.69%, DOGE +0.67%, AVAX +0.56%, ETH +0.54%, SOL +0.27%.",
-      "driver": "Closed BTC at 86,191.16 (canonical feed, asOf 2026-10-06T10:51:30.080Z) vs entry 86,094.87: +96.29/BTC, +15.14 total (+0.11%) on 0.157233 BTC. Book rolls 13,536.96 -> 13,552.10 (+35.52% on inception).\n\nBOUGHT ETH at 2,714.55 (same call/asOf). 4.992393 ETH = $13,552.10 deployed, 100%. Stop 2,497.39 (-8%, majors tier).\n\nWHY BTC WENT: it failed both legs of its hold test. It ranked #4 of 9 (+0.70%), not top-three, and it is at 86.2K, not above 87,500. ETF flows also flipped to outflow.\n\nRUNNERS-UP: ADA (#1 for the second straight day) is still stalling at 0.28 resistance with no named catalyst and would need a 12% alt stop. LINK (#2, about 30% off its September lows, CCIP 2.0) needs to reclaim 14.30 trend resistance first, and an alt stop doubles the downside on a low-edge day. LTC has no catalyst.\n\nCROSS-CHECK: Robinhood ETH mark 2,716.21 vs canonical 2,714.55 (~6bp). Search used for narrative only.",
-      "risks": "Binary event risk: developers flagged critical bugs and fake-builder attack vectors around the Sepolia fork. A messy activation or a new mainnet delay could knock ETH below 2,650. Classic sell-the-news is also possible. ETH is weak on relative strength (#8 of 9), so this is a catalyst bet, not a momentum one.\n\nFRICTION: Robinhood spread ~185bp round-trip on ETH; the paper book does not charge it.\n\nTEST FOR TOMORROW: hold ETH only if it is TOP-THREE on the nine-name board OR closes above 2,780 (post-fork breakout). STRUCTURAL INVALIDATION: loses 2,650. Hard stop 2,497.39 (-8%).",
-      "addedDate": "2026-10-06"
+      "catalyst": "DAY TWENTY-THREE. ROTATE ETH -> BTC (defensive). The tape is risk-off: an attack on a tanker in the Middle East pushed Brent above $101, Treasury yields and the dollar are up, total crypto cap fell ~3% to ~$2.85T, and ~$176M of longs were liquidated. On a low-edge, risk-off day the rule keeps the book in the most defensive major. BTC wins on flows and relative strength. Spot BTC ETFs took in +$119M on Oct 6 (reversing the prior day's outflow), while spot ETH ETFs bled -$202M (all from ETHA). BTC is down only about 2.8% from yesterday's mark vs ETH -5.0%, and BTC sits just above the 82-82.5K support shelf, which gives a definable line.",
+      "driver": "Closed ETH at 2,579.79 (canonical feed, asOf 2026-10-07T10:51:17.293Z) vs entry 2,714.55: -134.76/ETH, -672.77 total (-4.96%) on 4.992393 ETH. The 2,497.39 stop was not hit (24h low ~2,596 per reports). Book rolls 13,552.10 -> 12,879.33 (+28.79% on inception).\n\nBOUGHT BTC at 83,793.99 (same call/asOf). 0.153702 BTC = $12,879.33 deployed, 100%. Stop 77,090.47 (-8%, majors tier).\n\nWHY ETH WENT: the Glamsterdam/Sepolia catalyst turned into a sell-the-news. ETH lost the 2,650 structural line named in yesterday's invalidation and posted ~$202M of ETF outflows.\n\nRUNNERS-UP (move since yesterday's run, approx.): SOL 117.6 (high beta into a macro shock, would need a 10-12% stop). XRP 1.449 and ADA 0.255 are both at or near 2026 lows, so this is falling-knife territory. LINK 13.47 is back below 14.30 resistance. Nothing has a fresh catalyst strong enough to justify alt-beta while oil is spiking.\n\nPRICE NOTE: the first proxy re-fetch returned a cached 2026-10-06 payload. I rejected it and re-pulled with a cache-buster. Entry and exit are from the fresh asOf 10:51:17Z call, which matches the 10:50:54Z call (BTC 83,773 / ETH 2,579.16). Search used for narrative only.",
+      "risks": "Macro shock escalation: further Middle East tanker attacks, oil above $105, or a hot yields/dollar move could push BTC through the 82-82.5K support and toward 80K, with liquidation cascades. Rate-hike odds for the Oct 27-28 FOMC are rising with oil.\n\nFRICTION: the Robinhood spread is not charged by the paper book.\n\nTEST FOR TOMORROW: hold BTC only if it is TOP-THREE on the nine-name board OR reclaims 86,000. STRUCTURAL INVALIDATION: daily loss of 82,000. Hard stop 77,090.47 (-8%).",
+      "addedDate": "2026-10-07"
     }
   ]
 }
