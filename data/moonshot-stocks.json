@@ -2,10 +2,10 @@
   "bookName": "Moonshot Stocks",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 6392.75,
-  "tradeDate": "2026-10-07",
-  "lastUpdated": "2026-10-07T10:45:57Z",
-  "nextRefresh": "2026-10-08T06:35:00-05:00",
+  "startingCapital": 6255.54,
+  "tradeDate": "2026-10-08",
+  "lastUpdated": "2026-10-08T10:44:57Z",
+  "nextRefresh": "2026-10-09T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -14,20 +14,20 @@
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
-  "priorRealizedPnL": -3607.25,
+  "priorRealizedPnL": -3744.46,
   "positions": [
     {
-      "ticker": "ZIM",
-      "name": "ZIM Integrated Shipping Services Ltd.",
-      "sector": "Transportation \u2014 Container Shipping",
-      "shares": 207.894309,
-      "entry": 30.75,
-      "stopPrice": 28.9,
+      "ticker": "APLD",
+      "name": "Applied Digital Corporation",
+      "sector": "Technology \u2014 AI Data Center Infrastructure",
+      "shares": 256.164619,
+      "entry": 24.42,
+      "stopPrice": 22.95,
       "exitRule": "Rotate next weekday 6:35am CT run",
-      "catalyst": "After Tuesday's close ZIM raised FY26 guidance: Adj. EBITDA $2.7-3.0B (was $2.0-2.4B, +30% at midpoint) and Adj. EBIT $1.4-1.7B (was $0.7-1.1B, +72%) on strong freight rates/demand.",
-      "driver": "Muted +4.6% pre-market reaction to a very large raise; $3.5B market cap vs $1.4-1.7B guided EBIT and P/B ~0.9; sits just under its $30.96 52-week high, so a breakout opens price discovery. Stop sits under Monday/Tuesday's ~$28.90 base.",
-      "risks": "Shipping names often fade guidance raises on peak-cycle fears (ZIM fell after its Q2 beat); freight rates tied to Gulf/Iran-war disruption can reverse on de-escalation; Israel geopolitical risk; risk-off tape (futures -0.1 to -0.4%, 10Y 5.32%) ahead of 2pm ET FOMC minutes; wide pre-market spread.",
-      "addedDate": "2026-10-07"
+      "catalyst": "After Wednesday's close APLD reported fiscal Q1 FY27: adjusted revenue $300.4M vs ~$132M consensus (+127% beat) and adj. EPS -$0.01 vs -$0.30 expected; SA attributes the move to +322% y/y revenue, strong EBITDA and hyperscaler/AI-factory contracts.",
+      "driver": "Only +2.6% pre-market ($24.42 vs $23.81 close) on a blowout print; stock sits in the lower third of its 52-week range ($19.01-$50.73) after a ~50% drawdown from the May high, basing $23-29 since August \u2014 room for a re-rate/short-covering day. Stop under the late-Sep/early-Oct $23.39-23.59 lows.",
+      "risks": "Beat is largely lumpy tenant fit-out revenue rather than recurring lease revenue, so the market may fade it; very high beta in a soft tape (futures lower on Iran-diplomacy doubts and rising Treasury yields); possible equity/debt raise to fund build-outs; wide pre-market spread.",
+      "addedDate": "2026-10-08"
     }
   ]
 }
