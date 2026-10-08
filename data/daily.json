@@ -2,10 +2,10 @@
   "bookName": "Daily Trader",
   "inceptionDate": "2026-05-15",
   "inceptionCapital": 70000,
-  "startingCapital": 73275.17,
-  "tradeDate": "2026-10-07",
-  "lastUpdated": "2026-10-07T11:35:00Z",
-  "nextRefresh": "2026-10-08T07:09:00-05:00",
+  "startingCapital": 72883.58,
+  "tradeDate": "2026-10-08",
+  "lastUpdated": "2026-10-08T11:35:00Z",
+  "nextRefresh": "2026-10-09T07:09:00-05:00",
   "rules": [
     "Weekday 7am ET picks",
     "Per-pick exit rules",
@@ -13,32 +13,8 @@
     "1-week max hold",
     "<=4 names per sector"
   ],
-  "priorRealizedPnL": 3275.17,
+  "priorRealizedPnL": 2883.58,
   "positions": [
-    {
-      "ticker": "MRNA",
-      "name": "Moderna",
-      "sector": "Health Technology",
-      "shares": 18,
-      "entry": 190.45,
-      "exitRule": "Catalyst-defined",
-      "catalyst": "Joins the Nasdaq-100 before the Oct 9 open (replacing Warner Bros. Discovery) - forced index-fund buying into the Oct 8 close. +0.8% pre-market to $190.45. EXIT TRIGGER: close at the Thu 10/8 close (index rebalance), or -7% stop.",
-      "risks": "Citi downgraded to Sell ($80 PT) on 9/30 after a 222% run; stock +500%+ YTD and just off its 9/29 52-week high; index demand may be front-run.",
-      "driver": "Nasdaq-100 inclusion (Oct 9)",
-      "addedDate": "2026-10-02"
-    },
-    {
-      "ticker": "MAT",
-      "name": "Mattel",
-      "sector": "Consumer Durables",
-      "shares": 228,
-      "entry": 15.11,
-      "exitRule": "Catalyst-defined",
-      "catalyst": "WSJ (10/1): Authentic Brands Group privately discussed a takeover valuing Mattel at >$20/share (~$6B); a person familiar confirmed preliminary talks to CNBC. Thu close $15.04 leaves ~33% gap to the reported price. $15.11 pre-market. EXIT TRIGGER: close on a formal bid or a Mattel rejection, or by Thu 10/8 close; -8% stop.",
-      "risks": "Talks 'very preliminary', no formal sale process; Thursday spike (range 12.40-16.70) can retrace; new CEO transition just announced.",
-      "driver": "Authentic Brands takeover interest",
-      "addedDate": "2026-10-02"
-    },
     {
       "ticker": "PTC",
       "name": "PTC Inc.",
@@ -52,54 +28,6 @@
       "addedDate": "2026-10-05"
     },
     {
-      "ticker": "DAL",
-      "name": "Delta Air Lines",
-      "sector": "Transportation",
-      "shares": 41,
-      "entry": 84.26,
-      "exitRule": "1-3 day swing",
-      "catalyst": "Pre-earnings set-up: Q3 results Fri 10/9 BMO with a beat-streak history; WTI slipping (-0.6% to ~$90.5) after Iraq chartered a supertanker through Hormuz. $84.26 pre-market. EXIT: close by Thu 10/8 close (before the print); -5% stop / +8% target.",
-      "risks": "Brent >$100 fuel-cost risk; Weekly book also holds DAL (separate account); oil headline whipsaw.",
-      "driver": "Q3 earnings run-up (10/9 BMO)",
-      "addedDate": "2026-10-05"
-    },
-    {
-      "ticker": "CEG",
-      "name": "Constellation Energy",
-      "sector": "Utilities",
-      "shares": 12,
-      "entry": 284.69,
-      "exitRule": "1-3 day swing",
-      "catalyst": "Google and Constellation announced a 20-year deal supporting 890 MW of new nuclear capacity (IL/PA/NJ, >$4.3B CEG investment) plus a 15-year deal for 2,700 MW from the existing PJM fleet and a 5-yr Google Cloud/Gemini partnership. +6.4% pre-market to $284.69. Exit by Thu 10/8 close; -5% stop / +8% target.",
-      "risks": "Gap may fade intraday; stock -31% from 52-wk high; 10Y yield >5.2% weighs on utilities; VST also held (sector 2/4).",
-      "driver": "Google 20-yr nuclear PPA",
-      "addedDate": "2026-10-06"
-    },
-    {
-      "ticker": "PG",
-      "name": "Procter & Gamble",
-      "sector": "Consumer Non-Durables",
-      "shares": 23,
-      "entry": 148.04,
-      "exitRule": "1-3 day swing",
-      "catalyst": "Evercore ISI upgraded P&G to Outperform from In Line (10/6). +1.4% pre-market to $148.04, 11% below the Feb high. Defensive ballast into a rate-pressured tape. Exit by Thu 10/8 close; -5% stop / +8% target.",
-      "risks": "Low-beta (8% target unlikely); FQ1 earnings mid/late Oct outside window; rising yields pressure staples.",
-      "driver": "Evercore ISI upgrade to Outperform",
-      "addedDate": "2026-10-06"
-    },
-    {
-      "ticker": "MYRG",
-      "name": "MYR Group",
-      "sector": "Industrial Services",
-      "shares": 11,
-      "entry": 309.9,
-      "exitRule": "1-3 day swing",
-      "catalyst": "Jefferies upgraded MYR Group to Buy from Hold (10/6) - T&D grid contractor leveraged to data-center/utility capex (read-across with the CEG/Google nuclear build). +2.4% pre-market to $309.90. Exit by Thu 10/8 close; -5% stop / +8% target.",
-      "risks": "Thin liquidity (~230K avg vol), last print 08:08Z; 38% below June high; Q3 print late Oct.",
-      "driver": "Jefferies upgrade to Buy",
-      "addedDate": "2026-10-06"
-    },
-    {
       "ticker": "MRVL",
       "name": "Marvell Technology",
       "sector": "Electronic Technology",
@@ -109,30 +37,6 @@
       "catalyst": "Post-Investor Day multi-broker re-rate: TD Cowen upgraded to Buy (PT $350 from $245); Piper $400, Jefferies $450, Evercore $433, Wells Fargo $365 PT hikes after FY31 $70-90B revenue target and FY28 ~$20B (vs $18.2B consensus). Pulling back -1.6% pre-market to $282.30 after +5% Tue. Exit by Fri 10/9 close; -5% stop / +8% target.",
       "risks": "Chips weak pre-market (Nasdaq futs -0.4%); +237% YTD, profit-taking; ex-div 10/9 (tiny).",
       "driver": "multi-broker PT hikes + TD Cowen upgrade",
-      "addedDate": "2026-10-07"
-    },
-    {
-      "ticker": "NVDA",
-      "name": "NVIDIA",
-      "sector": "Electronic Technology",
-      "shares": 14,
-      "entry": 237.64,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Jensen Huang on stage at Microsoft's Windows/Surface event today 1pm ET (RTX Spark Windows PCs, Surface Laptop Ultra launch); stock at a record (52-wk high $243.37 on 10/6), ~$5.9T cap. $237.64 pre-market (-0.7%). Flat by close.",
-      "risks": "Sell-the-news on event; semis lower pre-market; SpaceX $40B debt-for-Nvidia-chips report is a demand plus but adds froth.",
-      "driver": "MSFT/NVDA AI PC event today",
-      "addedDate": "2026-10-07"
-    },
-    {
-      "ticker": "INTC",
-      "name": "Intel",
-      "sector": "Electronic Technology",
-      "shares": 31,
-      "entry": 112.9,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Bloomberg (overnight): CEO Lip-Bu Tan says Intel will keep working on Elon Musk's Terafab chipmaking venture alongside its TSMC partnership talk. +0.4% pre-market to $112.90 vs chips broadly lower (relative strength). Flat by close.",
-      "risks": "Unprofitable (negative P/E); 21% below June high; Terafab headline already known since April.",
-      "driver": "Terafab commitment report",
       "addedDate": "2026-10-07"
     },
     {
@@ -148,18 +52,6 @@
       "addedDate": "2026-10-07"
     },
     {
-      "ticker": "MSFT",
-      "name": "Microsoft",
-      "sector": "Technology Services",
-      "shares": 6,
-      "entry": 525.81,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Melius Research upgraded MSFT to Buy, $665 PT (10/7) + first major Windows/Surface event in 2+ years today 1pm ET (Nadella, Huang; Surface Laptop Ultra on Nvidia RTX Spark, local AI). $525.81 pre-market (-0.7% with tape). Flat by close.",
-      "risks": "Event sell-the-news; Schwab clients net sellers of MSFT in Sept; 5% below 52-wk high.",
-      "driver": "Melius upgrade + Windows event",
-      "addedDate": "2026-10-07"
-    },
-    {
       "ticker": "ABNB",
       "name": "Airbnb",
       "sector": "Consumer Services",
@@ -169,18 +61,6 @@
       "catalyst": "KeyBanc upgraded Airbnb to Overweight from Sector Weight, $191 PT (~19% upside): durable core growth, hotels as a second growth driver, discount to lodging peers. Eyes snapping a 4-week losing streak. $160.38 last print. Exit by Fri 10/9 close; -5% stop / +8% target.",
       "risks": "Wells Fargo cut PT to $185 same day on 3Q nights; thin pre-market (wide book); 17% below Aug high.",
       "driver": "KeyBanc upgrade to OW",
-      "addedDate": "2026-10-07"
-    },
-    {
-      "ticker": "NEOG",
-      "name": "Neogen",
-      "sector": "Health Technology",
-      "shares": 261,
-      "entry": 13.4,
-      "exitRule": "1-3 day swing",
-      "catalyst": "FQ1 beat (10/6 AMC): revenue $222.8M (+6.5%, core +8.1%), adj EPS $0.08 vs $0.05 est; RAISED FY27 revenue and adj EBITDA guidance; Petrifilm manufacturing transition on track for Nov. +12.0% pre-market to $13.40. Exit by Fri 10/9 close; -6% stop / +10% target.",
-      "risks": "~$2.6B cap; entry +12% vs close (near 15% cap); GAAP loss; gap-fade risk; 52-wk high $14.26 overhead.",
-      "driver": "beat & raise",
       "addedDate": "2026-10-07"
     },
     {
@@ -208,29 +88,125 @@
       "addedDate": "2026-10-07"
     },
     {
+      "ticker": "PLTR",
+      "name": "Palantir Technologies",
+      "sector": "Technology Services",
+      "shares": 17,
+      "entry": 198.92,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Goldman Sachs upgraded Palantir to Buy from Neutral (10/8, per Daily Trade Alert ratings roundup). +2.5% pre-market to $198.92 vs a red tape (relative strength confirms). Exit by Mon 10/12 close; -5% stop / +8% target.",
+      "risks": "Upgrade single-sourced (DTA roundup); 163x P/E in a 5.3% 10Y-yield tape; 4% below 52-wk high.",
+      "driver": "Goldman upgrade to Buy",
+      "addedDate": "2026-10-08"
+    },
+    {
       "ticker": "PEP",
       "name": "PepsiCo",
       "sector": "Consumer Non-Durables",
       "shares": 27,
-      "entry": 126.12,
+      "entry": 126.66,
       "exitRule": "Intraday - flat by close",
-      "catalyst": "Pre-earnings set-up: Q3 results Thu 10/8 BMO (EPS est $2.29); stock bouncing off a 52-week low ($124.22 on 10/5), 4.6% yield, defensive into a rising-yield, risk-off tape. +0.3% pre-market to $126.12. Flat by close (before print).",
-      "risks": "STZ beat-but-guide-down sold off -4.5% (bev read-across); 26% below Feb high; staples pressured by yields.",
-      "driver": "pre-earnings set-up (10/8 BMO)",
-      "addedDate": "2026-10-07"
+      "catalyst": "Q3 beat (10/8 BMO): core EPS $2.34 vs $2.29 est, net revenue +5.6%, organic +3.1%; updated FY26 guide; new structural cost-cut actions. +2.4% pre-market to $126.66 off yesterday's 52-wk low. Flat by close.",
+      "risks": "Core EPS only +2%; North America still weak; guide details unclear; staples pressured by yields.",
+      "driver": "Q3 beat (10/8 BMO)",
+      "addedDate": "2026-10-08"
     },
     {
-      "ticker": "LEVI",
-      "name": "Levi Strauss",
-      "sector": "Consumer Non-Durables",
-      "shares": 170,
-      "entry": 20.51,
+      "ticker": "BAH",
+      "name": "Booz Allen Hamilton",
+      "sector": "Commercial Services",
+      "shares": 48,
+      "entry": 71.62,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Truist upgraded Booz Allen to Buy from Hold (10/8, DTA roundup); govt-IT name with Pentagon focus amid Iran strike planning. +4.3% pre-market to $71.62. Exit by Fri 10/9 close; -5% stop / +8% target.",
+      "risks": "Last print 09:34Z, book 69.50/70.92 (may open below entry); 34% below Jan high; govt-budget risk.",
+      "driver": "Truist upgrade to Buy",
+      "addedDate": "2026-10-08"
+    },
+    {
+      "ticker": "U",
+      "name": "Unity Software",
+      "sector": "Technology Services",
+      "shares": 75,
+      "entry": 46.15,
       "exitRule": "Intraday - flat by close",
-      "catalyst": "Pre-earnings set-up: Q3 results tonight AMC (EPS est $0.36, revenue $1.62B); flat-to-up after hours ($20.60), 20% below July high. $20.51 pre-market. Flat by close (avoid binary print).",
-      "risks": "Thin pre-market (20.50/20.86); tariff/consumer softness; options imply a big move into the print.",
-      "driver": "pre-earnings set-up (10/7 AMC)",
-      "addedDate": "2026-10-07"
+      "catalyst": "Raymond James upgraded Unity to Outperform from Market Perform (10/8, DTA roundup). +1.6% pre-market to $46.15. Flat by close.",
+      "risks": "Upgrade single-sourced; unprofitable; high-beta in a risk-off open.",
+      "driver": "Raymond James upgrade to OP",
+      "addedDate": "2026-10-08"
+    },
+    {
+      "ticker": "TREX",
+      "name": "Trex Company",
+      "sector": "Non-Energy Minerals",
+      "shares": 78,
+      "entry": 44.6,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Deutsche Bank upgraded Trex to Buy from Hold (10/8, DTA roundup). +1.8% pre-market to $44.60. Exit by Mon 10/12 close; -5% stop / +8% target.",
+      "risks": "Housing-sensitive with 30-yr mortgage at 7.49% (highest since 2023); thin pre-market (44.22/49.93 book).",
+      "driver": "Deutsche Bank upgrade to Buy",
+      "addedDate": "2026-10-08"
+    },
+    {
+      "ticker": "R",
+      "name": "Ryder System",
+      "sector": "Transportation",
+      "shares": 14,
+      "entry": 234.24,
+      "exitRule": "Overnight (next day open)",
+      "catalyst": "Citi upgraded Ryder to Buy from Neutral (10/8, DTA roundup). +0.8% pre-market print $234.24. Close at Fri 10/9 open.",
+      "risks": "Thin liquidity (~265K avg vol), stale 09:09Z print, wide 232.33/254.65 book; diesel costs with Brent >$100.",
+      "driver": "Citi upgrade to Buy",
+      "addedDate": "2026-10-08"
+    },
+    {
+      "ticker": "OXY",
+      "name": "Occidental Petroleum",
+      "sector": "Energy Minerals",
+      "shares": 58,
+      "entry": 59.61,
+      "exitRule": "Catalyst-defined",
+      "catalyst": "Macro: White House reportedly asked Pentagon for Iran strike options; Brent ~$102-104, WTI +4% to ~$91.8; Gulf of Mexico storm shut ~500 kb/d US output. +2.4% pre-market to $59.61. EXIT TRIGGER: close on a de-escalation headline or by Fri 10/9 close; -5% stop / +8% target.",
+      "risks": "Oil headline whipsaw; energy now 4/4 sector cap (XOM, COP, OXY, FANG); 12% below March high.",
+      "driver": "Iran strike-prep oil spike",
+      "addedDate": "2026-10-08"
+    },
+    {
+      "ticker": "FANG",
+      "name": "Diamondback Energy",
+      "sector": "Energy Minerals",
+      "shares": 18,
+      "entry": 187.5,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Macro: same Iran strike-prep/Brent >$100 + GoM storm shut-ins; pure-play Permian E&P with high crude beta. +1.7% pre-market to $187.50 (bid 188.00). Exit by Fri 10/9 close; -5% stop / +8% target.",
+      "risks": "Crude reversal risk; 14% below Aug high; correlated with XOM/COP/OXY.",
+      "driver": "Iran strike-prep oil spike",
+      "addedDate": "2026-10-08"
+    },
+    {
+      "ticker": "APLD",
+      "name": "Applied Digital",
+      "sector": "Technology Services",
+      "shares": 145,
+      "entry": 23.98,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "FQ1 beat (10/7 AMC): revenue +322% YoY, adj EPS -$0.01 vs -$0.29 est; ~$36B contracted lease revenue; new 1GW Finland power deal and Tier-1 hyperscaler 1GW ND campus. +0.7% pre-market to $23.98. Flat by close.",
+      "risks": "Gain has faded from +4% earlier pre-market; weak price trend; 53% below May high; we exited 10/7 at $24.76.",
+      "driver": "FQ1 beat + 1GW deals",
+      "addedDate": "2026-10-08"
+    },
+    {
+      "ticker": "LMT",
+      "name": "Lockheed Martin",
+      "sector": "Electronic Technology",
+      "shares": 6,
+      "entry": 500.85,
+      "exitRule": "Catalyst-defined",
+      "catalyst": "Macro: reports the Pentagon is preparing potential strikes on Iran's nuclear/energy targets (White House asked for options). +0.3% pre-market to $500.85, 28% below March high. EXIT TRIGGER: close if strikes are announced/executed (sell the news) or by Mon 10/12 close; -5% stop.",
+      "risks": "Defense primes fell on prior strike days (Sept); weak tape; catalyst may not materialize in window.",
+      "driver": "Iran strike-prep defense bid",
+      "addedDate": "2026-10-08"
     }
   ],
-  "note": "2026-10-07: closed 12 positions for +311.18 realized (AMD +26.40, MRVL +165.12, QGEN -113.22, FTRE -164.80, CLF -150.15, BYD -0.98, AMZN +72.67, VST +255.99, WFC -16.80, BWA +46.75, APLD -126.48, CTVA +316.68). AMD/MRVL/QGEN/FTRE intraday at Tue 10/6 SIP close; CLF overnight at Wed pre-market; BYD overnight at last print $70.41 (no Wed pre-market trades); AMZN/VST/WFC/BWA/APLD exit date (Wed 10/7) reached at Wed pre-market prints; CTVA take-profit (+9.1%). Held: MRNA (Thu 10/8 index add, -3.6%), MAT (Thu 10/8 / bid trigger, +9.2%), PTC (Fri 10/9, -1.9% vs -4% stop), DAL (Thu 10/8, -1.6%), CEG (Thu 10/8, +2.7%), PG (Thu 10/8, +0.6%), MYRG (Thu 10/8, +4.6%) - none hit stops/targets. 11 new positions, $37,470.51 deployed; open book $61,368.44; cash $11,906.73. Skipped: STZ (beat but margin guide cut, -4.5%; long-only), CTVA re-entry (KeyBanc OW, just took profit), ARM/MARA (stale Sept/April news), RUM/NLST (small-cap), AAPL (weak LG smart-home headline), CVX (cap energy at 2). Backdrop: SPY -0.3%, QQQ -0.7% pre-market; 30Y yield 5.70% (highest since 2002), Brent >$100; FOMC minutes 2pm ET."
+  "note": "2026-10-08: closed 12 positions for -391.59 realized (NVDA -2.38, INTC +6.82, MSFT +23.70, PEP -64.53, LEVI -170.00, MRNA +77.04, MAT +278.16, DAL -108.24, CEG +138.60, PG -5.06, MYRG +11.11, NEOG -576.81). NVDA/INTC/MSFT/PEP/LEVI intraday at Wed 10/7 SIP close; MRNA/MAT/DAL/CEG/PG/MYRG exit date (Thu 10/8) reached at Thu pre-market prints; NEOG stopped (-16.5%). Held: PTC (-1.5% vs -4% stop), MRVL (-1.9%), PENG (+5.1%), ABNB (-1.1%), XOM (+1.0%), COP (+2.0%) - all exit Fri 10/9. 10 new positions, $33,773.21 deployed; open book $54,212.65; cash $18,670.93. Skipped: WOLF (+14%, DoW $1.5B loan, but ~$1.9B cap = small-cap), CHYM (DB upgrade; Tech Services sector cap), RCL (Jefferies upgrade but -1.5% on oil), CAVA (Melius upgrade, flat), IONQ/TSLA (no confirming price action), NLST (OTC), LEVI (mixed Q3, -2.9%), FCX (-2% despite copper strength), DVN (energy cap 4). Backdrop: SPY -0.3%, QQQ -0.5% pre-market; Pentagon Iran strike planning, Brent ~$102-104; 10Y 5.31%, hawkish Sept FOMC minutes; jobless claims 8:30 ET."
 }
