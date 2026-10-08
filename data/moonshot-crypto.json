@@ -2,10 +2,10 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 12879.3263,
-  "tradeDate": "2026-10-07",
-  "lastUpdated": "2026-10-07T10:53:00Z",
-  "nextRefresh": "2026-10-08T06:45:00-05:00",
+  "startingCapital": 12699.4919,
+  "tradeDate": "2026-10-08",
+  "lastUpdated": "2026-10-08T10:52:00Z",
+  "nextRefresh": "2026-10-09T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Runs every day \u2014 crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 2879.3263,
+  "priorRealizedPnL": 2699.4919,
   "positions": [
     {
       "ticker": "BTC",
       "name": "Bitcoin",
       "sector": "Crypto",
       "shares": 0.153702,
-      "entry": 83793.99,
-      "stopPrice": 77090.47,
+      "entry": 82623.97,
+      "stopPrice": 76014.05,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "DAY TWENTY-THREE. ROTATE ETH -> BTC (defensive). The tape is risk-off: an attack on a tanker in the Middle East pushed Brent above $101, Treasury yields and the dollar are up, total crypto cap fell ~3% to ~$2.85T, and ~$176M of longs were liquidated. On a low-edge, risk-off day the rule keeps the book in the most defensive major. BTC wins on flows and relative strength. Spot BTC ETFs took in +$119M on Oct 6 (reversing the prior day's outflow), while spot ETH ETFs bled -$202M (all from ETHA). BTC is down only about 2.8% from yesterday's mark vs ETH -5.0%, and BTC sits just above the 82-82.5K support shelf, which gives a definable line.",
-      "driver": "Closed ETH at 2,579.79 (canonical feed, asOf 2026-10-07T10:51:17.293Z) vs entry 2,714.55: -134.76/ETH, -672.77 total (-4.96%) on 4.992393 ETH. The 2,497.39 stop was not hit (24h low ~2,596 per reports). Book rolls 13,552.10 -> 12,879.33 (+28.79% on inception).\n\nBOUGHT BTC at 83,793.99 (same call/asOf). 0.153702 BTC = $12,879.33 deployed, 100%. Stop 77,090.47 (-8%, majors tier).\n\nWHY ETH WENT: the Glamsterdam/Sepolia catalyst turned into a sell-the-news. ETH lost the 2,650 structural line named in yesterday's invalidation and posted ~$202M of ETF outflows.\n\nRUNNERS-UP (move since yesterday's run, approx.): SOL 117.6 (high beta into a macro shock, would need a 10-12% stop). XRP 1.449 and ADA 0.255 are both at or near 2026 lows, so this is falling-knife territory. LINK 13.47 is back below 14.30 resistance. Nothing has a fresh catalyst strong enough to justify alt-beta while oil is spiking.\n\nPRICE NOTE: the first proxy re-fetch returned a cached 2026-10-06 payload. I rejected it and re-pulled with a cache-buster. Entry and exit are from the fresh asOf 10:51:17Z call, which matches the 10:50:54Z call (BTC 83,773 / ETH 2,579.16). Search used for narrative only.",
-      "risks": "Macro shock escalation: further Middle East tanker attacks, oil above $105, or a hot yields/dollar move could push BTC through the 82-82.5K support and toward 80K, with liquidation cascades. Rate-hike odds for the Oct 27-28 FOMC are rising with oil.\n\nFRICTION: the Robinhood spread is not charged by the paper book.\n\nTEST FOR TOMORROW: hold BTC only if it is TOP-THREE on the nine-name board OR reclaims 86,000. STRUCTURAL INVALIDATION: daily loss of 82,000. Hard stop 77,090.47 (-8%).",
-      "addedDate": "2026-10-07"
+      "catalyst": "DAY TWENTY-FOUR. HOLD BTC (closed and re-bought at the same canonical print). Risk-off continued for a third day: hawkish Fed minutes kept another hike in play, oil stayed elevated, and roughly $550-650M of longs were liquidated. BTC has fallen about 4.2% from the Oct 6 high near 86.6K. No coin on the nine-name board has a catalyst strong enough to justify alt-beta into this tape. BTC passed yesterday's hold test: it ranks top three since the last run (-1.40%, behind ETH -1.19% and level with ADA -1.51%), while SOL, XRP and LINK each fell about 3%. It is also still above the 82K daily invalidation line. The setup is asymmetric if 82K holds: the stop is defined and the rebound target is 84K, then 86-87.4K.",
+      "driver": "Closed BTC at 82,623.97 (canonical feed, asOf 2026-10-08T10:50:38.941Z) vs entry 83,793.99: -1,170.02/BTC, -179.83 total (-1.40%) on 0.153702 BTC. Stop 77,090.47 was not hit. Book rolls 12,879.33 -> 12,699.49 (+26.99% on inception).\n\nBOUGHT BTC at 82,623.97 (same call/asOf). 0.153702 BTC = $12,699.49 deployed, 100%. Stop 76,014.05 (-8%, majors tier).\n\nWHY BTC AGAIN: it is the defensive major on a low-edge, risk-off day, and the drawdown is orderly. A 7-day change of only about -0.25% shows this is a give-back of the Oct 6 pop, not a breakdown.\n\nRUNNERS-UP (move since yesterday's run): ETH 2,549.05 (-1.19%). Its relative strength is slightly better, but it had ~$202M of ETF outflows on Oct 6 and is still below the lost 2,650 line, which leaves no clean stop. SOL 114.26 (-2.8%) is high beta into a macro tape. XRP 1.4004 (-3.4%) and LINK 13.038 (-3.2%) are making fresh lows. ADA 0.25116, DOGE 0.08724, AVAX 10.723 and LTC 64.293 have no catalyst.\n\nPRICE NOTE: canonical proxy with a cache-buster; asOf 10:50:38Z, about 2s after run time. The CoinDesk 6:43am EDT reference of ~82,631 matches. Search used for narrative only. ETF-flow reports conflict: CoinDesk cites -$485M outflows and another source cites +$235M for Oct 7, so I treat flows as unconfirmed.",
+      "risks": "BTC is sitting right on the 82K support. A daily close below it opens 80K and a liquidation cascade. Further risks: hawkish Fed repricing ahead of the Oct 27-28 FOMC, oil/Middle East escalation, and continued ETF outflows (CoinDesk's -$485M print would be the largest since June).\n\nFRICTION: the Robinhood spread is not charged by the paper book.\n\nTEST FOR TOMORROW: hold BTC only if it is TOP-THREE on the nine-name board OR reclaims 84,000. STRUCTURAL INVALIDATION: daily loss of 82,000 (rotate to the strongest major or a clean RS leader). Hard stop 76,014.05 (-8%).",
+      "addedDate": "2026-10-08"
     }
   ]
 }
