@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8130.52,
-  "tradeDate": "2026-10-07",
-  "lastUpdated": "2026-10-07T10:46:00Z",
-  "nextRefresh": "2026-10-08T06:30:00-05:00",
+  "startingCapital": 8078.46,
+  "tradeDate": "2026-10-08",
+  "lastUpdated": "2026-10-08T10:45:00Z",
+  "nextRefresh": "2026-10-09T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -1869.48,
+  "priorRealizedPnL": -1921.54,
   "positions": [
     {
-      "ticker": "SPY",
-      "name": "SPDR S&P 500 ETF Trust",
-      "sector": "Broad US equity index, 1x (low-edge park)",
-      "shares": 10.454033,
-      "entry": 777.74,
-      "stopPrice": 731.08,
+      "ticker": "XLE",
+      "name": "Energy Select Sector SPDR Fund",
+      "sector": "Energy sector ETF, 1x (geopolitical oil hedge)",
+      "shares": 125.637014,
+      "entry": 64.3,
+      "stopPrice": 60.44,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Wednesday pre-market risk-off: S&P futures -0.15%, Dow -0.36%, Russell -0.46%; chips giving back an early-October rally (SOXL -3.8% pre) while NVDA is flat near records; TLT -0.75% (yields up) into the 2pm ET Fed minutes. BTC broke the 86k range (-2.8% overnight to 83.7k).",
-      "driver": "No high-conviction directional edge. Park in the lowest-vol liquid instrument at a small pre-market discount (-0.17% vs 779.09 close) rather than holding BTC after a range breakdown. Beat SOXS (3x inverse semis, already +3.9% pre; buy-the-dip risk in a strong uptrend, no fresh negative catalyst to justify 3x), SQQQ (3x, same issue), BTC-USD (lost 86k support, momentum negative), deliberate cash (gives up positive index drift).",
-      "risks": "Hawkish Fed minutes / 10Y pushing higher; chip selloff broadening into mega-cap tech; geopolitical/oil headlines. Hard stop 731.08 (-6%).",
-      "addedDate": "2026-10-07"
+      "catalyst": "Thursday pre-market risk-off: Pentagon reportedly preparing potential strikes on Iran (Polymarket ~52%), Brent ~$104 with Tehran saying Hormuz won't reopen under pressure; 10Y ~5.35%. SPY -0.57%, QQQ -0.8%, SOXL -6.5% pre; USO +4.0%, XLE +1.5%, XOM +1.7%, GLD +0.2%.",
+      "driver": "Energy equities are the one sector with a positive fresh catalyst and the asymmetric skew: a strike spikes crude further, while XLE (+1.5% pre) has lagged crude (+4%) so it isn't chased. 1x matches medium conviction on a binary geopolitical headline. Beat USO/UCO (already +4%/+4.5% pre, gap-chase and violent reversal on any de-escalation), SOXS (+6.4% pre, chasing a 3x inverse into a strong semi uptrend), GLD (+0.2%, low upside), SPY/cash (negative tape).",
+      "risks": "De-escalation / diplomatic headline or SPR release knocks crude $5-10 lower; broad equity selloff drags XLE with market beta. Hard stop 60.44 (-6%).",
+      "addedDate": "2026-10-08"
     }
   ]
 }
