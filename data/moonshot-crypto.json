@@ -2,10 +2,10 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 12699.4919,
-  "tradeDate": "2026-10-08",
-  "lastUpdated": "2026-10-08T10:52:00Z",
-  "nextRefresh": "2026-10-09T06:45:00-05:00",
+  "startingCapital": 12661.8902,
+  "tradeDate": "2026-10-09",
+  "lastUpdated": "2026-10-09T10:52:00Z",
+  "nextRefresh": "2026-10-10T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Runs every day \u2014 crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 2699.4919,
+  "priorRealizedPnL": 2661.8902,
   "positions": [
     {
       "ticker": "BTC",
       "name": "Bitcoin",
       "sector": "Crypto",
       "shares": 0.153702,
-      "entry": 82623.97,
-      "stopPrice": 76014.05,
+      "entry": 82379.33,
+      "stopPrice": 75788.98,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "DAY TWENTY-FOUR. HOLD BTC (closed and re-bought at the same canonical print). Risk-off continued for a third day: hawkish Fed minutes kept another hike in play, oil stayed elevated, and roughly $550-650M of longs were liquidated. BTC has fallen about 4.2% from the Oct 6 high near 86.6K. No coin on the nine-name board has a catalyst strong enough to justify alt-beta into this tape. BTC passed yesterday's hold test: it ranks top three since the last run (-1.40%, behind ETH -1.19% and level with ADA -1.51%), while SOL, XRP and LINK each fell about 3%. It is also still above the 82K daily invalidation line. The setup is asymmetric if 82K holds: the stop is defined and the rebound target is 84K, then 86-87.4K.",
-      "driver": "Closed BTC at 82,623.97 (canonical feed, asOf 2026-10-08T10:50:38.941Z) vs entry 83,793.99: -1,170.02/BTC, -179.83 total (-1.40%) on 0.153702 BTC. Stop 77,090.47 was not hit. Book rolls 12,879.33 -> 12,699.49 (+26.99% on inception).\n\nBOUGHT BTC at 82,623.97 (same call/asOf). 0.153702 BTC = $12,699.49 deployed, 100%. Stop 76,014.05 (-8%, majors tier).\n\nWHY BTC AGAIN: it is the defensive major on a low-edge, risk-off day, and the drawdown is orderly. A 7-day change of only about -0.25% shows this is a give-back of the Oct 6 pop, not a breakdown.\n\nRUNNERS-UP (move since yesterday's run): ETH 2,549.05 (-1.19%). Its relative strength is slightly better, but it had ~$202M of ETF outflows on Oct 6 and is still below the lost 2,650 line, which leaves no clean stop. SOL 114.26 (-2.8%) is high beta into a macro tape. XRP 1.4004 (-3.4%) and LINK 13.038 (-3.2%) are making fresh lows. ADA 0.25116, DOGE 0.08724, AVAX 10.723 and LTC 64.293 have no catalyst.\n\nPRICE NOTE: canonical proxy with a cache-buster; asOf 10:50:38Z, about 2s after run time. The CoinDesk 6:43am EDT reference of ~82,631 matches. Search used for narrative only. ETF-flow reports conflict: CoinDesk cites -$485M outflows and another source cites +$235M for Oct 7, so I treat flows as unconfirmed.",
-      "risks": "BTC is sitting right on the 82K support. A daily close below it opens 80K and a liquidation cascade. Further risks: hawkish Fed repricing ahead of the Oct 27-28 FOMC, oil/Middle East escalation, and continued ETF outflows (CoinDesk's -$485M print would be the largest since June).\n\nFRICTION: the Robinhood spread is not charged by the paper book.\n\nTEST FOR TOMORROW: hold BTC only if it is TOP-THREE on the nine-name board OR reclaims 84,000. STRUCTURAL INVALIDATION: daily loss of 82,000 (rotate to the strongest major or a clean RS leader). Hard stop 76,014.05 (-8%).",
-      "addedDate": "2026-10-08"
+      "catalyst": "DAY TWENTY-FIVE. HOLD BTC (closed and re-bought at the same canonical print). This is the fourth straight risk-off day: spot BTC ETF outflows of about -$487M Wednesday, ~$650M of long liquidations, and hawkish Fed minutes. BTC is again the clear relative-strength leader on the nine-name board, down only -0.30% since the last run while every alt lost 0.9-5.9%. It is still holding the 82K daily invalidation line, after a 7-day low near 80.4K. Low-edge tape, so stay in the defensive major. The setup is asymmetric if 82K holds: the stop is defined and the rebound target is 84K, then 86-87K.",
+      "driver": "Closed BTC at 82,379.33 (canonical feed, asOf 2026-10-09T10:50:37.259Z) vs entry 82,623.97: -37.60 total (-0.30%) on 0.153702 BTC. Stop 76,014.05 was not hit. Book rolls 12,699.49 -> 12,661.89 (+26.62% on inception).\n\nBOUGHT BTC at 82,379.33 (same asOf). 0.153702 BTC = $12,661.89 deployed, 100%. Stop 75,788.98 (-8%, majors tier).\n\nRUNNERS-UP (move since yesterday's run): LTC 63.703 (-0.92%) has no catalyst and is thin. XRP 1.3812 (-1.37%) is still making lower lows. LINK 12.754 (-2.18%). ETH 2,486.56 (-2.45%) lost 2,500 and has ETF outflows. DOGE 0.08401 (-3.7%), AVAX 10.298 (-4.0%), SOL 109.35 (-4.3%) and ADA 0.23625 (-5.9%) are high beta and bleeding.\n\nPRICE NOTE: canonical proxy with a cache-buster, asOf 10:50:37Z, at run time. The CoinDesk ~6:33am EDT reference of ~82,576 is consistent. Search was used for narrative only.",
+      "risks": "BTC is hugging 82K support. A daily close below it opens 80.4K (7-day low), then 78K, and could trigger another liquidation cascade. Further risks: continued ETF outflows, hawkish repricing ahead of the Oct 27-28 FOMC, oil/geopolitical escalation, and weekend liquidity (Fri->Sat).\n\nTEST FOR TOMORROW: hold BTC only if it is TOP-THREE on the nine-name board OR reclaims 84,000. STRUCTURAL INVALIDATION: daily loss of 82,000. Hard stop 75,788.98 (-8%).",
+      "addedDate": "2026-10-09"
     }
   ]
 }
