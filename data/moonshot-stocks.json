@@ -2,10 +2,10 @@
   "bookName": "Moonshot Stocks",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 6255.54,
-  "tradeDate": "2026-10-08",
-  "lastUpdated": "2026-10-08T10:44:57Z",
-  "nextRefresh": "2026-10-09T06:35:00-05:00",
+  "startingCapital": 6137.7,
+  "tradeDate": "2026-10-09",
+  "lastUpdated": "2026-10-09T10:44:53Z",
+  "nextRefresh": "2026-10-12T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -14,20 +14,7 @@
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
-  "priorRealizedPnL": -3744.46,
-  "positions": [
-    {
-      "ticker": "APLD",
-      "name": "Applied Digital Corporation",
-      "sector": "Technology \u2014 AI Data Center Infrastructure",
-      "shares": 256.164619,
-      "entry": 24.42,
-      "stopPrice": 22.95,
-      "exitRule": "Rotate next weekday 6:35am CT run",
-      "catalyst": "After Wednesday's close APLD reported fiscal Q1 FY27: adjusted revenue $300.4M vs ~$132M consensus (+127% beat) and adj. EPS -$0.01 vs -$0.30 expected; SA attributes the move to +322% y/y revenue, strong EBITDA and hyperscaler/AI-factory contracts.",
-      "driver": "Only +2.6% pre-market ($24.42 vs $23.81 close) on a blowout print; stock sits in the lower third of its 52-week range ($19.01-$50.73) after a ~50% drawdown from the May high, basing $23-29 since August \u2014 room for a re-rate/short-covering day. Stop under the late-Sep/early-Oct $23.39-23.59 lows.",
-      "risks": "Beat is largely lumpy tenant fit-out revenue rather than recurring lease revenue, so the market may fade it; very high beta in a soft tape (futures lower on Iran-diplomacy doubts and rising Treasury yields); possible equity/debt raise to fund build-outs; wide pre-market spread.",
-      "addedDate": "2026-10-08"
-    }
-  ]
+  "priorRealizedPnL": -3862.3,
+  "positions": [],
+  "cashReason": "CASH 2026-10-09: every fresh-catalyst long was already extended pre-market (HUM +14.8% on 2027 MA Star Ratings, CLOV +10.5%, CCI +8.1%, AMT +6% on tower sympathy to SpaceX spectrum deal) or a sector-sympathy move without a company-specific catalyst; DAL missed (-3%). No asymmetric setup within the no-chase rule."
 }
