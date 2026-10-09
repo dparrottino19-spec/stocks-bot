@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8078.46,
-  "tradeDate": "2026-10-08",
-  "lastUpdated": "2026-10-08T10:45:00Z",
-  "nextRefresh": "2026-10-09T06:30:00-05:00",
+  "startingCapital": 8141.28,
+  "tradeDate": "2026-10-09",
+  "lastUpdated": "2026-10-09T10:45:00Z",
+  "nextRefresh": "2026-10-10T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -1921.54,
+  "priorRealizedPnL": -1858.72,
   "positions": [
     {
-      "ticker": "XLE",
-      "name": "Energy Select Sector SPDR Fund",
-      "sector": "Energy sector ETF, 1x (geopolitical oil hedge)",
-      "shares": 125.637014,
-      "entry": 64.3,
-      "stopPrice": 60.44,
+      "ticker": "LITE",
+      "name": "Lumentum Holdings Inc.",
+      "sector": "Optical/photonic AI components, 1x",
+      "shares": 7.452723,
+      "entry": 1092.39,
+      "stopPrice": 1026.85,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Thursday pre-market risk-off: Pentagon reportedly preparing potential strikes on Iran (Polymarket ~52%), Brent ~$104 with Tehran saying Hormuz won't reopen under pressure; 10Y ~5.35%. SPY -0.57%, QQQ -0.8%, SOXL -6.5% pre; USO +4.0%, XLE +1.5%, XOM +1.7%, GLD +0.2%.",
-      "driver": "Energy equities are the one sector with a positive fresh catalyst and the asymmetric skew: a strike spikes crude further, while XLE (+1.5% pre) has lagged crude (+4%) so it isn't chased. 1x matches medium conviction on a binary geopolitical headline. Beat USO/UCO (already +4%/+4.5% pre, gap-chase and violent reversal on any de-escalation), SOXS (+6.4% pre, chasing a 3x inverse into a strong semi uptrend), GLD (+0.2%, low upside), SPY/cash (negative tape).",
-      "risks": "De-escalation / diplomatic headline or SPR release knocks crude $5-10 lower; broad equity selloff drags XLE with market beta. Hard stop 60.44 (-6%).",
-      "addedDate": "2026-10-08"
+      "catalyst": "Friday pre-market: Lumentum CEO Michael Hurlston reportedly said its optoelectronic components are effectively sold out through early 2029. LITE +4.2% pre (1092 vs 1048.60 close), COHR +3.4%, AAOI/POET up; Nasdaq futures +0.8% as AI/semis rebound from Thursday's OpenAI-revenue selloff (SOXL +4.4%, NVDA +1.8%, MU +1.8%). Oil eased after Trump said no Iran attack before midterms.",
+      "driver": "Company-specific, fresh, fundamental demand-visibility catalyst that directly rebuts the 'AI capex slowing' fear from OpenAI's revenue miss; +4.2% is a measured gap (not chased past 8%) with room for momentum follow-through as the open digests the comment. 1x matches medium-high conviction while holding over a weekend with Iran/Fed tail risk. Beat SOXL (3x into a weekend after a one-day dip-buy, gap risk too large), COHR (read-through only, wider spread), SPCX (+3.8% on spectrum deal but crowded retail name), GLD (+1.25% hedge, low upside), XLE hold (crude fading on de-escalation talk).",
+      "risks": "AI-capex sentiment re-breaks (more OpenAI/hyperscaler revenue doubts), hawkish Fed (Waller signalling two more hikes, 10Y ~5.3%), gap fade on 'sell the news' at the open, weekend Iran headline. Hard stop 1026.85 (-6%).",
+      "addedDate": "2026-10-09"
     }
   ]
 }
