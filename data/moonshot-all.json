@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8222.96,
-  "tradeDate": "2026-10-10",
-  "lastUpdated": "2026-10-10T10:45:00Z",
-  "nextRefresh": "2026-10-11T06:30:00-05:00",
+  "startingCapital": 8239.4,
+  "tradeDate": "2026-10-11",
+  "lastUpdated": "2026-10-11T10:45:00Z",
+  "nextRefresh": "2026-10-12T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -1777.04,
+  "priorRealizedPnL": -1760.6,
   "positions": [
     {
       "ticker": "BTC-USD",
       "name": "Bitcoin",
       "sector": "Spot crypto, 1x (weekend low-edge park)",
       "shares": 0.099398,
-      "entry": 82727.65,
-      "stopPrice": 74454.88,
+      "entry": 82893.04,
+      "stopPrice": 74603.74,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Saturday, US markets closed \u2014 spot crypto only. Crypto is consolidating after the Oct 7 selloff (BTC/ETH/SOL/XRP -4% to -6% on rising oil, hawkish Fed minutes, ~$487M long liquidations). BTC flat (+0.3% vs midnight ET); spot BTC ETFs still took a small $21M inflow Oct 9 while ETH (-$56M) and SOL (5th straight day) ETFs bled.",
-      "driver": "No fresh weekend catalyst = low-edge day, so park in the lowest-vol, best-bid major. BTC has relative strength (ETF inflows) vs ETH/SOL (outflows), and Friday's tech rebound + LITE 'sold out to 2029' comment supports risk sentiment into the weekend. Beat ETH-USD (ETF outflows), SOL-USD (5-day ETF outflows, higher beta to downside), XRP-USD (flat flows, no catalyst).",
-      "risks": "Weekend Iran/oil headline, hawkish Fed repricing (10Y ~5.3%), thin weekend liquidity / liquidation cascade. Hard stop 74454.88 (-10%).",
-      "addedDate": "2026-10-10"
+      "catalyst": "Sunday, US markets closed \u2014 spot crypto only. Week 41: BTC -2.1% w/w vs ETH -6.8% and SOL -8.1%; BTC dominance 59.1%. ETH ETFs have zero inflow days in October; SOL ETFs 5 straight outflow days. ~$106M liquidations in 24h, possible Iran-linked crypto seizure headline.",
+      "driver": "No fresh weekend catalyst = low-edge day; stay in the lowest-vol major with the clearest relative strength and dominance tailwind. Beat ETH-USD (persistent ETF outflows), SOL-USD (highest weekly drawdown, ETF bleed), XRP-USD (no catalyst). Monday re-opens the equity universe.",
+      "risks": "Weekend geopolitical/oil headline, hawkish Fed repricing, thin Sunday-night liquidity / liquidation cascade into Asia open. Hard stop 74603.74 (-10%).",
+      "addedDate": "2026-10-11"
     }
   ]
 }
