@@ -2,10 +2,10 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 12721.6557,
-  "tradeDate": "2026-10-10",
-  "lastUpdated": "2026-10-10T10:53:00Z",
-  "nextRefresh": "2026-10-11T06:45:00-05:00",
+  "startingCapital": 12572.2236,
+  "tradeDate": "2026-10-11",
+  "lastUpdated": "2026-10-11T10:53:00Z",
+  "nextRefresh": "2026-10-12T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Runs every day \u2014 crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 2721.6557,
+  "priorRealizedPnL": 2572.2236,
   "positions": [
     {
-      "ticker": "XRP",
-      "name": "XRP",
+      "ticker": "BTC",
+      "name": "Bitcoin",
       "sector": "Crypto",
-      "shares": 9056.492988,
-      "entry": 1.4047,
-      "stopPrice": 1.26423,
+      "shares": 0.151645,
+      "entry": 82905.68,
+      "stopPrice": 76273.23,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "DAY TWENTY-SIX. ROTATE BTC -> XRP. BTC failed yesterday's hold test: it ranked only #6 of nine on the board (+0.47%) and did not reclaim 84K. Risk-off is easing, with a broad weekend bounce and the first BTC ETF inflow (+$21M) after back-to-back outflow days. XRP has been the relative-strength name all week. Spot XRP ETFs took in about $8M on Oct 8 while BTC and ETH funds bled, XRP 'defied the bloodbath' at BTC's October lows, and it has now reclaimed the 1.40 pivot (+1.7% since the last run). Asymmetric setup: invalidation is clean at 1.35, the upside targets are 1.45 then 1.50, and the hard stop is at -10%.",
-      "driver": "Closed BTC at 82,768.17 (canonical feed, asOf 2026-10-10T10:51:40.644Z) vs entry 82,379.33: +59.77 (+0.47%) on 0.153702 BTC. Book 12,661.89 -> 12,721.66.\n\nBOUGHT XRP at 1.4047 (same asOf). 9056.492988 XRP = $12,721.66 deployed, 100%. Stop 1.26423 (-10%; higher-beta major tier).\n\nRUNNERS-UP (move since the last run): ADA 0.25505 (+7.96%) has momentum and a network-activity story, but it is extended into the 0.26-0.276 resistance on thin weekend liquidity, so chase risk is high. AVAX 10.585 (+2.8%) has no named catalyst. DOGE 0.08583 (+2.2%) is meme beta. LINK 12.916 (+1.3%). BTC 82,768 (+0.47%) failed the hold test. ETH 2,494 (+0.3%) is still in an ETF outflow streak. SOL 109.59 (+0.2%). LTC 63.61 (-0.1%).\n\nPRICE NOTE: canonical proxy with a cache-buster, asOf 10:51:40Z, at run time. It agrees with the first pull at 10:51:11Z (XRP 1.4045, BTC 82,776). Search was used for narrative only.",
-      "risks": "XRP is still in a downtrend on higher timeframes, and coverage says the 'path of least resistance' remains lower. Losing 1.40 again, then 1.35, invalidates the setup. Further risks: weekend liquidity (Sat->Sun), ETF flows paused until Monday, a renewed BTC breakdown below 82K, and oil/geopolitical and hawkish-Fed repricing ahead of the Oct 27-28 FOMC.\n\nTEST FOR TOMORROW: hold XRP only if it stays above 1.40 AND ranks top-three on the nine-name board. Otherwise rotate (default back to BTC on a low-edge tape). Hard stop 1.26423 (-10%).",
-      "addedDate": "2026-10-10"
+      "catalyst": "DAY TWENTY-SEVEN. ROTATE XRP -> BTC. XRP failed yesterday's hold test: it lost the 1.40 pivot (1.3882, -1.2%) and ranked #7 of nine. The Sunday tape is low-edge and risk-off-leaning. Only BTC (+0.17%) and ETH (+0.16%) are green on the nine-name board, and every alt is red (ADA -3.9%, AVAX -2.3%). Per the rule, default to the most liquid major with the best relative strength. BTC is #1 on the board and is holding above its 82K invalidation, with ETF flows resuming Monday.",
+      "driver": "Closed XRP at 1.3882 (canonical feed, asOf 2026-10-11T10:51:27.567Z) vs entry 1.4047: -149.43 on 9056.492988 XRP. Book 12,721.66 -> 12,572.22.\n\nBOUGHT BTC at 82,905.68 (same asOf). 0.151645 BTC = $12,572.22 deployed, 100%. Stop 76,273.23 (-8%, major tier).\n\nRUNNERS-UP (move since the last run): ETH 2,497.94 (+0.16%) has matching RS but higher beta and an ETF-outflow overhang. SOL 109.24 (-0.3%). LTC 63.38 (-0.4%). LINK 12.85 (-0.5%). DOGE 0.0850 (-0.9%). XRP 1.3882 (-1.2%) failed the test. AVAX 10.34 (-2.3%). ADA 0.2452 (-3.9%) gave back its extension.\n\nPRICE NOTE: canonical proxy with a cache-buster, asOf 10:51:27Z, at run time. It agrees with the first pull at 10:51:14Z (BTC 82,905.68, XRP 1.3884). Search was used for narrative only and turned up no fresh dated catalyst.",
+      "risks": "Thin Sunday liquidity heading into the weekly close. A BTC loss of 82K reopens the October lows. The ETF outflow streak could resume Monday. Further risks: hawkish-Fed repricing ahead of the Oct 27-28 FOMC, and oil/geopolitical headlines.\n\nTEST FOR TOMORROW: hold BTC if it ranks top-three on the board and stays above 82K. Otherwise rotate to the RS leader with a definable stop. Hard stop 76,273.23 (-8%).",
+      "addedDate": "2026-10-11"
     }
   ]
 }
