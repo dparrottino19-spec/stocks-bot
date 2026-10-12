@@ -3,9 +3,9 @@
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
   "startingCapital": 6137.7,
-  "tradeDate": "2026-10-09",
-  "lastUpdated": "2026-10-09T10:44:53Z",
-  "nextRefresh": "2026-10-12T06:35:00-05:00",
+  "tradeDate": "2026-10-12",
+  "lastUpdated": "2026-10-12T10:37:03Z",
+  "nextRefresh": "2026-10-13T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -15,6 +15,19 @@
     "Cash on low-conviction days"
   ],
   "priorRealizedPnL": -3862.3,
-  "positions": [],
-  "cashReason": "CASH 2026-10-09: every fresh-catalyst long was already extended pre-market (HUM +14.8% on 2027 MA Star Ratings, CLOV +10.5%, CCI +8.1%, AMT +6% on tower sympathy to SpaceX spectrum deal) or a sector-sympathy move without a company-specific catalyst; DAL missed (-3%). No asymmetric setup within the no-chase rule."
+  "positions": [
+    {
+      "ticker": "IREN",
+      "name": "IREN Limited",
+      "sector": "Technology \u2014 AI Cloud / Data Centers",
+      "shares": 165.928629,
+      "entry": 36.99,
+      "stopPrice": 34.77,
+      "exitRule": "Rotate next weekday 6:35am CT run",
+      "catalyst": "The Information (Oct 11-12) reported Anthropic signed an unannounced multiyear AI cloud services deal with IREN \u2014 likely the unnamed 'leading frontier AI lab' IREN disclosed in August.",
+      "driver": "Names the mystery customer as a top-tier frontier lab, de-risking the AI cloud contract backlog on top of the $9.7B Microsoft deal; only +5% pre-market (36.95 vs 35.19 close) \u2014 room to run on a fresh named-customer catalyst with high-beta AI infra momentum.",
+      "risks": "Unconfirmed press report \u2014 no dollar value/start date and neither company has commented; sell-the-news fade after a +5% gap; memory/semis weak pre-market (MU -2% on CXMT DRAM news) could drag AI infra; stop $34.77 sits just under Friday close (gap-fill = thesis failure).",
+      "addedDate": "2026-10-12"
+    }
+  ]
 }
