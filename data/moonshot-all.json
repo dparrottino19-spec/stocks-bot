@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8239.4,
-  "tradeDate": "2026-10-11",
-  "lastUpdated": "2026-10-11T10:45:00Z",
-  "nextRefresh": "2026-10-12T06:30:00-05:00",
+  "startingCapital": 8289.77,
+  "tradeDate": "2026-10-12",
+  "lastUpdated": "2026-10-12T10:45:00Z",
+  "nextRefresh": "2026-10-13T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -1760.6,
+  "priorRealizedPnL": -1710.23,
   "positions": [
     {
-      "ticker": "BTC-USD",
-      "name": "Bitcoin",
-      "sector": "Spot crypto, 1x (weekend low-edge park)",
-      "shares": 0.099398,
-      "entry": 82893.04,
-      "stopPrice": 74603.74,
+      "ticker": "IREN",
+      "name": "IREN Ltd",
+      "sector": "AI cloud / data-center infrastructure, 1x",
+      "shares": 223.564455,
+      "entry": 37.08,
+      "stopPrice": 34.86,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Sunday, US markets closed \u2014 spot crypto only. Week 41: BTC -2.1% w/w vs ETH -6.8% and SOL -8.1%; BTC dominance 59.1%. ETH ETFs have zero inflow days in October; SOL ETFs 5 straight outflow days. ~$106M liquidations in 24h, possible Iran-linked crypto seizure headline.",
-      "driver": "No fresh weekend catalyst = low-edge day; stay in the lowest-vol major with the clearest relative strength and dominance tailwind. Beat ETH-USD (persistent ETF outflows), SOL-USD (highest weekly drawdown, ETF bleed), XRP-USD (no catalyst). Monday re-opens the equity universe.",
-      "risks": "Weekend geopolitical/oil headline, hawkish Fed repricing, thin Sunday-night liquidity / liquidation cascade into Asia open. Hard stop 74603.74 (-10%).",
-      "addedDate": "2026-10-11"
+      "catalyst": "Monday Oct 12 (Columbus Day \u2014 equities open): The Information reports IREN signed a multi-year AI cloud services deal with Anthropic; stock +5.2% pre-market (37.04/37.08 vs 35.19 close) \u2014 under the 8-10% no-chase line.",
+      "driver": "Only fresh, company-specific, large-dollar catalyst on the tape; follows months of Anthropic 1.4GW Australia speculation, so a confirmed contract can re-rate. Beat SOXS (memory selloff on CXMT DRAM progress/Taiwan union risk already priced +2.8% pre-mkt, 3x decay), BTC-USD/BITX (no catalyst, +0.6% overnight), CCCS (+9.5% buyout-talk pop = capped arb upside, chase). 1x not leveraged: report-sourced, not yet company-confirmed.",
+      "risks": "Report not confirmed by IREN/Anthropic (prior 'deal that isn't signed' fade), sell-the-news after open, semis/AI risk-off (memory names -2%), Brent $105 + CPI week rate pressure. Hard stop 34.86 (-6%).",
+      "addedDate": "2026-10-12"
     }
   ]
 }
