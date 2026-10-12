@@ -2,11 +2,11 @@
   "bookName": "Weekly Trader",
   "inceptionDate": "2026-05-13",
   "inceptionCapital": 70000,
-  "startingCapital": 74661.65,
-  "weekStart": "2026-10-05",
-  "weekEnd": "2026-10-09",
-  "lastUpdated": "2026-10-05T01:09:36Z",
-  "nextRefresh": "2026-10-11T21:00:00-05:00",
+  "startingCapital": 74963.06,
+  "weekStart": "2026-10-12",
+  "weekEnd": "2026-10-16",
+  "lastUpdated": "2026-10-12T01:09:19Z",
+  "nextRefresh": "2026-10-18T21:00:00-05:00",
   "rules": [
     "1-wk max hold",
     "<=10% per position",
@@ -14,108 +14,118 @@
     "Real-time catalyst-driven",
     "Max returns objective"
   ],
-  "priorWeekRealizedPnL": -632.38,
-  "note": "Week of 2026-10-05 build. Run fired on schedule Sunday 10/4 ~9:00pm CT; entries are recorded at official SIP regular-session closes of Friday 2026-10-02 (connected brokerage market-data feed) and open Monday 10/5. PRIOR WEEK (9/28-10/2) realized -632.38 (-0.84%), 4 of 10 names green: GEV +3.24% (+186.42) led; AMD +0.52%, MSFT +0.26%, BE +0.16% roughly flat. Losses: LLY -3.43% (-203.05), ISRG -3.27% (-211.68), META -3.14% (-212.22), HUM -2.40% (-153.12), ETN -0.88%, MU -0.68% (beat-and-raise FQ4 - revenue $54.2B, FQ1 guide $61.5B - but muted reaction). Healthcare was the drag; all three healthcare names exited. Capital rolled forward to $74,661.65. New book: 10 names, $63,978.26 deployed (85.7%), cash $10,683.39. Carried forward: GEV only. EARNINGS INSIDE THE WINDOW: DAL Q3 Fri 10/9 before the open (binary; sized 6.9%). Other dated events: Amazon Prime Big Deal Days Tue-Wed 10/6-10/7; FOMC September minutes Wed 10/8; ISM services Mon; UMich sentiment Fri. Macro: September payrolls +29K vs +84K expected, unemployment 4.2%, October hike odds fell to ~18%; 10-year still near 20-year highs; G7 agreed a 100M-barrel crude/diesel reserve release (WTI ~$89 Friday); Trump sent 9,000 more troops to the Middle East; S&P futures +0.1% Sunday evening. Themes: AI-semis momentum at highs (NVDA record + $150B buyback; TER Tokyo Electron partnership; LRCX on Micron capex), AI power infrastructure (PWR breakout, GEV), refiners on product tightness (MPC, VLO with UBS $450 PT), consumer catalysts (TSLA delivery beat, AMZN Prime event), and DAL into earnings. Zero healthcare, zero financials, zero comm services this week.",
+  "priorWeekRealizedPnL": 301.41,
+  "note": "Week of 2026-10-12 build. Run fired on schedule Sunday 10/11 ~9:00pm CT; entries are recorded at official SIP regular-session closes of Friday 2026-10-09 (connected brokerage market-data feed) and open Monday 10/12. Monday is Columbus Day: US stock markets are OPEN (bond market closed), so the week starts as normal. PRIOR WEEK (10/5-10/9) realized +301.41 (+0.40%), 6 of 10 names green: MPC +7.74% (+490.50) and VLO +6.76% (+439.20) led on Houthi-Saudi escalation; PWR +4.34%, AMZN +4.34%, TSLA +3.27%, GEV +1.62%. Losses: TER -10.32% (-695.40) and LRCX -8.24% (-544.35) as semi-equipment gave back the prior week's run; DAL -2.28% (Q3 miss, trimmed FY outlook); NVDA -2.00%. Capital rolled forward to $74,963.06. New book: 11 names, $67,348.72 deployed (89.8%), cash $7,614.34. Carried forward: PWR, AMZN, MPC, VLO. Exited all semis (NVDA, TER, LRCX), TSLA, DAL, and GEV (momentum slowing, earnings 10/21; dropped to keep cash in the 8-15% band). EARNINGS INSIDE THE WINDOW: UNH Tue 10/13 before the open (binary; sized 6.6%). Other dated events: big-bank earnings Tue-Wed (JPM, GS, C, WFC, then BAC, MS); September CPI Wed 10/14 (consensus ~3.6% y/y headline) plus Beige Book; ASML Wed, TSMC Thu; PPI/retail sales later in the week. Macro: S&P 500 7,811.54 (+1.2% w/w) near a record, Nasdaq 4th straight weekly gain; 10-year ~5.24% after a 24-year high of ~5.37% Wednesday; Brent ~$104.5, WTI ~$93; gold ~$4,220; VIX ~14.8; S&P futures +0.1-0.3% Sunday evening. Themes: managed-care re-rate on 2027 MA star ratings (HUM, UNH), hyperscaler nuclear/power deals (CEG, PWR, AMZN), SpaceX spectrum deal re-rating tower REITs (CCI, AMT), PLTR double upgrade to new highs, refiners/gold as the geopolitical hedge (MPC, VLO, AEM). Zero semis, zero financials this week.",
   "positions": [
     {
-      "ticker": "NVDA",
-      "name": "NVIDIA",
-      "sector": "Technology / Semiconductors",
-      "shares": 29,
-      "entry": 233.95,
-      "catalyst": "Closed Friday 10/2 at $233.95 (+3.9% on the week from $225.07) after printing a new all-time intraday high of $237.88, taking market cap to ~$5.7T. Three fresh drivers stacked up last week: Morgan Stanley reinstated NVDA as its Top Pick in semiconductors, the company added $150B to its share-repurchase authorization, and Friday's soft jobs print (+29K vs +84K expected, unemployment 4.2%) cut October rate-hike odds to ~18%, pulling yields off multidecade highs. Micron's blowout FQ4 (revenue $54.2B vs $51.1B, FQ1 guide $61.5B vs $57B) reconfirmed that AI data-center demand is still outrunning supply.",
-      "risks": "Bought at a fresh record, so there is no overhead support if the tape turns. Wednesday's FOMC minutes are the week's macro event and could revive hike talk; the 10-year is still near 20-year highs. TER and LRCX in this book move with it.",
-      "driver": "The market leader at a new high with a buyback and a Top Pick behind it - the core AI-momentum position."
-    },
-    {
-      "ticker": "TER",
-      "name": "Teradyne",
-      "sector": "Technology / Semiconductor Test Equipment",
+      "ticker": "HUM",
+      "name": "Humana",
+      "sector": "Healthcare / Managed Care",
       "shares": 15,
-      "entry": 449.04,
-      "catalyst": "Closed Friday 10/2 at $449.04, +8.0% on the day on 3.4M shares vs a 2.2M two-week average (1.55x), and +12.7% on the week from $398.38 - the best weekly move among large-cap semi-equipment names. Friday's leg was triggered by a strategic partnership with Tokyo Electron (TheStreet: +6.4% intraday on the news) that pairs Teradyne's UltraFLEXplus tester with TEL's prober for known-good-die screening of AI/chiplet packages. That sits on top of record memory-test revenue ($212M in Q2) and the Magnum E2 launch for HBM - Micron's capex step-up is a direct read-through.",
-      "risks": "61.6x earnings and up from a $131.75 low twelve months ago; a one-day 8% gap can partially fill. Still 8% below the $487.91 June high. Q3 earnings 10/21 are outside the window.",
-      "driver": "Fresh partnership catalyst on 1.5x volume, closing at the high of a three-week uptrend."
+      "entry": 431.87,
+      "catalyst": "Closed Friday 10/9 at $431.87, +11.6% on the day on 5.0M shares (2.6x the 2-week average) after CMS 2027 Medicare Advantage star ratings put ~95% of Humana members in 4+ star plans vs 20% for 2026 - far above JPM's 60-70% expectation (Fierce Healthcare called Humana the clear winner). Baird upgraded to Outperform and lifted its PT to $596 from $390. New 52-week high ($456.50 intraday); the stock has nearly tripled off the $163 March low.",
+      "risks": "Gapped to $450 and faded to $431.87, so the open already contains a lot; bonus payments arrive in 2028, not 2027; 2026 EPS guide only >= $9. UNH reports Tue 10/13 and its tone sets the group.",
+      "driver": "The cleanest fresh catalyst in the market - a fundamental re-rate with an upgrade and 2.6x volume."
     },
     {
-      "ticker": "LRCX",
-      "name": "Lam Research",
-      "sector": "Technology / Semiconductor Equipment",
-      "shares": 19,
-      "entry": 347.49,
-      "catalyst": "Closed Friday 10/2 at $347.49, four straight up closes and +10.2% on the week from $315.21. The catalyst is Micron's FQ4 report (9/30): FY26 net capex of $27.4B with plans to increase investment, and customer prepayment commitments up to $32B from $22B in June - the clearest signal yet that memory wafer-fab-equipment spend steps up again in 2027. Lam is the most memory-levered of the big three WFE names (etch/deposition for HBM and 3D NAND), and the stock has risen from $269 on 9/16.",
-      "risks": "Still 21% below its $438.50 June high, so there is overhead supply as it climbs; 60x earnings. Correlated with TER and NVDA - the book's three tech names are all AI-semis. China export-control headlines are a standing risk.",
-      "driver": "Direct beneficiary of Micron's capex raise, with a clean four-day run into the weekend."
+      "ticker": "UNH",
+      "name": "UnitedHealth Group",
+      "sector": "Healthcare / Managed Care",
+      "shares": 13,
+      "entry": 379.3,
+      "catalyst": "Closed Friday 10/9 at $379.30, +2.0% on the week and +1.6% Friday in sympathy with Humana's star-ratings beat (Seeking Alpha: UNH rose on the Medicare Star Ratings update). Reports Q3 Tue 10/13 before the open (EPS est. $4.14) - the first big managed-care print after the 2027 stars data, and an opportunity to reset guidance with the sector re-rating.",
+      "risks": "Binary earnings Tuesday - sized smallest (6.6%). Still 18% below its $461.62 July high; medical-cost trend commentary can swing the stock several percent either way.",
+      "driver": "Managed-care rotation leader that gets its own catalyst inside the window."
+    },
+    {
+      "ticker": "CEG",
+      "name": "Constellation Energy",
+      "sector": "Utilities / Nuclear Power",
+      "shares": 22,
+      "entry": 298.07,
+      "catalyst": "Closed Friday 10/9 at $298.07, +15.8% on the week (from $257.49) on ~2x average volume. Monday 10/6 it jumped 12-14% on new 20-year hyperscaler nuclear deals: an Amazon contract backing >$3B and a ~190 MW uprate at Calvert Cliffs, with reports also citing a Google agreement covering uprates at 11 units (>$4.3B). Contracted, long-dated AI-power cash flows are the market's favorite utility story.",
+      "risks": "Already ran $257 -> $310 intraday; FERC delayed PJM's Reliability Backstop plan to 2027 (regulatory overhang); BMO trimmed its PT to $350. 10-year at ~5.24% pressures utility multiples; CPI Wed is the macro risk.",
+      "driver": "Fresh multi-billion hyperscaler deals plus a breakout week on double volume."
     },
     {
       "ticker": "PWR",
       "name": "Quanta Services",
       "sector": "Industrials / Electrical Infrastructure",
-      "shares": 10,
-      "entry": 676.56,
-      "catalyst": "Closed Friday 10/2 at $676.56 (+2.1% on the day, +4.2% on the week from $649.13), its highest close since at least the start of September, breaking out of the $610-$655 range it had held since early September (intraday high Friday $683.67). Grid and data-center transmission buildout remains the most visible capex theme outside semis, and Friday's drop in Treasury yields after the jobs miss directly helps long-duration infrastructure multiples.",
-      "risks": "77x earnings; 14% below its $788.75 May record, so this is a recovery breakout rather than a leader at highs. No company-specific event in the window; earnings late October. Rate-sensitive if the Fed minutes read hawkish.",
-      "driver": "Range breakout in AI-power infrastructure, confirmed by falling yields."
+      "shares": 9,
+      "entry": 705.94,
+      "catalyst": "Carried forward after +4.34% last week; closed Friday 10/9 at $705.94, a fourth straight higher weekly close and out of the $610-$655 September range. Grid/transmission buildout for AI data centers (the same theme as CEG's uprates) is the most persistent non-semi capex trade; Friday's close was near the high of the day.",
+      "risks": "80x trailing earnings; still 10% below the $788.75 May high, so there is overhead supply. Q3 earnings late October are outside the window. Correlated with CEG.",
+      "driver": "Breakout with follow-through - let the winner run another week."
     },
     {
-      "ticker": "GEV",
-      "name": "GE Vernova",
-      "sector": "Industrials / Power Generation",
-      "shares": 7,
-      "entry": 988.7,
-      "catalyst": "Carried forward after +3.24% last week (best name in the prior book), re-entered at Friday's $988.70 close. Higher weekly closes four weeks running off the 9/14 low (~$868), touching $1,006 intraday Friday. CEO Scott Strazik has said the backlog ($176B at Q2) is tracking toward $200B very early in 2027, and gas turbines remain the only dispatchable baseload hyperscalers can order now. Earnings 10/21 are outside the window.",
-      "risks": "Friday reversed from $1,006 to close at $988.70, and the catalyst is a reiteration rather than new information. 17% below its $1,195.94 July high. Third Industrials name and correlated with PWR on the AI-power theme.",
-      "driver": "Kept as the trend-following AI-power anchor - it was the prior week's top performer."
+      "ticker": "CCI",
+      "name": "Crown Castle",
+      "sector": "Real Estate / Tower REIT",
+      "shares": 75,
+      "entry": 79.64,
+      "catalyst": "Closed Friday 10/9 at $79.64, +15.6% on the day on 14.4M shares (3.1x average) - the biggest gainer in the S&P 500 - after SpaceX agreed to buy ~$8B of nationwide 800 MHz low-band spectrum from Grain Management for Starlink Mobile. Bernstein said the deal keeps the tower-leasing option 'very much alive', estimating a full buildout needs 30k-120k tower sites vs only 1.2k-2k new towers permitted per year. Bounced off a 52-week low set Monday 10/5 ($65.32).",
+      "risks": "No SpaceX tower lease is signed and FCC approval is pending - the move is a hypothesis; part is short covering in a stock down ~22% YTD. One-day gaps this size can partially fill. Rate-sensitive REIT with the 10-year at 5.24%.",
+      "driver": "Highest-volume fresh catalyst of the week, off a 52-week low with room to run."
     },
     {
-      "ticker": "DAL",
-      "name": "Delta Air Lines",
-      "sector": "Industrials / Airlines",
-      "shares": 61,
-      "entry": 84.09,
-      "catalyst": "EARNINGS INSIDE THE WINDOW: Q3 results Friday 10/9 before the open (call 10:00 ET), kicking off airline earnings season. Consensus is ~$1.92-1.96 EPS (+~14% y/y) on ~$17.6-17.7B revenue, and Delta has beaten in each of the last four quarters. Setup into the print: the stock has climbed from $76.38 on 9/1 to $84.09, and the input-cost picture improved late in the week - the G7 agreed Friday to release 100M barrels of crude and fuel products from emergency stocks, and WTI fell ~3.8% Friday to ~$89. Schaeffer's notes bullish options sentiment building ahead of the report.",
-      "risks": "A binary event on the last day of the hold, and fuel/diesel prices are still elevated with Iran headlines unresolved (9,000 more US troops sent to the region). Q4 guidance on fuel and premium demand will drive the reaction more than the Q3 beat. 12% below its July high. Sized smallest in the book (6.9%) for the binary risk.",
-      "driver": "A dated catalyst with a beat-streak behind it and a falling-oil tailwind, sized for the binary."
+      "ticker": "AMT",
+      "name": "American Tower",
+      "sector": "Real Estate / Tower REIT",
+      "shares": 30,
+      "entry": 182.24,
+      "catalyst": "Closed Friday 10/9 at $182.24, +9.3% on the day on 8.5M shares (2.5x average) and +12.4% on the week, on the same SpaceX spectrum catalyst; the largest and most liquid tower REIT with the biggest US macro-tower footprint for any new direct-to-cell carrier. Still 7% below the $196.08 June high.",
+      "risks": "Same unsigned-tenant hypothesis as CCI (paired exposure, so both are sized below 8%); carriers - AMT's actual tenants - sold off 6-13% on fears of a new competitor. Rate-sensitive.",
+      "driver": "Higher-quality second leg of the tower re-rate."
     },
     {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "sector": "Energy / Refining",
-      "shares": 15,
-      "entry": 422.33,
-      "catalyst": "Closed Friday 10/2 at $422.33, +7.3% on the week from $393.52, including +6.3% on Thursday 10/1 - within 2% of its $431.08 52-week high. UBS reiterated Buy with a $450 target on 10/1 (it had raised from $321) on tight product markets; TD Cowen is also at $450. The thesis: global product inventories depleted by the Iran war, Russian refinery outages and China's suspension of some October fuel exports, with US diesel at a record $6.52/gal on 9/22. Notably, MPC held its gains Friday even as crude fell on the G7 release - refiners benefit from cheaper crude input while product cracks stay wide.",
-      "risks": "The G7 release explicitly targets diesel (front-loaded over the first 20 days), which is the most direct threat to crack spreads; any Iran ceasefire would compress the war premium fast. Up ~146% YTD. Correlated with VLO.",
-      "driver": "Energy leadership with fresh target support, at the top of its range."
-    },
-    {
-      "ticker": "VLO",
-      "name": "Valero Energy",
-      "sector": "Energy / Refining",
-      "shares": 16,
-      "entry": 406.3,
-      "catalyst": "Closed Friday 10/2 at $406.30, +4.9% on the week from $387.18, including a +5.4% Thursday on the same product-tightness thesis as MPC; 3% below its $419.04 52-week high set 9/21. Valero is the largest pure-play US Gulf Coast refiner with the most export exposure, so it is the most direct way to own Europe's diesel shortage and China's export pause. Second leg of the book's only commodity exposure - deliberately the hedge against the energy-driven inflation scenario that would hurt the tech names.",
-      "risks": "Same G7 diesel-release and ceasefire risks as MPC; two refiners double the exposure to a single crack-spread variable. Friday's intraday low ($389.61) shows how fast it can swing.",
-      "driver": "Pairs with MPC as the book's inflation/geopolitics hedge with its own momentum."
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Tesla",
-      "sector": "Consumer Discretionary / Autos",
-      "shares": 18,
-      "entry": 370.59,
-      "catalyst": "Closed Friday 10/2 at $370.59, +4.7% on the day on 55.3M shares vs a 36.8M two-week average (1.5x), after Q3 deliveries of 486,532 beat the ~463K Bloomberg consensus by 5%. Energy storage deployments were 13.7 GWh, and William Blair noted the Megapack has entered Nvidia's DSX Ready program as qualified AI data-center infrastructure. The rescheduled Roadster reveal on Oct. 15 gives the stock an anticipation catalyst during the hold.",
-      "risks": "Deliveries were still down 2% y/y and below Q2; Friday reversed a late-September slide ($380.12 on 9/23 to $352.84 on 9/29) rather than extending an uptrend. 344x earnings and 26% below its December high. Q3 earnings 10/21 outside the window.",
-      "driver": "Fresh beat on 1.5x volume plus a dated product event just past the window."
+      "ticker": "PLTR",
+      "name": "Palantir Technologies",
+      "sector": "Technology / Software",
+      "shares": 31,
+      "entry": 209.05,
+      "catalyst": "Closed Friday 10/9 at $209.05, a new 52-week/all-time closing high, +10.8% on the week (from $188.75) and +5.2% Friday on 37.6M shares (1.7x average). Two upgrades in two days: Goldman Sachs to Buy with a $230 PT on 10/8 (sovereign-AI thesis) and Barclays to Overweight/strong-buy on 10/9. The stock rose on 10/8 even as the market fell.",
+      "risks": "178x earnings and RSI ~70 - stretched; Zacks downgraded to Hold and Schwab clients were net sellers. High-beta software is exposed to a hot CPI print Wednesday. Earnings 11/2 are outside the window.",
+      "driver": "Double-upgrade breakout to new highs - pure momentum + news."
     },
     {
       "ticker": "AMZN",
       "name": "Amazon",
       "sector": "Consumer Discretionary / Internet Retail",
-      "shares": 22,
-      "entry": 251.52,
-      "catalyst": "Prime Big Deal Days run Tuesday-Wednesday 10/6-10/7 - INSIDE the window - with deals across 35 categories, and third-party data on the event typically lands by Thursday. The stock closed Friday at $251.52, its highest close in seven sessions, up from $246.15 on 9/28, and has held above $245 throughout the late-September tech chop. It is also the cheapest mega-cap on earnings in the book (20x) and benefits from AWS demand read-throughs from Micron's data-center commentary.",
-      "risks": "The weakest price momentum in the book (+0.9% last week) and still 12% below its August high; sales-event headlines are often priced in. Sized in the lower tier (7.4%) for that reason.",
-      "driver": "A dated consumer catalyst inside the window, adding non-semis diversification."
+      "shares": 25,
+      "entry": 262.43,
+      "catalyst": "Carried forward after +4.34% last week; closed Friday 10/9 at $262.43, its best close since mid-September, through Prime Big Deal Days (10/6-10/7) and a new 20-year nuclear power deal with Constellation that secures AWS capacity. Mega-caps (MAGS +1% Friday) led the rebound from Thursday's tech dip.",
+      "risks": "Still 9% below the $287.20 August high; Q3 report late October is outside the window; rate-sensitive mega-cap multiple.",
+      "driver": "Mega-cap with improving relative strength and an AWS power catalyst."
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "sector": "Energy / Refining",
+      "shares": 14,
+      "entry": 455.03,
+      "catalyst": "Carried forward after +7.74% last week; closed Friday 10/9 at $455.03 after a new all-time high of $470.00 intraday. Product markets stay tight as Houthi strikes on Saudi Arabia escalate (Aramco site near Riyadh hit 10/3; Saturday's airport attack killed 12) with Brent ~$104.5 and WTI ~$93 to end the week.",
+      "risks": "Trump's Russia diesel-supply deal (announced 10/8) is a direct headwind for cracks; Friday reversed from $470 to $455. Stock is up ~180% from the December low - very extended.",
+      "driver": "Strongest-trending energy name; geopolitical hedge for the book."
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "sector": "Energy / Refining",
+      "shares": 15,
+      "entry": 433.75,
+      "catalyst": "Carried forward after +6.76% last week; closed Friday 10/9 at $433.75 after a new 52-week high of $449.77 intraday on 3.35M shares (1.3x average). Same tight-product backdrop as MPC: escalating Houthi attacks on Saudi energy infrastructure and Brent >$100.",
+      "risks": "Same diesel-deal headwind and the same intraday reversal as MPC; pairs with MPC so energy is ~17% of the book. Q3 earnings ~10/22 are outside the window.",
+      "driver": "Second refiner leg with confirmed volume."
+    },
+    {
+      "ticker": "AEM",
+      "name": "Agnico Eagle Mines",
+      "sector": "Materials / Gold Mining",
+      "shares": 30,
+      "entry": 189.02,
+      "catalyst": "Closed Friday 10/9 at $189.02, +2.9% on the week, as gold rose 1.5% Friday to ~$4,220/oz on Middle East escalation (Houthi-Saudi strikes, wider Iran war) and a softer dollar; gold and silver ores were among the top industry groups Friday. Lowest-cost senior producer.",
+      "risks": "Still 26% below its $255.24 March high; gold miners sell off fast if a hot CPI lifts real yields. Q3 report late October is outside the window.",
+      "driver": "Geopolitical hedge with improving momentum to balance the risk-on names."
     }
   ]
 }
