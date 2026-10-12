@@ -2,10 +2,10 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 12572.2236,
-  "tradeDate": "2026-10-11",
-  "lastUpdated": "2026-10-11T10:53:00Z",
-  "nextRefresh": "2026-10-12T06:45:00-05:00",
+  "startingCapital": 12657.6392,
+  "tradeDate": "2026-10-12",
+  "lastUpdated": "2026-10-12T10:53:00Z",
+  "nextRefresh": "2026-10-13T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Runs every day \u2014 crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 2572.2236,
+  "priorRealizedPnL": 2657.6392,
   "positions": [
     {
-      "ticker": "BTC",
-      "name": "Bitcoin",
+      "ticker": "AVAX",
+      "name": "Avalanche",
       "sector": "Crypto",
-      "shares": 0.151645,
-      "entry": 82905.68,
-      "stopPrice": 76273.23,
+      "shares": 1140.636136,
+      "entry": 11.097,
+      "stopPrice": 9.8763,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "DAY TWENTY-SEVEN. ROTATE XRP -> BTC. XRP failed yesterday's hold test: it lost the 1.40 pivot (1.3882, -1.2%) and ranked #7 of nine. The Sunday tape is low-edge and risk-off-leaning. Only BTC (+0.17%) and ETH (+0.16%) are green on the nine-name board, and every alt is red (ADA -3.9%, AVAX -2.3%). Per the rule, default to the most liquid major with the best relative strength. BTC is #1 on the board and is holding above its 82K invalidation, with ETF flows resuming Monday.",
-      "driver": "Closed XRP at 1.3882 (canonical feed, asOf 2026-10-11T10:51:27.567Z) vs entry 1.4047: -149.43 on 9056.492988 XRP. Book 12,721.66 -> 12,572.22.\n\nBOUGHT BTC at 82,905.68 (same asOf). 0.151645 BTC = $12,572.22 deployed, 100%. Stop 76,273.23 (-8%, major tier).\n\nRUNNERS-UP (move since the last run): ETH 2,497.94 (+0.16%) has matching RS but higher beta and an ETF-outflow overhang. SOL 109.24 (-0.3%). LTC 63.38 (-0.4%). LINK 12.85 (-0.5%). DOGE 0.0850 (-0.9%). XRP 1.3882 (-1.2%) failed the test. AVAX 10.34 (-2.3%). ADA 0.2452 (-3.9%) gave back its extension.\n\nPRICE NOTE: canonical proxy with a cache-buster, asOf 10:51:27Z, at run time. It agrees with the first pull at 10:51:14Z (BTC 82,905.68, XRP 1.3884). Search was used for narrative only and turned up no fresh dated catalyst.",
-      "risks": "Thin Sunday liquidity heading into the weekly close. A BTC loss of 82K reopens the October lows. The ETF outflow streak could resume Monday. Further risks: hawkish-Fed repricing ahead of the Oct 27-28 FOMC, and oil/geopolitical headlines.\n\nTEST FOR TOMORROW: hold BTC if it ranks top-three on the board and stays above 82K. Otherwise rotate to the RS leader with a definable stop. Hard stop 76,273.23 (-8%).",
-      "addedDate": "2026-10-11"
+      "catalyst": "DAY TWENTY-EIGHT. ROTATE BTC -> AVAX. BTC failed yesterday's hold test. It finished last (#9 of 9) on the board, +0.68%, in a broad Monday risk-on bounce where every coin was green. AVAX led the board at +7.3% (10.34 -> 11.10). It broke the 11.00-11.20 resistance band and reclaimed its 7-day and 20-day SMAs (about 10.85). It is the 28-day relative-strength leader (+49.7% vs BTC +9% and ETH +2.3%, per Phemex). The institutional rails narrative supports it: Goldman's Lynq L1 runs on Avalanche, and tokenized-stock flows are leading all chains.",
+      "driver": "Closed BTC at 83,468.94 (canonical feed, asOf 2026-10-12T10:50:45.932Z) vs entry 82,905.68: +85.42 on 0.151645 BTC. Book 12,572.22 -> 12,657.64.\n\nBOUGHT AVAX at 11.097 (same asOf; the first pull at 10:50:20Z showed 11.096). 1140.636136 AVAX = $12,657.64 deployed, 100%. Stop 9.8763 (-11%, higher-beta alt tier), which sits below the 10.00 support.\n\nRUNNERS-UP (move since the last run): LINK 13.422 (+4.5%) is the #2 RS name, but it has no fresh catalyst. ADA 0.2525 (+3.0%). DOGE 0.0874 (+2.8%). LTC 65.02 (+2.6%). ETH 2,555.41 (+2.3%) carries ETF-outflow overhang. SOL 111.73 (+2.3%). XRP 1.4046 (+1.2%) is lagging. BTC 83,468.94 (+0.7%) is last on the board.\n\nPRICE NOTE: canonical proxy with a cache-buster at run time. Search was used for narrative only.",
+      "risks": "Chasing a +7% day: AVAX could retest the 11.00 breakout or fade back into the 10.60-10.80 range. Blockchain.News flagged sell-heavy taker flow on Oct 10. The coin has high beta to any BTC rejection near 84K. Macro risks: hawkish-Fed repricing ahead of the Oct 27-28 FOMC, plus oil and geopolitical headlines.\n\nTEST FOR TOMORROW: hold AVAX if it ranks top-three on the board and holds above 10.80. Otherwise rotate to the RS leader, or to a major on a low-edge tape. Hard stop 9.8763 (-11%).",
+      "addedDate": "2026-10-12"
     }
   ]
 }
