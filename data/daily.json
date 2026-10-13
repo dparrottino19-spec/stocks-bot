@@ -2,10 +2,10 @@
   "bookName": "Daily Trader",
   "inceptionDate": "2026-05-15",
   "inceptionCapital": 70000,
-  "startingCapital": 73693.67,
-  "tradeDate": "2026-10-12",
-  "lastUpdated": "2026-10-12T11:25:09Z",
-  "nextRefresh": "2026-10-13T07:09:00-05:00",
+  "startingCapital": 73067.11,
+  "tradeDate": "2026-10-13",
+  "lastUpdated": "2026-10-13T11:24:38Z",
+  "nextRefresh": "2026-10-14T07:09:00-05:00",
   "rules": [
     "Weekday 7am ET picks",
     "Per-pick exit rules",
@@ -13,32 +13,8 @@
     "1-week max hold",
     "<=4 names per sector"
   ],
-  "priorRealizedPnL": 3693.67,
+  "priorRealizedPnL": 3067.11,
   "positions": [
-    {
-      "ticker": "HUM",
-      "name": "Humana",
-      "sector": "Health Services",
-      "shares": 7,
-      "entry": 445.5,
-      "exitRule": "1-3 day swing",
-      "catalyst": "CMS 2027 Medicare Advantage Star Ratings: largest contract (>2M members) upgraded 3.5->4 stars, restoring bonus eligibility; ~95% of members in 4+ star plans; Oppenheimer est. ~$3.6B revenue uplift. +15% pre-market. Exit by Tue 10/13 close; -6% stop / +10% target.",
-      "risks": "Gap-and-fade risk after +15%; trading above prior 52-wk high ($428.88); thin pre-market book (440/445.50).",
-      "driver": "2027 MA Star Ratings upgrade (Tier 1)",
-      "addedDate": "2026-10-09"
-    },
-    {
-      "ticker": "SPCX",
-      "name": "SpaceX",
-      "sector": "Communications",
-      "shares": 20,
-      "entry": 167.09,
-      "exitRule": "1-3 day swing",
-      "catalyst": "SpaceX agreed to buy Grain Management's nationwide 800 MHz low-band spectrum (Starlink Mobile), FCC approved its 15,000-satellite next-gen constellation, and Barclays initiated at Overweight ($254 PT). +4.1% pre-market to $167.09. Exit by Tue 10/13 close; -6% stop / +10% target.",
-      "risks": "~$2.2T mega-cap with retail-driven volatility; deal terms undisclosed; 26% below June high.",
-      "driver": "Spectrum deal + FCC approval + Barclays OW init (Tier 1)",
-      "addedDate": "2026-10-09"
-    },
     {
       "ticker": "RTX",
       "name": "RTX Corp",
@@ -50,18 +26,6 @@
       "risks": "Single-sourced report; de-escalation (no Iran strikes pre-midterms) weighs on defense; 18% below Aug high.",
       "driver": "$6.3B SM-3 interceptor contract",
       "addedDate": "2026-10-09"
-    },
-    {
-      "ticker": "IREN",
-      "name": "IREN Ltd",
-      "sector": "Technology Services",
-      "shares": 95,
-      "entry": 36.49,
-      "exitRule": "1-3 day swing",
-      "catalyst": "The Information: multi-year AI cloud services deal with Anthropic (large GPU clusters); +3.6-5% pre-market. Exit by Wed 10/14 close; -6% stop / +10% target.",
-      "risks": "Unconfirmed by company; 52% below Nov-25 high; unprofitable; Bitcoin-miner beta.",
-      "driver": "Anthropic AI cloud deal report (Tier 1)",
-      "addedDate": "2026-10-12"
     },
     {
       "ticker": "CCC",
@@ -88,102 +52,6 @@
       "addedDate": "2026-10-12"
     },
     {
-      "ticker": "ASTS",
-      "name": "AST SpaceMobile",
-      "sector": "Communications",
-      "shares": 66,
-      "entry": 52.69,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "BlueBird 14-16 satellites arrived at Cape Canaveral for launch + FCC clearance for 900 MHz testing (Stocktwits); +3.4% pre-market off Friday's 52-wk low flush. Flat by close.",
-      "risks": "Single-sourced news; Friday closed at a 52-wk low on 3x volume (trend broken); 61% below May high.",
-      "driver": "Launch-readiness + FCC 900 MHz test clearance (Tier 1)",
-      "addedDate": "2026-10-12"
-    },
-    {
-      "ticker": "GS",
-      "name": "Goldman Sachs",
-      "sector": "Finance",
-      "shares": 3,
-      "entry": 897.98,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Pre-earnings run-up: Q3 results Tue 10/13 BMO (Robinhood calendar, verified); bank-season kickoff with S&P/Nasdaq at records. Flat by Mon close (before the print).",
-      "risks": "22% below July high; rates (10Y 5.24%); bond market closed today (thin rates read).",
-      "driver": "Pre-earnings setup (Q3 Tue BMO)",
-      "addedDate": "2026-10-12"
-    },
-    {
-      "ticker": "WFC",
-      "name": "Wells Fargo",
-      "sector": "Finance",
-      "shares": 41,
-      "entry": 84.1,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Pre-earnings run-up: Q3 results Tue 10/13 BMO (verified); closed Fri +2% on 1.5x volume. Flat by Mon close (before the print).",
-      "risks": "14% below Jan high; NII sensitivity to rate path.",
-      "driver": "Pre-earnings setup (Q3 Tue BMO)",
-      "addedDate": "2026-10-12"
-    },
-    {
-      "ticker": "BAC",
-      "name": "Bank of America",
-      "sector": "Finance",
-      "shares": 64,
-      "entry": 54.57,
-      "exitRule": "Catalyst-defined",
-      "catalyst": "Pre-earnings run-up: Q3 results Wed 10/14 BMO (verified); peers JPM/C/GS/WFC print Tue and set tone. EXIT TRIGGER: sell by Tue 10/13 close (before its print); -4% stop.",
-      "risks": "Peer prints Tue could sour sentiment; 16% below Aug high.",
-      "driver": "Pre-earnings setup (Q3 Wed BMO)",
-      "addedDate": "2026-10-12"
-    },
-    {
-      "ticker": "MS",
-      "name": "Morgan Stanley",
-      "sector": "Finance",
-      "shares": 18,
-      "entry": 190.78,
-      "exitRule": "Catalyst-defined",
-      "catalyst": "Pre-earnings run-up: Q3 results Wed 10/14 BMO (verified); GS print Tue is the read-through for IB/trading. EXIT TRIGGER: sell by Tue 10/13 close (before its print); -4% stop.",
-      "risks": "18% below July high; wide pre-market book.",
-      "driver": "Pre-earnings setup (Q3 Wed BMO)",
-      "addedDate": "2026-10-12"
-    },
-    {
-      "ticker": "JNJ",
-      "name": "Johnson & Johnson",
-      "sector": "Health Technology",
-      "shares": 13,
-      "entry": 261.91,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Pre-earnings run-up: Q3 results Tue 10/13 BMO (verified); closed Fri +2.4% at $261.44. Flat by Mon close (before the print).",
-      "risks": "Defensive name, limited intraday range; 7% below Sept high.",
-      "driver": "Pre-earnings setup (Q3 Tue BMO)",
-      "addedDate": "2026-10-12"
-    },
-    {
-      "ticker": "DPZ",
-      "name": "Domino's Pizza",
-      "sector": "Consumer Services",
-      "shares": 11,
-      "entry": 312.45,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Pre-earnings run-up: Q3 results Tue 10/13 BMO (verified); indicated +1.5% pre-market (last print $314). Flat by Mon close (before the print).",
-      "risks": "30% below Dec-25 high; thin pre-market; consumer-spending worries.",
-      "driver": "Pre-earnings setup (Q3 Tue BMO)",
-      "addedDate": "2026-10-12"
-    },
-    {
-      "ticker": "ASML",
-      "name": "ASML Holding",
-      "sector": "Electronic Technology",
-      "shares": 1,
-      "entry": 1788.77,
-      "exitRule": "Catalyst-defined",
-      "catalyst": "Pre-earnings run-up: Q3 results Wed 10/14 BMO (verified) - first major AI-capex read of the season; +0.5% pre-market. EXIT TRIGGER: sell by Tue 10/13 close (before its print); -5% stop.",
-      "risks": "CXMT DRAM progress / Burry semi puts weigh on chips; 11% below June high.",
-      "driver": "Pre-earnings setup (Q3 Wed BMO)",
-      "addedDate": "2026-10-12"
-    },
-    {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor",
       "sector": "Electronic Technology",
@@ -194,7 +62,151 @@
       "risks": "Semis soft pre-market (MU -2% on CXMT); 7% below 10/5 high.",
       "driver": "Pre-earnings setup (Q3 Thu BMO)",
       "addedDate": "2026-10-12"
+    },
+    {
+      "ticker": "UNH",
+      "name": "UnitedHealth Group",
+      "sector": "Health Services",
+      "shares": 9,
+      "entry": 386.49,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Q3 beat: adj EPS $4.69 vs $4.14-4.15 est, revenue $112.7B vs $111.4B; FY26 adj EPS guide raised to >=$20.50. +2.1% pre-market. Exit by Thu 10/15 close; -5% stop / +8% target.",
+      "risks": "Gap-and-fade after +2%; 16% below July high; Dow-heavy tape could rotate.",
+      "driver": "Q3 beat + FY guide raise (Tier 1)",
+      "addedDate": "2026-10-13"
+    },
+    {
+      "ticker": "CVS",
+      "name": "CVS Health",
+      "sector": "Retail Trade",
+      "shares": 39,
+      "entry": 88.38,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "Read-through from UNH Q3 beat/guide raise (Aetna managed-care exposure); +0.7% pre-market. Flat by close.",
+      "risks": "Sympathy trade only; wide pre-market book (87.10/88.95); 20% below July high.",
+      "driver": "UNH read-through (Tier 2)",
+      "addedDate": "2026-10-13"
+    },
+    {
+      "ticker": "ELV",
+      "name": "Elevance Health",
+      "sector": "Health Services",
+      "shares": 8,
+      "entry": 422.9,
+      "exitRule": "Catalyst-defined",
+      "catalyst": "Managed-care rerate after UNH beat/raise + pre-earnings run into its own Q3 print Wed 10/21 BMO (Robinhood calendar, verified). EXIT TRIGGER: sell by Tue 10/20 close (before print); -5% stop / +7% target.",
+      "risks": "Stale pre-market print (10:30Z) and wide book (419.50/428.90); 3% below 52-wk high.",
+      "driver": "UNH read-through + pre-earnings setup (Tier 2)",
+      "addedDate": "2026-10-13"
+    },
+    {
+      "ticker": "JPM",
+      "name": "JPMorgan Chase",
+      "sector": "Finance",
+      "shares": 10,
+      "entry": 339.18,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "Q3 print this morning: EPS $5.75 vs $5.94 est (miss tied to lower buybacks per Dimon) but shares bid +1.5% pre-market to $339.18 after initial dip - buy-the-print reaction. Flat by close.",
+      "risks": "EPS miss could reassert on the call; conflicting reports on direction; 7% below Aug high.",
+      "driver": "Q3 earnings reaction (Tier 1)",
+      "addedDate": "2026-10-13"
+    },
+    {
+      "ticker": "BLK",
+      "name": "BlackRock",
+      "sector": "Finance",
+      "shares": 3,
+      "entry": 1088.0,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "Pre-earnings run-up: Q3 results Wed 10/14 BMO (verified); peer bank prints today set tone for capital-markets/AUM. Flat by close (before the print).",
+      "risks": "Wide pre-market book (1050/1089.99); 11% below 52-wk high.",
+      "driver": "Pre-earnings setup (Q3 Wed BMO)",
+      "addedDate": "2026-10-13"
+    },
+    {
+      "ticker": "SCHW",
+      "name": "Charles Schwab",
+      "sector": "Finance",
+      "shares": 35,
+      "entry": 97.46,
+      "exitRule": "Catalyst-defined",
+      "catalyst": "Pre-earnings run-up: Q3 results Thu 10/15 BMO (verified); retail-trading activity strong. EXIT TRIGGER: sell by Wed 10/14 close (before print); -4% stop.",
+      "risks": "CPI Wed could move rates/NII outlook; 15% below Aug high.",
+      "driver": "Pre-earnings setup (Q3 Thu BMO)",
+      "addedDate": "2026-10-13"
+    },
+    {
+      "ticker": "CRM",
+      "name": "Salesforce",
+      "sector": "Technology Services",
+      "shares": 14,
+      "entry": 236.5,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Follow-through on BofA double upgrade (Underperform -> Buy, Mon 10/12: AI 'deepens dependence'); +1.1% pre-market Tue on top of Monday's gain. Exit by Thu 10/15 close; -5% stop / +8% target.",
+      "risks": "Software sentiment fragile (ADBE downgrade on open-source clone); Nasdaq futures -0.5%.",
+      "driver": "BofA double upgrade follow-through (Tier 2)",
+      "addedDate": "2026-10-13"
+    },
+    {
+      "ticker": "TMUS",
+      "name": "T-Mobile US",
+      "sector": "Communications",
+      "shares": 22,
+      "entry": 153.03,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Raymond James upgrade to Outperform (Mon 10/12: SpaceX D2C threat 'overblown') after Friday's -13% flush to 52-wk low; +0.8% pre-market follow-through. Exit by Thu 10/15 close; -5% stop / +8% target.",
+      "risks": "SpaceX spectrum overhang persists; trading near 52-wk low $147.90 (broken trend).",
+      "driver": "RJ upgrade off 52-wk low (Tier 2)",
+      "addedDate": "2026-10-13"
+    },
+    {
+      "ticker": "UAL",
+      "name": "United Airlines",
+      "sector": "Transportation",
+      "shares": 32,
+      "entry": 105.1,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "Macro: WTI crude -2% to $91.85 on Russian diesel-supply relief - fuel-cost tailwind; UAL +0.6% pre-market. Flat by close.",
+      "risks": "Saudi supply risk could reverse crude; 24% below June high; reports 10/20.",
+      "driver": "Crude -2% macro trade (Tier 2)",
+      "addedDate": "2026-10-13"
+    },
+    {
+      "ticker": "JBHT",
+      "name": "J.B. Hunt Transport",
+      "sector": "Transportation",
+      "shares": 15,
+      "entry": 230.17,
+      "exitRule": "Catalyst-defined",
+      "catalyst": "Pre-earnings run-up: Q3 results Thu 10/15 after close (verified) - first freight read of the season. EXIT TRIGGER: sell by Thu 10/15 close (before print); -5% stop.",
+      "risks": "Stale pre-market print (06:10Z), wide book 226.27/232.99; 23% below July high.",
+      "driver": "Pre-earnings setup (Q3 Thu PM)",
+      "addedDate": "2026-10-13"
+    },
+    {
+      "ticker": "AA",
+      "name": "Alcoa",
+      "sector": "Non-Energy Minerals",
+      "shares": 83,
+      "entry": 41.77,
+      "exitRule": "Catalyst-defined",
+      "catalyst": "Pre-earnings run-up: Q3 results Thu 10/15 after close (verified). EXIT TRIGGER: sell by Thu 10/15 close (before print); -5% stop.",
+      "risks": "51% below June high (downtrend); aluminum price/tariff headlines.",
+      "driver": "Pre-earnings setup (Q3 Thu PM)",
+      "addedDate": "2026-10-13"
+    },
+    {
+      "ticker": "FAST",
+      "name": "Fastenal",
+      "sector": "Distribution Services",
+      "shares": 67,
+      "entry": 51.63,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "Pre-earnings run-up: Q3 results Wed 10/14 BMO (verified); trading 2% below 52-wk high $52.92. Flat by close (before the print).",
+      "risks": "43x P/E leaves little room; industrial demand read.",
+      "driver": "Pre-earnings setup (Q3 Wed BMO)",
+      "addedDate": "2026-10-13"
     }
   ],
-  "note": "2026-10-12 (Columbus Day; NYSE/Nasdaq open, bond market closed): closed 10 positions for -26.36 realized (LITE -31.79, COHR -26.95, AAOI -88.66, NEM +11.60, KGC -7.35, RKLB -79.50, PLTR +142.46, TREX +14.04, C +23.49, JPM +16.30). Held: HUM, SPCX (exit Tue 10/13), RTX (by Wed 10/14). 12 new positions, $38802.22 deployed; open book $48596.12; cash $25097.55. Skipped: STLA (EU-China hybrid deal, but $4.57 share price), AMZN (Decart talks unconfirmed/stale), GDDY (RBC downgrade, long-only), MU (CXMT/union pressure, -2%), AAPL (JPM Buy reiteration, flat), RKLB re-entry (NASA chatter, red pre-mkt), micro-cap gappers (YMAT/TRAX/SVRN etc.). Backdrop: ES +0.1%, NQ flat; 10Y 5.24%; crude elevated after Houthi strike on Riyadh airport but Russia-Ukraine energy ceasefire; CPI Wed, PPI/retail sales Thu; bank earnings Tue."
+  "note": "2026-10-13: closed 11 positions for -626.56 realized (HUM -66.50, SPCX -97.00, IREN -246.05, ASTS -81.18, GS -12.09, WFC -31.98, JNJ +23.66, DPZ -17.05, BAC +0.64, MS -31.86, ASML -67.15). Held: RTX, BIIB, TSM (exit by Wed 10/14), CCC (by Fri 10/16). 12 new positions, $40794.86 deployed; open book $54287.48; cash $18779.63. Skipped: JNJ/DPZ (beat but -2.5%/-3% pre), WFC (rev miss, down), GS/C (results not out at 11:25Z), PNC (ex-div 10/14), MU/AMD/NVDA (CXMT semis selloff), ADBE/ASTS (downgrades), micro-cap gappers (BKYI/FCHL etc.). Backdrop: ES +0.1%, NQ -0.5%, Dow +0.75% (UNH); 10Y 5.24%; WTI -2% to $91.85; CPI Wed."
 }
