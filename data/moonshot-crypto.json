@@ -2,10 +2,10 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 12657.6392,
-  "tradeDate": "2026-10-12",
-  "lastUpdated": "2026-10-12T10:53:00Z",
-  "nextRefresh": "2026-10-13T06:45:00-05:00",
+  "startingCapital": 11649.3169,
+  "tradeDate": "2026-10-13",
+  "lastUpdated": "2026-10-13T10:52:00Z",
+  "nextRefresh": "2026-10-14T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Runs every day \u2014 crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 2657.6392,
+  "priorRealizedPnL": 1649.3169,
   "positions": [
     {
-      "ticker": "AVAX",
-      "name": "Avalanche",
+      "ticker": "BTC",
+      "name": "Bitcoin",
       "sector": "Crypto",
-      "shares": 1140.636136,
-      "entry": 11.097,
-      "stopPrice": 9.8763,
+      "shares": 0.139973,
+      "entry": 83225.7,
+      "stopPrice": 76567.64,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "DAY TWENTY-EIGHT. ROTATE BTC -> AVAX. BTC failed yesterday's hold test. It finished last (#9 of 9) on the board, +0.68%, in a broad Monday risk-on bounce where every coin was green. AVAX led the board at +7.3% (10.34 -> 11.10). It broke the 11.00-11.20 resistance band and reclaimed its 7-day and 20-day SMAs (about 10.85). It is the 28-day relative-strength leader (+49.7% vs BTC +9% and ETH +2.3%, per Phemex). The institutional rails narrative supports it: Goldman's Lynq L1 runs on Avalanche, and tokenized-stock flows are leading all chains.",
-      "driver": "Closed BTC at 83,468.94 (canonical feed, asOf 2026-10-12T10:50:45.932Z) vs entry 82,905.68: +85.42 on 0.151645 BTC. Book 12,572.22 -> 12,657.64.\n\nBOUGHT AVAX at 11.097 (same asOf; the first pull at 10:50:20Z showed 11.096). 1140.636136 AVAX = $12,657.64 deployed, 100%. Stop 9.8763 (-11%, higher-beta alt tier), which sits below the 10.00 support.\n\nRUNNERS-UP (move since the last run): LINK 13.422 (+4.5%) is the #2 RS name, but it has no fresh catalyst. ADA 0.2525 (+3.0%). DOGE 0.0874 (+2.8%). LTC 65.02 (+2.6%). ETH 2,555.41 (+2.3%) carries ETF-outflow overhang. SOL 111.73 (+2.3%). XRP 1.4046 (+1.2%) is lagging. BTC 83,468.94 (+0.7%) is last on the board.\n\nPRICE NOTE: canonical proxy with a cache-buster at run time. Search was used for narrative only.",
-      "risks": "Chasing a +7% day: AVAX could retest the 11.00 breakout or fade back into the 10.60-10.80 range. Blockchain.News flagged sell-heavy taker flow on Oct 10. The coin has high beta to any BTC rejection near 84K. Macro risks: hawkish-Fed repricing ahead of the Oct 27-28 FOMC, plus oil and geopolitical headlines.\n\nTEST FOR TOMORROW: hold AVAX if it ranks top-three on the board and holds above 10.80. Otherwise rotate to the RS leader, or to a major on a low-edge tape. Hard stop 9.8763 (-11%).",
-      "addedDate": "2026-10-12"
+      "catalyst": "DAY TWENTY-NINE. ROTATE AVAX -> BTC. AVAX failed yesterday's hold test badly. It gave back the entire breakout (11.097 -> 10.213, -7.97%), lost the 10.80 pivot and finished #8 of 9 on the board. The tape flipped to broad risk-off overnight: every coin is red. BTC is the clear relative-strength leader at -0.31%, against ETH -2.5%, XRP -3.5%, DOGE -4.5%, LINK -4.5%, SOL -4.9%, LTC -6.5%, ADA -7.8% and AVAX -8.0%. On a low-edge, de-risking tape the rules say to default to the liquid major, and BTC is holding the 83K area while alts bleed.",
+      "driver": "Closed AVAX at 10.213 (canonical feed, asOf 2026-10-13T10:50:34.231Z) vs entry 11.097: -1008.32 on 1140.636136 AVAX. Book 12,657.64 -> 11,649.32.\n\nBOUGHT BTC at 83,225.70 (same asOf; the first pull at 10:50:21Z showed 83,211.63). 0.139973 BTC = $11,649.35 deployed, 100%. Stop 76,567.64 (-8%, majors tier).\n\nRUNNERS-UP (move since the last run): ETH 2,491.28 (-2.5%) is the next-best but carries ETF-outflow overhang. XRP 1.356 (-3.5%) lost 1.40. DOGE 0.08349 (-4.5%). LINK 12.82 (-4.5%). SOL 106.25 (-4.9%). LTC 60.797 (-6.5%). ADA 0.23271 (-7.8%). AVAX 10.213 (-8.0%) is last.\n\nPRICE NOTE: canonical proxy with a cache-buster at run time. The web search turned up no dated coverage for Oct 13, so the pick rests on the live relative-strength board.",
+      "risks": "A broad alt flush can drag BTC through 82K. That would retest the Oct 11 82.9K entry zone and open the 80K handle. Macro risks: hawkish-Fed repricing ahead of the Oct 27-28 FOMC, plus oil and geopolitical headlines. If alts bounce hard, BTC will lag on the upside.\n\nTEST FOR TOMORROW: hold BTC if it ranks top-three on the board and holds 82K. Otherwise rotate to the RS leader that has a catalyst. Hard stop 76,567.64 (-8%).",
+      "addedDate": "2026-10-13"
     }
   ]
 }
