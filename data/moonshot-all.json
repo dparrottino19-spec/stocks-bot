@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8289.77,
-  "tradeDate": "2026-10-12",
-  "lastUpdated": "2026-10-12T10:45:00Z",
-  "nextRefresh": "2026-10-13T06:30:00-05:00",
+  "startingCapital": 7793.46,
+  "tradeDate": "2026-10-13",
+  "lastUpdated": "2026-10-13T10:45:00Z",
+  "nextRefresh": "2026-10-14T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -1710.23,
+  "priorRealizedPnL": -2206.54,
   "positions": [
     {
-      "ticker": "IREN",
-      "name": "IREN Ltd",
-      "sector": "AI cloud / data-center infrastructure, 1x",
-      "shares": 223.564455,
-      "entry": 37.08,
-      "stopPrice": 34.86,
+      "ticker": "SOXS",
+      "name": "Direxion Daily Semiconductor Bear 3X Shares",
+      "sector": "Inverse semiconductors, -3x",
+      "shares": 200.140216,
+      "entry": 38.94,
+      "stopPrice": 35.05,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Monday Oct 12 (Columbus Day \u2014 equities open): The Information reports IREN signed a multi-year AI cloud services deal with Anthropic; stock +5.2% pre-market (37.04/37.08 vs 35.19 close) \u2014 under the 8-10% no-chase line.",
-      "driver": "Only fresh, company-specific, large-dollar catalyst on the tape; follows months of Anthropic 1.4GW Australia speculation, so a confirmed contract can re-rate. Beat SOXS (memory selloff on CXMT DRAM progress/Taiwan union risk already priced +2.8% pre-mkt, 3x decay), BTC-USD/BITX (no catalyst, +0.6% overnight), CCCS (+9.5% buyout-talk pop = capped arb upside, chase). 1x not leveraged: report-sourced, not yet company-confirmed.",
-      "risks": "Report not confirmed by IREN/Anthropic (prior 'deal that isn't signed' fade), sell-the-news after open, semis/AI risk-off (memory names -2%), Brent $105 + CPI week rate pressure. Hard stop 34.86 (-6%).",
-      "addedDate": "2026-10-12"
+      "catalyst": "Tue Oct 13: semis selloff extends globally \u2014 CXMT unveils next-gen server DDR5 (memory supply fears), AI-financing worries; ASML -3.3%, STM/Infineon -5% in Europe, Samsung/SK hynix -2%+, MU -3% / SNDK -4% / SMH -1.5% pre-market after MU -3.9%, SNDK -6% Monday. SOXS +4.7% pre-mkt (38.94 vs 37.19) \u2014 under the 8-10% no-chase line.",
+      "driver": "Only broad, fresh, globally confirmed directional catalyst on the tape; Nasdaq futures -0.5% while energy/banks lead (rotation out of semis). Beat CRM (+0.7% after BofA double upgrade \u2014 real but small 1x upside), SQQQ (diluted, same thesis), BITX/BTC-USD (BTC flat ~83.3k, no catalyst), staying in IREN (stopped out Monday, Anthropic-deal pop fully reversed). 3x justified by multi-region confirmation + momentum; size of conviction capped by the -10% hard stop.",
+      "risks": "3x inverse after two down sessions = sharp dip-buy/short-cover bounce risk at the open; bank earnings (JPM/GS/WFC/C) could lift risk appetite; any AI-capex reassurance or NVDA/TSMC headline reverses semis; 3x daily decay. Hard stop 35.05 (-10%).",
+      "addedDate": "2026-10-13"
     }
   ]
 }
