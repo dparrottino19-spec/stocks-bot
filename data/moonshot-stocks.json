@@ -2,10 +2,10 @@
   "bookName": "Moonshot Stocks",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 5769.34,
-  "tradeDate": "2026-10-13",
-  "lastUpdated": "2026-10-13T10:45:02Z",
-  "nextRefresh": "2026-10-14T06:35:00-05:00",
+  "startingCapital": 5696.87,
+  "tradeDate": "2026-10-14",
+  "lastUpdated": "2026-10-14T10:45:28Z",
+  "nextRefresh": "2026-10-15T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -14,20 +14,20 @@
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
-  "priorRealizedPnL": -4230.66,
+  "priorRealizedPnL": -4303.13,
   "positions": [
     {
-      "ticker": "UNH",
-      "name": "UnitedHealth Group Incorporated",
-      "sector": "Healthcare \u2014 Managed Care",
-      "shares": 15.035286,
-      "entry": 383.72,
-      "stopPrice": 364.53,
+      "ticker": "BLK",
+      "name": "BlackRock, Inc.",
+      "sector": "Financials \u2014 Asset Management",
+      "shares": 5.178973,
+      "entry": 1100.0,
+      "stopPrice": 1034.0,
       "exitRule": "Rotate next weekday 6:35am CT run",
-      "catalyst": "Q3 2026 beat + raise (Oct 13 pre-market): adj. EPS $4.69 vs ~$4.15 est, revenue $112.7B vs ~$111.4B; FY26 adj. EPS outlook raised to at least $20.50 (prior $19.50-20.00). MCR 88.4% vs 89.9% y/y; op cost ratio 12.8% vs 13.5%.",
-      "driver": "Clean fundamental beat-and-raise from a mega-cap in a defensive sector on a risk-off, chip-led Nasdaq-weak tape; only +1.4% pre-market with room to re-rate toward the $400-410 summer range; 8am ET call is the next leg.",
-      "risks": "~$610M favorable prior-period reserve development (~$0.50/sh) flattered the quarter \u2014 quality-of-beat debate on the call; pre-market already faded from ~$387.5 to ~$384; MA membership down 935K YTD; DOJ/Medicare overhang. Stop $364.53 (-5%) sits well below Monday close $378.52.",
-      "addedDate": "2026-10-13"
+      "catalyst": "Q3 2026 beat (Oct 14 pre-market): adj. EPS $15.93 vs $14.30 est (+11%), revenue $7.75B vs $7.43B (+19% y/y); $205B net inflows, 11% annualized organic base-fee growth, AUM $15.5T, adj. op margin 47.8% vs 44.6%.",
+      "driver": "High-quality, broad-based beat from a $173B mega-cap with a clean definable stop; +3.2% pre-market (not chasing) and still ~10% below the $1,220 52-week high with prior-day open $1,088 as near-term magnet/support. Strong markets + inflows read-through on a firm-futures tape.",
+      "risks": "8:30am ET CPI (est 0.5% m/m headline) and hawkish Fed talk (Collins hike comments; 10Y at 5.2%) could hit rate-sensitive financials; Tuesday's -2% reversal off $1,090 shows supply overhead; wide pre-market spread (1100/1107.86). Stop $1,034 (-6%) sits below Tue low $1,066.",
+      "addedDate": "2026-10-14"
     }
   ]
 }
