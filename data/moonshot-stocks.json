@@ -2,10 +2,10 @@
   "bookName": "Moonshot Stocks",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 5696.87,
-  "tradeDate": "2026-10-14",
-  "lastUpdated": "2026-10-14T10:45:28Z",
-  "nextRefresh": "2026-10-15T06:35:00-05:00",
+  "startingCapital": 5563.77,
+  "tradeDate": "2026-10-15",
+  "lastUpdated": "2026-10-15T10:45:15Z",
+  "nextRefresh": "2026-10-16T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -14,20 +14,7 @@
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
-  "priorRealizedPnL": -4303.13,
-  "positions": [
-    {
-      "ticker": "BLK",
-      "name": "BlackRock, Inc.",
-      "sector": "Financials \u2014 Asset Management",
-      "shares": 5.178973,
-      "entry": 1100.0,
-      "stopPrice": 1034.0,
-      "exitRule": "Rotate next weekday 6:35am CT run",
-      "catalyst": "Q3 2026 beat (Oct 14 pre-market): adj. EPS $15.93 vs $14.30 est (+11%), revenue $7.75B vs $7.43B (+19% y/y); $205B net inflows, 11% annualized organic base-fee growth, AUM $15.5T, adj. op margin 47.8% vs 44.6%.",
-      "driver": "High-quality, broad-based beat from a $173B mega-cap with a clean definable stop; +3.2% pre-market (not chasing) and still ~10% below the $1,220 52-week high with prior-day open $1,088 as near-term magnet/support. Strong markets + inflows read-through on a firm-futures tape.",
-      "risks": "8:30am ET CPI (est 0.5% m/m headline) and hawkish Fed talk (Collins hike comments; 10Y at 5.2%) could hit rate-sensitive financials; Tuesday's -2% reversal off $1,090 shows supply overhead; wide pre-market spread (1100/1107.86). Stop $1,034 (-6%) sits below Tue low $1,066.",
-      "addedDate": "2026-10-14"
-    }
-  ]
+  "priorRealizedPnL": -4436.23,
+  "positions": [],
+  "cashReason": "CASH 10/15: risk-off tape (hot Sept CPI 0.6% m/m, 10Y ~5%, 27% odds of Oct hike, Nasdaq futures -1%, Kospi -7% semis rout) with PPI/retail sales at 8:30 ET and Fed Chair Warsh speaking. Only clean catalyst (ERIC Q3 beat) already +12% pre-market, beyond the 8-10% no-chase limit; TSM beat-and-raise trading -2%; bank earnings (SCHW/PNC/USB/BK) not yet out at run time."
 }
