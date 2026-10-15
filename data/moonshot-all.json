@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 7651.36,
-  "tradeDate": "2026-10-14",
-  "lastUpdated": "2026-10-14T10:45:00Z",
-  "nextRefresh": "2026-10-15T06:30:00-05:00",
+  "startingCapital": 9176.83,
+  "tradeDate": "2026-10-15",
+  "lastUpdated": "2026-10-15T10:46:00Z",
+  "nextRefresh": "2026-10-16T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -2348.64,
+  "priorRealizedPnL": -823.17,
   "positions": [
     {
-      "ticker": "SOXS",
-      "name": "Direxion Daily Semiconductor Bear 3X Shares",
-      "sector": "Inverse semiconductors, -3x",
-      "shares": 199.931016,
-      "entry": 38.27,
-      "stopPrice": 34.44,
+      "ticker": "SQQQ",
+      "name": "ProShares UltraPro Short QQQ",
+      "sector": "Inverse Nasdaq-100, -3x",
+      "shares": 246.027614,
+      "entry": 37.3,
+      "stopPrice": 33.57,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Wed Oct 14: ASML Q3 \u2014 record EPS/margin and FY guide nudged up to \u20ac44-45B, but revenue \u20ac11.66B missed USD consensus and shares are -0.8% pre-mkt (1704.8 vs 1717.8) with the selloff spreading to memory: SNDK -2.4%, MU -1.3%, SOXL -2.1%, SMH -0.4%. SOXS +2.3% pre-mkt (38.27 vs 37.42) \u2014 well under the no-chase line.",
-      "driver": "Third straight day of semis distribution with a fresh bellwether catalyst (ASML revenue miss) on top of CXMT DDR5 / AI-financing worries; broad market flat-to-up (SPY +0.2%, IWM +0.3%) so it's a sector-specific short, not beta. Hot-headline CPI (consensus 3.6-3.7% y/y, Fed hiked in Sept) leans against high-multiple chips. Beat BTC-USD/BITX (flat ~83.3k, no catalyst), BAC/FAS (BAC -3% pre-mkt on $1.2B Treasury penalty, reports 6:45am ET \u2014 binary, unknown print), BABA (+1.5% Qwen glasses, small 1x move), SQQQ (diluted). 3x kept on multi-day, multi-region confirmation; -10% hard stop caps damage.",
-      "risks": "Yesterday's identical setup faded \u2014 SOXS gapped to 40.9 pre-mkt then closed 37.42 as dips got bought; repeat is the main risk. 8:30am ET CPI is binary: a soft core (\u22640.2% m/m) could spark a broad risk-on squeeze in semis. Bank earnings (BAC/MS/WFC) can swing tape; 3x daily decay. Hard stop 34.44 (-10%).",
-      "addedDate": "2026-10-14"
+      "catalyst": "Thu Oct 15: TSMC beat-and-raise (Q3 NI NT$763B +69% y/y vs ~NT$746B est; Q4 rev guide $52.3-54.3B above consensus) yet TSM ADR -1.9% pre-mkt and chips extend a 4th day of selling: SOXL -8.1%, MU -4.1%, SNDK -4.6%, NVDA -2.0%, ASML -1.4%. MSCI Asia-Pac -2.8% (SK hynix heavy). Nasdaq-100 futures ~-1.1% vs Dow ~flat after hotter CPI; QQQ -1.2% pre-mkt (720.3 vs 728.95). SQQQ +3.6% pre-mkt (37.30 vs 36.00) - well under no-chase line.",
+      "driver": "Good-news-sold on the sector's bellwether is a classic distribution tell; tech-led weakness on top of hot CPI, higher yields and Hormuz oil risk. Chose SQQQ over SOXS because SOXS is already +8.0% pre-mkt (at the no-chase line) after a +11% Wed, and a broader -3x Nasdaq short keeps the same thesis with less snap-back risk from a capitulation bounce in chips. Beat SOXS (chase), SPXS (diluted, S&P only -0.3%), BITX/BTC-USD (BTC ~80.9k drifting lower, no catalyst), UNH/healthcare defensives (catalyst was Oct 13, stale).",
+      "risks": "Fourth day of a chip selloff - TSMC's strong guide could spark a dip-buy reversal intraday (Tue's SOXS fade is the template). AAPL +0.8% pre-mkt partially offsets QQQ. 3x daily decay; hard stop 33.57 (-10%).",
+      "addedDate": "2026-10-15"
     }
   ]
 }
