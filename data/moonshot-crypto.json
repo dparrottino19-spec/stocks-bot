@@ -2,10 +2,10 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 11666.7141,
-  "tradeDate": "2026-10-14",
-  "lastUpdated": "2026-10-14T10:52:00Z",
-  "nextRefresh": "2026-10-15T06:45:00-05:00",
+  "startingCapital": 11313.0233,
+  "tradeDate": "2026-10-15",
+  "lastUpdated": "2026-10-15T10:52:00Z",
+  "nextRefresh": "2026-10-16T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Runs every day \u2014 crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 1666.7141,
+  "priorRealizedPnL": 1313.0233,
   "positions": [
     {
       "ticker": "BTC",
       "name": "Bitcoin",
       "sector": "Crypto",
       "shares": 0.139973,
-      "entry": 83349.99,
-      "stopPrice": 76681.99,
+      "entry": 80823.14,
+      "stopPrice": 74357.29,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "DAY THIRTY. HOLD BTC (rolled at the live print). The tape is a quiet, slightly green drift: every coin except AVAX is up 0.1-1.2% since the last run. No board move exceeds 1.3%, and the web search turned up no dated catalyst for Oct 14. BTC ranked only #8 of 9 (+0.15%), so the strict top-three test failed. But the rotate trigger needs an RS leader WITH a catalyst. The leaders (LTC +1.2%, XRP +1.1%, DOGE +1.0%) are posting small relief bounces after yesterday's 3.5-6.5% drops, with no catalyst behind them. On a low-edge day the rules default to the liquid major, and BTC held 82K with the tightest drawdown profile on the board.",
-      "driver": "Closed BTC at 83,349.99 (canonical feed, asOf 2026-10-14T10:51:31.684Z; the first pull at 10:51:10.790Z showed 83,353.26) vs entry 83,225.70: +17.40 on 0.139973 BTC. Book 11,649.32 -> 11,666.71.\n\nRE-BOUGHT BTC at 83,349.99 (same asOf). 0.139973 BTC = $11,666.75 deployed, 100%. Stop 76,681.99 (-8%, majors tier).\n\nBOARD (move since the last run): LTC 61.545 (+1.2%), XRP 1.3705 (+1.1%), DOGE 0.08429 (+1.0%), ADA 0.23475 (+0.9%), LINK 12.909 (+0.7%), SOL 106.97 (+0.7%), ETH 2,501.08 (+0.4%), BTC (+0.15%), AVAX 10.202 (-0.1%).\n\nRUNNERS-UP: XRP is the most liquid of the alt leaders but is still below its lost 1.40 pivot. LTC leads on RS but only recovered part of yesterday's -6.5%. ETH is the other major but has ETF-outflow overhang and only +0.4%.",
-      "risks": "A dead-cat-bounce failure in alts could drag BTC back through 82K. Macro risks: hawkish-Fed repricing ahead of the Oct 27-28 FOMC, plus oil and geopolitical headlines. If alts extend the relief rally, BTC will lag on the upside (that's the opportunity cost).\n\nTEST FOR TOMORROW: if an alt leads with a real catalyst and a level reclaim (XRP > 1.40, SOL > 110), rotate to it. Otherwise hold BTC while it holds 82K. Hard stop 76,681.99 (-8%).",
-      "addedDate": "2026-10-14"
+      "catalyst": "DAY THIRTY-ONE. HOLD BTC (rolled at the live print). Broad risk-off flush overnight: every coin on the 9-name board fell 3-7%. BTC was the shallowest decliner (-3.0%) and is the #1 relative-strength name. ETH -5.7%, SOL -4.6%, XRP -4.8%, LINK -7.0%, AVAX -6.7%. Web search turned up no dated catalyst for Oct 15. With no catalyst-backed alt leader and a red tape, the rules default to the liquid major with the tightest drawdown profile.",
+      "driver": "Closed BTC at 80,823.14 (canonical feed, asOf 2026-10-15T10:51:16.360Z; board pull at 10:51:04.830Z matched) vs entry 83,349.99: -353.69 on 0.139973 BTC (-3.03%). Book 11,666.71 -> 11,313.02.\n\nRE-BOUGHT BTC at 80,823.14 (same asOf). 0.139973 BTC = $11,313.06 deployed, 100%. Stop 74,357.29 (-8%, majors tier).\n\nBOARD (move since the last run): BTC 80,823.14 (-3.0%), SOL 102.04 (-4.6%), XRP 1.3049 (-4.8%), DOGE 0.08004 (-5.0%), ETH 2,359.84 (-5.6%), LTC 58.041 (-5.7%), ADA 0.22084 (-5.9%), AVAX 9.516 (-6.7%), LINK 11.999 (-7.0%).\n\nRUNNERS-UP: SOL (#2 RS, -4.6%) is still under its 110 reclaim level. XRP (-4.8%) is now further below the lost 1.40 pivot. ETH lagged BTC again (-5.6%) with the ETF-outflow overhang intact.",
+      "risks": "BTC lost 82K, the level yesterday's hold thesis rested on. Follow-through selling toward the high-70Ks is possible; the hard stop at 74,357.29 (-8%) caps it. Macro: hawkish-Fed repricing into the Oct 27-28 FOMC, plus oil and geopolitical headlines. If alts snap back hard, BTC will lag on the bounce.\n\nTEST FOR TOMORROW: rotate to an alt only if it leads with a real catalyst and a level reclaim (SOL > 110, XRP > 1.40). If BTC fails to reclaim 82K and the board keeps bleeding, stay in BTC as the least-bad major and lean on the stop.",
+      "addedDate": "2026-10-15"
     }
   ]
 }
