@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 9176.83,
-  "tradeDate": "2026-10-15",
-  "lastUpdated": "2026-10-15T10:46:00Z",
-  "nextRefresh": "2026-10-16T06:30:00-05:00",
+  "startingCapital": 8901.28,
+  "tradeDate": "2026-10-16",
+  "lastUpdated": "2026-10-16T10:45:00Z",
+  "nextRefresh": "2026-10-17T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -823.17,
+  "priorRealizedPnL": -1098.72,
   "positions": [
     {
-      "ticker": "SQQQ",
-      "name": "ProShares UltraPro Short QQQ",
-      "sector": "Inverse Nasdaq-100, -3x",
-      "shares": 246.027614,
-      "entry": 37.3,
-      "stopPrice": 33.57,
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "sector": "Consumer discretionary / EV & autonomy (long, unleveraged)",
+      "shares": 23.486227,
+      "entry": 379.0,
+      "stopPrice": 356.26,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Thu Oct 15: TSMC beat-and-raise (Q3 NI NT$763B +69% y/y vs ~NT$746B est; Q4 rev guide $52.3-54.3B above consensus) yet TSM ADR -1.9% pre-mkt and chips extend a 4th day of selling: SOXL -8.1%, MU -4.1%, SNDK -4.6%, NVDA -2.0%, ASML -1.4%. MSCI Asia-Pac -2.8% (SK hynix heavy). Nasdaq-100 futures ~-1.1% vs Dow ~flat after hotter CPI; QQQ -1.2% pre-mkt (720.3 vs 728.95). SQQQ +3.6% pre-mkt (37.30 vs 36.00) - well under no-chase line.",
-      "driver": "Good-news-sold on the sector's bellwether is a classic distribution tell; tech-led weakness on top of hot CPI, higher yields and Hormuz oil risk. Chose SQQQ over SOXS because SOXS is already +8.0% pre-mkt (at the no-chase line) after a +11% Wed, and a broader -3x Nasdaq short keeps the same thesis with less snap-back risk from a capitulation bounce in chips. Beat SOXS (chase), SPXS (diluted, S&P only -0.3%), BITX/BTC-USD (BTC ~80.9k drifting lower, no catalyst), UNH/healthcare defensives (catalyst was Oct 13, stale).",
-      "risks": "Fourth day of a chip selloff - TSMC's strong guide could spark a dip-buy reversal intraday (Tue's SOXS fade is the template). AAPL +0.8% pre-mkt partially offsets QQQ. 3x daily decay; hard stop 33.57 (-10%).",
-      "addedDate": "2026-10-15"
+      "catalyst": "Fri Oct 16: Tesla unveiled the redesigned Roadster with SpaceX-developed cold-gas thruster tech (production 2028); TSLA +4.6% pre-mkt (379.00 vs 362.44 close) and the #1 trending ticker on Stocktwits. Also in focus: TSMC 'Terafab' talks with Musk. Broad tape calm: SPY +0.2%, QQQ flat, IWM +0.4% after Thursday's recovery from the semis selloff.",
+      "driver": "Fresh, company-specific catalyst with retail momentum on a day when the macro edge is thin (QQQ flat, hot PPI 6.3% / hawkish Hammack already digested). Unleveraged (6% stop) because the edge is moderate: product-event pops can fade and it is monthly opex Friday. Chose TSLA over TSLL (2x, +9% pre-mkt = at the no-chase line), SOXS (+2.6% pre-mkt, 5th day of chip selling, Thursday's SOXS faded hard from the open), SQQQ hold (Nasdaq flat, thesis broke), BTC-USD/BITX (BTC ~82.1k drifting, no catalyst).",
+      "risks": "Sell-the-news on a product that doesn't ship until 2028; energy-division exec departure headline; opex pinning; renewed AI/semis liquidation dragging mega-cap tech. Stop 356.26 (-6%) sits below Thursday's 362.44 close, so a full gap-fill alone won't trigger it.",
+      "addedDate": "2026-10-16"
     }
   ]
 }
