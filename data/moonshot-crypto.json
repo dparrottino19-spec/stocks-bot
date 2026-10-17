@@ -2,10 +2,10 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 11487.3373,
-  "tradeDate": "2026-10-16",
-  "lastUpdated": "2026-10-16T10:52:00Z",
-  "nextRefresh": "2026-10-17T06:45:00-05:00",
+  "startingCapital": 11413.7871,
+  "tradeDate": "2026-10-17",
+  "lastUpdated": "2026-10-17T10:52:00Z",
+  "nextRefresh": "2026-10-18T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Runs every day \u2014 crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 1487.3373,
+  "priorRealizedPnL": 1413.7871,
   "positions": [
     {
       "ticker": "BTC",
       "name": "Bitcoin",
       "sector": "Crypto",
       "shares": 0.139973,
-      "entry": 82068.48,
-      "stopPrice": 75503.0,
+      "entry": 81543.02,
+      "stopPrice": 75019.58,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "DAY THIRTY-TWO. HOLD BTC (rolled at the live print). The overnight relief bounce lifted the whole board 1.6-8.9%. Alts led on beta, but none met yesterday's rotation test of a real catalyst plus a level reclaim: SOL 106.52 is still below 110 and XRP 1.3423 is still below 1.40. BTC reclaimed 82K. Spot ETH ETFs bled about $250M over Oct 12-15 ($60M on Oct 15), and SOL ETFs posted their largest outflow of the month on Oct 15. So the bounce is beta, not flows, and the rules default to the liquid major.",
-      "driver": "Closed BTC at 82,068.48 (canonical feed, asOf 2026-10-16T10:51:14.933Z; board pull at 10:50:50.742Z showed 82,090.65) vs entry 80,823.14: +174.31 on 0.139973 BTC (+1.54%). Book 11,313.02 -> 11,487.34.\n\nRE-BOUGHT BTC at 82,068.48 (same asOf). 0.139973 BTC = $11,487.34 deployed, 100%. Stop 75,503.00 (-8%, majors tier).\n\nBOARD (move since the last run): AVAX 10.361 (+8.9%), LINK 12.664 (+5.5%), LTC 60.96 (+5.0%), ADA 0.23135 (+4.8%), SOL 106.52 (+4.4%), ETH 2,461.99 (+4.3%), XRP 1.3423 (+2.9%), DOGE 0.08223 (+2.7%), BTC 82,090.65 (+1.6%).\n\nRUNNERS-UP: AVAX (#1 RS, +8.9%) is a high-beta snapback after yesterday's -6.7% with no dated catalyst, which is the type of move that tends to fade. ETH (+4.3%) is bouncing against persistent ETF outflows. SOL (+4.4%) is still under its 110 reclaim level, and its ETF outflow widened.",
-      "risks": "BTC lags if the alt relief rally extends; that is the cost of holding the low-beta major on a bounce day. Downside: if 82K fails again and the bounce is a dead-cat, BTC could revisit the low 80Ks or high 70Ks. The hard stop at 75,503.00 (-8%) caps the loss. Macro: hawkish-Fed repricing into the Oct 27-28 FOMC.\n\nTEST FOR TOMORROW: rotate to an alt if it holds today's bounce and reclaims a level with a catalyst (SOL > 110, XRP > 1.40, ETH > 2,500 with ETF flows turning positive). Stay in BTC if the board rolls over.",
-      "addedDate": "2026-10-16"
+      "catalyst": "DAY THIRTY-THREE. HOLD BTC (rolled at the live print). The relief bounce faded overnight across the whole board, and BTC fell least (-0.7% vs -1.1% to -3.5% for alts). Spot crypto ETFs lost about $611M over Oct 12-16. Ether funds led the outflows (~$320M, mostly ETHA), and BTC ETFs posted another ~$82M outflow on Oct 16. With no alt meeting the rotation test (SOL < 110, XRP < 1.40, ETH < 2,500 with outflows), the rules default to the liquid major.",
+      "driver": "Closed BTC at 81,543.02 (canonical feed, asOf 2026-10-17T10:51:14.093Z) vs entry 82,068.48: -73.55 on 0.139973 BTC (-0.64%). Book 11,487.34 -> 11,413.79.\n\nRE-BOUGHT BTC at 81,543.02 (same asOf). 0.139973 BTC = $11,413.79 deployed, 100%. Stop 75,019.58 (-8%, majors tier).\n\nBOARD (move since the last run): BTC 81,543.02 (-0.7%), ETH 2,436.03 (-1.1%), SOL 104.87 (-1.5%), DOGE 0.08029 (-2.4%), LTC 59.433 (-2.5%), XRP 1.3067 (-2.7%), AVAX 10.008 (-3.4%), ADA 0.22337 (-3.4%), LINK 12.223 (-3.5%).\n\nRUNNERS-UP: ETH (#2 RS) still has the heaviest ETF outflows of the week. SOL is further from its 110 reclaim, and its ETF outflows are ongoing. AVAX and LINK gave back yesterday's bounce, which confirms the fade read.",
+      "risks": "Weekend liquidity is thin. A break of 80K could take BTC to the high 70Ks; the hard stop at 75,019.58 (-8%) caps the loss. Macro: a hot PPI print and hawkish-Fed repricing into the Oct 27-28 FOMC, with ETF outflows persistent.\n\nTEST FOR TOMORROW: rotate to an alt only on a catalyst-backed level reclaim (SOL > 110, XRP > 1.40, ETH > 2,500 with ETF flows turning positive). Otherwise stay in BTC.",
+      "addedDate": "2026-10-17"
     }
   ]
 }
