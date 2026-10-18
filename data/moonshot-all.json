@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8367.2,
-  "tradeDate": "2026-10-17",
-  "lastUpdated": "2026-10-17T10:45:00Z",
-  "nextRefresh": "2026-10-18T06:30:00-05:00",
+  "startingCapital": 8422.12,
+  "tradeDate": "2026-10-18",
+  "lastUpdated": "2026-10-18T10:45:00Z",
+  "nextRefresh": "2026-10-19T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -1632.8,
+  "priorRealizedPnL": -1577.88,
   "positions": [
     {
       "ticker": "BTC-USD",
       "name": "Bitcoin",
       "sector": "Spot crypto (long, unleveraged) \u2014 weekend park",
       "shares": 0.102602,
-      "entry": 81550.31,
-      "stopPrice": 73395.28,
+      "entry": 82085.54,
+      "stopPrice": 73876.99,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Saturday Oct 17 \u2014 US equities closed, spot crypto only. BTC ~81.55k, flat vs 81.46k midnight open; ETH 2,436 (+0.5%), SOL 104.9 (flat), XRP/DOGE flat. Backdrop: CoinShares ~$434M weekly digital-asset fund outflows, ETH/SOL ETF outflows through October, hot 6.3% PPI weighing on risk.",
-      "driver": "Low-edge weekend: no fresh crypto catalyst, so park in the lowest-vol, deepest-liquidity spot asset rather than reach for higher-beta alts (SOL/ETH carry the heaviest ETF outflows). BTC was the relative leader on Friday flows. Unleveraged spot; standard 10% spot stop.",
-      "risks": "Continued fund outflows / macro risk-off from hot inflation prints; weekend thin-liquidity flush toward the high-70s; Robinhood market-maker spread is wide (~1.9% bid/ask) so real round-trip friction exceeds the paper mark. Stop 73,395.28 (-10%).",
-      "addedDate": "2026-10-17"
+      "catalyst": "Sunday Oct 18 \u2014 US equities closed, spot crypto only. BTC 82,085.54 (+0.3% vs 81,867 midnight open, +0.66% vs Saturday entry); ETH 2,420 (-0.1%), SOL 104.05 (-0.3%), XRP 1.298, DOGE 0.0794 \u2014 flat tape, no fresh crypto catalyst.",
+      "driver": "Low-edge weekend: stay in the deepest-liquidity, lowest-vol spot asset and the relative leader into Monday's equity open. Alts still carry October ETF outflows. Unleveraged spot; standard 10% spot stop. Monday run can rotate into equities/leveraged ETFs if a real catalyst appears.",
+      "risks": "Sunday-night thin-liquidity flush / CME gap dynamics into Monday; macro risk-off from hot inflation prints and continued fund outflows; Robinhood market-maker spread ~1.9% (bid 81,323 / ask 82,876) so real round-trip friction exceeds the paper mark. Stop 73,876.99 (-10%).",
+      "addedDate": "2026-10-18"
     }
   ]
 }
