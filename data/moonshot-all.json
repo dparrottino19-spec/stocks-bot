@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8422.12,
-  "tradeDate": "2026-10-18",
-  "lastUpdated": "2026-10-18T10:45:00Z",
-  "nextRefresh": "2026-10-19T06:30:00-05:00",
+  "startingCapital": 8422.79,
+  "tradeDate": "2026-10-19",
+  "lastUpdated": "2026-10-19T10:40:00Z",
+  "nextRefresh": "2026-10-20T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -1577.88,
+  "priorRealizedPnL": -1577.21,
   "positions": [
     {
-      "ticker": "BTC-USD",
-      "name": "Bitcoin",
-      "sector": "Spot crypto (long, unleveraged) \u2014 weekend park",
-      "shares": 0.102602,
-      "entry": 82085.54,
-      "stopPrice": 73876.99,
+      "ticker": "QLD",
+      "name": "ProShares Ultra QQQ (2x Nasdaq-100)",
+      "sector": "Leveraged ETF (2x long Nasdaq-100)",
+      "shares": 94.004353,
+      "entry": 89.6,
+      "stopPrice": 82.43,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Sunday Oct 18 \u2014 US equities closed, spot crypto only. BTC 82,085.54 (+0.3% vs 81,867 midnight open, +0.66% vs Saturday entry); ETH 2,420 (-0.1%), SOL 104.05 (-0.3%), XRP 1.298, DOGE 0.0794 \u2014 flat tape, no fresh crypto catalyst.",
-      "driver": "Low-edge weekend: stay in the deepest-liquidity, lowest-vol spot asset and the relative leader into Monday's equity open. Alts still carry October ETF outflows. Unleveraged spot; standard 10% spot stop. Monday run can rotate into equities/leveraged ETFs if a real catalyst appears.",
-      "risks": "Sunday-night thin-liquidity flush / CME gap dynamics into Monday; macro risk-off from hot inflation prints and continued fund outflows; Robinhood market-maker spread ~1.9% (bid 81,323 / ask 82,876) so real round-trip friction exceeds the paper mark. Stop 73,876.99 (-10%).",
-      "addedDate": "2026-10-18"
+      "catalyst": "Oct 19 pre-market: Nasdaq-100 futures +1.0% (QQQ +1.1% pre) rebounding from worst week since June; MU/AVGO/TSM/QCOM +2-5%, NVDA +1.1%, 10Y yield easing to ~5.085%, Brent -1.8%. Big-tech earnings week (NFLX/SPCX Tue; TSLA/META Wed).",
+      "driver": "Oversold AI/tech bounce with falling yields and oil. 2x (not 3x) because the catalyst is a rebound, not a fresh structural event; SOXL (+8.6% pre) skipped as too extended; TQQQ runner-up. Entry at real-time Robinhood pre-market ask 89.60 (proxy still showed prior close 87.72 pre-open), so no free gap gain is booked.",
+      "risks": "Rebound could fade at the open; 10Y at ~5.1%, oil ~$107 and Hormuz tanker/mine headlines; heavy mega-cap earnings later this week; 2x daily-reset decay. Stop 82.43 (-8%).",
+      "addedDate": "2026-10-19"
     }
   ]
 }
