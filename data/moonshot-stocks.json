@@ -2,32 +2,19 @@
   "bookName": "Moonshot Stocks",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 5563.77,
-  "tradeDate": "2026-10-16",
-  "lastUpdated": "2026-10-16T10:45:04Z",
-  "nextRefresh": "2026-10-19T06:35:00-05:00",
+  "startingCapital": 5559.75,
+  "tradeDate": "2026-10-19",
+  "lastUpdated": "2026-10-19T10:45:00Z",
+  "nextRefresh": "2026-10-20T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
-    "US equities only \u2014 no ETFs, crypto, or options",
-    "Rotate each weekday 6:35am CT run \u2014 sell prior, buy today's best",
+    "US equities only — no ETFs, crypto, or options",
+    "Rotate each weekday 6:35am CT run — sell prior, buy today's best",
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
-  "priorRealizedPnL": -4436.23,
-  "positions": [
-    {
-      "ticker": "AA",
-      "name": "Alcoa Corporation",
-      "sector": "Materials \u2014 Aluminum",
-      "shares": 134.131389,
-      "entry": 41.48,
-      "stopPrice": 38.99,
-      "exitRule": "Rotate next weekday 6:35am CT run",
-      "catalyst": "Q3 2026 (reported 10/15 AMC): adj EPS $1.82 vs ~$1.54 consensus (+18%), net income $483M vs $407M in Q2, FCF $472M, adj EBITDA $789M; production +2% q/q on Alumar restart; cash $4.4B.",
-      "driver": "Clean EPS beat with strong cash generation; modest +2.6% pre-market gap leaves room vs the 8-10% no-chase limit; aluminum supported by elevated energy costs (US-Iran conflict).",
-      "risks": "Revenue miss ($3.70B vs ~$3.78B) on lower metal prices and higher carbon costs; thin pre-market book (40.80/41.48); hot CPI/PPI risk-off tape; Friday entry = weekend gap risk; book's last two earnings-gap picks (UNH, BLK) faded.",
-      "addedDate": "2026-10-16"
-    }
-  ]
+  "priorRealizedPnL": -4440.25,
+  "positions": [],
+  "note": "CASH 2026-10-19: no qualifying setup. CLF gapped ~+13.5% pre-mkt (beyond no-chase limit); INTC +3.8% on a neutral upgrade only; hot-rate (10y 5.09%) tape."
 }
