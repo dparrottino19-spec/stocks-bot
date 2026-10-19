@@ -2,10 +2,10 @@
   "bookName": "Daily Trader",
   "inceptionDate": "2026-05-15",
   "inceptionCapital": 70000,
-  "startingCapital": 72115.78,
-  "tradeDate": "2026-10-16",
-  "lastUpdated": "2026-10-16T11:26:36Z",
-  "nextRefresh": "2026-10-19T07:09:00-05:00",
+  "startingCapital": 71734.3,
+  "tradeDate": "2026-10-19",
+  "lastUpdated": "2026-10-19T11:21:34Z",
+  "nextRefresh": "2026-10-20T07:09:00-05:00",
   "rules": [
     "Weekday 7am ET picks",
     "Per-pick exit rules",
@@ -13,7 +13,7 @@
     "1-week max hold",
     "<=4 names per sector"
   ],
-  "priorRealizedPnL": 2115.78,
+  "priorRealizedPnL": 1734.3,
   "positions": [
     {
       "ticker": "ELV",
@@ -28,42 +28,6 @@
       "addedDate": "2026-10-13"
     },
     {
-      "ticker": "LMT",
-      "name": "Lockheed Martin",
-      "sector": "Electronic Technology",
-      "shares": 6,
-      "entry": 507.37,
-      "exitRule": "Catalyst-defined",
-      "catalyst": "Vertical Research upgrade Hold -> Buy, PT $600 (~18% upside); Houthi strike on Saudi Aramco HQ + Hormuz ship attacks keep defense bid; +0.7% pre-market. EXIT TRIGGER: sell by Wed 10/21 close (before Thu 10/22 BMO Q3); -5% stop / +7% target.",
-      "risks": "Bernstein cut PT to $564 same day; 27% below March high; de-escalation headlines.",
-      "driver": "Vertical upgrade to Buy + Mideast escalation (Tier 2)",
-      "addedDate": "2026-10-14"
-    },
-    {
-      "ticker": "NOC",
-      "name": "Northrop Grumman",
-      "sector": "Electronic Technology",
-      "shares": 6,
-      "entry": 501.73,
-      "exitRule": "Catalyst-defined",
-      "catalyst": "Cargo ship sank after hitting a naval mine in the Strait of Hormuz (Iran broadcast images) on top of Houthi Aramco strike - defense bid; +1.2% pre-market off 52-wk low $470. EXIT TRIGGER: sell on de-escalation headline or by Tue 10/20 close (ahead of Q3 print); -5% stop / +7% target.",
-      "risks": "35% below March high (broken trend); budget/program headlines; wide book 501.00/505.62.",
-      "driver": "Hormuz mine escalation (Tier 2 macro)",
-      "addedDate": "2026-10-15"
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Tesla",
-      "sector": "Consumer Durables",
-      "shares": 9,
-      "entry": 375.5,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Unveiled redesigned Roadster (SpaceX cold-gas thrusters, controlled jump/flight demo) Thu evening; production 2028. +3.6% pre-market.",
-      "risks": "Sell-the-news fade; 341x P/E; 25% below Dec high.",
-      "driver": "Roadster unveil (Tier 1)",
-      "addedDate": "2026-10-16"
-    },
-    {
       "ticker": "FOXA",
       "name": "Fox Corp (Class A)",
       "sector": "Consumer Services",
@@ -76,18 +40,6 @@
       "addedDate": "2026-10-16"
     },
     {
-      "ticker": "ZETA",
-      "name": "Zeta Global",
-      "sector": "Technology Services",
-      "shares": 97,
-      "entry": 35.36,
-      "exitRule": "1-3 day swing",
-      "catalyst": "Goldman Sachs upgrade Neutral -> Buy, PT $45 from $30 (Benzinga ratings, 10/16); +5.4% pre-market to new 52-wk high. Exit by Mon 10/19 close; -5% stop / +8% target.",
-      "risks": "Extended (+146% off March low); unprofitable; AI-software sentiment swings.",
-      "driver": "GS upgrade to Buy (Tier 2)",
-      "addedDate": "2026-10-16"
-    },
-    {
       "ticker": "AA",
       "name": "Alcoa",
       "sector": "Non-Energy Minerals",
@@ -96,18 +48,6 @@
       "exitRule": "1-3 day swing",
       "catalyst": "Q3 adj EPS $1.82 vs ~$1.54 est; FCF $472M, adj EBITDA $789M (revenue $3.7B slight miss); +2.0% pre-market. Exit by Tue 10/20 close; -5% stop / +8% target.",
       "risks": "Revenue miss; 51% below June high (broken trend); aluminum price volatility.",
-      "driver": "Q3 earnings beat (Tier 1)",
-      "addedDate": "2026-10-16"
-    },
-    {
-      "ticker": "RF",
-      "name": "Regions Financial",
-      "sector": "Finance",
-      "shares": 125,
-      "entry": 27.5,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Q3 adj EPS $0.73 vs $0.66 est, net income $611M vs $563M est, NIM +2bp to 3.68% (8-K, 10/16 BMO); +0.7% pre-market.",
-      "risks": "Wide pre-market ask (26.83/29.00); CFG/TFC traded lower on prints.",
       "driver": "Q3 earnings beat (Tier 1)",
       "addedDate": "2026-10-16"
     },
@@ -124,30 +64,6 @@
       "addedDate": "2026-10-16"
     },
     {
-      "ticker": "KMX",
-      "name": "CarMax",
-      "sector": "Retail Trade",
-      "shares": 64,
-      "entry": 53.35,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "BofA upgrade to Buy (10/15, Benzinga/DailyTradeAlert) with follow-through +1.4% pre-market Fri.",
-      "risks": "Used-car pricing/credit (CAF) risk; 18% below Aug high; book 52.25/54.00.",
-      "driver": "BofA upgrade to Buy (Tier 2)",
-      "addedDate": "2026-10-16"
-    },
-    {
-      "ticker": "WPM",
-      "name": "Wheaton Precious Metals",
-      "sector": "Non-Energy Minerals",
-      "shares": 25,
-      "entry": 134.1,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Silver futures +1.5% to ~$58, gold +0.6% to ~$4,197 pre-market on softer dollar (DXY -0.4%); WPM +0.7% pre-market.",
-      "risks": "Precious-metals reversal if 10Y (5.11%) pushes higher; stale print 10:56Z.",
-      "driver": "Silver/gold bid (Tier 2 macro)",
-      "addedDate": "2026-10-16"
-    },
-    {
       "ticker": "FCX",
       "name": "Freeport-McMoRan",
       "sector": "Non-Energy Minerals",
@@ -160,17 +76,113 @@
       "addedDate": "2026-10-16"
     },
     {
-      "ticker": "SPCX",
-      "name": "SpaceX",
-      "sector": "Communications",
-      "shares": 22,
-      "entry": 150.82,
+      "ticker": "CLF",
+      "name": "Cleveland-Cliffs",
+      "sector": "Non-Energy Minerals",
+      "shares": 250,
+      "entry": 13.72,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Q3 adj EPS $0.28 vs $0.24 est (Robinhood calendar, BMO 10/19); +13.2% pre-market (13.72 vs 12.12 close). Exit by Wed 10/21 close; -5% stop / +8% target.",
+      "risks": "Revenue reportedly below est ($5.6B vs $5.72B); gap-fade risk; 52wk 7.73-16.70; mid-cap ($6.9B).",
+      "driver": "Q3 earnings beat (Tier 1)",
+      "addedDate": "2026-10-19"
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel",
+      "sector": "Electronic Technology",
+      "shares": 37,
+      "entry": 93.28,
       "exitRule": "Intraday - flat by close",
-      "catalyst": "Tesla Roadster demo showcased SpaceX thruster tech at McGregor test site; SPCX +1.5% pre-market in sympathy.",
-      "risks": "Sympathy move only; $2T valuation; 33% below June high.",
-      "driver": "Roadster/SpaceX tech read-through (Tier 2)",
-      "addedDate": "2026-10-16"
+      "catalyst": "Chip rebound (Nasdaq fut +1.1%) after Friday selloff; day-0 support for Meta Muse Spark on Xeon; +3.8% pre-market (93.28 vs 89.85). Earnings 10/29.",
+      "risks": "Rebound may fade; 52wk 32.89-142.35; no analyst action.",
+      "driver": "Semis rebound / AI-model support (Tier 2)",
+      "addedDate": "2026-10-19"
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "sector": "Electronic Technology",
+      "shares": 10,
+      "entry": 337.46,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "Tech rebound, Nasdaq fut +1.1%; +2.65% pre-market (337.46 vs 328.75); below key MAs.",
+      "risks": "Short-term bounce only; resistance ~366; 52wk 289.96-495.",
+      "driver": "Semis rebound (Tier 2)",
+      "addedDate": "2026-10-19"
+    },
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "sector": "Electronic Technology",
+      "shares": 6,
+      "entry": 545.67,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "AI/semis rebound; +3.2% pre-market (545.67 vs 528.75).",
+      "risks": "No stock-specific news; 52wk 188.22-658.52.",
+      "driver": "Semis rebound (Tier 2)",
+      "addedDate": "2026-10-19"
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron Technology",
+      "sector": "Electronic Technology",
+      "shares": 3,
+      "entry": 906.23,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "Memory/AI rebound after Friday chip selloff; +3.1% pre-market (906.23 vs 878.84).",
+      "risks": "No stock-specific news; 52wk 192.40-1255.",
+      "driver": "Semis rebound (Tier 2)",
+      "addedDate": "2026-10-19"
+    },
+    {
+      "ticker": "CRDO",
+      "name": "Credo Technology",
+      "sector": "Technology Services",
+      "shares": 19,
+      "entry": 176.71,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "Rebound after >20% weekly drop; +4.1% pre-market (176.71 vs 169.70), Benzinga Pro.",
+      "risks": "Below 20/50/200-day MAs; AI-debt worries; 52wk 86.49-308.67.",
+      "driver": "AI stock rebound (Tier 2)",
+      "addedDate": "2026-10-19"
+    },
+    {
+      "ticker": "DAL",
+      "name": "Delta Air Lines",
+      "sector": "Transportation",
+      "shares": 45,
+      "entry": 76.02,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "WTI -2.1% to ~$96.9, Iran crude exports to zero headlines, yields easing; +0.9% pre-market (76.02 vs 75.37).",
+      "risks": "Oil reversal; geopolitical headlines; peers UAL/ALK report Tue.",
+      "driver": "Oil decline (Tier 2 macro)",
+      "addedDate": "2026-10-19"
+    },
+    {
+      "ticker": "CCL",
+      "name": "Carnival",
+      "sector": "Consumer Services",
+      "shares": 130,
+      "entry": 26.07,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "Fuel-cost relief on WTI -2.1%; +0.7% pre-market (26.07 vs 25.90); near 52wk low area (21.45-34.03).",
+      "risks": "Thin catalyst; oil rebound risk.",
+      "driver": "Oil decline (Tier 2 macro)",
+      "addedDate": "2026-10-19"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "sector": "Retail Trade",
+      "shares": 13,
+      "entry": 253.29,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "Nasdaq rebound; +1.3% pre-market (253.29 vs 250.00).",
+      "risks": "Beta to tech tape; no stock-specific news; 52wk 196-287.2.",
+      "driver": "Tech rebound (Tier 2)",
+      "addedDate": "2026-10-19"
     }
   ],
-  "note": "2026-10-16: closed 16 positions for -161.71 realized (CCC -71.68, AZZ -249.84, GME +21.42, CVX +9.15, ALB -111.86, EAT -41.60, ERIC -55.25, CMC -121.38, WMT -31.03, BAC -7.37, ZION +45.36, AU +8.14, NEM +79.80, QNT +272.34, FTRE +91.85, HUM +0.24). Held: ELV (by Tue 10/20), LMT (by Wed 10/21; +5.5%), NOC (by Tue 10/20). 10 new positions, $33885.75 deployed; open book $43323.55; cash $28792.23. Skipped: TRV (EPS $9.18 vs $7.35 beat but -5.2% pre), CFG (-1.2% pre), TFC (miss), CNS/GEF/SMG/REGN/CROX (no pre-market prints), MT (JPM upgrade not verifiable for Oct 2026), SITC (sub-$5), NFLX (-2.7% CCO change), MSTR (MSCI exclusion risk). Backdrop: S&P fut +0.2%, Dow +0.4%, NQ flat; Warsh no guidance; 10Y ~5.11%; Brent ~$106; gold ~$4,197; silver +1.5%; Taiwan mulling AI-chip export curbs; Anthropic IPO valuation tempered."
+  "note": "2026-10-19: closed 8 positions for -381.48 realized (LMT +232.92, NOC +61.62, TSLA -203.40, ZETA -339.50, RF -6.25, KMX +10.24, WPM -29.75, SPCX -107.36). Held: ELV, FOXA, AA, MTB, FCX. 9 new picks, $29708.93 deployed (fewer than 10: few verified Tier 1 catalysts; tape was a tech/AI rebound, Nasdaq fut +1.1%). Open book $46646.02; cash $25088.28."
 }
