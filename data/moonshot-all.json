@@ -2,32 +2,32 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8422.79,
-  "tradeDate": "2026-10-19",
-  "lastUpdated": "2026-10-19T10:40:00Z",
-  "nextRefresh": "2026-10-20T06:30:00-05:00",
+  "startingCapital": 8370.15,
+  "tradeDate": "2026-10-20",
+  "lastUpdated": "2026-10-20T10:45:00Z",
+  "nextRefresh": "2026-10-21T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
     "Any liquid asset: stock, crypto, or leveraged/inverse ETF",
-    "Rotate each 6:30am CT run \u2014 sell yesterday, buy today's best",
+    "Rotate each 6:30am CT run — sell yesterday, buy today's best",
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -1577.21,
+  "priorRealizedPnL": -1629.85,
   "positions": [
     {
-      "ticker": "QLD",
-      "name": "ProShares Ultra QQQ (2x Nasdaq-100)",
-      "sector": "Leveraged ETF (2x long Nasdaq-100)",
-      "shares": 94.004353,
-      "entry": 89.6,
-      "stopPrice": 82.43,
+      "ticker": "SOXS",
+      "name": "Direxion Daily Semiconductor Bear 3X Shares",
+      "sector": "Leveraged ETF (3x inverse semiconductors)",
+      "shares": 172.616003,
+      "entry": 48.49,
+      "stopPrice": 43.64,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Oct 19 pre-market: Nasdaq-100 futures +1.0% (QQQ +1.1% pre) rebounding from worst week since June; MU/AVGO/TSM/QCOM +2-5%, NVDA +1.1%, 10Y yield easing to ~5.085%, Brent -1.8%. Big-tech earnings week (NFLX/SPCX Tue; TSLA/META Wed).",
-      "driver": "Oversold AI/tech bounce with falling yields and oil. 2x (not 3x) because the catalyst is a rebound, not a fresh structural event; SOXL (+8.6% pre) skipped as too extended; TQQQ runner-up. Entry at real-time Robinhood pre-market ask 89.60 (proxy still showed prior close 87.72 pre-open), so no free gap gain is booked.",
-      "risks": "Rebound could fade at the open; 10Y at ~5.1%, oil ~$107 and Hormuz tanker/mine headlines; heavy mega-cap earnings later this week; 2x daily-reset decay. Stop 82.43 (-8%).",
-      "addedDate": "2026-10-19"
+      "catalyst": "Oct 20 pre-market: chip stocks wobbling again (SOXL ~-3.8% vs close, MU ~-2.7%, NVDA ~-0.2%), Nasdaq futures lagging Dow, fading yesterday's oversold semi bounce ahead of NFLX (Tue) and TSLA/META (Wed) earnings.",
+      "driver": "Short semis via 3x inverse: yesterday's rebound is failing pre-open (SOXS +3.9% pre, still <8% so not chasing). QLD/TQQQ/SQQQ skipped since Nasdaq-wide move is only ~-0.4%; semis show the cleanest weakness. Entry at real-time Robinhood pre-market ask 48.49 (dashboard proxy still returned prior-session close for QLD, so Robinhood used).",
+      "risks": "Bounce can resume at the open (short squeeze in semis, dip-buying); strong big-tech earnings could lift AI chips; 3x daily-reset decay; stop 43.64 (-10%).",
+      "addedDate": "2026-10-20"
     }
   ]
 }
