@@ -2,10 +2,10 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 11514.9848,
-  "tradeDate": "2026-10-19",
-  "lastUpdated": "2026-10-19T10:50:00Z",
-  "nextRefresh": "2026-10-20T06:45:00-05:00",
+  "startingCapital": 11398.838,
+  "tradeDate": "2026-10-20",
+  "lastUpdated": "2026-10-20T10:50:00Z",
+  "nextRefresh": "2026-10-21T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Runs every day \u2014 crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 1514.9848,
+  "priorRealizedPnL": 1398.838,
   "positions": [
     {
       "ticker": "BTC",
       "name": "Bitcoin",
       "sector": "Crypto",
       "shares": 0.139973,
-      "entry": 82266.0,
-      "stopPrice": 75684.72,
+      "entry": 81436.22,
+      "stopPrice": 74921.32,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "DAY THIRTY-FIVE. HOLD BTC (rolled at the live print). BTC +0.3% overnight and still the relative-strength leader; ETH, SOL, XRP all firmer but none met the rotation test (SOL > 110, XRP > 1.40, ETH > 2,500). ETF flows mixed-to-negative in October; FOMC Oct 27-28 ahead, so default to the liquid major.",
-      "driver": "Closed BTC at 82,266 (canonical feed, asOf 2026-10-19T10:46:41Z) vs entry 82017.81: +34.74 on 0.139973 BTC. Book -> 11514.9848.\n\nRE-BOUGHT BTC at 82,266 (same asOf). 0.139973 BTC = $11515.02 deployed. Stop 75684.72 (-8%).\n\nBOARD: BTC 82,266, ETH 2,422.83, SOL 104.73, XRP 1.3019, LTC 59.681, LINK 12.048, DOGE 0.07909, ADA 0.2178, AVAX 9.663.\n\nRUNNERS-UP: ETH (<2,500, flows mixed), SOL (<110), XRP (<1.40) - no confirmed reclaim.",
-      "risks": "Monday US open could reprice risk; hawkish-Fed repricing into Oct 27-28 FOMC; ETF flow volatility. Hard stop caps loss at -8%.\n\nTEST FOR TOMORROW: rotate only on a catalyst-backed reclaim (SOL > 110, XRP > 1.40, ETH > 2,500 with positive ETF flows).",
-      "addedDate": "2026-10-19"
+      "catalyst": "DAY THIRTY-SIX. HOLD BTC (rolled at the live print). Whole board softer overnight (BTC -1.0%, ETH -1.7%, SOL -0.8%, XRP -0.9%); none of the rotation triggers (SOL > 110, XRP > 1.40, ETH > 2,500) came close. FOMC Oct 27-28 ahead; default to the liquid major on a low-edge day.",
+      "driver": "Closed BTC at 81436.22 (canonical feed, asOf 2026-10-20T10:46:46.957Z) vs entry 82266.0: -116.15 on 0.139973 BTC. Book -> 11398.838.\n\nRE-BOUGHT BTC at 81436.22 (same asOf). 0.139973 BTC = $11398.87 deployed. Stop 74921.32 (-8%).\n\nBOARD: BTC 81,436.22, ETH 2,382.55, SOL 103.88, XRP 1.2904, LINK 11.895, DOGE 0.07886, AVAX 9.389.\n\nRUNNERS-UP: ETH (<2,500), SOL (<110), XRP (<1.40) - no confirmed reclaim, all weaker overnight.",
+      "risks": "Continued risk-off into Oct 27-28 FOMC; ETF flow volatility. Hard stop caps loss at -8%.\n\nTEST FOR TOMORROW: rotate only on a catalyst-backed reclaim (SOL > 110, XRP > 1.40, ETH > 2,500 with positive ETF flows).",
+      "addedDate": "2026-10-20"
     }
   ]
 }
