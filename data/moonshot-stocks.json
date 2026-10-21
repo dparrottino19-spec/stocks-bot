@@ -2,10 +2,10 @@
   "bookName": "Moonshot Stocks",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 5559.75,
-  "tradeDate": "2026-10-20",
-  "lastUpdated": "2026-10-20T10:40:00Z",
-  "nextRefresh": "2026-10-21T06:35:00-05:00",
+  "startingCapital": 5709.11,
+  "tradeDate": "2026-10-21",
+  "lastUpdated": "2026-10-21T10:45:00Z",
+  "nextRefresh": "2026-10-22T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -14,21 +14,21 @@
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
-  "priorRealizedPnL": -4440.25,
+  "priorRealizedPnL": -4290.89,
   "positions": [
     {
-      "ticker": "NOC",
-      "name": "Northrop Grumman Corp.",
-      "sector": "Industrials / Aerospace & Defense",
-      "shares": 10.69121,
-      "entry": 520.03,
-      "stopPrice": 488.83,
+      "ticker": "ELV",
+      "name": "Elevance Health, Inc.",
+      "sector": "Health Services / Managed Health Care",
+      "shares": 12.774344,
+      "entry": 446.92,
+      "stopPrice": 420.1,
       "exitRule": "Rotate next weekday 6:35am CT run",
-      "catalyst": "Q3 2026 EPS $7.89 vs $7.18 consensus; FY26 EPS guide raised to $29.35-$29.75 (from $28.60-$29.10, consensus $28.98); segment OI guide +$65M; book-to-bill 1.5x, backlog $110B.",
-      "driver": "Beat-and-raise with record backlog; pre-market only ~+1.8% vs 10/19 close $510.65 so not a chase; entry = Robinhood real-time bid/ask mid (517.50/522.56) at 2026-10-20T10:36Z.",
-      "risks": "Thin pre-market liquidity/wide spread; revenue merely in line; open could fade; hot-rate macro tape; defense-budget headlines.",
-      "addedDate": "2026-10-20"
+      "catalyst": "Q3 2026 adj EPS $6.99 vs ~$4.69 consensus; revenue $50.4B vs $49.3B est; MBR improved 70bp to 90.6%; FY26 adj EPS guide raised to at least $29.00 (consensus $27.24); FY27 growth guide at least 12% off at least $26.75 base; op cash flow guide raised to at least $6.5B.",
+      "driver": "Big beat-and-raise with 2027 visibility for managed care; pre-market only ~+1.5-1.8% vs 10/20 close $440.18 so not a chase, room to run; entry = Robinhood real-time bid/ask mid (443.86/449.97) at ~2026-10-21T10:36Z (last pre-mkt trade 448.15 at 10:00Z; dashboard feed still showing prior close 440.18).",
+      "risks": "Closing at 52-wk high ($440.67) so some good news priced in; guide raise may be seen as modest (prior quarters sold off on beat-and-raise); thin pre-market liquidity/wide spread; Medicaid/MA membership decline; policy headlines.",
+      "addedDate": "2026-10-21"
     }
   ],
-  "note": "NOC 2026-10-20: Q3 beat + FY guide raise. Entry at RH real-time mid 520.03 (asOf 10:36Z). Runner-ups: MMM (+2.5%, Amazon warrant deal, earnings pending), GE."
+  "note": "ELV 2026-10-21: Q3 big beat + FY26/FY27 guide raise. Entry at RH real-time mid 446.92 (~10:36Z). Closed NOC at 534.00 (dashboard feed asOf 10:36Z, = RH last pre-mkt 534.50 / close 534). Runner-ups: TMO (+1%, beat), LAD (+3.5% wide spread), DHR/T gapping down."
 }
