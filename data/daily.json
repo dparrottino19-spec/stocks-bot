@@ -2,10 +2,10 @@
   "bookName": "Daily Trader",
   "inceptionDate": "2026-05-15",
   "inceptionCapital": 70000,
-  "startingCapital": 71040.99,
-  "tradeDate": "2026-10-20",
-  "lastUpdated": "2026-10-20T12:20:00Z",
-  "nextRefresh": "2026-10-21T07:09:00-05:00",
+  "startingCapital": 71404.75,
+  "tradeDate": "2026-10-21",
+  "lastUpdated": "2026-10-21T11:14:08Z",
+  "nextRefresh": "2026-10-22T07:09:00-05:00",
   "rules": [
     "Weekday 7am ET picks",
     "Per-pick exit rules",
@@ -13,20 +13,8 @@
     "1-week max hold",
     "<=4 names per sector"
   ],
-  "priorRealizedPnL": 1040.99,
+  "priorRealizedPnL": 1404.75,
   "positions": [
-    {
-      "ticker": "CLF",
-      "name": "Cleveland-Cliffs",
-      "sector": "Non-Energy Minerals",
-      "shares": 250,
-      "entry": 13.72,
-      "exitRule": "1-3 day swing",
-      "catalyst": "Q3 adj EPS $0.28 vs $0.24 est (Robinhood calendar, BMO 10/19); +13.2% pre-market (13.72 vs 12.12 close). Exit by Wed 10/21 close; -5% stop / +8% target.",
-      "risks": "Revenue reportedly below est ($5.6B vs $5.72B); gap-fade risk; 52wk 7.73-16.70; mid-cap ($6.9B).",
-      "driver": "Q3 earnings beat (Tier 1)",
-      "addedDate": "2026-10-19"
-    },
     {
       "ticker": "RTX",
       "name": "RTX Corp",
@@ -36,18 +24,6 @@
       "exitRule": "1-3 day swing",
       "catalyst": "Q3 adj EPS $2.26 vs $1.78 est (Robinhood calendar, BMO 10/20); bid/ask 194.01/196.02 mid. Exit by Fri 10/23; -5% stop / +8% target.",
       "risks": "Beat of 27% already partly priced; 14% below Aug high.",
-      "driver": "Q3 earnings beat (Tier 1)",
-      "addedDate": "2026-10-20"
-    },
-    {
-      "ticker": "HAS",
-      "name": "Hasbro",
-      "sector": "Consumer Durables",
-      "shares": 35,
-      "entry": 99.4,
-      "exitRule": "1-3 day swing",
-      "catalyst": "Q3 adj EPS $2.90 vs $1.85 est (Robinhood calendar, BMO 10/20); +0.9% pre-market. Exit by Fri 10/23; -5% stop / +8% target.",
-      "risks": "Muted pre-market reaction to huge beat; wide book 98.5/100.75.",
       "driver": "Q3 earnings beat (Tier 1)",
       "addedDate": "2026-10-20"
     },
@@ -64,18 +40,6 @@
       "addedDate": "2026-10-20"
     },
     {
-      "ticker": "HAL",
-      "name": "Halliburton",
-      "sector": "Industrial Services",
-      "shares": 101,
-      "entry": 34.58,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Q3 EPS $0.60 vs $0.58 est (BMO 10/20); +4.9% pre-market (34.58 vs 32.98).",
-      "risks": "Small beat, large gap - fade risk; oil volatility.",
-      "driver": "Q3 earnings beat + gap (Tier 1)",
-      "addedDate": "2026-10-20"
-    },
-    {
       "ticker": "NOC",
       "name": "Northrop Grumman",
       "sector": "Electronic Technology",
@@ -85,18 +49,6 @@
       "catalyst": "Q3 EPS $7.89 vs $7.19 est (BMO 10/20); +0.5% pre-market. Exit by Fri 10/23; -5% stop / +8% target.",
       "risks": "Muted reaction; 34% below Mar high; near 52wk low 470.",
       "driver": "Q3 earnings beat (Tier 1)",
-      "addedDate": "2026-10-20"
-    },
-    {
-      "ticker": "VICR",
-      "name": "Vicor",
-      "sector": "Electronic Technology",
-      "shares": 17,
-      "entry": 204.0,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Q3 EPS $1.33 vs $1.27 est (BMO 10/20); +7.0% pre-market (204 vs 190.68).",
-      "risks": "Thin book 204/209.87; QQQ pre-market -0.6%; volatile mid-cap ($8.8B).",
-      "driver": "Q3 earnings beat + gap (Tier 1)",
       "addedDate": "2026-10-20"
     },
     {
@@ -110,7 +62,79 @@
       "risks": "No pre-market follow-through; 12% below July high.",
       "driver": "Q3 earnings beat (Tier 1)",
       "addedDate": "2026-10-20"
+    },
+    {
+      "ticker": "LAD",
+      "name": "Lithia Motors",
+      "sector": "Retail Trade",
+      "shares": 11,
+      "entry": 314.0,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Q3 EPS $10.34 vs $9.68 est (BMO 10/21); +4.8% pre-market (mid 314 vs 299.53 close). Exit by Fri 10/23; -5% stop / +8% target.",
+      "risks": "Wide book 310/318; gap-fade risk; mid-cap.",
+      "driver": "Q3 earnings beat + gap (Tier 1)",
+      "addedDate": "2026-10-21"
+    },
+    {
+      "ticker": "COF",
+      "name": "Capital One",
+      "sector": "Finance",
+      "shares": 16,
+      "entry": 208.0,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Q3 EPS $6.69 vs $5.49 est (AMC 10/20); +3.2% pre-market (208 vs 201.56). Exit by Fri 10/23; -5% stop / +8% target.",
+      "risks": "Wide book 206.88/215; credit-quality sensitivity.",
+      "driver": "Q3 earnings beat (Tier 1)",
+      "addedDate": "2026-10-21"
+    },
+    {
+      "ticker": "WFRD",
+      "name": "Weatherford",
+      "sector": "Industrial Services",
+      "shares": 40,
+      "entry": 86.4,
+      "exitRule": "Overnight (next day open)",
+      "catalyst": "Q3 EPS $1.66 vs $1.26 est (AMC 10/20); +8.9% pre-market (86.40 vs 79.34).",
+      "risks": "Stale/wide quote; oil volatility; gap-fade.",
+      "driver": "Q3 earnings beat + gap (Tier 1)",
+      "addedDate": "2026-10-21"
+    },
+    {
+      "ticker": "ELV",
+      "name": "Elevance Health",
+      "sector": "Health Services",
+      "shares": 7,
+      "entry": 445.0,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Q3 EPS $6.99 vs $4.69 est (BMO 10/21) + FY26 guide raised; +1.1% pre-market at 52wk high. Exit by Fri 10/23; -5% stop / +8% target.",
+      "risks": "Near 52wk high; wide book 432/445.",
+      "driver": "Q3 beat + guide raise (Tier 1)",
+      "addedDate": "2026-10-21"
+    },
+    {
+      "ticker": "TMO",
+      "name": "Thermo Fisher",
+      "sector": "Health Technology",
+      "shares": 5,
+      "entry": 685.0,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Q3 EPS $6.68 vs $6.40 est (BMO 10/21); -0.3% pre-market, near 52wk high 704. Exit by Fri 10/23; -5% stop / +8% target.",
+      "risks": "No pre-market follow-through.",
+      "driver": "Q3 earnings beat (Tier 1)",
+      "addedDate": "2026-10-21"
+    },
+    {
+      "ticker": "NTRS",
+      "name": "Northern Trust",
+      "sector": "Finance",
+      "shares": 21,
+      "entry": 165.02,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Q3 EPS $3.40 vs $2.84 est (BMO 10/21); -0.3% pre-market. Exit by Fri 10/23; -5% stop / +8% target.",
+      "risks": "Big beat not reflected in price; 16% below Aug high.",
+      "driver": "Q3 earnings beat (Tier 1)",
+      "addedDate": "2026-10-21"
     }
   ],
-  "note": "2026-10-20: closed 13 positions for -693.31 realized. Held: CLF (exit Wed 10/21). 7 new picks (fewer than 10: few reliable Tier 1 names, wide/stale books on rest). Open book $26665.13; cash $44375.86."
+  "note": "2026-10-21: closed 4 positions for +363.76 realized (CLF, HAL, VICR, HAS). Held: RTX, MSCI, NOC, MMM. 6 new picks (fewer than 10: most BMO beats faded/missed or had unreliable books). Open book $33038.97; cash $38365.78."
 }
