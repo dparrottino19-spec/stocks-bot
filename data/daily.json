@@ -2,10 +2,10 @@
   "bookName": "Daily Trader",
   "inceptionDate": "2026-05-15",
   "inceptionCapital": 70000,
-  "startingCapital": 71404.75,
-  "tradeDate": "2026-10-21",
-  "lastUpdated": "2026-10-21T11:14:08Z",
-  "nextRefresh": "2026-10-22T07:09:00-05:00",
+  "startingCapital": 70847.58,
+  "tradeDate": "2026-10-22",
+  "lastUpdated": "2026-10-22T11:45:00Z",
+  "nextRefresh": "2026-10-23T07:09:00-05:00",
   "rules": [
     "Weekday 7am ET picks",
     "Per-pick exit rules",
@@ -13,7 +13,7 @@
     "1-week max hold",
     "<=4 names per sector"
   ],
-  "priorRealizedPnL": 1404.75,
+  "priorRealizedPnL": 847.58,
   "positions": [
     {
       "ticker": "RTX",
@@ -64,18 +64,6 @@
       "addedDate": "2026-10-20"
     },
     {
-      "ticker": "LAD",
-      "name": "Lithia Motors",
-      "sector": "Retail Trade",
-      "shares": 11,
-      "entry": 314.0,
-      "exitRule": "1-3 day swing",
-      "catalyst": "Q3 EPS $10.34 vs $9.68 est (BMO 10/21); +4.8% pre-market (mid 314 vs 299.53 close). Exit by Fri 10/23; -5% stop / +8% target.",
-      "risks": "Wide book 310/318; gap-fade risk; mid-cap.",
-      "driver": "Q3 earnings beat + gap (Tier 1)",
-      "addedDate": "2026-10-21"
-    },
-    {
       "ticker": "COF",
       "name": "Capital One",
       "sector": "Finance",
@@ -85,18 +73,6 @@
       "catalyst": "Q3 EPS $6.69 vs $5.49 est (AMC 10/20); +3.2% pre-market (208 vs 201.56). Exit by Fri 10/23; -5% stop / +8% target.",
       "risks": "Wide book 206.88/215; credit-quality sensitivity.",
       "driver": "Q3 earnings beat (Tier 1)",
-      "addedDate": "2026-10-21"
-    },
-    {
-      "ticker": "WFRD",
-      "name": "Weatherford",
-      "sector": "Industrial Services",
-      "shares": 40,
-      "entry": 86.4,
-      "exitRule": "Overnight (next day open)",
-      "catalyst": "Q3 EPS $1.66 vs $1.26 est (AMC 10/20); +8.9% pre-market (86.40 vs 79.34).",
-      "risks": "Stale/wide quote; oil volatility; gap-fade.",
-      "driver": "Q3 earnings beat + gap (Tier 1)",
       "addedDate": "2026-10-21"
     },
     {
@@ -134,7 +110,79 @@
       "risks": "Big beat not reflected in price; 16% below Aug high.",
       "driver": "Q3 earnings beat (Tier 1)",
       "addedDate": "2026-10-21"
+    },
+    {
+      "ticker": "LMT",
+      "name": "Lockheed Martin",
+      "sector": "Electronic Technology",
+      "shares": 6,
+      "entry": 570.88,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Q3 EPS $7.97 vs $7.51 est (BMO 10/22); +3.5% pre-market 570.88 (tight book 570.50/572). Exit by Fri 10/23; -5% stop / +8% target.",
+      "risks": "Gap-fade; 17% below Mar high; 3rd defense name.",
+      "driver": "Q3 earnings beat + gap (Tier 1)",
+      "addedDate": "2026-10-22"
+    },
+    {
+      "ticker": "PG",
+      "name": "Procter & Gamble",
+      "sector": "Consumer Non-Durables",
+      "shares": 21,
+      "entry": 160.97,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Q3 EPS $2.00 vs $1.89 est (BMO 10/22); +2.6% pre-market 160.97. Exit by Fri 10/23; -5% stop / +8% target.",
+      "risks": "Ex-dividend 10/23 ($1.09); defensive, low beta.",
+      "driver": "Q3 earnings beat + gap (Tier 1)",
+      "addedDate": "2026-10-22"
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy",
+      "sector": "Energy Minerals",
+      "shares": 7,
+      "entry": 442.5,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Q3 EPS $23.90 vs $21.20 est (BMO 10/22); +1.3% pre-market 442.50. Exit by Fri 10/23; -5% stop / +8% target.",
+      "risks": "Near 52wk high 461.52; crack-spread/oil volatility.",
+      "driver": "Q3 earnings beat (Tier 1)",
+      "addedDate": "2026-10-22"
+    },
+    {
+      "ticker": "ALLE",
+      "name": "Allegion",
+      "sector": "Consumer Durables",
+      "shares": 20,
+      "entry": 168.34,
+      "exitRule": "Overnight (next day open)",
+      "catalyst": "Q3 EPS $2.60 vs $2.50 est (BMO 10/22); +5.9% pre-market 168.34 (book 167.05/169).",
+      "risks": "Gap-fade; mid-cap.",
+      "driver": "Q3 earnings beat + gap (Tier 1)",
+      "addedDate": "2026-10-22"
+    },
+    {
+      "ticker": "POOL",
+      "name": "Pool Corp",
+      "sector": "Distribution Services",
+      "shares": 19,
+      "entry": 180.88,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "Q3 EPS $3.40 vs $3.36 est (BMO 10/22); +4.9% pre-market 180.88 (book 179.34/182). Near 52wk low 152.70 bounce.",
+      "risks": "Small beat, gap-fade risk; mid-cap.",
+      "driver": "Q3 earnings beat + gap (Tier 1)",
+      "addedDate": "2026-10-22"
+    },
+    {
+      "ticker": "DOW",
+      "name": "Dow Inc",
+      "sector": "Process Industries",
+      "shares": 110,
+      "entry": 31.04,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "Q3 EPS $0.71 vs $0.64 est (BMO 10/22); +2.2% pre-market 31.04 (book 30.80/31.29).",
+      "risks": "GAAP loss-making; commodity chemicals; fade risk.",
+      "driver": "Q3 earnings beat (Tier 1)",
+      "addedDate": "2026-10-22"
     }
   ],
-  "note": "2026-10-21: closed 4 positions for +363.76 realized (CLF, HAL, VICR, HAS). Held: RTX, MSCI, NOC, MMM. 6 new picks (fewer than 10: most BMO beats faded/missed or had unreliable books). Open book $33038.97; cash $38365.78."
+  "note": "2026-10-22: closed LAD, WFRD for -557.17 realized. Held: RTX, MSCI, NOC, MMM, COF, ELV, TMO, NTRS. 6 new picks (fewer than 10: most other BMO beats lacked confirming pre-market moves or had unreliable books). Open book $46250.04; cash $24597.54."
 }
