@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 7829.86,
-  "tradeDate": "2026-10-21",
-  "lastUpdated": "2026-10-21T10:45:00Z",
-  "nextRefresh": "2026-10-22T06:30:00-05:00",
+  "startingCapital": 7621.78,
+  "tradeDate": "2026-10-22",
+  "lastUpdated": "2026-10-22T10:50:00Z",
+  "nextRefresh": "2026-10-23T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -2170.14,
+  "priorRealizedPnL": -2378.22,
   "positions": [
     {
-      "ticker": "TQQQ",
-      "name": "ProShares UltraPro QQQ (3x Nasdaq-100)",
-      "sector": "Leveraged ETF (3x long Nasdaq-100)",
-      "shares": 110.093645,
-      "entry": 71.12,
-      "stopPrice": 64.01,
+      "ticker": "SQQQ",
+      "name": "ProShares UltraPro Short QQQ (3x Inverse Nasdaq-100)",
+      "sector": "Leveraged ETF (3x inverse Nasdaq-100)",
+      "shares": 199.575281,
+      "entry": 38.19,
+      "stopPrice": 34.37,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Oct 21 pre-market: semis rebounding (SOXL ~+3.7%, NVDA ~+1.5%), TSLA ~+1.3% into its earnings, QQQ ~+0.35%, SOXS -3.8% - prior semi-short thesis failing, risk-on tilt.",
-      "driver": "Long Nasdaq-100 3x: broad-based bid across mega-cap tech without chasing a single name (TQQQ only ~+1% pre, well under the 8-10% chase limit). Chose over SOXL (+3.7% pre, higher vol/mean-reversion risk) and SPXL (weaker move). Entry at Robinhood real-time pre-market ask 71.12 (dashboard proxy asOf 2026-10-21T10:38Z returned stale prior close 70.41, so Robinhood used).",
-      "risks": "Mega-cap earnings tonight (TSLA/META) can gap either way; 3x daily-reset decay; pre-market reversal at the open; stop 64.01 (-10%).",
-      "addedDate": "2026-10-21"
+      "catalyst": "Oct 22 pre-market risk-off: QQQ ~-1.5%, NVDA ~-2%, SOXL ~-10%, TSLA ~-4% post-earnings; chip selloff on AI-funding/inflation worries. SQQQ ~+4.7% pre-market.",
+      "driver": "Short Nasdaq-100 3x to ride follow-through of tech/semi weakness. Chose over SOXS (+10% pre, beyond chase limit) and SPXS (lower beta, smaller payoff). Entry at Robinhood real-time pre-market ask 38.19 (dashboard proxy returned stale 2026-10-21 data, so Robinhood used).",
+      "risks": "Oversold bounce at the open would hurt a 3x inverse; daily-reset decay; stop 34.37 (-10%).",
+      "addedDate": "2026-10-22"
     }
   ]
 }
