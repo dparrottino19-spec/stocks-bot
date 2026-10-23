@@ -2,32 +2,32 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 7621.78,
-  "tradeDate": "2026-10-22",
-  "lastUpdated": "2026-10-22T10:50:00Z",
-  "nextRefresh": "2026-10-23T06:30:00-05:00",
+  "startingCapital": 7903.18,
+  "tradeDate": "2026-10-23",
+  "lastUpdated": "2026-10-23T10:41:00Z",
+  "nextRefresh": "2026-10-24T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
     "Any liquid asset: stock, crypto, or leveraged/inverse ETF",
-    "Rotate each 6:30am CT run \u2014 sell yesterday, buy today's best",
+    "Rotate each 6:30am CT run — sell yesterday, buy today's best",
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -2378.22,
+  "priorRealizedPnL": -2096.82,
   "positions": [
     {
-      "ticker": "SQQQ",
-      "name": "ProShares UltraPro Short QQQ (3x Inverse Nasdaq-100)",
-      "sector": "Leveraged ETF (3x inverse Nasdaq-100)",
-      "shares": 199.575281,
-      "entry": 38.19,
-      "stopPrice": 34.37,
+      "ticker": "SOXL",
+      "name": "Direxion Daily Semiconductor Bull 3X Shares",
+      "sector": "Leveraged ETF (3x Semiconductors)",
+      "shares": 93.363024,
+      "entry": 84.65,
+      "stopPrice": 76.19,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Oct 22 pre-market risk-off: QQQ ~-1.5%, NVDA ~-2%, SOXL ~-10%, TSLA ~-4% post-earnings; chip selloff on AI-funding/inflation worries. SQQQ ~+4.7% pre-market.",
-      "driver": "Short Nasdaq-100 3x to ride follow-through of tech/semi weakness. Chose over SOXS (+10% pre, beyond chase limit) and SPXS (lower beta, smaller payoff). Entry at Robinhood real-time pre-market ask 38.19 (dashboard proxy returned stale 2026-10-21 data, so Robinhood used).",
-      "risks": "Oversold bounce at the open would hurt a 3x inverse; daily-reset decay; stop 34.37 (-10%).",
-      "addedDate": "2026-10-22"
+      "catalyst": "Oct 22 SOX -6.7% (biggest drop since June) on AI-spend worries; Oct 23 pre-market chips bouncing: SOXL ~+3% vs close, MU ~+1.8%; Nasdaq-100 futures slightly up, JPM view that hedge-fund de-risking may cap downside.",
+      "driver": "Oversold-bounce long in 3x semis, entered at Robinhood live pre-market ask 84.65 (dashboard proxy returned stale 10/22 close 82.11). Chosen over staying short via SQQQ (QQQ flat pre-market, short edge faded, +3.7% banked), SOXS (fading), and SPXS (weak edge).",
+      "risks": "Low-conviction, high-vol: failed bounce / continued AI-capex unwind, 10y at 4.98%, oil ~$100; daily-reset decay; stop 76.19 (-10%).",
+      "addedDate": "2026-10-23"
     }
   ]
 }
