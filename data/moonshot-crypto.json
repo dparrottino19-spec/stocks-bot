@@ -2,10 +2,10 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 11474.328,
-  "tradeDate": "2026-10-22",
-  "lastUpdated": "2026-10-22T10:50:00Z",
-  "nextRefresh": "2026-10-23T06:45:00-05:00",
+  "startingCapital": 11421.608,
+  "tradeDate": "2026-10-23",
+  "lastUpdated": "2026-10-23T10:50:00Z",
+  "nextRefresh": "2026-10-24T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Runs every day \u2014 crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 1474.328,
+  "priorRealizedPnL": 1421.608,
   "positions": [
     {
       "ticker": "BTC",
       "name": "Bitcoin",
       "sector": "Crypto",
       "shares": 0.139973,
-      "entry": 81975.49,
-      "stopPrice": 75417.45,
+      "entry": 81598.82,
+      "stopPrice": 75070.91,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "DAY THIRTY-EIGHT. HOLD BTC (rolled at the live print). Board pulled back overnight (BTC -1.6%, ETH -2.0%, SOL -1.8%); no alt showed relative strength. FOMC Oct 27-28 ahead; default to the liquid major on a low-edge day.",
-      "driver": "Closed BTC at 81975.49 (canonical feed, asOf 2026-10-22T10:47:23.403Z) vs entry 83338.42: -190.77 on 0.139973 BTC. Book -> 11474.328.\n\nRE-BOUGHT BTC at 81975.49 (same asOf). 0.139973 BTC = $11474.36 deployed. Stop 75417.45 (-8%).\n\nBOARD: BTC 81,975.49, ETH 2,404.70, SOL 104.53, XRP 1.3291, LINK 12.056, DOGE 0.07919, AVAX 9.222.\n\nRUNNERS-UP: ETH, SOL, XRP all weaker than BTC; no catalyst-backed reclaim.",
+      "catalyst": "DAY THIRTY-NINE. HOLD BTC (rolled at the live print). Board flat-to-soft overnight; no alt showed catalyst-backed relative strength. FOMC Oct 27-28 ahead; default to the liquid major on a low-edge day.",
+      "driver": "Closed BTC at 81598.82 (canonical feed, asOf 2026-10-23T10:47:18.515Z) vs entry 81975.49: -52.72 on 0.139973 BTC. Book -> 11421.608.\n\nRE-BOUGHT BTC at 81598.82 (same asOf). 0.139973 BTC = $11421.63 deployed. Stop 75070.91 (-8%).\n\nBOARD: BTC 81,598.82, ETH 2,396.20, SOL 104.00, XRP 1.3187, LINK 12.069, DOGE 0.07997, AVAX 9.20.\n\nRUNNERS-UP: ETH, SOL, XRP all below reclaim triggers.",
       "risks": "Further pullback into Oct 27-28 FOMC; ETF flow volatility. Hard stop caps loss at -8%.\n\nTEST FOR TOMORROW: rotate only on a catalyst-backed reclaim (SOL > 110, XRP > 1.40, ETH > 2,500 with positive ETF flows).",
-      "addedDate": "2026-10-22"
+      "addedDate": "2026-10-23"
     }
   ]
 }
