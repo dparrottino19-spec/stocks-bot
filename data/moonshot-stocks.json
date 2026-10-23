@@ -2,10 +2,10 @@
   "bookName": "Moonshot Stocks",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 5545.73,
-  "tradeDate": "2026-10-22",
-  "lastUpdated": "2026-10-22T10:40:00Z",
-  "nextRefresh": "2026-10-23T06:35:00-05:00",
+  "startingCapital": 5347.47,
+  "tradeDate": "2026-10-23",
+  "lastUpdated": "2026-10-23T10:45:00Z",
+  "nextRefresh": "2026-10-26T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -14,21 +14,7 @@
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
-  "priorRealizedPnL": -4454.27,
-  "positions": [
-    {
-      "ticker": "VLO",
-      "name": "Valero Energy Corporation",
-      "sector": "Energy / Refining",
-      "shares": 12.508695,
-      "entry": 443.35,
-      "stopPrice": 418.97,
-      "exitRule": "Rotate next weekday 6:35am CT run",
-      "catalyst": "Q3 2026 adj EPS $23.90 vs ~$21.20 consensus (+12.7% beat); net income ~$6.8B; refining margins at record highs with diesel elevated.",
-      "driver": "Clear beat on record refining margins; pre-market ~+1.5-2.3% vs 10/21 close 436.75 so not a chase. Entry = Robinhood real-time bid/ask mid (438.70/448.00) at ~2026-10-22T10:36Z (last pre-mkt trade 446.92); dashboard feed still showing prior close 436.75 (asOf 10:37Z).",
-      "risks": "Wide pre-market spread; beat largely anticipated after record-margin previews; crack-spread/oil reversal; ELV-style sell-the-news fade.",
-      "addedDate": "2026-10-22"
-    }
-  ],
-  "note": "VLO 2026-10-22: Q3 beat on record refining margins. Entry at RH real-time mid 443.35 (~10:36Z). Closed ELV at 434.13 (dashboard asOf 10:36:40Z = RH close). Runner-ups: LMT (+2% pre, 6% beat), HON, DOW, TMO; NOK/TTMI/ARGX gapping down."
+  "priorRealizedPnL": -4652.53,
+  "positions": [],
+  "note": "CASH 2026-10-23: closed VLO at RH bid/ask mid 427.50 (419.00/436.00 @10:26Z; last non-reg 427.25; official close 426.28), P&L -198.26. No qualifying asymmetric setup: AXP down ~0.8% pre, TTMI beat/raise but -28% yesterday (too volatile for 5-7% stop), energy/PG/HON flat-to-down. Dashboard feed stale (asOf 2026-10-22T10:37Z) so RH used."
 }
