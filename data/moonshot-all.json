@@ -2,32 +2,32 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 7903.18,
-  "tradeDate": "2026-10-23",
-  "lastUpdated": "2026-10-23T10:41:00Z",
-  "nextRefresh": "2026-10-24T06:30:00-05:00",
+  "startingCapital": 7801.41,
+  "tradeDate": "2026-10-24",
+  "lastUpdated": "2026-10-24T10:42:00Z",
+  "nextRefresh": "2026-10-25T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
     "Any liquid asset: stock, crypto, or leveraged/inverse ETF",
-    "Rotate each 6:30am CT run — sell yesterday, buy today's best",
+    "Rotate each 6:30am CT run \u2014 sell yesterday, buy today's best",
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -2096.82,
+  "priorRealizedPnL": -2198.59,
   "positions": [
     {
-      "ticker": "SOXL",
-      "name": "Direxion Daily Semiconductor Bull 3X Shares",
-      "sector": "Leveraged ETF (3x Semiconductors)",
-      "shares": 93.363024,
-      "entry": 84.65,
-      "stopPrice": 76.19,
+      "ticker": "BTC-USD",
+      "name": "Bitcoin (spot)",
+      "sector": "Spot Crypto",
+      "shares": 0.096812,
+      "entry": 80583.24,
+      "stopPrice": 75748.25,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Oct 22 SOX -6.7% (biggest drop since June) on AI-spend worries; Oct 23 pre-market chips bouncing: SOXL ~+3% vs close, MU ~+1.8%; Nasdaq-100 futures slightly up, JPM view that hedge-fund de-risking may cap downside.",
-      "driver": "Oversold-bounce long in 3x semis, entered at Robinhood live pre-market ask 84.65 (dashboard proxy returned stale 10/22 close 82.11). Chosen over staying short via SQQQ (QQQ flat pre-market, short edge faded, +3.7% banked), SOXS (fading), and SPXS (weak edge).",
-      "risks": "Low-conviction, high-vol: failed bounce / continued AI-capex unwind, 10y at 4.98%, oil ~$100; daily-reset decay; stop 76.19 (-10%).",
-      "addedDate": "2026-10-23"
+      "catalyst": "Weekend: spot crypto only. BTC ~80.6k, holding $80k support after $431M long liquidations and $635M ETF outflows Oct 22-23; Iran tensions/AI selloff already priced; ETF inflow vs risk-off clash.",
+      "driver": "Low-edge weekend: park in lowest-vol spot crypto (BTC) rather than higher-beta ETH/SOL; unleveraged with 6% hard stop. Entry proxy 80583.24 (asOf 2026-10-24T10:37:37Z), RH mark 80604.62.",
+      "risks": "Continued ETF outflows / risk-off, break of $80k support, thin weekend liquidity; stop 75748.25 (-6%).",
+      "addedDate": "2026-10-24"
     }
   ]
 }
