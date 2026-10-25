@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 7801.41,
-  "tradeDate": "2026-10-24",
-  "lastUpdated": "2026-10-24T10:42:00Z",
-  "nextRefresh": "2026-10-25T06:30:00-05:00",
+  "startingCapital": 7766.12,
+  "tradeDate": "2026-10-25",
+  "lastUpdated": "2026-10-25T10:42:00Z",
+  "nextRefresh": "2026-10-26T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -2198.59,
+  "priorRealizedPnL": -2233.88,
   "positions": [
     {
       "ticker": "BTC-USD",
       "name": "Bitcoin (spot)",
       "sector": "Spot Crypto",
       "shares": 0.096812,
-      "entry": 80583.24,
-      "stopPrice": 75748.25,
+      "entry": 80218.73,
+      "stopPrice": 75405.61,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Weekend: spot crypto only. BTC ~80.6k, holding $80k support after $431M long liquidations and $635M ETF outflows Oct 22-23; Iran tensions/AI selloff already priced; ETF inflow vs risk-off clash.",
-      "driver": "Low-edge weekend: park in lowest-vol spot crypto (BTC) rather than higher-beta ETH/SOL; unleveraged with 6% hard stop. Entry proxy 80583.24 (asOf 2026-10-24T10:37:37Z), RH mark 80604.62.",
-      "risks": "Continued ETF outflows / risk-off, break of $80k support, thin weekend liquidity; stop 75748.25 (-6%).",
-      "addedDate": "2026-10-24"
+      "catalyst": "Sunday: spot crypto only. BTC ~80.2k, down ~0.7% vs prior close, holding the $80k support zone; no fresh catalyst found, so lowest-vol spot crypto is the default park.",
+      "driver": "Low-edge weekend: BTC unleveraged over higher-beta ETH/SOL, 6% hard stop. Entry = dashboard feed 80218.73 (asOf 2026-10-25T10:37:32Z), RH mark 80232.93 cross-checked.",
+      "risks": "Break of $80k support, continued ETF outflows/risk-off, thin weekend liquidity; stop 75405.61 (-6%).",
+      "addedDate": "2026-10-25"
     }
   ]
 }
