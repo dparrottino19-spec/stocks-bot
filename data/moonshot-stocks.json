@@ -3,9 +3,9 @@
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
   "startingCapital": 5347.47,
-  "tradeDate": "2026-10-23",
-  "lastUpdated": "2026-10-23T10:45:00Z",
-  "nextRefresh": "2026-10-26T06:35:00-05:00",
+  "tradeDate": "2026-10-26",
+  "lastUpdated": "2026-10-26T10:36:00Z",
+  "nextRefresh": "2026-10-27T06:35:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -16,5 +16,5 @@
   ],
   "priorRealizedPnL": -4652.53,
   "positions": [],
-  "note": "CASH 2026-10-23: closed VLO at RH bid/ask mid 427.50 (419.00/436.00 @10:26Z; last non-reg 427.25; official close 426.28), P&L -198.26. No qualifying asymmetric setup: AXP down ~0.8% pre, TTMI beat/raise but -28% yesterday (too volatile for 5-7% stop), energy/PG/HON flat-to-down. Dashboard feed stale (asOf 2026-10-22T10:37Z) so RH used."
+  "note": "CASH 2026-10-26: no prior position to close. No qualifying asymmetric setup: only clean earnings beat was CX (EPS 0.28 vs 0.22 est) but pre-market is ~1.9K shares on a 10.55/10.66 spread (+4.5% vs 10.20 close) - no reliable fill price; MMYT small beat (0.47 vs 0.45) with 41.00/43.49 spread, no edge. Dashboard feed stale (asOf 2026-10-26T10:36Z returning Friday closes) so RH used. Capital unchanged at 5347.47."
 }
