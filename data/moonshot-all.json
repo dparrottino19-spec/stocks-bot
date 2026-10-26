@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 7766.12,
-  "tradeDate": "2026-10-25",
-  "lastUpdated": "2026-10-25T10:42:00Z",
-  "nextRefresh": "2026-10-26T06:30:00-05:00",
+  "startingCapital": 7776.81,
+  "tradeDate": "2026-10-26",
+  "lastUpdated": "2026-10-26T10:45:00Z",
+  "nextRefresh": "2026-10-27T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -2233.88,
+  "priorRealizedPnL": -2223.19,
   "positions": [
     {
-      "ticker": "BTC-USD",
-      "name": "Bitcoin (spot)",
-      "sector": "Spot Crypto",
-      "shares": 0.096812,
-      "entry": 80218.73,
-      "stopPrice": 75405.61,
+      "ticker": "TQQQ",
+      "name": "ProShares UltraPro QQQ (3x long Nasdaq-100)",
+      "sector": "Leveraged ETF",
+      "shares": 117.31498,
+      "entry": 66.29,
+      "stopPrice": 59.66,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Sunday: spot crypto only. BTC ~80.2k, down ~0.7% vs prior close, holding the $80k support zone; no fresh catalyst found, so lowest-vol spot crypto is the default park.",
-      "driver": "Low-edge weekend: BTC unleveraged over higher-beta ETH/SOL, 6% hard stop. Entry = dashboard feed 80218.73 (asOf 2026-10-25T10:37:32Z), RH mark 80232.93 cross-checked.",
-      "risks": "Break of $80k support, continued ETF outflows/risk-off, thin weekend liquidity; stop 75405.61 (-6%).",
-      "addedDate": "2026-10-25"
+      "catalyst": "Futures rising Monday on easing Middle East tensions (Trump rules out Iran strike) and Fed-pause bets after a losing week for the S&P 500 and bruising tech losses; rebound setup into big-tech earnings.",
+      "driver": "Long 3x Nasdaq-100 to capture a relief bounce in beaten-down tech. Entry = dashboard feed 66.29 (asOf 2026-10-26T10:37:55Z); RH pre-market 66.52 cross-check. 10% stop for 3x.",
+      "risks": "Fed decision and mega-cap tech earnings this week can reverse sentiment; 3x decay/gap risk; stop 59.66 (-10%).",
+      "addedDate": "2026-10-26"
     }
   ]
 }
