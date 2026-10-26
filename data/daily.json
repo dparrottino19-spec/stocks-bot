@@ -2,10 +2,10 @@
   "bookName": "Daily Trader",
   "inceptionDate": "2026-05-15",
   "inceptionCapital": 70000,
-  "startingCapital": 71842.32,
-  "tradeDate": "2026-10-23",
-  "lastUpdated": "2026-10-23T11:30:00Z",
-  "nextRefresh": "2026-10-26T07:09:00-05:00",
+  "startingCapital": 71959.67,
+  "tradeDate": "2026-10-26",
+  "lastUpdated": "2026-10-26T11:23:22Z",
+  "nextRefresh": "2026-10-27T07:09:00-05:00",
   "rules": [
     "Weekday 7am ET picks",
     "Per-pick exit rules",
@@ -13,44 +13,44 @@
     "1-week max hold",
     "<=4 names per sector"
   ],
-  "priorRealizedPnL": 1842.32,
+  "priorRealizedPnL": 1959.67,
   "positions": [
     {
-      "ticker": "BAH",
-      "name": "Booz Allen Hamilton",
-      "sector": "Commercial Services",
-      "shares": 40,
-      "entry": 81.76,
+      "ticker": "VZ",
+      "name": "Verizon Communications",
+      "sector": "Communications",
+      "shares": 76,
+      "entry": 44.77,
       "exitRule": "Intraday - flat by close",
-      "catalyst": "Q3 EPS $1.76 vs $1.47 est (BMO 10/23); +4.1% pre-market (bid/ask 80.70/82.82 mid 81.76)",
-      "risks": "Gap-fade; 25% below Jan high",
-      "driver": "Q3 earnings beat + gap (Tier 1)",
-      "addedDate": "2026-10-23"
-    },
-    {
-      "ticker": "E",
-      "name": "Eni SpA ADR",
-      "sector": "Energy Minerals",
-      "shares": 55,
-      "entry": 61.53,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Q3 EPS $2.18 vs $1.92 est (BMO 10/23); +3.4% pre-market (61.51/61.55) to above 52wk high 59.84",
-      "risks": "Extended at 52wk high; ADR",
-      "driver": "Q3 earnings beat + breakout (Tier 1)",
-      "addedDate": "2026-10-23"
-    },
-    {
-      "ticker": "SLB",
-      "name": "SLB Ltd",
-      "sector": "Industrial Services",
-      "shares": 70,
-      "entry": 49.85,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Q3 EPS $0.64 vs $0.62 est (BMO 10/23); +0.6% pre-market (49.71/50.00)",
-      "risks": "Small beat; oil-service beta",
+      "catalyst": "Q3 EPS $1.31 vs $1.27 est (BMO 10/26); pre-market last 44.77 (+0.2% vs 44.66 close)",
+      "risks": "Muted reaction; 6% yield defensive; big FOMC/PCE week",
       "driver": "Q3 earnings beat (Tier 1)",
-      "addedDate": "2026-10-23"
+      "addedDate": "2026-10-26"
+    },
+    {
+      "ticker": "CX",
+      "name": "Cemex SAB ADR",
+      "sector": "Non-Energy Minerals",
+      "shares": 330,
+      "entry": 10.38,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "Q3 EPS $0.28 vs $0.22 est (BMO 10/26); pre-market last 10.38 (+1.8% vs 10.20 close)",
+      "risks": "Wide pre-market spread; Mexico/EM exposure",
+      "driver": "Q3 earnings beat (Tier 1)",
+      "addedDate": "2026-10-26"
+    },
+    {
+      "ticker": "ARLP",
+      "name": "Alliance Resource Partners",
+      "sector": "Energy Minerals",
+      "shares": 130,
+      "entry": 26.35,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "Q3 EPS $1.08 vs $0.82 est (BMO 10/26, +32%); pre-market last 26.35 (+0.8% vs 26.14 close)",
+      "risks": "Thin pre-market liquidity, wide spread; coal MLP",
+      "driver": "Q3 earnings beat (Tier 1)",
+      "addedDate": "2026-10-26"
     }
   ],
-  "note": "2026-10-23: closed all 14 expiring positions for 994.74 realized. 3 new intraday picks (few clean pre-market confirmed beats). Cash 61698.27."
+  "note": "2026-10-26: closed 3 Friday intraday names for 117.35 realized. 3 new intraday picks (thin tape; only clean confirmed BMO beats). Cash 61706.25."
 }
