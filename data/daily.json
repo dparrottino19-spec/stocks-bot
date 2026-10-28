@@ -2,10 +2,10 @@
   "bookName": "Daily Trader",
   "inceptionDate": "2026-05-15",
   "inceptionCapital": 70000,
-  "startingCapital": 71776.55,
-  "tradeDate": "2026-10-27",
-  "lastUpdated": "2026-10-27T11:40:00Z",
-  "nextRefresh": "2026-10-28T07:09:00-05:00",
+  "startingCapital": 71541.07,
+  "tradeDate": "2026-10-28",
+  "lastUpdated": "2026-10-28T11:45:00Z",
+  "nextRefresh": "2026-10-29T07:09:00-05:00",
   "rules": [
     "Weekday 7am ET picks",
     "Per-pick exit rules",
@@ -13,32 +13,8 @@
     "1-week max hold",
     "<=4 names per sector"
   ],
-  "priorRealizedPnL": 1776.55,
+  "priorRealizedPnL": 1541.07,
   "positions": [
-    {
-      "ticker": "CLS",
-      "name": "Celestica",
-      "sector": "Electronic Technology",
-      "shares": 12,
-      "entry": 286.55,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Q3 adj EPS $3.30 vs $2.96 est, rev $5.83B vs $5.47B (+83% y/y), raised outlook on AI infrastructure (AMC 10/26); pre-mkt 286.55 (+16.2% vs 246.65 close)",
-      "risks": "Gap-and-fade after +16%; 52wk 244.51-474.03",
-      "driver": "Q3 beat & raise (Tier 1)",
-      "addedDate": "2026-10-27"
-    },
-    {
-      "ticker": "RCL",
-      "name": "Royal Caribbean",
-      "sector": "Consumer Services",
-      "shares": 11,
-      "entry": 292.03,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Q3 adj EPS $6.57 vs $6.38 est; FY26 adj EPS guide raised to $17.85-17.95 (BMO 10/27); pre-mkt 292.03 (+4.1% vs 280.60 close)",
-      "risks": "Revenue in line; FOMC day",
-      "driver": "Q3 beat & raise (Tier 1)",
-      "addedDate": "2026-10-27"
-    },
     {
       "ticker": "GLW",
       "name": "Corning",
@@ -76,30 +52,6 @@
       "addedDate": "2026-10-27"
     },
     {
-      "ticker": "CDNS",
-      "name": "Cadence Design Systems",
-      "sector": "Technology Services",
-      "shares": 10,
-      "entry": 330.07,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Q3 beat and raised 2026 outlook on AI momentum (AMC 10/26); pre-mkt 330.07 (+2.5% vs 322.17)",
-      "risks": "Early pre-mkt gain faded in some reports; Fed/MSFT/GOOGL Wed",
-      "driver": "Q3 beat & raise (Tier 1)",
-      "addedDate": "2026-10-27"
-    },
-    {
-      "ticker": "HCA",
-      "name": "HCA Healthcare",
-      "sector": "Health Services",
-      "shares": 7,
-      "entry": 491.0,
-      "exitRule": "1-3 day swing",
-      "catalyst": "Q3 adj EPS $7.22 vs ~$6.65 est; FY26 results guided to upper half of ranges (BMO 10/27); pre-mkt 491.00 (+5.5% vs 465.26)",
-      "risks": "Wide pre-mkt spread (475/500); uninsured mix headwind ~$400M",
-      "driver": "Q3 beat & guide up (Tier 1)",
-      "addedDate": "2026-10-27"
-    },
-    {
       "ticker": "NUE",
       "name": "Nucor",
       "sector": "Non-Energy Minerals",
@@ -112,17 +64,125 @@
       "addedDate": "2026-10-27"
     },
     {
-      "ticker": "AVGO",
-      "name": "Broadcom",
+      "ticker": "GEV",
+      "name": "GE Vernova",
+      "sector": "Producer Manufacturing",
+      "shares": 3,
+      "entry": 930.99,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Q3 adj EPS $4.81 vs $4.02 est (BMO 10/28); pre-mkt 930.99 (+4.0% vs 895.08 close)",
+      "risks": "Extended AI-power run; 52wk 530-1196; FOMC/MSFT/GOOGL after close",
+      "driver": "Q3 beat (Tier 1)",
+      "addedDate": "2026-10-28"
+    },
+    {
+      "ticker": "FLEX",
+      "name": "Flex Ltd",
       "sector": "Electronic Technology",
-      "shares": 10,
-      "entry": 337.1,
+      "shares": 38,
+      "entry": 91.71,
       "exitRule": "Intraday - flat by close",
-      "catalyst": "Broadcom + banks announce $63B financing to supply hardware to Anthropic; Anthropic IPO filing fuels AI trade; pre-mkt 337.10 (+2.4% vs 329.17)",
-      "risks": "Chip sell-off in October; FOMC",
-      "driver": "Named AI financing deal (Tier 1)",
-      "addedDate": "2026-10-27"
+      "catalyst": "Q2 FY27 adj EPS $1.18 vs $1.04 est (BMO 10/28); pre-mkt 91.71 (+10.0% vs 83.35 close)",
+      "risks": "Gap-and-fade risk; 52wk 53.07-166.86",
+      "driver": "Earnings beat (Tier 1)",
+      "addedDate": "2026-10-28"
+    },
+    {
+      "ticker": "ETSY",
+      "name": "Etsy",
+      "sector": "Retail Trade",
+      "shares": 36,
+      "entry": 95.0,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "Q3 adj EPS $1.00 vs $0.76 est (BMO 10/28); pre-mkt 95.00 (+8.4% vs 87.66 close); above prior 52wk high 91.12",
+      "risks": "Gap-and-fade after breakout",
+      "driver": "Earnings beat (Tier 1)",
+      "addedDate": "2026-10-28"
+    },
+    {
+      "ticker": "GEHC",
+      "name": "GE HealthCare",
+      "sector": "Health Technology",
+      "shares": 46,
+      "entry": 75.47,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Q3 adj EPS $1.34 vs $1.21 est (BMO 10/28); pre-mkt 75.47 (+6.1% vs 71.11 close)",
+      "risks": "Tariff/China exposure; 52wk 58.75-89.77",
+      "driver": "Earnings beat (Tier 1)",
+      "addedDate": "2026-10-28"
+    },
+    {
+      "ticker": "PSX",
+      "name": "Phillips 66",
+      "sector": "Energy Minerals",
+      "shares": 12,
+      "entry": 273.61,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "Q3 adj EPS $14.08 vs $11.83 est (BMO 10/28); pre-mkt 273.61 (+1.9% vs 268.53); wide ask 288.88",
+      "risks": "Wide quote spread; near 52wk high 299.39; oil volatility",
+      "driver": "Earnings beat (Tier 1)",
+      "addedDate": "2026-10-28"
+    },
+    {
+      "ticker": "DINO",
+      "name": "HF Sinclair",
+      "sector": "Energy Minerals",
+      "shares": 29,
+      "entry": 116.8,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Q3 adj EPS $11.75 vs $7.88 est (BMO 10/28); pre-mkt 116.80 (+2.3% vs 114.21)",
+      "risks": "Gave back gains Tue (open 124.90); refining margin cyclicality",
+      "driver": "Earnings beat (Tier 1)",
+      "addedDate": "2026-10-28"
+    },
+    {
+      "ticker": "LH",
+      "name": "Labcorp",
+      "sector": "Health Services",
+      "shares": 10,
+      "entry": 335.99,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Q3 adj EPS $4.78 vs $4.64 est (BMO 10/28); pre-mkt 335.99 (+1.5% vs 331.17)",
+      "risks": "Modest beat, wide pre-mkt ask; near 52wk high 341.80",
+      "driver": "Earnings beat (Tier 1)",
+      "addedDate": "2026-10-28"
+    },
+    {
+      "ticker": "BIIB",
+      "name": "Biogen",
+      "sector": "Health Technology",
+      "shares": 13,
+      "entry": 254.83,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Q3 adj EPS $2.62 vs $1.99 est (BMO 10/28); pre-mkt bid/ask mid 254.83 (+0.8% vs 252.73 close)",
+      "risks": "Muted reaction at 52wk high 254.41",
+      "driver": "Large EPS beat (Tier 1)",
+      "addedDate": "2026-10-28"
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron",
+      "sector": "Electronic Technology",
+      "shares": 3,
+      "entry": 965.63,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "SK Hynix profit >7x y/y lifts memory (Reuters/Investing.com 10/28); pre-mkt 965.63 (+4.0% vs 928.76)",
+      "risks": "Sympathy trade; FOMC; 52wk 192.59-1255",
+      "driver": "Memory read-through (Tier 2)",
+      "addedDate": "2026-10-28"
+    },
+    {
+      "ticker": "WDC",
+      "name": "Western Digital",
+      "sector": "Electronic Technology",
+      "shares": 8,
+      "entry": 387.86,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "Memory/storage sympathy after SK Hynix results (Investing.com 10/28); pre-mkt 387.86 (+1.8% vs 380.88)",
+      "risks": "Sympathy only; STX fell on its results; 52wk 121.85-799.87",
+      "driver": "Memory read-through (Tier 2)",
+      "addedDate": "2026-10-28"
     }
   ],
-  "note": "2026-10-27: closed 3 intraday names for -183.12 realized. 9 new picks (only confirmed catalysts with verified pre-market quotes). Deployed 30494.62, cash 41281.93."
+  "note": "2026-10-28: closed 5 names for -235.48 realized (4 intraday at 10/27 close, HCA stop). 10 new picks. Deployed 46247.54, cash 25293.53."
 }
