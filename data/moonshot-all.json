@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8027.86,
-  "tradeDate": "2026-10-27",
-  "lastUpdated": "2026-10-27T10:45:00Z",
-  "nextRefresh": "2026-10-28T06:30:00-05:00",
+  "startingCapital": 8129.87,
+  "tradeDate": "2026-10-28",
+  "lastUpdated": "2026-10-28T10:39:30Z",
+  "nextRefresh": "2026-10-29T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -1972.14,
+  "priorRealizedPnL": -1870.13,
   "positions": [
     {
       "ticker": "QQQ",
       "name": "Invesco QQQ Trust (Nasdaq-100, unleveraged)",
       "sector": "Broad ETF",
-      "shares": 11.271918,
-      "entry": 712.2,
-      "stopPrice": 669.47,
+      "shares": 11.271917,
+      "entry": 721.25,
+      "stopPrice": 677.97,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Low-edge day: futures mixed/flat ahead of Fed decision and mega-cap tech earnings; parked in unleveraged Nasdaq-100 to keep event/gap risk contained after a +3.2% TQQQ win.",
-      "driver": "Entry = dashboard feed 712.20 (asOf 2026-10-27T10:37:40Z); RH pre-market 712.02 cross-check. 6% stop, unleveraged. Runners-up: SOXL (proxy feed stale, +1.6% premarket gap), TQQQ (hold, 3x into Fed), SPXL.",
-      "risks": "Fed decision and big-tech earnings can gap either way; limited upside vs leveraged options; stop 669.47 (-6%).",
-      "addedDate": "2026-10-27"
+      "catalyst": "Fed decision plus META/MSFT earnings today: low-edge, event-risk day. Semis/tech bid pre-market (SOXL ~+3.4%, MU ~+4%) but chasing 2-3x into FOMC rejected; parked in unleveraged Nasdaq-100.",
+      "driver": "Entry = dashboard feed 721.25 (asOf 2026-10-28T10:39:11Z); RH pre-market bid/ask ~724.5 cross-check (feed shows prior close, so real fill may be ~0.5% higher). 6% stop. Runners-up: SOXL (+3.4% gap, chase risk), TQQQ, SPXL.",
+      "risks": "FOMC/mega-cap earnings gap risk either direction; limited upside vs leverage; stop 677.97 (-6%).",
+      "addedDate": "2026-10-28"
     }
   ]
 }
