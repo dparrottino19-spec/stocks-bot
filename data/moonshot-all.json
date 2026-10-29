@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8129.87,
-  "tradeDate": "2026-10-28",
-  "lastUpdated": "2026-10-28T10:39:30Z",
-  "nextRefresh": "2026-10-29T06:30:00-05:00",
+  "startingCapital": 8179.02,
+  "tradeDate": "2026-10-29",
+  "lastUpdated": "2026-10-29T10:45:00Z",
+  "nextRefresh": "2026-10-30T06:30:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -1870.13,
+  "priorRealizedPnL": -1820.98,
   "positions": [
     {
-      "ticker": "QQQ",
-      "name": "Invesco QQQ Trust (Nasdaq-100, unleveraged)",
-      "sector": "Broad ETF",
-      "shares": 11.271917,
-      "entry": 721.25,
-      "stopPrice": 677.97,
+      "ticker": "SQQQ",
+      "name": "ProShares UltraPro Short QQQ (3x inverse Nasdaq-100)",
+      "sector": "Leveraged Inverse ETF",
+      "shares": 225.441566,
+      "entry": 36.28,
+      "stopPrice": 32.65,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Fed decision plus META/MSFT earnings today: low-edge, event-risk day. Semis/tech bid pre-market (SOXL ~+3.4%, MU ~+4%) but chasing 2-3x into FOMC rejected; parked in unleveraged Nasdaq-100.",
-      "driver": "Entry = dashboard feed 721.25 (asOf 2026-10-28T10:39:11Z); RH pre-market bid/ask ~724.5 cross-check (feed shows prior close, so real fill may be ~0.5% higher). 6% stop. Runners-up: SOXL (+3.4% gap, chase risk), TQQQ, SPXL.",
-      "risks": "FOMC/mega-cap earnings gap risk either direction; limited upside vs leverage; stop 677.97 (-6%).",
-      "addedDate": "2026-10-28"
+      "catalyst": "Alphabet earnings shortfall reignites AI-spend fears; Nasdaq futures ~-1% pre-market, SOXL ~-6.5%, MU ~-2.7%.",
+      "driver": "Entry = dashboard feed 36.28 (asOf 2026-10-29T10:37:49Z; feed returns prior close). RH pre-market SQQQ ~37.39, so a real fill would be ~3% higher. 10% stop for 3x. Chose SQQQ over SOXS (already +6.9% pre-mkt, chase risk) and TQQQ/SOXL dip-buy.",
+      "risks": "Dip-buy reversal at the open after a gap down would hit a 3x inverse hard; Fed/earnings already digested; 3x decay.",
+      "addedDate": "2026-10-29"
     }
   ]
 }
