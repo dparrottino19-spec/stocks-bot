@@ -2,10 +2,10 @@
   "bookName": "Daily Trader",
   "inceptionDate": "2026-05-15",
   "inceptionCapital": 70000,
-  "startingCapital": 71541.07,
-  "tradeDate": "2026-10-28",
-  "lastUpdated": "2026-10-28T11:45:00Z",
-  "nextRefresh": "2026-10-29T07:09:00-05:00",
+  "startingCapital": 72028.14,
+  "tradeDate": "2026-10-29",
+  "lastUpdated": "2026-10-29T11:40:00Z",
+  "nextRefresh": "2026-10-30T07:09:00-05:00",
   "rules": [
     "Weekday 7am ET picks",
     "Per-pick exit rules",
@@ -13,7 +13,7 @@
     "1-week max hold",
     "<=4 names per sector"
   ],
-  "priorRealizedPnL": 1541.07,
+  "priorRealizedPnL": 2028.14,
   "positions": [
     {
       "ticker": "GLW",
@@ -25,18 +25,6 @@
       "catalyst": "Q3 core EPS $0.91 (+36% y/y) vs ~$0.88 est, core sales $5.08B +19%; Q4 guide core EPS $0.96-1.00; 4 multibillion-dollar optical deals (BMO 10/27); pre-mkt 132.00 (+3.3% vs 127.74)",
       "risks": "AI-optical valuation stretched; FOMC/MSFT/GOOGL Wed",
       "driver": "Q3 beat & guide (Tier 1)",
-      "addedDate": "2026-10-27"
-    },
-    {
-      "ticker": "SOFI",
-      "name": "SoFi Technologies",
-      "sector": "Finance",
-      "shares": 227,
-      "entry": 15.37,
-      "exitRule": "1-3 day swing",
-      "catalyst": "Q3 adj net rev $1.37B (+44%), EPS $0.18 vs $0.17 est; FY26 guidance raised, 2027 outlook well above consensus (BMO 10/27); pre-mkt 15.37 (+6.3% vs 14.46)",
-      "risks": "Rate sensitivity; high beta; 52wk low 13.86",
-      "driver": "Q3 beat & raise (Tier 1)",
       "addedDate": "2026-10-27"
     },
     {
@@ -64,42 +52,6 @@
       "addedDate": "2026-10-27"
     },
     {
-      "ticker": "GEV",
-      "name": "GE Vernova",
-      "sector": "Producer Manufacturing",
-      "shares": 3,
-      "entry": 930.99,
-      "exitRule": "1-3 day swing",
-      "catalyst": "Q3 adj EPS $4.81 vs $4.02 est (BMO 10/28); pre-mkt 930.99 (+4.0% vs 895.08 close)",
-      "risks": "Extended AI-power run; 52wk 530-1196; FOMC/MSFT/GOOGL after close",
-      "driver": "Q3 beat (Tier 1)",
-      "addedDate": "2026-10-28"
-    },
-    {
-      "ticker": "FLEX",
-      "name": "Flex Ltd",
-      "sector": "Electronic Technology",
-      "shares": 38,
-      "entry": 91.71,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Q2 FY27 adj EPS $1.18 vs $1.04 est (BMO 10/28); pre-mkt 91.71 (+10.0% vs 83.35 close)",
-      "risks": "Gap-and-fade risk; 52wk 53.07-166.86",
-      "driver": "Earnings beat (Tier 1)",
-      "addedDate": "2026-10-28"
-    },
-    {
-      "ticker": "ETSY",
-      "name": "Etsy",
-      "sector": "Retail Trade",
-      "shares": 36,
-      "entry": 95.0,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Q3 adj EPS $1.00 vs $0.76 est (BMO 10/28); pre-mkt 95.00 (+8.4% vs 87.66 close); above prior 52wk high 91.12",
-      "risks": "Gap-and-fade after breakout",
-      "driver": "Earnings beat (Tier 1)",
-      "addedDate": "2026-10-28"
-    },
-    {
       "ticker": "GEHC",
       "name": "GE HealthCare",
       "sector": "Health Technology",
@@ -108,18 +60,6 @@
       "exitRule": "1-3 day swing",
       "catalyst": "Q3 adj EPS $1.34 vs $1.21 est (BMO 10/28); pre-mkt 75.47 (+6.1% vs 71.11 close)",
       "risks": "Tariff/China exposure; 52wk 58.75-89.77",
-      "driver": "Earnings beat (Tier 1)",
-      "addedDate": "2026-10-28"
-    },
-    {
-      "ticker": "PSX",
-      "name": "Phillips 66",
-      "sector": "Energy Minerals",
-      "shares": 12,
-      "entry": 273.61,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Q3 adj EPS $14.08 vs $11.83 est (BMO 10/28); pre-mkt 273.61 (+1.9% vs 268.53); wide ask 288.88",
-      "risks": "Wide quote spread; near 52wk high 299.39; oil volatility",
       "driver": "Earnings beat (Tier 1)",
       "addedDate": "2026-10-28"
     },
@@ -136,18 +76,6 @@
       "addedDate": "2026-10-28"
     },
     {
-      "ticker": "LH",
-      "name": "Labcorp",
-      "sector": "Health Services",
-      "shares": 10,
-      "entry": 335.99,
-      "exitRule": "1-3 day swing",
-      "catalyst": "Q3 adj EPS $4.78 vs $4.64 est (BMO 10/28); pre-mkt 335.99 (+1.5% vs 331.17)",
-      "risks": "Modest beat, wide pre-mkt ask; near 52wk high 341.80",
-      "driver": "Earnings beat (Tier 1)",
-      "addedDate": "2026-10-28"
-    },
-    {
       "ticker": "BIIB",
       "name": "Biogen",
       "sector": "Health Technology",
@@ -160,29 +88,125 @@
       "addedDate": "2026-10-28"
     },
     {
-      "ticker": "MU",
-      "name": "Micron",
-      "sector": "Electronic Technology",
-      "shares": 3,
-      "entry": 965.63,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "SK Hynix profit >7x y/y lifts memory (Reuters/Investing.com 10/28); pre-mkt 965.63 (+4.0% vs 928.76)",
-      "risks": "Sympathy trade; FOMC; 52wk 192.59-1255",
-      "driver": "Memory read-through (Tier 2)",
-      "addedDate": "2026-10-28"
+      "ticker": "LLY",
+      "name": "Eli Lilly",
+      "sector": "Health Technology",
+      "shares": 2,
+      "entry": 1334.92,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Q3 adj EPS $7.48 vs $6.36 est (BMO 10/29); pre-mkt 1334.92 (+3.6% vs 1288.30)",
+      "risks": "Near 52wk high 1321.21; huge price per share",
+      "driver": "Q3 beat (Tier 1)",
+      "addedDate": "2026-10-29"
     },
     {
-      "ticker": "WDC",
-      "name": "Western Digital",
+      "ticker": "MRK",
+      "name": "Merck",
+      "sector": "Health Technology",
+      "shares": 24,
+      "entry": 143.89,
+      "exitRule": "Overnight (next day open)",
+      "catalyst": "Q3 adj EPS $2.49 vs $2.10 est (BMO 10/29); pre-mkt 143.89 (+2.1% vs 140.93)",
+      "risks": "Pharma sympathy; PE elevated; 52wk high 156.92",
+      "driver": "Q3 beat (Tier 1)",
+      "addedDate": "2026-10-29"
+    },
+    {
+      "ticker": "HWM",
+      "name": "Howmet Aerospace",
       "sector": "Electronic Technology",
-      "shares": 8,
-      "entry": 387.86,
+      "shares": 16,
+      "entry": 211.98,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Q3 adj EPS $1.46 vs $1.37 est (BMO 10/29); pre-mkt 211.98 (+8.6% vs 195.19); bounce off 52wk low 183.52 (10/23)",
+      "risks": "Gap-and-fade risk; 52wk 183.52-310.00",
+      "driver": "Q3 beat + gap (Tier 1)",
+      "addedDate": "2026-10-29"
+    },
+    {
+      "ticker": "CROX",
+      "name": "Crocs",
+      "sector": "Consumer Non-Durables",
+      "shares": 24,
+      "entry": 140.3,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Q3 adj EPS $3.69 vs $3.31 est (BMO 10/29); pre-mkt 140.30 (+17.2% vs 119.69), at 52wk high 141.28",
+      "risks": "Extended gap; fade risk at 52wk high",
+      "driver": "Q3 beat (Tier 1)",
+      "addedDate": "2026-10-29"
+    },
+    {
+      "ticker": "BLDR",
+      "name": "Builders FirstSource",
+      "sector": "Retail Trade",
+      "shares": 58,
+      "entry": 60.0,
       "exitRule": "Intraday - flat by close",
-      "catalyst": "Memory/storage sympathy after SK Hynix results (Investing.com 10/28); pre-mkt 387.86 (+1.8% vs 380.88)",
-      "risks": "Sympathy only; STX fell on its results; 52wk 121.85-799.87",
-      "driver": "Memory read-through (Tier 2)",
-      "addedDate": "2026-10-28"
+      "catalyst": "Q3 adj EPS $1.51 vs $1.06 est (+42%) (BMO 10/29); pre-mkt 60.00 (+7.4% vs 55.88)",
+      "risks": "Wide pre-mkt bid/ask 58-60; housing cyclicality",
+      "driver": "Q3 big beat (Tier 1)",
+      "addedDate": "2026-10-29"
+    },
+    {
+      "ticker": "ENTG",
+      "name": "Entegris",
+      "sector": "Producer Manufacturing",
+      "shares": 20,
+      "entry": 167.0,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Q3 adj EPS $1.23 vs $1.03 est (BMO 10/29); pre-mkt 167.00 (+4.8% vs 159.32)",
+      "risks": "Semi cycle; PE 75; 52wk high 186.94",
+      "driver": "Q3 beat (Tier 1)",
+      "addedDate": "2026-10-29"
+    },
+    {
+      "ticker": "NCLH",
+      "name": "Norwegian Cruise Line",
+      "sector": "Consumer Services",
+      "shares": 198,
+      "entry": 17.53,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "Q3 adj EPS $1.12 vs $0.93 est (BMO 10/29); pre-mkt 17.53 (+9.1% vs 16.06)",
+      "risks": "Gap-and-fade; leveraged balance sheet",
+      "driver": "Q3 beat (Tier 1)",
+      "addedDate": "2026-10-29"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "sector": "Technology Services",
+      "shares": 6,
+      "entry": 540.59,
+      "exitRule": "1-3 day swing",
+      "catalyst": "FQ1 results rewarded by market vs Alphabet punished (10/28 AH); pre-mkt 540.59 (+1.8% vs 531.01)",
+      "risks": "Near 52wk high 551.15; Nasdaq AI-spend sentiment",
+      "driver": "Post-earnings AI rotation (Tier 2)",
+      "addedDate": "2026-10-29"
+    },
+    {
+      "ticker": "PWR",
+      "name": "Quanta Services",
+      "sector": "Industrial Services",
+      "shares": 5,
+      "entry": 617.8,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Q3 adj EPS $6.06 vs $4.96 est (+22%) (BMO 10/29); pre-mkt 617.80 (+1.8% vs 606.89)",
+      "risks": "Buying at ask; AI-power capex sentiment after GOOGL -10%",
+      "driver": "Q3 beat (Tier 1)",
+      "addedDate": "2026-10-29"
+    },
+    {
+      "ticker": "PBF",
+      "name": "PBF Energy",
+      "sector": "Energy Minerals",
+      "shares": 46,
+      "entry": 74.88,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "Q3 adj EPS $12.78 vs $11.11 est (BMO 10/29); pre-mkt 74.88 (+2.2% vs 73.28)",
+      "risks": "Wide ask 81.85; refining margin volatility",
+      "driver": "Q3 beat (Tier 1)",
+      "addedDate": "2026-10-29"
     }
   ],
-  "note": "2026-10-28: closed 5 names for -235.48 realized (4 intraday at 10/27 close, HCA stop). 10 new picks. Deployed 46247.54, cash 25293.53."
+  "note": "2026-10-29: closed 8 names for +487.07 realized (5 intraday at 10/28 close, SOFI/LH take-profit, GEV stop). 10 new picks. Deployed 53367.65, cash 18660.49."
 }
