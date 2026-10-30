@@ -2,10 +2,10 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 11405.968,
-  "tradeDate": "2026-10-28",
-  "lastUpdated": "2026-10-28T10:50:00Z",
-  "nextRefresh": "2026-10-29T06:45:00-05:00",
+  "startingCapital": 10846.628,
+  "tradeDate": "2026-10-30",
+  "lastUpdated": "2026-10-30T10:48:00Z",
+  "nextRefresh": "2026-10-31T06:45:00-05:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Runs every day \u2014 crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 1405.968,
+  "priorRealizedPnL": 846.628,
   "positions": [
     {
       "ticker": "BTC",
       "name": "Bitcoin",
       "sector": "Crypto",
       "shares": 0.139973,
-      "entry": 81487.14,
-      "stopPrice": 74968.17,
+      "entry": 77491.07,
+      "stopPrice": 71291.78,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "DAY FORTY-FOUR. HOLD BTC (rolled at live print). Board firmer (BTC 81,487 +1.9%, ETH 2,368, SOL 102.94) but no alt reclaimed trigger (SOL>110, ETH>2,500). FOMC Oct 27-28 outcome pending; liquid major on a low-edge day.",
-      "driver": "Closed BTC at 81487.14 (canonical feed, asOf 2026-10-28T10:47:28.744Z) vs entry 79947.43: +215.52 on 0.139973 BTC. Book -> 11405.968.\n\nRE-BOUGHT BTC at 81487.14 (same asOf). 0.139973 BTC = $11406.0 deployed. Stop 74968.17 (-8%).\n\nRUNNERS-UP: ETH 2,368.37, SOL 102.94, XRP 1.3291, LINK 11.789 - none with catalyst-backed reclaim; web narrative search returned nothing current.",
-      "risks": "FOMC Oct 28 decision volatility; ETF flow swings. Hard stop caps loss at -8%.\n\nTEST FOR TOMORROW: rotate only on catalyst-backed reclaim (SOL>110, ETH>2,500 with positive ETF flows).",
-      "addedDate": "2026-10-28"
+      "catalyst": "Broad crypto drawdown (BTC -4.9%, ETH -5.5%, SOL -5.9% vs Oct 28 print); no alt showed catalyst-backed relative strength, so stay in the liquid major with a hard -8% stop.",
+      "driver": "Closed BTC at 77491.07 (canonical feed, asOf 2026-10-30T10:46:43.062Z) vs entry 81487.14: -559.34 on 0.139973 BTC (Oct 29 run did not execute; position held two days). Book -> 10846.628.\n\nRE-BOUGHT BTC at 77491.07 (same asOf). 0.139973 BTC = $10846.66 deployed. Stop 71291.78 (-8%).\n\nRUNNERS-UP: ETH 2,239.29, SOL 96.82 - both weaker than BTC, below reclaim triggers; web narrative search returned only stale 2025 results.",
+      "risks": "Downtrend momentum; further liquidation could gap through stop. Hard stop caps loss at -8%.",
+      "addedDate": "2026-10-30"
     }
   ]
 }
