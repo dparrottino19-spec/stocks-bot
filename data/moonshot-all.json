@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 8179.02,
-  "tradeDate": "2026-10-29",
-  "lastUpdated": "2026-10-29T10:45:00Z",
-  "nextRefresh": "2026-10-30T06:30:00-05:00",
+  "startingCapital": 9121.37,
+  "tradeDate": "2026-10-30",
+  "lastUpdated": "2026-10-30T10:45:00Z",
+  "nextRefresh": "2026-11-02T06:30:00-06:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -1820.98,
+  "priorRealizedPnL": -878.63,
   "positions": [
     {
       "ticker": "SQQQ",
       "name": "ProShares UltraPro Short QQQ (3x inverse Nasdaq-100)",
       "sector": "Leveraged Inverse ETF",
-      "shares": 225.441566,
-      "entry": 36.28,
-      "stopPrice": 32.65,
+      "shares": 225.385965,
+      "entry": 40.47,
+      "stopPrice": 36.42,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Alphabet earnings shortfall reignites AI-spend fears; Nasdaq futures ~-1% pre-market, SOXL ~-6.5%, MU ~-2.7%.",
-      "driver": "Entry = dashboard feed 36.28 (asOf 2026-10-29T10:37:49Z; feed returns prior close). RH pre-market SQQQ ~37.39, so a real fill would be ~3% higher. 10% stop for 3x. Chose SQQQ over SOXS (already +6.9% pre-mkt, chase risk) and TQQQ/SOXL dip-buy.",
-      "risks": "Dip-buy reversal at the open after a gap down would hit a 3x inverse hard; Fed/earnings already digested; 3x decay.",
-      "addedDate": "2026-10-29"
+      "catalyst": "Amazon and Intel earnings rattle AI trade; Nasdaq-100 futures down 2%+, global tech rout, SOXL ~-17% pre-market.",
+      "driver": "Entry = Robinhood live pre-market ask 40.47 (RH last non-reg 10:37Z). Dashboard feed returned prior close 37.83 (asOf 2026-10-30T10:37:25Z), so not used as fill. Held SQQQ over SOXS (+17.7% pre-mkt, chase) and TQQQ dip-buy (falling knife).",
+      "risks": "SQQQ already +7% pre-market; a gap-fill bounce at the open hits a 3x inverse hard; 3x decay; Friday reversal risk.",
+      "addedDate": "2026-10-30"
     }
   ]
 }
