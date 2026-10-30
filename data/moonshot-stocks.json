@@ -2,10 +2,10 @@
   "bookName": "Moonshot Stocks",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 5347.47,
-  "tradeDate": "2026-10-29",
-  "lastUpdated": "2026-10-29T10:37:01Z",
-  "nextRefresh": "2026-10-30T06:35:00-05:00",
+  "startingCapital": 5202.8,
+  "tradeDate": "2026-10-30",
+  "lastUpdated": "2026-10-30T10:50:00Z",
+  "nextRefresh": "2026-11-02T06:35:00-06:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -14,21 +14,7 @@
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
-  "priorRealizedPnL": -4652.53,
-  "positions": [
-    {
-      "ticker": "WCC",
-      "name": "Wesco International",
-      "sector": "Industrials / Electrical Distribution",
-      "shares": 14.452622,
-      "entry": 370.0,
-      "stopPrice": 347.8,
-      "exitRule": "Rotate next weekday 6:35am CT run",
-      "catalyst": "Q3 2026 EPS $5.77 vs $4.68 est (+23% beat), raised full-year outlook; data-center demand strength.",
-      "driver": "Pre-market gap +6.5% on earnings beat+raise; tight 367.63/370.00 quote; under 8-10% no-chase limit.",
-      "risks": "Gap-fade after open; already +6.5% pre-mkt; industrial/macro sensitivity; stop 6% below entry.",
-      "addedDate": "2026-10-29"
-    }
-  ],
-  "note": "BUY WCC 2026-10-29 @ 370.0 (Robinhood real-time pre-mkt: last non-reg 370.00 @10:20Z, bid/ask 367.63/370.00 @10:36Z; prior close 347.22). Dashboard feed asOf 2026-10-29T10:36:33Z returned only prior close (stale), not used. Runners-up: NCLH (+5%, 1.12 vs 0.93), MRK (+2.9%, 2.49 vs 2.10). CAT -7% on miss/outlook."
+  "priorRealizedPnL": -4797.2,
+  "positions": [],
+  "note": "SELL WCC 2026-10-30 @ 359.99 (Robinhood last non-reg trade 09:06Z; bid/ask 353.55/360.00; dashboard feed asOf 10:36Z returned stale prior close 366.71, not used). P&L -144.67. CASH today — no verified catalyst: ABBV +2.2% and XOM/CVX +1.4% pre-mkt on same-day reports but results/guidance not verifiable; AMZN -7%, INTC -25% on misses. Re-entry next weekday run."
 }
