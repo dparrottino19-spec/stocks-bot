@@ -2,9 +2,9 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 9121.37,
-  "tradeDate": "2026-10-30",
-  "lastUpdated": "2026-10-30T10:45:00Z",
+  "startingCapital": 9427.89,
+  "tradeDate": "2026-10-31",
+  "lastUpdated": "2026-10-31T10:45:00Z",
   "nextRefresh": "2026-11-02T06:30:00-06:00",
   "positionCapPct": 100,
   "rules": [
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -878.63,
+  "priorRealizedPnL": -572.11,
   "positions": [
     {
-      "ticker": "SQQQ",
-      "name": "ProShares UltraPro Short QQQ (3x inverse Nasdaq-100)",
-      "sector": "Leveraged Inverse ETF",
-      "shares": 225.385965,
-      "entry": 40.47,
-      "stopPrice": 36.42,
+      "ticker": "BTC-USD",
+      "name": "Bitcoin (spot)",
+      "sector": "Crypto",
+      "shares": 0.121897,
+      "entry": 77343.24,
+      "stopPrice": 69608.92,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Amazon and Intel earnings rattle AI trade; Nasdaq-100 futures down 2%+, global tech rout, SOXL ~-17% pre-market.",
-      "driver": "Entry = Robinhood live pre-market ask 40.47 (RH last non-reg 10:37Z). Dashboard feed returned prior close 37.83 (asOf 2026-10-30T10:37:25Z), so not used as fill. Held SQQQ over SOXS (+17.7% pre-mkt, chase) and TQQQ dip-buy (falling knife).",
-      "risks": "SQQQ already +7% pre-market; a gap-fill bounce at the open hits a 3x inverse hard; 3x decay; Friday reversal risk.",
-      "addedDate": "2026-10-30"
+      "catalyst": "Weekend: spot crypto only. BTC ~77.3k after red October (hawkish Fed w/ two hike dissents, Nasdaq/AI selloff Oct 30); washed-out longs, mean-reversion bounce setup.",
+      "driver": "Entry = dashboard feed 77343.24 (asOf 2026-10-31T10:37:24Z), RH mark 77362.85 cross-check. Chose BTC over ETH/SOL for lower vol and less downside beta on a risk-off weekend.",
+      "risks": "Equity/AI selloff contagion, hawkish Fed, Monday gap-down; no leverage so asymmetric upside is modest.",
+      "addedDate": "2026-10-31"
     }
   ]
 }
