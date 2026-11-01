@@ -2,9 +2,9 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 9427.89,
-  "tradeDate": "2026-10-31",
-  "lastUpdated": "2026-10-31T10:45:00Z",
+  "startingCapital": 9483.69,
+  "tradeDate": "2026-11-01",
+  "lastUpdated": "2026-11-01T11:45:00Z",
   "nextRefresh": "2026-11-02T06:30:00-06:00",
   "positionCapPct": 100,
   "rules": [
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -572.11,
+  "priorRealizedPnL": -516.31,
   "positions": [
     {
       "ticker": "BTC-USD",
       "name": "Bitcoin (spot)",
       "sector": "Crypto",
       "shares": 0.121897,
-      "entry": 77343.24,
-      "stopPrice": 69608.92,
+      "entry": 77800.99,
+      "stopPrice": 70020.89,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Weekend: spot crypto only. BTC ~77.3k after red October (hawkish Fed w/ two hike dissents, Nasdaq/AI selloff Oct 30); washed-out longs, mean-reversion bounce setup.",
-      "driver": "Entry = dashboard feed 77343.24 (asOf 2026-10-31T10:37:24Z), RH mark 77362.85 cross-check. Chose BTC over ETH/SOL for lower vol and less downside beta on a risk-off weekend.",
-      "risks": "Equity/AI selloff contagion, hawkish Fed, Monday gap-down; no leverage so asymmetric upside is modest.",
-      "addedDate": "2026-10-31"
+      "catalyst": "Sunday: spot crypto only. Low-edge tape (spot BTC ETF outflows ~$640-770M, hawkish Fed, AI-equity selloff) so parked in lowest-vol spot asset rather than ETH/SOL.",
+      "driver": "Entry = dashboard feed 77800.99 (asOf 2026-11-01T11:37:37Z); RH mark 77821.53 cross-check. Held over from yesterday at a fresh rotation price; BTC range-bound ~77-78k after washout.",
+      "risks": "ETF outflow streak, hawkish Fed, Monday equity gap-down contagion; unleveraged so upside modest.",
+      "addedDate": "2026-11-01"
     }
   ]
 }
