@@ -2,10 +2,10 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10892.808,
-  "tradeDate": "2026-11-01",
-  "lastUpdated": "2026-11-01T11:47:30Z",
-  "nextRefresh": "2026-11-02T06:45:00-06:00",
+  "startingCapital": 10877.958,
+  "tradeDate": "2026-11-02",
+  "lastUpdated": "2026-11-02T11:49:00Z",
+  "nextRefresh": "2026-11-03T06:45:00-06:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Runs every day \u2014 crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 892.808,
+  "priorRealizedPnL": 877.958,
   "positions": [
     {
-      "ticker": "BTC",
-      "name": "Bitcoin",
+      "ticker": "ETH",
+      "name": "Ethereum",
       "sector": "Crypto",
-      "shares": 0.139973,
-      "entry": 77821.0,
-      "stopPrice": 71595.32,
+      "shares": 4.769068,
+      "entry": 2280.94,
+      "stopPrice": 2098.46,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "Low-edge Sunday: BTC +0.2% vs prior close while ETH flat (+0.02%) and SOL -0.35%; BTC is relative-strength leader of majors. Stay in liquid major with hard -8% stop.",
-      "driver": "Closed BTC at 77821.0 (dashboard feed asOf 2026-11-01T11:46:47Z, matches Robinhood mark 77821.62) vs entry 77349.14: +66.05. Book -> 10892.808. Re-bought BTC 0.139973 units = $10892.84, stop 71595.32. RUNNERS-UP: ETH 2266.39, SOL 95.16 - no catalyst-backed edge; web narrative search returned only stale/generic results.",
-      "risks": "Weekend thin liquidity; range-bound/downtrend could gap through stop. Hard stop caps loss at -8%.",
-      "addedDate": "2026-11-01"
+      "catalyst": "Relative-strength rotation: ETH ~+0.6% vs yesterday's mark (2266.39) while BTC -0.14% and SOL -1.5%; ETH leads the liquid majors. Low-edge Monday, stay in a liquid major with hard -8% stop.",
+      "driver": "Closed BTC at 77714.93 (dashboard feed asOf 2026-11-02T11:47:05Z) vs entry 77821.0: -14.85. Book -> 10877.958. Bought ETH 4.769068 units = $10877.96, stop 2098.46. RUNNERS-UP: BTC (flat/weak), SOL 93.69 (weak), XRP 1.2475 - no catalyst-backed edge; web narrative search returned only stale/generic results.",
+      "risks": "Range-bound/downtrend macro tape; ETH beta to BTC can gap through stop. Hard stop caps loss at -8%.",
+      "addedDate": "2026-11-02"
     }
   ]
 }
