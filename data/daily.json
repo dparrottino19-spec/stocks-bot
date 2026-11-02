@@ -2,10 +2,10 @@
   "bookName": "Daily Trader",
   "inceptionDate": "2026-05-15",
   "inceptionCapital": 70000,
-  "startingCapital": 72410.07,
-  "tradeDate": "2026-10-30",
-  "lastUpdated": "2026-10-30T11:30:00Z",
-  "nextRefresh": "2026-11-02T07:09:00-05:00",
+  "startingCapital": 72756.81,
+  "tradeDate": "2026-11-02",
+  "lastUpdated": "2026-11-02T12:35:00Z",
+  "nextRefresh": "2026-11-03T07:09:00-06:00",
   "rules": [
     "Weekday 7am ET picks",
     "Per-pick exit rules",
@@ -13,7 +13,7 @@
     "1-week max hold",
     "<=4 names per sector"
   ],
-  "priorRealizedPnL": 2410.07,
+  "priorRealizedPnL": 2756.81,
   "positions": [
     {
       "ticker": "REGN",
@@ -52,42 +52,6 @@
       "addedDate": "2026-10-30"
     },
     {
-      "ticker": "CVX",
-      "name": "Chevron",
-      "sector": "Energy Minerals",
-      "shares": 14,
-      "entry": 234.69,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Q3 adj EPS $5.28 vs $4.82 est (BMO 10/30); pre-mkt 234.69 (+1.4% vs 231.46); at 52wk high 234.08",
-      "risks": "Extended at highs; oil price",
-      "driver": "Q3 beat (Tier 1)",
-      "addedDate": "2026-10-30"
-    },
-    {
-      "ticker": "XOM",
-      "name": "Exxon Mobil",
-      "sector": "Energy Minerals",
-      "shares": 18,
-      "entry": 186.27,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Q3 EPS $4.23 vs $4.01 est (BMO 10/30); pre-mkt 186.27 (+1.6% vs 183.29); above 52wk high 184.88",
-      "risks": "Extended at highs; oil price",
-      "driver": "Q3 beat (Tier 1)",
-      "addedDate": "2026-10-30"
-    },
-    {
-      "ticker": "BP",
-      "name": "BP plc",
-      "sector": "Energy Minerals",
-      "shares": 69,
-      "entry": 50.55,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Q3 EPS $3.26 vs $2.63 est (BMO 10/30); pre-mkt 50.55 (+0.4% vs 50.35); 52wk 33.22-51.49",
-      "risks": "Muted reaction; ADR",
-      "driver": "Q3 big beat (Tier 1)",
-      "addedDate": "2026-10-30"
-    },
-    {
       "ticker": "GD",
       "name": "General Dynamics",
       "sector": "Electronic Technology",
@@ -96,18 +60,6 @@
       "exitRule": "1-3 day swing",
       "catalyst": "Q3 EPS $4.49 vs $4.13 est (BMO 10/30); pre-mkt bid/ask mid 376.00 (+1.4% vs 370.82); 52wk 306.77-400.00",
       "risks": "Wide pre-mkt spread 373-379; defense budget headlines",
-      "driver": "Q3 beat (Tier 1)",
-      "addedDate": "2026-10-30"
-    },
-    {
-      "ticker": "CL",
-      "name": "Colgate-Palmolive",
-      "sector": "Consumer Non-Durables",
-      "shares": 36,
-      "entry": 95.22,
-      "exitRule": "Intraday - flat by close",
-      "catalyst": "Q3 EPS $0.97 vs $0.92 est (BMO 10/30); pre-mkt 95.22 (+2.2% vs 93.16); 52wk 74.55-99.33",
-      "risks": "Defensive; modest beat",
       "driver": "Q3 beat (Tier 1)",
       "addedDate": "2026-10-30"
     },
@@ -124,17 +76,125 @@
       "addedDate": "2026-10-30"
     },
     {
-      "ticker": "CPRI",
-      "name": "Capri Holdings",
-      "sector": "Retail Trade",
-      "shares": 200,
-      "entry": 17.05,
+      "ticker": "IDXX",
+      "name": "IDEXX Laboratories",
+      "sector": "Health Technology",
+      "shares": 5,
+      "entry": 585.0,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Q3 adj EPS $4.01 vs $3.71 est (BMO 11/2); pre-mkt 585.00 (+6.1% vs 551.21); 52wk 500.61-769.98",
+      "risks": "Wide pre-mkt spread 575-587.5; gap-fade",
+      "driver": "Q3 beat (Tier 1)",
+      "addedDate": "2026-11-02"
+    },
+    {
+      "ticker": "MAR",
+      "name": "Marriott International",
+      "sector": "Consumer Services",
+      "shares": 8,
+      "entry": 412.01,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Q3 adj EPS $3.02 vs $2.85 est (BMO 11/2); pre-mkt 412.01 (+3.2% vs 399.30); breaking above 52wk high 410.98",
+      "risks": "Extended at highs; travel demand",
+      "driver": "Q3 beat (Tier 1)",
+      "addedDate": "2026-11-02"
+    },
+    {
+      "ticker": "TEM",
+      "name": "Tempus AI",
+      "sector": "Technology Services",
+      "shares": 45,
+      "entry": 76.1,
       "exitRule": "Intraday - flat by close",
-      "catalyst": "FQ2 EPS $0.42 vs $0.21 est (2x) (BMO 10/30); pre-mkt 17.05 (+6.2% vs 16.06); 52wk 12.40-28.27",
-      "risks": "Wide bid/ask 15.60-17.25; low-priced mid-cap ($1.8B)",
-      "driver": "FQ2 big beat (Tier 1)",
-      "addedDate": "2026-10-30"
+      "catalyst": "Q3 EPS +$0.07 vs -$0.13 est (BMO 11/2); pre-mkt 76.10 (+5.4% vs 72.22); 52wk 40.77-90.53",
+      "risks": "High volatility mid-cap ($13B)",
+      "driver": "Q3 big beat (Tier 1)",
+      "addedDate": "2026-11-02"
+    },
+    {
+      "ticker": "TSEM",
+      "name": "Tower Semiconductor",
+      "sector": "Electronic Technology",
+      "shares": 20,
+      "entry": 174.4,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Q3 EPS $1.15 vs $1.05 est (BMO 11/2); pre-mkt 174.40 (+4.8% vs 166.48); 52wk 80.63-319.94",
+      "risks": "Semis volatility; ADR",
+      "driver": "Q3 beat (Tier 1)",
+      "addedDate": "2026-11-02"
+    },
+    {
+      "ticker": "EL",
+      "name": "Estee Lauder",
+      "sector": "Consumer Non-Durables",
+      "shares": 30,
+      "entry": 112.98,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "FQ1 EPS $0.72 vs $0.51 est (BMO 11/2); pre-mkt 112.98 (+3.4% vs 109.23); 52wk 66.22-121.64",
+      "risks": "Gap-fade; China exposure",
+      "driver": "FQ1 big beat (Tier 1)",
+      "addedDate": "2026-11-02"
+    },
+    {
+      "ticker": "RYAAY",
+      "name": "Ryanair",
+      "sector": "Transportation",
+      "shares": 63,
+      "entry": 55.16,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "H1 EPS $3.54 vs $3.49 est (11/2); pre-mkt 55.16 (+2.7% vs 53.72); 52wk 51.02-74.24",
+      "risks": "Modest beat; ADR; fuel",
+      "driver": "H1 beat (Tier 1)",
+      "addedDate": "2026-11-02"
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "sector": "Technology Services",
+      "shares": 18,
+      "entry": 186.35,
+      "exitRule": "Overnight (next day open)",
+      "catalyst": "Pre-earnings setup: reports after close 11/2; pre-mkt 186.35 (+1.2% vs 184.11); 52wk 106.37-212.94",
+      "risks": "Binary earnings gap risk",
+      "driver": "Earnings run-up (Tier 2)",
+      "addedDate": "2026-11-02"
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Apple",
+      "sector": "Electronic Technology",
+      "shares": 10,
+      "entry": 344.1,
+      "exitRule": "Overnight (next day open)",
+      "catalyst": "Pre-earnings setup: FQ4 report after close 11/2 (confirmed); pre-mkt 344.10 (-0.2% vs 344.63); near 52wk high 351.73",
+      "risks": "Binary earnings gap risk",
+      "driver": "Earnings run-up (Tier 2)",
+      "addedDate": "2026-11-02"
+    },
+    {
+      "ticker": "CHH",
+      "name": "Choice Hotels",
+      "sector": "Consumer Services",
+      "shares": 30,
+      "entry": 114.0,
+      "exitRule": "Intraday - flat by close",
+      "catalyst": "Q3 EPS $2.33 vs $2.29 est (BMO 11/2); last pre-mkt 114.00 (+2.6% vs 111.16); 52wk 84.04-123.82",
+      "risks": "Wide spread 111.59-115; small beat",
+      "driver": "Q3 beat (Tier 1)",
+      "addedDate": "2026-11-02"
+    },
+    {
+      "ticker": "ETR",
+      "name": "Entergy",
+      "sector": "Utilities",
+      "shares": 30,
+      "entry": 111.31,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Q3 EPS $1.98 vs $1.70 est (BMO 11/2); no pre-mkt print, bid/ask mid 111.31 (110.12-112.50) vs close 110.11; 52wk 90.87-118.45",
+      "risks": "Rate sensitivity; mid-quote entry",
+      "driver": "Q3 big beat (Tier 1)",
+      "addedDate": "2026-11-02"
     }
   ],
-  "note": "2026-10-30: closed 16 names for +381.93 realized (Friday flat-out). 10 new picks. Deployed 34228.31, cash 38181.76."
+  "note": "2026-11-02: closed 5 intraday names for +346.74 realized (at 10/30 official close). 10 new picks. Deployed 50816.58, cash 21940.23."
 }
