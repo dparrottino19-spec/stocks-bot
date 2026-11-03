@@ -2,32 +2,32 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 9482.08,
-  "tradeDate": "2026-11-02",
-  "lastUpdated": "2026-11-02T11:40:00Z",
-  "nextRefresh": "2026-11-03T06:30:00-06:00",
+  "startingCapital": 9378.65,
+  "tradeDate": "2026-11-03",
+  "lastUpdated": "2026-11-03T11:42:00Z",
+  "nextRefresh": "2026-11-04T06:30:00-06:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
     "Any liquid asset: stock, crypto, or leveraged/inverse ETF",
-    "Rotate each 6:30am CT run \u2014 sell yesterday, buy today's best",
+    "Rotate each 6:30am CT run — sell yesterday, buy today's best",
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -517.92,
+  "priorRealizedPnL": -621.35,
   "positions": [
     {
       "ticker": "BTC-USD",
       "name": "Bitcoin (spot)",
       "sector": "Crypto",
       "shares": 0.121897,
-      "entry": 77787.82,
-      "stopPrice": 70009.04,
+      "entry": 76939.32,
+      "stopPrice": 69245.39,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Low-edge day: equity futures bouncing after worst week in months (oil tumbling) but gap-ups already +2-5% in 3x ETFs and the week is loaded with midterms, jobs and AI earnings. Parked in lowest-vol spot asset rather than chasing 3x.",
-      "driver": "Entry = dashboard feed 77787.82 (asOf 2026-11-02T11:38:01Z); RH mark 77785.91 cross-check. Runners-up: TQQQ (63.53 pre-mkt, +2.4%), SOXL (80.63, +4.6% gap), BITX.",
-      "risks": "Spot ETF outflows, hawkish Fed, event-risk week; unleveraged so upside modest.",
-      "addedDate": "2026-11-02"
+      "catalyst": "Low-edge binary-event day: US midterm election results tonight, AMD earnings after the close, Apple/Palantir sliding post-earnings, futures mixed. Semis gapping (SOXL ~+5% pre-mkt) = chase risk into AMD binary. Parked in lowest-vol spot asset (re-up of BTC at a lower price than yesterday's entry).",
+      "driver": "Entry = dashboard feed 76939.32 (asOf 2026-11-03T11:37:56Z); RH mark 76951.01 cross-check. Runners-up: SOXL (71.87 pre-mkt, +5.4% gap), BITX (16.33 pre-mkt), SQQQ/SPXS hedge on election/AMD risk.",
+      "risks": "Election/macro event risk, Fed, spot ETF outflows; unleveraged so upside modest; BTC drifting lower (-1.1% vs yesterday entry).",
+      "addedDate": "2026-11-03"
     }
   ]
 }
