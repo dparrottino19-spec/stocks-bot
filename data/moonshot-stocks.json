@@ -2,10 +2,10 @@
   "bookName": "Moonshot Stocks",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 5202.8,
-  "tradeDate": "2026-11-02",
-  "lastUpdated": "2026-11-02T11:40:00Z",
-  "nextRefresh": "2026-11-03T06:35:00-06:00",
+  "startingCapital": 4859.83,
+  "tradeDate": "2026-11-03",
+  "lastUpdated": "2026-11-03T11:45:00Z",
+  "nextRefresh": "2026-11-04T06:35:00-06:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -14,21 +14,7 @@
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
-  "priorRealizedPnL": -4797.2,
-  "positions": [
-    {
-      "ticker": "EL",
-      "name": "The Estée Lauder Companies Inc.",
-      "sector": "Consumer Non-Durables",
-      "shares": 46.599194,
-      "entry": 111.65,
-      "stopPrice": 104.95,
-      "exitRule": "Rotate next weekday 6:35am CT run",
-      "catalyst": "FQ1'27 beat+raise (pre-mkt Nov 2): adj EPS $0.72 vs $0.51 est, sales +7% to $3.7B, organic +6%, FY27 organic growth/margin/EPS/op cash flow guidance all raised (EPS $3.20-3.45).",
-      "driver": "Beat-and-raise with only ~+2% pre-market so far; room to run toward 52w high 121.6; 6% hard stop.",
-      "risks": "Geopolitical/tariff caution, negative FCF in quarter, thin pre-market liquidity (avg vol 3.6M), P/E elevated; may fade at open.",
-      "addedDate": "2026-11-02"
-    }
-  ],
-  "note": "BUY EL 2026-11-02 @ 111.65 (Robinhood bid/ask mid 111.30/112.00 at 11:36:53Z; last pre-mkt trade 111.10 at 11:35:49Z; prev close 109.23). Dashboard feed asOf 11:36:42Z returned 109.23 = stale prior close, not used. Prior book was cash."
+  "priorRealizedPnL": -5140.17,
+  "positions": [],
+  "note": "SELL EL 2026-11-03 @ 104.29 (Robinhood last pre-mkt trade 11:20:56Z; bid/ask 102.52/104.35; prev close 104.77 — gapped below 104.95 stop after fading from entry). Dashboard feed returned stale 109.23 (asOf 2026-11-02), not used. Realized -342.97. CASH today: pre-market quotes thin/wide, no clean verified-catalyst setup (CMCO +10% already, illiquid; LPX/LDOS/IT/HSIC no confirmed move)."
 }
