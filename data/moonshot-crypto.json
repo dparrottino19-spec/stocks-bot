@@ -2,32 +2,32 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10877.958,
-  "tradeDate": "2026-11-02",
-  "lastUpdated": "2026-11-02T11:49:00Z",
-  "nextRefresh": "2026-11-03T06:45:00-06:00",
+  "startingCapital": 10781.388,
+  "tradeDate": "2026-11-03",
+  "lastUpdated": "2026-11-03T11:50:00Z",
+  "nextRefresh": "2026-11-04T06:45:00-06:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
     "Spot crypto only (BTC, ETH, SOL, and other liquid coins on Robinhood)",
-    "Rotate each 6:45am CT run \u2014 sell yesterday, buy today's best",
-    "Runs every day \u2014 crypto trades 24/7",
+    "Rotate each 6:45am CT run — sell yesterday, buy today's best",
+    "Runs every day — crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 877.958,
+  "priorRealizedPnL": 781.388,
   "positions": [
     {
-      "ticker": "ETH",
-      "name": "Ethereum",
+      "ticker": "XRP",
+      "name": "XRP",
       "sector": "Crypto",
-      "shares": 4.769068,
-      "entry": 2280.94,
-      "stopPrice": 2098.46,
+      "shares": 8588.010196,
+      "entry": 1.2554,
+      "stopPrice": 1.1299,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "Relative-strength rotation: ETH ~+0.6% vs yesterday's mark (2266.39) while BTC -0.14% and SOL -1.5%; ETH leads the liquid majors. Low-edge Monday, stay in a liquid major with hard -8% stop.",
-      "driver": "Closed BTC at 77714.93 (dashboard feed asOf 2026-11-02T11:47:05Z) vs entry 77821.0: -14.85. Book -> 10877.958. Bought ETH 4.769068 units = $10877.96, stop 2098.46. RUNNERS-UP: BTC (flat/weak), SOL 93.69 (weak), XRP 1.2475 - no catalyst-backed edge; web narrative search returned only stale/generic results.",
-      "risks": "Range-bound/downtrend macro tape; ETH beta to BTC can gap through stop. Hard stop caps loss at -8%.",
-      "addedDate": "2026-11-02"
+      "catalyst": "Relative-strength leader: XRP +0.6% vs yesterday's mark (1.2475) while BTC -1.0%, ETH -0.9%, SOL -1.4%. Low-edge risk-off tape; no confirmed catalyst (narrative search returned only stale results).",
+      "driver": "Closed ETH at 2260.69 (dashboard feed asOf 2026-11-03T11:47:17Z) vs entry 2280.94: -96.57. Book -> 10781.388. Bought XRP 8588.010196 units = $10781.39, stop 1.1299 (-10%). RUNNERS-UP: BTC 76966 (weak), ETH 2260.69 (weak), SOL 92.34 (weakest), LINK 11.12, DOGE 0.0744, AVAX 8.51.",
+      "risks": "Weak broad crypto tape; XRP higher-beta alt can gap through stop. Hard stop caps loss at -10%.",
+      "addedDate": "2026-11-03"
     }
   ]
 }
