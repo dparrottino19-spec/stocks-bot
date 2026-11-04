@@ -2,10 +2,10 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10781.388,
-  "tradeDate": "2026-11-03",
-  "lastUpdated": "2026-11-03T11:50:00Z",
-  "nextRefresh": "2026-11-04T06:45:00-06:00",
+  "startingCapital": 11115.458,
+  "tradeDate": "2026-11-04",
+  "lastUpdated": "2026-11-04T11:50:00Z",
+  "nextRefresh": "2026-11-05T06:45:00-06:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Runs every day — crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 781.388,
+  "priorRealizedPnL": 1115.458,
   "positions": [
     {
-      "ticker": "XRP",
-      "name": "XRP",
+      "ticker": "ETH",
+      "name": "Ethereum",
       "sector": "Crypto",
-      "shares": 8588.010196,
-      "entry": 1.2554,
-      "stopPrice": 1.1299,
+      "shares": 4.758656,
+      "entry": 2335.84,
+      "stopPrice": 2148.97,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "Relative-strength leader: XRP +0.6% vs yesterday's mark (1.2475) while BTC -1.0%, ETH -0.9%, SOL -1.4%. Low-edge risk-off tape; no confirmed catalyst (narrative search returned only stale results).",
-      "driver": "Closed ETH at 2260.69 (dashboard feed asOf 2026-11-03T11:47:17Z) vs entry 2280.94: -96.57. Book -> 10781.388. Bought XRP 8588.010196 units = $10781.39, stop 1.1299 (-10%). RUNNERS-UP: BTC 76966 (weak), ETH 2260.69 (weak), SOL 92.34 (weakest), LINK 11.12, DOGE 0.0744, AVAX 8.51.",
-      "risks": "Weak broad crypto tape; XRP higher-beta alt can gap through stop. Hard stop caps loss at -10%.",
-      "addedDate": "2026-11-03"
+      "catalyst": "Rebound leader among liquid majors: ETH +3.3% vs yesterday's mark (2260.69) vs BTC +2.1%, XRP +3.1%, AVAX +2.3%, SOL +1.8%, DOGE +1.5%, LINK +0.8%. Risk-on bounce with ETH showing best relative strength; narrative search returned only stale results, so pick is tape/relative-strength driven.",
+      "driver": "Closed XRP at 1.2943 (dashboard feed asOf 2026-11-04T11:46:34.971Z) vs entry 1.2554: +334.07. Book -> 11115.458. Bought ETH 4.758656 units = $11115.46, stop 2148.97 (-8%). RUNNERS-UP: XRP 1.2943 (higher beta, fading catalyst), BTC 78614.25 (steadier, lower upside), AVAX 8.71, SOL 94.0.",
+      "risks": "Bounce may be a dead-cat in a weak broad tape; macro/geopolitical headline risk. Hard stop caps loss at -8%.",
+      "addedDate": "2026-11-04"
     }
   ]
 }
