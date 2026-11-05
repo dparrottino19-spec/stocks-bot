@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 9579.52,
-  "tradeDate": "2026-11-04",
-  "lastUpdated": "2026-11-04T11:45:00Z",
-  "nextRefresh": "2026-11-05T06:30:00-06:00",
+  "startingCapital": 9780.74,
+  "tradeDate": "2026-11-05",
+  "lastUpdated": "2026-11-05T11:45:00Z",
+  "nextRefresh": "2026-11-06T06:30:00-06:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -420.48,
+  "priorRealizedPnL": -219.26,
   "positions": [
     {
       "ticker": "BTC-USD",
       "name": "Bitcoin (spot)",
       "sector": "Crypto",
       "shares": 0.121897,
-      "entry": 78587.2,
-      "stopPrice": 70728.48,
+      "entry": 80237.9,
+      "stopPrice": 72214.11,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Post-election/AMD-earnings risk-on gap: semis +5% pre-mkt (SOXL 76.75 vs 73.12 close), SPXL +3.4%, AMD +5.8% pre-mkt \u2014 chase risk across equity/leveraged ETFs. Dashboard feed has no pre-market equity prints (AMD still shows prior close), so equity fills would be unverifiable. Held lowest-vol spot asset; BTC +2.1% vs yesterday's entry with RH-linked BITX also bid.",
-      "driver": "Entry = dashboard feed 78587.2 (asOf 2026-11-04T11:37:59Z). Runners-up: AMD (post-earnings gap, unverifiable fill), SOXL/TQQQ (gap-chase), BITX 2x (17.01 pre-mkt).",
-      "risks": "Gap-fade reversal in risk assets, macro/election aftermath, spot ETF flows; unleveraged so modest upside.",
-      "addedDate": "2026-11-04"
+      "catalyst": "Semis capitulating after Democratic midterm sweep (SOXL ~-7% pre-mkt to 61.85 after -9% yesterday; KOSPI circuit breaker) while broad indices rallied; BTC holding bid +2.1% vs yesterday's entry as rotation/low-beta spot exposure.",
+      "driver": "Entry = dashboard feed 80237.9 (asOf 2026-11-05T11:38:28Z). Runners-up: SOXS 3x inverse semis (62.77 pre-mkt, already +7.6% - chase risk after two-day 16% semi drop, snapback risk; equity fill not on dashboard feed), BITX 2x (17.73), SPXL.",
+      "risks": "Semi/AI selloff contagion to risk assets, post-election volatility, unleveraged so modest upside.",
+      "addedDate": "2026-11-05"
     }
   ]
 }
