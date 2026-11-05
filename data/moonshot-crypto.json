@@ -2,32 +2,32 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 11115.458,
-  "tradeDate": "2026-11-04",
-  "lastUpdated": "2026-11-04T11:50:00Z",
-  "nextRefresh": "2026-11-05T06:45:00-06:00",
+  "startingCapital": 11504.428,
+  "tradeDate": "2026-11-05",
+  "lastUpdated": "2026-11-05T11:47:00Z",
+  "nextRefresh": "2026-11-06T06:45:00-06:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
     "Spot crypto only (BTC, ETH, SOL, and other liquid coins on Robinhood)",
-    "Rotate each 6:45am CT run — sell yesterday, buy today's best",
-    "Runs every day — crypto trades 24/7",
+    "Rotate each 6:45am CT run \u2014 sell yesterday, buy today's best",
+    "Runs every day \u2014 crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 1115.458,
+  "priorRealizedPnL": 1504.428,
   "positions": [
     {
       "ticker": "ETH",
       "name": "Ethereum",
       "sector": "Crypto",
-      "shares": 4.758656,
-      "entry": 2335.84,
-      "stopPrice": 2148.97,
+      "shares": 4.758655,
+      "entry": 2417.58,
+      "stopPrice": 2224.17,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "Rebound leader among liquid majors: ETH +3.3% vs yesterday's mark (2260.69) vs BTC +2.1%, XRP +3.1%, AVAX +2.3%, SOL +1.8%, DOGE +1.5%, LINK +0.8%. Risk-on bounce with ETH showing best relative strength; narrative search returned only stale results, so pick is tape/relative-strength driven.",
-      "driver": "Closed XRP at 1.2943 (dashboard feed asOf 2026-11-04T11:46:34.971Z) vs entry 1.2554: +334.07. Book -> 11115.458. Bought ETH 4.758656 units = $11115.46, stop 2148.97 (-8%). RUNNERS-UP: XRP 1.2943 (higher beta, fading catalyst), BTC 78614.25 (steadier, lower upside), AVAX 8.71, SOL 94.0.",
-      "risks": "Bounce may be a dead-cat in a weak broad tape; macro/geopolitical headline risk. Hard stop caps loss at -8%.",
-      "addedDate": "2026-11-04"
+      "catalyst": "Relative-strength continuation: ETH +3.5% vs yesterday's mark (2335.84) vs SOL +2.6%, BTC +2.1%, XRP +1.9%, LINK, AVAX +0.6%. Risk-on bounce led by ETH; narrative search returned only stale results so pick is tape/relative-strength driven.",
+      "driver": "Closed ETH at 2417.58 (dashboard feed asOf 2026-11-05T11:45:57.004Z) vs entry 2335.84: +388.97. Book -> 11504.428. Re-bought ETH 4.758655 units = $11504.43, stop 2224.17 (-8%). RUNNERS-UP: SOL 96.48 (higher beta, +2.6%), BTC 80291.21 (steadier, lower upside), XRP 1.3195, AVAX 8.763.",
+      "risks": "Two-day bounce may be a dead-cat in a weak broad tape; macro/headline risk; ETH already extended. Hard stop caps loss at -8%.",
+      "addedDate": "2026-11-05"
     }
   ]
 }
