@@ -2,33 +2,33 @@
   "bookName": "Moonshot Stocks",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 4859.83,
-  "tradeDate": "2026-11-04",
-  "lastUpdated": "2026-11-04T11:36:27Z",
-  "nextRefresh": "2026-11-05T06:35:00-06:00",
+  "startingCapital": 4505.83,
+  "tradeDate": "2026-11-05",
+  "lastUpdated": "2026-11-05T11:37:17Z",
+  "nextRefresh": "2026-11-06T06:35:00-06:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
-    "US equities only — no ETFs, crypto, or options",
-    "Rotate each weekday 6:35am CT run — sell prior, buy today's best",
+    "US equities only \u2014 no ETFs, crypto, or options",
+    "Rotate each weekday 6:35am CT run \u2014 sell prior, buy today's best",
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
-  "priorRealizedPnL": -5140.17,
+  "priorRealizedPnL": -5494.17,
   "positions": [
     {
-      "ticker": "AMD",
-      "name": "Advanced Micro Devices",
-      "sector": "Electronic Technology",
-      "shares": 9.490558,
-      "entry": 512.07,
-      "stopPrice": 481.35,
+      "ticker": "ELF",
+      "name": "e.l.f. Beauty",
+      "sector": "Consumer Non-Durables",
+      "shares": 37.33082,
+      "entry": 120.7,
+      "stopPrice": 113.46,
       "exitRule": "Rotate next weekday 6:35am CT run",
-      "catalyst": "Q3 FY26 beat: revenue +45% y/y, data center revenue nearly doubled (+97%), Q4 guide above consensus, mgmt targets ~80% revenue growth in 2027.",
-      "driver": "Post-earnings AI-GPU demand re-rating; most liquid large-cap in the gapper list (mkt cap ~$790B, ~24M avg vol). Pre-mkt +5.8% (below 8-10% chase limit); prior close 483.90; 52wk high 658.52 leaves room.",
-      "risks": "Fade of pre-market gap at the open (AMD sold off after prior earnings despite beats); high P/E ~120; AI-capex sentiment; election-week macro volatility. Stop ~6% below entry sits just under prior close 483.90.",
-      "addedDate": "2026-11-04"
+      "catalyst": "FQ2'27 beat: EPS 1.21 vs 0.55 est, net sales +51% y/y, full-year FY27 outlook raised; Rhode launch at Sephora Europe.",
+      "driver": "Massive EPS/sales beat + raise on liquid ~$6.7B mid-cap (avg vol 1.3M). Pre-mkt +6.2% (below 8-10% chase limit); prior close 113.63; 52wk high 122.36 just above entry.",
+      "risks": "Pre-mkt volume very thin; stock has faded after prior beats; P/E ~113; resistance at 52wk high 122.36; tariff/consumer sentiment. Stop ~6% below entry.",
+      "addedDate": "2026-11-05"
     }
   ],
-  "note": "BUY AMD 2026-11-04 @ 512.07 (Robinhood last pre-mkt trade 11:36:08Z, bid/ask 511.00/512.50; prev close 483.90). Dashboard feed returned stale 483.90 (asOf 2026-11-04T11:36:09Z = prior close), not used. Runners-up: ANET (+11% gapped, too extended), SMCI (+8.8%, low price/volatile), XYZ (+8.7%)."
+  "note": "SELL AMD @ 474.77 (Robinhood last pre-mkt trade 2026-11-05T11:35:44Z, bid/ask 474.01/474.89; prev close 488.78), P&L -354.0. BUY ELF @ 120.7 (Robinhood last pre-mkt trade 11:21:46Z, bid/ask 120.10/120.90; prev close 113.63). Dashboard feed returned no data, not used. Runners-up: SITM (+5%, wide spread), RUN (+14.6%, too extended/low price), COHR (flat)."
 }
