@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 9780.74,
-  "tradeDate": "2026-11-05",
-  "lastUpdated": "2026-11-05T11:45:00Z",
-  "nextRefresh": "2026-11-06T06:30:00-06:00",
+  "startingCapital": 9265.99,
+  "tradeDate": "2026-11-06",
+  "lastUpdated": "2026-11-06T11:42:00Z",
+  "nextRefresh": "2026-11-07T06:30:00-06:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -219.26,
+  "priorRealizedPnL": -734.01,
   "positions": [
     {
       "ticker": "BTC-USD",
       "name": "Bitcoin (spot)",
       "sector": "Crypto",
       "shares": 0.121897,
-      "entry": 80237.9,
-      "stopPrice": 72214.11,
+      "entry": 76015.1,
+      "stopPrice": 71454.19,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Semis capitulating after Democratic midterm sweep (SOXL ~-7% pre-mkt to 61.85 after -9% yesterday; KOSPI circuit breaker) while broad indices rallied; BTC holding bid +2.1% vs yesterday's entry as rotation/low-beta spot exposure.",
-      "driver": "Entry = dashboard feed 80237.9 (asOf 2026-11-05T11:38:28Z). Runners-up: SOXS 3x inverse semis (62.77 pre-mkt, already +7.6% - chase risk after two-day 16% semi drop, snapback risk; equity fill not on dashboard feed), BITX 2x (17.73), SPXL.",
-      "risks": "Semi/AI selloff contagion to risk assets, post-election volatility, unleveraged so modest upside.",
-      "addedDate": "2026-11-05"
+      "catalyst": "Oversold bounce setup: BTC -5.3% since yesterday's entry (80.2k->76.0k) while semis snap back sharply pre-mkt (NVDA +4.8%, MU +9%, TQQQ +4.6%) as AI-panic eases; jobs report today.",
+      "driver": "Entry = dashboard feed 76015.1 (asOf 2026-11-06T11:37:33Z), RH mark 76029.77 agrees. Low-edge day: equity leveraged ETFs already gapped hard (SOXL +19%, SOXS -19% pre-mkt; chase risk, dashboard feed equity quotes stale), so parked in unleveraged spot BTC with 6% stop. Runners-up: BITX 2x (15.77), SPXL (247.7, +1.1%), SOXS mean-reversion.",
+      "risks": "NFP-day volatility, renewed AI/semi selloff, post-election risk-off; unleveraged so modest upside.",
+      "addedDate": "2026-11-06"
     }
   ]
 }
