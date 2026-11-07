@@ -2,10 +2,10 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10668.568,
-  "tradeDate": "2026-11-06",
-  "lastUpdated": "2026-11-06T11:49:00Z",
-  "nextRefresh": "2026-11-07T06:45:00-06:00",
+  "startingCapital": 10648.952,
+  "tradeDate": "2026-11-07",
+  "lastUpdated": "2026-11-07T11:47:00Z",
+  "nextRefresh": "2026-11-08T06:45:00-06:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Runs every day \u2014 crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 668.568,
+  "priorRealizedPnL": 648.952,
   "positions": [
     {
       "ticker": "BTC",
       "name": "Bitcoin",
       "sector": "Crypto",
       "shares": 0.140257,
-      "entry": 76064.22,
-      "stopPrice": 69979.08,
+      "entry": 75924.36,
+      "stopPrice": 69850.41,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "Washout rotation to the liquid major: broad crypto flush overnight (ETH -7.3%, BTC -5.3%, SOL -6.3%, XRP -9.4% vs yesterday's marks). BTC is the lowest-beta, deepest-liquidity coin after a liquidation-driven drop; best risk-adjusted mean-reversion setup with a defined 8% stop. Narrative search returned stale/mixed results, so pick is tape-driven.",
-      "driver": "Closed ETH at 2241.93 (dashboard feed asOf 2026-11-06T11:46:25.904Z) vs entry 2417.58: -835.86. Book -> 10668.568. Bought BTC 0.140257 units = $10668.54, stop 69979.08 (-8%). RUNNERS-UP: SOL 90.41 (higher beta, -6% flush), ETH 2241.93 (just near its own stop, weak relative strength), LINK 10.862, XRP 1.1953 (weakest).",
-      "risks": "Falling-knife risk: liquidation cascade may extend; macro/headline and ETF-outflow risk. Hard stop caps loss at -8%.",
-      "addedDate": "2026-11-06"
+      "catalyst": "Low-edge day: crypto tape is flat after yesterday's liquidation flush (BTC -0.2%, ETH -0.1%, SOL -0.5% vs yesterday's marks). Narrative search returned only stale results, so staying in the deepest-liquidity, lowest-beta major with a defined 8% stop.",
+      "driver": "Closed BTC at 75924.36 (dashboard feed asOf 2026-11-07T11:45:43.972Z) vs entry 76064.22: -19.616. Book -> 10648.952. Re-bought BTC 0.140257 units = $10648.92, stop 69850.41 (-8%). RUNNERS-UP: ETH 2243.42 (weak relative strength), SOL 89.93, LINK 10.816, XRP 1.1713 (weakest).",
+      "risks": "Continued liquidation/risk-off drift, ETF-outflow and macro headline risk; weekend thin liquidity. Hard stop caps loss at -8%.",
+      "addedDate": "2026-11-07"
     }
   ]
 }
