@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 9265.99,
-  "tradeDate": "2026-11-06",
-  "lastUpdated": "2026-11-06T11:42:00Z",
-  "nextRefresh": "2026-11-07T06:30:00-06:00",
+  "startingCapital": 9251.32,
+  "tradeDate": "2026-11-07",
+  "lastUpdated": "2026-11-07T11:45:00Z",
+  "nextRefresh": "2026-11-08T06:30:00-06:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -734.01,
+  "priorRealizedPnL": -748.68,
   "positions": [
     {
       "ticker": "BTC-USD",
       "name": "Bitcoin (spot)",
       "sector": "Crypto",
       "shares": 0.121897,
-      "entry": 76015.1,
-      "stopPrice": 71454.19,
+      "entry": 75894.72,
+      "stopPrice": 71341.04,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Oversold bounce setup: BTC -5.3% since yesterday's entry (80.2k->76.0k) while semis snap back sharply pre-mkt (NVDA +4.8%, MU +9%, TQQQ +4.6%) as AI-panic eases; jobs report today.",
-      "driver": "Entry = dashboard feed 76015.1 (asOf 2026-11-06T11:37:33Z), RH mark 76029.77 agrees. Low-edge day: equity leveraged ETFs already gapped hard (SOXL +19%, SOXS -19% pre-mkt; chase risk, dashboard feed equity quotes stale), so parked in unleveraged spot BTC with 6% stop. Runners-up: BITX 2x (15.77), SPXL (247.7, +1.1%), SOXS mean-reversion.",
-      "risks": "NFP-day volatility, renewed AI/semi selloff, post-election risk-off; unleveraged so modest upside.",
-      "addedDate": "2026-11-06"
+      "catalyst": "Weekend (US equities closed) -> spot crypto only. BTC holding ~75.9k range after 80k->76k pullback; no fresh catalyst, low-edge day so parked in unleveraged spot BTC.",
+      "driver": "Entry = dashboard feed 75894.72 (asOf 2026-11-07T11:37:59Z), RH mark 75911.30 agrees. Runners-up: SOL (89.87), ETH (2242.1) - higher beta but no catalyst edge; leverage ETFs unavailable on weekends.",
+      "risks": "Weekend thin liquidity, continued post-election/AI risk-off drift; unleveraged so modest upside.",
+      "addedDate": "2026-11-07"
     }
   ]
 }
