@@ -2,10 +2,10 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10648.952,
-  "tradeDate": "2026-11-07",
-  "lastUpdated": "2026-11-07T11:47:00Z",
-  "nextRefresh": "2026-11-08T06:45:00-06:00",
+  "startingCapital": 10642.458,
+  "tradeDate": "2026-11-08",
+  "lastUpdated": "2026-11-08T11:50:00Z",
+  "nextRefresh": "2026-11-09T06:45:00-06:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Runs every day \u2014 crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 648.952,
+  "priorRealizedPnL": 642.458,
   "positions": [
     {
       "ticker": "BTC",
       "name": "Bitcoin",
       "sector": "Crypto",
       "shares": 0.140257,
-      "entry": 75924.36,
-      "stopPrice": 69850.41,
+      "entry": 75878.06,
+      "stopPrice": 69807.82,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "Low-edge day: crypto tape is flat after yesterday's liquidation flush (BTC -0.2%, ETH -0.1%, SOL -0.5% vs yesterday's marks). Narrative search returned only stale results, so staying in the deepest-liquidity, lowest-beta major with a defined 8% stop.",
-      "driver": "Closed BTC at 75924.36 (dashboard feed asOf 2026-11-07T11:45:43.972Z) vs entry 76064.22: -19.616. Book -> 10648.952. Re-bought BTC 0.140257 units = $10648.92, stop 69850.41 (-8%). RUNNERS-UP: ETH 2243.42 (weak relative strength), SOL 89.93, LINK 10.816, XRP 1.1713 (weakest).",
-      "risks": "Continued liquidation/risk-off drift, ETF-outflow and macro headline risk; weekend thin liquidity. Hard stop caps loss at -8%.",
-      "addedDate": "2026-11-07"
+      "catalyst": "Low-edge Sunday: tape flat (BTC ~75.9k, Robinhood mark 75894 vs feed 75878), narrative search returned only stale results; no fresh catalyst for alts. Staying in the deepest-liquidity, lowest-beta major with a defined 8% stop.",
+      "driver": "Closed BTC at 75878.06 (dashboard feed asOf 2026-11-08T11:46:29Z; RH mark 75894.48 cross-check) vs entry 75924.36: -6.494. Book -> 10642.458. Re-bought BTC 0.140257 units = $10642.43, stop 69807.82 (-8%). RUNNERS-UP: ETH 2237.26, SOL 89.56, LINK 10.767, XRP 1.1639 (no relative-strength edge).",
+      "risks": "Risk-off drift, ETF-outflow/macro headline risk, thin weekend liquidity. Hard stop caps loss at -8%.",
+      "addedDate": "2026-11-08"
     }
   ]
 }
