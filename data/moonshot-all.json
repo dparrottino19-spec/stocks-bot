@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 9251.32,
-  "tradeDate": "2026-11-07",
-  "lastUpdated": "2026-11-07T11:45:00Z",
-  "nextRefresh": "2026-11-08T06:30:00-06:00",
+  "startingCapital": 9249.76,
+  "tradeDate": "2026-11-08",
+  "lastUpdated": "2026-11-08T11:40:00Z",
+  "nextRefresh": "2026-11-09T06:30:00-06:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -748.68,
+  "priorRealizedPnL": -750.24,
   "positions": [
     {
       "ticker": "BTC-USD",
       "name": "Bitcoin (spot)",
       "sector": "Crypto",
       "shares": 0.121897,
-      "entry": 75894.72,
-      "stopPrice": 71341.04,
+      "entry": 75881.89,
+      "stopPrice": 71328.98,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Weekend (US equities closed) -> spot crypto only. BTC holding ~75.9k range after 80k->76k pullback; no fresh catalyst, low-edge day so parked in unleveraged spot BTC.",
-      "driver": "Entry = dashboard feed 75894.72 (asOf 2026-11-07T11:37:59Z), RH mark 75911.30 agrees. Runners-up: SOL (89.87), ETH (2242.1) - higher beta but no catalyst edge; leverage ETFs unavailable on weekends.",
-      "risks": "Weekend thin liquidity, continued post-election/AI risk-off drift; unleveraged so modest upside.",
-      "addedDate": "2026-11-07"
+      "catalyst": "Sunday (US equities closed) -> spot crypto only. BTC range-bound ~75.9k, +0.15% vs prior close; no fresh catalyst found, low-edge day so parked in lowest-vol unleveraged spot BTC.",
+      "driver": "Entry = Robinhood BTC-USD mark 75881.89 (updated_at 2026-11-08T06:37:01-05:00 = 11:37Z). Dashboard proxy feed was STALE (asOf 2026-11-07T11:37Z) so Robinhood crypto quote used as fallback. Runners-up: ETH (2236.6), SOL (89.46) - higher beta but no catalyst edge; leveraged ETFs unavailable on weekends.",
+      "risks": "Weekend thin liquidity (wide bid/ask), risk-off drift; unleveraged so modest upside.",
+      "addedDate": "2026-11-08"
     }
   ]
 }
