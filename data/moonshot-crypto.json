@@ -2,10 +2,10 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10642.458,
-  "tradeDate": "2026-11-08",
-  "lastUpdated": "2026-11-08T11:50:00Z",
-  "nextRefresh": "2026-11-09T06:45:00-06:00",
+  "startingCapital": 10442.428,
+  "tradeDate": "2026-11-09",
+  "lastUpdated": "2026-11-09T11:50:00Z",
+  "nextRefresh": "2026-11-10T06:45:00-06:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Runs every day \u2014 crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 642.458,
+  "priorRealizedPnL": 442.428,
   "positions": [
     {
       "ticker": "BTC",
       "name": "Bitcoin",
       "sector": "Crypto",
       "shares": 0.140257,
-      "entry": 75878.06,
-      "stopPrice": 69807.82,
+      "entry": 74451.9,
+      "stopPrice": 68495.75,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "Low-edge Sunday: tape flat (BTC ~75.9k, Robinhood mark 75894 vs feed 75878), narrative search returned only stale results; no fresh catalyst for alts. Staying in the deepest-liquidity, lowest-beta major with a defined 8% stop.",
-      "driver": "Closed BTC at 75878.06 (dashboard feed asOf 2026-11-08T11:46:29Z; RH mark 75894.48 cross-check) vs entry 75924.36: -6.494. Book -> 10642.458. Re-bought BTC 0.140257 units = $10642.43, stop 69807.82 (-8%). RUNNERS-UP: ETH 2237.26, SOL 89.56, LINK 10.767, XRP 1.1639 (no relative-strength edge).",
-      "risks": "Risk-off drift, ETF-outflow/macro headline risk, thin weekend liquidity. Hard stop caps loss at -8%.",
-      "addedDate": "2026-11-08"
+      "catalyst": "Risk-off tape: BTC lost 50-week average, ~$1.28B weekly spot-ETF outflows, >$1B liquidations flush. No alt shows durable relative strength; holding deepest-liquidity major with defined 8% stop (mean-reversion bounce potential after liquidation flush).",
+      "driver": "Closed BTC at 74451.9 (Robinhood mark 2026-11-09T05:47:03-06:00; dashboard proxy blocked by allowlist so RH read-only mark used) vs entry 75878.06: -200.03. Book -> 10442.428. Re-bought BTC 0.140257 units = $10442.4, stop 68495.75 (-8%). RUNNERS-UP: LINK 10.52 (+0.8% d/d), AVAX 8.03 (+1.4%), ETH 2118.75, SOL 86.17 (all weak/no edge).",
+      "risks": "Further ETF outflows, break below 74.4k support could cascade toward stop; macro headline risk. Hard stop caps loss at -8%.",
+      "addedDate": "2026-11-09"
     }
   ]
 }
