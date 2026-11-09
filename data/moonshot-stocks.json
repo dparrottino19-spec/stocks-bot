@@ -3,18 +3,18 @@
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
   "startingCapital": 4037.7,
-  "tradeDate": "2026-11-06",
-  "lastUpdated": "2026-11-06T11:40:00Z",
-  "nextRefresh": "2026-11-09T06:35:00-06:00",
+  "tradeDate": "2026-11-09",
+  "lastUpdated": "2026-11-09T11:36:45Z",
+  "nextRefresh": "2026-11-10T06:35:00-06:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
-    "US equities only — no ETFs, crypto, or options",
-    "Rotate each weekday 6:35am CT run — sell prior, buy today's best",
+    "US equities only \u2014 no ETFs, crypto, or options",
+    "Rotate each weekday 6:35am CT run \u2014 sell prior, buy today's best",
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
   "priorRealizedPnL": -5962.3,
   "positions": [],
-  "note": "SELL ELF @ 108.16 (Robinhood last pre-mkt trade 2026-11-06T10:46:00Z, bid/ask 108.20/108.97 at 11:03Z; prev close 109.85), P&L -468.13. CASH today - no qualifying setup: NET +20% pre-mkt (too extended, chase ban); SMTC/MXL/FORM/TTMI +6-9% are sector-momentum semis moves with no verified name-specific catalyst and thin pre-mkt; rest of gappers flat. Dashboard feed returned no data, not used."
+  "note": "CASH today (no open position to close; capital unchanged at 4037.70). No qualifying setup at ~11:40Z pre-mkt per Robinhood live quotes: GFR +37% (7.71 vs 5.60, too extended/chase ban, sub-$10 thin); B (Barrick) +2.2% on Q3 beat/reaffirmed guidance - modest, no asymmetric edge; CEG +1.8% (254.50 vs 249.95) with no verified results/catalyst; MNDY ~-1% (cautious reaction); AMD +3.1% and NVDA -4.8% are sector moves. No verified name-specific catalyst with room to run and a definable stop."
 }
