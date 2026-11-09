@@ -2,32 +2,32 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 9249.76,
-  "tradeDate": "2026-11-08",
-  "lastUpdated": "2026-11-08T11:40:00Z",
-  "nextRefresh": "2026-11-09T06:30:00-06:00",
+  "startingCapital": 9083.9,
+  "tradeDate": "2026-11-09",
+  "lastUpdated": "2026-11-09T11:45:00Z",
+  "nextRefresh": "2026-11-10T06:30:00-06:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
     "Any liquid asset: stock, crypto, or leveraged/inverse ETF",
-    "Rotate each 6:30am CT run \u2014 sell yesterday, buy today's best",
+    "Rotate each 6:30am CT run — sell yesterday, buy today's best",
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -750.24,
+  "priorRealizedPnL": -916.1,
   "positions": [
     {
-      "ticker": "BTC-USD",
-      "name": "Bitcoin (spot)",
-      "sector": "Crypto",
-      "shares": 0.121897,
-      "entry": 75881.89,
-      "stopPrice": 71328.98,
+      "ticker": "SPXL",
+      "name": "Direxion Daily S&P 500 Bull 3X Shares",
+      "sector": "Broad Index (3x Long)",
+      "shares": 36.081586,
+      "entry": 251.76,
+      "stopPrice": 226.58,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Sunday (US equities closed) -> spot crypto only. BTC range-bound ~75.9k, +0.15% vs prior close; no fresh catalyst found, low-edge day so parked in lowest-vol unleveraged spot BTC.",
-      "driver": "Entry = Robinhood BTC-USD mark 75881.89 (updated_at 2026-11-08T06:37:01-05:00 = 11:37Z). Dashboard proxy feed was STALE (asOf 2026-11-07T11:37Z) so Robinhood crypto quote used as fallback. Runners-up: ETH (2236.6), SOL (89.46) - higher beta but no catalyst edge; leveraged ETFs unavailable on weekends.",
-      "risks": "Weekend thin liquidity (wide bid/ask), risk-off drift; unleveraged so modest upside.",
-      "addedDate": "2026-11-08"
+      "catalyst": "Futures bouncing (~+0.7%) after the worst week in months; broad risk-on relief while NVDA (-5% pre-mkt on unverified CEO allegations) is idiosyncratic, not systemic. Mean-reversion bounce setup.",
+      "driver": "Entry = Robinhood SPXL ask 251.76 (bid 251.63, last pre-mkt 251.87 at 2026-11-09T11:37Z; +2.0% vs 246.75 close). Dashboard proxy returns prior close in pre-market (marketState null), so Robinhood real-time used. Runners-up: SOXL 46.25 (semis dragged by NVDA), TQQQ 52.94, BTC (-1.8% since entry, no edge), SOXS/SQQQ inverse (fights the bounce).",
+      "risks": "CPI/earnings-heavy week, 3x decay, NVDA allegation could spread to the AI trade and reverse the bounce; stop 10% below entry.",
+      "addedDate": "2026-11-09"
     }
   ]
 }
