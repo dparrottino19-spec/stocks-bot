@@ -2,32 +2,32 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 9083.9,
-  "tradeDate": "2026-11-09",
-  "lastUpdated": "2026-11-09T11:45:00Z",
-  "nextRefresh": "2026-11-10T06:30:00-06:00",
+  "startingCapital": 9563.42,
+  "tradeDate": "2026-11-10",
+  "lastUpdated": "2026-11-10T11:37:58Z",
+  "nextRefresh": "2026-11-11T06:30:00-06:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
     "Any liquid asset: stock, crypto, or leveraged/inverse ETF",
-    "Rotate each 6:30am CT run — sell yesterday, buy today's best",
+    "Rotate each 6:30am CT run \u2014 sell yesterday, buy today's best",
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -916.1,
+  "priorRealizedPnL": -436.58,
   "positions": [
     {
       "ticker": "SPXL",
       "name": "Direxion Daily S&P 500 Bull 3X Shares",
       "sector": "Broad Index (3x Long)",
-      "shares": 36.081586,
-      "entry": 251.76,
-      "stopPrice": 226.58,
+      "shares": 36.065241,
+      "entry": 265.17,
+      "stopPrice": 238.65,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "Futures bouncing (~+0.7%) after the worst week in months; broad risk-on relief while NVDA (-5% pre-mkt on unverified CEO allegations) is idiosyncratic, not systemic. Mean-reversion bounce setup.",
-      "driver": "Entry = Robinhood SPXL ask 251.76 (bid 251.63, last pre-mkt 251.87 at 2026-11-09T11:37Z; +2.0% vs 246.75 close). Dashboard proxy returns prior close in pre-market (marketState null), so Robinhood real-time used. Runners-up: SOXL 46.25 (semis dragged by NVDA), TQQQ 52.94, BTC (-1.8% since entry, no edge), SOXS/SQQQ inverse (fights the bounce).",
-      "risks": "CPI/earnings-heavy week, 3x decay, NVDA allegation could spread to the AI trade and reverse the bounce; stop 10% below entry.",
-      "addedDate": "2026-11-09"
+      "catalyst": "CPI day with oil tumbling and futures firm; cooler print is the upside skew. NVDA board-probe weakness is idiosyncratic. Re-up on broad index rather than semis (SOXL -2% pre-mkt).",
+      "driver": "Entry = Robinhood SPXL ask 265.17 (bid 265.05) at 2026-11-10T11:37Z; dashboard proxy 403 from sandbox so Robinhood real-time used. Only ~+0.4% vs 264.01 close, not chasing. Runners-up: TQQQ 57.33 (NVDA overhang), SOXS 56.27 (semis weak pre-mkt but fights index bounce), BTC 74.2k (no edge).",
+      "risks": "CPI binary: hot print gaps a 3x down; 3x decay; NVDA probe could spread to AI complex. Stop 10% below entry.",
+      "addedDate": "2026-11-10"
     }
   ]
 }
