@@ -3,9 +3,9 @@
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
   "startingCapital": 4037.7,
-  "tradeDate": "2026-11-09",
-  "lastUpdated": "2026-11-09T11:36:45Z",
-  "nextRefresh": "2026-11-10T06:35:00-06:00",
+  "tradeDate": "2026-11-10",
+  "lastUpdated": "2026-11-10T11:45:00Z",
+  "nextRefresh": "2026-11-11T06:35:00-06:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -16,5 +16,5 @@
   ],
   "priorRealizedPnL": -5962.3,
   "positions": [],
-  "note": "CASH today (no open position to close; capital unchanged at 4037.70). No qualifying setup at ~11:40Z pre-mkt per Robinhood live quotes: GFR +37% (7.71 vs 5.60, too extended/chase ban, sub-$10 thin); B (Barrick) +2.2% on Q3 beat/reaffirmed guidance - modest, no asymmetric edge; CEG +1.8% (254.50 vs 249.95) with no verified results/catalyst; MNDY ~-1% (cautious reaction); AMD +3.1% and NVDA -4.8% are sector moves. No verified name-specific catalyst with room to run and a definable stop."
+  "note": "CASH today (no open position to close; capital unchanged at 4037.70). No qualifying setup at ~11:36Z pre-mkt per Robinhood live quotes: SANM +20% (179.50 vs 149.64; chase ban); this morning's AM earnings reporters all red pre-mkt - ONON -6.0% (35.29 vs 37.53), WIX -6.6%, SE -4.2%, TDG -1.3%; QBTS +2.5% no catalyst; SOFI/KNSA flat. No verified name-specific catalyst with room to run and a definable stop."
 }
