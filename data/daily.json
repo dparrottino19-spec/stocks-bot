@@ -2,10 +2,10 @@
   "bookName": "Daily Trader",
   "inceptionDate": "2026-05-15",
   "inceptionCapital": 70000,
-  "startingCapital": 69368.07,
-  "tradeDate": "2026-11-09",
-  "lastUpdated": "2026-11-09T12:17:48Z",
-  "nextRefresh": "2026-11-10T07:09:00-06:00",
+  "startingCapital": 69847.57,
+  "tradeDate": "2026-11-10",
+  "lastUpdated": "2026-11-10T12:15:09Z",
+  "nextRefresh": "2026-11-11T07:09:00-06:00",
   "rules": [
     "Weekday 7am ET picks",
     "Per-pick exit rules",
@@ -13,7 +13,7 @@
     "1-week max hold",
     "<=4 names per sector"
   ],
-  "priorRealizedPnL": -631.93,
+  "priorRealizedPnL": -152.43,
   "positions": [
     {
       "ticker": "MRNA",
@@ -76,18 +76,6 @@
       "addedDate": "2026-11-09"
     },
     {
-      "ticker": "IMVT",
-      "name": "Immunovant",
-      "sector": "Health Technology",
-      "shares": 90,
-      "entry": 33.93,
-      "exitRule": "Intraday \u2014 flat by close",
-      "catalyst": "Q3 EPS -$0.47 vs -$0.72 est (BMO 11/9); pre-mkt mid 33.93 (bid 32.67/ask 35.19) vs close 30.53; 52wk 21.43-45.42",
-      "risks": "Wide spread, mid-quote entry; clinical-stage biotech; intraday only",
-      "driver": "Q3 loss-narrowing beat + pipeline (Tier 1)",
-      "addedDate": "2026-11-09"
-    },
-    {
       "ticker": "TGTX",
       "name": "TG Therapeutics",
       "sector": "Health Technology",
@@ -100,41 +88,65 @@
       "addedDate": "2026-11-09"
     },
     {
-      "ticker": "CNH",
-      "name": "CNH Industrial",
-      "sector": "Producer Manufacturing",
-      "shares": 290,
-      "entry": 11.64,
-      "exitRule": "Overnight (next day open)",
-      "catalyst": "Q3 EPS $0.16 vs $0.10 est (BMO 11/9); pre-mkt 11.64 (+0.7% vs 11.56)",
-      "risks": "Muted gap; ag-cycle risk",
-      "driver": "Q3 beat (Tier 1)",
-      "addedDate": "2026-11-09"
+      "ticker": "VG",
+      "name": "Venture Global",
+      "sector": "Industrial Services",
+      "shares": 280,
+      "entry": 12.2,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Q3 EPS $0.96 vs $0.52 est (BMO 11/10); pre-mkt 12.20 (+3.4% vs 11.80); 52wk 5.72-17.62",
+      "risks": "Wide ask; LNG price sensitivity; stop -5%",
+      "driver": "Q3 big beat (Tier 1)",
+      "addedDate": "2026-11-10"
     },
     {
-      "ticker": "KKR",
-      "name": "KKR & Co.",
-      "sector": "Finance",
-      "shares": 34,
-      "entry": 97.5,
-      "exitRule": "Intraday \u2014 flat by close",
-      "catalyst": "Q3 EPS $1.78 vs $1.55 est (BMO 11/9); pre-mkt 97.50 (+1.1% vs 96.48); 52wk 82.67-144.84",
-      "risks": "Muted gap; wide ask",
-      "driver": "Q3 beat (Tier 1)",
-      "addedDate": "2026-11-09"
+      "ticker": "TDG",
+      "name": "TransDigm",
+      "sector": "Electronic Technology",
+      "shares": 2,
+      "entry": 1195.0,
+      "exitRule": "Overnight (next day open)",
+      "catalyst": "FQ4 EPS $12.44 vs $12.05 est (BMO 11/10); pre-mkt 1195.00 (-2.0% vs 1218.85) dip-buy on beat; 52wk 1071.25-1463.03",
+      "risks": "Gap-down on guide; wide spread",
+      "driver": "Q beat, oversold reaction (Tier 1)",
+      "addedDate": "2026-11-10"
     },
     {
-      "ticker": "B",
-      "name": "Barrick Mining",
-      "sector": "Non-Energy Minerals",
-      "shares": 80,
-      "entry": 41.31,
+      "ticker": "ONON",
+      "name": "On Holding",
+      "sector": "Consumer Non-Durables",
+      "shares": 100,
+      "entry": 34.69,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Q3 EPS $0.66 vs $0.46 est (BMO 11/10); pre-mkt 34.69 (-7.6% vs 37.53) on-sale reaction; 52wk 26.37-51.08",
+      "risks": "Falling knife; guide/margin concern; stop -5%",
+      "driver": "Q3 beat, oversold reaction (Tier 1)",
+      "addedDate": "2026-11-10"
+    },
+    {
+      "ticker": "WIX",
+      "name": "Wix.com",
+      "sector": "Technology Services",
+      "shares": 52,
+      "entry": 66.39,
       "exitRule": "Overnight (next day open)",
-      "catalyst": "Q3 EPS $0.82 vs $0.78 est (BMO 11/9); pre-mkt 41.31 (+1.8% vs 40.56); 52wk 32.18-54.69",
-      "risks": "Gold-price sensitivity; small beat",
+      "catalyst": "Q3 EPS $1.42 vs $1.12 est (BMO 11/10); pre-mkt 66.39 (-4.8% vs 69.75); 52wk 40.16-137.62",
+      "risks": "Gap-fade; guide risk",
+      "driver": "Q3 beat, dip reaction (Tier 1)",
+      "addedDate": "2026-11-10"
+    },
+    {
+      "ticker": "LEGN",
+      "name": "Legend Biotech",
+      "sector": "Health Technology",
+      "shares": 145,
+      "entry": 23.76,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Q3 EPS $0.14 vs $0.01 est (BMO 11/10); pre-mkt 23.76 (-2.2% vs 24.29); 52wk 16.24-37.50",
+      "risks": "Biotech volatility; pre-mkt dip on beat",
       "driver": "Q3 beat (Tier 1)",
-      "addedDate": "2026-11-09"
+      "addedDate": "2026-11-10"
     }
   ],
-  "note": "2026-11-09: closed WULF (+86.94) and CLMT (-408.72) = -321.78 realized. Held MRNA/SLVM/ELAN swings. 7 new Tier 1 picks (thin tape). Deployed 33088.60, cash 36279.47."
+  "note": "2026-11-10: closed IMVT +109.80, KKR +40.80, CNH +316.10, B +12.80 = +479.50 realized. Held MRNA/SLVM/ELAN/CEG/NRG/TGTX swings. 5 new Tier 1 picks (thin/fade tape; HQ skipped micro-cap). Deployed 36211.98, cash 33635.59."
 }
