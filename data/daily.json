@@ -2,10 +2,10 @@
   "bookName": "Daily Trader",
   "inceptionDate": "2026-05-15",
   "inceptionCapital": 70000,
-  "startingCapital": 69847.57,
-  "tradeDate": "2026-11-10",
-  "lastUpdated": "2026-11-10T12:15:09Z",
-  "nextRefresh": "2026-11-11T07:09:00-06:00",
+  "startingCapital": 69526.47,
+  "tradeDate": "2026-11-11",
+  "lastUpdated": "2026-11-11T12:17:20Z",
+  "nextRefresh": "2026-11-12T07:09:00-06:00",
   "rules": [
     "Weekday 7am ET picks",
     "Per-pick exit rules",
@@ -13,44 +13,8 @@
     "1-week max hold",
     "<=4 names per sector"
   ],
-  "priorRealizedPnL": -152.43,
+  "priorRealizedPnL": -473.53,
   "positions": [
-    {
-      "ticker": "MRNA",
-      "name": "Moderna",
-      "sector": "Health Technology",
-      "shares": 13,
-      "entry": 267.0,
-      "exitRule": "1-3 day swing",
-      "catalyst": "Q3 EPS $0.38 vs -$1.22 est (BMO 11/6); pre-mkt 267.00 (+10.6% vs 241.46); 52wk 22.28-261.00",
-      "risks": "Parabolic run, above 52wk high; gap-fade; stop -5%",
-      "driver": "Q3 massive loss-narrowing beat (Tier 1)",
-      "addedDate": "2026-11-06"
-    },
-    {
-      "ticker": "SLVM",
-      "name": "Sylvamo",
-      "sector": "Process Industries",
-      "shares": 94,
-      "entry": 37.0,
-      "exitRule": "1-3 day swing",
-      "catalyst": "Q3 EPS $1.33 vs $1.11 est (BMO 11/6); pre-mkt 37.00 (+11.9% vs 33.07); 52wk 30.40-56.80",
-      "risks": "Paper price erosion; small float; gap-fade",
-      "driver": "Q3 beat (Tier 1)",
-      "addedDate": "2026-11-06"
-    },
-    {
-      "ticker": "ELAN",
-      "name": "Elanco Animal Health",
-      "sector": "Health Technology",
-      "shares": 137,
-      "entry": 25.5,
-      "exitRule": "1-3 day swing",
-      "catalyst": "Q3 EPS $0.27 vs $0.20 est (BMO 11/6); bid/ask mid 25.50 (25.20-25.80) vs close 23.68 (+7.7%); 52wk 19.40-27.98",
-      "risks": "Mid-quote entry; gap-fade",
-      "driver": "Q3 beat (Tier 1)",
-      "addedDate": "2026-11-06"
-    },
     {
       "ticker": "CEG",
       "name": "Constellation Energy",
@@ -100,18 +64,6 @@
       "addedDate": "2026-11-10"
     },
     {
-      "ticker": "TDG",
-      "name": "TransDigm",
-      "sector": "Electronic Technology",
-      "shares": 2,
-      "entry": 1195.0,
-      "exitRule": "Overnight (next day open)",
-      "catalyst": "FQ4 EPS $12.44 vs $12.05 est (BMO 11/10); pre-mkt 1195.00 (-2.0% vs 1218.85) dip-buy on beat; 52wk 1071.25-1463.03",
-      "risks": "Gap-down on guide; wide spread",
-      "driver": "Q beat, oversold reaction (Tier 1)",
-      "addedDate": "2026-11-10"
-    },
-    {
       "ticker": "ONON",
       "name": "On Holding",
       "sector": "Consumer Non-Durables",
@@ -124,29 +76,137 @@
       "addedDate": "2026-11-10"
     },
     {
-      "ticker": "WIX",
-      "name": "Wix.com",
+      "ticker": "NBIS",
+      "name": "Nebius Group",
       "sector": "Technology Services",
-      "shares": 52,
-      "entry": 66.39,
-      "exitRule": "Overnight (next day open)",
-      "catalyst": "Q3 EPS $1.42 vs $1.12 est (BMO 11/10); pre-mkt 66.39 (-4.8% vs 69.75); 52wk 40.16-137.62",
-      "risks": "Gap-fade; guide risk",
-      "driver": "Q3 beat, dip reaction (Tier 1)",
-      "addedDate": "2026-11-10"
+      "shares": 22,
+      "entry": 152.61,
+      "exitRule": "Intraday \u2014 flat by close",
+      "catalyst": "CoreWeave Q3 rev $3.66B beat + FY26 guide raised to $13.0-13.3B (AMC 11/10) lifts neoclouds; pre-mkt 152.61 (+13.9% vs 134.00); 52wk 73.52-299.86",
+      "risks": "Gap-fade; high beta; hot-CPI/Fed-hike risk",
+      "driver": "Tier 2: CRWV guide-raise sympathy",
+      "addedDate": "2026-11-11"
     },
     {
-      "ticker": "LEGN",
-      "name": "Legend Biotech",
-      "sector": "Health Technology",
-      "shares": 145,
-      "entry": 23.76,
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "sector": "Electronic Technology",
+      "shares": 19,
+      "entry": 175.23,
+      "exitRule": "Intraday \u2014 flat by close",
+      "catalyst": "AI-chip rebound on CRWV guide raise; pre-mkt 175.23 (+3.8% vs 168.89); 52wk 164.27-243.37",
+      "risks": "CEO headline risk (Huang saga); near 52wk low",
+      "driver": "Tier 2: CRWV sympathy / oversold rebound",
+      "addedDate": "2026-11-11"
+    },
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
+      "sector": "Electronic Technology",
+      "shares": 6,
+      "entry": 548.01,
+      "exitRule": "Intraday \u2014 flat by close",
+      "catalyst": "AI-chip rebound on CRWV guide raise; pre-mkt 548.01 (+6.4% vs 515.21); 52wk 188.22-658.52",
+      "risks": "Gap-fade; rate-hike odds",
+      "driver": "Tier 2: CRWV sympathy",
+      "addedDate": "2026-11-11"
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron Technology",
+      "sector": "Electronic Technology",
+      "shares": 4,
+      "entry": 773.89,
+      "exitRule": "Overnight (next day open)",
+      "catalyst": "Memory rebound on CRWV capex/guide raise + Anthropic IPO investment headline; pre-mkt 773.89 (+6.7% vs 725.11); 52wk 192.59-1255.00",
+      "risks": "Gap-fade; memory-cycle volatility",
+      "driver": "Tier 2: CRWV sympathy + named news",
+      "addedDate": "2026-11-11"
+    },
+    {
+      "ticker": "MRCY",
+      "name": "Mercury Systems",
+      "sector": "Electronic Technology",
+      "shares": 39,
+      "entry": 87.38,
       "exitRule": "1-3 day swing",
-      "catalyst": "Q3 EPS $0.14 vs $0.01 est (BMO 11/10); pre-mkt 23.76 (-2.2% vs 24.29); 52wk 16.24-37.50",
-      "risks": "Biotech volatility; pre-mkt dip on beat",
-      "driver": "Q3 beat (Tier 1)",
-      "addedDate": "2026-11-10"
+      "catalyst": "FQ1 EPS $0.52 vs $0.26-0.33 est, rev $253.2M vs $246.2M (AMC 11/10); pre-mkt 87.38 (+4.5% vs 83.58); 52wk 64.37-128.45",
+      "risks": "Dipped ~3% AH before reversing; stop -5%",
+      "driver": "Tier 1: earnings beat",
+      "addedDate": "2026-11-11"
+    },
+    {
+      "ticker": "LITE",
+      "name": "Lumentum",
+      "sector": "Producer Manufacturing",
+      "shares": 5,
+      "entry": 638.2,
+      "exitRule": "Overnight (next day open)",
+      "catalyst": "Optical/AI-networking rebound on CRWV guide raise (top S&P pre-mkt gainer); pre-mkt 638.20 (+9.0% vs 585.57); 52wk 215.35-1143.00",
+      "risks": "High beta; gap-fade",
+      "driver": "Tier 2: CRWV sympathy",
+      "addedDate": "2026-11-11"
+    },
+    {
+      "ticker": "ORCL",
+      "name": "Oracle",
+      "sector": "Technology Services",
+      "shares": 27,
+      "entry": 124.25,
+      "exitRule": "1-3 day swing",
+      "catalyst": "AI-cloud capex sentiment repair after CRWV guide raise / funding-fear relief; pre-mkt 124.25 (+5.3% vs 117.98); 52wk 109.21-250.25",
+      "risks": "Debt-funding concerns; near 52wk low; stop -5%",
+      "driver": "Tier 2: CRWV sympathy, oversold",
+      "addedDate": "2026-11-11"
+    },
+    {
+      "ticker": "VST",
+      "name": "Vistra",
+      "sector": "Utilities",
+      "shares": 25,
+      "entry": 136.5,
+      "exitRule": "1-3 day swing",
+      "catalyst": "AI-power demand trade re-rating with AI rebound; pre-mkt 136.50 (+4.1% vs 131.18); 52wk 110.89-189.29",
+      "risks": "3rd utility in book (CEG/NRG); rate sensitivity",
+      "driver": "Tier 2: AI-power sympathy",
+      "addedDate": "2026-11-11"
+    },
+    {
+      "ticker": "COST",
+      "name": "Costco",
+      "sector": "Retail Trade",
+      "shares": 3,
+      "entry": 1073.36,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Declared $30/sh special dividend + $4B buyback reauthorization (11/10); pre-mkt 1073.36 (+0.7% vs 1066.14); 52wk 844.06-1096.50",
+      "risks": "Muted reaction; rich valuation",
+      "driver": "Tier 1: special dividend + buyback",
+      "addedDate": "2026-11-11"
+    },
+    {
+      "ticker": "AZTA",
+      "name": "Azenta",
+      "sector": "Health Services",
+      "shares": 70,
+      "entry": 43.0,
+      "exitRule": "1-3 day swing",
+      "catalyst": "FQ4 EPS $0.28 vs $0.15 est (AMC 11/10); pre-mkt last 43.00 (+6.2% vs 40.48); 52wk 15.93-46.41",
+      "risks": "Wide pre-mkt spread (37.39-48.84); ~$1.8B cap; stop -5%",
+      "driver": "Tier 1: earnings beat",
+      "addedDate": "2026-11-11"
+    },
+    {
+      "ticker": "FLNG",
+      "name": "FLEX LNG",
+      "sector": "Transportation",
+      "shares": 120,
+      "entry": 25.76,
+      "exitRule": "1-3 day swing",
+      "catalyst": "Q3 EPS $0.65 vs $0.61 est (BMO 11/11); pre-mkt 25.76 (+1.8% vs 25.31); 52wk 24.14-33.40",
+      "risks": "Thin pre-mkt; ~$1.4B cap; LNG rate sensitivity",
+      "driver": "Tier 1: earnings beat",
+      "addedDate": "2026-11-11"
     }
   ],
-  "note": "2026-11-10: closed IMVT +109.80, KKR +40.80, CNH +316.10, B +12.80 = +479.50 realized. Held MRNA/SLVM/ELAN/CEG/NRG/TGTX swings. 5 new Tier 1 picks (thin/fade tape; HQ skipped micro-cap). Deployed 36211.98, cash 33635.59."
+  "note": "2026-11-11: closed MRNA/SLVM/ELAN/TDG/WIX/LEGN = -321.10 realized. Held CEG/NRG/TGTX/VG/ONON swings. 11 new picks on AI rebound (CRWV guide raise); CRWV itself skipped (+16% gap breaches 15% entry rule). Deployed 52239.76, cash 17286.71."
 }
