@@ -2,10 +2,10 @@
   "bookName": "Moonshot All",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 9563.42,
-  "tradeDate": "2026-11-10",
-  "lastUpdated": "2026-11-10T11:37:58Z",
-  "nextRefresh": "2026-11-11T06:30:00-06:00",
+  "startingCapital": 9658.27,
+  "tradeDate": "2026-11-11",
+  "lastUpdated": "2026-11-11T11:37:59Z",
+  "nextRefresh": "2026-11-12T06:30:00-06:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Leverage matched to conviction; asymmetric payoff preferred",
     "Hard stop at entry; spot-crypto-only on weekends"
   ],
-  "priorRealizedPnL": -436.58,
+  "priorRealizedPnL": -341.73,
   "positions": [
     {
-      "ticker": "SPXL",
-      "name": "Direxion Daily S&P 500 Bull 3X Shares",
-      "sector": "Broad Index (3x Long)",
-      "shares": 36.065241,
-      "entry": 265.17,
-      "stopPrice": 238.65,
+      "ticker": "QLD",
+      "name": "ProShares Ultra QQQ (2x Nasdaq-100)",
+      "sector": "Broad Index (2x Long)",
+      "shares": 118.944212,
+      "entry": 81.2,
+      "stopPrice": 74.7,
       "exitRule": "Rotate next 6:30am CT run",
-      "catalyst": "CPI day with oil tumbling and futures firm; cooler print is the upside skew. NVDA board-probe weakness is idiosyncratic. Re-up on broad index rather than semis (SOXL -2% pre-mkt).",
-      "driver": "Entry = Robinhood SPXL ask 265.17 (bid 265.05) at 2026-11-10T11:37Z; dashboard proxy 403 from sandbox so Robinhood real-time used. Only ~+0.4% vs 264.01 close, not chasing. Runners-up: TQQQ 57.33 (NVDA overhang), SOXS 56.27 (semis weak pre-mkt but fights index bounce), BTC 74.2k (no edge).",
-      "risks": "CPI binary: hot print gaps a 3x down; 3x decay; NVDA probe could spread to AI complex. Stop 10% below entry.",
-      "addedDate": "2026-11-10"
+      "catalyst": "AI/tech rebound after CoreWeave beat; NVDA +5% pre-mkt after a 9.5% two-day drop, Micron/SK Hynix bid. QQQ +1.9% pre-mkt.",
+      "driver": "Entry = Robinhood QLD ask 81.20 (bid 81.18) at 2026-11-11T11:37:42Z; dashboard proxy returned empty from both shells so Robinhood real-time used. Chose 2x over TQQQ (59.78, +5.7% gap) and SOXL (64.76, +15.5% gap = chase) to keep downside protection on a gap-up open. Runners-up: TQQQ, SPXL 267.88 (+2.6%), BTC 74.0k (flat, wide spread).",
+      "risks": "Gap-up fade at open on a 2x; NVDA CEO headline risk (Huang scrutiny); AI-capex jitters can reverse fast. Stop 8% below entry.",
+      "addedDate": "2026-11-11"
     }
   ]
 }
