@@ -2,10 +2,10 @@
   "bookName": "Moonshot Crypto",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 10370.658,
-  "tradeDate": "2026-11-11",
-  "lastUpdated": "2026-11-11T11:48:00Z",
-  "nextRefresh": "2026-11-12T06:45:00-06:00",
+  "startingCapital": 10215.708,
+  "tradeDate": "2026-11-12",
+  "lastUpdated": "2026-11-12T11:50:00Z",
+  "nextRefresh": "2026-11-13T06:45:00-06:00",
   "positionCapPct": 100,
   "rules": [
     "1 all-in crypto pick per day, 100% deployed",
@@ -14,20 +14,20 @@
     "Runs every day \u2014 crypto trades 24/7",
     "Hard stop at entry; leverage conviction, protect downside"
   ],
-  "priorRealizedPnL": 370.658,
+  "priorRealizedPnL": 215.708,
   "positions": [
     {
       "ticker": "BTC",
       "name": "Bitcoin",
       "sector": "Crypto",
       "shares": 0.140257,
-      "entry": 73940.22,
-      "stopPrice": 68025.0,
+      "entry": 72835.48,
+      "stopPrice": 67008.64,
       "exitRule": "Rotate next 6:45am CT run",
-      "catalyst": "Low-edge risk-off tape: spot BTC ETF outflows continue (~$1.3B prior week, ~$104M more on Nov 10) and majors bled overnight (ETH -1.8%, SOL -0.9%, LINK -0.7%). Only AVAX green (+3.6%) on a thin one-day bounce. Hold deepest-liquidity major with defined 8% stop rather than chase a small-cap alt bounce.",
-      "driver": "Closed BTC at 73940.22 (dashboard proxy asOf 2026-11-11T11:47:02Z) vs entry 74287.5: -48.71. Book -> 10370.658. Re-bought BTC 0.140257 units = $10370.658, stop 68025.0 (-8%). RUNNERS-UP: AVAX (+3.6% d/d relative strength but low-liquidity, unconfirmed), SOL, ETH (weakest, -1.8%), LINK.",
-      "risks": "Persistent ETF outflows / loss of ~$74k support could extend the slide toward stop; macro headline risk. Hard stop caps loss at -8%.",
-      "addedDate": "2026-11-11"
+      "catalyst": "Low-edge risk-off tape continues: BTC slid ~1.5% overnight to ~$72.8k after losing $74k; spot BTC ETF flows negative YTD after a $1.28B outflow week, ETH ETFs bleeding, hot-inflation/Fed-hike fears weighing. SOL/XRP ETF inflows are the only bright spot but SOL sits near 3-month lows with no confirmed reversal. Stay in deepest-liquidity major with a defined 8% stop rather than knife-catch higher-beta alts.",
+      "driver": "Closed BTC at 72835.48 (dashboard proxy asOf 2026-11-12T11:46:39Z) vs entry 73940.22: -154.95. Book -> 10215.708. Re-bought BTC 0.140257 units = $10215.708, stop 67008.64 (-8%). RUNNERS-UP: SOL (ETF inflow streak but 3-month-low downtrend), XRP (ETF inflows, higher beta), ETH (weakest \u2014 ETF outflows), AVAX (thin liquidity).",
+      "risks": "Loss of $72k support could extend slide toward $68-65k; macro/CPI-driven rate-hike repricing; continued ETF outflows. Hard stop caps loss at -8%.",
+      "addedDate": "2026-11-12"
     }
   ]
 }
