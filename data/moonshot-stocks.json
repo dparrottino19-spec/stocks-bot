@@ -2,10 +2,10 @@
   "bookName": "Moonshot Stocks",
   "inceptionDate": "2026-07-02",
   "inceptionCapital": 10000,
-  "startingCapital": 4037.7,
-  "tradeDate": "2026-11-11",
-  "lastUpdated": "2026-11-11T11:38:00Z",
-  "nextRefresh": "2026-11-12T06:35:00-06:00",
+  "startingCapital": 4074.46,
+  "tradeDate": "2026-11-12",
+  "lastUpdated": "2026-11-12T11:38:30Z",
+  "nextRefresh": "2026-11-13T06:35:00-06:00",
   "positionCapPct": 100,
   "rules": [
     "1 stock/day, 100% all-in",
@@ -14,21 +14,21 @@
     "Hold ~24h; hard stop at entry",
     "Cash on low-conviction days"
   ],
-  "priorRealizedPnL": -5962.3,
+  "priorRealizedPnL": -5925.54,
   "positions": [
     {
-      "ticker": "MU",
-      "name": "Micron Technology",
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices",
       "sector": "Semiconductors",
-      "shares": 5.213635,
-      "entry": 774.45,
-      "stopPrice": 727.98,
+      "shares": 7.211434,
+      "entry": 565.0,
+      "stopPrice": 531.1,
       "exitRule": "Rotate next weekday 6:35am CT run",
-      "catalyst": "AI-memory gap-up: CoreWeave Q3 (rev $3.66B +168% y/y, FY26 guide raised to $13.0-13.3B, backlog $132.5B); Korea chip exports +331% y/y Nov 1-10; Micron part of $26B Anthropic IPO private placement",
-      "driver": "Pre-mkt +6.8% (774.45 vs 725.11 close) rebounding after recent selloff; stock ~38% below 52w high 1255 so room to run; stop ~= gap-fill to prior close",
-      "risks": "Sector-wide gap (NVDA +5%, AMD +6.5%, SNDK +8%) can fade at open; high-beta semis; AI-capex/Anthropic-IPO sentiment reversal",
-      "addedDate": "2026-11-11"
+      "catalyst": "Nvidia governance shock: WSJ reports NVDA board preparing to oust CEO Jensen Huang (NVDA -7% pre-mkt); Bloomberg: AMD & Broadcom poised to gain business/share from Nvidia turmoil",
+      "driver": "Relative strength: AMD +2.2% pre-mkt (565.00 vs 552.90 close) while NQ -0.7%, MU -3.7%, CRWV -7%; ~14% below 52w high 658.52 so room to run; stop 531.10 sits below prior close (gap-fill fail)",
+      "risks": "Faded from 577.99 pre-mkt high; AI-complex de-rating if NVDA turmoil spreads; hawkish Fed (50bp Dec hike talk); AMAT/CSCO earnings after close; high beta",
+      "addedDate": "2026-11-12"
     }
   ],
-  "note": "BUY MU 5.213635 @ 774.45 (Robinhood pre-mkt last 11:37:19Z, bid/ask 774.42/774.68); stop 727.98. No prior position to close (was CASH)."
+  "note": "SELL MU 5.213635 @ 781.50 (Robinhood pre-mkt last 11:38:00Z, bid/ask 781.05/782.50), P&L +36.76. BUY AMD 7.211434 @ 565.00 (Robinhood pre-mkt last 11:38:10Z, bid/ask 564.51/565.10); stop 531.1. Dashboard /api/prices unreachable from run env (proxy 403) - Robinhood real-time only."
 }
